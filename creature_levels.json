@@ -1,0 +1,1190 @@
+[{
+		"ID": "alit",
+		"Level": 3
+	},{
+		"ID": "alit_blighted",
+		"Level": 7
+	},{
+		"ID": "alit_diseased",
+		"Level": 3
+	},{
+		"ID": "almalexia",
+		"Level": 100
+	},{
+		"ID": "Almalexia_warrior",
+		"Level": 100
+	},{
+		"ID": "ancestor_ghost",
+		"Level": 1
+	},{
+		"ID": "ancestor_ghost_greater",
+		"Level": 10
+	},{
+		"ID": "ancestor_ghost_summon",
+		"Level": 1
+	},{
+		"ID": "ancestor_ghost_vabdas",
+		"Level": 1
+	},{
+		"ID": "ancestor_ghost_Variner",
+		"Level": 30
+	},{
+		"ID": "ancestor_guardian_fgdd",
+		"Level": 4
+	},{
+		"ID": "ancestor_guardian_heler",
+		"Level": 4
+	},{
+		"ID": "ancestor_mg_wisewoman",
+		"Level": 8
+	},{
+		"ID": "ascended_sleeper",
+		"Level": 25
+	},{
+		"ID": "ash_ghoul",
+		"Level": 15
+	},{
+		"ID": "ash_ghoul_fgr",
+		"Level": 14
+	},{
+		"ID": "ash_ghoul_ganel",
+		"Level": 14
+	},{
+		"ID": "ash_ghoul_mulyn",
+		"Level": 14
+	},{
+		"ID": "ash_slave",
+		"Level": 5
+	},{
+		"ID": "ash_zombie",
+		"Level": 8
+	},{
+		"ID": "ash_zombie_fgaz",
+		"Level": 8
+	},{
+		"ID": "atronach_flame",
+		"Level": 7
+	},{
+		"ID": "atronach_flame_az",
+		"Level": 7
+	},{
+		"ID": "atronach_flame_summon",
+		"Level": 7
+	},{
+		"ID": "atronach_flame_ttmk",
+		"Level": 7
+	},{
+		"ID": "atronach_frost",
+		"Level": 9
+	},{
+		"ID": "atronach_frost_BM",
+		"Level": 24
+	},{
+		"ID": "atronach_frost_gwai_uni",
+		"Level": 12
+	},{
+		"ID": "atronach_frost_summon",
+		"Level": 9
+	},{
+		"ID": "atronach_frost_ttmk",
+		"Level": 9
+	},{
+		"ID": "atronach_storm",
+		"Level": 15
+	},{
+		"ID": "atronach_storm_az",
+		"Level": 15
+	},{
+		"ID": "atronach_storm_summon",
+		"Level": 15
+	},{
+		"ID": "atronach_storm_ttmk",
+		"Level": 13
+	},{
+		"ID": "bm skeleton champion gr",
+		"Level": 20
+	},{
+		"ID": "BM_bear_be_UNIQUE",
+		"Level": 15
+	},{
+		"ID": "BM_bear_black",
+		"Level": 10
+	},{
+		"ID": "BM_bear_black_Claw_UNIQ",
+		"Level": 1
+	},{
+		"ID": "BM_bear_black_fat",
+		"Level": 10
+	},{
+		"ID": "BM_bear_black_summon",
+		"Level": 10
+	},{
+		"ID": "BM_bear_brown",
+		"Level": 10
+	},{
+		"ID": "BM_bear_snow_unique",
+		"Level": 10
+	},{
+		"ID": "BM_bear_SPR_UNIQUE",
+		"Level": 25
+	},{
+		"ID": "BM_draugr_bloodskal",
+		"Level": 20
+	},{
+		"ID": "BM_draugr01",
+		"Level": 20
+	},{
+		"ID": "BM_frost_boar",
+		"Level": 15
+	},{
+		"ID": "bm_frost_giant",
+		"Level": 40
+	},{
+		"ID": "BM_hircine",
+		"Level": 100
+	},{
+		"ID": "BM_hircine_huntaspect",
+		"Level": 100
+	},{
+		"ID": "BM_hircine_spdaspect",
+		"Level": 100
+	},{
+		"ID": "BM_hircine_straspect",
+		"Level": 100
+	},{
+		"ID": "BM_hircine2",
+		"Level": 1
+	},{
+		"ID": "BM_horker",
+		"Level": 5
+	},{
+		"ID": "BM_horker_dead",
+		"Level": 10
+	},{
+		"ID": "BM_horker_large",
+		"Level": 10
+	},{
+		"ID": "BM_horker_swim_UNIQUE",
+		"Level": 10
+	},{
+		"ID": "BM_ice_troll",
+		"Level": 1
+	},{
+		"ID": "BM_ice_troll_sun",
+		"Level": 1
+	},{
+		"ID": "BM_ice_troll_tough",
+		"Level": 10
+	},{
+		"ID": "BM_icetroll_FG_Uni",
+		"Level": 20
+	},{
+		"ID": "BM_riekling",
+		"Level": 10
+	},{
+		"ID": "BM_riekling_be_UNIQUE",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_be_UNIQUE1",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_be_UNIQUE2",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_be_UNIQUE3",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_be_UNIQUE4",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_be_UNIQUE5",
+		"Level": 1
+	},{
+		"ID": "BM_riekling_boarmaster",
+		"Level": 20
+	},{
+		"ID": "BM_riekling_Dulk_UNIQUE",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_Krish_UNIQU",
+		"Level": 15
+	},{
+		"ID": "BM_riekling_mounted",
+		"Level": 20
+	},{
+		"ID": "BM_riekling_st_UNIQUE",
+		"Level": 20
+	},{
+		"ID": "bm_sk_champ_bloodskal01",
+		"Level": 20
+	},{
+		"ID": "bm_sk_champ_bloodskal02",
+		"Level": 20
+	},{
+		"ID": "bm_skeleton_pirate ",
+		"Level": 25
+	},{
+		"ID": "bm_skeleton_pirate_capt",
+		"Level": 35
+	},{
+		"ID": "BM_spriggan",
+		"Level": 20
+	},{
+		"ID": "BM_spriggan_co1",
+		"Level": 20
+	},{
+		"ID": "BM_spriggan_co2",
+		"Level": 20
+	},{
+		"ID": "BM_spriggan_co3",
+		"Level": 20
+	},{
+		"ID": "BM_spriggan_co4",
+		"Level": 20
+	},{
+		"ID": "BM_spriggan_st_UNIQUE",
+		"Level": 20
+	},{
+		"ID": "BM_udyrfrykte",
+		"Level": 11
+	},{
+		"ID": "BM_werewolf_default",
+		"Level": 10
+	},{
+		"ID": "BM_werewolf_ritual",
+		"Level": 50
+	},{
+		"ID": "BM_wolf_bone_summon",
+		"Level": 10
+	},{
+		"ID": "BM_wolf_caenlorn1",
+		"Level": 20
+	},{
+		"ID": "BM_wolf_caenlorn2",
+		"Level": 20
+	},{
+		"ID": "BM_wolf_caenlorn3",
+		"Level": 20
+	},{
+		"ID": "BM_wolf_grey",
+		"Level": 5
+	},{
+		"ID": "BM_wolf_grey_lvl_1",
+		"Level": 1
+	},{
+		"ID": "BM_wolf_grey_summon",
+		"Level": 5
+	},{
+		"ID": "BM_wolf_hroldar",
+		"Level": 5
+	},{
+		"ID": "BM_wolf_red",
+		"Level": 5
+	},{
+		"ID": "BM_wolf_skeleton",
+		"Level": 10
+	},{
+		"ID": "BM_wolf_snow_unique",
+		"Level": 10
+	},{
+		"ID": "bonelord",
+		"Level": 8
+	},{
+		"ID": "bonelord_summon",
+		"Level": 8
+	},{
+		"ID": "bonewalker",
+		"Level": 4
+	},{
+		"ID": "bonewalker_dead",
+		"Level": 4
+	},{
+		"ID": "Bonewalker_Greater",
+		"Level": 7
+	},{
+		"ID": "Bonewalker_Greater_dead",
+		"Level": 7
+	},{
+		"ID": "Bonewalker_Greater_summ",
+		"Level": 7
+	},{
+		"ID": "bonewalker_summon",
+		"Level": 4
+	},{
+		"ID": "bonewalker_weak",
+		"Level": 3
+	},{
+		"ID": "centurion_fire_dead",
+		"Level": 6
+	},{
+		"ID": "centurion_Mudan_unique",
+		"Level": 18
+	},{
+		"ID": "centurion_projectile",
+		"Level": 10
+	},{
+		"ID": "centurion_projectile_C",
+		"Level": 10
+	},{
+		"ID": "centurion_shock_baladas",
+		"Level": 8
+	},{
+		"ID": "centurion_sphere",
+		"Level": 5
+	},{
+		"ID": "centurion_sphere_bbot1",
+		"Level": 10
+	},{
+		"ID": "centurion_sphere_bbot5",
+		"Level": 5
+	},{
+		"ID": "centurion_sphere_bbot6",
+		"Level": 5
+	},{
+		"ID": "centurion_sphere_hts2",
+		"Level": 5
+	},{
+		"ID": "centurion_sphere_nchur",
+		"Level": 5
+	},{
+		"ID": "centurion_sphere_summon",
+		"Level": 5
+	},{
+		"ID": "centurion_spider",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_bbot1",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_bbot3",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_bbot7",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_dead",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_nchur",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_tga1",
+		"Level": 3
+	},{
+		"ID": "centurion_spider_tga2",
+		"Level": 3
+	},{
+		"ID": "centurion_steam",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_A_C",
+		"Level": 20
+	},{
+		"ID": "centurion_steam_advance",
+		"Level": 20
+	},{
+		"ID": "centurion_steam_bbot2",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_bbot4",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_bbot8",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_C_L",
+		"Level": 30
+	},{
+		"ID": "centurion_steam_dead",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_exhibit",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_hts",
+		"Level": 10
+	},{
+		"ID": "centurion_steam_nchur",
+		"Level": 10
+	},{
+		"ID": "clannfear",
+		"Level": 7
+	},{
+		"ID": "clannfear_summon",
+		"Level": 7
+	},{
+		"ID": "cliff racer",
+		"Level": 4
+	},{
+		"ID": "cliff racer_blighted",
+		"Level": 8
+	},{
+		"ID": "cliff racer_diseased",
+		"Level": 4
+	},{
+		"ID": "corprus_lame",
+		"Level": 8
+	},{
+		"ID": "corprus_lame_fyr01",
+		"Level": 8
+	},{
+		"ID": "corprus_lame_fyr02",
+		"Level": 8
+	},{
+		"ID": "corprus_lame_fyr03",
+		"Level": 8
+	},{
+		"ID": "corprus_lame_fyr04",
+		"Level": 8
+	},{
+		"ID": "corprus_lame_morvayn",
+		"Level": 8
+	},{
+		"ID": "corprus_stalker",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_berwen",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_danar",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_fgcs",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_fyr01",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_fyr02",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_fyr03",
+		"Level": 5
+	},{
+		"ID": "corprus_stalker_morvayn",
+		"Level": 5
+	},{
+		"ID": "daedroth",
+		"Level": 12
+	},{
+		"ID": "daedroth_az",
+		"Level": 12
+	},{
+		"ID": "daedroth_baladas",
+		"Level": 12
+	},{
+		"ID": "daedroth_fg_nchur",
+		"Level": 12
+	},{
+		"ID": "daedroth_menta_unique",
+		"Level": 20
+	},{
+		"ID": "daedroth_summon",
+		"Level": 12
+	},{
+		"ID": "dagoth aladus",
+		"Level": 16
+	},{
+		"ID": "dagoth araynys",
+		"Level": 30
+	},{
+		"ID": "dagoth baler",
+		"Level": 16
+	},{
+		"ID": "dagoth daynil",
+		"Level": 16
+	},{
+		"ID": "dagoth delnus",
+		"Level": 16
+	},{
+		"ID": "dagoth drals",
+		"Level": 16
+	},{
+		"ID": "Dagoth Draven",
+		"Level": 16
+	},{
+		"ID": "dagoth elam",
+		"Level": 16
+	},{
+		"ID": "dagoth endus",
+		"Level": 30
+	},{
+		"ID": "dagoth fals",
+		"Level": 16
+	},{
+		"ID": "dagoth fandril",
+		"Level": 20
+	},{
+		"ID": "dagoth felmis",
+		"Level": 20
+	},{
+		"ID": "dagoth fervas",
+		"Level": 16
+	},{
+		"ID": "dagoth fovon",
+		"Level": 16
+	},{
+		"ID": "dagoth galmis",
+		"Level": 16
+	},{
+		"ID": "dagoth garel",
+		"Level": 20
+	},{
+		"ID": "dagoth gares",
+		"Level": 14
+	},{
+		"ID": "dagoth gilvoth",
+		"Level": 30
+	},{
+		"ID": "dagoth girer",
+		"Level": 16
+	},{
+		"ID": "dagoth goral",
+		"Level": 20
+	},{
+		"ID": "dagoth ienas",
+		"Level": 16
+	},{
+		"ID": "dagoth irvyn",
+		"Level": 20
+	},{
+		"ID": "dagoth malan",
+		"Level": 20
+	},{
+		"ID": "dagoth mendras",
+		"Level": 16
+	},{
+		"ID": "dagoth molos",
+		"Level": 20
+	},{
+		"ID": "dagoth mulis",
+		"Level": 16
+	},{
+		"ID": "dagoth muthes",
+		"Level": 16
+	},{
+		"ID": "dagoth nilor",
+		"Level": 16
+	},{
+		"ID": "dagoth odros",
+		"Level": 30
+	},{
+		"ID": "dagoth ralas",
+		"Level": 16
+	},{
+		"ID": "dagoth rather",
+		"Level": 20
+	},{
+		"ID": "dagoth reler",
+		"Level": 20
+	},{
+		"ID": "dagoth soler",
+		"Level": 16
+	},{
+		"ID": "dagoth tanis",
+		"Level": 20
+	},{
+		"ID": "dagoth tureynul",
+		"Level": 30
+	},{
+		"ID": "dagoth ulen",
+		"Level": 20
+	},{
+		"ID": "dagoth uthol",
+		"Level": 30
+	},{
+		"ID": "dagoth uvil",
+		"Level": 20
+	},{
+		"ID": "dagoth vaner",
+		"Level": 20
+	},{
+		"ID": "dagoth velos",
+		"Level": 16
+	},{
+		"ID": "dagoth vemyn",
+		"Level": 30
+	},{
+		"ID": "dagoth_hlevul",
+		"Level": 18
+	},{
+		"ID": "dagoth_ur_1",
+		"Level": 35
+	},{
+		"ID": "dagoth_ur_2",
+		"Level": 35
+	},{
+		"ID": "Dahrk Mezalf",
+		"Level": 10
+	},{
+		"ID": "dead rat",
+		"Level": 1
+	},{
+		"ID": "dead_mudcrab",
+		"Level": 1
+	},{
+		"ID": "dead_scamp",
+		"Level": 5
+	},{
+		"ID": "dead_scrib",
+		"Level": 1
+	},{
+		"ID": "dead_skeleton",
+		"Level": 3
+	},{
+		"ID": "draugr",
+		"Level": 10
+	},{
+		"ID": "draugr_aesliip",
+		"Level": 50
+	},{
+		"ID": "draugr_co_3",
+		"Level": 10
+	},{
+		"ID": "draugr_co_3_dead",
+		"Level": 10
+	},{
+		"ID": "draugr_valbrandr",
+		"Level": 10
+	},{
+		"ID": "dremora",
+		"Level": 9
+	},{
+		"ID": "dremora_gothren_guard1",
+		"Level": 9
+	},{
+		"ID": "dremora_gothren_guard2",
+		"Level": 9
+	},{
+		"ID": "dremora_lord",
+		"Level": 12
+	},{
+		"ID": "dremora_lord_khash_uni",
+		"Level": 12
+	},{
+		"ID": "dremora_special_Fyr",
+		"Level": 18
+	},{
+		"ID": "dremora_summon",
+		"Level": 9
+	},{
+		"ID": "dremora_ttmg",
+		"Level": 9
+	},{
+		"ID": "dremora_ttpc",
+		"Level": 6
+	},{
+		"ID": "dreugh",
+		"Level": 5
+	},{
+		"ID": "dreugh_koal",
+		"Level": 20
+	},{
+		"ID": "durzog_diseased",
+		"Level": 10
+	},{
+		"ID": "durzog_war",
+		"Level": 15
+	},{
+		"ID": "durzog_war_trained",
+		"Level": 10
+	},{
+		"ID": "durzog_wild",
+		"Level": 10
+	},{
+		"ID": "durzog_wild_weaker",
+		"Level": 5
+	},{
+		"ID": "dwarven ghost",
+		"Level": 5
+	},{
+		"ID": "dwarven ghost_jeanne_U",
+		"Level": 5
+	},{
+		"ID": "dwarven ghost_radac",
+		"Level": 25
+	},{
+		"ID": "fabricant_hulkin_attack",
+		"Level": 20
+	},{
+		"ID": "fabricant_hulking",
+		"Level": 30
+	},{
+		"ID": "fabricant_hulking_attac",
+		"Level": 20
+	},{
+		"ID": "fabricant_hulking_C",
+		"Level": 20
+	},{
+		"ID": "fabricant_hulking_C_L",
+		"Level": 20
+	},{
+		"ID": "fabricant_hulking_ss",
+		"Level": 30
+	},{
+		"ID": "fabricant_machine_1",
+		"Level": 2
+	},{
+		"ID": "fabricant_summon",
+		"Level": 2
+	},{
+		"ID": "fabricant_verm_attack",
+		"Level": 10
+	},{
+		"ID": "fabricant_verminous",
+		"Level": 10
+	},{
+		"ID": "fabricant_verminous_C",
+		"Level": 10
+	},{
+		"ID": "fabricant_verminous-rs",
+		"Level": 10
+	},{
+		"ID": "fabricant_verminousDead",
+		"Level": 2
+	},{
+		"ID": "gateway_haunt",
+		"Level": 1
+	},{
+		"ID": "glenmoril_raven",
+		"Level": 4
+	},{
+		"ID": "glenmoril_raven_cave",
+		"Level": 4
+	},{
+		"ID": "goblin_bruiser",
+		"Level": 20
+	},{
+		"ID": "goblin_footsoldier",
+		"Level": 13
+	},{
+		"ID": "goblin_grunt",
+		"Level": 7
+	},{
+		"ID": "goblin_handler",
+		"Level": 20
+	},{
+		"ID": "goblin_officer",
+		"Level": 25
+	},{
+		"ID": "goblin_officerUNI",
+		"Level": 25
+	},{
+		"ID": "goblin_warchief1",
+		"Level": 35
+	},{
+		"ID": "goblin_warchief2",
+		"Level": 35
+	},{
+		"ID": "golden saint",
+		"Level": 20
+	},{
+		"ID": "golden saint_staada",
+		"Level": 22
+	},{
+		"ID": "golden saint_summon",
+		"Level": 20
+	},{
+		"ID": "golden saint_velas1",
+		"Level": 20
+	},{
+		"ID": "golden saint_velas2",
+		"Level": 20
+	},{
+		"ID": "guar",
+		"Level": 3
+	},{
+		"ID": "guar_feral",
+		"Level": 3
+	},{
+		"ID": "guar_hrmudcrabnest",
+		"Level": 3
+	},{
+		"ID": "guar_llovyn_unique",
+		"Level": 3
+	},{
+		"ID": "guar_pack",
+		"Level": 3
+	},{
+		"ID": "guar_pack_tarvyn_unique",
+		"Level": 3
+	},{
+		"ID": "guar_rollie_unique",
+		"Level": 3
+	},{
+		"ID": "guar_white_unique",
+		"Level": 3
+	},{
+		"ID": "heart_akulakhan",
+		"Level": 1
+	},{
+		"ID": "hunger",
+		"Level": 11
+	},{
+		"ID": "hunger_audenian",
+		"Level": 11
+	},{
+		"ID": "hunger_az_01",
+		"Level": 11
+	},{
+		"ID": "hunger_az_02",
+		"Level": 11
+	},{
+		"ID": "hunger_fghl",
+		"Level": 1
+	},{
+		"ID": "hunger_summon",
+		"Level": 11
+	},{
+		"ID": "Imperfect",
+		"Level": 80
+	},{
+		"ID": "kagouti",
+		"Level": 4
+	},{
+		"ID": "kagouti_blighted",
+		"Level": 8
+	},{
+		"ID": "kagouti_diseased",
+		"Level": 4
+	},{
+		"ID": "kagouti_hrk",
+		"Level": 4
+	},{
+		"ID": "kagouti_mating",
+		"Level": 5
+	},{
+		"ID": "kwama forager",
+		"Level": 2
+	},{
+		"ID": "kwama forager blighted",
+		"Level": 6
+	},{
+		"ID": "kwama forager_tb",
+		"Level": 2
+	},{
+		"ID": "Kwama Queen",
+		"Level": 6
+	},{
+		"ID": "Kwama Queen_Abaesen",
+		"Level": 1
+	},{
+		"ID": "kwama queen_ahanibi",
+		"Level": 1
+	},{
+		"ID": "kwama queen_akimaes",
+		"Level": 1
+	},{
+		"ID": "kwama queen_eluba",
+		"Level": 1
+	},{
+		"ID": "kwama queen_eretammus",
+		"Level": 1
+	},{
+		"ID": "kwama queen_gnisis",
+		"Level": 1
+	},{
+		"ID": "kwama queen_hairat",
+		"Level": 1
+	},{
+		"ID": "Kwama Queen_HHEM",
+		"Level": 1
+	},{
+		"ID": "kwama queen_madas",
+		"Level": 1
+	},{
+		"ID": "kwama queen_maesa",
+		"Level": 1
+	},{
+		"ID": "kwama queen_matus",
+		"Level": 1
+	},{
+		"ID": "kwama queen_mudan",
+		"Level": 1
+	},{
+		"ID": "kwama queen_mudan_c",
+		"Level": 1
+	},{
+		"ID": "kwama queen_panabanit",
+		"Level": 1
+	},{
+		"ID": "kwama queen_sarimisun",
+		"Level": 1
+	},{
+		"ID": "kwama queen_shurdan",
+		"Level": 1
+	},{
+		"ID": "kwama queen_shurdan_c",
+		"Level": 1
+	},{
+		"ID": "kwama queen_sinamusa",
+		"Level": 1
+	},{
+		"ID": "kwama queen_zalkin",
+		"Level": 1
+	},{
+		"ID": "kwama warrior",
+		"Level": 3
+	},{
+		"ID": "kwama warrior blighted",
+		"Level": 7
+	},{
+		"ID": "kwama warrior shurdan",
+		"Level": 7
+	},{
+		"ID": "kwama worker",
+		"Level": 2
+	},{
+		"ID": "kwama worker blighted",
+		"Level": 6
+	},{
+		"ID": "kwama worker diseased",
+		"Level": 2
+	},{
+		"ID": "kwama worker entrance",
+		"Level": 2
+	},{
+		"ID": "lich",
+		"Level": 20
+	},{
+		"ID": "lich_barilzar",
+		"Level": 45
+	},{
+		"ID": "lich_profane_unique",
+		"Level": 20
+	},{
+		"ID": "lich_relvel",
+		"Level": 40
+	},{
+		"ID": "lustidrike",
+		"Level": 8
+	},{
+		"ID": "mudcrab",
+		"Level": 1
+	},{
+		"ID": "mudcrab_hrmudcrabnest",
+		"Level": 1
+	},{
+		"ID": "mudcrab_unique",
+		"Level": 1
+	},{
+		"ID": "mudcrab-Diseased",
+		"Level": 1
+	},{
+		"ID": "netch_betty",
+		"Level": 10
+	},{
+		"ID": "netch_betty_ilgn",
+		"Level": 10
+	},{
+		"ID": "netch_betty_ranched",
+		"Level": 10
+	},{
+		"ID": "netch_bull",
+		"Level": 4
+	},{
+		"ID": "netch_bull_dead",
+		"Level": 4
+	},{
+		"ID": "netch_bull_dead_2",
+		"Level": 4
+	},{
+		"ID": "netch_bull_ilgn",
+		"Level": 4
+	},{
+		"ID": "netch_bull_ranched",
+		"Level": 4
+	},{
+		"ID": "Netch_Giant_UNIQUE",
+		"Level": 4
+	},{
+		"ID": "nix-hound",
+		"Level": 2
+	},{
+		"ID": "nix-hound blighted",
+		"Level": 6
+	},{
+		"ID": "ogrim",
+		"Level": 11
+	},{
+		"ID": "ogrim titan",
+		"Level": 15
+	},{
+		"ID": "ogrim titan_velas",
+		"Level": 15
+	},{
+		"ID": "ogrim_az",
+		"Level": 11
+	},{
+		"ID": "Rat",
+		"Level": 2
+	},{
+		"ID": "rat_blighted",
+		"Level": 4
+	},{
+		"ID": "rat_cave_fgrh",
+		"Level": 3
+	},{
+		"ID": "rat_cave_fgt",
+		"Level": 3
+	},{
+		"ID": "rat_cave_hhte1",
+		"Level": 4
+	},{
+		"ID": "rat_cave_hhte2",
+		"Level": 4
+	},{
+		"ID": "rat_diseased",
+		"Level": 3
+	},{
+		"ID": "Rat_pack_rerlas",
+		"Level": 5
+	},{
+		"ID": "Rat_plague",
+		"Level": 2
+	},{
+		"ID": "Rat_plague_hall1",
+		"Level": 2
+	},{
+		"ID": "Rat_plague_hall1a",
+		"Level": 2
+	},{
+		"ID": "Rat_plague_hall2",
+		"Level": 2
+	},{
+		"ID": "Rat_rerlas",
+		"Level": 5
+	},{
+		"ID": "rat_telvanni_unique",
+		"Level": 2
+	},{
+		"ID": "rat_telvanni_unique_2",
+		"Level": 2
+	},{
+		"ID": "scamp",
+		"Level": 5
+	},{
+		"ID": "scamp_creeper",
+		"Level": 5
+	},{
+		"ID": "scamp_dead",
+		"Level": 5
+	},{
+		"ID": "scamp_mg_apprentice",
+		"Level": 5
+	},{
+		"ID": "scamp_summon",
+		"Level": 5
+	},{
+		"ID": "scrib",
+		"Level": 1
+	},{
+		"ID": "scrib _0hp",
+		"Level": 1
+	},{
+		"ID": "scrib _dead",
+		"Level": 1
+	},{
+		"ID": "scrib blighted",
+		"Level": 4
+	},{
+		"ID": "scrib diseased",
+		"Level": 1
+	},{
+		"ID": "scrib_rerlas",
+		"Level": 5
+	},{
+		"ID": "scrib_vaba-amus",
+		"Level": 1
+	},{
+		"ID": "shalk",
+		"Level": 6
+	},{
+		"ID": "shalk_blighted",
+		"Level": 10
+	},{
+		"ID": "shalk_diseased",
+		"Level": 6
+	},{
+		"ID": "shalk_diseased_hram",
+		"Level": 5
+	},{
+		"ID": "skeleton",
+		"Level": 3
+	},{
+		"ID": "skeleton archer",
+		"Level": 3
+	},{
+		"ID": "skeleton champ_sandas00",
+		"Level": 10
+	},{
+		"ID": "skeleton champ_sandas10",
+		"Level": 10
+	},{
+		"ID": "skeleton champion",
+		"Level": 10
+	},{
+		"ID": "skeleton entrance",
+		"Level": 2
+	},{
+		"ID": "skeleton hero dead",
+		"Level": 3
+	},{
+		"ID": "skeleton nord ",
+		"Level": 10
+	},{
+		"ID": "skeleton nord_2",
+		"Level": 10
+	},{
+		"ID": "skeleton warrior",
+		"Level": 7
+	},{
+		"ID": "skeleton_aldredaynia",
+		"Level": 20
+	},{
+		"ID": "skeleton_relvel",
+		"Level": 10
+	},{
+		"ID": "skeleton_stahl_uni",
+		"Level": 20
+	},{
+		"ID": "skeleton_summon",
+		"Level": 3
+	},{
+		"ID": "skeleton_Vemynal",
+		"Level": 14
+	},{
+		"ID": "skeleton_weak",
+		"Level": 3
+	},{
+		"ID": "slaughterfish",
+		"Level": 2
+	},{
+		"ID": "slaughterfish_hr_sfavd",
+		"Level": 2
+	},{
+		"ID": "Slaughterfish_Small",
+		"Level": 2
+	},{
+		"ID": "vivec_god",
+		"Level": 100
+	},{
+		"ID": "winged twilight",
+		"Level": 15
+	},{
+		"ID": "winged twilight_grunda_",
+		"Level": 20
+	},{
+		"ID": "winged twilight_summon",
+		"Level": 15
+	},{
+		"ID": "worm lord",
+		"Level": 16
+	},{
+		"ID": "wraith_sul_senipul",
+		"Level": 10
+	},{
+		"ID": "yagrum bagarn",
+		"Level": 40
+	}
+]
