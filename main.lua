@@ -35,13 +35,11 @@ function experience.GenerateLevelMenu(pid)
             }
         }
     }
-    tes3mp.LogMessage(enumerations.log.INFO, "Generating Level Menu")
-    tes3mp.LogMessage(enumerations.log.INFO, Menus["xpLevel"..pid].buttons[1].destinations[1].targetMenu)
+    tes3mp.LogMessage(enumerations.log.INFO, "Generating Level Menu for pid: " ..pid)
     experience.GenerateSpecMenu(pid)
     experience.GenerateAttrsMenu(pid)
     experience.GenerateCommitMenu(pid)
-    tes3mp.LogMessage(enumerations.log.INFO, Menus[Menus["xpLevel"..pid].buttons[1].destinations[1].targetMenu].buttons[1].destinations[1].targetMenu)
-    tes3mp.LogMessage(enumerations.log.INFO, "Sub Menus Generated")
+    tes3mp.LogMessage(enumerations.log.INFO, "Menu Generation Complete for pid: " ..pid)
 end
 
 --General function to generate a generic menu button
@@ -135,7 +133,6 @@ function experience.GenerateValueSelect(pid,statType,statName,previousMenu)
         table.insert(Menus[menuName].buttons,button)
     end
     experience.AddMenuNavigation(pid,menuName,previousMenu)
-    tes3mp.LogMessage(enumerations.log.INFO,"Generated value select for: " .. menuName .. statType)
 end
 
 --Generate Commit menu with level up summary
@@ -195,7 +192,7 @@ end
 
 --Save level up change before committing
 function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
-    tes3mp.LogMessage(enumerations.log.INFO,"Save Change: statType: " .. statType .. ", statName: " .. statName)
+    tes3mp.LogMessage(enumerations.log.INFO,"Saving Change for pid("..pid.."): statType: " .. statType .. ", statName: " .. statName)
     pid = tonumber(pid)
     Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
     if statType == "attrs" then
@@ -212,12 +209,8 @@ function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
         end
     end
     
-    --Re-open menu with new values
-    tes3mp.LogMessage(enumerations.log.INFO, "trying to generate new menu: xpLevel" .. pid)
+    --Re-Generate Menu Values
     experience.GenerateLevelMenu(pid)
-    --Players[pid].currentCustomMenu = "waitingarea"
-    --menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
-    tes3mp.LogMessage(enumerations.log.INFO, "New menu loaded")
 end
 
 --Push level up stats to player
@@ -242,6 +235,7 @@ function experience.CommitLevelUp(pid)
     Players[pid]:LoadAttributes()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
+    tes3mp.LogMessage(enumerations.log.INFO,"Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
 end
 
 --Re-calculate stats
