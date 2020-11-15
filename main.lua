@@ -35,11 +35,13 @@ function experience.GenerateLevelMenu(pid)
             }
         }
     }
-    tes3mp.LogMessage(enumerations.log.ERROR, "Generating Level Menu")
+    tes3mp.LogMessage(enumerations.log.INFO, "Generating Level Menu")
+    tes3mp.LogMessage(enumerations.log.INFO, Menus["xpLevel"..pid].buttons[1].destinations[1].targetMenu)
     experience.GenerateSpecMenu(pid)
     experience.GenerateAttrsMenu(pid)
     experience.GenerateCommitMenu(pid)
-    tes3mp.LogMessage(enumerations.log.ERROR, "Sub Menus Generated")
+    tes3mp.LogMessage(enumerations.log.INFO, Menus[Menus["xpLevel"..pid].buttons[1].destinations[1].targetMenu].buttons[1].destinations[1].targetMenu)
+    tes3mp.LogMessage(enumerations.log.INFO, "Sub Menus Generated")
 end
 
 --General function to generate a generic menu button
@@ -77,7 +79,7 @@ function experience.GenerateSpecMenu(pid)
         table.insert(Menus[menuName].buttons,button)
         experience.GenerateSkillsMenu(pid,spec)
     end
-    experience.AddMenuNavigation(pid,menuName,"xpLevel" .. pid)
+    experience.AddMenuNavigation(pid,menuName,"xpLevel"..pid)
 end
 
 --Generate skill selection menu
@@ -89,11 +91,11 @@ function experience.GenerateSkillsMenu(pid,spec)
         buttons = {}
     }
     for _,skill in pairs(skills) do
-        button = experience.GenerateMenuButton(pid,menuName,"xp"..skill..pid,skill)
+        button = experience.GenerateMenuButton(pid,menuName,"xp"..skill..pid,skill.." ("..experience.GetSkillPtCost(pid,skill)..")")
         table.insert(Menus[menuName].buttons,button)
         experience.GenerateValueSelect(pid,"skills",skill,menuName)
     end
-    experience.AddMenuNavigation(pid,menuName,"xpSpec" .. pid)
+    experience.AddMenuNavigation(pid,menuName,"xpSpec"..pid)
 end
 
 --Generate Attribute selection menu
@@ -116,7 +118,7 @@ function experience.GenerateValueSelect(pid,statType,statName,previousMenu)
     local menuName = "xp" .. statName .. pid
     local statMax
     local statCostPer
-    tes3mp.LogMessage(enumerations.log.ERROR,"Generating value select for: " .. menuName .. statType)
+    
     if statType == "attrs" then
         statMax = experience.GetMaxAttrUps(pid,statName)
         statCostPer = 1
@@ -129,22 +131,24 @@ function experience.GenerateValueSelect(pid,statType,statName,previousMenu)
         buttons = {}
     }
     for val=1,statMax do
-        button = experience.GenerateMenuButton(pid,menuName,nil,val.." ("..(val*statCostPer)..")","SaveLevelUpChange",{pid,statType,statName,val,val*statCostPer})
+        button = experience.GenerateMenuButton(pid,menuName,"xpLevel"..pid,val.." ("..(val*statCostPer)..")","SaveLevelUpChange",{pid,statType,statName,val,val*statCostPer})
         table.insert(Menus[menuName].buttons,button)
     end
     experience.AddMenuNavigation(pid,menuName,previousMenu)
+    tes3mp.LogMessage(enumerations.log.INFO,"Generated value select for: " .. menuName .. statType)
 end
 
 --Generate Commit menu with level up summary
 function experience.GenerateCommitMenu(pid)
     local levelUpChanges = Players[pid].data.customVariables.xpLevelUpChanges
-    local changeString = ""
+    local changeString = "Attributes\n----------\n"
     if levelUpChanges == nil then
         levelUpChanges = {}
     end
     if levelUpChanges["attrs"] ~= nil then
         changeString = changeString .. experience.GetLevelUpChangeString(pid,levelUpChanges["attrs"])
     end
+    changeString = changeString .. "----------\nSkills\n----------\n"
     if levelUpChanges["skills"] ~= nil then
         changeString = changeString .. experience.GetLevelUpChangeString(pid,levelUpChanges["skills"])
     end
@@ -169,7 +173,7 @@ function experience.GenerateCommitMenu(pid)
             }
         }
     }
-    experience.AddMenuNavigation(pid,"xpCommit" .. pid,"xpLevel" .. pid)
+    experience.AddMenuNavigation(pid,"xpCommit" .. pid)
 end
 
 --Revert pending level up changes
@@ -191,7 +195,7 @@ end
 
 --Save level up change before committing
 function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
-    tes3mp.LogMessage(enumerations.log.ERROR,"Save Change: statType: " .. statType .. ", statName: " .. statName)
+    tes3mp.LogMessage(enumerations.log.INFO,"Save Change: statType: " .. statType .. ", statName: " .. statName)
     pid = tonumber(pid)
     Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
     if statType == "attrs" then
@@ -209,10 +213,11 @@ function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
     end
     
     --Re-open menu with new values
+    tes3mp.LogMessage(enumerations.log.INFO, "trying to generate new menu: xpLevel" .. pid)
     experience.GenerateLevelMenu(pid)
-    Players[pid].currentCustomMenu = "xpLevel" .. pid
-    menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
-    tes3mp.LogMessage(enumerations.log.ERROR, "New menu loaded")
+    --Players[pid].currentCustomMenu = "waitingarea"
+    --menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    tes3mp.LogMessage(enumerations.log.INFO, "New menu loaded")
 end
 
 --Push level up stats to player
@@ -463,17 +468,17 @@ end
 --Append some generally helpful menu navigation functions
 function experience.AddMenuNavigation(pid,menu,previousMenu)
     helpfulbuttons = {
-        { caption = "Back",
+        { caption = color.White .. "Back",
             destinations = {
                 menuHelper.destinations.setDefault(previousMenu)
             }
         },
-        { caption = "Root",
+        { caption = color.Orange .. "Root",
             destinations = {
                 menuHelper.destinations.setDefault("xpLevel" .. pid)
             }
         },
-        { caption = "Exit",
+        { caption = color.Red .. "Exit",
             destinations = {
                 menuHelper.destinations.setDefault(nil)
             }
@@ -485,7 +490,7 @@ function experience.AddMenuNavigation(pid,menu,previousMenu)
 end
 
 --Open level up menu command
-function experience.LevelUpMenu(pid,cmd)
+function experience.LevelUpMenu(pid)
     experience.GenerateLevelMenu(pid)
     Players[pid].currentCustomMenu = "xpLevel" .. pid
     menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
