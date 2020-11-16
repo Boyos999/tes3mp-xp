@@ -1,16 +1,29 @@
 xpConfig = {}
 
+---------------------------------------------------------------------------------------------------------------
+--Admin/moderation---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
---Caps
+--Minimum rank require to use forcelevelup <pid> chat command
+xpConfig.minForceLevelRank = 2
+
+---------------------------------------------------------------------------------------------------------------
+--Caps---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
 xpConfig.skillCap = 100
 xpConfig.attributeCap = 100
 xpConfig.levelCap = 100
 
---Leveling settings
+---------------------------------------------------------------------------------------------------------------
+--Leveling settings--------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 xpConfig.levelUpMessage = "Level Up!"
 
---Skills
+---------------------------------------------------------------------------------------------------------------
+--Skills-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 --Skill points given per level
 xpConfig.skillPtsPerLevel = 43
@@ -28,17 +41,20 @@ xpConfig.skillCostMajReduction = 2
 xpConfig.skillCostGroups = {25,50,75}
 xpConfig.skillCostGroupStep = 1
 
---Attributes
+---------------------------------------------------------------------------------------------------------------
+--Attributes---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 --Attribute points given per level
 xpConfig.attributePtsPerLevel = 12
 --Max attribute levels per Attribute
 xpConfig.attributeLvlsPerAttr = 5
 
+---------------------------------------------------------------------------------------------------------------
+--Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
---Derived stats settings, SET TO VANILLA BY DEFAULT :)
-
----Magicka
+--Magicka
 --Re-calculate magicka based on attribute values & level each level
 xpConfig.magickaRetroactive = true
 --Attributes used to calculate base magicka
@@ -48,7 +64,7 @@ xpConfig.magickaPerLevelMult = {}
 --Additional magicka
 xpConfig.magickaStartAdd = 0
 
----Health
+--Health
 --Re-calculate hp based on attribute values & level each level
 xpConfig.healthRetroactive = false
 --Attributes used to calculate base health
@@ -60,7 +76,7 @@ xpConfig.healthPerLevelMult = {Endurance = 0.1}
 --Additional health
 xpConfig.healthBaseStartAdd = 0
 
----Fatigue
+--Fatigue
 --Re-calculate fatigue based on attribute values & level each level
 xpConfig.fatigueRetroactive = true
 --Attributes used to calculate base fatigue

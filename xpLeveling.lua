@@ -568,7 +568,9 @@ function xpLeveling.LevelUpMenu(pid)
 end
 
 function xpLeveling.ForceLevel(pid,cmd)
-    xpLeveling.LevelUpPlayer(pid)
+    if Players[pid].data.settings.staffRank > xpConfig.minForceLevelRank then
+        xpLeveling.LevelUpPlayer(cmd[2])
+    end
 end
 
 --Don't let players level
@@ -643,7 +645,7 @@ function xpLeveling.UpdateStartingStats(eventStatus,pid)
 end
 
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
-customCommandHooks.registerCommand("testlevelup",xpLeveling.LevelUpMenu)
+customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
 
 customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlocker)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
