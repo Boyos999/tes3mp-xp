@@ -13,7 +13,7 @@ xpConfig.levelUpMessage = "Level Up!"
 --Skills
 
 --Skill points given per level
-xpConfig.skillPtsPerLevel = 15
+xpConfig.skillPtsPerLevel = 43
 --Max times you can level an individual skill
 xpConfig.skillLvlsPerSkill = 5
 --Base point cost to level skill
