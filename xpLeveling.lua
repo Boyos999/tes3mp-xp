@@ -254,16 +254,20 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
     Players[pid].data.customVariables.xpSkillPtHold = 0
     
-    --Commit attribute changes & update stats
+    --Commit attribute changes
     xpLeveling.LevelUpAttrs(pid,savedChanges["attrs"])
     Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
+    --Calculate updated stats
+    xpLeveling.CalcLevelUpStats(pid)
+    
     --Send updated data to the player
     Players[pid]:LoadAttributes()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
+    Players[pid]:LoadStatsDynamic()
     tes3mp.LogMessage(enumerations.log.INFO,"Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
 end
 
@@ -305,8 +309,6 @@ function xpLeveling.CalcLevelUpStats(pid)
     Players[pid].data.stats.fatigueBase = tempFatigue
     Players[pid].data.stats.fatigueCurrent = tempFatigue
     
-    --Send Player updated stats
-    Players[pid]:LoadStatsDynamic()
 end
 
 --Function to calculate a Non-Retroactive stat
@@ -356,7 +358,6 @@ function xpLeveling.LevelUpAttrs(pid,attrs)
     for attr,value in pairs(attrs) do
         Players[pid].data.attributes[attr].base = Players[pid].data.attributes[attr].base + value
     end
-    xpLeveling.CalcLevelUpStats(pid)
 end
 
 --Apply skill ups
@@ -586,7 +587,7 @@ end
 
 --Don't let players level
 function xpLeveling.SkillBlocker(eventStatus,pid) 
-    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
+    if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadSkills()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -596,7 +597,7 @@ end
 
 --Don't let players level
 function xpLeveling.AttributeBlocker(eventStatus,pid)
-    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
+    if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadAttributes()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -606,7 +607,7 @@ end
 
 --Don't let players level
 function xpLeveling.LevelBlocker(eventStatus,pid)
-    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
+    if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadLevel()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -652,6 +653,7 @@ function xpLeveling.UpdateStartingStats(eventStatus,pid)
         end
         Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
         xpLeveling.CalcLevelUpStats(pid)
+        Players[pid]:LoadStatsDynamic()
     end
 end
 
