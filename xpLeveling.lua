@@ -275,25 +275,25 @@ function xpLeveling.CalcLevelUpStats(pid)
     local tempGain = 0
     --health
     if xpConfig.healthRetroactive then
-        tempHealth = xpLevel.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+        tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
     else
-        tempHealth,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
-        tempHealth = tempHealth + tempGain + Players[pid].data.customVariables.xpHealthGain
+        tempHealth,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+        tempHealth = tempHealth + Players[pid].data.customVariables.xpHealthGain
         Players[pid].data.customVariables.xpHealthGain = Players[pid].data.customVariables.xpHealthGain + tempGain
     end
     --magicka
     if xpConfig.magickaRetroactive then
-        tempMagicka = xpLevel.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
+        tempMagicka = xpLeveling.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
     else
-        tempMagicka,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
+        tempMagicka,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
         tempMagicka = tempMagicka + tempGain + Players[pid].data.customVariables.xpMagickaGain
         Players[pid].data.customVariables.xpMagickaGain = Players[pid].data.customVariables.xpMagickaGain + tempGain
     end
     --fatigue
     if xpConfig.fatigueRetroactive then
-        tempFatigue = xpLevel.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
+        tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
     else
-        tempFatigue,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
+        tempFatigue,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
         tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
         Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
     end
@@ -310,34 +310,40 @@ function xpLeveling.CalcLevelUpStats(pid)
 end
 
 --Function to calculate a Non-Retroactive stat
-function xpLevel.CalcNonRetroStat(pid,baseTable,multTable,add)
-    local tempMagicka = 0
-    local levelGain = xpLevel.CalcFlatStat(pid,multTable)
-    tempMagicka = (xpLevel.CalcFlatStat(pid,baseTable)
+function xpLeveling.CalcNonRetroStat(pid,baseTable,multTable,add)
+    local tempStat = 0
+    local levelGain = 0
+    
+    if Players[pid].data.stats.level > 1 then
+        levelGain = xpLeveling.CalcFlatStat(pid,multTable)
+    end
+    
+    tempStat = (xpLeveling.CalcFlatStat(pid,baseTable)
     + levelGain
     + add)
-    return tempMagicka,levelGain
+    return tempStat,levelGain
 end
 
 --Function to calculate a Retroactive stat
-function xpLevel.CalcRetroStat(pid,baseTable,multTable,add)
+function xpLeveling.CalcRetroStat(pid,baseTable,multTable,add)
     local tempStat = 0
-    tempStat = xpLevel.CalcFlatStat(pid,baseTable)
-    tempStat = tempStat + xpLevel.CalcLevelMultGainStat(pid,multTable)
-    tempStat = tempStat + add
+    tempStat = (xpLeveling.CalcFlatStat(pid,baseTable)
+    + xpLeveling.CalcLevelMultGainStat(pid,multTable)
+    + add)
     return tempStat
 end
 
 --Function to calculate a per level stat
-function xpLevel.CalcLevelMultGainStat(pid,multTable)
+function xpLeveling.CalcLevelMultGainStat(pid,multTable)
     local tempGain = 0
     for attr,mult in pairs(multTable) do
         tempGain = tempGain + Players[pid].data.attributes[attr].base*mult*(Players[pid].data.stats.level-1)
     end
+    return tempGain
 end
 
 --Function to calculate a flat stat
-function xpLevel.CalcFlatStat(pid,multTable)
+function xpLeveling.CalcFlatStat(pid,multTable)
     local tempStat = 0
     for attr,mult in pairs(multTable) do
         tempStat = tempStat + Players[pid].data.attributes[attr].base*mult
@@ -515,7 +521,7 @@ end
 
 --Retrieve player's major skills
 function xpLeveling.GetMajorSkills(pid)
-    if xpLeveling.GetIsCustomClass then
+    if xpLeveling.GetIsCustomClass(pid) then
         return xpLeveling.SkillsStringToList(Players[pid].data.customClass.majorSkills)
     else
         return vanillaClasses[Players[pid].data.character.class].Majorskills
@@ -524,7 +530,7 @@ end
 
 --Retrieve player's minor skills
 function xpLeveling.GetMinorSkills(pid)
-    if xpLeveling.GetIsCustomClass then
+    if xpLeveling.GetIsCustomClass(pid) then
         return xpLeveling.SkillsStringToList(Players[pid].data.customClass.minorSkills)
     else
         return vanillaClasses[Players[pid].data.character.class].Minorskills
@@ -543,7 +549,7 @@ end
 
 --Retrieve player's specialization
 function xpLeveling.GetSpecialization(pid)
-    if xpLeveling.GetIsCustomClass then
+    if xpLeveling.GetIsCustomClass(pid) then
         return specializations[Players[pid].data.customClass.specialization+1]
     else
         return vanillaClasses[Players[pid].data.character.class].Specialization
@@ -562,15 +568,17 @@ end
 
 --Open level up menu command
 function xpLeveling.LevelUpMenu(pid)
-    xpLeveling.GenerateLevelMenu(pid)
-    Players[pid].currentCustomMenu = "xpLevel" .. pid
-    menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    if Players[pid].data.customVariables.xpLevelUps >0 then
+        xpLeveling.GenerateLevelMenu(pid)
+        Players[pid].currentCustomMenu = "xpLevel" .. pid
+        menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    end
 end
 
 --Admin command to grant a level
 function xpLeveling.ForceLevel(pid,cmd)
-    if Players[pid].data.settings.staffRank > xpConfig.minForceLevelRank then
-        xpLeveling.LevelUpPlayer(cmd[2])
+    if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
+        xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
     end
 end
 
@@ -630,17 +638,17 @@ end
 
 --Save player's starting health for retroactive endurance
 function xpLeveling.UpdateStartingStats(eventStatus,pid)
-    if (eventStatus.validDefaultHandler and eventStatus.validCustomHandler) then
-        if ~(xpConfig.magickaRetroactive) then
+    if eventStatus.validDefaultHandler then
+        if xpConfig.magickaRetroactive ~= true then
             Players[pid].data.customVariables.xpMagickaGain = 0
         end
-        if ~(xpConfig.healthRetroactive) then
+        if xpConfig.healthRetroactive ~= true then
             Players[pid].data.customVariables.xpHealthGain = 0
         end
-        if ~(xpConfig.fatigueRetroactive) then
+        if xpConfig.fatigueRetroactive ~= true then
             Players[pid].data.customVariables.xpFatigueGain = 0
         end
-        Players[pid].data.customVariables.xpStartHealth = xpLevel.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
+        Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
         xpLeveling.CalcLevelUpStats(pid)
     end
 end
