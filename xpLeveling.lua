@@ -231,7 +231,7 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
     --Send updated data to the player
-    Players[pid]:LoadStatsDynamic()
+    
     Players[pid]:LoadAttributes()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
@@ -241,19 +241,78 @@ end
 --Re-calculate stats
 function xpLeveling.CalcLevelUpStats(pid)
     local tempFatigue = 0
-    if xpConfig.healthRetroactiveEnd then
-        Players[pid].data.stats.healthBase = (Players[pid].data.customVariables.xpStartHealth + (Players[pid].data.attributes.Endurance.base * xpConfig.healthEndLevelMult)*Players[pid].data.stats.Level)
+    local tempHealth = 0
+    local tempMagicka = 0
+    local tempGain = 0
+    --health
+    if xpConfig.healthRetroactive then
+        tempHealth = xpLevel.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
     else
-        Players[pid].data.stats.healthBase = (Players[pid].data.stats.healthBase + (Players[pid].data.attributes.Endurance.base * xpConfig.healthEndLevelMult))
-        Players[pid].data.stats.healthCurrent = Players[pid].data.stats.healthBase
+        tempHealth,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+        tempHealth = tempHealth + tempGain + Players[pid].data.customVariables.xpHealthGain
+        Players[pid].data.customVariables.xpHealthGain = Players[pid].data.customVariables.xpHealthGain + tempGain
     end
-    Players[pid].data.stats.magickaBase = (Players[pid].data.attributes.Intelligence.base * xpConfig.magickaIntMult)
-    Players[pid].data.stats.magickaCurrent = Players[pid].data.stats.magickaBase
-    for attr,mult in pairs(xpConfig.fatigueAttrs) do
-        tempFatigue = tempFatigue + (Players[pid].data.attributes[attr].base*mult)
+    --magicka
+    if xpConfig.magickaRetroactive then
+        tempMagicka = xpLevel.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
+    else
+        tempMagicka,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
+        tempMagicka = tempMagicka + tempGain + Players[pid].data.customVariables.xpMagickaGain
+        Players[pid].data.customVariables.xpMagickaGain = Players[pid].data.customVariables.xpMagickaGain + tempGain
     end
+    --fatigue
+    if xpConfig.fatigueRetroactive then
+        tempFatigue = xpLevel.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
+    else
+        tempFatigue,tempGain = xpLevel.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
+        tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
+        Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
+    end
+    Players[pid].data.stats.healthBase = tempHealth
+    Players[pid].data.stats.healthCurrent = tempHealth
+    Players[pid].data.stats.magickaBase = tempMagicka
+    Players[pid].data.stats.magickaCurrent = tempMagicka
     Players[pid].data.stats.fatigueBase = tempFatigue
     Players[pid].data.stats.fatigueCurrent = tempFatigue
+    
+    --Send Player updated stats
+    Players[pid]:LoadStatsDynamic()
+end
+
+--Function to calculate a Non-Retroactive stat
+function xpLevel.CalcNonRetroStat(pid,baseTable,multTable,add)
+    local tempMagicka = 0
+    local levelGain = xpLevel.CalcFlatStat(pid,multTable)
+    tempMagicka = (xpLevel.CalcFlatStat(pid,baseTable)
+    + levelGain
+    + add)
+    return tempMagicka,levelGain
+end
+
+--Function to calculate a Retroactive stat
+function xpLevel.CalcRetroStat(pid,baseTable,multTable,add)
+    local tempStat = 0
+    tempStat = xpLevel.CalcFlatStat(pid,baseTable)
+    tempStat = tempStat + xpLevel.CalcLevelMultGainStat(pid,multTable)
+    tempStat = tempStat + add
+    return tempStat
+end
+
+--Function to calculate a per level stat
+function xpLevel.CalcLevelMultGainStat(pid,multTable)
+    local tempGain = 0
+    for attr,mult in pairs(multTable) do
+        tempGain = tempGain + Players[pid].data.attributes[attr].base*mult*(Players[pid].data.stats.level-1)
+    end
+end
+
+--Function to calculate a flat stat
+function xpLevel.CalcFlatStat(pid,multTable)
+    local tempStat = 0
+    for attr,mult in pairs(multTable) do
+        tempStat = tempStat + Players[pid].data.attributes[attr].base*mult
+    end
+    return tempStat
 end
 
 --Apply attr ups and re-calc stats
@@ -549,9 +608,19 @@ function xpLeveling.ActivateBlocker(eventStatus, pid)
 end
 
 --Save player's starting health for retroactive endurance
-function xpLeveling.SaveStartingHealth(eventStatus,pid)
+function xpLeveling.UpdateStartingStats(eventStatus,pid)
     if (eventStatus.validDefaultHandler and eventStatus.validCustomHandler) then
-        Players[pid].data.customVariables.xpStartHealth=Players[pid].data.stats.healthBase
+        if ~(xpConfig.magickaRetroactive) then
+            Players[pid].data.customVariables.xpMagickaGain = 0
+        end
+        if ~(xpConfig.healthRetroactive) then
+            Players[pid].data.customVariables.xpHealthGain = 0
+        end
+        if ~(xpConfig.fatigueRetroactive) then
+            Players[pid].data.customVariables.xpFatigueGain = 0
+        end
+        Players[pid].data.customVariables.xpStartHealth = xpLevel.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
+        xpLeveling.CalcLevelUpStats(pid)
     end
 end
 
@@ -562,7 +631,7 @@ customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlock
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
 customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
-customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.SaveStartingHealth)
+customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.UpdateStartingStats)
 customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.ActivateBlocker)
 
 return xpLeveling

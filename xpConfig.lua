@@ -36,18 +36,36 @@ xpConfig.attributePtsPerLevel = 12
 xpConfig.attributeLvlsPerAttr = 5
 
 
---Derived stats settings
+--Derived stats settings, SET TO VANILLA BY DEFAULT :)
 
---Magicka = Int * this multiplier (default = 1)
-xpConfig.magickaIntMult = 1
---Re-calculate hp based on endurance value & level each level
-xpConfig.healthRetroactiveEnd = false
---Amount of hp gained per point of endurance per level (default = 0.1)
-xpConfig.healthEndLevelMult = 0.1
---calculating base health
+---Magicka
+--Re-calculate magicka based on attribute values & level each level
+xpConfig.magickaRetroactive = true
+--Attributes used to calculate base magicka
+xpConfig.magickaAttrs = {Intelligence = 1}
+--Attributes used to calculate magicka gain per level
+xpConfig.magickaPerLevelMult = {}
+--Additional magicka
+xpConfig.magickaStartAdd = 0
+
+---Health
+--Re-calculate hp based on attribute values & level each level
+xpConfig.healthRetroactive = false
+--Attributes used to calculate base health
+xpConfig.healthAttrs = {}
+--Attributes used to calculate base starting health
 xpConfig.healthBaseStartAttrs = {Strength = 0.5, Endurance = 0.5}
---Used to give the player additional health on start (default = 0)
+--Attributes used to calculate health gain per level
+xpConfig.healthPerLevelMult = {Endurance = 0.1}
+--Additional health
 xpConfig.healthBaseStartAdd = 0
---Fatigue multipliers (default = 1)
+
+---Fatigue
+--Re-calculate fatigue based on attribute values & level each level
+xpConfig.fatigueRetroactive = true
+--Attributes used to calculate base fatigue
 xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1}
-xpConfig.fatigueGlobalMult = 1
+--Attributes used to calculate fatigue gain per level
+xpConfig.fatiguePerLevelMult = {}
+--AdditionalFatigue
+xpConfig.fatigueStartAdd = 0
