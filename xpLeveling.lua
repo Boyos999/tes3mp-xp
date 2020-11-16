@@ -411,6 +411,7 @@ function xpLeveling.GetMaxAttrUps(pid,attr)
     --Take pending changes into account for maxLevels
     if Players[pid].data.customVariables.xpLevelUpChanges.attrs[attr] ~= nil then
         playerAttrLevel = playerAttrLevel+Players[pid].data.customVariables.xpLevelUpChanges.attrs[attr]
+        maxLevel = maxLevel - Players[pid].data.customVariables.xpLevelUpChanges.attrs[attr]
     end
     
     --Check how many points are available
@@ -437,6 +438,7 @@ function xpLeveling.GetMaxSkillUps(pid,skill)
     --Take pending changes into account for maxLevels
     if Players[pid].data.customVariables.xpLevelUpChanges.skills[skill] ~= nil then
         playerSkillLevel = playerSkillLevel+Players[pid].data.customVariables.xpLevelUpChanges.skills[skill]
+        maxLevels = maxLevels - Players[pid].data.customVariables.xpLevelUpChanges.skills[skill]
     end
     
     --Check max per skill in config
