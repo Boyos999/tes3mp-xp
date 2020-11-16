@@ -567,6 +567,7 @@ function xpLeveling.LevelUpMenu(pid)
     menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
 end
 
+--Admin command to grant a level
 function xpLeveling.ForceLevel(pid,cmd)
     if Players[pid].data.settings.staffRank > xpConfig.minForceLevelRank then
         xpLeveling.LevelUpPlayer(cmd[2])
