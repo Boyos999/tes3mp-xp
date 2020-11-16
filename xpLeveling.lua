@@ -572,6 +572,8 @@ function xpLeveling.LevelUpMenu(pid)
         xpLeveling.GenerateLevelMenu(pid)
         Players[pid].currentCustomMenu = "xpLevel" .. pid
         menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    else
+        tes3mp.MessageBox(pid, -1, xpConfig.noLevelUpMessage)
     end
 end
 
