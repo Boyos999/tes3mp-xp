@@ -217,6 +217,9 @@ end
 function xpLeveling.CommitLevelUp(pid)
     local savedChanges = Players[pid].data.customVariables.xpLevelUpChanges
     
+    Players[pid].data.stats.level = Players[pid].data.stats.level + 1
+    Players[pid].data.customVariables.xpLevelUps = Players[pid].data.customVariables.xpLevelUps - 1
+    
     xpLeveling.LevelUpSkills(pid,savedChanges["skills"])
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
     Players[pid].data.customVariables.xpSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
@@ -226,9 +229,6 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
-    
-    Players[pid].data.stats.level = Players[pid].data.stats.level + 1
-    Players[pid].data.customVariables.xpLevelUps = Players[pid].data.customVariables.xpLevelUps - 1
     
     --Send updated data to the player
     Players[pid]:LoadStatsDynamic()
@@ -242,7 +242,7 @@ end
 function xpLeveling.CalcLevelUpStats(pid)
     local tempFatigue = 0
     if xpConfig.healthRetroactiveEnd then
-        --TODO
+        Players[pid].data.stats.healthBase = (Players[pid].data.customVariables.xpStartHealth + (Players[pid].data.attributes.Endurance.base * xpConfig.healthEndLevelMult)*Players[pid].data.stats.Level)
     else
         Players[pid].data.stats.healthBase = (Players[pid].data.stats.healthBase + (Players[pid].data.attributes.Endurance.base * xpConfig.healthEndLevelMult))
         Players[pid].data.stats.healthCurrent = Players[pid].data.stats.healthBase
@@ -548,6 +548,13 @@ function xpLeveling.ActivateBlocker(eventStatus, pid)
     end
 end
 
+--Save player's starting health for retroactive endurance
+function xpLeveling.SaveStartingHealth(eventStatus,pid)
+    if (eventStatus.validDefaultHandler and eventStatus.validCustomHandler) then
+        Players[pid].data.customVariables.xpStartHealth=Players[pid].data.stats.healthBase
+    end
+end
+
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("testlevelup",xpLeveling.LevelUpMenu)
 
@@ -555,6 +562,7 @@ customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlock
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
 customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
+customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.SaveStartingHealth)
 customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.ActivateBlocker)
 
 return xpLeveling
