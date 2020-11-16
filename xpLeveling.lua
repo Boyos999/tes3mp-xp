@@ -1,4 +1,4 @@
-local experience = {}
+local xpLeveling = {}
 
 require("custom.tes3mp-xp.xpConfig")
 
@@ -9,7 +9,7 @@ local vanillaClasses = jsonInterface.load("custom/tes3mp-xp/vanilla_classes.json
 local attributes = {"Strength","Intelligence","Willpower","Agility","Speed","Endurance","Personality","Luck"}
 
 --Generate Root Level menu per player
-function experience.GenerateLevelMenu(pid)
+function xpLeveling.GenerateLevelMenu(pid)
     Menus["xpLevel" .. pid] = { 
         text = "Level up menu",
         buttons = {
@@ -36,21 +36,21 @@ function experience.GenerateLevelMenu(pid)
         }
     }
     tes3mp.LogMessage(enumerations.log.INFO, "Generating Level Menu for pid: " ..pid)
-    experience.GenerateSpecMenu(pid)
-    experience.GenerateAttrsMenu(pid)
-    experience.GenerateCommitMenu(pid)
+    xpLeveling.GenerateSpecMenu(pid)
+    xpLeveling.GenerateAttrsMenu(pid)
+    xpLeveling.GenerateCommitMenu(pid)
     tes3mp.LogMessage(enumerations.log.INFO, "Menu Generation Complete for pid: " ..pid)
 end
 
 --General function to generate a generic menu button
-function experience.GenerateMenuButton(pid,menuName,dest,element,action,args)
+function xpLeveling.GenerateMenuButton(pid,menuName,dest,element,action,args)
     if action ~= nil then
         button = {
             caption = element,
             destinations = {
                 menuHelper.destinations.setDefault(dest,
                 {
-                    menuHelper.effects.runGlobalFunction("experience",action,args)
+                    menuHelper.effects.runGlobalFunction("xpLeveling",action,args)
                 })
             }
         }
@@ -66,22 +66,22 @@ function experience.GenerateMenuButton(pid,menuName,dest,element,action,args)
 end
 
 --Generate specialization selection menu
-function experience.GenerateSpecMenu(pid)
+function xpLeveling.GenerateSpecMenu(pid)
     local menuName = "xpSpec" .. pid
     Menus[menuName] = {
         text = "Specialization (".. Players[pid].data.customVariables.xpSkillPts-Players[pid].data.customVariables.xpSkillPtHold ..")",
         buttons = {}
     }
     for _,spec in pairs(specializations) do
-        button = experience.GenerateMenuButton(pid,menuName,"xp"..spec..pid,spec)
+        button = xpLeveling.GenerateMenuButton(pid,menuName,"xp"..spec..pid,spec)
         table.insert(Menus[menuName].buttons,button)
-        experience.GenerateSkillsMenu(pid,spec)
+        xpLeveling.GenerateSkillsMenu(pid,spec)
     end
-    experience.AddMenuNavigation(pid,menuName,"xpLevel"..pid)
+    xpLeveling.AddMenuNavigation(pid,menuName,"xpLevel"..pid)
 end
 
 --Generate skill selection menu
-function experience.GenerateSkillsMenu(pid,spec)
+function xpLeveling.GenerateSkillsMenu(pid,spec)
     local skills = specs[spec]
     local menuName = "xp" .. spec .. pid
     Menus[menuName] = {
@@ -89,65 +89,65 @@ function experience.GenerateSkillsMenu(pid,spec)
         buttons = {}
     }
     for _,skill in pairs(skills) do
-        button = experience.GenerateMenuButton(pid,menuName,"xp"..skill..pid,skill.." ("..experience.GetSkillPtCost(pid,skill)..")")
+        button = xpLeveling.GenerateMenuButton(pid,menuName,"xp"..skill..pid,skill.." ("..xpLeveling.GetSkillPtCost(pid,skill)..")")
         table.insert(Menus[menuName].buttons,button)
-        experience.GenerateValueSelect(pid,"skills",skill,menuName)
+        xpLeveling.GenerateValueSelect(pid,"skills",skill,menuName)
     end
-    experience.AddMenuNavigation(pid,menuName,"xpSpec"..pid)
+    xpLeveling.AddMenuNavigation(pid,menuName,"xpSpec"..pid)
 end
 
 --Generate Attribute selection menu
-function experience.GenerateAttrsMenu(pid)
+function xpLeveling.GenerateAttrsMenu(pid)
     local menuName = "xpAttr" .. pid
     Menus[menuName] = {
         text = "Attributes (".. Players[pid].data.customVariables.xpAttrPts-Players[pid].data.customVariables.xpAttrPtHold .. ")",
         buttons = {}
     }
     for _,attr in pairs(attributes) do
-        button = experience.GenerateMenuButton(pid,menuName,"xp"..attr..pid,attr)
+        button = xpLeveling.GenerateMenuButton(pid,menuName,"xp"..attr..pid,attr)
         table.insert(Menus[menuName].buttons,button)
-        experience.GenerateValueSelect(pid,"attrs",attr,menuName)
+        xpLeveling.GenerateValueSelect(pid,"attrs",attr,menuName)
     end
-    experience.AddMenuNavigation(pid,menuName,"xpLevel"..pid)
+    xpLeveling.AddMenuNavigation(pid,menuName,"xpLevel"..pid)
 end
 
 --Generate value select menus for attributes/skills
-function experience.GenerateValueSelect(pid,statType,statName,previousMenu)
+function xpLeveling.GenerateValueSelect(pid,statType,statName,previousMenu)
     local menuName = "xp" .. statName .. pid
     local statMax
     local statCostPer
     
     if statType == "attrs" then
-        statMax = experience.GetMaxAttrUps(pid,statName)
+        statMax = xpLeveling.GetMaxAttrUps(pid,statName)
         statCostPer = 1
     elseif statType == "skills" then
-        statMax = experience.GetMaxSkillUps(pid,statName)
-        statCostPer = experience.GetSkillPtCost(pid,statName)
+        statMax = xpLeveling.GetMaxSkillUps(pid,statName)
+        statCostPer = xpLeveling.GetSkillPtCost(pid,statName)
     end
     Menus[menuName] = {
         text = statName .. " (" .. statCostPer .. ")",
         buttons = {}
     }
     for val=1,statMax do
-        button = experience.GenerateMenuButton(pid,menuName,"xpLevel"..pid,val.." ("..(val*statCostPer)..")","SaveLevelUpChange",{pid,statType,statName,val,val*statCostPer})
+        button = xpLeveling.GenerateMenuButton(pid,menuName,"xpLevel"..pid,val.." ("..(val*statCostPer)..")","SaveLevelUpChange",{pid,statType,statName,val,val*statCostPer})
         table.insert(Menus[menuName].buttons,button)
     end
-    experience.AddMenuNavigation(pid,menuName,previousMenu)
+    xpLeveling.AddMenuNavigation(pid,menuName,previousMenu)
 end
 
 --Generate Commit menu with level up summary
-function experience.GenerateCommitMenu(pid)
+function xpLeveling.GenerateCommitMenu(pid)
     local levelUpChanges = Players[pid].data.customVariables.xpLevelUpChanges
     local changeString = "Attributes\n----------\n"
     if levelUpChanges == nil then
         levelUpChanges = {}
     end
     if levelUpChanges["attrs"] ~= nil then
-        changeString = changeString .. experience.GetLevelUpChangeString(pid,levelUpChanges["attrs"])
+        changeString = changeString .. xpLeveling.GetLevelUpChangeString(pid,levelUpChanges["attrs"])
     end
     changeString = changeString .. "----------\nSkills\n----------\n"
     if levelUpChanges["skills"] ~= nil then
-        changeString = changeString .. experience.GetLevelUpChangeString(pid,levelUpChanges["skills"])
+        changeString = changeString .. xpLeveling.GetLevelUpChangeString(pid,levelUpChanges["skills"])
     end
     Menus["xpCommit" .. pid] = {
         text = changeString,
@@ -156,7 +156,7 @@ function experience.GenerateCommitMenu(pid)
                 destinations = {
                     menuHelper.destinations.setDefault(nil,
                     {
-                        menuHelper.effects.runGlobalFunction("experience","CommitLevelUp",{menuHelper.variables.currentPid()})
+                        menuHelper.effects.runGlobalFunction("xpLeveling","CommitLevelUp",{menuHelper.variables.currentPid()})
                     })
                 }
             },
@@ -164,17 +164,17 @@ function experience.GenerateCommitMenu(pid)
                 destinations = {
                     menuHelper.destinations.setDefault(nil,
                     {
-                        menuHelper.effects.runGlobalFunction("experience","RevertLevelUpChanges",{menuHelper.variables.currentPid()})
+                        menuHelper.effects.runGlobalFunction("xpLeveling","RevertLevelUpChanges",{menuHelper.variables.currentPid()})
                     })
                 }
             }
         }
     }
-    experience.AddMenuNavigation(pid,"xpCommit" .. pid)
+    xpLeveling.AddMenuNavigation(pid,"xpCommit" .. pid)
 end
 
 --Revert pending level up changes
-function experience.RevertLevelUpChanges(pid)
+function xpLeveling.RevertLevelUpChanges(pid)
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
     Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
     Players[pid].data.customVariables.xpAttrPtHold = 0
@@ -182,7 +182,7 @@ function experience.RevertLevelUpChanges(pid)
 end
 
 --Format change table as a string for use in the menu
-function experience.GetLevelUpChangeString(pid,changeTable)
+function xpLeveling.GetLevelUpChangeString(pid,changeTable)
     local outputString = ""
     for stat,val in pairs(changeTable) do
         outputString = outputString .. stat .. ": " .. val .. "\n"
@@ -191,7 +191,7 @@ function experience.GetLevelUpChangeString(pid,changeTable)
 end
 
 --Save level up change before committing
-function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
+function xpLeveling.SaveLevelUpChange(pid,statType,statName,value,ptCost)
     tes3mp.LogMessage(enumerations.log.INFO,"Saving Change for pid("..pid.."): statType: " .. statType .. ", statName: " .. statName)
     pid = tonumber(pid)
     Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
@@ -210,19 +210,19 @@ function experience.SaveLevelUpChange(pid,statType,statName,value,ptCost)
     end
     
     --Re-Generate Menu Values
-    experience.GenerateLevelMenu(pid)
+    xpLeveling.GenerateLevelMenu(pid)
 end
 
 --Push level up stats to player
-function experience.CommitLevelUp(pid)
+function xpLeveling.CommitLevelUp(pid)
     local savedChanges = Players[pid].data.customVariables.xpLevelUpChanges
     
-    experience.LevelUpSkills(pid,savedChanges["skills"])
+    xpLeveling.LevelUpSkills(pid,savedChanges["skills"])
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
     Players[pid].data.customVariables.xpSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
     Players[pid].data.customVariables.xpSkillPtHold = 0
     
-    experience.LevelUpAttrs(pid,savedChanges["attrs"])
+    xpLeveling.LevelUpAttrs(pid,savedChanges["attrs"])
     Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
@@ -239,7 +239,7 @@ function experience.CommitLevelUp(pid)
 end
 
 --Re-calculate stats
-function experience.CalcLevelUpStats(pid)
+function xpLeveling.CalcLevelUpStats(pid)
     local tempFatigue = 0
     if xpConfig.healthRetroactiveEnd then
         --TODO
@@ -257,22 +257,22 @@ function experience.CalcLevelUpStats(pid)
 end
 
 --Apply attr ups and re-calc stats
-function experience.LevelUpAttrs(pid,attrs)
+function xpLeveling.LevelUpAttrs(pid,attrs)
     for attr,value in pairs(attrs) do
         Players[pid].data.attributes[attr].base = Players[pid].data.attributes[attr].base + value
     end
-    experience.CalcLevelUpStats(pid)
+    xpLeveling.CalcLevelUpStats(pid)
 end
 
 --Apply skill ups
-function experience.LevelUpSkills(pid,skills)
+function xpLeveling.LevelUpSkills(pid,skills)
     for skill,value in pairs(skills) do 
         Players[pid].data.skills[skill].base = Players[pid].data.skills[skill].base + value
     end
 end
 
 --Function to handle player level up
-function experience.LevelUpPlayer(pid)
+function xpLeveling.LevelUpPlayer(pid)
     local playerSkillPts = Players[pid].data.customVariables.xpSkillPts
     local playerAttrPts = Players[pid].data.customVariables.xpAttrPts
     local playerLevelUps = Players[pid].data.customVariables.xpLevelUps
@@ -303,7 +303,7 @@ function experience.LevelUpPlayer(pid)
 end
 
 --Calculate them maximum number of times a player can level an attribute
-function experience.GetMaxAttrUps(pid,attr)
+function xpLeveling.GetMaxAttrUps(pid,attr)
     local playerAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     local maxLevels = xpConfig.attributeLvlsPerAttr
     local playerAttrLevel = Players[pid].data.attributes[attr].base
@@ -323,9 +323,9 @@ function experience.GetMaxAttrUps(pid,attr)
 end
 
 --Calculate the maximum number of times a player can level a skill
-function experience.GetMaxSkillUps(pid,skill)
+function xpLeveling.GetMaxSkillUps(pid,skill)
     local playerSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
-    local skillCost = experience.GetSkillPtCost(pid,skill)
+    local skillCost = xpLeveling.GetSkillPtCost(pid,skill)
     local maxLevels = math.floor(playerSkillPts/skillCost)
     local playerSkillLevel = Players[pid].data.skills[skill].base
     
@@ -354,26 +354,26 @@ function experience.GetMaxSkillUps(pid,skill)
 end
 
 --Calculate skill point cost for a specific skill
-function experience.GetSkillPtCost(pid,skill)
+function xpLeveling.GetSkillPtCost(pid,skill)
     local skillCost = xpConfig.skillCost
 
-    if experience.GetIsSpecializationSkill(pid,skill) then
+    if xpLeveling.GetIsSpecializationSkill(pid,skill) then
         skillCost = skillCost - xpConfig.skillCostSpecReduction
     end
 
-    if experience.GetIsMajorSkill(pid,skill) then
+    if xpLeveling.GetIsMajorSkill(pid,skill) then
         skillCost = skillCost - xpConfig.skillCostMajReduction
-    elseif experience.GetIsMinorSkill(pid,skill) then
+    elseif xpLeveling.GetIsMinorSkill(pid,skill) then
         skillCost = skillCost - xpConfig.skillCostMinReduction
     end
 
-    skillCost = skillCost + experience.GetSkillThresholdCount(pid,skill)*xpConfig.skillCostGroupStep
+    skillCost = skillCost + xpLeveling.GetSkillThresholdCount(pid,skill)*xpConfig.skillCostGroupStep
 
     return skillCost
 end
 
 --Get the number of skill thresholds passed per skill
-function experience.GetSkillThresholdCount(pid,skill)
+function xpLeveling.GetSkillThresholdCount(pid,skill)
     local skillLevel = Players[pid].data.skills[skill].base
     local thresholds = 0
     for _, val in pairs(xpConfig.skillCostGroups) do
@@ -385,8 +385,8 @@ function experience.GetSkillThresholdCount(pid,skill)
 end
 
 --Check if a skill is a player's major skill
-function experience.GetIsMajorSkill(pid,skill)
-    local majorSkills = experience.GetMajorSkills(pid)
+function xpLeveling.GetIsMajorSkill(pid,skill)
+    local majorSkills = xpLeveling.GetMajorSkills(pid)
     if tableHelper.containsValue(majorSkills,skill) then
         return true
     else
@@ -395,8 +395,8 @@ function experience.GetIsMajorSkill(pid,skill)
 end
 
 --Check if a skill is a player's minor skill
-function experience.GetIsMinorSkill(pid,skill)
-    local minorSkills = experience.GetMinorSkills(pid)
+function xpLeveling.GetIsMinorSkill(pid,skill)
+    local minorSkills = xpLeveling.GetMinorSkills(pid)
     if tableHelper.containsValue(minorSkills,skill) then
         return true
     else
@@ -405,8 +405,8 @@ function experience.GetIsMinorSkill(pid,skill)
 end
 
 --Check if a skill falls under a player's specialization
-function experience.GetIsSpecializationSkill(pid,skill)
-    local spec = experience.GetSpecialization(pid)
+function xpLeveling.GetIsSpecializationSkill(pid,skill)
+    local spec = xpLeveling.GetSpecialization(pid)
     if tableHelper.containsValue(specs[spec],skill) then
         return true
     else
@@ -415,24 +415,24 @@ function experience.GetIsSpecializationSkill(pid,skill)
 end
 
 --Retrieve player's major skills
-function experience.GetMajorSkills(pid)
-    if experience.GetIsCustomClass then
-        return experience.SkillsStringToList(Players[pid].data.customClass.majorSkills)
+function xpLeveling.GetMajorSkills(pid)
+    if xpLeveling.GetIsCustomClass then
+        return xpLeveling.SkillsStringToList(Players[pid].data.customClass.majorSkills)
     else
         return vanillaClasses[Players[pid].data.character.class].Majorskills
     end
 end
 
 --Retrieve player's minor skills
-function experience.GetMinorSkills(pid)
-    if experience.GetIsCustomClass then
-        return experience.SkillsStringToList(Players[pid].data.customClass.minorSkills)
+function xpLeveling.GetMinorSkills(pid)
+    if xpLeveling.GetIsCustomClass then
+        return xpLeveling.SkillsStringToList(Players[pid].data.customClass.minorSkills)
     else
         return vanillaClasses[Players[pid].data.character.class].Minorskills
     end
 end
 
-function experience.SkillsStringToList(inputString)
+function xpLeveling.SkillsStringToList(inputString)
     local outputTable = {}
     for word in string.gmatch(inputString, '([^, ]+)') do
         table.insert(outputTable,word)
@@ -441,8 +441,8 @@ function experience.SkillsStringToList(inputString)
 end
 
 --Retrieve player's specialization
-function experience.GetSpecialization(pid)
-    if experience.GetIsCustomClass then
+function xpLeveling.GetSpecialization(pid)
+    if xpLeveling.GetIsCustomClass then
         return specializations[Players[pid].data.customClass.specialization+1]
     else
         return vanillaClasses[Players[pid].data.character.class].Specialization
@@ -451,7 +451,7 @@ function experience.GetSpecialization(pid)
 end
 
 --Check if player is a custom class
-function experience.GetIsCustomClass(pid)
+function xpLeveling.GetIsCustomClass(pid)
     if Players[pid].data.character.class == "custom" then
         return true
     else
@@ -460,7 +460,7 @@ function experience.GetIsCustomClass(pid)
 end
 
 --Append some generally helpful menu navigation functions
-function experience.AddMenuNavigation(pid,menu,previousMenu)
+function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
     helpfulbuttons = {
         { caption = color.White .. "Back",
             destinations = {
@@ -484,19 +484,19 @@ function experience.AddMenuNavigation(pid,menu,previousMenu)
 end
 
 --Open level up menu command
-function experience.LevelUpMenu(pid)
-    experience.GenerateLevelMenu(pid)
+function xpLeveling.LevelUpMenu(pid)
+    xpLeveling.GenerateLevelMenu(pid)
     Players[pid].currentCustomMenu = "xpLevel" .. pid
     menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
 end
 
-function experience.ForceLevel(pid,cmd)
-    experience.LevelUpPlayer(pid)
+function xpLeveling.ForceLevel(pid,cmd)
+    xpLeveling.LevelUpPlayer(pid)
 end
 
 --Don't let players level
-function experience.SkillBlocker(eventStatus,pid) 
-    if Players[pid].data.customVariables.experienceStatus == 1 then
+function xpLeveling.SkillBlocker(eventStatus,pid) 
+    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
         Players[pid]:LoadSkills()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -505,8 +505,8 @@ function experience.SkillBlocker(eventStatus,pid)
 end
 
 --Don't let players level
-function experience.AttributeBlocker(eventStatus,pid)
-    if Players[pid].data.customVariables.experienceStatus == 1 then
+function xpLeveling.AttributeBlocker(eventStatus,pid)
+    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
         Players[pid]:LoadAttributes()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -515,8 +515,8 @@ function experience.AttributeBlocker(eventStatus,pid)
 end
 
 --Don't let players level
-function experience.LevelBlocker(eventStatus,pid)
-    if Players[pid].data.customVariables.experienceStatus == 1 then
+function xpLeveling.LevelBlocker(eventStatus,pid)
+    if Players[pid].data.customVariables.xpLevelingStatus == 1 then
         Players[pid]:LoadLevel()
         return customEventHooks.makeEventStatus(false,false)
     else
@@ -525,7 +525,7 @@ function experience.LevelBlocker(eventStatus,pid)
 end
 
 --Only block leveling after character creation
-function experience.ActivateBlocker(eventStatus, pid)
+function xpLeveling.ActivateBlocker(eventStatus, pid)
     if Players[pid] ~= nil then
         if Players[pid]:IsLoggedIn() then
             Players[pid].data.customVariables.xpStatus = 1
@@ -548,13 +548,13 @@ function experience.ActivateBlocker(eventStatus, pid)
     end
 end
 
-customCommandHooks.registerCommand("forcelevelup",experience.ForceLevel)
-customCommandHooks.registerCommand("testlevelup",experience.LevelUpMenu)
+customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
+customCommandHooks.registerCommand("testlevelup",xpLeveling.LevelUpMenu)
 
-customEventHooks.registerValidator("OnPlayerAttribute",experience.AttributeBlocker)
-customEventHooks.registerValidator("OnPlayerSkill",experience.SkillBlocker)
-customEventHooks.registerValidator("OnPlayerLevel",experience.LevelBlocker)
+customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlocker)
+customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
+customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
-customEventHooks.registerHandler("OnPlayerAuthentified",experience.ActivateBlocker)
+customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.ActivateBlocker)
 
-return experience
+return xpLeveling
