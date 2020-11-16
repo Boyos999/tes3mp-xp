@@ -3,7 +3,7 @@ local xpLeveling = {}
 require("custom.tes3mp-xp.xpConfig")
 
 --Initialize vanilla data tables
-local specs = jsonInterface.load("custom/tes3mp-xp/specializations.json")
+local specSkills = jsonInterface.load("custom/tes3mp-xp/specializations.json")
 local specializations = {"Combat","Magic","Stealth"}
 local vanillaClasses = jsonInterface.load("custom/tes3mp-xp/vanilla_classes.json")
 local attributes = {"Strength","Intelligence","Willpower","Agility","Speed","Endurance","Personality","Luck"}
@@ -82,7 +82,7 @@ end
 
 --Generate skill selection menu
 function xpLeveling.GenerateSkillsMenu(pid,spec)
-    local skills = specs[spec]
+    local skills = specSkills[spec]
     local menuName = "xp" .. spec .. pid
     Menus[menuName] = {
         text = spec .. " Skills(".. Players[pid].data.customVariables.xpSkillPts-Players[pid].data.customVariables.xpSkillPtHold ..")",
@@ -173,6 +173,30 @@ function xpLeveling.GenerateCommitMenu(pid)
     xpLeveling.AddMenuNavigation(pid,"xpCommit" .. pid)
 end
 
+--Append some generally helpful menu navigation functions
+function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
+    helpfulbuttons = {
+        { caption = color.White .. "Back",
+            destinations = {
+                menuHelper.destinations.setDefault(previousMenu)
+            }
+        },
+        { caption = color.Orange .. "Root",
+            destinations = {
+                menuHelper.destinations.setDefault("xpLevel" .. pid)
+            }
+        },
+        { caption = color.Red .. "Exit",
+            destinations = {
+                menuHelper.destinations.setDefault(nil)
+            }
+        }
+    }
+    for _,button in pairs(helpfulbuttons) do
+        table.insert(Menus[menu].buttons,button)
+    end
+end
+
 --Revert pending level up changes
 function xpLeveling.RevertLevelUpChanges(pid)
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
@@ -193,8 +217,11 @@ end
 --Save level up change before committing
 function xpLeveling.SaveLevelUpChange(pid,statType,statName,value,ptCost)
     tes3mp.LogMessage(enumerations.log.INFO,"Saving Change for pid("..pid.."): statType: " .. statType .. ", statName: " .. statName)
+    --I don't know why pid keeps ending up as a string but I suspect menuHelper fuckery
     pid = tonumber(pid)
+    --Save pending level up changes
     Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
+    --Track pending skill/attr point cost
     if statType == "attrs" then
         if Players[pid].data.customVariables.xpAttrPtHold == nil then
             Players[pid].data.customVariables.xpAttrPtHold = ptCost
@@ -217,21 +244,23 @@ end
 function xpLeveling.CommitLevelUp(pid)
     local savedChanges = Players[pid].data.customVariables.xpLevelUpChanges
     
+    --Increase player level
     Players[pid].data.stats.level = Players[pid].data.stats.level + 1
     Players[pid].data.customVariables.xpLevelUps = Players[pid].data.customVariables.xpLevelUps - 1
     
+    --Commit skill changes
     xpLeveling.LevelUpSkills(pid,savedChanges["skills"])
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
     Players[pid].data.customVariables.xpSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
     Players[pid].data.customVariables.xpSkillPtHold = 0
     
+    --Commit attribute changes & update stats
     xpLeveling.LevelUpAttrs(pid,savedChanges["attrs"])
     Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
     --Send updated data to the player
-    
     Players[pid]:LoadAttributes()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
@@ -268,6 +297,7 @@ function xpLeveling.CalcLevelUpStats(pid)
         tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
         Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
     end
+    --Update player stats
     Players[pid].data.stats.healthBase = tempHealth
     Players[pid].data.stats.healthCurrent = tempHealth
     Players[pid].data.stats.magickaBase = tempMagicka
@@ -336,22 +366,26 @@ function xpLeveling.LevelUpPlayer(pid)
     local playerAttrPts = Players[pid].data.customVariables.xpAttrPts
     local playerLevelUps = Players[pid].data.customVariables.xpLevelUps
     
+    --Don't level above cap
     if Players[pid].data.stats.level >= xpConfig.levelCap then
         return
     end
     
+    --Add skills points
     if playerSkillPts == nil then
         Players[pid].data.customVariables.xpSkillPts = xpConfig.skillPtsPerLevel
     else
         Players[pid].data.customVariables.xpSkillPts = (playerSkillPts + xpConfig.skillPtsPerLevel)
     end
     
+    --Add attribute points
     if playerAttrPts == nil then
         Players[pid].data.customVariables.xpAttrPts = xpConfig.attributePtsPerLevel
     else
         Players[pid].data.customVariables.xpAttrPts = (playerAttrPts + xpConfig.attributePtsPerLevel)
     end
     
+    --Add Level up point
     if playerLevelUps == nil then
         Players[pid].data.customVariables.xpLevelUps = 1
     else
@@ -363,17 +397,21 @@ end
 
 --Calculate them maximum number of times a player can level an attribute
 function xpLeveling.GetMaxAttrUps(pid,attr)
+    --Remove pending poitns from the available pool
     local playerAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     local maxLevels = xpConfig.attributeLvlsPerAttr
     local playerAttrLevel = Players[pid].data.attributes[attr].base
+    --Take pending changes into account for maxLevels
     if Players[pid].data.customVariables.xpLevelUpChanges.attrs[attr] ~= nil then
         playerAttrLevel = playerAttrLevel+Players[pid].data.customVariables.xpLevelUpChanges.attrs[attr]
     end
     
+    --Check how many points are available
     if maxLevels > playerAttrPts then
         maxLevels = playerAttrPts
     end
     
+    --Check if we're hitting the attribute cap
     if (maxLevels + playerAttrLevel) > xpConfig.attributeCap then
         maxLevels = (xpConfig.attributeCap - playerAttrLevel)
     end
@@ -383,11 +421,13 @@ end
 
 --Calculate the maximum number of times a player can level a skill
 function xpLeveling.GetMaxSkillUps(pid,skill)
+    --Remove pending points from the available pool
     local playerSkillPts = (Players[pid].data.customVariables.xpSkillPts - Players[pid].data.customVariables.xpSkillPtHold)
     local skillCost = xpLeveling.GetSkillPtCost(pid,skill)
     local maxLevels = math.floor(playerSkillPts/skillCost)
     local playerSkillLevel = Players[pid].data.skills[skill].base
     
+    --Take pending changes into account for maxLevels
     if Players[pid].data.customVariables.xpLevelUpChanges.skills[skill] ~= nil then
         playerSkillLevel = playerSkillLevel+Players[pid].data.customVariables.xpLevelUpChanges.skills[skill]
     end
@@ -431,7 +471,7 @@ function xpLeveling.GetSkillPtCost(pid,skill)
     return skillCost
 end
 
---Get the number of skill thresholds passed per skill
+--Get the number of skill thresholds passed for a skill
 function xpLeveling.GetSkillThresholdCount(pid,skill)
     local skillLevel = Players[pid].data.skills[skill].base
     local thresholds = 0
@@ -466,7 +506,7 @@ end
 --Check if a skill falls under a player's specialization
 function xpLeveling.GetIsSpecializationSkill(pid,skill)
     local spec = xpLeveling.GetSpecialization(pid)
-    if tableHelper.containsValue(specs[spec],skill) then
+    if tableHelper.containsValue(specSkills[spec],skill) then
         return true
     else
         return false
@@ -491,6 +531,8 @@ function xpLeveling.GetMinorSkills(pid)
     end
 end
 
+--In the player file major/minor skills are saved as a single string,
+--this function will split them into a table :)
 function xpLeveling.SkillsStringToList(inputString)
     local outputTable = {}
     for word in string.gmatch(inputString, '([^, ]+)') do
@@ -515,30 +557,6 @@ function xpLeveling.GetIsCustomClass(pid)
         return true
     else
         return false
-    end
-end
-
---Append some generally helpful menu navigation functions
-function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
-    helpfulbuttons = {
-        { caption = color.White .. "Back",
-            destinations = {
-                menuHelper.destinations.setDefault(previousMenu)
-            }
-        },
-        { caption = color.Orange .. "Root",
-            destinations = {
-                menuHelper.destinations.setDefault("xpLevel" .. pid)
-            }
-        },
-        { caption = color.Red .. "Exit",
-            destinations = {
-                menuHelper.destinations.setDefault(nil)
-            }
-        }
-    }
-    for _,button in pairs(helpfulbuttons) do
-        table.insert(Menus[menu].buttons,button)
     end
 end
 
