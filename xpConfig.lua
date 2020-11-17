@@ -55,6 +55,9 @@ xpConfig.attributeLvlsPerAttr = 5
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--Use vanilla magicka & fatigue calculations (setting to false will cause weird issues)
+xpConfig.vanillaLeveling = true
+
 --Magicka
 --Re-calculate magicka based on attribute values & level each level
 xpConfig.magickaRetroactive = true

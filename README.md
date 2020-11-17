@@ -12,5 +12,4 @@
 * Add `xpLeveling = require("custom.tes3mp-xp.xpLeveling")` to customScripts.lua
 
 # Known Issues
-* Damage Attribute Effects have no effect on the player
-* Fortify Maximum Magicka Effects do not work correctly (any change to a player's intelligence will cause their magicka to revert to vanilla values)
+* Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works

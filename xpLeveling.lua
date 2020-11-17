@@ -285,29 +285,36 @@ function xpLeveling.CalcLevelUpStats(pid)
         tempHealth = tempHealth + Players[pid].data.customVariables.xpHealthGain
         Players[pid].data.customVariables.xpHealthGain = Players[pid].data.customVariables.xpHealthGain + tempGain
     end
-    --magicka
-    if xpConfig.magickaRetroactive then
-        tempMagicka = xpLeveling.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
-    else
-        tempMagicka,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
-        tempMagicka = tempMagicka + tempGain + Players[pid].data.customVariables.xpMagickaGain
-        Players[pid].data.customVariables.xpMagickaGain = Players[pid].data.customVariables.xpMagickaGain + tempGain
+    if xpConfig.vanillaLeveling ~= true then
+        --magicka
+        if xpConfig.magickaRetroactive then
+            tempMagicka = xpLeveling.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
+        else
+            tempMagicka,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
+            tempMagicka = tempMagicka + tempGain + Players[pid].data.customVariables.xpMagickaGain
+            Players[pid].data.customVariables.xpMagickaGain = Players[pid].data.customVariables.xpMagickaGain + tempGain
+        end
+        --fatigue
+        if xpConfig.fatigueRetroactive then
+            tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
+        else
+            tempFatigue,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
+            tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
+            Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
+        end
+        
+        --Update Player magicka
+        Players[pid].data.stats.magickaBase = tempMagicka
+        Players[pid].data.stats.magickaCurrent = tempMagicka
+        --Update Player fatigue
+        Players[pid].data.stats.fatigueBase = tempFatigue
+        Players[pid].data.stats.fatigueCurrent = tempFatigue
     end
-    --fatigue
-    if xpConfig.fatigueRetroactive then
-        tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
-    else
-        tempFatigue,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
-        tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
-        Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
-    end
-    --Update player stats
+    
+    --Update player health
     Players[pid].data.stats.healthBase = tempHealth
     Players[pid].data.stats.healthCurrent = tempHealth
-    Players[pid].data.stats.magickaBase = tempMagicka
-    Players[pid].data.stats.magickaCurrent = tempMagicka
-    Players[pid].data.stats.fatigueBase = tempFatigue
-    Players[pid].data.stats.fatigueCurrent = tempFatigue
+    
     
 end
 
@@ -662,7 +669,7 @@ end
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
 
-customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlocker)
+--customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlocker)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
 customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
