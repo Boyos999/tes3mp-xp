@@ -10,9 +10,14 @@
 # Install
 * Place `vanilla Data` files in `server/data/custom/tes3mp-xp`
 * Place everything else in `server/scripts/custom/tes3mp-xp`
-* Add `xpLeveling = require("custom.tes3mp-xp.xpLeveling")` to customScripts.lua
-* Add `xpGain = require("custom.tes3mp-xp.xpGain")` to customScripts.lua
 * xpCalc.ods is a spreadsheet with formulas you can use to tune xp gain config values
+* Add the following to customScripts.lua
+```lua
+xpLeveling = require("custom.tes3mp-xp.xpLeveling")
+xpGain = require("custom.tes3mp-xp.xpGain")
+```
 
 # Known Issues
 * Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works
+* level xp cost formula sucks
+* Has not been balance tested
