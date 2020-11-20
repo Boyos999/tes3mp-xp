@@ -16,6 +16,10 @@ end
 function xpGain.GetKillXp(refid)
     local refidLevel = xpGain.GetTargetLevel(refid)
     local experience =  xpConfig.baseKillXp + (refidLevel^xpConfig.lvlKillXpFactor)*xpConfig.lvlKillXp
+    if xpConfig.killVarianceEnable then
+        randVar = math.random(0,xpConfig.killVariance[1]+xpConfig.killVariance[2]) - xpConfig.killVariance[1]
+        experience = experience + randVar
+    end
     return math.floor(experience)
 end
 
@@ -70,7 +74,15 @@ end
 
 --Function to calculate level cost
 function xpGain.GetLevelCost(level)
-    return math.floor((xpConfig.baseLvlCost+(level^xpConfig.lvlCostFactor)*xpConfig.lvlCostMult))
+    local tempLevel = level
+    if xpConfig.lvlCostLimitEnable then
+        if tempLevel <= xpConfig.lvlCostLimit[1] then
+            tempLevel = xpConfig.lvlCostLimit[1]
+        elseif tempLevel >= xpConfig.lvlCostLimit[2] then
+            tempLevel = xpConfig.lvlCostLimit[2]
+        end
+    end
+    return math.floor((xpConfig.baseLvlCost+(tempLevel^xpConfig.lvlCostFactor)*xpConfig.lvlCostMult))
 end
 
 --Function to return player level

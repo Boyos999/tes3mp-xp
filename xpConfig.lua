@@ -10,7 +10,8 @@ xpConfig.lvlKillXp = 10
 xpConfig.lvlKillXpFactor = 1.2
 
 --range of random variance calculated: {below,above}
-xpConfig.killVariance = {0,0} -- {20,20}
+xpConfig.killVarianceEnable = false
+xpConfig.killVariance = {20,20} -- {20,20} will result in experience = experience +/- (1,20)
 
 --Message given on kill
 xpConfig.killXpMessage = "You gained XP"
@@ -25,7 +26,8 @@ xpConfig.lvlCostMult = 20
 xpConfig.lvlCostFactor = 1.6
 
 --Limits on min, max cost of levelup. Use: {0,-1} for no limits
-xpConfig.lvlCostLimit = {0,-1} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
+xpConfig.lvlCostLimitEnable = false
+xpConfig.lvlCostLimit = {0,35} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
 
 ---------------------------------------------------------------------------------------------------------------
 --Admin/moderation---------------------------------------------------------------------------------------------
