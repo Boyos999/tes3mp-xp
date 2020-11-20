@@ -20,6 +20,6 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 
 # Known Issues
 * Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works
-* level xp cost formula sucks
+* level xp cost formula sucks (with default values you will level very quickly)
 * Has not been balance tested
 * Skill books/Trainers will show messages indicating skills leveling up while not leveling skills

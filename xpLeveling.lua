@@ -220,7 +220,11 @@ function xpLeveling.SaveLevelUpChange(pid,statType,statName,value,ptCost)
     --I don't know why pid keeps ending up as a string but I suspect menuHelper fuckery
     pid = tonumber(pid)
     --Save pending level up changes
-    Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
+    if Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] ~= nil then
+        Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] + value
+    else
+        Players[pid].data.customVariables.xpLevelUpChanges[statType][statName] = value
+    end
     --Track pending skill/attr point cost
     if statType == "attrs" then
         if Players[pid].data.customVariables.xpAttrPtHold == nil then
@@ -493,6 +497,9 @@ end
 function xpLeveling.GetSkillThresholdCount(pid,skill)
     local skillLevel = Players[pid].data.skills[skill].base
     local thresholds = 0
+    if Players[pid].data.customVariables.xpLevelUpChanges.skills[skill] ~= nil then
+        skillLevel = skillLevel + Players[pid].data.customVariables.xpLevelUpChanges.skills[skill]
+    end
     for _, val in pairs(xpConfig.skillCostGroups) do
         if skillLevel >= val then
             thresholds = thresholds + 1
