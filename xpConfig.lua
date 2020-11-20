@@ -1,6 +1,33 @@
 xpConfig = {}
 
 ---------------------------------------------------------------------------------------------------------------
+--Kill XP Gain Options-----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+--XP Gained = baseKillXp + (creatureLevel^lvlKillXpFactor)*lvlKillXp
+xpConfig.baseKillXp = 20
+xpConfig.lvlKillXp = 10
+xpConfig.lvlKillXpFactor = 1.2
+
+--range of random variance calculated: {below,above}
+xpConfig.killVariance = {0,0} -- {20,20}
+
+--Message given on kill
+xpConfig.killXpMessage = "You gained XP"
+
+---------------------------------------------------------------------------------------------------------------
+--Level Xp Requirements----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+--Level XP Cost = baseLvlCost + (playerLevel^lvlCostFactor)*lvlCostMult
+xpConfig.baseLvlCost = 200
+xpConfig.lvlCostMult = 20
+xpConfig.lvlCostFactor = 1.6
+
+--Limits on min, max cost of levelup. Use: {0,-1} for no limits
+xpConfig.lvlCostLimit = {0,-1} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
+
+---------------------------------------------------------------------------------------------------------------
 --Admin/moderation---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
