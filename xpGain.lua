@@ -99,6 +99,13 @@ function xpGain.Initialize(eventStatus,pid)
     Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(1)
 end
 
+--Command to show level progress
+function xpGain.ShowLevelStatus(pid,cmd)
+    tes3mp.MessageBox(pid, -1, "Level Status: " .. color.White .. Players[pid].data.customVariables.xpTotal .. "/" .. Players[pid].data.customVariables.xpLevelCost)
+end
+
+customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
+
 customEventHooks.registerHandler("OnWorldKillCount",xpGain.OnKill)
 --customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.Initialize)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)

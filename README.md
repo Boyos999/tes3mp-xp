@@ -4,6 +4,7 @@
 * Fully re-implemented leveling system
 * Extensive configs to customize derived stats, xp gain on kill, and xp cost to level
 * Experience gain on kill
+* `/xpstatus` to show progress to next level
 * Use `xpLeveling.LevelUpPlayer(pid)` to level up a player `/forcelevelup <pid>`
 * Use `xpLeveling.LevelUpMenu(pid)` to open the level up menu `/levelup`
 
@@ -21,3 +22,4 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 * Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works
 * level xp cost formula sucks
 * Has not been balance tested
+* Skill books/Trainers will show messages indicating skills leveling up while not leveling skills
