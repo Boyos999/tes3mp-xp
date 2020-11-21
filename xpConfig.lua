@@ -21,8 +21,8 @@ xpConfig.xpMessage = "You gained XP: "
 ---------------------------------------------------------------------------------------------------------------
 
 --Level XP Cost = baseLvlCost + (playerLevel^lvlCostFactor)*lvlCostMult
-xpConfig.baseLvlCost = 200
-xpConfig.lvlCostMult = 20
+xpConfig.baseLvlCost = 500
+xpConfig.lvlCostMult = 30
 xpConfig.lvlCostFactor = 1.6
 
 --Limits on min, max cost of levelup. Use: {0,-1} for no limits
