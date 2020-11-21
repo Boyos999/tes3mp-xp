@@ -98,8 +98,15 @@ function xpGain.OnJournal(eventStatus,pid)
             local index = tes3mp.GetJournalItemIndex(pid, i)
             local quest = tes3mp.GetJournalItemQuest(pid, i)
             if xpGain.IsQuestEnd(quest,index) then
-                local experience = xpGain.GetQuestXp(pid,quest)
-                xpGain.GiveXp(pid,experience)
+                if config.shareJournal then
+                    for pid,player in pairs(Players) do
+                        local experience = xpGain.GetQuestXp(pid,quest)
+                        xpGain.GiveXp(pid,experience)
+                    end
+                else
+                    local experience = xpGain.GetQuestXp(pid,quest)
+                    xpGain.GiveXp(pid,experience)
+                end
             end
         end
     end
