@@ -148,5 +148,4 @@ customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
 customEventHooks.registerHandler("OnWorldKillCount",xpGain.OnKill)
---customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.Initialize)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)

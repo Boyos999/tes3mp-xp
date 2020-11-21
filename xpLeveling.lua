@@ -614,16 +614,6 @@ function xpLeveling.SkillBlocker(eventStatus,pid)
 end
 
 --Don't let players level
-function xpLeveling.AttributeBlocker(eventStatus,pid)
-    if Players[pid].data.customVariables.xpStatus == 1 then
-        Players[pid]:LoadAttributes()
-        return customEventHooks.makeEventStatus(false,false)
-    else
-        return customEventHooks.makeEventStatus(nil,nil)
-    end
-end
-
---Don't let players level
 function xpLeveling.LevelBlocker(eventStatus,pid)
     if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadLevel()
@@ -678,7 +668,6 @@ end
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
 
---customEventHooks.registerValidator("OnPlayerAttribute",xpLeveling.AttributeBlocker)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
 customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
