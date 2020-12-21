@@ -4,6 +4,9 @@ xpConfig = {}
 --Kill XP Gain Options-----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--Kill XP given to all online players (for if you're playing coop without any party script)
+xpConfig.globalKillXp = false
+
 --XP Gained = baseKillXp + (creatureLevel^lvlKillXpFactor)*lvlKillXp
 xpConfig.baseKillXp = 20
 xpConfig.lvlKillXp = 10
