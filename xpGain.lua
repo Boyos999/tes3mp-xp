@@ -102,8 +102,7 @@ end
 
 --Function to hook into OnActorDeath handler
 function xpGain.OnKill(eventStatus,pid,cellDescription)
-    if eventStatus.validDefaultHandler then 
-        --tes3mp.ReadReceivedActorList()
+    if eventStatus.validDefaultHandler then
         local actorListSize = tes3mp.GetActorListSize()
 
         if actorListSize == 0 then
