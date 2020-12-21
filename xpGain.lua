@@ -72,10 +72,23 @@ end
 --Function to hook into OnWorldKillCount handler
 function xpGain.OnKill(eventStatus,pid)
     if eventStatus.validDefaultHandler then
-        for i=0, tes3mp.GetKillChangesSize(pid) - 1 do
-            refid = tes3mp.GetKillRefId(pid, i)
+    
+        tes3mp.ReadReceivedActorList()
+        local actorListSize = tes3mp.GetActorListSize()
+
+        if actorListSize == 0 then
+            return
+        end
+    
+        for i=0, actorListSize - 1 do
+            refid = tes3mp.GetActorRefId(pid, i)
             local experience = xpGain.GetKillXp(refid)
-            xpGain.GiveXp(pid,experience)
+            tes3mp.LogMessage(enumerations.log.INFO, "Killed index: " ..i)
+            if tes3mp.DoesActorHavePlayerKiller(i) then
+                local killerPid = tes3mp.GetActorKillerPid(i)
+                tes3mp.LogMessage(enumerations.log.INFO, "Killer Pid: " ..killerPid)
+                xpGain.GiveXp(killerPid,experience)
+            end
         end
     end
 end
@@ -147,5 +160,5 @@ end
 customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
-customEventHooks.registerHandler("OnWorldKillCount",xpGain.OnKill)
+customEventHooks.registerHandler("OnActorDeath",xpGain.OnKill)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
