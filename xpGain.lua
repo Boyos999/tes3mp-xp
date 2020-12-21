@@ -14,7 +14,7 @@ function xpGain.GiveXp(pid,experience)
     xpGain.OnXpGain(pid,experience)
 end
 
---Function to get the ammount of xp a refid is worth
+--Function to get the amount of xp a refid is worth
 function xpGain.GetKillXp(refid)
     local refidLevel = xpGain.GetTargetLevel(refid)
     local experience = 0
