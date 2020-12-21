@@ -29,7 +29,6 @@ xpConfig.lvlCostMult = 30
 xpConfig.lvlCostFactor = 1.6
 
 --Limits on min, max cost of levelup. Use: {0,-1} for no limits
-xpConfig.lvlCostLimitEnable = false
 xpConfig.lvlCostLimit = {0,35} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
 
 ---------------------------------------------------------------------------------------------------------------

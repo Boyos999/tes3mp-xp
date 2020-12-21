@@ -170,12 +170,10 @@ end
 --Function to calculate level cost
 function xpGain.GetLevelCost(level)
     local tempLevel = level
-    if xpConfig.lvlCostLimitEnable then
-        if tempLevel <= xpConfig.lvlCostLimit[1] then
-            tempLevel = xpConfig.lvlCostLimit[1]
-        elseif tempLevel >= xpConfig.lvlCostLimit[2] then
-            tempLevel = xpConfig.lvlCostLimit[2]
-        end
+    if tempLevel <= xpConfig.lvlCostLimit[1] then
+        tempLevel = xpConfig.lvlCostLimit[1]
+    elseif tempLevel >= xpConfig.lvlCostLimit[2] and xpConfig.lvlCostLimit[2] ~= -1 then
+        tempLevel = xpConfig.lvlCostLimit[2]
     end
     return math.floor((xpConfig.baseLvlCost+(tempLevel^xpConfig.lvlCostFactor)*xpConfig.lvlCostMult))
 end
