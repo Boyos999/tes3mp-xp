@@ -194,6 +194,7 @@ function xpGain.Initialize(eventStatus,pid)
     Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(1)
 end
 
+--Function to handle xpoverride chat command
 function xpGain.AddOverride(pid,cmd)
     if Players[pid].data.settings.staffRank >= xpConfig.minAddOverrideRank then
         if cmd[2] ~= nil then
