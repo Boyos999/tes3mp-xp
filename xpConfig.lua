@@ -96,6 +96,7 @@ xpConfig.attributeLvlsPerAttr = 5
 ---------------------------------------------------------------------------------------------------------------
 
 --Use vanilla magicka & fatigue calculations (setting to false will cause weird issues)
+--Note: all Health settings are safe
 xpConfig.vanillaLeveling = true
 
 --Magicka
