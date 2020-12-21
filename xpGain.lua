@@ -6,6 +6,7 @@ require("custom.tes3mp-xp.xpConfig")
 local creaturesTable = jsonInterface.load("custom/tes3mp-xp/creature_levels.json")
 local npcTable = jsonInterface.load("custom/tes3mp-xp/npc_levels.json")
 local questTable = jsonInterface.load("custom/tes3mp-xp/quest_ends.json")
+local xpOverride = jsonInterface.load("custom/tes3mp-xp/xp_override.json")
 
 --Function to give player xp
 function xpGain.GiveXp(pid,experience)
@@ -16,7 +17,14 @@ end
 --Function to get the ammount of xp a refid is worth
 function xpGain.GetKillXp(refid)
     local refidLevel = xpGain.GetTargetLevel(refid)
-    local experience =  xpConfig.baseKillXp + (refidLevel^xpConfig.lvlKillXpFactor)*xpConfig.lvlKillXp
+    local experience = 0
+    if xpOverride.actor[refid] ~= nil then
+        if xpOverride.actor[refid].xp ~= nil then
+            experience = xpOverride.actor[refid].xp
+        end
+    else
+        experience = xpConfig.baseKillXp + (refidLevel^xpConfig.lvlKillXpFactor)*xpConfig.lvlKillXp
+    end
     if xpConfig.killVarianceEnable then
         randVar = math.random(0,xpConfig.killVariance[1]+xpConfig.killVariance[2]) - xpConfig.killVariance[1]
         experience = experience + randVar
@@ -25,15 +33,40 @@ function xpGain.GetKillXp(refid)
 end
 
 --Function to get the amount of xp a quest is worth
-function xpGain.GetQuestXp(pid,quest)
-    local questXp = xpConfig.baseQuestXp + xpGain.GetPlayerLevel(pid)*xpConfig.questXpPerPlayerLvl
+function xpGain.GetQuestXp(pid,quest,index)
+    local questXp = xpConfig.baseQuestXp
+    local questLvl = xpGain.GetQuestLvl(pid,quest,index)
+    
+    if xpOverride.quest[quest.."_"..index] ~= nil then
+        if xpOverride.quest[quest.."_"..index].xp ~= nil then
+            questXp = xpOverride.quest[quest.."_"..index].xp
+            return questXp
+        end
+    end
+    
+    questXp = xpConfig.baseQuestXp + questLvl*xpConfig.questXpPerPlayerLvl
+    
     return questXp
+end
+
+--Function to get the level used in the quest xp calculation
+function xpGain.GetQuestLvl(pid,quest,index)
+    local questLvl = 1
+    
+    if xpOverride.quest[quest.."_"..index] ~= nil then
+        if xpOverride.quest[quest.."_"..index].level ~= nil then
+            return xpOverride.quest[quest.."_"..index].level
+        end
+    end
+    
+    return xpGain.GetPlayerLevel(pid) 
 end
 
 --Function to get the killed npc/creature's level
 function xpGain.GetTargetLevel(refid)
     local level = 1
-    local records = { RecordStores["npc"].data.generatedRecords,
+    local records = { xpOverride.actor,
+                      RecordStores["npc"].data.generatedRecords,
                       RecordStores["creature"].data.generatedRecords,
                       RecordStores["npc"].data.permanentRecords,
                       RecordStores["creature"].data.permanentRecords,
@@ -61,10 +94,8 @@ end
 
 --Function to determine if a given quest stage is the end of a quest
 function xpGain.IsQuestEnd(quest,index)
-    if questTable[quest] ~= nil then
-        if questTable[quest].index == index then
-            return true
-        end
+    if questTable[quest.."_"..index] ~= nil then
+        return true
     end
     return false
 end
@@ -121,11 +152,11 @@ function xpGain.OnJournal(eventStatus,pid)
             if xpGain.IsQuestEnd(quest,index) then
                 if config.shareJournal then
                     for pid,player in pairs(Players) do
-                        local experience = xpGain.GetQuestXp(pid,quest)
+                        local experience = xpGain.GetQuestXp(pid,quest,index)
                         xpGain.GiveXp(pid,experience)
                     end
                 else
-                    local experience = xpGain.GetQuestXp(pid,quest)
+                    local experience = xpGain.GetQuestXp(pid,quest,index)
                     xpGain.GiveXp(pid,experience)
                 end
             end

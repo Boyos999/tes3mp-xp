@@ -1,0 +1,13 @@
+{
+    "actor": {
+        "dead_rat": {
+            "level":5,
+            "xp":12
+        }
+    },
+    "quest": {
+        "c3_destorydagoth_50": {
+            "level": 100
+        }
+    }
+}
