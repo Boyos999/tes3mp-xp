@@ -70,9 +70,9 @@ function xpGain.IsQuestEnd(quest,index)
 end
 
 --Function to hook into OnActorDeath handler
-function xpGain.OnKill(eventStatus)
+function xpGain.OnKill(eventStatus,pid,cellDescription)
     if eventStatus.validDefaultHandler then 
-        tes3mp.ReadReceivedActorList()
+        --tes3mp.ReadReceivedActorList()
         local actorListSize = tes3mp.GetActorListSize()
 
         if actorListSize == 0 then
@@ -80,7 +80,11 @@ function xpGain.OnKill(eventStatus)
         end
     
         for i=0, actorListSize - 1 do
-            refid = tes3mp.GetActorRefId(i)
+            local uniqueIndex = tes3mp.GetActorRefNum(i) .. "-" .. tes3mp.GetActorMpNum(i)
+            local refid
+            if LoadedCells[cellDescription].data.objectData[uniqueIndex] ~= nil then
+                refid = LoadedCells[cellDescription].data.objectData[uniqueIndex].refId
+            end
             local experience = xpGain.GetKillXp(refid)
             if tes3mp.DoesActorHavePlayerKiller(i) then
                 local killerPid = tes3mp.GetActorKillerPid(i)
@@ -89,6 +93,7 @@ function xpGain.OnKill(eventStatus)
                         xpGain.GiveXp(pid,experience)
                     end
                 else
+                    tes3mp.LogMessage(enumerations.log.INFO, "Player at pid: (" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                     xpGain.GiveXp(killerPid,experience)
                 end
             end
