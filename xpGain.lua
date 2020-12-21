@@ -121,10 +121,11 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                 local killerPid = tes3mp.GetActorKillerPid(i)
                 if xpConfig.globalKillXp then
                     for pid,player in pairs(Players) do
+                        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                         xpGain.GiveXp(pid,experience)
                     end
                 else
-                    tes3mp.LogMessage(enumerations.log.INFO, "Player at pid: (" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                     xpGain.GiveXp(killerPid,experience)
                 end
             end
@@ -153,10 +154,12 @@ function xpGain.OnJournal(eventStatus,pid)
                 if config.shareJournal then
                     for pid,player in pairs(Players) do
                         local experience = xpGain.GetQuestXp(pid,quest,index)
+                        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                         xpGain.GiveXp(pid,experience)
                     end
                 else
                     local experience = xpGain.GetQuestXp(pid,quest,index)
+                    tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                     xpGain.GiveXp(pid,experience)
                 end
             end
