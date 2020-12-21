@@ -69,7 +69,7 @@ function xpGain.IsQuestEnd(quest,index)
     return false
 end
 
---Function to hook into OnWorldKillCount handler
+--Function to hook into OnActorDeath handler
 function xpGain.OnKill(eventStatus,pid)
     if eventStatus.validDefaultHandler then
     
