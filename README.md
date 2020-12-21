@@ -23,6 +23,8 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 * This json can be used to override level/xp values per creature/npc refid or quest
 * Quests entries should be in the format of `<quest>_<index>`
 * The "xp" value will be prioritized over xp calucated from level
+* Chat command `/xpoverride <type> <id> <level/xp> <value>`
+  * Requires staff rank 2 by default, use `/xpoverride help` for more info on usage
 
 # Known Issues
 * Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works

@@ -600,6 +600,8 @@ end
 function xpLeveling.ForceLevel(pid,cmd)
     if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
         xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
+    elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank)
+        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the forcelevelup command without permission")
     end
 end
 

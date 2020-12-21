@@ -194,11 +194,52 @@ function xpGain.Initialize(eventStatus,pid)
     Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(1)
 end
 
+function xpGain.AddOverride(pid,cmd)
+    if Players[pid].data.settings.staffRank >= xpConfig.minAddOverrideRank then
+        if cmd[2] ~= nil then
+            if cmd[2] == "help" then
+                tes3mp.SendMessage(pid, color.Purple .. "Usage: "..color.White.."/xpoverride <type> <id> <level/xp> <value>\n" ..
+                                       color.Purple .. "type: "..color.White.."actor,a,quest,q\n" ..
+                                       color.Purple .. "id: "..color.White.."actor refid, or quest in the format of quest_index\n" ..
+                                       color.Purple .. "level/xp: "..color.White.."level,xp\n" ..
+                                       color.Purple .. "value: "..color.White.."integer value\n")
+                return
+            elseif cmd[2] == "actor" or cmd[2] == "a" or cmd[2] == "quest" or cmd[2] == "q" then
+                local recordType = cmd[2]
+                if recordType == "a" then
+                    recordType = "actor"
+                elseif recordType == "q" then
+                    recordType = "quest"
+                end
+                if cmd[3] ~= nil and (cmd[4] == "level" or cmd[4] == "xp") and cmd[5] ~= nil then
+                    local id = cmd[3]
+                    local stat = cmd[4]
+                    local value = math.floor(tonumber(cmd[5]))
+                    if xpOverride[recordType][id] == nil then
+                        xpOverride[recordType][id] = {}
+                    end
+                    xpOverride[recordType][id][stat] = value
+                    if xpOverride ~= nil then
+                        jsonInterface.save("custom/tes3mp-xp/xp_override.json",xpOverride)
+                    end
+                    tes3mp.SendMessage(pid, color.Green .. "Override saved for: "..id .."\n")
+                    tes3mp.LogMessage(enumerations.log.INFO, "XP Override saved for "..recordType.." "..id.." "..stat.." "..value.." by Player: "..Players[pid].name.."(" ..pid..")")
+                    return
+                end
+            end
+        end
+        tes3mp.SendMessage(pid, color.Red .."Proper usage of xpoverride: "..color.White.."/xpoverride <type> <id> <level/xp> <value>\nUse /xpoverride help for more info\n")
+    else
+        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the xpoverride command without permission")
+    end
+end
+
 --Command to show level progress
 function xpGain.ShowLevelStatus(pid,cmd)
     tes3mp.MessageBox(pid, -1, "Level Status: " .. color.White .. Players[pid].data.customVariables.xpTotal .. "/" .. Players[pid].data.customVariables.xpLevelCost)
 end
 
+customCommandHooks.registerCommand("xpoverride",xpGain.AddOverride)
 customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
