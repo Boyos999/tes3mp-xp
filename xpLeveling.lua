@@ -430,6 +430,13 @@ function xpLeveling.GetMaxAttrUps(pid,attr)
         maxLevels = playerAttrPts
     end
     
+    --Check if we're hitting a per-attr cap
+    if xpConfig.perAttrCaps[attr] ~= nil then
+        if(maxLevels + playerAttrLevel) > xpConfig.perAttrCaps[attr] then
+            maxLevels = (xpConfig.perAttrCaps[attr] - playerAttrLevel)
+        end
+    end
+    
     --Check if we're hitting the attribute cap
     if (maxLevels + playerAttrLevel) > xpConfig.attributeCap then
         maxLevels = (xpConfig.attributeCap - playerAttrLevel)
@@ -466,11 +473,19 @@ function xpLeveling.GetMaxSkillUps(pid,skill)
             end
         end
     end
-      
+    
+    --Check if we're hitting a per-skill cap
+    if xpConfig.perSkillCaps[skill] ~= nil then
+        if (playerSkillLevel + maxLevels) > xpConfig.perSkillCaps[skill] then
+            maxLevels = (xpConfig.perSkillCaps[skill] - playerSkillLevel)
+        end
+    end
+    
     --Check if we're hitting skill cap
     if (playerSkillLevel + maxLevels) > xpConfig.skillCap then
         maxLevels = (xpConfig.skillCap - playerSkillLevel)
     end
+    
     return maxLevels
 end
 

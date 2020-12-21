@@ -55,6 +55,19 @@ xpConfig.skillCap = 100
 xpConfig.attributeCap = 100
 xpConfig.levelCap = 100
 
+xpConfig.perSkillCaps = {}
+xpConfig.perAttrCaps = {}
+
+--[[ Example Usage
+xpConfig.perSkillCaps = {
+    mercantile = 50,
+    enchant = 75
+}
+xpConfig.perAttrCaps = {
+    endurance = 50
+}
+]]--
+
 ---------------------------------------------------------------------------------------------------------------
 --Leveling settings--------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
