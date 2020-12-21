@@ -21,7 +21,7 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 
 # xp_override.json
 * This json can be used to override level/xp values per creature/npc refid or quest
-* Quests should be in the format of <quest>_<index>
+* Quests entries should be in the format of `<quest>_<index>`
 * The "xp" value will be prioritized over xp calucated from level
 
 # Known Issues
