@@ -45,6 +45,7 @@ xpConfig.questXpPerPlayerLvl = 25
 --Minimum rank require to use forcelevelup <pid> chat command
 xpConfig.minForceLevelRank = 2
 xpConfig.minAddOverrideRank = 2
+xpConfig.minGiveXpRank = 2
 
 ---------------------------------------------------------------------------------------------------------------
 --Caps---------------------------------------------------------------------------------------------------------

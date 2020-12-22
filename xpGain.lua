@@ -201,6 +201,21 @@ function xpGain.Initialize(eventStatus,pid)
     Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(1)
 end
 
+--Function to handle givexp admin command
+function xpGain.GiveXpCommand(pid,cmd)
+    if Players[pid].data.settings.staffRank >= xpConfig.minGiveXpRank then
+        if cmd[2] ~= nil and cmd[3] ~= nil then
+            if Players[tonumber(cmd[2])] ~= nil then
+                xpGain.GiveXp(tonumber(cmd[2]),math.floor(tonumber(cmd[3])))
+                return
+            end
+        end
+        tes3mp.SendMessage(pid, color.Red .."Proper usage of givexp: "..color.White.."/givexp <pid> <integer>\n")
+    else
+        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the givexp command without permission")
+    end
+end
+
 --Function to handle xpoverride chat command
 function xpGain.AddOverride(pid,cmd)
     if Players[pid].data.settings.staffRank >= xpConfig.minAddOverrideRank then
@@ -247,6 +262,7 @@ function xpGain.ShowLevelStatus(pid,cmd)
     tes3mp.MessageBox(pid, -1, "Level Status: " .. color.White .. Players[pid].data.customVariables.xpTotal .. "/" .. Players[pid].data.customVariables.xpLevelCost)
 end
 
+customCommandHooks.registerCommand("givexp",xpGain.GiveXpCommand)
 customCommandHooks.registerCommand("xpoverride",xpGain.AddOverride)
 customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 
