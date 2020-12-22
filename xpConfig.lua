@@ -107,6 +107,19 @@ xpConfig.attributeLvlsPerAttr = 5
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--Health
+--Re-calculate hp based on attribute values & level each level
+xpConfig.healthRetroactive = false
+--Attributes used to calculate base health
+xpConfig.healthAttrs = {}
+--Attributes used to calculate base starting health
+xpConfig.healthBaseStartAttrs = {Strength = 0.5, Endurance = 0.5}
+--Attributes used to calculate health gain per level
+xpConfig.healthPerLevelMult = {Endurance = 0.1}
+--Additional health
+xpConfig.healthBaseStartAdd = 0
+
+--WARNING: Touching the settings below may break things
 --Use vanilla magicka & fatigue calculations (setting to false will cause weird issues)
 --Note: all Health settings are safe
 xpConfig.vanillaLeveling = true
@@ -120,18 +133,6 @@ xpConfig.magickaAttrs = {Intelligence = 1}
 xpConfig.magickaPerLevelMult = {}
 --Additional magicka
 xpConfig.magickaStartAdd = 0
-
---Health
---Re-calculate hp based on attribute values & level each level
-xpConfig.healthRetroactive = false
---Attributes used to calculate base health
-xpConfig.healthAttrs = {}
---Attributes used to calculate base starting health
-xpConfig.healthBaseStartAttrs = {Strength = 0.5, Endurance = 0.5}
---Attributes used to calculate health gain per level
-xpConfig.healthPerLevelMult = {Endurance = 0.1}
---Additional health
-xpConfig.healthBaseStartAdd = 0
 
 --Fatigue
 --Re-calculate fatigue based on attribute values & level each level

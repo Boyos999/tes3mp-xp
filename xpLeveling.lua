@@ -264,14 +264,18 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
-    --Calculate updated stats
-    xpLeveling.CalcLevelUpStats(pid)
+    
     
     --Send updated data to the player
     Players[pid]:LoadAttributes()
+    Players[pid]:SaveStatsDynamic()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
+    
+    --Calculate updated stats
+    xpLeveling.CalcLevelUpStats(pid)
     Players[pid]:LoadStatsDynamic()
+    
     tes3mp.LogMessage(enumerations.log.INFO,"Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
 end
 
@@ -310,10 +314,14 @@ function xpLeveling.CalcLevelUpStats(pid)
         --Update Player magicka
         Players[pid].data.stats.magickaBase = tempMagicka
         Players[pid].data.stats.magickaCurrent = tempMagicka
-        --Update Player fatigue
-        Players[pid].data.stats.fatigueBase = tempFatigue
-        Players[pid].data.stats.fatigueCurrent = tempFatigue
+        
+    else
+        tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
     end
+    
+    --Update Player fatigue
+    Players[pid].data.stats.fatigueBase = tempFatigue
+    Players[pid].data.stats.fatigueCurrent = tempFatigue
     
     --Update player health
     Players[pid].data.stats.healthBase = tempHealth
@@ -615,7 +623,7 @@ end
 function xpLeveling.ForceLevel(pid,cmd)
     if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
         xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
-    elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank)
+    elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank) then
         tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the forcelevelup command without permission")
     end
 end
