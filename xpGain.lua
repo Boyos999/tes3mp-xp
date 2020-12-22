@@ -136,10 +136,20 @@ end
 function xpGain.OnXpGain(pid,experience)
     tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience)
     if xpGain.CheckLevelUp(pid) then
-        xpLeveling.LevelUpPlayer(pid)
-        Players[pid].data.customVariables.xpTotal = Players[pid].data.customVariables.xpTotal-Players[pid].data.customVariables.xpLevelCost
-        local level = xpGain.GetPlayerLevel(pid) + Players[pid].data.customVariables.xpLevelUps
-        Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(level)
+        xpGain.GiveLevelUp(pid)
+    end
+end
+
+--Function to handle giving the player a level up
+function xpGain.GiveLevelUp(pid)
+    xpLeveling.LevelUpPlayer(pid)
+    
+    Players[pid].data.customVariables.xpTotal = Players[pid].data.customVariables.xpTotal-Players[pid].data.customVariables.xpLevelCost
+    local level = xpGain.GetPlayerLevel(pid) + Players[pid].data.customVariables.xpLevelUps
+    Players[pid].data.customVariables.xpLevelCost = xpGain.GetLevelCost(level)
+    
+    if xpGain.CheckLevelUp(pid) then
+        xpGain.GiveLevelUp(pid)
     end
 end
 
