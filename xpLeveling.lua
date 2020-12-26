@@ -369,7 +369,7 @@ function xpLeveling.CalcFlatStat(pid,multTable)
     return tempStat
 end
 
---Apply attr ups and re-calc stats
+--Apply attr ups
 function xpLeveling.LevelUpAttrs(pid,attrs)
     for attr,value in pairs(attrs) do
         Players[pid].data.attributes[attr].base = Players[pid].data.attributes[attr].base + value
@@ -420,7 +420,7 @@ end
 
 --Calculate them maximum number of times a player can level an attribute
 function xpLeveling.GetMaxAttrUps(pid,attr)
-    --Remove pending poitns from the available pool
+    --Remove pending points from the available pool
     local playerAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     local maxLevels = xpConfig.attributeLvlsPerAttr
     local playerAttrLevel = Players[pid].data.attributes[attr].base
