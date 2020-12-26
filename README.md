@@ -5,6 +5,7 @@
 * Extensive configs to customize derived stats, xp gain, and xp cost to level
 * Experience gain on kill
 * Experience gain on quest completion
+  * quest xp is based on player level
 * Configurable attribute/skill/level caps
   * Includes per-attribute and per-skill caps
 
