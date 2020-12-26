@@ -264,8 +264,6 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
-    
-    
     --Send updated data to the player
     Players[pid]:LoadAttributes()
     Players[pid]:SaveStatsDynamic()
@@ -326,8 +324,7 @@ function xpLeveling.CalcLevelUpStats(pid)
     --Update player health
     Players[pid].data.stats.healthBase = tempHealth
     Players[pid].data.stats.healthCurrent = tempHealth
-    
-    
+
 end
 
 --Function to calculate a Non-Retroactive stat

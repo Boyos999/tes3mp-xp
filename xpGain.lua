@@ -51,8 +51,6 @@ end
 
 --Function to get the level used in the quest xp calculation
 function xpGain.GetQuestLvl(pid,quest,index)
-    local questLvl = 1
-    
     if xpOverride.quest[quest.."_"..index] ~= nil then
         if xpOverride.quest[quest.."_"..index].level ~= nil then
             return xpOverride.quest[quest.."_"..index].level
@@ -269,3 +267,5 @@ customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
 customEventHooks.registerHandler("OnActorDeath",xpGain.OnKill)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
+
+return xpGain

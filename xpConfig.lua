@@ -144,3 +144,5 @@ xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1
 xpConfig.fatiguePerLevelMult = {}
 --AdditionalFatigue
 xpConfig.fatigueStartAdd = 0
+
+return xpConfig
