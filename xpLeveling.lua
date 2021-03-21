@@ -284,38 +284,8 @@ function xpLeveling.CalcLevelUpStats(pid)
     local tempMagicka = 0
     local tempGain = 0
     --health
-    if xpConfig.healthRetroactive then
-        tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
-    else
-        tempHealth,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
-        tempHealth = tempHealth + Players[pid].data.customVariables.xpHealthGain
-        Players[pid].data.customVariables.xpHealthGain = Players[pid].data.customVariables.xpHealthGain + tempGain
-    end
-    if xpConfig.vanillaLeveling ~= true then
-        --magicka
-        if xpConfig.magickaRetroactive then
-            tempMagicka = xpLeveling.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,0)
-        else
-            tempMagicka,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
-            tempMagicka = tempMagicka + tempGain + Players[pid].data.customVariables.xpMagickaGain
-            Players[pid].data.customVariables.xpMagickaGain = Players[pid].data.customVariables.xpMagickaGain + tempGain
-        end
-        --fatigue
-        if xpConfig.fatigueRetroactive then
-            tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
-        else
-            tempFatigue,tempGain = xpLeveling.CalcNonRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
-            tempFatigue = tempFatigue + tempGain + Players[pid].data.customVariables.xpFatigueGain
-            Players[pid].data.customVariables.xpFatigueGain = Players[pid].data.customVariables.xpFatigueGain + tempGain
-        end
-        
-        --Update Player magicka
-        Players[pid].data.stats.magickaBase = tempMagicka
-        Players[pid].data.stats.magickaCurrent = tempMagicka
-        
-    else
-        tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
-    end
+    tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+    tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
     
     --Update Player fatigue
     Players[pid].data.stats.fatigueBase = tempFatigue
@@ -325,21 +295,6 @@ function xpLeveling.CalcLevelUpStats(pid)
     Players[pid].data.stats.healthBase = tempHealth
     Players[pid].data.stats.healthCurrent = tempHealth
 
-end
-
---Function to calculate a Non-Retroactive stat
-function xpLeveling.CalcNonRetroStat(pid,baseTable,multTable,add)
-    local tempStat = 0
-    local levelGain = 0
-    
-    if Players[pid].data.stats.level > 1 then
-        levelGain = xpLeveling.CalcFlatStat(pid,multTable)
-    end
-    
-    tempStat = (xpLeveling.CalcFlatStat(pid,baseTable)
-    + levelGain
-    + add)
-    return tempStat,levelGain
 end
 
 --Function to calculate a Retroactive stat
@@ -669,18 +624,9 @@ function xpLeveling.ActivateBlocker(eventStatus, pid)
     end
 end
 
---Save player's starting health for retroactive endurance
+--Save player's starting health
 function xpLeveling.UpdateStartingStats(eventStatus,pid)
     if eventStatus.validDefaultHandler then
-        if xpConfig.magickaRetroactive ~= true then
-            Players[pid].data.customVariables.xpMagickaGain = 0
-        end
-        if xpConfig.healthRetroactive ~= true then
-            Players[pid].data.customVariables.xpHealthGain = 0
-        end
-        if xpConfig.fatigueRetroactive ~= true then
-            Players[pid].data.customVariables.xpFatigueGain = 0
-        end
         Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
         xpLeveling.CalcLevelUpStats(pid)
         Players[pid]:LoadStatsDynamic()
