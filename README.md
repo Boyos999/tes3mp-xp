@@ -6,6 +6,8 @@
 * Experience gain on kill
 * Experience gain on quest completion
   * quest xp is based on player level
+* Experience gain on reading books
+  * Only skill books
 * Configurable attribute/skill/level caps
   * Includes per-attribute and per-skill caps
 
@@ -35,8 +37,6 @@ xpGain = require("custom.tes3mp-xp.xpGain")
   * `/givexp <pid> <amount>` to give a player xp
 
 # Known Issues
-* Using `xpConfig.vanillaLeveling = false` will cause several weird issues due to how morrowind works
-  * `xpConfig.healthRetroactive = true` and other health settings are safe and can be used with vanillaLeveling = false
 * Level xp cost formula has had very little testing and may result in strange leveling rates
 * Skill books/Trainers will show messages indicating skills leveling up while not leveling skills
 * Using with existing characters will likely cause issues

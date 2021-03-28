@@ -7,6 +7,7 @@ local creaturesTable = jsonInterface.load("custom/tes3mp-xp/creature_levels.json
 local npcTable = jsonInterface.load("custom/tes3mp-xp/npc_levels.json")
 local questTable = jsonInterface.load("custom/tes3mp-xp/quest_ends.json")
 local xpOverride = jsonInterface.load("custom/tes3mp-xp/xp_override.json")
+local bookTable = jsonInterface.load("custom/tes3mp-xp/vanilla_books.json")
 
 --Function to give player xp
 function xpGain.GiveXp(pid,experience)
@@ -47,6 +48,12 @@ function xpGain.GetQuestXp(pid,quest,index)
     questXp = xpConfig.baseQuestXp + questLvl*xpConfig.questXpPerPlayerLvl
     
     return questXp
+end
+
+--Function to calculate how much xp a player gets from reading a book
+function xpGain.GetBookXp(pid,bookId)
+    local bookXp = xpConfig.bookXpBase + xpConfig.bookXpPerValue*bookTable[bookId].value
+    return bookXp
 end
 
 --Function to get the level used in the quest xp calculation
@@ -125,6 +132,22 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                     tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                     xpGain.GiveXp(killerPid,experience)
                 end
+            end
+        end
+    end
+end
+
+--Function to hook into OnPlayerBook validator
+function xpGain.OnBook(eventStatus,pid)
+    for index = 0, tes3mp.GetBookChangesSize(pid) - 1 do
+        local bookId = tes3mp.GetBookId(pid, index)
+
+        -- Only give xp for books the player hasn't read
+        if not tableHelper.containsValue(Players[pid].data.books, bookId, false) then
+            if bookTable[bookId] ~= nil then
+                local experience = xpGain.GetBookXp(pid,bookId)
+                tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for reading: "..bookId)
+                xpGain.GiveXp(pid,experience)
             end
         end
     end
@@ -267,5 +290,7 @@ customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
 customEventHooks.registerHandler("OnActorDeath",xpGain.OnKill)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
+
+customEventHooks.registerValidator("OnPlayerBook",xpGain.OnBook)
 
 return xpGain
