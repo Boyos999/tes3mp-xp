@@ -52,7 +52,7 @@ end
 
 --Function to calculate how much xp a player gets from reading a book
 function xpGain.GetBookXp(pid,bookId)
-    local bookXp = xpConfig.bookXpBase + xpConfig.bookXpPerValue*bookTable[bookId].value
+    local bookXp = math.floor(xpConfig.bookXpBase + xpConfig.bookXpPerValue*bookTable[bookId].value)
     return bookXp
 end
 
