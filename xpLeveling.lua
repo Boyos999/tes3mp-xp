@@ -241,6 +241,38 @@ function xpLeveling.GenerateRespecConfirmation(pid)
     tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generated Respec Menu for pid: " ..pid)
 end
 
+--Create Journal menu for the player
+function xpLeveling.GenerateJournalMenu(pid)
+    local journalText = "Leveling Summary\n---------------\n"
+    local canLevel = xpLeveling.canLevelUp(pid)
+    local canRespec = xpLeveling.canRespec(pid)
+    
+    for _,entry in pairs(xpConfig.xpJournalDisplay) do
+        journalText = journalText .. entry.name .. ": " .. Players[pid].data.customVariables[entry.var] .. "\n"
+    end
+    
+    Menus["xpJournal"..pid] = {
+        text = journalText,
+        buttons = {}
+    }
+    if canLevel then
+        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpLevel"..pid,"Level Up","GenerateLevelMenu",{menuHelper.variables.currentPid()})
+        table.insert(Menus["xpJournal"..pid].buttons,tempButton)
+    end
+    
+    if canRespec then
+        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpRespec"..pid,"Respec","GenerateRespecConfirmation",{menuHelper.variables.currentPid()})
+        table.insert(Menus["xpJournal"..pid].buttons,tempButton)
+    end
+    
+    local exitButton = {
+        caption = color.Red .. "Exit",
+        destinations = {menuHelper.destinations.setDefault(nil)}
+    }
+    table.insert(Menus["xpJournal"..pid].buttons,exitButton)
+    
+end
+
 --Perform Level Respec
 function xpLeveling.RespecRefund(pid)
     local levelRefund = Players[pid].data.stats.level-1
@@ -630,6 +662,72 @@ function xpLeveling.GetIsCustomClass(pid)
     end
 end
 
+function xpLeveling.canLevelUp(pid)
+    if Players[pid].data.customVariables.xpLevelUps > 0 then
+        return true
+    else
+        return false
+    end
+end
+
+function xpLeveling.canRespec(pid)
+    if Players[pid].data.stats.level > 1 and xpConfig.enableRespec then
+        return true
+    else
+        return false
+    end
+end
+
+--Function to stop a player from using a journal normally
+function xpLeveling.UseJournalValidator(eventStatus,pid,refid)
+    if refid == xpConfig.xpJournalId then
+        return customEventHooks.makeEventStatus(false,true)
+    else
+        return customEventHooks.makeEventStatus(nil,nil)
+    end
+end
+
+--Function called when a player uses their journal
+function xpLeveling.UseJournalHandler(eventStatus, pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal used")
+    if eventStatus.validCustomHandler ~= false then
+        xpLeveling.GenerateJournalMenu(pid)
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal menu generated")
+        Players[pid].currentCustomMenu = "xpJournal" .. pid
+        menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    end
+end
+
+--Function to give player a "journal" that can be used
+--to perform leveling actions
+function xpLeveling.AddLevelJournal(eventStatus, pid)
+    if eventStatus.validDefaultHandler and xpConfig.xpJournalEnable then
+        local bookRecords = RecordStores["book"]
+        local bookId = xpConfig.xpJournalId
+        
+        if bookRecords.data.permanentRecords[bookId] == nil then
+            local bookRecord = {}
+            bookRecord["name"] = xpConfig.xpJournalName
+            bookRecord["model"] = xpConfig.xpJournalModel
+            bookRecord["icon"] = xpConfig.xpJournalIcon
+            bookRecord["skillId"] = "-1"
+            
+            bookRecords.data.permanentRecords[bookId] = bookRecord
+            bookRecords:Save()
+            
+            tes3mp.SetRecordType(enumerations.recordType[string.upper("book")])
+            packetBuilder.AddBookRecord(bookId, bookRecord)
+            tes3mp.SendRecordDynamic(pid, true, false)
+            
+        end
+        
+        inventoryHelper.addItem(Players[pid].data.inventory, bookId, 1)
+        
+        Players[pid]:LoadInventory()
+        Players[pid]:LoadEquipment()
+    end
+end
+
 --Save Player starting skills and attributes for re-spec
 function xpLeveling.SaveStartSkills(pid)
     Players[pid].data.customVariables.startSkills = Players[pid].data.skills
@@ -641,7 +739,7 @@ end
 
 --Function to open Respec menu
 function xpLeveling.RespecMenu(pid)
-    if xpConfig.enableRespec then
+    if xpLeveling.canRespec(pid) then
         xpLeveling.GenerateRespecConfirmation(pid)
         Players[pid].currentCustomMenu = "xpRespec" .. pid
         menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
@@ -650,7 +748,7 @@ end
 
 --Open level up menu command
 function xpLeveling.LevelUpMenu(pid)
-    if Players[pid].data.customVariables.xpLevelUps >0 then
+    if xpLeveling.canLevelUp(pid) then
         xpLeveling.GenerateLevelMenu(pid)
         Players[pid].currentCustomMenu = "xpLevel" .. pid
         menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
@@ -727,10 +825,13 @@ customCommandHooks.registerCommand("respec",xpLeveling.RespecMenu)
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
 
+customEventHooks.registerValidator("OnPlayerItemUse",xpLeveling.UseJournalValidator)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
 customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 
+customEventHooks.registerHandler("OnPlayerItemUse",xpLeveling.UseJournalHandler)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.UpdateStartingStats)
+customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.AddLevelJournal)
 customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.ActivateBlocker)
 
 return xpLeveling

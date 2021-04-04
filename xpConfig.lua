@@ -95,6 +95,28 @@ xpConfig.noLevelUpMessage = color.Red .. "You can't level up yet"
 xpConfig.enableRespec = true
 
 ---------------------------------------------------------------------------------------------------------------
+--Journal Item Settings----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+xpConfig.xpJournalEnable = true
+
+--Vars to define journal record
+xpConfig.xpJournalId = "xpleveling_journal"
+xpConfig.xpJournalName = "Training Journal"
+xpConfig.xpJournalIcon = "m\\Tx_book_04.tga"
+xpConfig.xpJournalModel = "m\\Text_Octavo_05.nif"
+
+--Contains variable names to display within the Journal menu
+--Should be present in Players.data.customVariables
+xpConfig.xpJournalDisplay = {
+    { var = "xpAttrPts", name = "Attribute Points" },
+    { var = "xpSkillPts", name = "Skill Points" },
+    { var = "xpLevelUps", name = "Level Ups" },
+    { var = "xpTotal", name = "Current XP" },
+    { var = "xpLevelCost", name = "Level XP Cost" }
+}
+
+---------------------------------------------------------------------------------------------------------------
 --Skills-------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
