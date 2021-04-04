@@ -10,6 +10,7 @@
   * Only skill books
 * Configurable attribute/skill/level caps
   * Includes per-attribute and per-skill caps
+* Ability to respec a players skills & attributes
 
 # Install
 * Place `vanilla Data` files in `server/data/custom/tes3mp-xp`
@@ -31,6 +32,7 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 * Global commands
   * `/xpstatus` to show progress to next level
   * `/levelup` to open the levelup menu when ready to level up
+  * `/respec` to open respec confirmation menu
 * Admin commands (staff rank 2 by default)
   * `/xpoverride <type> <id> <level/xp> <value>` to add a record to the xp_override table
   * `/forcelevelup <pid>` to give a player a level (does not affect xp)
@@ -40,3 +42,4 @@ xpGain = require("custom.tes3mp-xp.xpGain")
 * Level xp cost formula has had very little testing and may result in strange leveling rates
 * Skill books/Trainers will show messages indicating skills leveling up while not leveling skills
 * Using with existing characters will likely cause issues
+* Respecced levels may be tedious to re-levelup at very high levels depending on the value of your `xpConfig.skillLvlsPerSkill` setting
