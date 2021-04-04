@@ -83,10 +83,17 @@ function xpGain.GetTargetLevel(refid)
             if recordTable[refid].level ~= nil then
                 level = recordTable[refid].level
                 return level
+            elseif recordTable[refid].baseId ~= nil then
+                if npcTable[baseId] ~= nil then
+                    level = npcTable[baseId].level
+                elseif creaturesTable[baseId] ~= nil then
+                    level = creaturesTable[baseId].level
+                end
+                return level
             end
         end
     end
-    
+    tes3mp.LogMessage(enumerations.log.WARN, xpConfig.xpGainLog .. "Level Not found for refid: " .. refid)
     return level
 end
 
@@ -125,11 +132,11 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                 local killerPid = tes3mp.GetActorKillerPid(i)
                 if xpConfig.globalKillXp then
                     for pid,player in pairs(Players) do
-                        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                         xpGain.GiveXp(pid,experience)
                     end
                 else
-                    tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                     xpGain.GiveXp(killerPid,experience)
                 end
             end
@@ -146,7 +153,7 @@ function xpGain.OnBook(eventStatus,pid)
         if not tableHelper.containsValue(Players[pid].data.books, bookId, false) then
             if bookTable[bookId] ~= nil then
                 local experience = xpGain.GetBookXp(pid,bookId)
-                tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for reading: "..bookId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for reading: "..bookId)
                 xpGain.GiveXp(pid,experience)
             end
         end
@@ -184,12 +191,12 @@ function xpGain.OnJournal(eventStatus,pid)
                 if config.shareJournal then
                     for pid,player in pairs(Players) do
                         local experience = xpGain.GetQuestXp(pid,quest,index)
-                        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
+                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                         xpGain.GiveXp(pid,experience)
                     end
                 else
                     local experience = xpGain.GetQuestXp(pid,quest,index)
-                    tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                     xpGain.GiveXp(pid,experience)
                 end
             end
@@ -233,7 +240,7 @@ function xpGain.GiveXpCommand(pid,cmd)
         end
         tes3mp.SendMessage(pid, color.Red .."Proper usage of givexp: "..color.White.."/givexp <pid> <integer>\n")
     else
-        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the givexp command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the givexp command without permission")
     end
 end
 
@@ -267,14 +274,14 @@ function xpGain.AddOverride(pid,cmd)
                         jsonInterface.save("custom/tes3mp-xp/xp_override.json",xpOverride)
                     end
                     tes3mp.SendMessage(pid, color.Green .. "Override saved for: "..id .."\n")
-                    tes3mp.LogMessage(enumerations.log.INFO, "XP Override saved for "..recordType.." "..id.." "..stat.." "..value.." by Player: "..Players[pid].name.."(" ..pid..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "XP Override saved for "..recordType.." "..id.." "..stat.." "..value.." by Player: "..Players[pid].name.."(" ..pid..")")
                     return
                 end
             end
         end
         tes3mp.SendMessage(pid, color.Red .."Proper usage of xpoverride: "..color.White.."/xpoverride <type> <id> <level/xp> <value>\nUse /xpoverride help for more info\n")
     else
-        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the xpoverride command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the xpoverride command without permission")
     end
 end
 

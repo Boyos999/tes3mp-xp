@@ -35,11 +35,11 @@ function xpLeveling.GenerateLevelMenu(pid)
             }
         }
     }
-    tes3mp.LogMessage(enumerations.log.INFO, "Generating Level Menu for pid: " ..pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generating Level Menu for pid: " ..pid)
     xpLeveling.GenerateSpecMenu(pid)
     xpLeveling.GenerateAttrsMenu(pid)
     xpLeveling.GenerateCommitMenu(pid)
-    tes3mp.LogMessage(enumerations.log.INFO, "Menu Generation Complete for pid: " ..pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Menu Generation Complete for pid: " ..pid)
 end
 
 --General function to generate a generic menu button
@@ -274,7 +274,7 @@ function xpLeveling.CommitLevelUp(pid)
     xpLeveling.CalcLevelUpStats(pid)
     Players[pid]:LoadStatsDynamic()
     
-    tes3mp.LogMessage(enumerations.log.INFO,"Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
 end
 
 --Re-calculate stats
@@ -576,7 +576,7 @@ function xpLeveling.ForceLevel(pid,cmd)
     if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
         xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
     elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank) then
-        tes3mp.LogMessage(enumerations.log.INFO, "Player: "..Players[pid].name.."(" ..pid..") attempted to use the forcelevelup command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the forcelevelup command without permission")
     end
 end
 
