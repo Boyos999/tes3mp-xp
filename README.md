@@ -11,6 +11,7 @@
 * Configurable attribute/skill/level caps
   * Includes per-attribute and per-skill caps
 * Ability to respec a players skills & attributes
+* Gives player a "Training Journal" after chargen which they can use to access leveling/respec functions
 
 # Install
 * Place `vanilla Data` files in `server/data/custom/tes3mp-xp`
