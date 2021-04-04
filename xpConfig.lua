@@ -57,9 +57,11 @@ xpConfig.bookXpPerValue = 0.25
 --Admin/moderation---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
---Minimum rank require to use forcelevelup <pid> chat command
+--Minimum rank required to use forcelevelup <pid> chat command
 xpConfig.minForceLevelRank = 2
+--Minimum rank required to add an xp override
 xpConfig.minAddOverrideRank = 2
+--Minimum rank required to use give player xp command
 xpConfig.minGiveXpRank = 2
 
 ---------------------------------------------------------------------------------------------------------------
@@ -89,6 +91,8 @@ xpConfig.perAttrCaps = {
 
 xpConfig.levelUpMessage = "Level Up!"
 xpConfig.noLevelUpMessage = color.Red .. "You can't level up yet"
+
+xpConfig.enableRespec = true
 
 ---------------------------------------------------------------------------------------------------------------
 --Skills-------------------------------------------------------------------------------------------------------

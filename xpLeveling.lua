@@ -197,6 +197,72 @@ function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
     end
 end
 
+--Respec Confirmation menu
+function xpLeveling.GenerateRespecConfirmation(pid)
+    local skillRefund = 0
+    local attrRefund = 0
+    local levelRefund = Players[pid].data.stats.level-1
+    local skillPtsRefund = levelRefund*xpConfig.skillPtsPerLevel
+    local startSkills = Players[pid].data.customVariables.startSkills
+    local startAttrs = Players[pid].data.customVariables.startAttrs
+    
+    for name,skill in pairs(Players[pid].data.skills) do
+        skillRefund = skillRefund + (skill.base - startSkills[name].base)
+    end
+    
+    for name,attr in pairs(Players[pid].data.attributes) do
+        attrRefund = attrRefund + (attr.base - startAttrs[name].base)
+    end
+    
+    local menuTextString = "Skill increases to be undone: " .. skillRefund .. "\n"
+    menuTextString = menuTextString .. "Attribute increases to be undone: " .. attrRefund .. "\n"
+    menuTextString = menuTextString .. "Levels to be refunded: " .. levelRefund .. "\n"
+    menuTextString = menuTextString .. "Skill Pts to be refunded: " .. skillPtsRefund .. "\n"
+    menuTextString = color.Red .. "Are you sure you want to Re-Spec your character? \n" .. color.White .. menuTextString
+    
+    Menus["xpRespec"..pid] = {
+        text = menuTextString,
+        buttons = {
+            { caption = color.Green .. "Refund", 
+                destinations = { 
+                    menuHelper.destinations.setDefault(nil,
+                    {
+                        menuHelper.effects.runGlobalFunction("xpLeveling","RespecRefund",{menuHelper.variables.currentPid()})
+                    }) 
+                } 
+            },
+            { caption = color.Red .. "Cancel",
+                destinations = {
+                    menuHelper.destinations.setDefault(nil)
+                }
+            }
+        }
+    }
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generated Respec Menu for pid: " ..pid)
+end
+
+--Perform Level Respec
+function xpLeveling.RespecRefund(pid)
+    local levelRefund = Players[pid].data.stats.level-1
+    
+    --Reset xpLeveling related vars
+    Players[pid].data.customVariables.xpSkillPtHold = 0
+    Players[pid].data.customVariables.xpSkillPts = levelRefund*xpConfig.skillPtsPerLevel
+    Players[pid].data.customVariables.xpAttrPtHold = 0
+    Players[pid].data.customVariables.xpAttrPts = levelRefund*xpConfig.attributePtsPerLevel
+    Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
+    Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
+    Players[pid].data.customVariables.xpLevelUps = levelRefund
+    
+    --Reset Players skills/attrs/level
+    Players[pid].data.stats.level = 1
+    Players[pid].data.skills = Players[pid].data.customVariables.startSkills
+    Players[pid].data.attributes = Players[pid].data.customVariables.startAttrs
+    
+    xpLeveling.UpdatePlayerStats(pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: " ..Players[pid].name .. "(" .. pid .. ")" .. " respecced")
+end
+
 --Revert pending level up changes
 function xpLeveling.RevertLevelUpChanges(pid)
     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
@@ -264,7 +330,13 @@ function xpLeveling.CommitLevelUp(pid)
     Players[pid].data.customVariables.xpAttrPts = (Players[pid].data.customVariables.xpAttrPts - Players[pid].data.customVariables.xpAttrPtHold)
     Players[pid].data.customVariables.xpAttrPtHold = 0
     
-    --Send updated data to the player
+    xpLeveling.UpdatePlayerStats(pid)
+    
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
+end
+
+--Function to send updated data to the player
+function xpLeveling.UpdatePlayerStats(pid)
     Players[pid]:LoadAttributes()
     Players[pid]:SaveStatsDynamic()
     Players[pid]:LoadSkills()
@@ -273,8 +345,6 @@ function xpLeveling.CommitLevelUp(pid)
     --Calculate updated stats
     xpLeveling.CalcLevelUpStats(pid)
     Players[pid]:LoadStatsDynamic()
-    
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
 end
 
 --Re-calculate stats
@@ -560,6 +630,24 @@ function xpLeveling.GetIsCustomClass(pid)
     end
 end
 
+--Save Player starting skills and attributes for re-spec
+function xpLeveling.SaveStartSkills(pid)
+    Players[pid].data.customVariables.startSkills = Players[pid].data.skills
+end
+
+function xpLeveling.SaveStartAttributes(pid)
+    Players[pid].data.customVariables.startAttrs = Players[pid].data.attributes
+end
+
+--Function to open Respec menu
+function xpLeveling.RespecMenu(pid)
+    if xpConfig.enableRespec then
+        xpLeveling.GenerateRespecConfirmation(pid)
+        Players[pid].currentCustomMenu = "xpRespec" .. pid
+        menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+    end
+end
+
 --Open level up menu command
 function xpLeveling.LevelUpMenu(pid)
     if Players[pid].data.customVariables.xpLevelUps >0 then
@@ -628,11 +716,14 @@ end
 function xpLeveling.UpdateStartingStats(eventStatus,pid)
     if eventStatus.validDefaultHandler then
         Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
+        xpLeveling.SaveStartSkills(pid)
+        xpLeveling.SaveStartAttributes(pid)
         xpLeveling.CalcLevelUpStats(pid)
         Players[pid]:LoadStatsDynamic()
     end
 end
 
+customCommandHooks.registerCommand("respec",xpLeveling.RespecMenu)
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
 
