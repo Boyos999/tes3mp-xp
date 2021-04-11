@@ -370,13 +370,27 @@ end
 --Function to send updated data to the player
 function xpLeveling.UpdatePlayerStats(pid)
     Players[pid]:LoadAttributes()
-    Players[pid]:SaveStatsDynamic()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
     
-    --Calculate updated stats
     xpLeveling.CalcLevelUpStats(pid)
-    Players[pid]:LoadStatsDynamic()
+    tes3mp.SetHealthBase(pid, Players[pid].data.stats.healthBase)
+    tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
+    tes3mp.SetHealthCurrent(pid, Players[pid].data.stats.healthCurrent)
+    tes3mp.SetFatigueCurrent(pid, Players[pid].data.stats.fatigueCurrent)
+    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
+        tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
+        tes3mp.SetMagickaCurrent(pid, Players[pid].data.stats.magickaCurrent)
+    end
+    tes3mp.SendStatsDynamic(pid)
+end
+
+--Function to handle magicka because why is it so weird
+function xpLeveling.BirthsignAlteredMagicka(pid)
+    if Players[pid].data.character.birthsign == "elfborn" or Players[pid].data.character.birthsign == "fay" or Players[pid].data.character.birthsign == "wombburned" then
+        return true
+    end
+    return false
 end
 
 --Re-calculate stats
@@ -396,6 +410,13 @@ function xpLeveling.CalcLevelUpStats(pid)
     --Update player health
     Players[pid].data.stats.healthBase = tempHealth
     Players[pid].data.stats.healthCurrent = tempHealth
+    
+    --Only set magicka if the player doesn't have one of the magicka birthsigns
+    --If they have one of those birthsigns it handles itself
+    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
+        Players[pid].data.stats.magickaBase = Players[pid].data.attributes.Intelligence.base
+        Players[pid].data.stats.magickaCurrent = Players[pid].data.stats.magickaBase
+    end
 
 end
 
