@@ -32,8 +32,8 @@ xpConfig.xpMessage = "You gained XP: "
 ---------------------------------------------------------------------------------------------------------------
 
 --Level XP Cost = baseLvlCost + (playerLevel^lvlCostFactor)*lvlCostMult
-xpConfig.baseLvlCost = 500
-xpConfig.lvlCostMult = 30
+xpConfig.baseLvlCost = 1000
+xpConfig.lvlCostMult = 60
 xpConfig.lvlCostFactor = 1.6
 
 --Limits on min, max cost of levelup. Use: {0,-1} for no limits
@@ -60,9 +60,9 @@ xpConfig.bookXpPerValue = 0.25
 xpConfig.topicXpBase = 5
 --Amount of xp given per previously discovered topics 
 --(as a player discovers more topics, they're worth more xp)
-xpConfig.topicXpPerTopics = 2
+xpConfig.topicXpPerTopics = 1
 --xp gain increases by the above value every # of topics
-xpConfig.topicXpPerTopicsStep = 4
+xpConfig.topicXpPerTopicsStep = 8
 
 ---------------------------------------------------------------------------------------------------------------
 --Admin/moderation---------------------------------------------------------------------------------------------
