@@ -15,7 +15,7 @@
 * Gives player a "Training Journal" after chargen which they can use to access leveling/respec functions
 
 # Install
-* Place `vanilla Data` files in `server/data/custom/tes3mp-xp`
+* Place the json files from the `vanilla Data` folder in `server/data/custom/tes3mp-xp`
 * Place everything else in `server/scripts/custom/tes3mp-xp`
 * xpCalc.ods is a spreadsheet with formulas you can use to tune xp gain config values
 * Add the following to customScripts.lua
