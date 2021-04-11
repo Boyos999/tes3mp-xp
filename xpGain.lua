@@ -315,19 +315,23 @@ function xpGain.AddOverride(pid,cmd)
         if cmd[2] ~= nil then
             if cmd[2] == "help" then
                 tes3mp.SendMessage(pid, color.Purple .. "Usage: "..color.White.."/xpoverride <type> <id> <level/xp> <value>\n" ..
-                                       color.Purple .. "type: "..color.White.."actor,a,quest,q\n" ..
-                                       color.Purple .. "id: "..color.White.."actor refid, or quest in the format of quest_index\n" ..
-                                       color.Purple .. "level/xp: "..color.White.."level,xp\n" ..
+                                       color.Purple .. "type: "..color.White.."actor,a,quest,q,book,b,topic,t\n" ..
+                                       color.Purple .. "id: "..color.White.."actor refid, quest in the format of quest_index, book refid, or topicId\n" ..
+                                       color.Purple .. "level/xp: "..color.White.."level,xp,value\n" ..
                                        color.Purple .. "value: "..color.White.."integer value\n")
                 return
-            elseif cmd[2] == "actor" or cmd[2] == "a" or cmd[2] == "quest" or cmd[2] == "q" then
+            elseif cmd[2] == "actor" or cmd[2] == "a" or cmd[2] == "quest" or cmd[2] == "q" or cmd[2] == "book" or cmd[2] == "b" or cmd[2] == "topic" or cmd[2] == "t" then
                 local recordType = cmd[2]
                 if recordType == "a" then
                     recordType = "actor"
                 elseif recordType == "q" then
                     recordType = "quest"
+                elseif recordType == "t" then
+                    recordType = "topic"
+                elseif recordType == "b" then
+                    recordType = "book"
                 end
-                if cmd[3] ~= nil and (cmd[4] == "level" or cmd[4] == "xp") and cmd[5] ~= nil then
+                if cmd[3] ~= nil and (cmd[4] == "level" or cmd[4] == "xp" or cmd[4] == "value") and cmd[5] ~= nil then
                     local id = cmd[3]
                     local stat = cmd[4]
                     local value = math.floor(tonumber(cmd[5]))
