@@ -50,6 +50,37 @@ function xpGain.GetQuestXp(pid,quest,index)
     return questXp
 end
 
+--Function to calculate how much xp a player is given for a topic
+function xpGain.GetTopicXp(pid,topicId)
+    local experience = 0
+    
+    if config.shareTopics == true then
+        if WorldInstance.data.customVariables.xpTopics ~= nil then
+            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*WorldInstance.data.customVariables.xpTopics)
+            WorldInstance.data.customVariables.xpTopics = WorldInstance.data.customVariables.xpTopics + 1
+        else
+            experience = xpConfig.topicXpBase
+            WorldInstance.data.customVariables.xpTopics = 1
+        end
+    else
+        if Players[pid].data.customVariables.xpTopics ~= nil then
+            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*Players[pid].data.customVariables.xpTopics)
+            Players[pid].data.customVariables.xpTopics = Players[pid].data.customVariables.xpTopics+1
+        else
+            experience = xpConfig.topicXpBase
+            Players[pid].data.customVariables.xpTopics = 1
+        end
+    end
+    
+    if xpOverride.topic[topicId] ~= nil then
+        if xpOverride.topic[topicId].xp ~= nil then
+            experience = xpOverride.topic[topicId].xp
+        end
+    end
+    
+    return experience
+end
+
 --Function to calculate how much xp a player gets from reading a book
 function xpGain.GetBookXp(pid,bookId)
     local bookXp = math.floor(xpConfig.bookXpBase + xpConfig.bookXpPerValue*bookTable[bookId].value)
@@ -144,6 +175,31 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
     end
 end
 
+--Function to hook into OnPlayerTopic Validator
+function xpGain.OnTopic(eventStatus,pid)
+    for index = 0, tes3mp.GetTopicChangesSize(pid) - 1 do
+        
+        local topicId = tes3mp.GetTopicId(pid,index)
+        
+        if config.shareTopics == true then
+            if not tableHelper.containsValue(WorldInstance.data.topics, topicId) then
+                local experience = xpGain.GetTopicXp(pid,topicId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for unlocking topic: "..topicId)
+                for i,player in pairs(Players) do
+                    xpGain.GiveXp(i,experience)
+                end
+            end
+        else
+            if not tableHelper.containsValue(Players[pid].data.topics, topicId) then
+                local experience = xpGain.GetTopicXp(pid,topicId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for unlocking topic: "..topicId)
+                xpGain.GiveXp(pid,experience)
+            end
+        end
+        
+    end
+end
+
 --Function to hook into OnPlayerBook validator
 function xpGain.OnBook(eventStatus,pid)
     for index = 0, tes3mp.GetBookChangesSize(pid) - 1 do
@@ -162,9 +218,11 @@ end
 
 --Function called whenever a player gains xp to check if the player can level up
 function xpGain.OnXpGain(pid,experience)
-    tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience)
-    if xpGain.CheckLevelUp(pid) then
-        xpGain.GiveLevelUp(pid)
+    if experience > 0 then
+        tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience)
+        if xpGain.CheckLevelUp(pid) then
+            xpGain.GiveLevelUp(pid)
+        end
     end
 end
 
@@ -298,6 +356,7 @@ customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
 customEventHooks.registerHandler("OnActorDeath",xpGain.OnKill)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
 
+customEventHooks.registerValidator("OnPlayerTopic",xpGain.OnTopic)
 customEventHooks.registerValidator("OnPlayerBook",xpGain.OnBook)
 
 return xpGain
