@@ -56,7 +56,7 @@ function xpGain.GetTopicXp(pid,topicId)
     
     if config.shareTopics == true then
         if WorldInstance.data.customVariables.xpTopics ~= nil then
-            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*WorldInstance.data.customVariables.xpTopics)
+            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*math.floor(WorldInstance.data.customVariables.xpTopics/xpConfig.topicXpPerTopicsStep))
             WorldInstance.data.customVariables.xpTopics = WorldInstance.data.customVariables.xpTopics + 1
         else
             experience = xpConfig.topicXpBase
@@ -64,7 +64,7 @@ function xpGain.GetTopicXp(pid,topicId)
         end
     else
         if Players[pid].data.customVariables.xpTopics ~= nil then
-            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*Players[pid].data.customVariables.xpTopics)
+            experience = math.floor(xpConfig.topicXpBase+xpConfig.topicXpPerTopics*math.floor(Players[pid].data.customVariables.xpTopics/xpConfig.topicXpPerTopicsStep))
             Players[pid].data.customVariables.xpTopics = Players[pid].data.customVariables.xpTopics+1
         else
             experience = xpConfig.topicXpBase

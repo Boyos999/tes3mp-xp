@@ -61,6 +61,8 @@ xpConfig.topicXpBase = 5
 --Amount of xp given per previously discovered topics 
 --(as a player discovers more topics, they're worth more xp)
 xpConfig.topicXpPerTopics = 2
+--xp gain increases by the above value every # of topics
+xpConfig.topicXpPerTopicsStep = 4
 
 ---------------------------------------------------------------------------------------------------------------
 --Admin/moderation---------------------------------------------------------------------------------------------
