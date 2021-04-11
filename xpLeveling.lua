@@ -688,13 +688,16 @@ function xpLeveling.UseJournalValidator(eventStatus,pid,refid)
 end
 
 --Function called when a player uses their journal
-function xpLeveling.UseJournalHandler(eventStatus, pid)
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal used")
-    if eventStatus.validCustomHandler ~= false then
-        xpLeveling.GenerateJournalMenu(pid)
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal menu generated")
-        Players[pid].currentCustomMenu = "xpJournal" .. pid
-        menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+function xpLeveling.UseJournalHandler(eventStatus, pid, refid)
+    if refid == xpConfig.xpJournalId then
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal used")
+        if eventStatus.validCustomHandler ~= false then
+            xpLeveling.GenerateJournalMenu(pid)
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal menu generated")
+            Players[pid].currentCustomMenu = "xpJournal" .. pid
+            menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
+        
+        end
     end
 end
 
