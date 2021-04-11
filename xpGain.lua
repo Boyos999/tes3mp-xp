@@ -165,18 +165,22 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
             if LoadedCells[cellDescription].data.objectData[uniqueIndex] ~= nil then
                 refid = LoadedCells[cellDescription].data.objectData[uniqueIndex].refId
             end
-            local experience = xpGain.GetKillXp(refid)
-            if tes3mp.DoesActorHavePlayerKiller(i) then
-                local killerPid = tes3mp.GetActorKillerPid(i)
-                if xpConfig.globalKillXp then
-                    for pid,player in pairs(Players) do
+            if refid ~= nil then
+                local experience = xpGain.GetKillXp(refid)
+                if tes3mp.DoesActorHavePlayerKiller(i) then
+                    local killerPid = tes3mp.GetActorKillerPid(i)
+                    if xpConfig.globalKillXp then
+                        for pid,player in pairs(Players) do
+                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                            xpGain.GiveXp(pid,experience)
+                        end
+                    else
                         tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
-                        xpGain.GiveXp(pid,experience)
+                        xpGain.GiveXp(killerPid,experience)
                     end
-                else
-                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
-                    xpGain.GiveXp(killerPid,experience)
                 end
+            else
+                tes3mp.LogMessage(enumerations.log.WARN, xpConfig.xpGainLog .. "Could not identify refid for uniqueIndex: " .. uniqueIndex)
             end
         end
     end
