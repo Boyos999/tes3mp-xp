@@ -9,13 +9,13 @@
     "c3_destorydagoth_50": {
       "level":100
     }
-  }
+  },
   "book":{
     "example_notabook":{
       "xp":500,
       "value":2000
     }
-  }
+  },
   "topic":{
     "example_notatopic": {
       "xp":5000
