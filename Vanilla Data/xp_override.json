@@ -2,7 +2,67 @@
   "actor":{
     "dead_rat":{
       "level":5,
-        "xp":12
+      "xp":12
+    },
+    "ancestor_ghost_summon":{
+      "xp":0
+    },
+    "atronach_flame_summon":{
+      "xp":0
+    },
+    "atronach_frost_summon":{
+      "xp":0
+    },
+    "atronach_storm_summon":{
+      "xp":0
+    },
+    "bm_bear_black_summon":{
+      "xp":0
+    },
+    "bm_wolf_bone_summon":{
+      "xp":0
+    },
+    "bm_wolf_grey_summon":{
+      "xp":0
+    },
+    "bonelord_summon":{
+      "xp":0
+    },
+    "bonewalker_greater_summ":{
+      "xp":0
+    },
+    "bonewalker_summon":{
+      "xp":0
+    },
+    "centurion_sphere_summon":{
+      "xp":0
+    },
+    "clannfear_summon":{
+      "xp":0
+    },
+    "daedroth_summon":{
+      "xp":0
+    },
+    "dremora_summon":{
+      "xp":0
+    },
+    "fabricant_summon":{
+      "xp":0
+    },
+    "golden saint_summon":{
+      "xp":0
+    },
+    "hunger_summon":{
+      "xp":0
+    },
+    "scamp_summon":{
+      "xp":0
+    },
+    "skeleton_summon":{
+      "xp":0
+    },
+    "winged twilight_summon":{
+      "xp":0
     }
   },
   "quest":{
