@@ -3,6 +3,7 @@ I won't provide assistance with the below methods. I tried to keep the instructi
 
 # You will need the following tools:
 1. tes3cmd: https://github.com/john-moonsugar/tes3cmd/releases
+2. notepad++ or equivalent https://notepad-plus-plus.org/downloads/
 2. python (Quests only) https://www.python.org/
 3. Tes3 Construction Set (Quests Only)
 4. Libre Office Calc or equivalent (Quests Only) https://www.libreoffice.org/discover/calc/
@@ -30,6 +31,7 @@ I won't provide assistance with the below methods. I tried to keep the instructi
 1. Add a newline at the begining with one '{'
 2. delete the ',' from the last line
 3. Add a '}' to the final line (your final line should just be a '}')
+4. Make all text lowercase, if using notepad++ use Ctrl+A then Ctrl+U
 
 # Quests
 1. Load active plugins in Construction set
