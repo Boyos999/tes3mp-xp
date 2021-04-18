@@ -171,11 +171,23 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                     local killerPid = tes3mp.GetActorKillerPid(i)
                     if xpConfig.globalKillXp then
                         for pid,player in pairs(Players) do
-                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).. "killing refid: "..refid.."("..i..")")
                             xpGain.GiveXp(pid,experience)
                         end
+                    elseif xpParty ~= nil then
+                        local partyName = xpParty.GetParty(killerPid)
+                        if partyName ~= false then
+                            local partyMembers = xpParty.GetMembers(partyName)
+                            if xpConfig.splitPartyXp then
+                                experience = math.floor(experience/xpParty.GetSize(partyName))+1
+                            end
+                            for _,member in pairs(partyMembers) do
+                                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refid: "..refid.."("..i..")")
+                                xpGain.GiveXp(member,experience)
+                            end
+                        end
                     else
-                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..killerPid..") received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(killerPid).." received: "..experience.." XP for killing refid: "..refid.."("..i..")")
                         xpGain.GiveXp(killerPid,experience)
                     end
                 end
