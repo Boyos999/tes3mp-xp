@@ -292,7 +292,7 @@ function xpLeveling.RespecRefund(pid)
     Players[pid].data.attributes = Players[pid].data.customVariables.startAttrs
     
     xpLeveling.UpdatePlayerStats(pid)
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: " ..Players[pid].name .. "(" .. pid .. ")" .. " respecced")
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: " ..logicHandler.GetChatName(pid) .. " respecced")
 end
 
 --Revert pending level up changes
@@ -786,7 +786,7 @@ function xpLeveling.ForceLevel(pid,cmd)
     if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
         xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
     elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank) then
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the forcelevelup command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." attempted to use the forcelevelup command without permission")
     end
 end
 
