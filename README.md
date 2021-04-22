@@ -13,6 +13,7 @@
   * Includes per-attribute and per-skill caps
 * Ability to respec a players skills & attributes
 * Gives player a "Training Journal" after chargen which they can use to access leveling/respec functions
+* Simple party system for kill experience
 
 # Install
 * Place the json files from the `vanilla Data` folder in `server/data/custom/tes3mp-xp`
@@ -40,6 +41,7 @@ xpGain = require("custom.tes3mp-xp.xpGain")
   * `/xpstatus` to show progress to next level
   * `/levelup` to open the levelup menu when ready to level up
   * `/respec` to open respec confirmation menu
+  * `/xpparty help` display usage for party commands
 * Admin commands (staff rank 2 by default)
   * `/xpoverride <type> <id> <level/xp> <value>` to add a record to the xp_override table
   * `/forcelevelup <pid>` to give a player a level (does not affect xp)
