@@ -15,6 +15,8 @@ xpConfig.xpPartyLog = "XP Party: "
 
 --If set to false all members of a party will get the full xp amount
 xpConfig.splitPartyXp = true
+--If set to true will only split party xp to players in the same cell
+xpConfig.enforcePartyLocation = true
 
 ---------------------------------------------------------------------------------------------------------------
 --Kill XP Gain Options-----------------------------------------------------------------------------------------

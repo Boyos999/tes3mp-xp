@@ -111,9 +111,9 @@ function xpParty.Disconnect(eventStatus,pid)
     if partyName ~= false then
         if xpParty.GetSize(partyName) > 1 then
             if xpParty.IsOwner(pid,partyName) then
-                for _,member in pairs(xpParty.GetMembers(callerParty)) do
+                for _,member in pairs(xpParty.GetMembers(partyName)) do
                     if member ~= pid then
-                        xpParty.ChangeOwner(callerParty,member)
+                        xpParty.ChangeOwner(partyName,member)
                         break
                     end
                 end
