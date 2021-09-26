@@ -22,6 +22,7 @@
 * Add the following to customScripts.lua
 ```lua
 xpLeveling = require("custom.tes3mp-xp.xpLeveling")
+xpParty = require("custom.tes3mp-xp.xpParty")
 xpGain = require("custom.tes3mp-xp.xpGain")
 ```
 * The "Additional Resources" folder contains instructions for dumping non-vanilla data to json files, if you go down this path I won't provide assistance other than the instructions in the folder.
