@@ -9,6 +9,7 @@
 * Experience gain on reading books
   * Only skill books
 * Experience gain on discovering dialogue topics
+* Experience gain from reputation increase
 * Configurable attribute/skill/level caps
   * Includes per-attribute and per-skill caps
 * Ability to respec a players skills & attributes
