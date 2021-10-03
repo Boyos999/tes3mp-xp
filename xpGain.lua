@@ -50,7 +50,7 @@ function xpGain.GetQuestXp(pid,quest,index)
     return questXp
 end
 
---Function to calculate how much xp a player is given for a 
+--Function to calculate how much xp a player is given for a topic
 function xpGain.GetTopicXp(pid,topicId)
     local experience = 0
     
