@@ -50,7 +50,7 @@ function xpGain.GetQuestXp(pid,quest,index)
     return questXp
 end
 
---Function to calculate how much xp a player is given for a topic
+--Function to calculate how much xp a player is given for a 
 function xpGain.GetTopicXp(pid,topicId)
     local experience = 0
     
@@ -92,6 +92,17 @@ function xpGain.GetBookXp(pid,bookId)
         end
     end
     return bookXp
+end
+
+--Function to calculate how much xp a player gets from increasing their reputation
+function xpGain.GetRepXp(pid,reputation)
+    local oldRep = reputation
+    local newRep = tes3mp.GetReputation(pid)
+    local experience = 0
+    for i=oldRep,newRep-1,1 do
+        experience = experience + xpConfig.repXpBase + xpConfig.repXpPerRep * i
+    end
+    return experience
 end
 
 --Function to get the level used in the quest xp calculation
@@ -154,11 +165,11 @@ end
 function xpGain.OnKill(eventStatus,pid,cellDescription)
     if eventStatus.validDefaultHandler then
         local actorListSize = tes3mp.GetActorListSize()
-
+        
         if actorListSize == 0 then
             return
         end
-
+    
         for i=0, actorListSize - 1 do
             local uniqueIndex = tes3mp.GetActorRefNum(i) .. "-" .. tes3mp.GetActorMpNum(i)
             local refid
@@ -176,26 +187,28 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                         end
                     elseif xpParty ~= nil and xpParty.GetParty(killerPid) ~= false then
                         local partyName = xpParty.GetParty(killerPid)
-                        local partyMembers = xpParty.GetMembers(partyName)
-                        local partySize = xpParty.GetSize(partyName)
-                        if xpConfig.enforcePartyLocation then
-                            local tempMembers = {}
-                            local tempSize = 0
-                            for _,member in pairs(partyMembers) do
-                                if Players[member].data.location.cell == cellDescription then
-                                    tempSize = tempSize + 1
-                                    table.insert(tempMembers,member)
+                        if partyName ~= false then
+                            local partyMembers = xpParty.GetMembers(partyName)
+                            local partySize = xpParty.GetSize(partyName)
+                            if xpConfig.enforcePartyLocation then
+                                local tempMembers = {}
+                                local tempSize = 0
+                                for _,member in pairs(partyMembers) do
+                                    if Players[member].data.location.cell == cellDescription then
+                                        tempSize = tempSize + 1
+                                        table.insert(tempMembers,member)
+                                    end
                                 end
+                                partyMembers = tempMembers
+                                partySize = tempSize
                             end
-                            partyMembers = tempMembers
-                            partySize = tempSize
-                        end
-                        if xpConfig.splitPartyXp then
-                            experience = math.floor(experience/partySize)
-                        end
-                        for _,member in pairs(partyMembers) do
-                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refid: "..refid.."("..i..")")
-                            xpGain.GiveXp(member,experience)
+                            if xpConfig.splitPartyXp then
+                                experience = math.floor(experience/partySize)
+                            end
+                            for _,member in pairs(partyMembers) do
+                                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refid: "..refid.."("..i..")")
+                                xpGain.GiveXp(member,experience)
+                            end
                         end
                     else
                         tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(killerPid).." received: "..experience.." XP for killing refid: "..refid.."("..i..")")
@@ -218,7 +231,7 @@ function xpGain.OnTopic(eventStatus,pid)
         if config.shareTopics == true then
             if not tableHelper.containsValue(WorldInstance.data.topics, topicId) then
                 local experience = xpGain.GetTopicXp(pid,topicId)
-                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for unlocking topic: "..topicId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for unlocking topic: "..topicId)
                 for i,player in pairs(Players) do
                     xpGain.GiveXp(i,experience)
                 end
@@ -226,7 +239,7 @@ function xpGain.OnTopic(eventStatus,pid)
         else
             if not tableHelper.containsValue(Players[pid].data.topics, topicId) then
                 local experience = xpGain.GetTopicXp(pid,topicId)
-                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for unlocking topic: "..topicId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for unlocking topic: "..topicId)
                 xpGain.GiveXp(pid,experience)
             end
         end
@@ -243,10 +256,25 @@ function xpGain.OnBook(eventStatus,pid)
         if not tableHelper.containsValue(Players[pid].data.books, bookId, false) then
             if bookTable[bookId] ~= nil then
                 local experience = xpGain.GetBookXp(pid,bookId)
-                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."("..pid..") received: "..experience.." XP for reading: "..bookId)
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for reading: "..bookId)
                 xpGain.GiveXp(pid,experience)
             end
         end
+    end
+end
+
+--Function to hook into OnPlayerReputation validator
+function xpGain.OnReputation(eventStatus,pid)
+    if config.shareReputation == true then
+        local experience = xpGain.GetRepXp(pid,WorldInstance.data.fame.reputation)
+        for pid,player in pairs(Players) do
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for gaining fame")
+            xpGain.GiveXp(pid,experience)
+        end
+    else
+        local experience = xpGain.GetRepXp(pid,Players[pid].data.fame.reputation)
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for gaining fame")
+        xpGain.GiveXp(pid,experience)
     end
 end
 
@@ -283,12 +311,12 @@ function xpGain.OnJournal(eventStatus,pid)
                 if config.shareJournal then
                     for pid,player in pairs(Players) do
                         local experience = xpGain.GetQuestXp(pid,quest,index)
-                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
+                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                         xpGain.GiveXp(pid,experience)
                     end
                 else
                     local experience = xpGain.GetQuestXp(pid,quest,index)
-                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for finishing quest: "..quest.."("..index..")")
                     xpGain.GiveXp(pid,experience)
                 end
             end
@@ -332,7 +360,7 @@ function xpGain.GiveXpCommand(pid,cmd)
         end
         tes3mp.SendMessage(pid, color.Red .."Proper usage of givexp: "..color.White.."/givexp <pid> <integer>\n")
     else
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the givexp command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." attempted to use the givexp command without permission")
     end
 end
 
@@ -370,14 +398,14 @@ function xpGain.AddOverride(pid,cmd)
                         jsonInterface.save("custom/tes3mp-xp/xp_override.json",xpOverride)
                     end
                     tes3mp.SendMessage(pid, color.Green .. "Override saved for: "..id .."\n")
-                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "XP Override saved for "..recordType.." "..id.." "..stat.." "..value.." by Player: "..Players[pid].name.."(" ..pid..")")
+                    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "XP Override saved for "..recordType.." "..id.." "..stat.." "..value.." by Player: "..logicHandler.GetChatName(pid))
                     return
                 end
             end
         end
         tes3mp.SendMessage(pid, color.Red .."Proper usage of xpoverride: "..color.White.."/xpoverride <type> <id> <level/xp> <value>\nUse /xpoverride help for more info\n")
     else
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..Players[pid].name.."(" ..pid..") attempted to use the xpoverride command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." attempted to use the xpoverride command without permission")
     end
 end
 
@@ -396,5 +424,6 @@ customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
 
 customEventHooks.registerValidator("OnPlayerTopic",xpGain.OnTopic)
 customEventHooks.registerValidator("OnPlayerBook",xpGain.OnBook)
+customEventHooks.registerValidator("OnPlayerReputation",xpGain.OnReputation)
 
 return xpGain

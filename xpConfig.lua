@@ -75,6 +75,14 @@ xpConfig.topicXpPerTopics = 1
 xpConfig.topicXpPerTopicsStep = 8
 
 ---------------------------------------------------------------------------------------------------------------
+--Reputation XP Gain Options-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+--XP = repXpBase + repXpPerRep * Reputation 
+xpConfig.repXpBase = 100
+xpConfig.repXpPerRep = 5
+
+---------------------------------------------------------------------------------------------------------------
 --Admin/moderation---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
@@ -146,7 +154,7 @@ xpConfig.skillPtsPerLevel = 43
 --Max times you can level an individual skill
 xpConfig.skillLvlsPerSkill = 5
 --Base point cost to level skill
-xpConfig.skillCost = 5
+xpConfig.skillCost = 4
 --Cost reduction for specialization
 xpConfig.skillCostSpecReduction = 1
 --Cost reduction on minor skills
@@ -154,7 +162,7 @@ xpConfig.skillCostMinReduction = 1
 --Cost reduction on Major skills
 xpConfig.skillCostMajReduction = 2
 --Defines Threshold by which skill cost is increased by the step (at 25 a base of 5 costs 6, at 50 7, etc)
-xpConfig.skillCostGroups = {25,50,75}
+xpConfig.skillCostGroups = {30,60,90}
 xpConfig.skillCostGroupStep = 1
 
 ---------------------------------------------------------------------------------------------------------------
