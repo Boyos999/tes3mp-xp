@@ -40,10 +40,6 @@ xpConfig.baseKillXp = 20
 xpConfig.lvlKillXp = 10
 xpConfig.lvlKillXpFactor = 1.2
 
---range of random variance calculated: {below,above}
-xpConfig.killVarianceEnable = false
-xpConfig.killVariance = {20,20} -- {20,20} will result in experience = experience +/- (1,20)
-
 --Message receiving xp
 xpConfig.xpMessage = "You gained XP: "
 

@@ -26,10 +26,6 @@ function xpGain.GetKillXp(refid)
     else
         experience = xpConfig.baseKillXp + (refidLevel^xpConfig.lvlKillXpFactor)*xpConfig.lvlKillXp
     end
-    if xpConfig.killVarianceEnable then
-        randVar = math.random(0,xpConfig.killVariance[1]+xpConfig.killVariance[2]) - xpConfig.killVariance[1]
-        experience = experience + randVar
-    end
     return math.floor(experience)
 end
 
