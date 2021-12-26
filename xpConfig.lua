@@ -14,7 +14,7 @@ xpConfig.xpDeathLog = "XP Death: "
 --Death--------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
---XP lost on dealth = Level XP Cost * xpDeathMult
+--XP lost on death = Level XP Cost * xpDeathMult
 xpConfig.xpDeathMult = .2
 xpConfig.xpDeathAllowNegative = false
 xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
