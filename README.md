@@ -55,3 +55,4 @@ xpDeath = require("customer.tes3mp-xp.xpDeath")
 * Skill books/Trainers will show messages indicating skills leveling up while not leveling skills
 * Using with existing characters will likely cause issues
 * Respecced levels may be tedious to re-levelup at very high levels depending on the value of your `xpConfig.skillLvlsPerSkill` setting
+* If you use a book you haven't read from quick keys you won't get xp from it, I don't know why you would do that but it won't work
