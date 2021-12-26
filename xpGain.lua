@@ -247,20 +247,44 @@ function xpGain.OnTopic(eventStatus,pid)
     end
 end
 
---Function to hook into OnPlayerBook validator
-function xpGain.OnBook(eventStatus,pid)
-    for index = 0, tes3mp.GetBookChangesSize(pid) - 1 do
-        local bookId = tes3mp.GetBookId(pid, index)
+--Function to handle activated or used books
+function xpGain.OnBook(pid,bookId)
+    -- Only give xp for books the player hasn't read
+    if Players[pid].data.customVariables.xpBooks == nil then
+        Players[pid].data.customVariables.xpBooks = {}
+    end
 
-        -- Only give xp for books the player hasn't read
-        if not tableHelper.containsValue(Players[pid].data.books, bookId, false) then
-            if bookTable[bookId] ~= nil then
-                local experience = xpGain.GetBookXp(pid,bookId)
-                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for reading: "..bookId)
-                xpGain.GiveXp(pid,experience)
+    if not tableHelper.containsValue(Players[pid].data.customVariables.xpBooks, bookId, false) then
+        if bookTable[bookId] ~= nil then
+            local experience = xpGain.GetBookXp(pid,bookId)
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for reading: "..bookId)
+            xpGain.GiveXp(pid,experience)
+            table.insert(Players[pid].data.customVariables.xpBooks,bookId)
+        end
+    end
+end
+
+function xpGain.OnObjectActivate(eventstatus,pid,cellDescription,objects,players)
+    for _,object in pairs(objects) do
+        if object.refId ~= nil then
+            if xpGain.IsBook(object.refId) then
+                xpGain.OnBook(pid,object.refId)
             end
         end
     end
+end
+
+function xpGain.OnPlayerItemUse(eventStatus,pid,itemRefId)
+    if xpGain.IsBook(itemRefId) then
+        xpGain.OnBook(pid,itemRefId)
+    end
+end
+
+function xpGain.IsBook(itemRefId)
+    if bookTable[itemRefId] ~= nil then
+        return true
+    end
+    return false
 end
 
 --Function to hook into OnPlayerReputation validator
@@ -421,9 +445,11 @@ customCommandHooks.registerCommand("xpstatus",xpGain.ShowLevelStatus)
 customEventHooks.registerHandler("OnPlayerJournal",xpGain.OnJournal)
 customEventHooks.registerHandler("OnActorDeath",xpGain.OnKill)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
+--For books because OnPlayerBook is only called on skillbooks
+customEventHooks.registerHandler("OnObjectActivate",xpGain.OnObjectActivate)
+customEventHooks.registerHandler("OnPlayerItemUse",xpGain.OnPlayerItemUse)
 
 customEventHooks.registerValidator("OnPlayerTopic",xpGain.OnTopic)
-customEventHooks.registerValidator("OnPlayerBook",xpGain.OnBook)
 customEventHooks.registerValidator("OnPlayerReputation",xpGain.OnReputation)
 
 return xpGain

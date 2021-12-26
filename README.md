@@ -7,7 +7,6 @@
 * Experience gain on quest completion
   * quest xp is based on player level
 * Experience gain on reading books
-  * Only skill books
 * Experience gain on discovering dialogue topics
 * Experience gain from reputation increase
 * Configurable attribute/skill/level caps
