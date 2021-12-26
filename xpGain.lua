@@ -264,19 +264,23 @@ function xpGain.OnBook(pid,bookId)
     end
 end
 
-function xpGain.OnObjectActivate(eventstatus,pid,cellDescription,objects,players)
-    for _,object in pairs(objects) do
-        if object.refId ~= nil then
-            if xpGain.IsBook(object.refId) then
-                xpGain.OnBook(pid,object.refId)
+function xpGain.OnObjectActivate(eventStatus,pid,cellDescription,objects,players)
+    if eventStatus.validDefaultHandler then
+        for _,object in pairs(objects) do
+            if object.refId ~= nil then
+                if xpGain.IsBook(object.refId) then
+                    xpGain.OnBook(pid,object.refId)
+                end
             end
         end
     end
 end
 
 function xpGain.OnPlayerItemUse(eventStatus,pid,itemRefId)
-    if xpGain.IsBook(itemRefId) then
-        xpGain.OnBook(pid,itemRefId)
+    if eventStatus.validDefaultHandler then
+        if xpGain.IsBook(itemRefId) then
+            xpGain.OnBook(pid,itemRefId)
+        end
     end
 end
 
