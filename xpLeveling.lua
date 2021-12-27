@@ -747,8 +747,7 @@ function xpLeveling.AddLevelJournal(eventStatus, pid)
         
         inventoryHelper.addItem(Players[pid].data.inventory, bookId, 1)
         
-        Players[pid]:LoadInventory()
-        Players[pid]:LoadEquipment()
+        Players[pid]:LoadItemChanges({{refId = bookId, count = 1}},enumerations.inventory.ADD)
     end
 end
 
