@@ -8,7 +8,7 @@ function xpDeath.ResurrectPenalty(eventStatus,pid)
         local levelCost = Players[pid].data.customVariables.xpLevelCost
         local playerXp = Players[pid].data.customVariables.xpTotal
 
-        xpPenalty = levelCost*xpConfig.xpDeathMult
+        xpPenalty = math.floor(levelCost*xpConfig.xpDeathMult)
         playerXp = playerXp-xpPenalty
 
         if playerXp >= 0 then
