@@ -158,27 +158,17 @@ function xpGain.IsQuestEnd(quest,index)
 end
 
 --Function to hook into OnActorDeath handler
-function xpGain.OnKill(eventStatus,pid,cellDescription)
+function xpGain.OnKill(eventStatus,pid,cellDescription,actors)
     if eventStatus.validDefaultHandler then
-        local actorListSize = tes3mp.GetActorListSize()
-        
-        if actorListSize == 0 then
-            return
-        end
-    
-        for i=0, actorListSize - 1 do
-            local uniqueIndex = tes3mp.GetActorRefNum(i) .. "-" .. tes3mp.GetActorMpNum(i)
-            local refid
-            if LoadedCells[cellDescription].data.objectData[uniqueIndex] ~= nil then
-                refid = LoadedCells[cellDescription].data.objectData[uniqueIndex].refId
-            end
-            if refid ~= nil then
-                local experience = xpGain.GetKillXp(refid)
-                if tes3mp.DoesActorHavePlayerKiller(i) then
-                    local killerPid = tes3mp.GetActorKillerPid(i)
+        for uniqueIndex, actor in pairs(actors) do 
+            local refId = actor.refId
+            if refId ~= nil then
+                local experience = xpGain.GetKillXp(refId)
+                if actor.killer.pid ~= nil then
+                    local killerPid = actor.killer.pid
                     if xpConfig.globalKillXp then
                         for pid,player in pairs(Players) do
-                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).. "killing refid: "..refid.."("..i..")")
+                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).. "killing refId: "..refId.."("..uniqueIndex..")")
                             xpGain.GiveXp(pid,experience)
                         end
                     elseif xpParty ~= nil and xpParty.GetParty(killerPid) ~= false then
@@ -202,17 +192,17 @@ function xpGain.OnKill(eventStatus,pid,cellDescription)
                                 experience = math.floor(experience/partySize)
                             end
                             for _,member in pairs(partyMembers) do
-                                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refid: "..refid.."("..i..")")
+                                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refId: "..refId.."("..uniqueIndex..")")
                                 xpGain.GiveXp(member,experience)
                             end
                         end
                     else
-                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(killerPid).." received: "..experience.." XP for killing refid: "..refid.."("..i..")")
+                        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(killerPid).." received: "..experience.." XP for killing refId: "..refId.."("..uniqueIndex..")")
                         xpGain.GiveXp(killerPid,experience)
                     end
                 end
             else
-                tes3mp.LogMessage(enumerations.log.WARN, xpConfig.xpGainLog .. "Could not identify refid for uniqueIndex: " .. uniqueIndex)
+                tes3mp.LogMessage(enumerations.log.WARN, xpConfig.xpGainLog .. "Could not identify refId for uniqueIndex: " .. uniqueIndex)
             end
         end
     end
