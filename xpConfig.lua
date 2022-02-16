@@ -69,6 +69,9 @@ xpConfig.questXpPerPlayerLvl = 25
 xpConfig.bookXpBase = 5
 xpConfig.bookXpPerValue = 0.25
 
+--Track any skill books not named "bookSkill_*" to overwrite with custom record
+xpConfig.additionalSkillBooks = {"sc_fjellnote","sc_grandfatherfrost","sc_sjobalnote","sc_unclesweetshare"}
+
 ---------------------------------------------------------------------------------------------------------------
 --Topic XP Gain Options----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------

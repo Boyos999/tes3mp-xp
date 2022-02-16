@@ -354,6 +354,25 @@ function xpGain.GetPlayerLevel(pid)
     return Players[pid].data.stats.level
 end
 
+function xpGain.initBooks()
+    if WorldInstance.data.customVariables.bookOverwriteInit == nil then
+        local bookRecords = RecordStores["book"]
+        local booksTotal = 0
+        for refId,book in pairs(bookTable) do
+            if string.match(refId,"bookskill") ~= nil or tableHelper.containsValue(xpConfig.additionalSkillBooks, refId) then
+                local bookRecord = {}
+                bookRecord["baseId"] = refId
+                bookRecord["skillId"] = "-1"
+                bookRecords.data.permanentRecords[refId] = bookRecord
+                booksTotal = booksTotal + 1
+            end
+        end
+        bookRecords:Save()
+        WorldInstance.data.customVariables.bookOverwriteInit = 1
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Overrides created for "..booksTotal.." skill books.")
+    end
+end
+
 --Initialize xpGain custom variables on chargen
 function xpGain.Initialize(eventStatus,pid)
     if Players[pid].data.customVariables == nil then
@@ -438,6 +457,8 @@ customEventHooks.registerHandler("OnPlayerEndCharGen",xpGain.Initialize)
 --For books because OnPlayerBook is only called on skillbooks
 customEventHooks.registerHandler("OnObjectActivate",xpGain.OnObjectActivate)
 customEventHooks.registerHandler("OnPlayerItemUse",xpGain.OnPlayerItemUse)
+--To overwrite skill book records so they don't appear to increase skills
+customEventHooks.registerHandler("OnServerPostInit",xpGain.initBooks)
 
 customEventHooks.registerValidator("OnPlayerTopic",xpGain.OnTopic)
 customEventHooks.registerValidator("OnPlayerReputation",xpGain.OnReputation)
