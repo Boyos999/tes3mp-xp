@@ -275,8 +275,10 @@ end
 
 --Perform Level Respec
 function xpLeveling.RespecRefund(pid)
-    local levelRefund = Players[pid].data.stats.level-1
-    
+    local levelRefund = Players[pid].data.customVariables.xpLevelUps+Players[pid].data.stats.level-1
+    local startSkills = tableHelper.deepCopy(Players[pid].data.customVariables.startSkills)
+    local startAttrs = tableHelper.deepCopy(Players[pid].data.customVariables.startAttrs)
+
     --Reset xpLeveling related vars
     Players[pid].data.customVariables.xpSkillPtHold = 0
     Players[pid].data.customVariables.xpSkillPts = levelRefund*xpConfig.skillPtsPerLevel
@@ -288,8 +290,8 @@ function xpLeveling.RespecRefund(pid)
     
     --Reset Players skills/attrs/level
     Players[pid].data.stats.level = 1
-    Players[pid].data.skills = Players[pid].data.customVariables.startSkills
-    Players[pid].data.attributes = Players[pid].data.customVariables.startAttrs
+    Players[pid].data.skills = startSkills
+    Players[pid].data.attributes = startAttrs
     
     xpLeveling.UpdatePlayerStats(pid)
     tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: " ..logicHandler.GetChatName(pid) .. " respecced")
