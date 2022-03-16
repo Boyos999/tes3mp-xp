@@ -187,6 +187,9 @@ xpConfig.attributeLvlsPerAttr = 5
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--If set to false bonuses to attributes will not effect derived stats
+xpConfig.statBonusAttrMod = true
+
 --Health
 --Attributes used to calculate base health
 xpConfig.healthAttrs = {}
@@ -205,5 +208,13 @@ xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1
 xpConfig.fatiguePerLevelMult = {}
 --AdditionalFatigue
 xpConfig.fatigueStartAdd = 0
+
+--Magicka
+--Attributes used to calc base magicka
+xpConfig.magickaAttrs = {Intelligence = 1}
+--Attributes used to calc magicka gain per level
+xpConfig.magickaPerLevelMult = {}
+--Additional Magicka
+xpConfig.magickaStartAdd = 0
 
 return xpConfig

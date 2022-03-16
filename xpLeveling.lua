@@ -7,6 +7,7 @@ local specSkills = jsonInterface.load("custom/tes3mp-xp/specializations.json")
 local specializations = {"Combat","Magic","Stealth"}
 local vanillaClasses = jsonInterface.load("custom/tes3mp-xp/vanilla_classes.json")
 local attributes = {"Strength","Intelligence","Willpower","Agility","Speed","Endurance","Personality","Luck"}
+local attrIds = {Strength = 0, Intelligence = 1, Willpower = 2, Agility = 3, Speed = 4, Endurance = 5, Personality = 6, Luck = 7}
 
 --Generate Root Level menu per player
 function xpLeveling.GenerateLevelMenu(pid)
@@ -376,15 +377,8 @@ function xpLeveling.UpdatePlayerStats(pid)
     Players[pid]:LoadLevel()
     
     xpLeveling.CalcLevelUpStats(pid)
-    tes3mp.SetHealthBase(pid, Players[pid].data.stats.healthBase)
-    tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
-    tes3mp.SetHealthCurrent(pid, Players[pid].data.stats.healthCurrent)
-    tes3mp.SetFatigueCurrent(pid, Players[pid].data.stats.fatigueCurrent)
-    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
-        tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
-        tes3mp.SetMagickaCurrent(pid, Players[pid].data.stats.magickaCurrent)
-    end
-    tes3mp.SendStatsDynamic(pid)
+
+    Players[pid]:LoadStatsDynamic()
 end
 
 --Function to handle magicka because why is it so weird
@@ -395,31 +389,26 @@ function xpLeveling.BirthsignAlteredMagicka(pid)
     return false
 end
 
+function xpLeveling.CalcMaxFatigue(pid)
+    local tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
+    Players[pid].data.stats.fatigueBase = tempFatigue
+end
+
+function xpLeveling.CalcMaxHealth(pid)
+    local tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+    Players[pid].data.stats.healthBase = tempHealth
+end
+
+function xpLeveling.CalcMaxMagicka(pid)
+    local tempMagicka = xpLeveling.CalcRetroStat(pid,xpConfig.magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
+    Players[pid].data.stats.magickaBase = tempMagicka
+end
+
 --Re-calculate stats
 function xpLeveling.CalcLevelUpStats(pid)
-    local tempFatigue = 0
-    local tempHealth = 0
-    local tempMagicka = 0
-    local tempGain = 0
-    --health
-    tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
-    tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
-    
-    --Update Player fatigue
-    Players[pid].data.stats.fatigueBase = tempFatigue
-    Players[pid].data.stats.fatigueCurrent = tempFatigue
-    
-    --Update player health
-    Players[pid].data.stats.healthBase = tempHealth
-    Players[pid].data.stats.healthCurrent = tempHealth
-    
-    --Only set magicka if the player doesn't have one of the magicka birthsigns
-    --If they have one of those birthsigns it handles itself
-    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
-        Players[pid].data.stats.magickaBase = Players[pid].data.attributes.Intelligence.base
-        Players[pid].data.stats.magickaCurrent = Players[pid].data.stats.magickaBase
-    end
-
+    xpLeveling.CalcMaxFatigue(pid)
+    xpLeveling.CalcMaxHealth(pid)
+    xpLeveling.CalcMaxMagicka(pid)
 end
 
 --Function to calculate a Retroactive stat
@@ -435,7 +424,11 @@ end
 function xpLeveling.CalcLevelMultGainStat(pid,multTable)
     local tempGain = 0
     for attr,mult in pairs(multTable) do
-        tempGain = tempGain + Players[pid].data.attributes[attr].base*mult*(Players[pid].data.stats.level-1)
+        local attrValue = Players[pid].data.attributes[attr].base
+        if xpConfig.statBonusAttrMod then
+            attrValue = attrValue + tes3mp.GetAttributeModifier(pid,attrIds[attr])
+        end
+        tempGain = tempGain + attrValue*mult*(Players[pid].data.stats.level-1)
     end
     return tempGain
 end
@@ -444,7 +437,11 @@ end
 function xpLeveling.CalcFlatStat(pid,multTable)
     local tempStat = 0
     for attr,mult in pairs(multTable) do
-        tempStat = tempStat + Players[pid].data.attributes[attr].base*mult
+        local attrValue = Players[pid].data.attributes[attr].base
+        if xpConfig.statBonusAttrMod then
+            attrValue = attrValue + tes3mp.GetAttributeModifier(pid,attrIds[attr])
+        end
+        tempStat = tempStat + attrValue*mult
     end
     return tempStat
 end
@@ -846,9 +843,20 @@ function xpLeveling.UpdateStartingStats(eventStatus,pid)
     end
 end
 
+function xpLeveling.testAttrs(pid,cmd)
+    local attrString = ""
+    for i,attr in pairs(attributes) do
+        local attrBase = tes3mp.GetAttributeBase(pid,i-1)
+        local attrModifier = tes3mp.GetAttributeModifier(pid,i-1)
+        attrString = attrString .. attr .. ": "..attrBase..", "..attrModifier..", "..(attrBase+attrModifier).."\n"
+    end
+    tes3mp.MessageBox(pid, -1, attrString)
+end
+
 customCommandHooks.registerCommand("respec",xpLeveling.RespecMenu)
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
+customCommandHooks.registerCommand("attr",xpLeveling.testAttrs)
 
 customEventHooks.registerValidator("OnPlayerItemUse",xpLeveling.UseJournalValidator)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
