@@ -421,20 +421,20 @@ end
 function xpLeveling.handleMaxMagickaEffect(pid,baseTable)
     local birthsign = Players[pid].data.character.birthsign
     local race = Players[pid].data.character.race
-
+    local newTable = tableHelper.deepCopy(baseTable)
     if xpConfig.birthsignMagickaMults[birthsign] ~= nil then
         for attr,value in pairs(xpConfig.birthsignMagickaMults[birthsign]) do
-            baseTable[attr] = baseTable[attr] + value
+            newTable[attr] = newTable[attr] + value
         end
     end
 
     if xpConfig.racialMagickaMults[race] ~= nil then
         for attr,value in pairs(xpConfig.racialMagickaMults[race]) do
-            baseTable[attr] = baseTable[attr] + value
+            newTable[attr] = newTable[attr] + value
         end
     end
 
-    return baseTable
+    return newTable
 end
 
 --Re-calculate stats
