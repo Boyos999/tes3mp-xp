@@ -897,7 +897,6 @@ customEventHooks.registerHandler("OnPlayerItemUse",xpLeveling.UseJournalHandler)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.UpdateStartingStats)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.AddLevelJournal)
 customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.OnPlayerAuthentified)
-customEventHooks.registerHandler("OnPlayerEquipment",xpLeveling.OnDynamicStatChange)
-customEventHooks.registerHandler("OnPlayerSpellsActive",xpLeveling.OnDynamicStatChange)
+customEventHooks.registerHandler("OnPlayerAttribute",xpLeveling.OnDynamicStatChange)
 
 return xpLeveling
