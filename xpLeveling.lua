@@ -398,6 +398,8 @@ function updateStatsTimer(pid)
     tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
 
     tes3mp.SendStatsDynamic(pid)
+
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were updated.")
 end
 
 function xpLeveling.CalcMaxFatigue(pid)
@@ -880,7 +882,6 @@ end
 function xpLeveling.OnDynamicStatChange(eventStatus,pid)
     if eventStatus.validDefaultHandler and eventStatus.validCustomHandlers then
         xpLeveling.UpdatePlayerDynamicStats(pid)
-        tes3mp.MessageBox(pid, -1, "updating dynamic stats")
     end
 end
 
