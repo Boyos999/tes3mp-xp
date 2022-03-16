@@ -888,7 +888,7 @@ end
 customCommandHooks.registerCommand("respec",xpLeveling.RespecMenu)
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
-customCommandHooks.registerCommand("ustats",xpLeveling.UpdatePlayerStats)
+--customCommandHooks.registerCommand("ustats",xpLeveling.UpdatePlayerStats)
 
 customEventHooks.registerValidator("OnPlayerItemUse",xpLeveling.UseJournalValidator)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
