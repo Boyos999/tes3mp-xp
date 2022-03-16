@@ -187,6 +187,9 @@ xpConfig.attributeLvlsPerAttr = 5
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--Birthsigns cause issues that require some stats (magicka) to be updated on a slight delay
+xpConfig.statUpdateDelay = 50
+
 --If set to false bonuses to attributes will not effect derived stats
 xpConfig.statBonusAttrMod = true
 
@@ -200,7 +203,6 @@ xpConfig.healthPerLevelMult = {Endurance = 0.1}
 --Additional health
 xpConfig.healthBaseStartAdd = 0
 
---%%%%%% DO NOT CHANGE %%%%%%
 --Fatigue
 --Attributes used to calculate base fatigue
 xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1}
@@ -216,5 +218,18 @@ xpConfig.magickaAttrs = {Intelligence = 1}
 xpConfig.magickaPerLevelMult = {}
 --Additional Magicka
 xpConfig.magickaStartAdd = 0
+
+--Set desired effect on magicka mults for these birthsigns
+xpConfig.birthsignMagickaMults = {
+    fay = {Intelligence = 0.5},
+    elfborn = {Intelligence = 1.5},
+    wombburned = {Intelligence = 2.0}
+}
+
+--Set desired effect on magicka mults for these races
+xpConfig.racialMagickaMults = {
+    breton = {Intelligence = 0.5}
+}
+xpConfig.racialMagickaMults["high elf"] = {Intelligence = 1.5}
 
 return xpConfig
