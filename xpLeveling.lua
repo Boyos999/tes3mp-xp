@@ -7,6 +7,7 @@ local specSkills = jsonInterface.load("custom/tes3mp-xp/specializations.json")
 local specializations = {"Combat","Magic","Stealth"}
 local vanillaClasses = jsonInterface.load("custom/tes3mp-xp/vanilla_classes.json")
 local attributes = {"Strength","Intelligence","Willpower","Agility","Speed","Endurance","Personality","Luck"}
+local attrIds = {Strength = 0, Intelligence = 1, Willpower = 2, Agility = 3, Speed = 4, Endurance = 5, Personality = 6, Luck = 7}
 
 --Generate Root Level menu per player
 function xpLeveling.GenerateLevelMenu(pid)
@@ -374,52 +375,73 @@ function xpLeveling.UpdatePlayerStats(pid)
     Players[pid]:LoadAttributes()
     Players[pid]:LoadSkills()
     Players[pid]:LoadLevel()
-    
-    xpLeveling.CalcLevelUpStats(pid)
-    tes3mp.SetHealthBase(pid, Players[pid].data.stats.healthBase)
-    tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
-    tes3mp.SetHealthCurrent(pid, Players[pid].data.stats.healthCurrent)
-    tes3mp.SetFatigueCurrent(pid, Players[pid].data.stats.fatigueCurrent)
-    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
-        tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
-        tes3mp.SetMagickaCurrent(pid, Players[pid].data.stats.magickaCurrent)
-    end
-    tes3mp.SendStatsDynamic(pid)
+    xpLeveling.UpdatePlayerDynamicStats(pid)
 end
 
---Function to handle magicka because why is it so weird
-function xpLeveling.BirthsignAlteredMagicka(pid)
-    if Players[pid].data.character.birthsign == "elfborn" or Players[pid].data.character.birthsign == "fay" or Players[pid].data.character.birthsign == "wombburned" then
-        return true
+function xpLeveling.UpdatePlayerDynamicStats(pid)
+    xpLeveling.CalcLevelUpStats(pid)
+    local timer = tes3mp.CreateTimerEx("updateStatsTimer",xpConfig.statUpdateDelay,"i", pid)
+    tes3mp.StartTimer(timer)
+end
+
+function updateStatsTimer(pid)
+    local healthBase
+
+    if tes3mp.IsWerewolf(pid) then
+        healthBase = Players[pid].data.shapeshift.werewolfHealthBase
+    else
+        healthBase = Players[pid].data.stats.healthBase
     end
-    return false
+
+    tes3mp.SetHealthBase(pid, healthBase)
+    tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
+    tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
+
+    tes3mp.SendStatsDynamic(pid)
+
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were updated.")
+end
+
+function xpLeveling.CalcMaxFatigue(pid)
+    local tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,xpConfig.fatigueStartAdd)
+    Players[pid].data.stats.fatigueBase = tempFatigue
+end
+
+function xpLeveling.CalcMaxHealth(pid)
+    local tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
+    Players[pid].data.stats.healthBase = tempHealth
+end
+
+function xpLeveling.CalcMaxMagicka(pid)
+    local magickaAttrs = xpLeveling.handleMaxMagickaEffect(pid,xpConfig.magickaAttrs)
+    local tempMagicka = xpLeveling.CalcRetroStat(pid,magickaAttrs,xpConfig.magickaPerLevelMult,xpConfig.magickaStartAdd)
+    Players[pid].data.stats.magickaBase = tempMagicka
+end
+
+function xpLeveling.handleMaxMagickaEffect(pid,baseTable)
+    local birthsign = Players[pid].data.character.birthsign
+    local race = Players[pid].data.character.race
+    local newTable = tableHelper.deepCopy(baseTable)
+    if xpConfig.birthsignMagickaMults[birthsign] ~= nil then
+        for attr,value in pairs(xpConfig.birthsignMagickaMults[birthsign]) do
+            newTable[attr] = newTable[attr] + value
+        end
+    end
+
+    if xpConfig.racialMagickaMults[race] ~= nil then
+        for attr,value in pairs(xpConfig.racialMagickaMults[race]) do
+            newTable[attr] = newTable[attr] + value
+        end
+    end
+
+    return newTable
 end
 
 --Re-calculate stats
 function xpLeveling.CalcLevelUpStats(pid)
-    local tempFatigue = 0
-    local tempHealth = 0
-    local tempMagicka = 0
-    local tempGain = 0
-    --health
-    tempHealth = xpLeveling.CalcRetroStat(pid,xpConfig.healthAttrs,xpConfig.healthPerLevelMult,Players[pid].data.customVariables.xpStartHealth)
-    tempFatigue = xpLeveling.CalcRetroStat(pid,xpConfig.fatigueAttrs,xpConfig.fatiguePerLevelMult,0)
-    
-    --Update Player fatigue
-    Players[pid].data.stats.fatigueBase = tempFatigue
-    Players[pid].data.stats.fatigueCurrent = tempFatigue
-    
-    --Update player health
-    Players[pid].data.stats.healthBase = tempHealth
-    Players[pid].data.stats.healthCurrent = tempHealth
-    
-    --Only set magicka if the player doesn't have one of the magicka birthsigns
-    --If they have one of those birthsigns it handles itself
-    if xpLeveling.BirthsignAlteredMagicka(pid) ~= true then
-        Players[pid].data.stats.magickaBase = Players[pid].data.attributes.Intelligence.base
-        Players[pid].data.stats.magickaCurrent = Players[pid].data.stats.magickaBase
-    end
-
+    xpLeveling.CalcMaxFatigue(pid)
+    xpLeveling.CalcMaxHealth(pid)
+    xpLeveling.CalcMaxMagicka(pid)
 end
 
 --Function to calculate a Retroactive stat
@@ -435,7 +457,11 @@ end
 function xpLeveling.CalcLevelMultGainStat(pid,multTable)
     local tempGain = 0
     for attr,mult in pairs(multTable) do
-        tempGain = tempGain + Players[pid].data.attributes[attr].base*mult*(Players[pid].data.stats.level-1)
+        local attrValue = Players[pid].data.attributes[attr].base
+        if xpConfig.statBonusAttrMod then
+            attrValue = attrValue + tes3mp.GetAttributeModifier(pid,attrIds[attr])
+        end
+        tempGain = tempGain + attrValue*mult*(Players[pid].data.stats.level-1)
     end
     return tempGain
 end
@@ -444,7 +470,11 @@ end
 function xpLeveling.CalcFlatStat(pid,multTable)
     local tempStat = 0
     for attr,mult in pairs(multTable) do
-        tempStat = tempStat + Players[pid].data.attributes[attr].base*mult
+        local attrValue = Players[pid].data.attributes[attr].base
+        if xpConfig.statBonusAttrMod then
+            attrValue = attrValue + tes3mp.GetAttributeModifier(pid,attrIds[attr])
+        end
+        tempStat = tempStat + attrValue*mult
     end
     return tempStat
 end
@@ -795,7 +825,7 @@ end
 function xpLeveling.SkillBlocker(eventStatus,pid) 
     if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadSkills()
-        return customEventHooks.makeEventStatus(false,false)
+        return customEventHooks.makeEventStatus(false,nil)
     else
         return customEventHooks.makeEventStatus(nil,nil)
     end
@@ -811,26 +841,29 @@ function xpLeveling.LevelBlocker(eventStatus,pid)
     end
 end
 
---Only block leveling after character creation
-function xpLeveling.ActivateBlocker(eventStatus, pid)
+--Block leveling and update stats
+function xpLeveling.OnPlayerAuthentified(eventStatus, pid)
     if Players[pid] ~= nil then
-        if Players[pid]:IsLoggedIn() then
-            Players[pid].data.customVariables.xpStatus = 1
-            initializationVars = {"xpAttrPts","xpAttrPtHold","xpSkillPts","xpSkillPtHold","xpLevelUps"}
-            for _,var in pairs(initializationVars) do
-                if Players[pid].data.customVariables[var] == nil then
-                    Players[pid].data.customVariables[var] = 0
+        if Players[pid]:IsLoggedIn() and eventStatus.validDefaultHandler and eventStatus.validCustomHandlers then
+            if Players[pid].data.customVariables.xpStatus ~= 1 then
+                Players[pid].data.customVariables.xpStatus = 1
+                initializationVars = {"xpAttrPts","xpAttrPtHold","xpSkillPts","xpSkillPtHold","xpLevelUps"}
+                for _,var in pairs(initializationVars) do
+                    if Players[pid].data.customVariables[var] == nil then
+                        Players[pid].data.customVariables[var] = 0
+                    end
+                end
+                if Players[pid].data.customVariables.xpLevelUpChanges == nil then
+                    Players[pid].data.customVariables.xpLevelUpChanges = {}
+                end
+                if Players[pid].data.customVariables.xpLevelUpChanges.attrs == nil then
+                    Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
+                end
+                if Players[pid].data.customVariables.xpLevelUpChanges.skills == nil then
+                    Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
                 end
             end
-            if Players[pid].data.customVariables.xpLevelUpChanges == nil then
-                Players[pid].data.customVariables.xpLevelUpChanges = {}
-            end
-            if Players[pid].data.customVariables.xpLevelUpChanges.attrs == nil then
-                Players[pid].data.customVariables.xpLevelUpChanges.attrs = {}
-            end
-            if Players[pid].data.customVariables.xpLevelUpChanges.skills == nil then
-                Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
-            end
+            xpLeveling.UpdatePlayerDynamicStats(pid)
         end
     end
 end
@@ -846,9 +879,16 @@ function xpLeveling.UpdateStartingStats(eventStatus,pid)
     end
 end
 
+function xpLeveling.OnDynamicStatChange(eventStatus,pid)
+    if eventStatus.validDefaultHandler and eventStatus.validCustomHandlers then
+        xpLeveling.UpdatePlayerDynamicStats(pid)
+    end
+end
+
 customCommandHooks.registerCommand("respec",xpLeveling.RespecMenu)
 customCommandHooks.registerCommand("forcelevelup",xpLeveling.ForceLevel)
 customCommandHooks.registerCommand("levelup",xpLeveling.LevelUpMenu)
+--customCommandHooks.registerCommand("ustats",xpLeveling.UpdatePlayerStats)
 
 customEventHooks.registerValidator("OnPlayerItemUse",xpLeveling.UseJournalValidator)
 customEventHooks.registerValidator("OnPlayerSkill",xpLeveling.SkillBlocker)
@@ -857,6 +897,7 @@ customEventHooks.registerValidator("OnPlayerLevel",xpLeveling.LevelBlocker)
 customEventHooks.registerHandler("OnPlayerItemUse",xpLeveling.UseJournalHandler)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.UpdateStartingStats)
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.AddLevelJournal)
-customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.ActivateBlocker)
+customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.OnPlayerAuthentified)
+customEventHooks.registerHandler("OnPlayerAttribute",xpLeveling.OnDynamicStatChange)
 
 return xpLeveling

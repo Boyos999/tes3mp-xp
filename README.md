@@ -14,7 +14,7 @@
 * Ability to respec a players skills & attributes
 * Gives player a "Training Journal" after chargen which they can use to access leveling/respec functions
 * Simple party system for kill experience
-* Experience penalty on death
+* Experience penalty on death and jail time
 
 # Install
 * Place the json files from the `vanilla Data` folder in `server/data/custom/tes3mp-xp`
@@ -55,3 +55,4 @@ xpDeath = require("custom.tes3mp-xp.xpDeath")
 * Trainers will show messages indicating skills leveling up while not leveling skills
 * Will not work with existing characters
 * Respecced levels may be tedious to re-levelup at very high levels depending on the value of your `xpConfig.skillLvlsPerSkill` setting
+* Mantle of woe may cause weird interactions with magicka

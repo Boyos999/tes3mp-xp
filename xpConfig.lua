@@ -11,12 +11,19 @@ xpConfig.xpPartyLog = "XP Party: "
 xpConfig.xpDeathLog = "XP Death: "
 
 ---------------------------------------------------------------------------------------------------------------
---Death--------------------------------------------------------------------------------------------------------
+--Penalties----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
 --XP lost on death = Level XP Cost * xpDeathMult
 xpConfig.xpDeathMult = .2
-xpConfig.xpDeathAllowNegative = false
+--Amount of xp lost per day spent in jail
+--In vanilla # of days in jail = bounty/100 (rounded up)
+xpConfig.xpJailPenalty = 50
+
+--If player xp can go negative
+xpConfig.xpPenaltyAllowNegative = false
+
+--Message shown when the player loses xp due to death or jail
 xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
 
 ---------------------------------------------------------------------------------------------------------------
@@ -187,6 +194,12 @@ xpConfig.attributeLvlsPerAttr = 5
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
+--Birthsigns cause issues that require some stats (magicka) to be updated on a slight delay
+xpConfig.statUpdateDelay = 50
+
+--If set to false bonuses to attributes will not effect derived stats
+xpConfig.statBonusAttrMod = true
+
 --Health
 --Attributes used to calculate base health
 xpConfig.healthAttrs = {}
@@ -197,7 +210,6 @@ xpConfig.healthPerLevelMult = {Endurance = 0.1}
 --Additional health
 xpConfig.healthBaseStartAdd = 0
 
---%%%%%% DO NOT CHANGE %%%%%%
 --Fatigue
 --Attributes used to calculate base fatigue
 xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1}
@@ -205,5 +217,26 @@ xpConfig.fatigueAttrs = {Strength = 1, Willpower = 1, Agility = 1, Endurance = 1
 xpConfig.fatiguePerLevelMult = {}
 --AdditionalFatigue
 xpConfig.fatigueStartAdd = 0
+
+--Magicka
+--Attributes used to calc base magicka
+xpConfig.magickaAttrs = {Intelligence = 1}
+--Attributes used to calc magicka gain per level
+xpConfig.magickaPerLevelMult = {}
+--Additional Magicka
+xpConfig.magickaStartAdd = 0
+
+--Set desired effect on magicka mults for these birthsigns
+xpConfig.birthsignMagickaMults = {
+    fay = {Intelligence = 0.5},
+    elfborn = {Intelligence = 1.5},
+    wombburned = {Intelligence = 2.0}
+}
+
+--Set desired effect on magicka mults for these races
+xpConfig.racialMagickaMults = {
+    breton = {Intelligence = 0.5}
+}
+xpConfig.racialMagickaMults["high elf"] = {Intelligence = 1.5}
 
 return xpConfig
