@@ -379,9 +379,12 @@ function xpLeveling.UpdatePlayerStats(pid)
 end
 
 function xpLeveling.UpdatePlayerDynamicStats(pid)
-    xpLeveling.CalcLevelUpStats(pid)
-    local timer = tes3mp.CreateTimerEx("updateStatsTimer",xpConfig.statUpdateDelay,"i", pid)
-    tes3mp.StartTimer(timer)
+    --If start health is not set than the player has not finished chargen
+    if Players[pid].data.customVariables.xpStartHealth ~= nil then
+        xpLeveling.CalcLevelUpStats(pid)
+        local timer = tes3mp.CreateTimerEx("updateStatsTimer",xpConfig.statUpdateDelay,"i", pid)
+        tes3mp.StartTimer(timer)
+    end
 end
 
 function updateStatsTimer(pid)
@@ -871,9 +874,9 @@ end
 --Save player's starting health
 function xpLeveling.UpdateStartingStats(eventStatus,pid)
     if eventStatus.validDefaultHandler then
-        Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
         xpLeveling.SaveStartSkills(pid)
         xpLeveling.SaveStartAttributes(pid)
+        Players[pid].data.customVariables.xpStartHealth = xpLeveling.CalcFlatStat(pid,xpConfig.healthBaseStartAttrs) + xpConfig.healthBaseStartAdd
         xpLeveling.CalcLevelUpStats(pid)
         Players[pid]:LoadStatsDynamic()
     end
