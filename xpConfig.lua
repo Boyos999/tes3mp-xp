@@ -17,6 +17,7 @@ xpConfig.xpDeathLog = "XP Death: "
 --XP lost on death = Level XP Cost * xpDeathMult
 xpConfig.xpDeathMult = .2
 --Amount of xp lost per day spent in jail
+--In vanilla # of days in jail = bounty/100 (rounded up)
 xpConfig.xpJailPenalty = 50
 
 --If player xp can go negative
