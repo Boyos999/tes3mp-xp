@@ -11,12 +11,18 @@ xpConfig.xpPartyLog = "XP Party: "
 xpConfig.xpDeathLog = "XP Death: "
 
 ---------------------------------------------------------------------------------------------------------------
---Death--------------------------------------------------------------------------------------------------------
+--Penalties----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
 --XP lost on death = Level XP Cost * xpDeathMult
 xpConfig.xpDeathMult = .2
-xpConfig.xpDeathAllowNegative = false
+--Amount of xp lost per day spent in jail
+xpConfig.xpJailPenalty = 50
+
+--If player xp can go negative
+xpConfig.xpPenaltyAllowNegative = false
+
+--Message shown when the player loses xp due to death or jail
 xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
 
 ---------------------------------------------------------------------------------------------------------------

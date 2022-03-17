@@ -825,7 +825,7 @@ end
 function xpLeveling.SkillBlocker(eventStatus,pid) 
     if Players[pid].data.customVariables.xpStatus == 1 then
         Players[pid]:LoadSkills()
-        return customEventHooks.makeEventStatus(false,false)
+        return customEventHooks.makeEventStatus(false,nil)
     else
         return customEventHooks.makeEventStatus(nil,nil)
     end
