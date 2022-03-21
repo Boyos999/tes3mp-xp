@@ -316,11 +316,11 @@ function xpGain.GiveLevelUp(pid)
 end
 
 --Function to hook into OnPlayerJournal
-function xpGain.OnJournal(eventStatus,pid)
+function xpGain.OnJournal(eventStatus,pid,playerPacket)
     if eventStatus.validDefaultHandler then
-        for i=0, tes3mp.GetJournalChangesSize(pid) - 1 do
-            local index = tes3mp.GetJournalItemIndex(pid, i)
-            local quest = tes3mp.GetJournalItemQuest(pid, i)
+        for _,journalItem in pairs(playerPacket.journal) do
+            local index = journalItem.index
+            local quest = journalItem.quest
             if xpGain.IsQuestEnd(quest,index) then
                 if config.shareJournal then
                     for pid,player in pairs(Players) do
