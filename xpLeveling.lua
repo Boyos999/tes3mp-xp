@@ -772,7 +772,7 @@ function xpLeveling.AddLevelJournal(eventStatus, pid)
             bookRecord["skillId"] = "-1"
             
             bookRecords.data.permanentRecords[bookId] = bookRecord
-            bookRecords:Save()
+            bookRecords:QuicksaveToDrive()
             
             tes3mp.SetRecordType(enumerations.recordType[string.upper("book")])
             packetBuilder.AddBookRecord(bookId, bookRecord)
