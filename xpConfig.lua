@@ -29,8 +29,8 @@ xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
 --Party--------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
---If set to true will share kill xp will allied players
-xpConfig.alliedXp = true
+--If set to true will share kill xp with allied players
+xpConfig.alliedXp = false
 --If set to false all allied players will get the full xp amount
 xpConfig.splitPartyXp = true
 --If set to true will only split allied xp to players in the same cell
