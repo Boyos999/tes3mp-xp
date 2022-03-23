@@ -157,6 +157,22 @@ function xpGain.IsQuestEnd(quest,index)
     return false
 end
 
+--Return pids of online allied players
+function xpGain.GetAlliedPids(pid)
+    local alliedPlayers = Players[pid].data.alliedPlayers
+    local alliedPids = {}
+    if tableHelper.isEmpty(alliedPlayers) then
+    else
+        for iPid,player in pairs(Players) do
+            if tableHelper.containsValue(alliedPlayers,player.name) then
+                table.insert(alliedPids,iPid)
+            end
+        end
+    end
+    table.insert(alliedPids, pid)
+    return alliedPids
+end
+
 --Function to hook into OnActorDeath handler
 function xpGain.OnKill(eventStatus,pid,cellDescription,actors)
     if eventStatus.validDefaultHandler then
@@ -171,30 +187,27 @@ function xpGain.OnKill(eventStatus,pid,cellDescription,actors)
                             tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(pid).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).. "killing refId: "..refId.."("..uniqueIndex..")")
                             xpGain.GiveXp(pid,experience)
                         end
-                    elseif xpParty ~= nil and xpParty.GetParty(killerPid) ~= false then
-                        local partyName = xpParty.GetParty(killerPid)
-                        if partyName ~= false then
-                            local partyMembers = xpParty.GetMembers(partyName)
-                            local partySize = xpParty.GetSize(partyName)
-                            if xpConfig.enforcePartyLocation then
-                                local tempMembers = {}
-                                local tempSize = 0
-                                for _,member in pairs(partyMembers) do
-                                    if Players[member].data.location.cell == cellDescription then
-                                        tempSize = tempSize + 1
-                                        table.insert(tempMembers,member)
-                                    end
+                    elseif xpConfig.alliedXp then
+                        local alliedPids = xpGain.GetAlliedPids(killerPid)
+                        local alliedSize = table.getn(alliedPids)
+                        if xpConfig.enforcePartyLocation then
+                            local tempMembers = {}
+                            local tempSize = 0
+                            for _,member in pairs(alliedPids) do
+                                if tes3mp.GetCell(member) == cellDescription then
+                                    tempSize = tempSize + 1
+                                    table.insert(tempMembers,member)
                                 end
-                                partyMembers = tempMembers
-                                partySize = tempSize
                             end
-                            if xpConfig.splitPartyXp then
-                                experience = math.floor(experience/partySize)
-                            end
-                            for _,member in pairs(partyMembers) do
-                                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." in Party: "..partyName.." killing refId: "..refId.."("..uniqueIndex..")")
-                                xpGain.GiveXp(member,experience)
-                            end
+                            alliedPids = tempMembers
+                            alliedSize = tempSize
+                        end
+                        if xpConfig.splitPartyXp then
+                            experience = math.floor(experience/alliedSize)
+                        end
+                        for _,member in pairs(alliedPids) do
+                            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." killing refId: "..refId.."("..uniqueIndex..")")
+                             xpGain.GiveXp(member,experience)
                         end
                     else
                         tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. "Player: "..logicHandler.GetChatName(killerPid).." received: "..experience.." XP for killing refId: "..refId.."("..uniqueIndex..")")

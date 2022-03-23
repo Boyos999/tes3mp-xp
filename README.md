@@ -4,6 +4,7 @@
 * Fully re-implemented leveling system
 * Extensive configs to customize derived stats, xp gain, and xp cost to level
 * Experience gain on kill
+  * Option to share between allied players
 * Experience gain on quest completion
   * quest xp is based on player level
 * Experience gain on reading books
@@ -13,7 +14,6 @@
   * Includes per-attribute and per-skill caps
 * Ability to respec a players skills & attributes
 * Gives player a "Training Journal" after chargen which they can use to access leveling/respec functions
-* Simple party system for kill experience
 * Experience penalty on death and jail time
 
 # Install
@@ -23,7 +23,6 @@
 * Add the following to customScripts.lua
 ```lua
 xpLeveling = require("custom.tes3mp-xp.xpLeveling")
-xpParty = require("custom.tes3mp-xp.xpParty")
 xpGain = require("custom.tes3mp-xp.xpGain")
 xpDeath = require("custom.tes3mp-xp.xpDeath")
 ```
@@ -44,7 +43,6 @@ xpDeath = require("custom.tes3mp-xp.xpDeath")
   * `/xpstatus` to show progress to next level
   * `/levelup` to open the levelup menu when ready to level up
   * `/respec` to open respec confirmation menu
-  * `/xpparty help` display usage for party commands
 * Admin commands (staff rank 2 by default)
   * `/xpoverride <type> <id> <level/xp> <value>` to add a record to the xp_override table
   * `/forcelevelup <pid>` to give a player a level (does not affect xp)
