@@ -7,7 +7,6 @@ xpConfig = {}
 --Begin logs with these strings
 xpConfig.xpGainLog = "XP Gain: "
 xpConfig.xpLevelLog = "XP Level: "
-xpConfig.xpPartyLog = "XP Party: "
 xpConfig.xpDeathLog = "XP Death: "
 
 ---------------------------------------------------------------------------------------------------------------
@@ -30,9 +29,11 @@ xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
 --Party--------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
---If set to false all members of a party will get the full xp amount
+--If set to true will share kill xp will allied players
+xpConfig.alliedXp = true
+--If set to false all allied players will get the full xp amount
 xpConfig.splitPartyXp = true
---If set to true will only split party xp to players in the same cell
+--If set to true will only split allied xp to players in the same cell
 xpConfig.enforcePartyLocation = true
 
 ---------------------------------------------------------------------------------------------------------------
