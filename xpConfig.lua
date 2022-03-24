@@ -35,6 +35,20 @@ xpConfig.alliedXp = false
 xpConfig.splitPartyXp = true
 --If set to true will only split allied xp to players in the same cell
 xpConfig.enforcePartyLocation = true
+--Party XP = experience/(partySize*partyMult)
+--The lower this multiplier, the less difference party size makes when using
+--splitPartyXp
+--Do not set to 0, values lower than 0.5 will result in getting more xp in a party of 2 than 1
+xpConfig.partyMult = 0.66
+--[[
+    Example: at 0.66 an enemy worth 30 xp will give the below amount of xp to each party member per party size
+    Party Size  xp
+    1           30
+    2           22
+    3           15
+    4           11
+    5           9
+]]
 
 ---------------------------------------------------------------------------------------------------------------
 --Kill XP Gain Options-----------------------------------------------------------------------------------------

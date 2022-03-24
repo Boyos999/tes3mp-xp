@@ -203,7 +203,11 @@ function xpGain.OnKill(eventStatus,pid,cellDescription,actors)
                             alliedSize = tempSize
                         end
                         if xpConfig.splitPartyXp then
-                            experience = math.floor(experience/alliedSize)
+                            local partyMult = 1
+                            if alliedSize > 1 then
+                                partyMult = xpConfig.partyMult
+                            end
+                            experience = math.floor(experience/(alliedSize*partyMult))
                         end
                         for _,member in pairs(alliedPids) do
                             tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpGainLog .. logicHandler.GetChatName(member).." received: "..experience.." XP for Player: "..logicHandler.GetChatName(killerPid).." killing refId: "..refId.."("..uniqueIndex..")")
