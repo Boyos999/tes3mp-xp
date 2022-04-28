@@ -709,6 +709,30 @@ function xpLeveling.GetSpecialization(pid)
 
 end
 
+--Check if a player was training
+function xpLeveling.checkTraining(pid,skills)
+    for skill, values in pairs(skills) do
+        local playerSkillValue = Players[pid].data.skills[skill].base
+        local playerSkillProgress = Players[pid].data.skills[skill].progress
+
+        --Reset skill progress to 0 incase a regular skill increase gets in with training
+        if playerSkillProgress ~= 0 then
+            Players[pid].data.skills[skill].progress = 0
+        end
+
+        if playerSkillValue ~= values.base then
+            local change = values.base - playerSkillValue
+            if change == 1 then
+                if playerSkillProgress <= values.progress then
+                    return true
+                end
+            end
+        end
+        
+    end
+    return false
+end
+
 --Check if player is a custom class
 function xpLeveling.GetIsCustomClass(pid)
     if Players[pid].data.character.class == "custom" then
@@ -825,8 +849,16 @@ function xpLeveling.ForceLevel(pid,cmd)
 end
 
 --Don't let players level
-function xpLeveling.SkillBlocker(eventStatus,pid) 
+function xpLeveling.SkillBlocker(eventStatus,pid,playerPacket) 
     if Players[pid].data.customVariables.xpStatus == 1 then
+        --If training is enabled check if the player was training
+        --and save their skills normally if they were
+        if xpConfig.enableTraining then
+            if xpLeveling.checkTraining(pid,playerPacket.skills) then
+                return customEventHooks.makeEventStatus(nil,nil)
+            end
+        end
+
         Players[pid]:LoadSkills()
         return customEventHooks.makeEventStatus(false,nil)
     else

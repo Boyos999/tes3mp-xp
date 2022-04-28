@@ -50,7 +50,6 @@ xpDeath = require("custom.tes3mp-xp.xpDeath")
 
 # Known Issues
 * Level xp cost formula has had very little testing and may result in strange leveling rates
-* Trainers will show messages indicating skills leveling up while not leveling skills
 * Will not work with existing characters
 * Respecced levels may be tedious to re-levelup at very high levels depending on the value of your `xpConfig.skillLvlsPerSkill` setting
 * Mantle of woe may cause weird interactions with magicka
