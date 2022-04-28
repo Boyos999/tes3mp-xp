@@ -155,7 +155,8 @@ xpConfig.noLevelUpMessage = color.Red .. "You can't level up yet"
 xpConfig.enableRespec = true
 
 --Set to true to allow players to use training
-xpConfig.enableTraining = false
+--NOTE: I'd recommend using with my Training Limiter script
+xpConfig.enableTraining = true
 
 ---------------------------------------------------------------------------------------------------------------
 --Journal Item Settings----------------------------------------------------------------------------------------
