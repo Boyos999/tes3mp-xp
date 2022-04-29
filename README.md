@@ -18,6 +18,7 @@
 
 # Install
 * Place the json files from the `vanilla Data` folder in `server/data/custom/tes3mp-xp`
+  * If using Tamriel Rebuilt, Skyrim Home of the Nords, and/or Project Cyrodiil copy the files from `vanilla data/PT`
 * Place everything else in `server/scripts/custom/tes3mp-xp`
 * xpCalc.ods is a spreadsheet with formulas you can use to tune xp gain config values
 * Add the following to customScripts.lua
