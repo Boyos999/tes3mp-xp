@@ -153,7 +153,7 @@ function xpLeveling.GenerateCommitMenu(pid)
     Menus["xpCommit" .. pid] = {
         text = changeString,
         buttons = {
-            { caption = "Commit Level Up",
+            { caption = "Apply Level Up",
                 destinations = {
                     menuHelper.destinations.setDefault(nil,
                     {
@@ -171,7 +171,7 @@ function xpLeveling.GenerateCommitMenu(pid)
             }
         }
     }
-    xpLeveling.AddMenuNavigation(pid,"xpCommit" .. pid)
+    xpLeveling.AddMenuNavigation(pid,"xpCommit" .. pid,"xpLevel" .. pid)
 end
 
 --Append some generally helpful menu navigation functions
@@ -182,7 +182,7 @@ function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
                 menuHelper.destinations.setDefault(previousMenu)
             }
         },
-        { caption = color.Orange .. "Root",
+        { caption = color.Orange .. "Main",
             destinations = {
                 menuHelper.destinations.setDefault("xpLevel" .. pid)
             }

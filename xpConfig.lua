@@ -14,7 +14,7 @@ xpConfig.xpDeathLog = "XP Death: "
 ---------------------------------------------------------------------------------------------------------------
 
 --XP lost on death = Level XP Cost * xpDeathMult
-xpConfig.xpDeathMult = .2
+xpConfig.xpDeathMult = .1
 --Amount of xp lost per day spent in jail
 --In vanilla # of days in jail = bounty/100 (rounded up)
 xpConfig.xpJailPenalty = 50
@@ -98,12 +98,12 @@ xpConfig.additionalSkillBooks = {"sc_fjellnote","sc_grandfatherfrost","sc_sjobal
 --Topic XP Gain Options----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------
 
-xpConfig.topicXpBase = 5
+xpConfig.topicXpBase = 4
 --Amount of xp given per previously discovered topics 
 --(as a player discovers more topics, they're worth more xp)
 xpConfig.topicXpPerTopics = 1
 --xp gain increases by the above value every # of topics
-xpConfig.topicXpPerTopicsStep = 8
+xpConfig.topicXpPerTopicsStep = 16
 
 ---------------------------------------------------------------------------------------------------------------
 --Reputation XP Gain Options-----------------------------------------------------------------------------------
@@ -185,13 +185,13 @@ xpConfig.xpJournalDisplay = {
 ---------------------------------------------------------------------------------------------------------------
 
 --Skill points given per level
-xpConfig.skillPtsPerLevel = 43
+xpConfig.skillPtsPerLevel = 47
 --Max times you can level an individual skill
 xpConfig.skillLvlsPerSkill = 5
 --Base point cost to level skill
 xpConfig.skillCost = 4
 --Cost reduction for specialization
-xpConfig.skillCostSpecReduction = 1
+xpConfig.skillCostSpecReduction = 0
 --Cost reduction on minor skills
 xpConfig.skillCostMinReduction = 1
 --Cost reduction on Major skills
