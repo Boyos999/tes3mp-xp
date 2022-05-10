@@ -527,8 +527,10 @@ function xpLeveling.LevelUpPlayer(pid)
     else
         Players[pid].data.customVariables.xpLevelUps = (playerLevelUps + 1)
     end
-    
-    tes3mp.MessageBox(pid, -1, xpConfig.levelUpMessage)
+    --Suppress MessageBox if the player is in a menu
+    if Players[pid].currentCustomMenu ~= nil then
+        tes3mp.MessageBox(pid, -1, xpConfig.levelUpMessage)
+    end
 end
 
 --Calculate them maximum number of times a player can level an attribute

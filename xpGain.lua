@@ -11,8 +11,13 @@ local bookTable = jsonInterface.load("custom/tes3mp-xp/vanilla_books.json")
 
 --Function to give player xp
 function xpGain.GiveXp(pid,experience)
-    Players[pid].data.customVariables.xpTotal = Players[pid].data.customVariables.xpTotal+experience
-    xpGain.OnXpGain(pid,experience)
+    if Players[pid] ~= nil and Players[pid]:IsLoggedIn() then
+        --This indicates a play has not finished chargen, and should not get xp
+        if Players[pid].data.customVariables.xpTotal ~= nil then
+            Players[pid].data.customVariables.xpTotal = Players[pid].data.customVariables.xpTotal+experience
+            xpGain.OnXpGain(pid,experience)
+        end
+    end
 end
 
 --Function to get the amount of xp a refid is worth
@@ -312,7 +317,10 @@ end
 --Function called whenever a player gains xp to check if the player can level up
 function xpGain.OnXpGain(pid,experience)
     if experience > 0 then
-        tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience)
+        --Suppress MessageBox if the player is in a menu
+        if Players[pid].currentCustomMenu ~= nil then
+            tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience)
+        end
         if xpGain.CheckLevelUp(pid) then
             xpGain.GiveLevelUp(pid)
         end
