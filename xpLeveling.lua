@@ -531,6 +531,7 @@ function xpLeveling.LevelUpPlayer(pid)
     if Players[pid].currentCustomMenu ~= nil then
         tes3mp.MessageBox(pid, -1, xpConfig.levelUpMessage)
     end
+    logicHandler.RunConsoleCommandOnPlayer(pid,"playsound skillraise")
 end
 
 --Calculate them maximum number of times a player can level an attribute

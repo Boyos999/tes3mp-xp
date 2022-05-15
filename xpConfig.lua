@@ -63,7 +63,7 @@ xpConfig.lvlKillXp = 10
 xpConfig.lvlKillXpFactor = 1.2
 
 --Message receiving xp
-xpConfig.xpMessage = "You gained XP: "
+xpConfig.xpMessage = "+ "
 
 ---------------------------------------------------------------------------------------------------------------
 --Level Xp Requirements----------------------------------------------------------------------------------------
