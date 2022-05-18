@@ -713,7 +713,8 @@ function xpLeveling.GetSpecialization(pid)
 end
 
 --Check if a player was training
-function xpLeveling.checkTraining(pid,skills)
+function xpLeveling.checkSkillUp(pid,skills)
+    local skillDiffs = {increase = 0, decrease = 0}
     for skill, values in pairs(skills) do
         local playerSkillValue = Players[pid].data.skills[skill].base
         local playerSkillProgress = Players[pid].data.skills[skill].progress
@@ -727,13 +728,15 @@ function xpLeveling.checkTraining(pid,skills)
             local change = values.base - playerSkillValue
             if change == 1 then
                 if playerSkillProgress <= values.progress then
-                    return true
+                    skillDiffs.increase = skillDiffs.increase + 1
                 end
+            elseif change == -1 then
+                skillDiffs.decrease = skillDiffs.decrease + 1
             end
         end
         
     end
-    return false
+    return skillDiffs
 end
 
 --Check if player is a custom class
@@ -854,11 +857,20 @@ end
 --Don't let players level
 function xpLeveling.SkillBlocker(eventStatus,pid,playerPacket) 
     if Players[pid].data.customVariables.xpStatus == 1 then
+        local skillDiffs = xpLeveling.checkSkillUp(pid,playerPacket.skills)
         --If training is enabled check if the player was training
         --and save their skills normally if they were
         if xpConfig.enableTraining then
-            if xpLeveling.checkTraining(pid,playerPacket.skills) then
+            --Indicates training occurred
+            if skillDiffs.increase > 0 and skillDiffs.decrease == 0 then
                 return customEventHooks.makeEventStatus(nil,nil)
+            end
+        end
+
+        if xpDeath ~= nil then
+            --Indicates player was jailed
+            if skillDiffs.decrease > 0 then
+                xpDeath.jailPenalty(pid,skillDiffs.decrease)
             end
         end
 

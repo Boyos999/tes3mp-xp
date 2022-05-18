@@ -15,26 +15,10 @@ function xpDeath.ResurrectPenalty(eventStatus,pid)
     end
 end
 
-function xpDeath.JailCheck(eventStatus,pid,playerPacket)
-    if eventStatus.validCustomHandlers then
-        local wasJailed = false
-        local daysJailed = 0
-
-        for skill,values in pairs(playerPacket.skills) do
-            local playerSkillValue = Players[pid].data.skills[skill].base
-            
-            if playerSkillValue > values.base then
-                wasJailed = true
-                daysJailed = daysJailed + (playerSkillValue-values.base)
-            end
-        end
-
-        if wasJailed and daysJailed > 0 then
-            local xpPenalty = daysJailed*xpConfig.xpJailPenalty
-            xpDeath.applyXpPenalty(pid,xpPenalty)
-            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog .. "Player: "..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP due to being jailed for "..daysJailed.." days")
-        end
-    end
+function xpDeath.jailPenalty(pid,daysJailed)
+    local xpPenalty = daysJailed*xpConfig.xpJailPenalty
+    xpDeath.applyXpPenalty(pid,xpPenalty)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog .. "Player: "..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP due to being jailed for "..daysJailed.." days")
 end
 
 function xpDeath.applyXpPenalty(pid,xpPenalty)
@@ -57,7 +41,6 @@ function xpDeath.applyXpPenalty(pid,xpPenalty)
 
 end
 
-customEventHooks.registerHandler("OnPlayerSkill",xpDeath.JailCheck)
 customEventHooks.registerHandler("OnPlayerDeath",xpDeath.ResurrectPenalty)
 
 return xpDeath
