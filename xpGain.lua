@@ -318,7 +318,7 @@ end
 function xpGain.OnXpGain(pid,experience)
     if experience > 0 then
         --Suppress MessageBox if the player is in a menu
-        if Players[pid].currentCustomMenu ~= nil then
+        if Players[pid].data.customVariables.xpGainNotif == "On" then
             tes3mp.MessageBox(pid, -1, xpConfig.xpMessage .. experience .. " XP")
         end
         if xpGain.CheckLevelUp(pid) then

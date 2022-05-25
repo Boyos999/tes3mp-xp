@@ -177,7 +177,10 @@ xpConfig.xpJournalDisplay = {
     { var = "xpSkillPts", name = "Skill Points" },
     { var = "xpLevelUps", name = "Level Ups" },
     { var = "xpTotal", name = "Current XP" },
-    { var = "xpLevelCost", name = "Level XP Cost" }
+    { var = "xpLevelCost", name = "Level XP Cost" },
+    { var = "xpLevelSound", name = "Level Up Sound"},
+    { var = "xpLevelNotif", name = "Level Up Notification"},
+    { var = "xpGainNotif", name = "XP Gain Notification"}
 }
 
 ---------------------------------------------------------------------------------------------------------------

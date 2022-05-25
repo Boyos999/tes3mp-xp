@@ -31,7 +31,11 @@ function xpLeveling.GenerateLevelMenu(pid)
             },
             { caption = "Exit",
                 destinations = {
-                    menuHelper.destinations.setDefault(nil)
+                    menuHelper.destinations.setDefault(nil,
+                    {
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpGainNotif"}),
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
+                    })
                 }
             }
         }
@@ -157,7 +161,9 @@ function xpLeveling.GenerateCommitMenu(pid)
                 destinations = {
                     menuHelper.destinations.setDefault(nil,
                     {
-                        menuHelper.effects.runGlobalFunction("xpLeveling","CommitLevelUp",{menuHelper.variables.currentPid()})
+                        menuHelper.effects.runGlobalFunction("xpLeveling","CommitLevelUp",{menuHelper.variables.currentPid()}),
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpGainNotif"}),
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
                     })
                 }
             },
@@ -165,7 +171,9 @@ function xpLeveling.GenerateCommitMenu(pid)
                 destinations = {
                     menuHelper.destinations.setDefault(nil,
                     {
-                        menuHelper.effects.runGlobalFunction("xpLeveling","RevertLevelUpChanges",{menuHelper.variables.currentPid()})
+                        menuHelper.effects.runGlobalFunction("xpLeveling","RevertLevelUpChanges",{menuHelper.variables.currentPid()}),
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpGainNotif"}),
+                        menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
                     })
                 }
             }
@@ -189,7 +197,11 @@ function xpLeveling.AddMenuNavigation(pid,menu,previousMenu)
         },
         { caption = color.Red .. "Exit",
             destinations = {
-                menuHelper.destinations.setDefault(nil)
+                menuHelper.destinations.setDefault(nil,
+                {
+                    menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpGainNotif"}),
+                    menuHelper.effects.runGlobalFunction("xpLeveling","enableNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
+                })
             }
         }
     }
@@ -257,7 +269,18 @@ function xpLeveling.GenerateJournalMenu(pid)
         buttons = {}
     }
     if canLevel then
-        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpLevel"..pid,"Level Up","GenerateLevelMenu",{menuHelper.variables.currentPid()})
+        local tempButton = {
+            caption = "Level Up",
+            destinations = {
+                menuHelper.destinations.setDefault("xpLevel"..pid,
+                {
+                    menuHelper.effects.runGlobalFunction("xpLeveling","GenerateLevelMenu",{menuHelper.variables.currentPid()}),
+                    menuHelper.effects.runGlobalFunction("xpLeveling","disableNotif",{menuHelper.variables.currentPid(),"xpGainNotif"}),
+                    menuHelper.effects.runGlobalFunction("xpLeveling","disableNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
+                })
+            }
+        }
+        --local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpLevel"..pid,"Level Up","GenerateLevelMenu",{menuHelper.variables.currentPid()})
         table.insert(Menus["xpJournal"..pid].buttons,tempButton)
     end
     
@@ -265,13 +288,43 @@ function xpLeveling.GenerateJournalMenu(pid)
         local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpRespec"..pid,"Respec","GenerateRespecConfirmation",{menuHelper.variables.currentPid()})
         table.insert(Menus["xpJournal"..pid].buttons,tempButton)
     end
-    
+
+    if Players[pid].data.customVariables.xpLevelSound ~= nil then
+        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpJournal"..pid,"Toggle Level Up Sound","toggleNotif",{menuHelper.variables.currentPid(),"xpLevelSound"})
+        table.insert(Menus["xpJournal"..pid].buttons,tempButton)
+    end
+    if Players[pid].data.customVariables.xpLevelNotif ~= nil then
+        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpJournal"..pid,"Toggle Level Up Message","toggleNotif",{menuHelper.variables.currentPid(),"xpLevelNotif"})
+        table.insert(Menus["xpJournal"..pid].buttons,tempButton)
+    end
+    if Players[pid].data.customVariables.xpGainNotif ~= nil then
+        local tempButton = xpLeveling.GenerateMenuButton(pid,"xpJournal"..pid,"xpJournal"..pid,"Toggle XP Message","toggleNotif",{menuHelper.variables.currentPid(),"xpGainNotif"})
+        table.insert(Menus["xpJournal"..pid].buttons,tempButton)
+    end
+
     local exitButton = {
         caption = color.Red .. "Exit",
         destinations = {menuHelper.destinations.setDefault(nil)}
     }
     table.insert(Menus["xpJournal"..pid].buttons,exitButton)
     
+end
+
+function xpLeveling.disableNotif(pid,notifVar)
+    Players[pid].data.customVariables[notifVar] = "Off"
+end
+
+function xpLeveling.enableNotif(pid,notifVar)
+    Players[pid].data.customVariables[notifVar] = "On"
+end
+
+function xpLeveling.toggleNotif(pid,notifVar)
+    if Players[pid].data.customVariables[notifVar] == "On" then
+        xpLeveling.disableNotif(pid,notifVar)
+    else
+        xpLeveling.enableNotif(pid,notifVar)
+    end
+    xpLeveling.GenerateJournalMenu(pid)
 end
 
 --Perform Level Respec
@@ -528,10 +581,12 @@ function xpLeveling.LevelUpPlayer(pid)
         Players[pid].data.customVariables.xpLevelUps = (playerLevelUps + 1)
     end
     --Suppress MessageBox if the player is in a menu
-    if Players[pid].currentCustomMenu ~= nil then
+    if Players[pid].data.customVariables.xpLevelNotif == "On" then
         tes3mp.MessageBox(pid, -1, xpConfig.levelUpMessage)
     end
-    logicHandler.RunConsoleCommandOnPlayer(pid,"playsound skillraise")
+    if Players[pid].data.customVariables.xpLevelSound == "On" then
+        logicHandler.RunConsoleCommandOnPlayer(pid,"playsound skillraise")
+    end
 end
 
 --Calculate them maximum number of times a player can level an attribute
@@ -838,6 +893,8 @@ end
 function xpLeveling.LevelUpMenu(pid)
     if xpLeveling.canLevelUp(pid) then
         xpLeveling.GenerateLevelMenu(pid)
+        xpLeveling.disableNotif(pid,"xpGainNotif")
+        xpLeveling.disableNotif(pid,"xpLevelNotif")
         Players[pid].currentCustomMenu = "xpLevel" .. pid
         menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
     else
@@ -898,11 +955,13 @@ function xpLeveling.OnPlayerAuthentified(eventStatus, pid)
             if Players[pid].data.customVariables.xpStatus ~= 1 then
                 Players[pid].data.customVariables.xpStatus = 1
                 initializationVars = {"xpAttrPts","xpAttrPtHold","xpSkillPts","xpSkillPtHold","xpLevelUps"}
+                
                 for _,var in pairs(initializationVars) do
                     if Players[pid].data.customVariables[var] == nil then
                         Players[pid].data.customVariables[var] = 0
                     end
                 end
+                
                 if Players[pid].data.customVariables.xpLevelUpChanges == nil then
                     Players[pid].data.customVariables.xpLevelUpChanges = {}
                 end
@@ -913,6 +972,14 @@ function xpLeveling.OnPlayerAuthentified(eventStatus, pid)
                     Players[pid].data.customVariables.xpLevelUpChanges.skills = {}
                 end
             end
+
+            notifToggles = {"xpGainNotif","xpLevelNotif","xpLevelSound"}
+            for _,var in pairs(notifToggles) do
+                if Players[pid].data.customVariables[var] == nil then
+                    Players[pid].data.customVariables[var] = "On"
+                end
+            end
+
             xpLeveling.UpdatePlayerDynamicStats(pid)
         end
     end
