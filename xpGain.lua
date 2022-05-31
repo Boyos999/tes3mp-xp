@@ -169,7 +169,7 @@ function xpGain.GetAlliedPids(pid)
     if tableHelper.isEmpty(alliedPlayers) then
     else
         for iPid,player in pairs(Players) do
-            if tableHelper.containsValue(alliedPlayers,player.name) then
+            if tableHelper.containsValue(alliedPlayers,string.lower(player.name)) then
                 table.insert(alliedPids,iPid)
             end
         end
