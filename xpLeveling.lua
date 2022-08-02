@@ -490,6 +490,14 @@ function xpLeveling.handleMaxMagickaEffect(pid,baseTable)
         end
     end
 
+    for refId, equipMult in pairs(xpConfig.equipmentMagickaMults) do
+        if Players[pid].data.equipment[equipMult.slot].refId == refId then
+            for attr, value in pairs(equipMult.attributes) do
+                newTable[attr] = newTable[attr] + value
+            end
+        end
+    end
+
     return newTable
 end
 
@@ -1016,5 +1024,6 @@ customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.UpdateStartingS
 customEventHooks.registerHandler("OnPlayerEndCharGen",xpLeveling.AddLevelJournal)
 customEventHooks.registerHandler("OnPlayerAuthentified",xpLeveling.OnPlayerAuthentified)
 customEventHooks.registerHandler("OnPlayerAttribute",xpLeveling.OnDynamicStatChange)
+customEventHooks.registerHandler("OnPlayerEquipment",xpLeveling.OnDynamicStatChange)
 
 return xpLeveling

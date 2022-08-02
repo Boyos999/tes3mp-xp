@@ -261,4 +261,11 @@ xpConfig.racialMagickaMults = {
 }
 xpConfig.racialMagickaMults["high elf"] = {Intelligence = 1.5}
 
+xpConfig.equipmentMagickaMults = {}
+
+xpConfig.equipmentMagickaMults["mantle of woe"] = {
+    slot = enumerations.equipment.ROBE, 
+    attributes = {Intelligence = 5.0}
+}
+
 return xpConfig
