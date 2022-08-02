@@ -17,10 +17,10 @@ xpConfig.xpDeathLog = "XP Death: "
 xpConfig.xpDeathMult = .1
 --Amount of xp lost per day spent in jail
 --In vanilla # of days in jail = bounty/100 (rounded up)
-xpConfig.xpJailPenalty = 50
+xpConfig.xpJailPenalty = 75
 
 --If player xp can go negative
-xpConfig.xpPenaltyAllowNegative = false
+xpConfig.xpPenaltyAllowNegative = true
 
 --Message shown when the player loses xp due to death or jail
 xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
@@ -30,11 +30,11 @@ xpConfig.xpPenaltyMessage = "You lost XP: " .. color.Red
 ---------------------------------------------------------------------------------------------------------------
 
 --If set to true will share kill xp with allied players
-xpConfig.alliedXp = false
+xpConfig.alliedXp = true
 --If set to false all allied players will get the full xp amount
 xpConfig.splitPartyXp = true
 --If set to true will only split allied xp to players in the same cell
-xpConfig.enforcePartyLocation = true
+xpConfig.enforcePartyLocation = false
 --Party XP = experience/(partySize*partyMult)
 --The lower this multiplier, the less difference party size makes when using
 --splitPartyXp
@@ -70,12 +70,12 @@ xpConfig.xpMessage = "+ "
 ---------------------------------------------------------------------------------------------------------------
 
 --Level XP Cost = baseLvlCost + (playerLevel^lvlCostFactor)*lvlCostMult
-xpConfig.baseLvlCost = 1000
-xpConfig.lvlCostMult = 60
+xpConfig.baseLvlCost = 1500
+xpConfig.lvlCostMult = 90
 xpConfig.lvlCostFactor = 1.6
 
 --Limits on min, max cost of levelup. Use: {0,-1} for no limits
-xpConfig.lvlCostLimit = {0,35} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
+xpConfig.lvlCostLimit = {0,-1} --Player levels: {5,35} levels will max in cost at 35, with a min cost at level 5
 
 ---------------------------------------------------------------------------------------------------------------
 --Quest XP Gain Options----------------------------------------------------------------------------------------
@@ -129,7 +129,7 @@ xpConfig.minGiveXpRank = 2
 ---------------------------------------------------------------------------------------------------------------
 
 xpConfig.skillCap = 100
-xpConfig.attributeCap = 100
+xpConfig.attributeCap = 200
 xpConfig.levelCap = 100
 
 xpConfig.perSkillCaps = {}
@@ -188,17 +188,17 @@ xpConfig.xpJournalDisplay = {
 ---------------------------------------------------------------------------------------------------------------
 
 --Skill points given per level
-xpConfig.skillPtsPerLevel = 47
+xpConfig.skillPtsPerLevel = 45
 --Max times you can level an individual skill
 xpConfig.skillLvlsPerSkill = 5
 --Base point cost to level skill
-xpConfig.skillCost = 4
+xpConfig.skillCost = 3
 --Cost reduction for specialization
 xpConfig.skillCostSpecReduction = 0
 --Cost reduction on minor skills
 xpConfig.skillCostMinReduction = 1
 --Cost reduction on Major skills
-xpConfig.skillCostMajReduction = 2
+xpConfig.skillCostMajReduction = 1
 --Defines Threshold by which skill cost is increased by the step (at 25 a base of 5 costs 6, at 50 7, etc)
 xpConfig.skillCostGroups = {30,60,90}
 xpConfig.skillCostGroupStep = 1
@@ -228,7 +228,7 @@ xpConfig.healthAttrs = {}
 --Attributes used to calculate base starting health
 xpConfig.healthBaseStartAttrs = {Strength = 0.5, Endurance = 0.5}
 --Attributes used to calculate health gain per level
-xpConfig.healthPerLevelMult = {Endurance = 0.1}
+xpConfig.healthPerLevelMult = {Endurance = 0.07}
 --Additional health
 xpConfig.healthBaseStartAdd = 0
 
