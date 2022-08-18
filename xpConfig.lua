@@ -103,7 +103,7 @@ xpConfig.topicXpBase = 4
 --(as a player discovers more topics, they're worth more xp)
 xpConfig.topicXpPerTopics = 1
 --xp gain increases by the above value every # of topics
-xpConfig.topicXpPerTopicsStep = 16
+xpConfig.topicXpPerTopicsStep = 10
 
 ---------------------------------------------------------------------------------------------------------------
 --Reputation XP Gain Options-----------------------------------------------------------------------------------
@@ -208,9 +208,9 @@ xpConfig.skillCostGroupStep = 1
 ---------------------------------------------------------------------------------------------------------------
 
 --Attribute points given per level
-xpConfig.attributePtsPerLevel = 12
+xpConfig.attributePtsPerLevel = 10
 --Max attribute levels per Attribute
-xpConfig.attributeLvlsPerAttr = 5
+xpConfig.attributeLvlsPerAttr = 4
 
 ---------------------------------------------------------------------------------------------------------------
 --Derived stats settings, SET TO VANILLA BY DEFAULT :)---------------------------------------------------------
