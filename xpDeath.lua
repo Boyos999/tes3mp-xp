@@ -10,7 +10,7 @@ function xpDeath.ResurrectPenalty(eventStatus,pid)
         xpPenalty = math.floor(levelCost*xpConfig.xpDeathMult)
         xpDeath.applyXpPenalty(pid,xpPenalty)
 
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog .. "Player: "..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP for dying")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog ..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP for dying")
 
     end
 end
@@ -18,7 +18,7 @@ end
 function xpDeath.jailPenalty(pid,daysJailed)
     local xpPenalty = daysJailed*xpConfig.xpJailPenalty
     xpDeath.applyXpPenalty(pid,xpPenalty)
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog .. "Player: "..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP due to being jailed for "..daysJailed.." days")
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpDeathLog ..logicHandler.GetChatName(pid).." lost: "..xpPenalty.." XP due to being jailed for "..daysJailed.." days")
 end
 
 function xpDeath.applyXpPenalty(pid,xpPenalty)

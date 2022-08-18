@@ -40,11 +40,11 @@ function xpLeveling.GenerateLevelMenu(pid)
             }
         }
     }
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generating Level Menu for pid: " ..pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generating Level Menu for: " ..logicHandler.GetChatName(pid))
     xpLeveling.GenerateSpecMenu(pid)
     xpLeveling.GenerateAttrsMenu(pid)
     xpLeveling.GenerateCommitMenu(pid)
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Menu Generation Complete for pid: " ..pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Menu Generation Complete for: " ..logicHandler.GetChatName(pid))
 end
 
 --General function to generate a generic menu button
@@ -251,7 +251,7 @@ function xpLeveling.GenerateRespecConfirmation(pid)
             }
         }
     }
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generated Respec Menu for pid: " ..pid)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Generated Respec Menu for: " ..logicHandler.GetChatName(pid))
 end
 
 --Create Journal menu for the player
@@ -348,7 +348,7 @@ function xpLeveling.RespecRefund(pid)
     Players[pid].data.attributes = startAttrs
     
     xpLeveling.UpdatePlayerStats(pid)
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: " ..logicHandler.GetChatName(pid) .. " respecced")
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. logicHandler.GetChatName(pid) .. " respecced")
 end
 
 --Revert pending level up changes
@@ -370,7 +370,7 @@ end
 
 --Save level up change before committing
 function xpLeveling.SaveLevelUpChange(pid,statType,statName,value,ptCost)
-    tes3mp.LogMessage(enumerations.log.INFO,"Saving Change for pid("..pid.."): statType: " .. statType .. ", statName: " .. statName)
+    tes3mp.LogMessage(enumerations.log.INFO,"Saving Change for " ..logicHandler.GetChatName(pid)..": statType: " .. statType .. ", statName: " .. statName)
     --I don't know why pid keeps ending up as a string but I suspect menuHelper fuckery
     pid = tonumber(pid)
     --Save pending level up changes
@@ -420,7 +420,7 @@ function xpLeveling.CommitLevelUp(pid)
     
     xpLeveling.UpdatePlayerStats(pid)
     
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player at pid("..pid..") leveled to Level: " .. Players[pid].data.stats.level)
+    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." leveled to Level: " .. Players[pid].data.stats.level)
 end
 
 --Function to send updated data to the player
@@ -442,7 +442,7 @@ end
 
 function updateStatsTimer(pid)
     if tes3mp.IsWerewolf(pid) then
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
     else
         local healthBase = Players[pid].data.stats.healthBase
 
@@ -453,7 +453,7 @@ function updateStatsTimer(pid)
 
         tes3mp.SendStatsDynamic(pid)
 
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were updated.")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." dynamic stats were updated.")
     end
 end
 
@@ -840,10 +840,10 @@ end
 --Function called when a player uses their journal
 function xpLeveling.UseJournalHandler(eventStatus, pid, refid)
     if refid == xpConfig.xpJournalId then
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal used")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." used their journal")
         if eventStatus.validCustomHandler ~= false then
             xpLeveling.GenerateJournalMenu(pid)
-            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "journal menu generated")
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." journal menu generated")
             Players[pid].currentCustomMenu = "xpJournal" .. pid
             menuHelper.DisplayMenu(pid, Players[pid].currentCustomMenu)
         
@@ -916,7 +916,7 @@ function xpLeveling.ForceLevel(pid,cmd)
     if (Players[pid].data.settings.staffRank >= xpConfig.minForceLevelRank) and cmd[2] ~= nil then
         xpLeveling.LevelUpPlayer(tonumber(cmd[2]))
     elseif (Players[pid].data.settings.staffRank < xpConfig.minForceLevelRank) then
-        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." attempted to use the forcelevelup command without permission")
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. logicHandler.GetChatName(pid).." attempted to use the forcelevelup command without permission")
     end
 end
 
@@ -989,7 +989,7 @@ function xpLeveling.OnPlayerAuthentified(eventStatus, pid)
                 end
             end
             if tes3mp.IsWerewolf(pid) then
-                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
             else
                 xpLeveling.UpdatePlayerDynamicStats(pid)
             end
@@ -1011,7 +1011,7 @@ end
 function xpLeveling.OnDynamicStatChange(eventStatus,pid)
     if eventStatus.validDefaultHandler and eventStatus.validCustomHandlers then
         if tes3mp.IsWerewolf(pid) then
-            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog ..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
         else
             xpLeveling.UpdatePlayerDynamicStats(pid)
         end
