@@ -441,21 +441,20 @@ function xpLeveling.UpdatePlayerDynamicStats(pid)
 end
 
 function updateStatsTimer(pid)
-    local healthBase
-
     if tes3mp.IsWerewolf(pid) then
-        healthBase = Players[pid].data.shapeshift.werewolfHealthBase
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
     else
-        healthBase = Players[pid].data.stats.healthBase
+        local healthBase = Players[pid].data.stats.healthBase
+
+
+        tes3mp.SetHealthBase(pid, healthBase)
+        tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
+        tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
+
+        tes3mp.SendStatsDynamic(pid)
+
+        tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were updated.")
     end
-
-    tes3mp.SetHealthBase(pid, healthBase)
-    tes3mp.SetMagickaBase(pid, Players[pid].data.stats.magickaBase)
-    tes3mp.SetFatigueBase(pid, Players[pid].data.stats.fatigueBase)
-
-    tes3mp.SendStatsDynamic(pid)
-
-    tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were updated.")
 end
 
 function xpLeveling.CalcMaxFatigue(pid)
@@ -989,8 +988,11 @@ function xpLeveling.OnPlayerAuthentified(eventStatus, pid)
                     Players[pid].data.customVariables[var] = "On"
                 end
             end
-
-            xpLeveling.UpdatePlayerDynamicStats(pid)
+            if tes3mp.IsWerewolf(pid) then
+                tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
+            else
+                xpLeveling.UpdatePlayerDynamicStats(pid)
+            end
         end
     end
 end
@@ -1008,7 +1010,11 @@ end
 
 function xpLeveling.OnDynamicStatChange(eventStatus,pid)
     if eventStatus.validDefaultHandler and eventStatus.validCustomHandlers then
-        xpLeveling.UpdatePlayerDynamicStats(pid)
+        if tes3mp.IsWerewolf(pid) then
+            tes3mp.LogMessage(enumerations.log.INFO, xpConfig.xpLevelLog .. "Player: "..logicHandler.GetChatName(pid).." dynamic stats were not updated because they shapeshifted")
+        else
+            xpLeveling.UpdatePlayerDynamicStats(pid)
+        end
     end
 end
 
