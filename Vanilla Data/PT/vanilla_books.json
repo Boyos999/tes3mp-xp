@@ -1,5054 +1,4169 @@
 {
-  "t_bk_fascicle11pc":{
-    "title":"fascicle 46-49",
-    "value":300
-  },
-  "t_bk_restlessnorthshotn_v3":{
-    "title":"the restless north, book iii",
-    "value":30
-  },
-  "bk_calderarecordbook1":{
-    "title":"caldera ledger",
-    "value":0
-  },
-  "t_bk_coronationofeplear":{
-    "title":"the coronation of eplear",
-    "value":250
-  },
-  "t_bk_dangersofreachmagickshotn":{
-    "title":"the dangers of reach-magicks",
-    "value":50
-  },
-  "bookskill_mystery5":{
-    "title":"mystery of talara, part 5",
-    "value":250
-  },
-  "t_bk_noblemansgardentr":{
-    "title":"a nobleman's garden",
-    "value":85
-  },
-  "t_bk_onartaeumpc":{
-    "title":"on artaeum",
-    "value":25
-  },
-  "bk_frontierconquestaccommodat":{
-    "title":"frontier, conquest...",
-    "value":25
-  },
-  "t_bk_fascicle06pc":{
-    "title":"fascicle 25-27",
-    "value":300
-  },
-  "bookskill_armorer5":{
-    "title":"36 lessons of vivec, sermon 29",
-    "value":200
-  },
-  "t_bk_corpsepreparationshotn_v1":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "bk_nermarcnotes":{
-    "title":"private notes -- do not read",
-    "value":20
-  },
-  "bookskill_restoration1":{
-    "title":"withershins",
-    "value":250
-  },
-  "bk_chartermg":{
-    "title":"mages guild charter",
-    "value":30
-  },
-  "tr_m3-237_bk_eecaccount":{
-    "title":"eec accounting ledger",
-    "value":50
-  },
-  "bk_poisonsong1":{
-    "title":"poison song i",
-    "value":30
-  },
-  "bookskill_destruction5":{
-    "title":"mystery of talara, part 3",
-    "value":250
-  },
-  "bookskill_security1":{
-    "title":"the locked room",
-    "value":200
-  },
-  "t_bk_masonsongtr":{
-    "title":"a mason's song",
-    "value":250
-  },
-  "t_bk_mapsm2-2tr":{
-    "title":"maps of the sundered scar",
-    "value":50
-  },
-  "t_bk_amuletofkingsshotn":{
-    "title":"<deprecated>",
-    "value":35
-  },
-  "bookskill_unarmored5":{
-    "title":"36 lessons of vivec, sermon 34",
-    "value":200
-  },
-  "tr_m3_q_oe_urien_journal":{
-    "title":"urien poralia's journal",
-    "value":20
-  },
-  "t_bk_codifiedlaw02pc":{
-    "title":"codified law, vol. ii",
-    "value":150
-  },
-  "bk_kagrenac'sjournal_excl":{
-    "title":"kagrenac's journal",
-    "value":400
-  },
-  "t_bk_hypotheticaltreacheryshotn":{
-    "title":"<deprecated>",
-    "value":175
-  },
-  "t_bk_songofpelinalshotn":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "bookskill_conjuration5":{
-    "title":"the warrior's charge",
-    "value":325
-  },
-  "tr_m3_oe_antiofirmament":{
-    "title":"the firmament",
-    "value":40
-  },
-  "t_bk_songofpelinaltr_v7":{
-    "title":"the song of pelinal, volume 7",
-    "value":150
-  },
-  "t_bk_notebooktempclose_03":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "tr_m3_oe_bk_etcensus_record_05":{
-    "title":"census record",
-    "value":4
-  },
-  "bk_briefhistoryempire4":{
-    "title":"brief history of the empire v 4",
-    "value":50
-  },
-  "t_bk_direnniempty03shotn":{
-    "title":"<placeholder>",
-    "value":400
-  },
-  "bk_dren_shipping_log":{
-    "title":"dren's shipping log",
-    "value":0
-  },
-  "t_bk_gospelofsaintnerevartr":{
-    "title":"the gospel of saint nerevar",
-    "value":50
-  },
-  "bookskill_heavy armor4":{
-    "title":"how orsinium passed to the orcs",
-    "value":200
-  },
-  "t_bkgen_messageregistry_01":{
-    "title":"message registry",
-    "value":2
-  },
-  "t_bkgen_notebook_02":{
-    "title":"notebook",
-    "value":2
-  },
-  "t_bk_16accordsmadnessshotn_v12":{
-    "title":"16 accords of madness, v. xii",
-    "value":200
-  },
-  "bk_reflectionsoncultworship...":{
-    "title":"reflections on cult worship",
-    "value":25
-  },
-  "t_bk_artofwarmagicshotn":{
-    "title":"<deprecated>",
-    "value":225
-  },
-  "t_bk_pearlbetwixtempires_02tr":{
-    "title":"a pearl betwixt empires, vol. 2",
-    "value":250
-  },
-  "t_bk_val-staagvesturholashotn":{
-    "title":"val-staag of the vesturhola",
-    "value":150
-  },
-  "t_bk_modernhereticsopenpc":{
-    "title":"modern heretics",
-    "value":50
-  },
-  "t_bk_exclusionarymandatespc":{
-    "title":"the exclusionary mandates",
-    "value":80
-  },
-  "bk_consolationsofprayer":{
-    "title":"the consolations of prayer",
-    "value":25
-  },
-  "t_bk_ahzirrtrajijazaeripc":{
-    "title":"ahzirr trajijazaeri",
-    "value":150
-  },
-  "t_bk_aboveitalltr":{
-    "title":"above it all",
-    "value":250
-  },
-  "t_bk_talosdragonbumtr":{
-    "title":"talos the dragonbum",
-    "value":30
-  },
-  "bk_legendaryscourge":{
-    "title":"the legendary scourge",
-    "value":200
-  },
-  "bk_divinemetaphysics":{
-    "title":"divine metaphysics...",
-    "value":1000
-  },
-  "t_bk_eslaferolthiefshotn":{
-    "title":"thief",
-    "value":240
-  },
-  "tr_m1_bk_to_mm_log":{
-    "title":"the magic mudcrab logbook",
-    "value":10
-  },
-  "t_bkgen_trademanifest_04":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "t_bk_ruminationselderscrollspc":{
-    "title":"ruminations: the elder scrolls",
-    "value":80
-  },
-  "bk_fortpelagiadprisonerlog":{
-    "title":"fort pelagiad prisoner log",
-    "value":0
-  },
-  "bk_ngastakvatakvakis_o":{
-    "title":"n'gasta! kvata! kvakis!",
-    "value":200
-  },
-  "t_bk_offireantsandhoomstr":{
-    "title":"of fire ants and hooms",
-    "value":175
-  },
-  "t_bk_ayleidcitiesvalenwoodpc":{
-    "title":"ayleid cities of valenwood",
-    "value":80
-  },
-  "t_bk_ami-elpc_v2":{
-    "title":"the second ami-el",
-    "value":200
-  },
-  "t_bk_beforeagesofmanshotn":{
-    "title":"<deprecated>",
-    "value":125
-  },
-  "t_bk_taleofdrozirapc":{
-    "title":"the tale of dro'zira",
-    "value":150
-  },
-  "t_bkfaction_magesguildpc":{
-    "title":"mages guild charter",
-    "value":30
-  },
-  "bookskill_illusion1":{
-    "title":"the wolf queen, book iii",
-    "value":250
-  },
-  "tr_bk_m2_i2-437-tri_ledger4o":{
-    "title":"necrom temple ledger",
-    "value":15
-  },
-  "bookskill_block4":{
-    "title":"36 lessons of vivec, sermon 7",
-    "value":200
-  },
-  "t_bk_xahxesgiftshotn_v1":{
-    "title":"xahxes’ gift, part i",
-    "value":60
-  },
-  "tr_m3_faircopyvam_i3-559-ind":{
-    "title":"fair copy of vivec and mephala",
-    "value":5
-  },
-  "bookskill_sneak1":{
-    "title":"the wolf queen, book vi",
-    "value":250
-  },
-  "t_bk_lifecycledreughpc":{
-    "title":"life cycle of the dreugh",
-    "value":50
-  },
-  "t_bk_dunceinmorrowindtr_v5":{
-    "title":"a dunce in morrowind, vol. 5",
-    "value":75
-  },
-  "t_bk_eslaferolkingshotn":{
-    "title":"king",
-    "value":240
-  },
-  "bk_thirskhistory_revised_f":{
-    "title":"thirsk, a history -- revised",
-    "value":75
-  },
-  "t_bk_lineofemperorspc_v08":{
-    "title":"the line of emperors viii",
-    "value":80
-  },
-  "t_bk_ofunspeakablevolumestr":{
-    "title":"of unspeakable volumes",
-    "value":100
-  },
-  "bk_ynglingledger":{
-    "title":"yngling's ledger",
-    "value":0
-  },
-  "t_bk_purloinedshadowsshotn":{
-    "title":"purloined shadows",
-    "value":215
-  },
-  "t_bk_ahzirrtrajijazaerishotn":{
-    "title":"<deprecated>",
-    "value":150
-  },
-  "tr_m2_bk_htl_realbarenziah4_o":{
-    "title":"the real barenziah v iv",
-    "value":20
-  },
-  "t_bk_talesofkierantr":{
-    "title":"tales of kieran",
-    "value":150
-  },
-  "t_bk_arrowshotwomantr":{
-    "title":"the arrowshot woman",
-    "value":20
-  },
-  "t_bk_lifeandtheanimatehr":{
-    "title":"life and the animate",
-    "value":150
-  },
-  "t_bk_redguardstheirhistorytr":{
-    "title":"redguards, their history...",
-    "value":200
-  },
-  "tr_m2_bk_captainslog_i2-279":{
-    "title":"captain's log",
-    "value":20
-  },
-  "t_bk_beforegatesvalsartr":{
-    "title":"before the gates of valsar",
-    "value":60
-  },
-  "t_bk_gospelofsaintmeristr":{
-    "title":"the gospel of saint meris",
-    "value":50
-  },
-  "t_bk_arkaythegodtr":{
-    "title":"ark'ay the god",
-    "value":50
-  },
-  "tr_m2_bk_htl_guarherdart_mc_c":{
-    "title":"the guarherder's art",
-    "value":40
-  },
-  "bookskill_long blade1":{
-    "title":"words and philosophy",
-    "value":225
-  },
-  "bookskill_spear4":{
-    "title":"36 lessons of vivec, sermon 24",
-    "value":200
-  },
-  "bk_fivesongsofkingwulfharth":{
-    "title":"five songs of king wulfharth",
-    "value":30
-  },
-  "bookskill_axe4":{
-    "title":"36 lessons of vivec, sermon 5",
-    "value":200
-  },
-  "t_bk_trialssaintalessiaopenpc":{
-    "title":"the trials of saint alessia",
-    "value":45
-  },
-  "t_bk_dunmersguidetoreachshotn":{
-    "title":"a dunmer's guide to the reach",
-    "value":75
-  },
-  "bk_bookofrestandendings":{
-    "title":"book of rest and endings",
-    "value":40
-  },
-  "t_bk_skindeeptr":{
-    "title":"skin deep",
-    "value":60
-  },
-  "bk_briefhistoryempire1_oh":{
-    "title":"odral's history of the empire 1",
-    "value":50
-  },
-  "bk_vampiresofvvardenfell2":{
-    "title":"vampires of vvardenfell, v ii",
-    "value":400
-  },
-  "t_bk_recordingheadstr":{
-    "title":"recording of the heads 1e 820",
-    "value":100
-  },
-  "tr_m3_ledger_i3-467-ind":{
-    "title":"harrumat diamond mine ledger",
-    "value":0
-  },
-  "bk_affairsofwizards":{
-    "title":"the affairs of wizards",
-    "value":50
-  },
-  "bk_eastempirecompanyledger":{
-    "title":"east empire company ledger",
-    "value":0
-  },
-  "t_bk_fateofthesnowelvestr":{
-    "title":"the fate of the snow elves",
-    "value":80
-  },
-  "t_bk_dresslavetradetr":{
-    "title":"dres slave trade",
-    "value":80
-  },
-  "sky_ire_dh44":{
-    "title":"crumbling tome",
-    "value":45
-  },
-  "bk_five_far_stars":{
-    "title":"the five far stars",
-    "value":25
-  },
-  "tr_m2_book_prison_record_i323":{
-    "title":"fort windmoth prison record",
-    "value":0
-  },
-  "bk_corpsepreperation1_o":{
-    "title":"corpse preparation v i",
-    "value":50
-  },
-  "bookskill_heavy armor5":{
-    "title":"36 lessons of vivec, sermon 12",
-    "value":200
-  },
-  "bk_ordolegionis":{
-    "title":"ordo legionis",
-    "value":30
-  },
-  "t_bk_fireanddarknesspc":{
-    "title":"fire and darkness",
-    "value":150
-  },
-  "t_bk_atopatoweronmoridunontr":{
-    "title":"atop a tower on moridunon",
-    "value":80
-  },
-  "t_bk_notebooktempopen_02":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "tr_m3-283_bk-eecbylaws":{
-    "title":"eec by-laws",
-    "value":0
-  },
-  "t_bk_shezarrssongopenpc":{
-    "title":"shezarr's song",
-    "value":300
-  },
-  "t_bk_orcsurancetr":{
-    "title":"orcsurance, a one-act comedy",
-    "value":250
-  },
-  "t_bk_militarytacticstr":{
-    "title":"military tactics in the new era",
-    "value":100
-  },
-  "t_bk_asylumballtr":{
-    "title":"the asylum ball",
-    "value":60
-  },
-  "t_bk_likeinthedealtr":{
-    "title":"like in the deal",
-    "value":200
-  },
-  "bk_houseoftroubles_o":{
-    "title":"the house of troubles",
-    "value":50
-  },
-  "t_bk_firmamentshotn":{
-    "title":"<deprecated>",
-    "value":40
-  },
-  "tr_m3_bk_researchnotes_o_i3-650":{
-    "title":"research notes",
-    "value":10
-  },
-  "bk_bookofdaedra":{
-    "title":"the book of daedra",
-    "value":45
-  },
-  "bookskill_mysticism5":{
-    "title":"charwich-koniinge, volume 3",
-    "value":300
-  },
-  "t_bk_loathsomecvilisationpc":{
-    "title":"a loathsome civilization",
-    "value":120
-  },
-  "t_bk_theebonarmtr":{
-    "title":"the ebon arm",
-    "value":40
-  },
-  "t_bk_gospelofsaintvelothotr_v1":{
-    "title":"the gospel of saint veloth, v 1",
-    "value":50
-  },
-  "t_bk_asylumballshotn":{
-    "title":"the asylum ball",
-    "value":300
-  },
-  "bookskill_unarmored2":{
-    "title":"charwich-koniinge, volume 1",
-    "value":300
-  },
-  "bk_artifacts_tamriel":{
-    "title":"famed artifacts of tamriel",
-    "value":250
-  },
-  "t_bk_exegesisofmeridnundapc":{
-    "title":"exegesis of merid-nunda",
-    "value":120
-  },
-  "t_bk_varietiesofthoughttr_v3":{
-    "title":"varieties of thought volume iii",
-    "value":100
-  },
-  "t_bk_brownbooktr":{
-    "title":"brown book of 3e 426",
-    "value":75
-  },
-  "bookskill_blunt weapon5":{
-    "title":"36 lessons of vivec, sermon 9",
-    "value":200
-  },
-  "t_bk_battlesancretorshotn":{
-    "title":"<deprecated>",
-    "value":225
-  },
-  "bk_necrojournal":{
-    "title":"rogue necromancer's journal",
-    "value":50
-  },
-  "bookskill_axe3":{
-    "title":"the seed",
-    "value":200
-  },
-  "t_bk_thirddoorshotn":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "bookskill_alchemy5":{
-    "title":"36 lessons of vivec, sermon 18",
-    "value":200
-  },
-  "t_bk_onthedefinitionofheresytr":{
-    "title":"on the definition of heresy",
-    "value":200
-  },
-  "tr_m1_bk_i1-36":{
-    "title":"journal of tyertil",
-    "value":40
-  },
-  "t_bk_shorthistoryempirespc":{
-    "title":"a short history of the empires",
-    "value":50
-  },
-  "t_bk_beforeagesofmanpc":{
-    "title":"before the ages of man",
-    "value":125
-  },
-  "t_bk_knightsoftheninepc":{
-    "title":"the knights of the nine",
-    "value":140
-  },
-  "t_bk_songofpelinaltr_v6":{
-    "title":"the song of pelinal, volume 6",
-    "value":100
-  },
-  "t_bk_seaofghostsshotn":{
-    "title":"the sea of ghosts",
-    "value":70
-  },
-  "tr_m3_oe_bk_etcensus_record_02":{
-    "title":"census record",
-    "value":4
-  },
-  "bk_kagrenac'splans_excl":{
-    "title":"kagrenac's planbook",
-    "value":400
-  },
-  "tr_m2_htl_tamrielicreligions_o":{
-    "title":"the ruins of kemel-ze",
-    "value":40
-  },
-  "bk_blackglove":{
-    "title":"the black glove",
-    "value":60
-  },
-  "bookskill_athletics1":{
-    "title":"the ransom of zarek",
-    "value":200
-  },
-  "sky_qre_kw01_register01":{
-    "title":"codex mania",
-    "value":1000
-  },
-  "t_bk_lineofemperorspc_v07":{
-    "title":"the line of emperors vii",
-    "value":80
-  },
-  "t_bk_drescremationpracticestr":{
-    "title":"dres cremation practices",
-    "value":100
-  },
-  "bk_gnisiseggmineledger":{
-    "title":"gnisis eggmine ledger",
-    "value":0
-  },
-  "t_bk_belharzaretapc_v1":{
-    "title":"the belharzareta i",
-    "value":200
-  },
-  "tr_m3_q_theriftbkfloat5":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "t_bk_thesageshotn":{
-    "title":"the sage",
-    "value":300
-  },
-  "bookskill_acrobatics4":{
-    "title":"the black arrow, volume 1",
-    "value":400
-  },
-  "bookskill_conjuration2":{
-    "title":"feyfolken iii",
-    "value":300
-  },
-  "t_bk_skylampnighttr":{
-    "title":"the skylamp night",
-    "value":25
-  },
-  "t_bk_lightarmorrepairpc":{
-    "title":"light armor repair",
-    "value":100
-  },
-  "bk_hlaalu_vaults_ledger":{
-    "title":"hlaalu vaults ledger",
-    "value":0
-  },
-  "t_bk_smallkindnesstr":{
-    "title":"a small kindness",
-    "value":200
-  },
-  "t_bk_beggarprinceshotn":{
-    "title":"beggar prince",
-    "value":50
-  },
-  "t_bk_rislavtherighteouspc":{
-    "title":"rislav the righteous",
-    "value":200
-  },
-  "tr_m2_ledger2_i2-414-tri":{
-    "title":"catacombs ledger",
-    "value":25
-  },
-  "t_bk_highkingsveddashotn_v1":{
-    "title":"high king's vedda book one",
-    "value":300
-  },
-  "t_bk_horkerattacksshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "t_bk_lordjornibretslastdshotn":{
-    "title":"<deprecated>",
-    "value":300
-  },
-  "t_bk_tometempopen_02":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "bk_fragmentonartaeum":{
-    "title":"fragment: on artaeum",
-    "value":20
-  },
-  "t_bk_shezarrssongpc":{
-    "title":"shezarr's song",
-    "value":300
-  },
-  "bk_boethiah's glory_unique":{
-    "title":"boethiah's glory",
-    "value":25
-  },
-  "bk_poisonsong6":{
-    "title":"poison song vi",
-    "value":30
-  },
-  "tr_m3-et2_bk_maintenancelog":{
-    "title":"ebon tower maintenance log",
-    "value":10
-  },
-  "t_bk_oelandershammershotn":{
-    "title":"oelander's hammer",
-    "value":200
-  },
-  "bk_confessions":{
-    "title":"confessions of a skooma-eater",
-    "value":25
-  },
-  "t_bk_xahxesgiftshotn_v2":{
-    "title":"xahxes’ gift, part ii",
-    "value":60
-  },
-  "tr_m2_bk_loe_herecordbook3":{
-    "title":"ledger of employees",
-    "value":15
-  },
-  "t_bk_colovianmythartheimpc_v2":{
-    "title":"the siege of kvatch",
-    "value":50
-  },
-  "bk_briefhistoryempire2":{
-    "title":"brief history of the empire v 2",
-    "value":50
-  },
-  "t_bk_1000spiritsoldcyrodpc":{
-    "title":"the 1,000 spirits of old cyrod",
-    "value":50
-  },
-  "tr_aimrahic6_keeperslog2":{
-    "title":"notes on dreugh",
-    "value":10
-  },
-  "t_bk_regrettr":{
-    "title":"regret",
-    "value":20
-  },
-  "t_bk_1000spiritsoldcyrodopenpc":{
-    "title":"the 1,000 spirits of old cyrod",
-    "value":50
-  },
-  "tr_m1_bk_fw_shipping_log_01":{
-    "title":"firewatch shipping log",
-    "value":1
-  },
-  "pc_i1-8_bk_01":{
-    "title":"stirk prison ledger",
-    "value":30
-  },
-  "t_bk_dunceinmorrowindtr_v4":{
-    "title":"a dunce in morrowind, vol. 4",
-    "value":75
-  },
-  "t_bk_leximperia_03":{
-    "title":"lex imperia iii",
-    "value":20
-  },
-  "t_bk_onoblivionshotn":{
-    "title":"<deprecated>",
-    "value":40
-  },
-  "t_bk_confessionsofathiefshotn":{
-    "title":"confessions of a thief",
-    "value":200
-  },
-  "t_bk_suppositionoffreedomtr":{
-    "title":"the supposition of freedom",
-    "value":150
-  },
-  "t_bk_bonesofhlurmattatr":{
-    "title":"bones of hlur'matta",
-    "value":125
-  },
-  "t_bk_originashyamtr":{
-    "title":"the origin of the ash yam",
-    "value":100
-  },
-  "t_bk_mostinfortunatepartytr":{
-    "title":"a most unfortunate party",
-    "value":150
-  },
-  "bookskill_mercantile4":{
-    "title":"a dance in fire, chapter 6",
-    "value":150
-  },
-  "bk_briefhistoryofwood_01":{
-    "title":"no-h's picture book of wood",
-    "value":10
-  },
-  "t_bk_adabalapc":{
-    "title":"the adabal-a",
-    "value":180
-  },
-  "bk_bartendersguide":{
-    "title":"hanin's wake",
-    "value":10
-  },
-  "bk_arkaytheenemy":{
-    "title":"arkay the enemy",
-    "value":40
-  },
-  "t_bk_seekinghometr":{
-    "title":"seeking home",
-    "value":150
-  },
-  "tr_m2_bk_he_store_ledge":{
-    "title":"helnim storage ledger",
-    "value":0
-  },
-  "bookskill_short blade1":{
-    "title":"unnamed book",
-    "value":225
-  },
-  "t_bk_codifiedlaw01pc":{
-    "title":"codified law, vol. i",
-    "value":150
-  },
-  "bk_vampiresofvvardenfell1":{
-    "title":"vampires of vvardenfell, v i",
-    "value":50
-  },
-  "bookskill_block3":{
-    "title":"a dance in fire, chapter 2",
-    "value":150
-  },
-  "t_bk_tencommandmentspc":{
-    "title":"the ten commandments",
-    "value":10
-  },
-  "t_bk_expandingmagickarevisedtr":{
-    "title":"expanding magicka: revised",
-    "value":350
-  },
-  "tr_m3_16accords_i3-471-ind":{
-    "title":"sixteen accords of madness ix",
-    "value":200
-  },
-  "sky_ire_kw42_logbook":{
-    "title":"logbook",
-    "value":55
-  },
-  "bookskill_speechcraft1":{
-    "title":"biography of the wolf queen",
-    "value":250
-  },
-  "t_bk_assassinationofpelagiustr":{
-    "title":"the assassination of pelagius i",
-    "value":50
-  },
-  "tr_m2_ledger3_i2-414-tri":{
-    "title":"mortuary ledger",
-    "value":150
-  },
-  "tr_m3-770_bk_ce2":{
-    "title":"old ebonheart excise records",
-    "value":20
-  },
-  "t_bk_crimesoftritr":{
-    "title":"crimes of the tribunal",
-    "value":150
-  },
-  "bookskill_mercantile3":{
-    "title":"2920, sun's height",
-    "value":275
-  },
-  "tr_bk_m2_i2-437-tri_ledger2":{
-    "title":"necrom temple annual expenses",
-    "value":15
-  },
-  "t_bk_julianitenumberspells":{
-    "title":"julianite number-spells",
-    "value":200
-  },
-  "tr_bk_m2_i2-437-tri_ledger2uni":{
-    "title":"necrom temple financial summary",
-    "value":50
-  },
-  "t_bk_highkingsveddashotn_v6":{
-    "title":"high king's vedda book six",
-    "value":300
-  },
-  "t_bk_argonianaccountpc_v1":{
-    "title":"the argonian account i",
-    "value":150
-  },
-  "bk_onmorrowind":{
-    "title":"on morrowind",
-    "value":40
-  },
-  "tr_i3-287_bk_navy_ledger-c":{
-    "title":"imperial navy ledger",
-    "value":0
-  },
-  "t_bk_lilyofdibellashotn":{
-    "title":"the lily of dibella",
-    "value":200
-  },
-  "bookskill_light armor2":{
-    "title":"ice and chiton",
-    "value":325
-  },
-  "t_bk_codifiedlaw03pc":{
-    "title":"codified law, vol. iii",
-    "value":150
-  },
-  "t_bk_fascicle12pc":{
-    "title":"fascicle 50-53",
-    "value":300
-  },
-  "t_bk_cabininthewoodsshotn":{
-    "title":"the cabin in the woods",
-    "value":150
-  },
-  "t_bkgen_shippinglog_03":{
-    "title":"shipping log",
-    "value":0
-  },
-  "t_bk_kingedwardtr_v03":{
-    "title":"king edward, part iii",
-    "value":250
-  },
-  "t_bk_scholarguidetonymphstr":{
-    "title":"a scholar's guide to nymphs",
-    "value":20
-  },
-  "tr_m3_dreynim_log":{
-    "title":"shipwrights' ledger",
-    "value":0
-  },
-  "t_bk_theseasonstr":{
-    "title":"the seasons",
-    "value":175
-  },
-  "t_bk_blessedremantr":{
-    "title":"the blessed life of st. reman",
-    "value":50
-  },
-  "t_bkfaction_magesguildshotn":{
-    "title":"mages guild charter",
-    "value":30
-  },
-  "sky_qre_kw05_notes":{
-    "title":"davanna's research",
-    "value":5
-  },
-  "tr_m3-278_bk_placeholder5":{
-    "title":"abc's for archaeologists",
-    "value":0
-  },
-  "t_bk_howtotuneyourhoomtr":{
-    "title":"how to tune your hoom",
-    "value":50
-  },
-  "t_bk_lyrisiusstoryshotn":{
-    "title":"the story of lyrisius",
-    "value":50
-  },
-  "t_bk_mysteriesofthewormtr":{
-    "title":"mysteries of the worm",
-    "value":250
-  },
-  "bk_vivecandmephala":{
-    "title":"vivec and mephala",
-    "value":40
-  },
-  "bookskill_mysticism2":{
-    "title":"2920, sun's dawn",
-    "value":275
-  },
-  "t_bk_middledawnpc":{
-    "title":"the middle dawn",
-    "value":300
-  },
-  "t_bk_historydragoncultshotn_v1":{
-    "title":"history of the dragon cult i",
-    "value":150
-  },
-  "bk_thirskhistory_revised_m":{
-    "title":"thirsk, a history -- revised",
-    "value":75
-  },
-  "t_bk_gospelofsaintaralortr":{
-    "title":"the gospel of saint aralor",
-    "value":50
-  },
-  "bookskill_axe2":{
-    "title":"the axe man",
-    "value":225
-  },
-  "t_bk_mapsm2-1tr":{
-    "title":"maps of the sacred lands",
-    "value":50
-  },
-  "bk_invocationofazura":{
-    "title":"invocation of azura",
-    "value":50
-  },
-  "t_bk_orccreationstorytr":{
-    "title":"orc creation story",
-    "value":80
-  },
-  "t_bk_reaversongsshotn_v2":{
-    "title":"songs of the reaver clans, vii",
-    "value":60
-  },
-  "t_bk_guylainesarchitectshotn":{
-    "title":"<deprecated>",
-    "value":60
-  },
-  "tr_m1_bk_fw_export_ledger_01":{
-    "title":"firewatch exports ledger",
-    "value":1
-  },
-  "book_dwe_cogs00":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "t_bk_varietiesofthoughttr_v2":{
-    "title":"varieties of thought volume ii",
-    "value":100
-  },
-  "bookskill_athletics2":{
-    "title":"a dance in fire, chapter 3",
-    "value":150
-  },
-  "t_bk_hidingwiththeshadowshotn":{
-    "title":"hiding with the shadow",
-    "value":35
-  },
-  "t_bk_notebooktempopen_01":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "t_bk_songofthelabyrinthshotn":{
-    "title":"the song of the labyrinth",
-    "value":50
-  },
-  "tr_i2_9_arazanos lyrics":{
-    "title":"scribbled down lyrics",
-    "value":150
-  },
-  "bk_cantatasofvivec":{
-    "title":"the cantatas of vivec",
-    "value":50
-  },
-  "t_bk_historyofdaggerfalltr":{
-    "title":"history of daggerfall",
-    "value":50
-  },
-  "bk_boethiahpillowbook":{
-    "title":"boethiah's pillow book",
-    "value":0
-  },
-  "bk_watersofoblivion":{
-    "title":"the waters of oblivion",
-    "value":250
-  },
-  "t_bk_onlycanthropytr":{
-    "title":"on lycanthropy",
-    "value":55
-  },
-  "t_bk_pearlbetwixtempires_01tr":{
-    "title":"a pearl betwixt empires, vol. 1",
-    "value":250
-  },
-  "tr_m3_q_theriftbkfloat4":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "t_bk_ordolanesbestiarytr_v09":{
-    "title":"ordolane's bestiary, vol. 9",
-    "value":60
-  },
-  "t_bk_fablevalenwoodtr":{
-    "title":"a fable from valenwood",
-    "value":200
-  },
-  "t_bk_seconddoortr":{
-    "title":"the second door",
-    "value":200
-  },
-  "bookskill_acrobatics5":{
-    "title":"mystery of talara, part 1",
-    "value":250
-  },
-  "t_bk_redguardstheirhistoryshotn":{
-    "title":"redguards, history and heroes",
-    "value":270
-  },
-  "t_bk_belharzaretapc_v2":{
-    "title":"the belharzareta ii",
-    "value":200
-  },
-  "t_bk_voyagethreewinds2shotn":{
-    "title":"voyage of the three winds, ii",
-    "value":65
-  },
-  "t_bk_dubioustaletr":{
-    "title":"a dubious tale...",
-    "value":20
-  },
-  "tr_m3_oe_clandestinetalosbk":{
-    "title":"fragments on general talos",
-    "value":250
-  },
-  "t_bkgen_courtverdicts_02":{
-    "title":"court verdicts",
-    "value":2
-  },
-  "t_bk_tometempopen_01":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "t_bk_cowardiceoftheenemytr":{
-    "title":"cowardice of the enemy",
-    "value":200
-  },
-  "t_bk_hoomhabitathabitstr":{
-    "title":"the hoom, habitat and habits",
-    "value":50
-  },
-  "bookskill_medium armor2":{
-    "title":"bone, part one",
-    "value":300
-  },
-  "t_bk_kingedwardtr_v08":{
-    "title":"king edward, part viii",
-    "value":250
-  },
-  "t_bk_herhandstr":{
-    "title":"her hands",
-    "value":25
-  },
-  "t_bk_kingedwardtr_v11":{
-    "title":"king edward, part xi",
-    "value":250
-  },
-  "t_bk_spawnofashtr":{
-    "title":"spawn of ash",
-    "value":70
-  },
-  "t_bk_justpunishmenttr":{
-    "title":"a just punishment",
-    "value":300
-  },
-  "t_bk_imperialproverbspc":{
-    "title":"imperial proverbs",
-    "value":35
-  },
-  "t_bk_thealikrtr":{
-    "title":"the alik'r",
-    "value":30
-  },
-  "t_bk_bookofcirclespc":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_wolfqueenshotn_v4":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_dunceinmorrowindtr_v3":{
-    "title":"a dunce in morrowind, vol. 3",
-    "value":75
-  },
-  "t_bk_colovianmythartheimpc_v3":{
-    "title":"the blood-money siege",
-    "value":50
-  },
-  "t_bk_xahxesgiftshotn_v3":{
-    "title":"xahxes’ gift, part iii",
-    "value":60
-  },
-  "t_bk_vvardenfellsepidemictr":{
-    "title":"vvardenfell's epidemic: corprus",
-    "value":25
-  },
-  "tr_m1_bk_plain":{
-    "title":"blank book",
-    "value":10
-  },
-  "t_bk_notebooktempclose_05":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "t_bk_notesforredguardhistorytr":{
-    "title":"notes for redguard history",
-    "value":50
-  },
-  "tr_m2_bk_loe_herecordbook2":{
-    "title":"helnim ledger of traders",
-    "value":20
-  },
-  "t_bk_advancesinlockpickingpc":{
-    "title":"advances in lock picking",
-    "value":200
-  },
-  "t_bkgen_trademanifest_05":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "bookskill_light armor3":{
-    "title":"lord jornibret's last dance",
-    "value":300
-  },
-  "bookskill_alchemy4":{
-    "title":"36 lessons of vivec, sermon 2",
-    "value":200
-  },
-  "t_bk_reaversongsshotn_v3":{
-    "title":"songs of the reaver clans, viii",
-    "value":60
-  },
-  "tr_m2_bk_nchaz_crush":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "t_bk_raidpyandoneashotn_v1":{
-    "title":"raid on pyandonea, book one",
-    "value":150
-  },
-  "bk_poisonsong4":{
-    "title":"poison song iv",
-    "value":30
-  },
-  "t_bk_divadthesingertr":{
-    "title":"divad the singer",
-    "value":35
-  },
-  "tr_m2_bk_nchaz_boiler":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "bk_oldways":{
-    "title":"the old ways",
-    "value":40
-  },
-  "t_bk_lyrisiusstorytr":{
-    "title":"the story of lyrisius",
-    "value":50
-  },
-  "t_bk_destructionodistractionpc":{
-    "title":"destruction or distraction",
-    "value":140
-  },
-  "tr_i3-277_records":{
-    "title":"financial records",
-    "value":0
-  },
-  "t_bk_olgolgromuksprivatenotestr":{
-    "title":"olgol gro-muk's private notes",
-    "value":200
-  },
-  "tr_bk_i2-25_temple-corpse-prep":{
-    "title":"corpse preparation directions",
-    "value":12
-  },
-  "sky_qre_kw_mg06_notes":{
-    "title":"notes on the shadow ritual",
-    "value":250
-  },
-  "t_bk_studylockednoveltr":{
-    "title":"a study of the locked novel",
-    "value":115
-  },
-  "t_bk_legalbasicsanchiviustr":{
-    "title":"legal basics",
-    "value":75
-  },
-  "t_bk_vindicationdragonbreakpc":{
-    "title":"vindication: the dragon break",
-    "value":160
-  },
-  "bk_lustyargonianmaid":{
-    "title":"the lusty argonian maid",
-    "value":20
-  },
-  "bk_mysticism":{
-    "title":"mysticism",
-    "value":25
-  },
-  "t_bk_ordolanesbestiarytr_v17":{
-    "title":"ordolane's bestiary, vol. 17",
-    "value":60
-  },
-  "bk_realbarenziah1":{
-    "title":"the real barenziah v i",
-    "value":20
-  },
-  "bookskill_illusion5":{
-    "title":"mystery of talara, part 4",
-    "value":250
-  },
-  "t_bk_watergettinggirltr_v1":{
-    "title":"the water-getting girl, part i",
-    "value":50
-  },
-  "bookskill_short blade2":{
-    "title":"2920, sun's dusk",
-    "value":275
-  },
-  "bookskill_long blade3":{
-    "title":"36 lessons of vivec, sermon 17",
-    "value":200
-  },
-  "bk_sovngarde":{
-    "title":"sovngarde, a reexamination",
-    "value":75
-  },
-  "t_bk_commentarycovenantspc":{
-    "title":"a commentary on the covenants",
-    "value":250
-  },
-  "t_bk_provincestamrielshotn":{
-    "title":"<deprecated>",
-    "value":60
-  },
-  "t_bk_laidlowtr":{
-    "title":"laid low",
-    "value":200
-  },
-  "tr_m3_q_theriftbkfloat3":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "t_bk_remansonofreman":{
-    "title":"reman, son of reman",
-    "value":50
-  },
-  "t_bk_tometempclose_06":{
-    "title":"<template large tome>",
-    "value":200
-  },
-  "t_bk_saintandlefthandpc":{
-    "title":"the saint and the left hand",
-    "value":180
-  },
-  "t_bk_comraderytr":{
-    "title":"camaraderie",
-    "value":40
-  },
-  "t_bk_leximperia_02":{
-    "title":"lex imperia ii",
-    "value":20
-  },
-  "tr_i3-685_thetaleofbloodstonesh":{
-    "title":"the tale of bloodstone shrine",
-    "value":300
-  },
-  "t_bk_coronationofeplearopen":{
-    "title":"the coronation of eplear",
-    "value":250
-  },
-  "bk_firmament":{
-    "title":"the firmament",
-    "value":40
-  },
-  "bk_changedones":{
-    "title":"the changed ones",
-    "value":50
-  },
-  "tr_m2_book_command_i323":{
-    "title":"fort windmoth log",
-    "value":10
-  },
-  "bk_aedra_tarer_unique":{
-    "title":"tarer's aedra and daedra",
-    "value":50
-  },
-  "bk_legionsofthedead":{
-    "title":"legions of the dead",
-    "value":0
-  },
-  "t_bk_redemptiontr_v1":{
-    "title":"redemption volume i",
-    "value":40
-  },
-  "t_bk_alchemistsguidetoskoomatr":{
-    "title":"an alchemist's guide to skooma",
-    "value":75
-  },
-  "t_bk_hillofkvatchpc":{
-    "title":"the hill of kvatch",
-    "value":50
-  },
-  "t_bkgen_shippinglog_02":{
-    "title":"shipping log",
-    "value":0
-  },
-  "t_bk_howorsiniumpassedtoshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_gospelofsaintolmstr":{
-    "title":"the gospel of saint olms",
-    "value":50
-  },
-  "t_bk_thememorystonetr":{
-    "title":"the memory stone",
-    "value":75
-  },
-  "bookskill_spear2":{
-    "title":"2920, first seed",
-    "value":275
-  },
-  "t_bk_onsericulturepc":{
-    "title":"on sericulture",
-    "value":160
-  },
-  "t_bk_privilegesofthedeadpc":{
-    "title":"privileges of the dead",
-    "value":150
-  },
-  "t_bk_kendhallbookofriddlespc":{
-    "title":"the kendhall book of riddles",
-    "value":50
-  },
-  "t_bk_battlesancretorpc":{
-    "title":"the battle of sancre tor",
-    "value":150
-  },
-  "t_bk_thelightandthedarktr":{
-    "title":"the light and the dark",
-    "value":50
-  },
-  "t_bk_fatherofthenibenpc":{
-    "title":"father of the niben",
-    "value":100
-  },
-  "tr_bk-m2-56-delynmanuscript":{
-    "title":"equity and transgression",
-    "value":4000
-  },
-  "t_bk_ofjephretr":{
-    "title":"of jephre",
-    "value":25
-  },
-  "t_bk_healerstaletr":{
-    "title":"the healer's tale",
-    "value":20
-  },
-  "t_bk_legendarycitysancretrshotn":{
-    "title":"the legendary city sancre tor",
-    "value":100
-  },
-  "t_bk_visionsofkallisttr_v73-74":{
-    "title":"<deprecated>",
-    "value":0
-  },
-  "t_bk_greathousesshotn":{
-    "title":"<deprecated>",
-    "value":30
-  },
-  "bookskill_athletics3":{
-    "title":"36 lessons of vivec, sermon 1",
-    "value":200
-  },
-  "t_bk_industriesrivermenpc":{
-    "title":"industries: the rivermen",
-    "value":40
-  },
-  "bookskill_unarmored4":{
-    "title":"36 lessons of vivec, sermon 15",
-    "value":200
-  },
-  "bk_shorthistorymorrowind":{
-    "title":"a short history of morrowind",
-    "value":5
-  },
-  "t_bk_legendaryscourgeshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_wildelvesshotn":{
-    "title":"<deprecated>",
-    "value":35
-  },
-  "t_bk_lastdartofthescholartr":{
-    "title":"the last dart of the scholar",
-    "value":60
-  },
-  "t_bk_indorilbookofpassingctr":{
-    "title":"indoril book of passing",
-    "value":50
-  },
-  "t_bk_truejusticetr":{
-    "title":"true justice",
-    "value":250
-  },
-  "bookskill_conjuration4":{
-    "title":"2920, frostfall",
-    "value":275
-  },
-  "t_bk_trueintrospectionindoriltr":{
-    "title":"the truth of indoril fidelity",
-    "value":30
-  },
-  "t_bk_recordingheadsopentr":{
-    "title":"recording of the heads 1e 820",
-    "value":100
-  },
-  "t_bk_lineofemperorspc_v01":{
-    "title":"the line of emperors i",
-    "value":80
-  },
-  "t_bk_glassinmorrowindtr":{
-    "title":"glass in morrowind",
-    "value":75
-  },
-  "t_bk_easternquarantinetr":{
-    "title":"the eastern quarantine",
-    "value":100
-  },
-  "t_bk_warofthebirdspc":{
-    "title":"the war of the birds",
-    "value":120
-  },
-  "t_bk_lamentforpelinaltr":{
-    "title":"lament for pelinal",
-    "value":35
-  },
-  "t_bkgen_notebook_01":{
-    "title":"notebook",
-    "value":2
-  },
-  "t_bk_lineofemperorspc_v03":{
-    "title":"the line of emperors iii",
-    "value":80
-  },
-  "bookskill_restoration4":{
-    "title":"2920, rain's hand",
-    "value":275
-  },
-  "tr_bk_m2_i3-437-tri_freportm":{
-    "title":"necrom monthly financial report",
-    "value":10
-  },
-  "t_bkfaction_fightersguildpc":{
-    "title":"fighters guild charter",
-    "value":30
-  },
-  "t_bk_eslaferolwarriorshotn":{
-    "title":"warrior",
-    "value":240
-  },
-  "t_bk_constantinvocationopenpc":{
-    "title":"constant invocation",
-    "value":260
-  },
-  "t_bk_highkingsveddashotn_v3":{
-    "title":"high king's vedda book three",
-    "value":300
-  },
-  "bookskill_alchemy3":{
-    "title":"song of the alchemists",
-    "value":200
-  },
-  "bookskill_blunt weapon4":{
-    "title":"36 lessons of vivec, sermon 3",
-    "value":200
-  },
-  "t_bk_funeraryriteswaterpc":{
-    "title":"death by water",
-    "value":50
-  },
-  "bookskill_medium armor3":{
-    "title":"bone, part two",
-    "value":300
-  },
-  "t_bk_boethiasprovingpc":{
-    "title":"boethiah's proving",
-    "value":150
-  },
-  "t_bk_kingedwardtr_v09":{
-    "title":"king edward, part ix",
-    "value":250
-  },
-  "t_bk_historydragoncultshotn_v3":{
-    "title":"history of the dragon cult iii",
-    "value":150
-  },
-  "t_bk_indorilbookofpassingotr":{
-    "title":"indoril book of passing",
-    "value":50
-  },
-  "t_bk_dunceinmorrowindtr_v2":{
-    "title":"a dunce in morrowind, vol. 2",
-    "value":75
-  },
-  "t_bk_remanadashotn":{
-    "title":"<deprecated>",
-    "value":150
-  },
-  "t_bk_floraskyrimshotn_v1":{
-    "title":"flora of skyrim, volume i",
-    "value":150
-  },
-  "tr_m2_book_armorer_i323":{
-    "title":"servan nieries' ledger",
-    "value":10
-  },
-  "t_bkfaction_imperiallegionshotn":{
-    "title":"ordo legionis",
-    "value":30
-  },
-  "t_bk_funeraryritesmothpc":{
-    "title":"burial of the moths",
-    "value":50
-  },
-  "bookskill_long blade4":{
-    "title":"36 lessons of vivec, sermon 20",
-    "value":200
-  },
-  "t_bk_warmthtr":{
-    "title":"warmth",
-    "value":70
-  },
-  "t_bk_handinhandtr":{
-    "title":"hand in hand",
-    "value":200
-  },
-  "t_bk_affairsofwizardstr":{
-    "title":"the affairs of wizards",
-    "value":50
-  },
-  "tr_m3-501 bunkhouserecord":{
-    "title":"guest record",
-    "value":0
-  },
-  "tr_m3_oe_curia_archive":{
-    "title":"morrowind provincial archives",
-    "value":50
-  },
-  "tr_m2_bk_vg_hestorlog":{
-    "title":"helnim storage log",
-    "value":0
-  },
-  "bookskill_light armor4":{
-    "title":"36 lessons of vivec, sermon 21",
-    "value":200
-  },
-  "tr_m3_diary_i3-626":{
-    "title":"diary of narvs sodryth",
-    "value":200
-  },
-  "t_bk_metamorphosistr":{
-    "title":"metamorphosis",
-    "value":650
-  },
-  "t_bkgen_businessledger_02":{
-    "title":"business ledger",
-    "value":2
-  },
-  "t_bk_sevenvarietiesshadowstr":{
-    "title":"seven varieties of shadows",
-    "value":150
-  },
-  "t_bk_regardsdunmerchitintr":{
-    "title":"in regards to the chitin armor",
-    "value":75
-  },
-  "t_bk_leximperia_05":{
-    "title":"lex imperia v",
-    "value":20
-  },
-  "t_bk_handbookofthedevouttr":{
-    "title":"a handbook for the devout",
-    "value":70
-  },
-  "tr_m2_bk_htl_specialflora_o":{
-    "title":"special flora of tamriel",
-    "value":25
-  },
-  "bookskill_spear1":{
-    "title":"smuggler's island",
-    "value":250
-  },
-  "t_bk_falloftheursupertr":{
-    "title":"the fall of the usurper",
-    "value":50
-  },
-  "t_bk_lawandthewillpc":{
-    "title":"the law and the will",
-    "value":220
-  },
-  "t_bk_biiterhearttr":{
-    "title":"bitter heart",
-    "value":30
-  },
-  "bk_childrenofthesky":{
-    "title":"children of the sky",
-    "value":50
-  },
-  "bookskill_block1":{
-    "title":"death blow of abernanit",
-    "value":300
-  },
-  "bookskill_marksman2":{
-    "title":"a dance in fire, chapter 5",
-    "value":150
-  },
-  "bk_words_of_the_wind":{
-    "title":"words of the wind",
-    "value":45
-  },
-  "bookskill_security5":{
-    "title":"surfeit of thieves",
-    "value":350
-  },
-  "t_bkfaction_fightersguildshotn":{
-    "title":"fighters guild charter",
-    "value":30
-  },
-  "bk_yagrum's_book":{
-    "title":"tamrielic lore",
-    "value":250
-  },
-  "bk_spiritofthedaedra":{
-    "title":"spirit of the daedra",
-    "value":100
-  },
-  "t_bk_truenatureorcsshotn":{
-    "title":"<deprecated>",
-    "value":30
-  },
-  "bk_wherewereyoudragonbroke":{
-    "title":"where were you ... dragon broke",
-    "value":55
-  },
-  "t_bk_rislavtherighteousshotn":{
-    "title":"<deprecated>",
-    "value":80
-  },
-  "sky_ire_ds20_book_contraband":{
-    "title":"contraband storage ledger",
-    "value":0
-  },
-  "t_bk_tometempclose_05":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "t_bk_wabbajacktr":{
-    "title":"wabbajack",
-    "value":250
-  },
-  "tr_m1_bk_queenscutlassguests":{
-    "title":"guest book",
-    "value":1
-  },
-  "bookskill_speechcraft3":{
-    "title":"2920, second seed",
-    "value":275
-  },
-  "t_bk_vampiresilliacbaytr_v1":{
-    "title":"vampires of the iliac bay, v i",
-    "value":50
-  },
-  "t_bk_lineofemperorspc_v09":{
-    "title":"the line of emperors ix",
-    "value":80
-  },
-  "t_bk_collectedysmritisshotn":{
-    "title":"the collected ysmritis",
-    "value":50
-  },
-  "t_bk_onnecromanypc":{
-    "title":"on necromancy",
-    "value":120
-  },
-  "tr_bk_i2-25-bonewalkerbook":{
-    "title":"bonewalker preparation",
-    "value":100
-  },
-  "t_bk_songofthereturnshotn_v56":{
-    "title":"songs of the return, volume 56",
-    "value":150
-  },
-  "t_bk_remanadatr_v2":{
-    "title":"remanada, chapter 2",
-    "value":20
-  },
-  "t_bk_arkhonlimtr":{
-    "title":"arkhon lim",
-    "value":70
-  },
-  "t_bk_gospelofsaintvelothotr_v2":{
-    "title":"the gospel of saint veloth, v 2",
-    "value":50
-  },
-  "t_bk_whitebook3e426tr":{
-    "title":"white book of 3e 426",
-    "value":60
-  },
-  "t_bk_mysteriousakavirshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "book_dwe_boom00":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "bk_fishystick":{
-    "title":"capn's guide to the fishy stick",
-    "value":5
-  },
-  "tr_m3_q_theriftbkfloat2":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "bk_specialfloraoftamriel":{
-    "title":"special flora of tamriel",
-    "value":25
-  },
-  "sky_ire_kw1_storageledger":{
-    "title":"storage ledger",
-    "value":20
-  },
-  "t_bk_songofpelinaltr_v3":{
-    "title":"the song of pelinal, volume 3",
-    "value":100
-  },
-  "t_bk_mostcrueltradetr":{
-    "title":"the most cruel trade",
-    "value":200
-  },
-  "t_bk_warpedwesttr":{
-    "title":"the warped west",
-    "value":600
-  },
-  "t_bk_thesagetr":{
-    "title":"the sage",
-    "value":150
-  },
-  "sky_qre_kw01_register02":{
-    "title":"codex periculum",
-    "value":1000
-  },
-  "t_bkgen_shippinglog_01":{
-    "title":"shipping log",
-    "value":0
-  },
-  "t_bk_imperialheraldrymwtr":{
-    "title":"imperial heraldry in morrowind",
-    "value":75
-  },
-  "t_bk_mysteryplayoldebonhearttr":{
-    "title":"mystery play of old ebonheart",
-    "value":50
-  },
-  "t_bk_homilypilgrimtr":{
-    "title":"the homily of the pilgrim",
-    "value":75
-  },
-  "t_bk_thefourtr":{
-    "title":"the four's homily",
-    "value":50
-  },
-  "bookskill_short blade3":{
-    "title":"2920, evening star",
-    "value":275
-  },
-  "t_bk_traditionalsloadtaletr":{
-    "title":"a traditional sload tale",
-    "value":20
-  },
-  "t_bk_sermonofthesaintstr":{
-    "title":"sermon of the saints",
-    "value":50
-  },
-  "t_bk_follyofsteeltr":{
-    "title":"folly of steel",
-    "value":175
-  },
-  "t_bk_confessionsandresorttr":{
-    "title":"confessions and last resort",
-    "value":100
-  },
-  "bk_redbook426":{
-    "title":"red book of 3e 426",
-    "value":60
-  },
-  "t_bk_cherimsheartanequinashotn":{
-    "title":"<deprecated>",
-    "value":225
-  },
-  "bookskill_mysticism4":{
-    "title":"36 lessons of vivec, sermon 36",
-    "value":200
-  },
-  "t_bk_weightofguilttr":{
-    "title":"the weight of guilt",
-    "value":300
-  },
-  "t_bk_sevenfightsaldudagshotn_v2":{
-    "title":"the seven fights ii",
-    "value":80
-  },
-  "tr_m3_briricca_accounts":{
-    "title":"briricca accounts",
-    "value":10
-  },
-  "bk_nerevarmoonandstar":{
-    "title":"nerevar moon-and-star",
-    "value":200
-  },
-  "bk_playscript":{
-    "title":"the horror of castle xyr",
-    "value":250
-  },
-  "bk_falljournal_unique":{
-    "title":"journal of tarhiel",
-    "value":50
-  },
-  "bk_corpsepreperation3_c":{
-    "title":"corpse preparation v iii",
-    "value":50
-  },
-  "t_bk_corprusdivinetr":{
-    "title":"corprus: the divine disease",
-    "value":200
-  },
-  "cumanya's notes":{
-    "title":"a fair warning",
-    "value":25
-  },
-  "tr_m3-et2_bk_blades":{
-    "title":"blades operations records",
-    "value":450
-  },
-  "t_bk_onmorrowindshotn":{
-    "title":"<deprecated>",
-    "value":40
-  },
-  "t_bk_telvanniconstructiontr":{
-    "title":"guide to telvanni construction",
-    "value":50
-  },
-  "tr_m1_bk_fw_shipping_log_02":{
-    "title":"firewatch shipping log",
-    "value":1
-  },
-  "t_bk_foolsebonytr_v5":{
-    "title":"fools' ebony, part v",
-    "value":50
-  },
-  "t_bk_theoriginofvampirestr":{
-    "title":"the origin of vampires",
-    "value":175
-  },
-  "bk_biographybarenziah3":{
-    "title":"biography of barenziah v iii",
-    "value":50
-  },
-  "t_bk_bankersbettr":{
-    "title":"banker's bet",
-    "value":45
-  },
-  "t_bk_lineofemperorspc_v04":{
-    "title":"the line of emperors iv",
-    "value":80
-  },
-  "tr_m1_bk_bo_prisonlog":{
-    "title":"bal oyra prison log",
-    "value":0
-  },
-  "bk_bluebookofriddles":{
-    "title":"the blue book of riddles",
-    "value":250
-  },
-  "t_bk_wolfqueenshotn_v6":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "bookskill_destruction1":{
-    "title":"the horror of castle xyr",
-    "value":250
-  },
-  "bk_anticipations":{
-    "title":"the anticipations",
-    "value":50
-  },
-  "t_bkgen_prisonledger_01":{
-    "title":"prison ledger",
-    "value":2
-  },
-  "tr_m3_oe_enixcaripusjournal":{
-    "title":"enix caripus' journal",
-    "value":0
-  },
-  "t_bk_mwhistoriaandothrentr":{
-    "title":"morrowind historia: andothren",
-    "value":100
-  },
-  "t_bk_foolsebonytr_v4":{
-    "title":"fools' ebony, part iv",
-    "value":50
-  },
-  "t_bk_disasterationithopenpc":{
-    "title":"disaster at ionith",
-    "value":120
-  },
-  "t_sc_ralenrothadasmemoirtr":{
-    "title":"ralen rothadas' memoir page",
-    "value":200
-  },
-  "t_bk_argonianaccountpc_v2":{
-    "title":"the argonian account ii",
-    "value":150
-  },
-  "t_bk_songaskeldemenshotn":{
-    "title":"song of the askelde men",
-    "value":30
-  },
-  "bk_houseoftroubles_c":{
-    "title":"the house of troubles",
-    "value":50
-  },
-  "t_bk_thefaerietr":{
-    "title":"the faerie",
-    "value":20
-  },
-  "bookskill_medium armor4":{
-    "title":"36 lessons of vivec, sermon 22",
-    "value":200
-  },
-  "t_bk_marasteartr":{
-    "title":"mara's tear",
-    "value":40
-  },
-  "t_bk_talhjoldeshotn_v5":{
-    "title":"talhjolde, allfathirs beit",
-    "value":40
-  },
-  "tr_m1_bk_rr_minelist":{
-    "title":"ranyon-ruhn mining ledger",
-    "value":0
-  },
-  "bookskill_speechcraft5":{
-    "title":"36 lessons of vivec, sermon 27",
-    "value":200
-  },
-  "t_bk_historyempireshotn_v1":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "bookskill_blunt weapon1":{
-    "title":"the hope of the redoran",
-    "value":250
-  },
-  "bk_galur_rithari's_papers":{
-    "title":"galur rithari's papers",
-    "value":0
-  },
-  "tr_m1_bk_fw_import_ledger_02":{
-    "title":"firewatch imports ledger",
-    "value":1
-  },
-  "t_bk_onpuritytr":{
-    "title":"on purity",
-    "value":250
-  },
-  "bk_leggejournal":{
-    "title":"settler's journal",
-    "value":50
-  },
-  "bookskill_restoration5":{
-    "title":"mystery of talara, part 2",
-    "value":250
-  },
-  "bk_fellowshiptemple":{
-    "title":"fellowship of the temple",
-    "value":25
-  },
-  "t_bk_originofthesloadshotn":{
-    "title":"origin of the sload",
-    "value":200
-  },
-  "t_bk_mysticpathemperoropenpc":{
-    "title":"mystic path of the emperor",
-    "value":220
-  },
-  "t_bk_raidpyandoneashotn_v3":{
-    "title":"raid on pyandonea, book three",
-    "value":150
-  },
-  "tr_m3-283_bk-miningledger":{
-    "title":"mines ledger",
-    "value":0
-  },
-  "t_bk_oldwaysshotn":{
-    "title":"<deprecated>",
-    "value":40
-  },
-  "t_bk_lastkingoftheayleidsshotn":{
-    "title":"the last king of the ayleids",
-    "value":75
-  },
-  "tr_i2_238_bk_rogue_indoril":{
-    "title":"commandant's log",
-    "value":10
-  },
-  "t_bk_etiquettewithrulerstr":{
-    "title":"etiquette with rulers",
-    "value":40
-  },
-  "t_bk_kingedwardtr_v01":{
-    "title":"king edward, part i",
-    "value":250
-  },
-  "t_bk_originsoftherakishotn":{
-    "title":"origins of the raki",
-    "value":60
-  },
-  "t_bk_reaversongsshotn_v1":{
-    "title":"songs of the reaver clans, vi",
-    "value":60
-  },
-  "bk_guylainesarchitecture":{
-    "title":"guylaine's architecture",
-    "value":60
-  },
-  "bk_istunondescosmology":{
-    "title":"a less rude song",
-    "value":40
-  },
-  "t_bk_dunceinmorrowindtr_v1":{
-    "title":"a dunce in morrowind, vol. 1",
-    "value":75
-  },
-  "t_bk_watersofoblivionshotn":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "sky_ire_kw29_armoryledger":{
-    "title":"armory ledger",
-    "value":0
-  },
-  "bk_secretsdwemeranimunculi":{
-    "title":"secrets of dwemer animunculi",
-    "value":450
-  },
-  "tr_m3-720_bk-imp_charter":{
-    "title":"barristers guild charter",
-    "value":30
-  },
-  "tr_m1_q_officialptrrledgers":{
-    "title":"port telvannis official ledgers",
-    "value":0
-  },
-  "t_bk_lastkingoftheayleidspc":{
-    "title":"the last king of the ayleids",
-    "value":75
-  },
-  "bookskill_long blade5":{
-    "title":"36 lessons of vivec, sermon 23",
-    "value":200
-  },
-  "bk_poisonsong2":{
-    "title":"poison song ii",
-    "value":30
-  },
-  "t_bk_properlockdesignpc":{
-    "title":"proper lock design",
-    "value":30
-  },
-  "t_bkuni_oghmainfinium":{
-    "title":"oghma infinium",
-    "value":50000
-  },
-  "bookskill_light armor5":{
-    "title":"36 lessons of vivec, sermon 28",
-    "value":200
-  },
-  "t_bk_historyofebonhearttr":{
-    "title":"ebonheart: a history",
-    "value":45
-  },
-  "bookskill_athletics4":{
-    "title":"36 lessons of vivec, sermon 8",
-    "value":200
-  },
-  "t_bkgen_businessledger_03":{
-    "title":"business ledger",
-    "value":2
-  },
-  "bookskill_conjuration1":{
-    "title":"feyfolken ii",
-    "value":300
-  },
-  "tr_m2_i2-364_import_ledger_01":{
-    "title":"helnim imports ledger",
-    "value":0
-  },
-  "tr_m3_oe_et9_highrocklogbook":{
-    "title":"liaison ledger",
-    "value":50
-  },
-  "t_bk_leximperia_04":{
-    "title":"lex imperia iv",
-    "value":20
-  },
-  "book_dwe_power_con00":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "t_bk_tometempclose_03":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "t_bk_insidealmastongstr":{
-    "title":"inside almalexia's tongs",
-    "value":60
-  },
-  "tr_m3_blankbook2o_i3-559-ind":{
-    "title":"blank book",
-    "value":1
-  },
-  "t_bk_thefaithfultr":{
-    "title":"the faithful",
-    "value":460
-  },
-  "t_bk_refugeesshotn":{
-    "title":"the refugees",
-    "value":140
-  },
-  "tr_m1_q_azariahledgerfaked":{
-    "title":"azariah's storage ledger",
-    "value":0
-  },
-  "t_bk_murudiustr":{
-    "title":"murudius",
-    "value":65
-  },
-  "tr_bk_m2_i2-437-tri_ledger":{
-    "title":"necrom temple maintenance",
-    "value":15
-  },
-  "bk_antecedantsdwemerlaw":{
-    "title":"antecedants of dwemer law",
-    "value":25
-  },
-  "t_bk_fatherofthenibenopenpc":{
-    "title":"father of the niben",
-    "value":100
-  },
-  "t_bk_manualofspellcraftpc":{
-    "title":"manual of spellcraft",
-    "value":50
-  },
-  "bk_truenoblescode":{
-    "title":"the true noble's code",
-    "value":40
-  },
-  "bookskill_marksman5":{
-    "title":"the black arrow, volume ii",
-    "value":400
-  },
-  "t_bk_historyfightersguildshotn":{
-    "title":"history of the fighter's guild",
-    "value":70
-  },
-  "t_bk_songofthereturnshotn_v07":{
-    "title":"songs of the return, volume 7",
-    "value":150
-  },
-  "t_bk_thetormentklauseintr_v2":{
-    "title":"the torment of klausein, act ii",
-    "value":300
-  },
-  "t_bk_historyoroynyonfamilytr":{
-    "title":"history of the oroynyon family",
-    "value":20
-  },
-  "t_bk_rainofsandtr":{
-    "title":"rain of sand",
-    "value":75
-  },
-  "bookskill_restoration2":{
-    "title":"notes on racial phylogeny",
-    "value":275
-  },
-  "bk_darkestdarkness":{
-    "title":"darkest darkness",
-    "value":60
-  },
-  "t_bk_tometempclose_04":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "tr_bk_m2_i2-437-tri_ledger5":{
-    "title":"necrom temple annual income",
-    "value":15
-  },
-  "bk_saryonissermons":{
-    "title":"saryoni's sermons",
-    "value":50
-  },
-  "t_bk_specialfloratamrielshotn":{
-    "title":"<deprecated>",
-    "value":25
-  },
-  "bk_ngastakvatakvakis_c":{
-    "title":"n'gasta! kvata! kvakis!",
-    "value":200
-  },
-  "bk_realbarenziah3":{
-    "title":"the real barenziah v iii",
-    "value":20
-  },
-  "bookskill_alteration1":{
-    "title":"breathing water",
-    "value":400
-  },
-  "bookskill_security4":{
-    "title":"chance's folly",
-    "value":250
-  },
-  "bk_bookdawnanddusk":{
-    "title":"the book of dawn and dusk",
-    "value":25
-  },
-  "t_bk_stirkhistoriespc":{
-    "title":"stirk histories",
-    "value":20
-  },
-  "t_bk_reality&otherfalsehoodspc":{
-    "title":"reality and other falsehoods",
-    "value":215
-  },
-  "bk_progressoftruth":{
-    "title":"progress of truth",
-    "value":150
-  },
-  "bk_overviewofgodsandworship":{
-    "title":"overview of gods and worship",
-    "value":50
-  },
-  "tr_i3-287_bk_navy_ledger-o":{
-    "title":"imperial navy ledger",
-    "value":0
-  },
-  "t_bk_sevenfightsaldudagshotn_v3":{
-    "title":"the seven fights iii",
-    "value":80
-  },
-  "t_bk_caverndoortr":{
-    "title":"the cavern door",
-    "value":30
-  },
-  "t_bk_houndsofhircinetr":{
-    "title":"the hounds of hircine",
-    "value":50
-  },
-  "bookskill_sneak4":{
-    "title":"trap",
-    "value":250
-  },
-  "bk_briefhistoryempire2_oh":{
-    "title":"odral's history of the empire 2",
-    "value":50
-  },
-  "bookskill_enchant3":{
-    "title":"palla, book ii",
-    "value":400
-  },
-  "tr_m2_ledger2_i2-77-tri":{
-    "title":"necrom census ledger",
-    "value":0
-  },
-  "t_bk_essenceofbeingathieftr":{
-    "title":"essence of being a thief",
-    "value":50
-  },
-  "t_bk_songsofstuportr":{
-    "title":"songs of stupor",
-    "value":60
-  },
-  "bk_alchemistsformulary":{
-    "title":"the alchemists formulary",
-    "value":300
-  },
-  "t_bkfaction_imperiallegionpc":{
-    "title":"ordo legionis",
-    "value":30
-  },
-  "t_bk_wealthofwayresttr_v2":{
-    "title":"the wealth of wayrest, act ii",
-    "value":150
-  },
-  "t_bk_meditationsdeterminedlawtr":{
-    "title":"meditations on determined law",
-    "value":45
-  },
-  "bookskill_short blade4":{
-    "title":"36 lessons of vivec, sermon 10",
-    "value":200
-  },
-  "bk_bartendersguide_01":{
-    "title":"hanin's wake",
-    "value":10
-  },
-  "bk_redoran_vaults_ledger":{
-    "title":"redoran vaults ledger",
-    "value":0
-  },
-  "t_bk_soulsblackandwhiteshotn":{
-    "title":"<deprecated>",
-    "value":180
-  },
-  "t_bk_historydragoncultshotn_v2":{
-    "title":"history of the dragon cult ii",
-    "value":150
-  },
-  "sky_ire_ds29_logbook":{
-    "title":"log book",
-    "value":50
-  },
-  "bookskill_heavy armor1":{
-    "title":"hallgerd's tale",
-    "value":325
-  },
-  "tr_m3_at_literacy_book":{
-    "title":"on the importance of heresy",
-    "value":300
-  },
-  "t_bk_mothersdiarytr":{
-    "title":"a mother's diary",
-    "value":200
-  },
-  "t_bkgen_businessledger_01":{
-    "title":"business ledger",
-    "value":2
-  },
-  "t_bk_detachmentofthesheathpc":{
-    "title":"detachment of the sheath",
-    "value":140
-  },
-  "tr_m2_i2-364-bk_eecledger":{
-    "title":"east empire company ledger",
-    "value":0
-  },
-  "book_dwe_pipe00":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "bookskill_armorer4":{
-    "title":"36 lessons of vivec, sermon 25",
-    "value":200
-  },
-  "bk_pilgrimspath":{
-    "title":"the pilgrim's path",
-    "value":25
-  },
-  "t_bk_effectselderscrollspc":{
-    "title":"effects of the elder scrolls",
-    "value":150
-  },
-  "bookskill_illusion4":{
-    "title":"palla, book i",
-    "value":400
-  },
-  "t_bk_postinghuntshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_theperyitonvol5closetr":{
-    "title":"the peryiton, vol. v",
-    "value":200
-  },
-  "tr_i3-688_shippingledger":{
-    "title":"shipping ledger",
-    "value":40
-  },
-  "t_bk_howtotersthereticstr":{
-    "title":"how to treat heretics",
-    "value":200
-  },
-  "t_bk_lockedcellartr":{
-    "title":"the locked cellar",
-    "value":250
-  },
-  "t_bk_sacredwitnessshotn":{
-    "title":"sacred witness",
-    "value":150
-  },
-  "t_bk_mysticpathemperorpc":{
-    "title":"mystic path of the emperor",
-    "value":220
-  },
-  "t_bk_wolfqueenshotn_v7":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bkgen_businessledgeropen_03":{
-    "title":"business ledger",
-    "value":2
-  },
-  "bk_madnessofpelagius":{
-    "title":"the madness of pelagius",
-    "value":20
-  },
-  "t_bk_notebooktempclose_02":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "t_bk_magickamoonsdancertr":{
-    "title":"the magicka of a moons dancer",
-    "value":150
-  },
-  "t_bk_sevenfightsaldudagtr_v1":{
-    "title":"the seven fights i",
-    "value":70
-  },
-  "t_bk_pocketguide1pc":{
-    "title":"pocket guide to the empire",
-    "value":20
-  },
-  "bookskill_axe5_open":{
-    "title":"36 lessons of vivec, sermon 16",
-    "value":200
-  },
-  "t_bk_imperialproverbsopenpc":{
-    "title":"imperial proverbs",
-    "value":35
-  },
-  "t_bkgen_courtverdicts_03":{
-    "title":"court verdicts",
-    "value":4
-  },
-  "bookskill_mysticism1":{
-    "title":"the firsthold revolt",
-    "value":200
-  },
-  "bookskill_medium armor5":{
-    "title":"36 lessons of vivec, sermon 33",
-    "value":200
-  },
-  "bookskill_alchemy1":{
-    "title":"a game at dinner",
-    "value":200
-  },
-  "t_bk_mixedunittactics2":{
-    "title":"mixed unit tactics v2",
-    "value":25
-  },
-  "t_bk_lessercatechismjulopenpc":{
-    "title":"lesser catechism of julianos",
-    "value":60
-  },
-  "bk_ancestorsandthedunmer":{
-    "title":"ancestors and the dunmer",
-    "value":25
-  },
-  "t_bk_adabalashotn":{
-    "title":"<deprecated>",
-    "value":240
-  },
-  "t_bk_failureoftheempiretr":{
-    "title":"the failure of the empire",
-    "value":80
-  },
-  "t_bk_magicfromtheskyshotn":{
-    "title":"magic from the sky",
-    "value":350
-  },
-  "bk_poisonsong3":{
-    "title":"poison song iii",
-    "value":30
-  },
-  "t_bkgen_trademanifest_01":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "t_bk_crooktailedkhajiittr":{
-    "title":"on the lunar lattice",
-    "value":100
-  },
-  "t_bk_redemptiontr_v2":{
-    "title":"redemption volume ii",
-    "value":40
-  },
-  "bookskill_mercantile2":{
-    "title":"the wolf queen, book iv",
-    "value":250
-  },
-  "bookskill_destruction2":{
-    "title":"response to bero's speech",
-    "value":200
-  },
-  "t_bk_leximperia_07":{
-    "title":"lex imperia vii",
-    "value":20
-  },
-  "tr_i3-729_bk_miningledger":{
-    "title":"adamantium mining ledger",
-    "value":30
-  },
-  "bk_redbookofriddles":{
-    "title":"the red book of riddles",
-    "value":50
-  },
-  "t_bk_shezarrandthedivinesopenpc":{
-    "title":"shezarr and the divines",
-    "value":115
-  },
-  "t_bk_gospelofsaintvelothtr_v2":{
-    "title":"the gospel of saint veloth, v 2",
-    "value":50
-  },
-  "t_bk_historykarthwasten1shotn":{
-    "title":"a short history of karthwasten",
-    "value":55
-  },
-  "pc_i1-55_book_01":{
-    "title":"captain's iarnu's logbook",
-    "value":15
-  },
-  "bk_bookoflifeandservice":{
-    "title":"book of life and service",
-    "value":40
-  },
-  "t_bk_fireanddarknessopenpc":{
-    "title":"fire and darkness",
-    "value":150
-  },
-  "t_bk_fascicle08pc":{
-    "title":"fascicle 29-31",
-    "value":300
-  },
-  "bookskill_armorer1":{
-    "title":"the armorer's challenge",
-    "value":325
-  },
-  "t_bk_ami-elpc_v5":{
-    "title":"the fifth ami-el",
-    "value":200
-  },
-  "t_bk_amuletofkingspc":{
-    "title":"the amulet of kings",
-    "value":35
-  },
-  "t_bk_fascicle04pc":{
-    "title":"fascicle 17-20",
-    "value":300
-  },
-  "t_bk_bartendersguideshotn":{
-    "title":"<deprecated>",
-    "value":10
-  },
-  "tr_m3_q_theriftbook1":{
-    "title":"introduction to hermaean logic",
-    "value":300
-  },
-  "bk_realbarenziah2":{
-    "title":"the real barenziah v ii",
-    "value":20
-  },
-  "tr_m3-283_bk-accounta":{
-    "title":"account book",
-    "value":0
-  },
-  "t_bk_unseenpeopletr":{
-    "title":"the unseen people",
-    "value":65
-  },
-  "t_bk_warpinthewestpc":{
-    "title":"the warp in the west",
-    "value":300
-  },
-  "t_bk_cavesoficetr":{
-    "title":"the caves of ice",
-    "value":250
-  },
-  "tr_m2_q_22_fmgechapel":{
-    "title":"for my gods and emperor",
-    "value":25
-  },
-  "book_dwe_water00":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "bk_spiritofnirn":{
-    "title":"spirit of nirn, god of mortals",
-    "value":40
-  },
-  "book_dwe_mach00":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "tr_m2_445_mysteriesworm":{
-    "title":"mysteries of the worm",
-    "value":250
-  },
-  "t_bk_tometempclose_02":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "tr_verulas pass_mtmasterancient":{
-    "title":"book of the master",
-    "value":50
-  },
-  "tr_verulas pass_mtmasterbook":{
-    "title":"book of the master",
-    "value":50
-  },
-  "t_bk_travelsoftyaldirennipc":{
-    "title":"the travels of tyal direnni",
-    "value":140
-  },
-  "tr_m3_q_dolynjournal":{
-    "title":"journal of dolyn volor",
-    "value":50
-  },
-  "t_bk_theworshipofashlanderstr":{
-    "title":"the worship of the ashlanders",
-    "value":50
-  },
-  "bookskill_security3":{
-    "title":"the dowry",
-    "value":300
-  },
-  "t_bk_highkingsveddashotn_v5":{
-    "title":"high king's vedda book five",
-    "value":300
-  },
-  "t_bk_thetormentklauseintr_v1":{
-    "title":"the torment of klausein, act i",
-    "value":250
-  },
-  "bookskill_enchant2":{
-    "title":"the wolf queen, book viii",
-    "value":250
-  },
-  "tr_m3_q_theriftbkfloat1":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "bk_onoblivion":{
-    "title":"on oblivion",
-    "value":40
-  },
-  "t_bk_fetchersguidetoancestraltr":{
-    "title":"guide to ancestral tombs",
-    "value":25
-  },
-  "t_bk_pigchildrenshotn":{
-    "title":"<deprecated>",
-    "value":100
-  },
-  "t_bk_historysaturailashotn":{
-    "title":"a history of saturalia",
-    "value":50
-  },
-  "tr_m3_q_theriftbook3":{
-    "title":"transpontine circumpenetrations",
-    "value":300
-  },
-  "bookskill_restoration3":{
-    "title":"the four suitors of benitah",
-    "value":300
-  },
-  "tr_m3_q_theriftbook2":{
-    "title":"hyperagonal media theorem",
-    "value":300
-  },
-  "bookskill_illusion2":{
-    "title":"silence",
-    "value":230
-  },
-  "sky_ire_ds40_confiscated":{
-    "title":"confiscation ledger",
-    "value":2
-  },
-  "t_bk_lessercatechismjulpc":{
-    "title":"lesser catechism of julianos",
-    "value":60
-  },
-  "tr_m1_bk_bowmanjournal_siridun":{
-    "title":"old journal from siridunbal",
-    "value":25
-  },
-  "t_bk_truthofthebearclanshotn":{
-    "title":"the truth of the bear clan",
-    "value":30
-  },
-  "tr_aimrahic6_keeperslog":{
-    "title":"ulvo's diary",
-    "value":10
-  },
-  "tr_aimrahic6_sermon28revised":{
-    "title":"36 lessons of vivec, sermon 28",
-    "value":30
-  },
-  "tr_m4-519_bk_journal":{
-    "title":"vuro doram's journal",
-    "value":25
-  },
-  "tr_m4-471_bk_journal":{
-    "title":"journal",
-    "value":1
-  },
-  "t_bk_onartaeumopenpc":{
-    "title":"on artaeum",
-    "value":25
-  },
-  "tr_m3_oe_astrographybook02":{
-    "title":"sharai-saldro's astrography",
-    "value":1500
-  },
-  "tr_m3_oe_astrographybook":{
-    "title":"sharai-saldro's astrography",
-    "value":1500
-  },
-  "tr_m3_oe_bk_etshipping_log_01":{
-    "title":"shipping log",
-    "value":2
-  },
-  "t_bk_paintedpeoplestr":{
-    "title":"painted peoples",
-    "value":25
-  },
-  "tr_m3-239_bk_ledger":{
-    "title":"ledger",
-    "value":0
-  },
-  "tr_m3_oe_bk_ebonhthistory2uni":{
-    "title":"unfinished history book",
-    "value":60
-  },
-  "t_bk_persistencedaedricvenerapc":{
-    "title":"daedric veneration",
-    "value":80
-  },
-  "bookskill_alteration2":{
-    "title":"the dragon break re-examined",
-    "value":250
-  },
-  "t_bk_wolfqueenshotn_v8":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "tr_m3_faircopy14_i3-559-ind":{
-    "title":"fair copy of sermon 14",
-    "value":15
-  },
-  "t_bk_arcanarestoredshotn":{
-    "title":"<deprecated>",
-    "value":75
-  },
-  "tr_m3-283_bk-accountb":{
-    "title":"account book",
-    "value":0
-  },
-  "t_bk_sakapunikatr":{
-    "title":"saka'punika! rahkspondu! kvata!",
-    "value":250
-  },
-  "t_bk_restlessnorthshotn_v1":{
-    "title":"the restless north, book i",
-    "value":30
-  },
-  "t_bk_maceetiquetteshotn":{
-    "title":"mace etiquette",
-    "value":125
-  },
-  "t_bk_adabalatr":{
-    "title":"the adabal-a",
-    "value":90
-  },
-  "tr_m3-283_bk-eecimport":{
-    "title":"eec import record",
-    "value":0
-  },
-  "t_bk_studyondreughstr":{
-    "title":"a study on dreughs",
-    "value":35
-  },
-  "t_bk_nobletrickstr":{
-    "title":"a noble's best tricks",
-    "value":15
-  },
-  "tr_m3-283_bk-eecexport":{
-    "title":"eec export record",
-    "value":0
-  },
-  "tr_m3-283_bk-eecincorporation":{
-    "title":"eec articles of incorporation",
-    "value":0
-  },
-  "bookskill_medium armor1":{
-    "title":"cherim's heart of anequina",
-    "value":225
-  },
-  "tr_m3-283_bk-miningledger2":{
-    "title":"mines ledger",
-    "value":0
-  },
-  "t_bk_uni_alessiandoctrinespc":{
-    "title":"the alessian doctrines",
-    "value":50000
-  },
-  "tr_m3_oe_bk_etprisonlog":{
-    "title":"ebon tower prison log",
-    "value":0
-  },
-  "t_bk_shorsonofshortr":{
-    "title":"shor, son of shor",
-    "value":50
-  },
-  "t_bk_ontheimportanceheresytr":{
-    "title":"on the importance of heresy",
-    "value":200
-  },
-  "tr_m3-283_bk-eecledger":{
-    "title":"east empire company ledger",
-    "value":0
-  },
-  "tr_i3-287_bk_confi_ledger-o":{
-    "title":"imperial navy ledger",
-    "value":0
-  },
-  "t_bk_corpsepreparationshotn_v3":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "tr_m3-770_bk_ce":{
-    "title":"old ebonheart census records",
-    "value":20
-  },
-  "tr_m3-278_bk_log":{
-    "title":"archaeological income log",
-    "value":0
-  },
-  "t_bk_assassinsdiarytr":{
-    "title":"an assassin's diary",
-    "value":20
-  },
-  "tr_m3_oe_bk_etcensus_record_01":{
-    "title":"census record",
-    "value":4
-  },
-  "tr_m3_oe_bk_etcensus_record_06":{
-    "title":"census record",
-    "value":4
-  },
-  "t_bk_manualredswordpc":{
-    "title":"manual of the red sword",
-    "value":250
-  },
-  "sky_ire_kw1_taxledger":{
-    "title":"karthwasten tax ledger",
-    "value":20
-  },
-  "t_bkgen_trademanifest":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "tr_m3_oe_bk_etcensus_record_04":{
-    "title":"census record",
-    "value":4
-  },
-  "tr_m3_oe_bk_etcensus_record_03":{
-    "title":"census record",
-    "value":4
-  },
-  "tr_m3_bk_et-15_study":{
-    "title":"tarhiel's study book",
-    "value":180
-  },
-  "bk_mixedunittactics":{
-    "title":"mixed unit tactics v1",
-    "value":25
-  },
-  "t_bk_fascicle10pc":{
-    "title":"fascicle 41-45",
-    "value":300
-  },
-  "tr_m2_bk_he_tax_notes":{
-    "title":"taxation notes",
-    "value":10
-  },
-  "tr_m3_283_bk_eecexport":{
-    "title":"eec export record",
-    "value":10
-  },
-  "t_bk_wabbajackshotn":{
-    "title":"wabbajack",
-    "value":50
-  },
-  "t_bk_legendofredeagleshotn":{
-    "title":"the legend of red eagle",
-    "value":150
-  },
-  "t_bk_restlessnorthshotn_v2":{
-    "title":"the restless north, book ii",
-    "value":30
-  },
-  "t_bk_wayrestjewelofthebaypc":{
-    "title":"wayrest, jewel of the bay",
-    "value":120
-  },
-  "t_bk_redbookriddlesshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "tr_m3-649_placeholderrelibook_o":{
-    "title":"prayers to the nine divines",
-    "value":50
-  },
-  "bookskill_heavy armor2":{
-    "title":"2920, midyear",
-    "value":275
-  },
-  "tr_m3-649_placeholderrelibook":{
-    "title":"prayers to the nine divines",
-    "value":200
-  },
-  "tr_m3_bk_ikinammassulog":{
-    "title":"ikinammassu shrine: reports",
-    "value":20
-  },
-  "t_bk_fascicle01pc":{
-    "title":"fascicle 1-4",
-    "value":300
-  },
-  "bookskill_unarmored3":{
-    "title":"36 lessons of vivec, sermon 11",
-    "value":200
-  },
-  "bk_chroniclesnchuleft":{
-    "title":"chronicles of nchuleft",
-    "value":250
-  },
-  "t_bk_theperyitonvol4opentr":{
-    "title":"the peryiton, vol. iv",
-    "value":200
-  },
-  "tr_m2_q_8_nisireldiary":{
-    "title":"nisirel's diary",
-    "value":10
-  },
-  "tr_m2_q_6_felpoem":{
-    "title":"muck-stained copy of 'seasons'",
-    "value":80
-  },
-  "tr_m2_i2_384_bk_captainslog":{
-    "title":"captain's log",
-    "value":1
-  },
-  "tr_m2_i2_384_bk_log1":{
-    "title":"water-logged captain's log",
-    "value":1
-  },
-  "t_bk_charityandleadershiptr":{
-    "title":"charity and leadership",
-    "value":40
-  },
-  "bk_briefhistoryofwood":{
-    "title":"no-h's picture book of wood",
-    "value":10
-  },
-  "tr_m2_bk_sa_he_prison_ledger_2":{
-    "title":"prison ledger",
-    "value":0
-  },
-  "t_bk_sevenfightsaldudagshotn_v6":{
-    "title":"the seven fights vi",
-    "value":80
-  },
-  "tr_m2_bk_sa_he_prison_ledger":{
-    "title":"prison ledger",
-    "value":0
-  },
-  "tr_m2_bk_loe_hebook5":{
-    "title":"helnim profits ledger",
-    "value":1
-  },
-  "t_bk_songofhrormirshotn":{
-    "title":"song of hrormir",
-    "value":295
-  },
-  "tr_m2_bk_ak_prison_log":{
-    "title":"akamora prison log",
-    "value":0
-  },
-  "tr_m3_i3-534-ind":{
-    "title":"ancient tome",
-    "value":100
-  },
-  "t_bk_quarterpalmliturgypc":{
-    "title":"quarter palm liturgy",
-    "value":200
-  },
-  "t_bk_wealthofwayresttr_v3":{
-    "title":"the wealth of wayrest, act iii",
-    "value":150
-  },
-  "tr_bk_i2-428_houseshonored":{
-    "title":"the true houses",
-    "value":50
-  },
-  "t_bk_ayleidcitiesvalenwoodopepc":{
-    "title":"ayleid cities of valenwood",
-    "value":80
-  },
-  "t_bk_onsericultureopenpc":{
-    "title":"on sericulture",
-    "value":160
-  },
-  "tr_m3_oe_saturniidaecodex":{
-    "title":"saturniidae library manuscripts",
-    "value":100
-  },
-  "tr_bk_m2_i2-437-tri_ledger4c":{
-    "title":"necrom temple ledger",
-    "value":15
-  },
-  "t_bk_ayleidruinspc":{
-    "title":"ayleid ruins",
-    "value":125
-  },
-  "t_bk_redkitchenreaderpc":{
-    "title":"the red kitchen reader",
-    "value":215
-  },
-  "tr_m2_mzan_aar_bk_elec":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "t_bk_theperyitonvol4closetr":{
-    "title":"the peryiton, vol. iv",
-    "value":200
-  },
-  "tr_m2_i2-364_export_ledger":{
-    "title":"helnim exports ledger",
-    "value":0
-  },
-  "bk_galerionthemystic":{
-    "title":"galerion the mystic",
-    "value":50
-  },
-  "t_bk_beforeagesofmanopenpc":{
-    "title":"before the ages of man",
-    "value":125
-  },
-  "t_bkgen_legioncasualties_01":{
-    "title":"legion casualty list",
-    "value":10
-  },
-  "tr_m2_bk_exclog":{
-    "title":"excavation log",
-    "value":50
-  },
-  "tr_m2_htl_blasphemousrevenant_c":{
-    "title":"blasphemous revenants",
-    "value":55
-  },
-  "tr_m2_htl_ancestorsanddunmer_o":{
-    "title":"ancestors and the dunmer",
-    "value":25
-  },
-  "t_bk_warshoredreughshotn":{
-    "title":"war on the shore-dreugh",
-    "value":70
-  },
-  "t_bk_saintrilmslessontr":{
-    "title":"st. rilms' lesson",
-    "value":25
-  },
-  "bk_biographybarenziah1":{
-    "title":"biography of barenziah v i",
-    "value":50
-  },
-  "tr_m3_tharonen_ledger":{
-    "title":"tharonen family ledger",
-    "value":0
-  },
-  "tr_m2_htl_alchemistsformulary_c":{
-    "title":"the alchemists formulary",
-    "value":300
-  },
-  "t_bk_holidaysilliacbaytr":{
-    "title":"holidays of the iliac bay",
-    "value":40
-  },
-  "tr_m2_bk_nchaz_mining":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "tr_m2_bk_nchaz_lime":{
-    "title":"old dwemer book",
-    "value":150
-  },
-  "bookskill_acrobatics1":{
-    "title":"realizations of acrobacy",
-    "value":200
-  },
-  "tr_i2_238_bk_scrollledger":{
-    "title":"ledger",
-    "value":1
-  },
-  "tr_m1_q_azariahledgernorm":{
-    "title":"azariah's storage ledger",
-    "value":0
-  },
-  "tr_m1_sc_greeneyespoisonbook_b":{
-    "title":"green-eyes' logbook",
-    "value":0
-  },
-  "tr_m1_n1_bk_i1-34-tel_eggs":{
-    "title":"dansudipat eggmine ledger",
-    "value":0
-  },
-  "tr_m1_bk_fw_export_ledger_02":{
-    "title":"firewatch exports ledger",
-    "value":1
-  },
-  "tr_m1_bk_fw_import_ledger_01":{
-    "title":"firewatch imports ledger",
-    "value":1
-  },
-  "t_bk_dunceinmorrowindtr_v8":{
-    "title":"a dunce in morrowind, vol. 8",
-    "value":75
-  },
-  "t_bk_spectrumstudytr":{
-    "title":"the spectrum study",
-    "value":300
-  },
-  "tr_m1_bk_silverserpentjournal":{
-    "title":"private notebook",
-    "value":275
-  },
-  "t_bk_mapsm3-1tr":{
-    "title":"maps of eastern aanthirin",
-    "value":50
-  },
-  "tr_m1_bk_gilanspeech_uni":{
-    "title":"gilan llarethi's speech",
-    "value":350
-  },
-  "t_bk_theperyitonvol1opentr":{
-    "title":"the peryiton, vol. i",
-    "value":200
-  },
-  "t_bk_16accordsmadnessshotn_v06":{
-    "title":"16 accords of madness, v. vi",
-    "value":200
-  },
-  "t_bk_songofpelinaltr_v1":{
-    "title":"the song of pelinal, volume 1",
-    "value":100
-  },
-  "bookskill_mercantile5":{
-    "title":"a dance in fire, chapter 7",
-    "value":150
-  },
-  "tr_m1_bk_t_vault_ledger":{
-    "title":"telvanni vault ledger",
-    "value":0
-  },
-  "tr_m1_bk_therealbarenziahii":{
-    "title":"the real barenziah part 2",
-    "value":200
-  },
-  "tr_m1_sc_greeneyespoisonbook":{
-    "title":"green-eyes' logbook",
-    "value":0
-  },
-  "t_bk_indorilberothandhermittr":{
-    "title":"indoril beroth and the hermit",
-    "value":20
-  },
-  "tr_m3_bk_researchnotes_c_i3-650":{
-    "title":"research notes",
-    "value":20
-  },
-  "bk_yellowbookofriddles":{
-    "title":"the yellow book of riddles",
-    "value":30
-  },
-  "tr_m3_blank_i3-559-ind":{
-    "title":"blank book",
-    "value":1
-  },
-  "tr_bk_m3_nethril-records":{
-    "title":"nethril plantation records",
-    "value":0
-  },
-  "tr_m3_guestbook_i3-128-ind":{
-    "title":"guest sign-in book",
-    "value":0
-  },
-  "tr_m3_blankbook2_i3-559-ind":{
-    "title":"blank book",
-    "value":1
-  },
-  "tr_m3_faircopycov_i3-559-ind":{
-    "title":"fair copy of cantatas of vivec",
-    "value":10
-  },
-  "tr_m3_faircopytbodad_i3-559-ind":{
-    "title":"fair copy of t. b. o. d. a. d.",
-    "value":5
-  },
-  "tr_m3_faircopyta_i3-559-ind":{
-    "title":"fair copy of the anticipations",
-    "value":5
-  },
-  "t_bk_lineofemperorspc_v06":{
-    "title":"the line of emperors vi",
-    "value":80
-  },
-  "bk_talmarogkersresearches":{
-    "title":"tal marog ker's researches",
-    "value":450
-  },
-  "t_bk_gospelofsaintvelothtr_v1":{
-    "title":"the gospel of saint veloth, v 1",
-    "value":50
-  },
-  "t_bk_uni_deadricseptistr":{
-    "title":"daedric septis",
-    "value":25000
-  },
-  "bookskill_alteration4":{
-    "title":"36 lessons of vivec, sermon 13",
-    "value":200
-  },
-  "tr_m3_faircopyss_i3-559-ind":{
-    "title":"fair copy of saryoni's sermons",
-    "value":10
-  },
-  "t_bk_ontheevilsofheresytr":{
-    "title":"on the evils of heresy",
-    "value":200
-  },
-  "tr_m3_faircopyfott_i3-559-ind":{
-    "title":"fair copy of f. o. t. t.",
-    "value":5
-  },
-  "t_bk_ami-elpc_v3":{
-    "title":"the third ami-el",
-    "value":200
-  },
-  "tr_m3_faircopy15_i3-559-ind":{
-    "title":"fair copy of sermon 15",
-    "value":15
-  },
-  "bookskill_conjuration3":{
-    "title":"2920, hearth fire",
-    "value":275
-  },
-  "tr_m3-281_bk_log":{
-    "title":"shipping log",
-    "value":0
-  },
-  "t_bk_raidpyandoneashotn_v5":{
-    "title":"raid on pyandonea, book five",
-    "value":150
-  },
-  "tr_m3_faircopy13_i3-559-ind":{
-    "title":"fair copy of sermon 13",
-    "value":15
-  },
-  "t_bk_weateittobecomeittr":{
-    "title":"and we ate it to become it",
-    "value":100
-  },
-  "tr_m3_faircopy12_i3-559-ind":{
-    "title":"fair copy of sermon 12",
-    "value":15
-  },
-  "bk_redorancookingsecrets":{
-    "title":"redoran cooking secrets",
-    "value":20
-  },
-  "tr_m2_ledger4_i2-77-tri":{
-    "title":"necrom excise ledger",
-    "value":0
-  },
-  "tr_m3_faircopy11_i3-559-ind":{
-    "title":"fair copy of sermon 11",
-    "value":15
-  },
-  "t_bk_highkingsveddashotn_v2":{
-    "title":"high king's vedda book two",
-    "value":300
-  },
-  "tr_m3_faircopy10_i3-559-ind":{
-    "title":"fair copy of sermon 10",
-    "value":15
-  },
-  "tr_m2_ledger5_i1-77-tri":{
-    "title":"necrom storage ledger",
-    "value":30
-  },
-  "tr_m2_ledger3_i2-77-tri":{
-    "title":"necrom excise ledger",
-    "value":0
-  },
-  "t_bk_realbarenziahhr_v2_uncens":{
-    "title":"the real barenziah v ii",
-    "value":20
-  },
-  "tr_m2_ledger1_i2-77-tri":{
-    "title":"necrom census ledger",
-    "value":0
-  },
-  "tr_m2_ledger1_i2-414-tri":{
-    "title":"catacombs ledger",
-    "value":0
-  },
-  "tr_m2_bk_ma_records_book":{
-    "title":"registry records",
-    "value":1
-  },
-  "t_bk_argonianaccountpc_v4":{
-    "title":"the argonian account iv",
-    "value":150
-  },
-  "t_bk_redemptiontr_v3":{
-    "title":"redemption volume iii",
-    "value":40
-  },
-  "tr_bk_m2_i2-437-tri_chronicle":{
-    "title":"temple administration chronicle",
-    "value":15
-  },
-  "tr_i2-427_bklament":{
-    "title":"the second book of lamentations",
-    "value":20
-  },
-  "t_bk_trueintrospectionhlaalutr":{
-    "title":"the truth of the hlaalu",
-    "value":30
-  },
-  "tr_bk_obituary_i2-428-tri":{
-    "title":"an obituary",
-    "value":100
-  },
-  "tr_m2_bk_loe_hebook4":{
-    "title":"east empire company ledger",
-    "value":30
-  },
-  "bookskill_illusion3":{
-    "title":"incident in necrom",
-    "value":225
-  },
-  "t_bk_portofanvilpc":{
-    "title":"the port of anvil",
-    "value":50
-  },
-  "t_bk_appraisalofabolitiontr":{
-    "title":"unbiased appraisal of abolition",
-    "value":50
-  },
-  "t_bk_funeraryritestombspc":{
-    "title":"tombs of the west",
-    "value":50
-  },
-  "t_bk_adventuresendtr":{
-    "title":"an adventure's end",
-    "value":250
-  },
-  "bookskill_marksman3":{
-    "title":"vernaccus and bourlor",
-    "value":250
-  },
-  "t_bk_languageofbirdspc":{
-    "title":"the language of birds",
-    "value":150
-  },
-  "t_bk_brokendiamondspc":{
-    "title":"broken diamonds",
-    "value":170
-  },
-  "tr_m2_bk_tomaril_list":{
-    "title":"visitors' record",
-    "value":50
-  },
-  "t_bk_narrativeyilgamsehtr_v11":{
-    "title":"narrative of yilgamseh xi",
-    "value":50
-  },
-  "t_bk_lostandfoundinthereachhr":{
-    "title":"lost and found in the reach",
-    "value":100
-  },
-  "t_bk_gospelofsaintseryntr":{
-    "title":"the gospel of saint seryn ",
-    "value":50
-  },
-  "t_bk_anindorilsgardentr":{
-    "title":"an indoril's garden",
-    "value":250
-  },
-  "bk_ashland_hymns":{
-    "title":"ashland hymns",
-    "value":35
-  },
-  "t_bk_dunceinmorrowindtr_v6":{
-    "title":"a dunce in morrowind, vol. 6",
-    "value":75
-  },
-  "t_bk_manualofarmspc":{
-    "title":"manual of arms",
-    "value":50
-  },
-  "t_bkfaction_darkbrotherhshotn":{
-    "title":"the five tenets",
-    "value":10
-  },
-  "bookskill_destruction3":{
-    "title":"a hypothetical treachery",
-    "value":175
-  },
-  "t_bk_histr":{
-    "title":"his",
-    "value":75
-  },
-  "t_bk_historydragoncultshotn_v4":{
-    "title":"history of the dragon cult iv",
-    "value":150
-  },
-  "tr_m3_283_bk_bookstock":{
-    "title":"eec book of stockholders",
-    "value":100
-  },
-  "bookskill_sneak3":{
-    "title":"azura and the box",
-    "value":200
-  },
-  "t_bk_talhjoldeshotn_v1":{
-    "title":"the talhjolde companion",
-    "value":40
-  },
-  "t_bk_talhjoldeshotn_v4":{
-    "title":"talhjolde, horsk olf",
-    "value":40
-  },
-  "t_bk_talhjoldeshotn_v3":{
-    "title":"talhjolde, modiskva bern",
-    "value":40
-  },
-  "t_bk_oldmanoftheashlandstr":{
-    "title":"old man of the ashlands",
-    "value":80
-  },
-  "t_bk_dunceinmorrowindtr_v7":{
-    "title":"a dunce in morrowind, vol. 7",
-    "value":75
-  },
-  "t_bk_firstcouncilcensus2e622tr":{
-    "title":"first council census, 2e 622",
-    "value":260
-  },
-  "t_bk_historydragoncopenshotn_v2":{
-    "title":"history of the dragon cult ii",
-    "value":150
-  },
-  "t_bk_fragmentsaltmerpockettr":{
-    "title":"fragments of an altmer guide",
-    "value":50
-  },
-  "sky_ire_kw42_payledger":{
-    "title":"pay ledger",
-    "value":30
-  },
-  "t_bk_sixtruthsofshadowshotn":{
-    "title":"the six truths of shadow",
-    "value":300
-  },
-  "t_bk_laststorysirofshotn":{
-    "title":"the last story of sirof the oak",
-    "value":40
-  },
-  "bk_warehouse_log":{
-    "title":"warehouse shipping log",
-    "value":0
-  },
-  "bk_fur_armor":{
-    "title":"custom fur armor price list",
-    "value":0
-  },
-  "t_bk_nedesofthedeathlandspc":{
-    "title":"nedes of the deathlands",
-    "value":80
-  },
-  "bookskill_marksman1":{
-    "title":"the gold ribbon of merit",
-    "value":250
-  },
-  "t_bk_greatharbingersshotn":{
-    "title":"great harbingers",
-    "value":150
-  },
-  "t_bk_notebooktempclose_01":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "tr_i2_16 eggmines ledger":{
-    "title":"akamora eggmines ledger",
-    "value":10
-  },
-  "bookskill_hand to hand4":{
-    "title":"charwich-koniinge, volume 4",
-    "value":300
-  },
-  "t_bk_songofthereturnshotn_v19":{
-    "title":"songs of the return, volume 19",
-    "value":150
-  },
-  "bookskill_blunt weapon3":{
-    "title":"night falls on sentinel",
-    "value":275
-  },
-  "t_bk_shezarrandthedivinesshotn":{
-    "title":"<deprecated>",
-    "value":115
-  },
-  "t_bk_dwemerburialcustomstr":{
-    "title":"dwemer burial customs",
-    "value":40
-  },
-  "bk_corpsepreperation1_c":{
-    "title":"corpse preparation v i",
-    "value":50
-  },
-  "t_bk_immortalbloodshotn":{
-    "title":"immortal blood",
-    "value":175
-  },
-  "bk_brothersofdarkness":{
-    "title":"the brothers of darkness",
-    "value":100
-  },
-  "t_bk_lineofemperorspc_v02":{
-    "title":"the line of emperors ii",
-    "value":80
-  },
-  "t_bk_kingedwardtr_v07":{
-    "title":"king edward, part vii",
-    "value":250
-  },
-  "bookskill_destruction5_open":{
-    "title":"mystery of talara, part 3",
-    "value":250
-  },
-  "t_bk_ghraewajharpiestr":{
-    "title":"ghraewaj and the harpies",
-    "value":35
-  },
-  "t_bkgen_trademanifest_02":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "bk_fryssajournal":{
-    "title":"journal of fryssa",
-    "value":50
-  },
-  "bk_airship_captains_journal":{
-    "title":"airship captain's journal",
-    "value":10
-  },
-  "t_bk_wealthofwayresttr_v1":{
-    "title":"the wealth of wayrest, act i",
-    "value":150
-  },
-  "t_bk_kingedwardtr_v10":{
-    "title":"king edward, part x",
-    "value":250
-  },
-  "t_bk_gospelofsaintllothistr":{
-    "title":"the gospel of saint llothis",
-    "value":50
-  },
-  "t_bk_ordolanesbestiarytr_v11":{
-    "title":"ordolane's bestiary, vol. 11",
-    "value":60
-  },
-  "t_bk_thealikrshotn":{
-    "title":"<deprecated>",
-    "value":170
-  },
-  "t_bk_truefolktr":{
-    "title":"the true folk",
-    "value":30
-  },
-  "t_bk_madnessofpelagiusshotn":{
-    "title":"<deprecated>",
-    "value":20
-  },
-  "t_bk_insidetranquilitytr":{
-    "title":"insight, tranquility, divinity",
-    "value":40
-  },
-  "t_bk_politicalhierarchyskyshotn":{
-    "title":"political hierarchy of skyrim",
-    "value":40
-  },
-  "t_bk_bookofdaedrashotn":{
-    "title":"<deprecated>",
-    "value":45
-  },
-  "bookskill_enchant4":{
-    "title":"36 lessons of vivec, sermon 19",
-    "value":200
-  },
-  "t_bk_songofpelinaltr_v4":{
-    "title":"the song of pelinal, volume 4",
-    "value":100
-  },
-  "t_bk_leximperia_06":{
-    "title":"lex imperia vi",
-    "value":20
-  },
-  "bk_manyfacesmissinggod":{
-    "title":"the monomyth",
-    "value":30
-  },
-  "sky_qre_kwtg01_book":{
-    "title":"de rerum dirennis",
-    "value":175
-  },
-  "t_bkfaction_imperialcultshotn":{
-    "title":"for my gods and emperor",
-    "value":30
-  },
-  "t_bk_ami-elpc_v4":{
-    "title":"the fourth ami-el",
-    "value":200
-  },
-  "t_bk_arkaythegodshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_theperyitonvol3closetr":{
-    "title":"the peryiton, vol. iii",
-    "value":200
-  },
-  "t_bk_warriorschargeshotn":{
-    "title":"<deprecated>",
-    "value":325
-  },
-  "bookskill_enchant1":{
-    "title":"feyfolken i",
-    "value":300
-  },
-  "t_bk_divadamakalluhtr":{
-    "title":"the divadamakalluh",
-    "value":100
-  },
-  "t_bk_sheogorathmusicshotn":{
-    "title":"sheogorath invents music",
-    "value":20
-  },
-  "t_bk_theperyitonvol1closetr":{
-    "title":"the peryiton, vol. i",
-    "value":200
-  },
-  "bk_samarstarloversjournal":{
-    "title":"starlover's log",
-    "value":350
-  },
-  "t_bk_uprisingalmalexiatr":{
-    "title":"the uprising in almalexia",
-    "value":200
-  },
-  "t_bk_teachingsmasterstudenttr":{
-    "title":"teachings of the master-student",
-    "value":100
-  },
-  "t_bk_raidpyandoneashotn_v4":{
-    "title":"raid on pyandonea, book four",
-    "value":150
-  },
-  "bookskill_alteration5":{
-    "title":"the lunar lorkhan",
-    "value":350
-  },
-  "t_bk_morrowindmartialartstr":{
-    "title":"unarmed traditions of morrowind",
-    "value":150
-  },
-  "t_bk_argonianaccountshotn_v2":{
-    "title":"<deprecated>",
-    "value":125
-  },
-  "bk_formygodsandemperor":{
-    "title":"for my gods and emperor",
-    "value":25
-  },
-  "tr_m2_htl_bookoflifeandservice":{
-    "title":"book of life and service",
-    "value":40
-  },
-  "t_bk_djulighanasroletr":{
-    "title":"djulighana's role",
-    "value":55
-  },
-  "tr_m2_q_28_1_clibergus_ledger":{
-    "title":"clibergus celata's ledger",
-    "value":0
-  },
-  "t_bk_mapsm3-2tr":{
-    "title":"maps of western aanthirin",
-    "value":50
-  },
-  "t_bk_theperyitonvol2opentr":{
-    "title":"the peryiton, vol. ii",
-    "value":200
-  },
-  "t_bk_kingedwardtr_v12":{
-    "title":"king edward, part xii",
-    "value":250
-  },
-  "bookskill_alteration3":{
-    "title":"sithis",
-    "value":275
-  },
-  "t_bk_songofpelinaltr_v8":{
-    "title":"the song of pelinal, volume 8",
-    "value":150
-  },
-  "tr_i3-542_tattered_journal":{
-    "title":"a tattered journal",
-    "value":3
-  },
-  "t_bk_belharzaretapc_v4":{
-    "title":"the belharzareta iv",
-    "value":200
-  },
-  "sky_qre_kw01_register04":{
-    "title":"codex taedium",
-    "value":1000
-  },
-  "bk_livesofthesaints":{
-    "title":"lives of the saints",
-    "value":25
-  },
-  "t_bk_heavyarmorrepairshotn":{
-    "title":"heavy armor repair",
-    "value":50
-  },
-  "tr_m1_bk_rr_einnisa_diary":{
-    "title":"einnisa's journal",
-    "value":100
-  },
-  "t_bk_woodcutterswifeshotn":{
-    "title":"the woodcutter's wife",
-    "value":150
-  },
-  "t_bk_tasteofsugartr":{
-    "title":"a taste of sugar",
-    "value":200
-  },
-  "t_bk_interrogatingdunmertr":{
-    "title":"interrogating dunmer",
-    "value":250
-  },
-  "t_bk_bluebooktr":{
-    "title":"grey book of 3e 426",
-    "value":60
-  },
-  "t_bk_theperyitonvol2closetr":{
-    "title":"the peryiton, vol. ii",
-    "value":200
-  },
-  "t_bk_danstrarserpentshotn":{
-    "title":"the danstrar serpent",
-    "value":65
-  },
-  "sky_ire_ds23_ledger":{
-    "title":"warehouse ledger",
-    "value":10
-  },
-  "t_bk_sevenfightsaldudagshotn_v1":{
-    "title":"the seven fights i",
-    "value":80
-  },
-  "sky_ire_kw24_granaryledger":{
-    "title":"granary ledger",
-    "value":30
-  },
-  "sky_qre_kw01_register03":{
-    "title":"codex remora",
-    "value":1000
-  },
-  "t_bk_highkingsveddashotn_v7":{
-    "title":"high king's vedda book seven",
-    "value":300
-  },
-  "t_bk_firstholdrevoltshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_disasterationithpc":{
-    "title":"disaster at ionith",
-    "value":120
-  },
-  "bk_realbarenziah4":{
-    "title":"the real barenziah v iv",
-    "value":20
-  },
-  "bookskill_alchemy2":{
-    "title":"the cake and the diamond",
-    "value":200
-  },
-  "t_bk_ruhnaniaalmsivitr":{
-    "title":"ruhn ania almsivi",
-    "value":350
-  },
-  "bookskill_armorer3":{
-    "title":"36 lessons of vivec, sermon 6",
-    "value":200
-  },
-  "t_bk_foolsebonytr_v1":{
-    "title":"fools' ebony, part i",
-    "value":50
-  },
-  "bookskill_athletics5":{
-    "title":"36 lessons of vivec, sermon 31",
-    "value":200
-  },
-  "t_bk_talhjoldeshotn_v2":{
-    "title":"talhjolde, hvals bol",
-    "value":40
-  },
-  "t_bk_physicalitieswerewolvespc":{
-    "title":"physicalities of werewolves",
-    "value":150
-  },
-  "t_bk_odetundrastridersshotn":{
-    "title":"ode to the tundrastriders",
-    "value":25
-  },
-  "t_bk_kinghelsethbiographytr":{
-    "title":"king helseth, a biography",
-    "value":35
-  },
-  "t_bk_oelandershammertr":{
-    "title":"oelander's hammer",
-    "value":55
-  },
-  "bk_saryonisermonsmanuscript":{
-    "title":"saryoni's sermons manuscript",
-    "value":50000
-  },
-  "bk_mysteriousakavir":{
-    "title":"mysterious akavir",
-    "value":50
-  },
-  "t_bk_confessionsofathieftr":{
-    "title":"confessions of a thief",
-    "value":30
-  },
-  "t_bk_raidpyandoneashotn_v2":{
-    "title":"raid on pyandonea, book two",
-    "value":150
-  },
-  "bk_poisonsong5":{
-    "title":"poison song v",
-    "value":30
-  },
-  "t_bk_argonianaccountshotn_v4":{
-    "title":"<deprecated>",
-    "value":135
-  },
-  "t_bk_constantinvocationpc":{
-    "title":"constant invocation",
-    "value":260
-  },
-  "bk_blasphemousrevenants":{
-    "title":"blasphemous revenants",
-    "value":55
-  },
-  "t_bk_buyinggameshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_redemptiontr_v5":{
-    "title":"redemption volume v",
-    "value":40
-  },
-  "bk_varietiesoffaithintheempire":{
-    "title":"varieties of faith...",
-    "value":30
-  },
-  "tr_m3_q_5_journal":{
-    "title":"island lookout's journal",
-    "value":2
-  },
-  "t_bk_taleofkingvragesonstr":{
-    "title":"the tale of king vrage's sons",
-    "value":125
-  },
-  "bk_briefhistoryempire1":{
-    "title":"brief history of the empire v 1",
-    "value":50
-  },
-  "t_bk_defenseofmorrowindtr":{
-    "title":"defense of morrowind volume i",
-    "value":70
-  },
-  "t_bk_kingedwardtr_v05":{
-    "title":"king edward, part v",
-    "value":250
-  },
-  "bk_childrensanuad":{
-    "title":"the annotated anuad",
-    "value":50
-  },
-  "t_bk_wolfqueenshotn_v5":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_thirskhistoryshotn":{
-    "title":"<deprecated>",
-    "value":75
-  },
-  "bk_hanginggardenswasten":{
-    "title":"hanging gardens...",
-    "value":55
-  },
-  "t_bk_theperyitonvol5opentr":{
-    "title":"the peryiton, vol. v",
-    "value":200
-  },
-  "bk_warofthefirstcouncil":{
-    "title":"the war of the first council",
-    "value":25
-  },
-  "t_bk_nordssummarythereachshotn":{
-    "title":"a nord's summary of the reach",
-    "value":30
-  },
-  "bookskill_sneak5":{
-    "title":"36 lessons of vivec, sermon 26",
-    "value":200
-  },
-  "t_bkgen_censusrecord_01":{
-    "title":"census record",
-    "value":4
-  },
-  "t_bk_elementaldaedratr":{
-    "title":"on elemental daedra",
-    "value":250
-  },
-  "bookskill_speechcraft2":{
-    "title":"the wolf queen, book v",
-    "value":250
-  },
-  "bk_homiliesofblessedalmalexia":{
-    "title":"homilies of blessed almalexia",
-    "value":25
-  },
-  "t_bk_foolsebonytr_v2":{
-    "title":"fools' ebony, part ii",
-    "value":50
-  },
-  "t_bk_uni_fishystickpc":{
-    "title":"<deprecated>",
-    "value":5
-  },
-  "bk_abcs":{
-    "title":"abcs for barbarians",
-    "value":25
-  },
-  "t_bk_exovelbbmjtr":{
-    "title":"as shokhahn am jabikaam",
-    "value":5000
-  },
-  "t_bk_lamentationstr":{
-    "title":"the book of lamentations",
-    "value":20
-  },
-  "bookskill_heavy armor3":{
-    "title":"chimarvamidium",
-    "value":225
-  },
-  "t_bk_truetelvanninobilitytr":{
-    "title":"true telvanni nobility",
-    "value":30
-  },
-  "bookskill_blunt weapon2":{
-    "title":"the importance of where",
-    "value":200
-  },
-  "t_bk_warofhonortr":{
-    "title":"war of honor",
-    "value":50
-  },
-  "bk_honorthieves":{
-    "title":"honor among thieves",
-    "value":100
-  },
-  "t_bkfaction_impculttr":{
-    "title":"for my gods and emperor",
-    "value":50
-  },
-  "t_bk_lusanimalgodtr":{
-    "title":"ius, animal god",
-    "value":20
-  },
-  "t_bk_imperialkitchentr_v1":{
-    "title":"the imperial kitchen i",
-    "value":30
-  },
-  "t_bk_theperyitonvol3opentr":{
-    "title":"the peryiton, vol. iii",
-    "value":200
-  },
-  "bk_yellowbook426":{
-    "title":"yellow book of 3e 426",
-    "value":20
-  },
-  "t_bk_dunmerilawprimertr":{
-    "title":"dunmer law: a primer",
-    "value":50
-  },
-  "bk_briefhistoryempire3_oh":{
-    "title":"odral's history of the empire 3",
-    "value":50
-  },
-  "bookskill_long blade2":{
-    "title":"2920, morning star",
-    "value":275
-  },
-  "bk_charterfg":{
-    "title":"fighters guild charter",
-    "value":30
-  },
-  "bk_ibardad_elante_notes":{
-    "title":"elante's notes",
-    "value":10
-  },
-  "bk_snowprince":{
-    "title":"fall of the snow prince",
-    "value":300
-  },
-  "t_bk_distributedsoulpc":{
-    "title":"the distributed soul",
-    "value":120
-  },
-  "t_bk_handsofftr":{
-    "title":"hands off",
-    "value":250
-  },
-  "bookskill_security2":{
-    "title":"the wolf queen, book i",
-    "value":250
-  },
-  "bk_brownbook426":{
-    "title":"brown book of 3e 426",
-    "value":75
-  },
-  "bk_arcanarestored":{
-    "title":"arcana restored",
-    "value":75
-  },
-  "tr_m3_oe_bk_ebonhthistory1":{
-    "title":"aurelia draconis' history book",
-    "value":30
-  },
-  "t_bk_drymetaphortr":{
-    "title":"dry",
-    "value":175
-  },
-  "t_bk_belharzaretapc_v3":{
-    "title":"the belharzareta iii",
-    "value":200
-  },
-  "t_bk_remanadapc":{
-    "title":"remanada",
-    "value":150
-  },
-  "bookskill_hand to hand3":{
-    "title":"charwich-koniinge, volume 2",
-    "value":300
-  },
-  "bookskill_enchant5":{
-    "title":"the final lesson",
-    "value":350
-  },
-  "t_bk_olafandthedragonshotn":{
-    "title":"olaf and the dragon",
-    "value":150
-  },
-  "bookskill_short blade5":{
-    "title":"36 lessons of vivec, sermon 30",
-    "value":200
-  },
-  "t_bk_culturalerasnordsshotn":{
-    "title":"cultural eras of the nords",
-    "value":70
-  },
-  "bookskill_hand to hand2":{
-    "title":"the wolf queen, book ii",
-    "value":250
-  },
-  "bk_thirskhistory":{
-    "title":"thirsk, a history",
-    "value":75
-  },
-  "t_bk_shezarrandthedivinespc":{
-    "title":"shezarr and the divines",
-    "value":115
-  },
-  "t_bk_historyempireshotn_v4":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "tr_m2_i2-364_shipping_log_01":{
-    "title":"helnim shipping log",
-    "value":0
-  },
-  "t_bk_trueintrospectionredorantr":{
-    "title":"true redoran courage",
-    "value":30
-  },
-  "t_bk_onlycanthropyshotn":{
-    "title":"on lycanthropy",
-    "value":200
-  },
-  "t_bk_easternprovincesshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "bk_notes-kagouti mating habits":{
-    "title":"kagouti mating habits",
-    "value":50
-  },
-  "t_bk_manualofarmorpc":{
-    "title":"manual of armor",
-    "value":50
-  },
-  "bookskill_hand to hand1":{
-    "title":"the prayers of baranat",
-    "value":250
-  },
-  "t_bk_twostancesonknifetr":{
-    "title":"two stances on knife-fighting",
-    "value":180
-  },
-  "t_bk_lineofemperorspc_v05":{
-    "title":"the line of emperors v",
-    "value":80
-  },
-  "t_bk_argonianaccountpc_v3":{
-    "title":"the argonian account iii",
-    "value":150
-  },
-  "bookskill_unarmored1":{
-    "title":"the wraith's wedding dowry",
-    "value":300
-  },
-  "bookskill_acrobatics2":{
-    "title":"a dance in fire, chapter 1",
-    "value":150
-  },
-  "t_bk_pensionancestormothpc":{
-    "title":"pension of the ancestor moth",
-    "value":75
-  },
-  "book_dwe_metal_fab00":{
-    "title":"old dwemer book",
-    "value":100
-  },
-  "t_bk_studyonguarstr":{
-    "title":"a study on guars",
-    "value":50
-  },
-  "bk_truenatureoforcs":{
-    "title":"the true nature of orcs",
-    "value":30
-  },
-  "t_bk_fatherofthenibenshotn":{
-    "title":"<deprecated>",
-    "value":100
-  },
-  "bk_biographybarenziah2":{
-    "title":"biography of barenziah v ii",
-    "value":50
-  },
-  "t_bk_truesapiencedresnobilitytr":{
-    "title":"true sapience of dres nobility",
-    "value":30
-  },
-  "bk_vagariesofmagica":{
-    "title":"the vagaries of magicka",
-    "value":200
-  },
-  "bk_calderarecordbook2":{
-    "title":"secret caldera ledger",
-    "value":0
-  },
-  "bk_annotatedanuad":{
-    "title":"the annotated anuad",
-    "value":50
-  },
-  "t_bk_masterwordinducerpc":{
-    "title":"masterwork of the inducer",
-    "value":80
-  },
-  "t_bk_childrenoftheskyshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "t_bk_malahkorcstr":{
-    "title":"malahk orcs:scourge of the east",
-    "value":75
-  },
-  "t_bk_almalexiahistorytr":{
-    "title":"a history of almalexia",
-    "value":50
-  },
-  "bk_briefhistoryempire3":{
-    "title":"brief history of the empire v 3",
-    "value":50
-  },
-  "bookskill_armorer2":{
-    "title":"last scabbard of akrash",
-    "value":250
-  },
-  "bk_graspingfortune":{
-    "title":"grasping fortune",
-    "value":30
-  },
-  "t_bk_ayleidinscriptionspc":{
-    "title":"ayleid inscriptions",
-    "value":350
-  },
-  "t_bk_bravildaughterofnibenpc":{
-    "title":"bravil: daughter of the niben",
-    "value":120
-  },
-  "tr_m2_bk_hdm_aar_dmlog":{
-    "title":"helnim diamond mine logbook",
-    "value":0
-  },
-  "t_bk_exovelanmjtr":{
-    "title":"as shokhahn am morfijin",
-    "value":5000
-  },
-  "t_bk_modernhereticspc":{
-    "title":"modern heretics",
-    "value":50
-  },
-  "t_bk_wealthofwayresttr_v4":{
-    "title":"the wealth of wayrest, act iv",
-    "value":150
-  },
-  "t_bk_formalitiesofmirthtr":{
-    "title":"the formalities of mirth",
-    "value":85
-  },
-  "t_bk_raidpyandoneashotn_v6":{
-    "title":"raid on pyandonea, book six",
-    "value":150
-  },
-  "bookskill_destruction4":{
-    "title":"the art of war magic",
-    "value":225
-  },
-  "t_bk_legendkratelyhousepc":{
-    "title":"the legend of the krately house",
-    "value":135
-  },
-  "t_bk_historysecondempirepc":{
-    "title":"history of the second empire",
-    "value":40
-  },
-  "t_bk_battlesancretoropenpc":{
-    "title":"the battle of sancre tor",
-    "value":150
-  },
-  "tr_m2_bk_jail-log_i393":{
-    "title":"tel mothriva jail log",
-    "value":250
-  },
-  "bk_sharnslegionsofthedead":{
-    "title":"sharn's legions of the dead",
-    "value":50
-  },
-  "bookskill_axe1":{
-    "title":"the third door",
-    "value":250
-  },
-  "t_bk_colovianmythartheimpc_v1":{
-    "title":"the death of artheim",
-    "value":50
-  },
-  "tr_m3-501 bunkhouserecord2":{
-    "title":"guest record",
-    "value":0
-  },
-  "t_bk_belharzaretapc_v5":{
-    "title":"the belharzareta v",
-    "value":200
-  },
-  "tr_m3_faircopyhfd_i3-559-ind":{
-    "title":"fair copy of a. h. f. t. d.",
-    "value":5
-  },
-  "t_bk_industriessloadsoappc":{
-    "title":"industries: the soap refineries",
-    "value":40
-  },
-  "bookskill_block5":{
-    "title":"36 lessons of vivec, sermon 32",
-    "value":200
-  },
-  "t_bk_tometempclose_01":{
-    "title":"<template large tome>",
-    "value":80
-  },
-  "t_bk_thenecklacetr":{
-    "title":"the necklace",
-    "value":50
-  },
-  "t_bk_dreadfulthefttr":{
-    "title":"the dreadful theft",
-    "value":150
-  },
-  "t_bkgen_courtverdicts_01":{
-    "title":"court verdicts",
-    "value":2
-  },
-  "t_bk_historykarthwasten2shotn":{
-    "title":"a short history of karthwasten",
-    "value":55
-  },
-  "t_bk_lineofemperorspc_v10":{
-    "title":"the line of emperors ix: add.",
-    "value":40
-  },
-  "t_bk_windhelmlettersshotn":{
-    "title":"the windhelm letters",
-    "value":60
-  },
-  "t_bk_notesracialphylogenyshotn":{
-    "title":"<deprecated>",
-    "value":275
-  },
-  "t_bk_illusionofdeathpc":{
-    "title":"the illusion of death",
-    "value":220
-  },
-  "bk_postingofthehunt":{
-    "title":"the posting of the hunt",
-    "value":200
-  },
-  "t_bk_legalbasicsanchiviusshotn":{
-    "title":"<deprecated>",
-    "value":200
-  },
-  "t_bk_songofpelinaltr_v2":{
-    "title":"the song of pelinal, volume 2",
-    "value":100
-  },
-  "bookskill_hand to hand5":{
-    "title":"master zoaraym's tale",
-    "value":300
-  },
-  "t_bk_breakinsetofarmortr":{
-    "title":"how to break in a set of armor",
-    "value":200
-  },
-  "t_bk_sudiangqergotr":{
-    "title":"su-diang qergo",
-    "value":50
-  },
-  "t_bk_offjoriandholgirshotn":{
-    "title":"of fjori and holgeir",
-    "value":30
-  },
-  "bookskill_speechcraft4":{
-    "title":"the wolf queen, book vii",
-    "value":250
-  },
-  "bk_realbarenziah5":{
-    "title":"the real barenziah v v",
-    "value":20
-  },
-  "t_bk_dalgorjournaltr":{
-    "title":"dalgor's journal, part i",
-    "value":250
-  },
-  "t_bk_daedraworshipayleidspc":{
-    "title":"daedra worship: the ayleids",
-    "value":100
-  },
-  "bookskill_marksman4":{
-    "title":"the marksmanship lesson",
-    "value":250
-  },
-  "t_bk_epicofthegreyfalcontr":{
-    "title":"the epic of the grey falcon",
-    "value":40
-  },
-  "t_bk_historyoflockpickingpc":{
-    "title":"history of lock picking",
-    "value":200
-  },
-  "sky_qre_dsmg04_book":{
-    "title":"worn copy of liminal bridges",
-    "value":225
-  },
-  "t_bk_loverslamenttr":{
-    "title":"the legend of lovers lament",
-    "value":100
-  },
-  "bookskill_sneak2":{
-    "title":"2920, last seed",
-    "value":275
-  },
-  "t_bk_foolsebonytr_v3":{
-    "title":"fools' ebony, part iii",
-    "value":50
-  },
-  "bookskill_block2":{
-    "title":"the mirror",
-    "value":225
-  },
-  "t_bk_guarherdersarttr":{
-    "title":"the guarherder's art",
-    "value":40
-  },
-  "t_bk_direnniempty02shotn":{
-    "title":"<placeholder>",
-    "value":400
-  },
-  "t_bk_peoplesofthereachshotn":{
-    "title":"peoples of the reach",
-    "value":40
-  },
-  "t_bk_wolfqueenshotn_v3":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_fourthbookofdusttr":{
-    "title":"fourth book of dust",
-    "value":40
-  },
-  "bk_poisonsong7":{
-    "title":"poison song vii",
-    "value":30
-  },
-  "t_bk_historyalessianorderpc":{
-    "title":"history of the alessian order",
-    "value":40
-  },
-  "t_bk_narrativeyilgamsehtr_v12":{
-    "title":"narrative of yilgamseh xii",
-    "value":50
-  },
-  "t_bk_hlaaluplanstr":{
-    "title":"house hlaalu stronghold plans",
-    "value":100
-  },
-  "t_bk_mannimarcoshotn":{
-    "title":"mannimarco, king of worms",
-    "value":325
-  },
-  "t_bk_brokendiamondstr":{
-    "title":"broken diamonds",
-    "value":20
-  },
-  "t_bk_imperialnavytr":{
-    "title":"the imperial navy",
-    "value":30
-  },
-  "t_bk_legendarycitysancretorpc":{
-    "title":"the legendary city sancre tor",
-    "value":100
-  },
-  "bk_briefhistoryempire4_oh":{
-    "title":"odral's history of the empire 4",
-    "value":50
-  },
-  "t_bk_sermonzerotr":{
-    "title":"36 lessons of vivec, sermon 0",
-    "value":200
-  },
-  "t_bk_kingedwardtr_v02":{
-    "title":"king edward, part ii",
-    "value":250
-  },
-  "t_bkgen_trademanifest_03":{
-    "title":"trade manifest",
-    "value":2
-  },
-  "bk_realnerevar":{
-    "title":"the real nerevar",
-    "value":50
-  },
-  "t_bk_kingedwardtr_v06":{
-    "title":"king edward, part vi",
-    "value":250
-  },
-  "bk_wildelves":{
-    "title":"the wild elves",
-    "value":35
-  },
-  "t_bk_eslaferolbaggershotn":{
-    "title":"beggar",
-    "value":240
-  },
-  "t_bk_kingedwardtr_v04":{
-    "title":"king edward, part iv",
-    "value":250
-  },
-  "bk_eggoftime":{
-    "title":"the egg of time",
-    "value":1000
-  },
-  "t_bk_fascicle09pc":{
-    "title":"fascicle 32-40",
-    "value":300
-  },
-  "t_bk_liminalbridgespc":{
-    "title":"liminal bridges",
-    "value":225
-  },
-  "t_bkgen_legionservicerecord_01":{
-    "title":"legion service records",
-    "value":5
-  },
-  "t_bk_notebooktempclose_04":{
-    "title":"<template notebook>",
-    "value":10
-  },
-  "bookskill_spear5":{
-    "title":"36 lessons of vivec, sermon 35",
-    "value":200
-  },
-  "t_bk_voyagethreewinds1shotn":{
-    "title":"voyage of the three winds, i",
-    "value":65
-  },
-  "t_bk_mapsm1-2tr":{
-    "title":"maps of the telvanni isles",
-    "value":50
-  },
-  "t_bk_mineralsofmorrowindtr":{
-    "title":"minerals of morrowind",
-    "value":50
-  },
-  "t_bk_birdgoblinsshotn":{
-    "title":"the bird-goblins",
-    "value":25
-  },
-  "t_bk_fascicle05pc":{
-    "title":"fascicle 21-24",
-    "value":300
-  },
-  "t_bk_nordicproverbstr":{
-    "title":"book of nordic proverbs",
-    "value":60
-  },
-  "bk_originofthemagesguild":{
-    "title":"origin of the mages guild",
-    "value":25
-  },
-  "t_bk_manifestovampyrumpc":{
-    "title":"manifesto cyrodiil vampyrum",
-    "value":100
-  },
-  "t_bk_imperialkitchentr_v2":{
-    "title":"the imperial kitchen ii",
-    "value":30
-  },
-  "t_bk_emeraldstr":{
-    "title":"emeralds",
-    "value":80
-  },
-  "t_bk_onthemovetr":{
-    "title":"on the move",
-    "value":150
-  },
-  "t_bk_varietiesofthoughttr_v1":{
-    "title":"varieties of thought volume i",
-    "value":100
-  },
-  "t_bk_songskingwulfharthshotn":{
-    "title":"<deprecated>",
-    "value":30
-  },
-  "bk_wordsclanmother":{
-    "title":"words of clan mother ahnissi",
-    "value":40
-  },
-  "bookskill_light armor1":{
-    "title":"the rear guard",
-    "value":200
-  },
-  "bk_pigchildren":{
-    "title":"the pig children",
-    "value":100
-  },
-  "t_bk_trialssaintalessiapc":{
-    "title":"the trials of saint alessia",
-    "value":45
-  },
-  "t_bk_exodusshotn":{
-    "title":"<deprecated>",
-    "value":15
-  },
-  "t_bk_songofthereturnshotn_v02":{
-    "title":"songs of the return, volume 2",
-    "value":150
-  },
-  "t_bk_shoresofdwynnentr":{
-    "title":"the shores of dwynnen",
-    "value":55
-  },
-  "t_bk_softdoctrinesofmagnustr":{
-    "title":"the soft doctrines of magnus",
-    "value":40
-  },
-  "t_bk_foolsebonytr_v6":{
-    "title":"fools' ebony, part vi",
-    "value":50
-  },
-  "t_bk_theuprisingstr_v1":{
-    "title":"the uprising, part i",
-    "value":40
-  },
-  "t_bk_wolfqueenshotn_v1":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_holybrothersofmarukhpc":{
-    "title":"the holy brothers of marukh",
-    "value":180
-  },
-  "t_bk_mapsm1-1tr":{
-    "title":"maps of molagreahd",
-    "value":50
-  },
-  "bk_telvanni_vault_ledger":{
-    "title":"telvanni vault ledger",
-    "value":0
-  },
-  "t_bk_herooftheindoriltr":{
-    "title":"hero of the indoril",
-    "value":35
-  },
-  "t_bk_historyempireshotn_v3":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "bk_doorsofthespirit":{
-    "title":"the doors of the spirit",
-    "value":50
-  },
-  "bookskill_spear3":{
-    "title":"36 lessons of vivec, sermon 14",
-    "value":200
-  },
-  "t_bk_theuprisingstr_v2":{
-    "title":"the uprising, part ii",
-    "value":40
-  },
-  "t_bk_sevenpennantstr":{
-    "title":"the seven pennants",
-    "value":300
-  },
-  "t_bk_vampiresilliacbaytr_v2":{
-    "title":"vampires of the iliac bay, v ii",
-    "value":100
-  },
-  "bookskill_axe5":{
-    "title":"36 lessons of vivec, sermon 16",
-    "value":200
-  },
-  "bk_nchunaksfireandfaith":{
-    "title":"nchunak's fire and faith",
-    "value":60
-  },
-  "t_bk_gospelofsaintroristr":{
-    "title":"the gospel of saint roris",
-    "value":50
-  },
-  "t_bk_treatisecalcinatoruseshotn":{
-    "title":"a treatise on calcinator use",
-    "value":250
-  },
-  "t_bk_redemptiontr_v4":{
-    "title":"redemption volume iv",
-    "value":40
-  },
-  "bk_tamrielicreligions":{
-    "title":"the ruins of kemel-ze",
-    "value":40
-  },
-  "t_bk_gospelofsaintdelyntr":{
-    "title":"the gospel of saint delyn",
-    "value":50
-  },
-  "t_bk_ami-elpc_v1":{
-    "title":"the first ami-el",
-    "value":200
-  },
-  "t_bk_wolfqueenshotn_v2":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "bookskill_acrobatics3":{
-    "title":"a dance in fire, chapter 4",
-    "value":150
-  },
-  "tr_m1_bk_passionscall":{
-    "title":"passion's call",
-    "value":15
-  },
-  "bookskill_mysticism3":{
-    "title":"36 lessons of vivec, sermon 4",
-    "value":200
-  },
-  "t_bk_mapsm4-1tr":{
-    "title":"maps of the ascadian bluffs",
-    "value":50
-  },
-  "t_bk_mapsm5-1tr":{
-    "title":"maps of roth-roryn",
-    "value":50
-  },
-  "t_bk_mapsm6-1tr":{
-    "title":"maps of shipal-shin",
-    "value":50
-  },
-  "t_bk_gospelofsaintrilmstr":{
-    "title":"the gospel of saint rilms",
-    "value":50
-  },
-  "t_bk_aevarstonesingershotn":{
-    "title":"<deprecated>",
-    "value":100
-  },
-  "t_bk_millioneyedinsectdreamtr":{
-    "title":"a million eyed insect dreaming",
-    "value":260
-  },
-  "t_bk_breakouttr":{
-    "title":"breakout",
-    "value":200
-  },
-  "t_bk_argonianaccountshotn_v1":{
-    "title":"<deprecated>",
-    "value":120
-  },
-  "t_bk_historymothcultpc":{
-    "title":"the ancestor moth cult",
-    "value":40
-  },
-  "t_bk_realmeaningoflifetr":{
-    "title":"the real meaning of life",
-    "value":40
-  },
-  "t_bk_rudesongtr":{
-    "title":"rude song",
-    "value":30
-  },
-  "t_bk_remanadatr_v1":{
-    "title":"remanada, chapter 1",
-    "value":20
-  },
-  "tr_m1_bk_t_visitor_book":{
-    "title":"telvanni council visitors log",
-    "value":0
-  },
-  "t_bk_leximperia_01":{
-    "title":"lex imperia i",
-    "value":20
-  },
-  "tr_m3-283_bk-minelist":{
-    "title":"list of all mines",
-    "value":0
-  },
-  "t_bk_corpsepreparationshotn_v2":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "t_bk_songofpelinaltr_v5":{
-    "title":"the song of pelinal, volume 5",
-    "value":100
-  },
-  "t_bk_sevenfightsaldudagtr_v2":{
-    "title":"the seven fights ii",
-    "value":70
-  },
-  "t_bk_sevenfightsaldudagtr_v3":{
-    "title":"the seven fights iii",
-    "value":70
-  },
-  "t_bk_sevenfightsaldudagtr_v6":{
-    "title":"the seven fights vi",
-    "value":70
-  },
-  "t_bk_fascicle02pc":{
-    "title":"fascicle 5-12",
-    "value":300
-  },
-  "t_bk_namesofmothercyrodtr":{
-    "title":"names of the mother cyrod",
-    "value":50
-  },
-  "bk_arcturianheresy":{
-    "title":"the arcturian heresy",
-    "value":25
-  },
-  "t_bk_argonianaccountshotn_v3":{
-    "title":"<deprecated>",
-    "value":130
-  },
-  "t_bk_onimmortalitypc":{
-    "title":"on immortality",
-    "value":80
-  },
-  "bk_corpsepreperation2_c":{
-    "title":"corpse preparation v ii",
-    "value":50
-  },
-  "t_bk_murderofcrowspc":{
-    "title":"a murder of crows",
-    "value":80
-  },
-  "bookskill_mercantile1":{
-    "title":"the buying game",
-    "value":200
-  },
-  "t_bk_historyempireshotn_v2":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "t_bk_yngolandtheseaghostsshotn":{
-    "title":"yngol and the sea-ghosts",
-    "value":150
-  },
-  "t_bk_yellowbookriddlesshotn":{
-    "title":"<deprecated>",
-    "value":30
-  },
-  "t_bk_uni_thrassiancampaignpc":{
-    "title":"the thrassian campaign",
-    "value":500
-  },
-  "bk_easternprovincesimpartial":{
-    "title":"the eastern provinces...",
-    "value":50
-  },
-  "t_bk_divadthesingershotn":{
-    "title":"divad the singer",
-    "value":250
-  },
-  "t_bk_fascicle00pc":{
-    "title":"fascicle 0",
-    "value":300
-  },
-  "t_bk_dragonbreakreexaminedshotn":{
-    "title":"<deprecated>",
-    "value":250
-  },
-  "t_bk_fascicle03pc":{
-    "title":"fascicle 13-16",
-    "value":300
-  },
-  "t_bk_fascicle07pc":{
-    "title":"fascicle 28",
-    "value":300
-  },
-  "t_bk_thefirstscrollofbaandartr":{
-    "title":"the first scroll of baan dar",
-    "value":55
-  },
-  "t_bk_direnniempty01shotn":{
-    "title":"<placeholder>",
-    "value":400
-  },
-  "tr_m3_283_bk_eecimport":{
-    "title":"eec import record",
-    "value":10
-  },
-  "bk_sottildescodebook":{
-    "title":"sottilde's code book",
-    "value":0
-  },
-  "bk_aedraanddaedra":{
-    "title":"aedra and daedra",
-    "value":50
-  },
-  "t_bk_dererumdirennisshotn":{
-    "title":"de rerum dirennis",
-    "value":175
-  },
-  "t_bk_gospelofsaintfelmstr":{
-    "title":"the gospel of saint felms",
-    "value":50
-  },
-  "tr_m3-283_bk-eecledger2":{
-    "title":"east empire company ledger",
-    "value":0
-  },
-  "t_bk_thepurposeofthecorkbulbtr":{
-    "title":"the purpose of the corkbulb",
-    "value":100
-  },
-  "tr_m3_q_theriftbkfloat6":{
-    "title":"waterlogged tome",
-    "value":0
-  },
-  "t_bk_wayoftheexposedpalmpc":{
-    "title":"way of the exposed palm",
-    "value":125
-  },
-  "t_bk_raidpyandoneashotn_v7":{
-    "title":"raid on pyandonea, book seven",
-    "value":150
-  },
-  "t_bk_highkingsveddashotn_v4":{
-    "title":"high king's vedda book four",
-    "value":300
-  },
-  "t_bk_galerionthemysticshotn":{
-    "title":"<deprecated>",
-    "value":50
-  },
-  "t_bk_fascicle13pc":{
-    "title":"fascicle 54-59",
-    "value":300
-  },
-  "t_bk_songofthereturnshotn_v24":{
-    "title":"songs of the return, volume 24",
-    "value":150
-  },
-  "t_bk_jokestr":{
-    "title":"jokes!",
-    "value":40
+  "bookskill_acrobatics2": {
+    "value": 150
+  },
+  "bk_houseoftroubles_o": {
+    "value": 50
+  },
+  "bk_mixedunittactics": {
+    "value": 25
+  },
+  "bk_houseoftroubles_c": {
+    "value": 50
+  },
+  "bk_blasphemousrevenants": {
+    "value": 55
+  },
+  "bk_five_far_stars": {
+    "value": 25
+  },
+  "bk_snowprince": {
+    "value": 300
+  },
+  "bk_thirskhistory": {
+    "value": 75
+  },
+  "bk_airship_captains_journal": {
+    "value": 10
+  },
+  "bk_sovngarde": {
+    "value": 75
+  },
+  "bk_fur_armor": {
+    "value": 0
+  },
+  "bk_thirskhistory_revised_m": {
+    "value": 75
+  },
+  "bk_thirskhistory_revised_f": {
+    "value": 75
+  },
+  "bk_fryssajournal": {
+    "value": 50
+  },
+  "bk_necrojournal": {
+    "value": 50
+  },
+  "bk_leggejournal": {
+    "value": 50
+  },
+  "t_bkgen_shippinglog_03": {
+    "value": 0
+  },
+  "t_bkgen_shippinglog_01": {
+    "value": 0
+  },
+  "pc_i1-8_bk_01": {
+    "value": 30
+  },
+  "pc_i1-55_book_01": {
+    "value": 15
+  },
+  "bookskill_enchant1": {
+    "value": 300
+  },
+  "bookskill_enchant2": {
+    "value": 250
+  },
+  "bookskill_enchant3": {
+    "value": 400
+  },
+  "bookskill_enchant4": {
+    "value": 200
+  },
+  "bookskill_enchant5": {
+    "value": 350
+  },
+  "bookskill_destruction1": {
+    "value": 250
+  },
+  "bookskill_destruction2": {
+    "value": 200
+  },
+  "bookskill_destruction3": {
+    "value": 175
+  },
+  "bookskill_destruction4": {
+    "value": 225
+  },
+  "bookskill_destruction5": {
+    "value": 250
+  },
+  "bookskill_alteration1": {
+    "value": 400
+  },
+  "bookskill_alteration2": {
+    "value": 250
+  },
+  "bookskill_alteration3": {
+    "value": 275
+  },
+  "bookskill_alteration4": {
+    "value": 200
+  },
+  "bookskill_alteration5": {
+    "value": 350
+  },
+  "bookskill_illusion1": {
+    "value": 250
+  },
+  "bookskill_illusion2": {
+    "value": 230
+  },
+  "bookskill_illusion3": {
+    "value": 225
+  },
+  "bookskill_illusion4": {
+    "value": 400
+  },
+  "bookskill_illusion5": {
+    "value": 250
+  },
+  "bookskill_conjuration1": {
+    "value": 300
+  },
+  "bookskill_conjuration2": {
+    "value": 300
+  },
+  "bookskill_conjuration3": {
+    "value": 275
+  },
+  "bookskill_conjuration4": {
+    "value": 275
+  },
+  "bookskill_conjuration5": {
+    "value": 325
+  },
+  "bookskill_mysticism1": {
+    "value": 200
+  },
+  "bookskill_mysticism2": {
+    "value": 275
+  },
+  "bookskill_mysticism3": {
+    "value": 200
+  },
+  "bookskill_mysticism4": {
+    "value": 200
+  },
+  "bookskill_mysticism5": {
+    "value": 300
+  },
+  "bookskill_restoration1": {
+    "value": 250
+  },
+  "bookskill_restoration2": {
+    "value": 275
+  },
+  "bookskill_restoration3": {
+    "value": 300
+  },
+  "bookskill_restoration4": {
+    "value": 275
+  },
+  "bookskill_restoration5": {
+    "value": 250
+  },
+  "bookskill_alchemy1": {
+    "value": 200
+  },
+  "bookskill_alchemy2": {
+    "value": 200
+  },
+  "bookskill_alchemy3": {
+    "value": 200
+  },
+  "bookskill_alchemy4": {
+    "value": 200
+  },
+  "bookskill_alchemy5": {
+    "value": 200
+  },
+  "bookskill_unarmored1": {
+    "value": 300
+  },
+  "bookskill_unarmored2": {
+    "value": 300
+  },
+  "bookskill_unarmored3": {
+    "value": 200
+  },
+  "bookskill_unarmored4": {
+    "value": 200
+  },
+  "bookskill_unarmored5": {
+    "value": 200
+  },
+  "bookskill_block1": {
+    "value": 300
+  },
+  "bookskill_block2": {
+    "value": 225
+  },
+  "bookskill_block3": {
+    "value": 150
+  },
+  "bookskill_block4": {
+    "value": 200
+  },
+  "bookskill_block5": {
+    "value": 200
+  },
+  "bookskill_armorer1": {
+    "value": 325
+  },
+  "bookskill_armorer2": {
+    "value": 250
+  },
+  "bookskill_armorer3": {
+    "value": 200
+  },
+  "bookskill_armorer4": {
+    "value": 200
+  },
+  "bookskill_armorer5": {
+    "value": 200
+  },
+  "bookskill_medium armor1": {
+    "value": 225
+  },
+  "bookskill_medium armor2": {
+    "value": 300
+  },
+  "bookskill_medium armor3": {
+    "value": 300
+  },
+  "bookskill_medium armor4": {
+    "value": 200
+  },
+  "bookskill_medium armor5": {
+    "value": 200
+  },
+  "bookskill_heavy armor1": {
+    "value": 325
+  },
+  "bookskill_heavy armor2": {
+    "value": 275
+  },
+  "bookskill_heavy armor3": {
+    "value": 225
+  },
+  "bookskill_heavy armor4": {
+    "value": 200
+  },
+  "bookskill_heavy armor5": {
+    "value": 200
+  },
+  "bookskill_blunt weapon1": {
+    "value": 250
+  },
+  "bookskill_blunt weapon2": {
+    "value": 200
+  },
+  "bookskill_blunt weapon3": {
+    "value": 275
+  },
+  "bookskill_blunt weapon4": {
+    "value": 200
+  },
+  "bookskill_blunt weapon5": {
+    "value": 200
+  },
+  "bookskill_long blade1": {
+    "value": 225
+  },
+  "bookskill_long blade2": {
+    "value": 275
+  },
+  "bookskill_long blade3": {
+    "value": 200
+  },
+  "bookskill_long blade4": {
+    "value": 200
+  },
+  "bookskill_long blade5": {
+    "value": 200
+  },
+  "bookskill_axe1": {
+    "value": 250
+  },
+  "bookskill_axe2": {
+    "value": 225
+  },
+  "bookskill_axe3": {
+    "value": 200
+  },
+  "bookskill_axe4": {
+    "value": 200
+  },
+  "bookskill_axe5": {
+    "value": 200
+  },
+  "bookskill_spear1": {
+    "value": 250
+  },
+  "bookskill_spear2": {
+    "value": 275
+  },
+  "bookskill_spear3": {
+    "value": 200
+  },
+  "bookskill_spear4": {
+    "value": 200
+  },
+  "bookskill_spear5": {
+    "value": 200
+  },
+  "bookskill_athletics1": {
+    "value": 200
+  },
+  "bookskill_athletics2": {
+    "value": 150
+  },
+  "bookskill_athletics3": {
+    "value": 200
+  },
+  "bookskill_athletics4": {
+    "value": 200
+  },
+  "bookskill_athletics5": {
+    "value": 200
+  },
+  "bookskill_security1": {
+    "value": 200
+  },
+  "bookskill_security2": {
+    "value": 250
+  },
+  "bookskill_security3": {
+    "value": 300
+  },
+  "bookskill_security4": {
+    "value": 250
+  },
+  "bookskill_security5": {
+    "value": 350
+  },
+  "bookskill_sneak1": {
+    "value": 250
+  },
+  "bookskill_sneak2": {
+    "value": 275
+  },
+  "bookskill_sneak3": {
+    "value": 200
+  },
+  "bookskill_sneak4": {
+    "value": 250
+  },
+  "bookskill_sneak5": {
+    "value": 200
+  },
+  "bookskill_acrobatics1": {
+    "value": 200
+  },
+  "bookskill_acrobatics3": {
+    "value": 150
+  },
+  "bookskill_acrobatics4": {
+    "value": 400
+  },
+  "bookskill_acrobatics5": {
+    "value": 250
+  },
+  "bookskill_light armor1": {
+    "value": 200
+  },
+  "bookskill_light armor2": {
+    "value": 325
+  },
+  "bookskill_light armor3": {
+    "value": 300
+  },
+  "bookskill_light armor4": {
+    "value": 200
+  },
+  "bookskill_light armor5": {
+    "value": 200
+  },
+  "bookskill_short blade1": {
+    "value": 225
+  },
+  "bookskill_short blade2": {
+    "value": 275
+  },
+  "bookskill_short blade3": {
+    "value": 275
+  },
+  "bookskill_short blade4": {
+    "value": 200
+  },
+  "bookskill_short blade5": {
+    "value": 200
+  },
+  "bookskill_marksman1": {
+    "value": 250
+  },
+  "bookskill_marksman2": {
+    "value": 150
+  },
+  "bookskill_marksman3": {
+    "value": 250
+  },
+  "bookskill_marksman4": {
+    "value": 250
+  },
+  "bookskill_marksman5": {
+    "value": 400
+  },
+  "bookskill_mercantile1": {
+    "value": 200
+  },
+  "bookskill_mercantile2": {
+    "value": 250
+  },
+  "bookskill_mercantile3": {
+    "value": 275
+  },
+  "bookskill_mercantile4": {
+    "value": 150
+  },
+  "bookskill_mercantile5": {
+    "value": 150
+  },
+  "bookskill_speechcraft1": {
+    "value": 250
+  },
+  "bookskill_speechcraft2": {
+    "value": 250
+  },
+  "bookskill_speechcraft3": {
+    "value": 275
+  },
+  "bookskill_speechcraft4": {
+    "value": 250
+  },
+  "bookskill_speechcraft5": {
+    "value": 200
+  },
+  "bookskill_hand to hand1": {
+    "value": 250
+  },
+  "bookskill_hand to hand2": {
+    "value": 250
+  },
+  "bookskill_hand to hand3": {
+    "value": 300
+  },
+  "bookskill_hand to hand4": {
+    "value": 300
+  },
+  "bookskill_hand to hand5": {
+    "value": 300
+  },
+  "bk_livesofthesaints": {
+    "value": 25
+  },
+  "bk_saryonissermons": {
+    "value": 50
+  },
+  "bk_homiliesofblessedalmalexia": {
+    "value": 25
+  },
+  "bk_pilgrimspath": {
+    "value": 25
+  },
+  "bk_doorsofthespirit": {
+    "value": 50
+  },
+  "bk_mysteriousakavir": {
+    "value": 50
+  },
+  "bk_spiritofnirn": {
+    "value": 40
+  },
+  "bk_vivecandmephala": {
+    "value": 40
+  },
+  "bk_istunondescosmology": {
+    "value": 40
+  },
+  "bk_firmament": {
+    "value": 40
+  },
+  "bk_manyfacesmissinggod": {
+    "value": 30
+  },
+  "bk_frontierconquestaccommodat": {
+    "value": 25
+  },
+  "bk_truenatureoforcs": {
+    "value": 30
+  },
+  "bk_varietiesoffaithintheempire": {
+    "value": 30
+  },
+  "bk_tamrielicreligions": {
+    "value": 40
+  },
+  "bk_fivesongsofkingwulfharth": {
+    "value": 30
+  },
+  "bk_wherewereyoudragonbroke": {
+    "value": 55
+  },
+  "bk_nchunaksfireandfaith": {
+    "value": 60
+  },
+  "bk_vampiresofvvardenfell1": {
+    "value": 50
+  },
+  "bk_reflectionsoncultworship...": {
+    "value": 25
+  },
+  "bk_galerionthemystic": {
+    "value": 50
+  },
+  "bk_madnessofpelagius": {
+    "value": 20
+  },
+  "bk_realbarenziah2": {
+    "value": 20
+  },
+  "bk_realbarenziah3": {
+    "value": 20
+  },
+  "bk_realbarenziah4": {
+    "value": 20
+  },
+  "bk_overviewofgodsandworship": {
+    "value": 50
+  },
+  "bk_fragmentonartaeum": {
+    "value": 20
+  },
+  "bk_onoblivion": {
+    "value": 40
+  },
+  "bk_invocationofazura": {
+    "value": 50
+  },
+  "bk_mysticism": {
+    "value": 25
+  },
+  "bk_originofthemagesguild": {
+    "value": 25
+  },
+  "bk_specialfloraoftamriel": {
+    "value": 25
+  },
+  "bk_oldways": {
+    "value": 40
+  },
+  "bk_wildelves": {
+    "value": 35
+  },
+  "bk_pigchildren": {
+    "value": 100
+  },
+  "bk_redbookofriddles": {
+    "value": 50
+  },
+  "bk_yellowbookofriddles": {
+    "value": 30
+  },
+  "bk_guylainesarchitecture": {
+    "value": 60
+  },
+  "bk_progressoftruth": {
+    "value": 150
+  },
+  "bk_easternprovincesimpartial": {
+    "value": 50
+  },
+  "bk_vampiresofvvardenfell2": {
+    "value": 400
+  },
+  "bk_gnisiseggmineledger": {
+    "value": 0
+  },
+  "bk_fortpelagiadprisonerlog": {
+    "value": 0
+  },
+  "bk_truenoblescode": {
+    "value": 40
+  },
+  "bk_ngastakvatakvakis_c": {
+    "value": 200
+  },
+  "bk_legionsofthedead": {
+    "value": 0
+  },
+  "bk_darkestdarkness": {
+    "value": 60
+  },
+  "bk_ngastakvatakvakis_o": {
+    "value": 200
+  },
+  "bk_hanginggardenswasten": {
+    "value": 55
+  },
+  "bk_corpsepreperation1_c": {
+    "value": 50
+  },
+  "bk_corpsepreperation1_o": {
+    "value": 50
+  },
+  "bk_sharnslegionsofthedead": {
+    "value": 50
+  },
+  "bk_samarstarloversjournal": {
+    "value": 350
+  },
+  "bk_spiritofthedaedra": {
+    "value": 100
+  },
+  "bk_vagariesofmagica": {
+    "value": 200
+  },
+  "bk_watersofoblivion": {
+    "value": 250
+  },
+  "bk_legendaryscourge": {
+    "value": 200
+  },
+  "bk_postingofthehunt": {
+    "value": 200
+  },
+  "bk_talmarogkersresearches": {
+    "value": 450
+  },
+  "bk_graspingfortune": {
+    "value": 30
+  },
+  "bk_sottildescodebook": {
+    "value": 0
+  },
+  "bk_eastempirecompanyledger": {
+    "value": 0
+  },
+  "bk_consolationsofprayer": {
+    "value": 25
+  },
+  "bk_bookdawnanddusk": {
+    "value": 25
+  },
+  "bk_cantatasofvivec": {
+    "value": 50
+  },
+  "bk_anticipations": {
+    "value": 50
+  },
+  "bk_ancestorsandthedunmer": {
+    "value": 25
+  },
+  "bk_aedraanddaedra": {
+    "value": 50
+  },
+  "bk_annotatedanuad": {
+    "value": 50
+  },
+  "bk_childrensanuad": {
+    "value": 50
+  },
+  "bk_arcturianheresy": {
+    "value": 25
+  },
+  "bk_changedones": {
+    "value": 50
+  },
+  "bk_childrenofthesky": {
+    "value": 50
+  },
+  "bk_antecedantsdwemerlaw": {
+    "value": 25
+  },
+  "bk_chroniclesnchuleft": {
+    "value": 250
+  },
+  "bk_biographybarenziah1": {
+    "value": 50
+  },
+  "bk_biographybarenziah2": {
+    "value": 50
+  },
+  "bk_biographybarenziah3": {
+    "value": 50
+  },
+  "bk_briefhistoryempire1": {
+    "value": 50
+  },
+  "bk_briefhistoryempire2": {
+    "value": 50
+  },
+  "bk_briefhistoryempire3": {
+    "value": 50
+  },
+  "bk_briefhistoryempire4": {
+    "value": 50
+  },
+  "bk_brothersofdarkness": {
+    "value": 100
+  },
+  "bk_blackglove": {
+    "value": 60
+  },
+  "bk_bluebookofriddles": {
+    "value": 250
+  },
+  "bk_boethiahpillowbook": {
+    "value": 0
+  },
+  "bk_bookofdaedra": {
+    "value": 45
+  },
+  "bk_arcanarestored": {
+    "value": 75
+  },
+  "bk_bookoflifeandservice": {
+    "value": 40
+  },
+  "bk_bookofrestandendings": {
+    "value": 40
+  },
+  "bk_affairsofwizards": {
+    "value": 50
+  },
+  "bk_calderarecordbook1": {
+    "value": 0
+  },
+  "bk_calderarecordbook2": {
+    "value": 0
+  },
+  "bk_abcs": {
+    "value": 25
+  },
+  "bk_dren_shipping_log": {
+    "value": 0
+  },
+  "bk_saryonisermonsmanuscript": {
+    "value": 50000
+  },
+  "bk_honorthieves": {
+    "value": 100
+  },
+  "bk_redbook426": {
+    "value": 60
+  },
+  "bk_yellowbook426": {
+    "value": 20
+  },
+  "bk_brownbook426": {
+    "value": 75
+  },
+  "bk_fishystick": {
+    "value": 5
+  },
+  "bk_kagrenac'splans_excl": {
+    "value": 400
+  },
+  "bk_ynglingledger": {
+    "value": 0
+  },
+  "bk_briefhistoryempire1_oh": {
+    "value": 50
+  },
+  "bk_briefhistoryempire2_oh": {
+    "value": 50
+  },
+  "bk_briefhistoryempire3_oh": {
+    "value": 50
+  },
+  "bk_briefhistoryempire4_oh": {
+    "value": 50
+  },
+  "bk_ashland_hymns": {
+    "value": 35
+  },
+  "bk_words_of_the_wind": {
+    "value": 45
+  },
+  "bk_galur_rithari's_papers": {
+    "value": 0
+  },
+  "bk_kagrenac'sjournal_excl": {
+    "value": 400
+  },
+  "bk_notes-kagouti mating habits": {
+    "value": 50
+  },
+  "bk_wordsclanmother": {
+    "value": 40
+  },
+  "bk_corpsepreperation2_c": {
+    "value": 50
+  },
+  "bk_corpsepreperation3_c": {
+    "value": 50
+  },
+  "bk_arkaytheenemy": {
+    "value": 40
+  },
+  "bk_poisonsong1": {
+    "value": 30
+  },
+  "bk_poisonsong2": {
+    "value": 30
+  },
+  "bk_poisonsong3": {
+    "value": 30
+  },
+  "bk_poisonsong4": {
+    "value": 30
+  },
+  "bk_poisonsong5": {
+    "value": 30
+  },
+  "bk_poisonsong6": {
+    "value": 30
+  },
+  "bk_poisonsong7": {
+    "value": 30
+  },
+  "bk_confessions": {
+    "value": 25
+  },
+  "bk_redorancookingsecrets": {
+    "value": 20
+  },
+  "bk_briefhistoryofwood": {
+    "value": 10
+  },
+  "bk_realbarenziah1": {
+    "value": 20
+  },
+  "bk_realbarenziah5": {
+    "value": 20
+  },
+  "bk_bartendersguide": {
+    "value": 10
+  },
+  "bk_warehouse_log": {
+    "value": 0
+  },
+  "bk_eggoftime": {
+    "value": 1000
+  },
+  "bk_divinemetaphysics": {
+    "value": 1000
+  },
+  "bk_chartermg": {
+    "value": 30
+  },
+  "bk_charterfg": {
+    "value": 30
+  },
+  "bk_ibardad_elante_notes": {
+    "value": 10
+  },
+  "bookskill_destruction5_open": {
+    "value": 250
+  },
+  "bookskill_axe5_open": {
+    "value": 200
+  },
+  "bk_boethiah's glory_unique": {
+    "value": 25
+  },
+  "bk_aedra_tarer_unique": {
+    "value": 50
+  },
+  "cumanya's notes": {
+    "value": 25
+  },
+  "bk_briefhistoryofwood_01": {
+    "value": 10
+  },
+  "bk_hlaalu_vaults_ledger": {
+    "value": 0
+  },
+  "bk_redoran_vaults_ledger": {
+    "value": 0
+  },
+  "bk_telvanni_vault_ledger": {
+    "value": 0
+  },
+  "bk_yagrum's_book": {
+    "value": 250
+  },
+  "bk_lustyargonianmaid": {
+    "value": 20
+  },
+  "bk_alchemistsformulary": {
+    "value": 300
+  },
+  "bk_secretsdwemeranimunculi": {
+    "value": 450
+  },
+  "bk_fellowshiptemple": {
+    "value": 25
+  },
+  "bk_formygodsandemperor": {
+    "value": 25
+  },
+  "bk_ordolegionis": {
+    "value": 30
+  },
+  "bk_bartendersguide_01": {
+    "value": 10
+  },
+  "bookskill_mystery5": {
+    "value": 250
+  },
+  "bk_warofthefirstcouncil": {
+    "value": 25
+  },
+  "bk_onmorrowind": {
+    "value": 40
+  },
+  "bk_realnerevar": {
+    "value": 50
+  },
+  "bk_nerevarmoonandstar": {
+    "value": 200
+  },
+  "bk_shorthistorymorrowind": {
+    "value": 5
+  },
+  "bk_falljournal_unique": {
+    "value": 50
+  },
+  "sky_ire_dh_crumblingtome": {
+    "value": 45
+  },
+  "sky_ire_ds_contrabandledger": {
+    "value": 0
+  },
+  "sky_ire_dsw_barrackslogbook": {
+    "value": 50
+  },
+  "sky_ire_dsw_warehouseledger": {
+    "value": 10
+  },
+  "sky_ire_kw_armoryledger": {
+    "value": 0
+  },
+  "sky_ire_kw_barracksledger": {
+    "value": 55
+  },
+  "sky_ire_kw_granaryledger": {
+    "value": 30
+  },
+  "sky_ire_kw_karthwastentaxledger": {
+    "value": 20
+  },
+  "sky_ire_kw_payledger": {
+    "value": 30
+  },
+  "sky_ire_kw_storageledger": {
+    "value": 20
+  },
+  "sky_ire_th_confiscationledger": {
+    "value": 2
+  },
+  "sky_qre_dsmg4_book": {
+    "value": 225
+  },
+  "sky_qre_kw1_register01": {
+    "value": 1000
+  },
+  "sky_qre_kw1_register02": {
+    "value": 1000
+  },
+  "sky_qre_kw1_register03": {
+    "value": 1000
+  },
+  "sky_qre_kw1_register04": {
+    "value": 1000
+  },
+  "sky_qre_kw5_notes": {
+    "value": 5
+  },
+  "sky_qre_kwmg6_notes": {
+    "value": 250
+  },
+  "sky_qre_kwtg1_book": {
+    "value": 175
+  },
+  "t_aid_notetoself": {
+    "value": 0
+  },
+  "t_bk_1000spiritsoldcyrodopenpc": {
+    "value": 50
+  },
+  "t_bk_1000spiritsoldcyrodpc": {
+    "value": 50
+  },
+  "t_bk_16accordsmadnessshotn_v06": {
+    "value": 200
+  },
+  "t_bk_16accordsmadnessshotn_v12": {
+    "value": 200
+  },
+  "t_bk_aboveitalltr": {
+    "value": 250
+  },
+  "t_bk_adabalapc": {
+    "value": 180
+  },
+  "t_bk_adabalashotn": {
+    "value": 240
+  },
+  "t_bk_adabalatr": {
+    "value": 90
+  },
+  "t_bk_advancesinlockpickingpc": {
+    "value": 200
+  },
+  "t_bk_adventuresendtr": {
+    "value": 250
+  },
+  "t_bk_aevarstonesingershotn": {
+    "value": 100
+  },
+  "t_bk_affairsofwizardstr": {
+    "value": 50
+  },
+  "t_bk_ahzirrtrajijazaeripc": {
+    "value": 150
+  },
+  "t_bk_ahzirrtrajijazaerishotn": {
+    "value": 150
+  },
+  "t_bk_alchemistsguidetoskoomatr": {
+    "value": 75
+  },
+  "t_bk_almalexiahistorytr": {
+    "value": 50
+  },
+  "t_bk_almalexiaspeaksotr": {
+    "value": 100
+  },
+  "t_bk_almalexiaspeakstr": {
+    "value": 100
+  },
+  "t_bk_ami-elpc_v1": {
+    "value": 200
+  },
+  "t_bk_ami-elpc_v2": {
+    "value": 200
+  },
+  "t_bk_ami-elpc_v3": {
+    "value": 200
+  },
+  "t_bk_ami-elpc_v4": {
+    "value": 200
+  },
+  "t_bk_ami-elpc_v5": {
+    "value": 200
+  },
+  "t_bk_amuletofkingspc": {
+    "value": 35
+  },
+  "t_bk_amuletofkingsshotn": {
+    "value": 35
+  },
+  "t_bk_analysisasuraniwritingstr": {
+    "value": 150
+  },
+  "t_bk_anindorilsgardentr": {
+    "value": 250
+  },
+  "t_bk_appraisalofabolitiontr": {
+    "value": 50
+  },
+  "t_bk_arcanarestoredshotn": {
+    "value": 75
+  },
+  "t_bk_argonianaccountpc_v1": {
+    "value": 150
+  },
+  "t_bk_argonianaccountpc_v2": {
+    "value": 150
+  },
+  "t_bk_argonianaccountpc_v3": {
+    "value": 150
+  },
+  "t_bk_argonianaccountpc_v4": {
+    "value": 150
+  },
+  "t_bk_argonianaccountshotn_v1": {
+    "value": 120
+  },
+  "t_bk_argonianaccountshotn_v2": {
+    "value": 125
+  },
+  "t_bk_argonianaccountshotn_v3": {
+    "value": 130
+  },
+  "t_bk_argonianaccountshotn_v4": {
+    "value": 135
+  },
+  "t_bk_arkaythegodshotn": {
+    "value": 200
+  },
+  "t_bk_arkaythegodtr": {
+    "value": 50
+  },
+  "t_bk_arkhonlimtr": {
+    "value": 70
+  },
+  "t_bk_arrowshotwomantr": {
+    "value": 20
+  },
+  "t_bk_artificialdiseasespc_v1": {
+    "value": 200
+  },
+  "t_bk_artificialdiseasespc_v2": {
+    "value": 200
+  },
+  "t_bk_artofwarmagicshotn": {
+    "value": 225
+  },
+  "t_bk_ashandbloodtr_v1": {
+    "value": 75
+  },
+  "t_bk_ashandbloodtr_v2": {
+    "value": 75
+  },
+  "t_bk_ashandbloodtr_v3": {
+    "value": 75
+  },
+  "t_bk_assassinationofpelagiustr": {
+    "value": 50
+  },
+  "t_bk_assassinsdiarytr": {
+    "value": 20
+  },
+  "t_bk_asylumballshotn": {
+    "value": 300
+  },
+  "t_bk_asylumballtr": {
+    "value": 60
+  },
+  "t_bk_atopatoweronmoridunontr": {
+    "value": 80
+  },
+  "t_bk_ayleidcitiesvalenwoodopepc": {
+    "value": 80
+  },
+  "t_bk_ayleidcitiesvalenwoodpc": {
+    "value": 80
+  },
+  "t_bk_ayleidinscriptionspc": {
+    "value": 350
+  },
+  "t_bk_ayleidruinspc": {
+    "value": 125
+  },
+  "t_bk_bankersbettr": {
+    "value": 45
+  },
+  "t_bk_barbariansarithmetictr": {
+    "value": 25
+  },
+  "t_bk_barbariansgeometrytr": {
+    "value": 25
+  },
+  "t_bk_bartendersguideshotn": {
+    "value": 10
+  },
+  "t_bk_battlesancretoropenpc": {
+    "value": 150
+  },
+  "t_bk_battlesancretorpc": {
+    "value": 150
+  },
+  "t_bk_battlesancretorshotn": {
+    "value": 225
+  },
+  "t_bk_beforeagesofmanopenpc": {
+    "value": 125
+  },
+  "t_bk_beforeagesofmanpc": {
+    "value": 125
+  },
+  "t_bk_beforeagesofmanshotn": {
+    "value": 125
+  },
+  "t_bk_beforegatesvalsartr": {
+    "value": 60
+  },
+  "t_bk_beggarprinceshotn": {
+    "value": 50
+  },
+  "t_bk_belharzaretapc_v1": {
+    "value": 200
+  },
+  "t_bk_belharzaretapc_v2": {
+    "value": 200
+  },
+  "t_bk_belharzaretapc_v3": {
+    "value": 200
+  },
+  "t_bk_belharzaretapc_v4": {
+    "value": 200
+  },
+  "t_bk_belharzaretapc_v5": {
+    "value": 200
+  },
+  "t_bk_biiterhearttr": {
+    "value": 30
+  },
+  "t_bk_birdgoblinsshotn": {
+    "value": 25
+  },
+  "t_bk_blessedremantr": {
+    "value": 50
+  },
+  "t_bk_bluebooktr": {
+    "value": 60
+  },
+  "t_bk_boethiasprovingpc": {
+    "value": 150
+  },
+  "t_bk_bonesofhlurmattatr": {
+    "value": 125
+  },
+  "t_bk_bonewalkerritualsotr": {
+    "value": 200
+  },
+  "t_bk_bonewalkerritualstr": {
+    "value": 200
+  },
+  "t_bk_bookofcirclespc": {
+    "value": 250
+  },
+  "t_bk_bookofdaedrashotn": {
+    "value": 45
+  },
+  "t_bk_bravildaughterofnibenpc": {
+    "value": 120
+  },
+  "t_bk_breakinsetofarmortr": {
+    "value": 200
+  },
+  "t_bk_breakouttr": {
+    "value": 200
+  },
+  "t_bk_brokendiamondspc": {
+    "value": 170
+  },
+  "t_bk_brokendiamondstr": {
+    "value": 20
+  },
+  "t_bk_brownbooktr": {
+    "value": 75
+  },
+  "t_bk_buyinggameshotn": {
+    "value": 200
+  },
+  "t_bk_cabininthewoodsshotn": {
+    "value": 150
+  },
+  "t_bk_caverndoortr": {
+    "value": 30
+  },
+  "t_bk_cavesoficetr": {
+    "value": 250
+  },
+  "t_bk_charityandleadershiptr": {
+    "value": 40
+  },
+  "t_bk_cherimsheartanequinashotn": {
+    "value": 225
+  },
+  "t_bk_childrenoftheskyshotn": {
+    "value": 50
+  },
+  "t_bk_codifiedlaw01pc": {
+    "value": 150
+  },
+  "t_bk_codifiedlaw02pc": {
+    "value": 150
+  },
+  "t_bk_codifiedlaw03pc": {
+    "value": 150
+  },
+  "t_bk_collectedysmritisshotn": {
+    "value": 50
+  },
+  "t_bk_colovianmythartheimpc_v1": {
+    "value": 50
+  },
+  "t_bk_colovianmythartheimpc_v2": {
+    "value": 50
+  },
+  "t_bk_colovianmythartheimpc_v3": {
+    "value": 50
+  },
+  "t_bk_commentarycovenantspc": {
+    "value": 250
+  },
+  "t_bk_compendiumartifactstr": {
+    "value": 250
+  },
+  "t_bk_comraderytr": {
+    "value": 40
+  },
+  "t_bk_confessionsandresorttr": {
+    "value": 100
+  },
+  "t_bk_confessionsofathiefshotn": {
+    "value": 200
+  },
+  "t_bk_confessionsofathieftr": {
+    "value": 30
+  },
+  "t_bk_constantinvocationopenpc": {
+    "value": 260
+  },
+  "t_bk_constantinvocationpc": {
+    "value": 260
+  },
+  "t_bk_coronationofeplear": {
+    "value": 250
+  },
+  "t_bk_coronationofeplearopen": {
+    "value": 250
+  },
+  "t_bk_corprusdivinetr": {
+    "value": 200
+  },
+  "t_bk_corpsepreparationshotn_v1": {
+    "value": 50
+  },
+  "t_bk_corpsepreparationshotn_v2": {
+    "value": 50
+  },
+  "t_bk_corpsepreparationshotn_v3": {
+    "value": 50
+  },
+  "t_bk_cowardiceoftheenemytr": {
+    "value": 200
+  },
+  "t_bk_crimesoftritr": {
+    "value": 150
+  },
+  "t_bk_crooktailedkhajiittr": {
+    "value": 100
+  },
+  "t_bk_culturalerasnordsshotn": {
+    "value": 70
+  },
+  "t_bk_daedraworshipayleidspc": {
+    "value": 100
+  },
+  "t_bk_dalgorjournaltr": {
+    "value": 250
+  },
+  "t_bk_dangersofreachmagickshotn": {
+    "value": 50
+  },
+  "t_bk_danstrarserpentshotn": {
+    "value": 65
+  },
+  "t_bk_defenseofmorrowindtr": {
+    "value": 70
+  },
+  "t_bk_dererumdirennisshotn": {
+    "value": 175
+  },
+  "t_bk_desphaeranirniopenpc": {
+    "value": 200
+  },
+  "t_bk_desphaeranirnipc": {
+    "value": 200
+  },
+  "t_bk_destructionodistractionpc": {
+    "value": 140
+  },
+  "t_bk_detachmentofthesheathpc": {
+    "value": 140
+  },
+  "t_bk_direnniempty01shotn": {
+    "value": 400
+  },
+  "t_bk_direnniempty02shotn": {
+    "value": 400
+  },
+  "t_bk_direnniempty03shotn": {
+    "value": 400
+  },
+  "t_bk_disasterationithopenpc": {
+    "value": 120
+  },
+  "t_bk_disasterationithpc": {
+    "value": 120
+  },
+  "t_bk_distributedsoulpc": {
+    "value": 120
+  },
+  "t_bk_divadamakalluhtr": {
+    "value": 100
+  },
+  "t_bk_divadthesingershotn": {
+    "value": 250
+  },
+  "t_bk_divadthesingertr": {
+    "value": 35
+  },
+  "t_bk_djulighanasroletr": {
+    "value": 55
+  },
+  "t_bk_dragonbreakreexaminedshotn": {
+    "value": 250
+  },
+  "t_bk_dreadfulthefttr": {
+    "value": 150
+  },
+  "t_bk_drescremationpracticestr": {
+    "value": 100
+  },
+  "t_bk_dresslavetradetr": {
+    "value": 80
+  },
+  "t_bk_drymetaphortr": {
+    "value": 175
+  },
+  "t_bk_dubioustaletr": {
+    "value": 20
+  },
+  "t_bk_dunceinmorrowindtr_v1": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v2": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v3": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v4": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v5": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v6": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v7": {
+    "value": 75
+  },
+  "t_bk_dunceinmorrowindtr_v8": {
+    "value": 75
+  },
+  "t_bk_dunmerilawprimertr": {
+    "value": 50
+  },
+  "t_bk_dunmersguidetoreachshotn": {
+    "value": 75
+  },
+  "t_bk_dwarvenfirmamenttr": {
+    "value": 70
+  },
+  "t_bk_dwemerburialcustomstr": {
+    "value": 40
+  },
+  "t_bk_easternprovincesshotn": {
+    "value": 50
+  },
+  "t_bk_easternquarantinetr": {
+    "value": 100
+  },
+  "t_bk_effectselderscrollspc": {
+    "value": 150
+  },
+  "t_bk_elementaldaedratr": {
+    "value": 250
+  },
+  "t_bk_emeraldstr": {
+    "value": 80
+  },
+  "t_bk_epicofthegreyfalcontr": {
+    "value": 40
+  },
+  "t_bk_eslaferolbaggershotn": {
+    "value": 240
+  },
+  "t_bk_eslaferolkingshotn": {
+    "value": 240
+  },
+  "t_bk_eslaferolthiefshotn": {
+    "value": 240
+  },
+  "t_bk_eslaferolwarriorshotn": {
+    "value": 240
+  },
+  "t_bk_essenceofbeingathieftr": {
+    "value": 50
+  },
+  "t_bk_etiquettewithrulerstr": {
+    "value": 40
+  },
+  "t_bk_exclusionarymandatespc": {
+    "value": 80
+  },
+  "t_bk_exegesisofmeridnundapc": {
+    "value": 120
+  },
+  "t_bk_exodusshotn": {
+    "value": 15
+  },
+  "t_bk_exovelanmjtr": {
+    "value": 5000
+  },
+  "t_bk_exovelbbmjtr": {
+    "value": 5000
+  },
+  "t_bk_expandingmagickarevisedtr": {
+    "value": 350
+  },
+  "t_bk_fablevalenwoodtr": {
+    "value": 200
+  },
+  "t_bk_failureoftheempiretr": {
+    "value": 80
+  },
+  "t_bk_falloftheursupertr": {
+    "value": 50
+  },
+  "t_bk_fascicle00pc": {
+    "value": 300
+  },
+  "t_bk_fascicle01pc": {
+    "value": 300
+  },
+  "t_bk_fascicle02pc": {
+    "value": 300
+  },
+  "t_bk_fascicle03pc": {
+    "value": 300
+  },
+  "t_bk_fascicle04pc": {
+    "value": 300
+  },
+  "t_bk_fascicle05pc": {
+    "value": 300
+  },
+  "t_bk_fascicle06pc": {
+    "value": 300
+  },
+  "t_bk_fascicle07pc": {
+    "value": 300
+  },
+  "t_bk_fascicle08pc": {
+    "value": 300
+  },
+  "t_bk_fascicle09pc": {
+    "value": 300
+  },
+  "t_bk_fascicle10pc": {
+    "value": 300
+  },
+  "t_bk_fascicle11pc": {
+    "value": 300
+  },
+  "t_bk_fascicle12pc": {
+    "value": 300
+  },
+  "t_bk_fascicle13pc": {
+    "value": 300
+  },
+  "t_bk_fateofthesnowelvestr": {
+    "value": 80
+  },
+  "t_bk_fatherofthenibenopenpc": {
+    "value": 100
+  },
+  "t_bk_fatherofthenibenpc": {
+    "value": 100
+  },
+  "t_bk_fatherofthenibenshotn": {
+    "value": 100
+  },
+  "t_bk_fetchersguidetoancestraltr": {
+    "value": 25
+  },
+  "t_bk_fireanddarknessopenpc": {
+    "value": 150
+  },
+  "t_bk_fireanddarknesspc": {
+    "value": 150
+  },
+  "t_bk_firmamentshotn": {
+    "value": 40
+  },
+  "t_bk_firstcouncilcensus2e622tr": {
+    "value": 260
+  },
+  "t_bk_firstholdrevoltshotn": {
+    "value": 200
+  },
+  "t_bk_floraskyrimshotn_v1": {
+    "value": 150
+  },
+  "t_bk_follyofsteeltr": {
+    "value": 175
+  },
+  "t_bk_foolsebonytr_v1": {
+    "value": 50
+  },
+  "t_bk_foolsebonytr_v2": {
+    "value": 50
+  },
+  "t_bk_foolsebonytr_v3": {
+    "value": 50
+  },
+  "t_bk_foolsebonytr_v4": {
+    "value": 50
+  },
+  "t_bk_foolsebonytr_v5": {
+    "value": 50
+  },
+  "t_bk_foolsebonytr_v6": {
+    "value": 50
+  },
+  "t_bk_formalitiesofmirthtr": {
+    "value": 85
+  },
+  "t_bk_fourthbookofdusttr": {
+    "value": 40
+  },
+  "t_bk_fragmentsaltmerpockettr": {
+    "value": 50
+  },
+  "t_bk_friendofgiantsshotn": {
+    "value": 80
+  },
+  "t_bk_funeraryritesmothpc": {
+    "value": 50
+  },
+  "t_bk_funeraryritestombspc": {
+    "value": 50
+  },
+  "t_bk_funeraryriteswaterpc": {
+    "value": 50
+  },
+  "t_bk_galerionthemysticshotn": {
+    "value": 50
+  },
+  "t_bk_ghraewajharpiestr": {
+    "value": 35
+  },
+  "t_bk_glassinmorrowindtr": {
+    "value": 75
+  },
+  "t_bk_gospelofsaintaralortr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintdelyntr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintfelmstr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintllothistr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintmeristr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintnerevartr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintolmstr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintrilmstr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintroristr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintseryntr": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintvelothotr_v1": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintvelothotr_v2": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintvelothtr_v1": {
+    "value": 50
+  },
+  "t_bk_gospelofsaintvelothtr_v2": {
+    "value": 50
+  },
+  "t_bk_greatharbingersshotn": {
+    "value": 150
+  },
+  "t_bk_greathousesshotn": {
+    "value": 30
+  },
+  "t_bk_guarherdersarttr": {
+    "value": 40
+  },
+  "t_bk_guidetotheguildguidespc": {
+    "value": 60
+  },
+  "t_bk_guylainesarchitectshotn": {
+    "value": 60
+  },
+  "t_bk_handbookofthedevouttr": {
+    "value": 70
+  },
+  "t_bk_handinhandtr": {
+    "value": 200
+  },
+  "t_bk_handsofftr": {
+    "value": 250
+  },
+  "t_bk_healerstaletr": {
+    "value": 20
+  },
+  "t_bk_heavyarmorrepairshotn": {
+    "value": 50
+  },
+  "t_bk_herhandstr": {
+    "value": 25
+  },
+  "t_bk_herooftheindoriltr": {
+    "value": 35
+  },
+  "t_bk_hidingwiththeshadowshotn": {
+    "value": 35
+  },
+  "t_bk_highkingsveddashotn_v1": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v2": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v3": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v4": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v5": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v6": {
+    "value": 300
+  },
+  "t_bk_highkingsveddashotn_v7": {
+    "value": 300
+  },
+  "t_bk_hillofkvatchpc": {
+    "value": 50
+  },
+  "t_bk_historyalessianorderpc": {
+    "value": 40
+  },
+  "t_bk_historydragoncopenshotn_v2": {
+    "value": 150
+  },
+  "t_bk_historydragoncultshotn_v1": {
+    "value": 150
+  },
+  "t_bk_historydragoncultshotn_v2": {
+    "value": 150
+  },
+  "t_bk_historydragoncultshotn_v3": {
+    "value": 150
+  },
+  "t_bk_historydragoncultshotn_v4": {
+    "value": 150
+  },
+  "t_bk_historyempireshotn_v1": {
+    "value": 50
+  },
+  "t_bk_historyempireshotn_v2": {
+    "value": 50
+  },
+  "t_bk_historyempireshotn_v3": {
+    "value": 50
+  },
+  "t_bk_historyempireshotn_v4": {
+    "value": 50
+  },
+  "t_bk_historyfightersguildshotn": {
+    "value": 70
+  },
+  "t_bk_historykarthwasten1shotn": {
+    "value": 55
+  },
+  "t_bk_historykarthwasten2shotn": {
+    "value": 55
+  },
+  "t_bk_historymothcultpc": {
+    "value": 40
+  },
+  "t_bk_historyofdaggerfalltr": {
+    "value": 50
+  },
+  "t_bk_historyofebonhearttr": {
+    "value": 45
+  },
+  "t_bk_historyoffirewatchtr": {
+    "value": 60
+  },
+  "t_bk_historyoflockpickingpc": {
+    "value": 200
+  },
+  "t_bk_historyoroynyonfamilytr": {
+    "value": 20
+  },
+  "t_bk_historysaturailashotn": {
+    "value": 50
+  },
+  "t_bk_historysecondempirepc": {
+    "value": 40
+  },
+  "t_bk_histr": {
+    "value": 75
+  },
+  "t_bk_hlaaluplanstr": {
+    "value": 100
+  },
+  "t_bk_holidaysilliacbaytr": {
+    "value": 40
+  },
+  "t_bk_holybrothersofmarukhpc": {
+    "value": 180
+  },
+  "t_bk_homilypilgrimtr": {
+    "value": 75
+  },
+  "t_bk_hoomhabitathabitstr": {
+    "value": 50
+  },
+  "t_bk_horkerattacksshotn": {
+    "value": 50
+  },
+  "t_bk_horskvakongerike_i": {
+    "value": 300
+  },
+  "t_bk_horskvakongerike_ii": {
+    "value": 300
+  },
+  "t_bk_horskvakongerikeshotn_i": {
+    "value": 300
+  },
+  "t_bk_horskvakongerikeshotn_ii": {
+    "value": 300
+  },
+  "t_bk_houndsofhircinetr": {
+    "value": 50
+  },
+  "t_bk_howorsiniumpassedtoshotn": {
+    "value": 200
+  },
+  "t_bk_howtotersthereticstr": {
+    "value": 200
+  },
+  "t_bk_howtotuneyourhoomtr": {
+    "value": 50
+  },
+  "t_bk_hsaarikelegyshotn_v1": {
+    "value": 150
+  },
+  "t_bk_hsaarikelegyshotn_v2": {
+    "value": 150
+  },
+  "t_bk_hsaarikelegyshotn_v3": {
+    "value": 150
+  },
+  "t_bk_hypotheticaltreacheryshotn": {
+    "value": 175
+  },
+  "t_bk_illusionofdeathpc": {
+    "value": 220
+  },
+  "t_bk_illustratedguidetofiretr": {
+    "value": 100
+  },
+  "t_bk_immortalbloodshotn": {
+    "value": 175
+  },
+  "t_bk_imperialheraldrymwtr": {
+    "value": 75
+  },
+  "t_bk_imperialkitchentr_v1": {
+    "value": 30
+  },
+  "t_bk_imperialkitchentr_v2": {
+    "value": 30
+  },
+  "t_bk_imperialnavytr": {
+    "value": 30
+  },
+  "t_bk_imperialproverbsopenpc": {
+    "value": 35
+  },
+  "t_bk_imperialproverbspc": {
+    "value": 35
+  },
+  "t_bk_indorilberothandhermittr": {
+    "value": 20
+  },
+  "t_bk_indorilbookofpassingctr": {
+    "value": 50
+  },
+  "t_bk_indorilbookofpassingotr": {
+    "value": 50
+  },
+  "t_bk_industriesrivermenpc": {
+    "value": 40
+  },
+  "t_bk_industriessloadsoappc": {
+    "value": 40
+  },
+  "t_bk_insidealmastongstr": {
+    "value": 60
+  },
+  "t_bk_insidetranquilitytr": {
+    "value": 40
+  },
+  "t_bk_interrogatingdunmertr": {
+    "value": 250
+  },
+  "t_bk_jokestr": {
+    "value": 40
+  },
+  "t_bk_julianitenumberspells": {
+    "value": 200
+  },
+  "t_bk_justpunishmenttr": {
+    "value": 300
+  },
+  "t_bk_kendhallbookofriddlespc": {
+    "value": 50
+  },
+  "t_bk_kingedwardtr_v01": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v02": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v03": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v04": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v05": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v06": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v07": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v08": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v09": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v10": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v11": {
+    "value": 250
+  },
+  "t_bk_kingedwardtr_v12": {
+    "value": 250
+  },
+  "t_bk_kinghelsethbiographytr": {
+    "value": 35
+  },
+  "t_bk_knightsoftheninepc": {
+    "value": 140
+  },
+  "t_bk_laidlowtr": {
+    "value": 200
+  },
+  "t_bk_lamentationstr": {
+    "value": 20
+  },
+  "t_bk_lamentforpelinaltr": {
+    "value": 35
+  },
+  "t_bk_languageofbirdspc": {
+    "value": 150
+  },
+  "t_bk_lastdartofthescholartr": {
+    "value": 60
+  },
+  "t_bk_lastkingoftheayleidspc": {
+    "value": 75
+  },
+  "t_bk_lastkingoftheayleidsshotn": {
+    "value": 75
+  },
+  "t_bk_laststorysirofshotn": {
+    "value": 40
+  },
+  "t_bk_lawandthewillpc": {
+    "value": 220
+  },
+  "t_bk_legalbasicsanchiviusshotn": {
+    "value": 200
+  },
+  "t_bk_legalbasicsanchiviustr": {
+    "value": 75
+  },
+  "t_bk_legendarycitysancretorpc": {
+    "value": 100
+  },
+  "t_bk_legendarycitysancretrshotn": {
+    "value": 100
+  },
+  "t_bk_legendaryscourgeshotn": {
+    "value": 200
+  },
+  "t_bk_legendkratelyhousepc": {
+    "value": 135
+  },
+  "t_bk_legendofredeagleshotn": {
+    "value": 150
+  },
+  "t_bk_legendsathalwyrmshotn_v1": {
+    "value": 200
+  },
+  "t_bk_legendsathalwyrmshotn_v2": {
+    "value": 200
+  },
+  "t_bk_lessercatechismjulopenpc": {
+    "value": 60
+  },
+  "t_bk_lessercatechismjulpc": {
+    "value": 60
+  },
+  "t_bk_leximperia_01": {
+    "value": 20
+  },
+  "t_bk_leximperia_02": {
+    "value": 20
+  },
+  "t_bk_leximperia_03": {
+    "value": 20
+  },
+  "t_bk_leximperia_04": {
+    "value": 20
+  },
+  "t_bk_leximperia_05": {
+    "value": 20
+  },
+  "t_bk_leximperia_06": {
+    "value": 20
+  },
+  "t_bk_leximperia_07": {
+    "value": 20
+  },
+  "t_bk_lichdomtrapescapeopentr": {
+    "value": 300
+  },
+  "t_bk_lichdomtrapescapetr": {
+    "value": 300
+  },
+  "t_bk_lifeandtheanimatehr": {
+    "value": 150
+  },
+  "t_bk_lifecycledreughpc": {
+    "value": 50
+  },
+  "t_bk_lightarmorrepairpc": {
+    "value": 100
+  },
+  "t_bk_likeinthedealtr": {
+    "value": 200
+  },
+  "t_bk_lilyofdibellashotn": {
+    "value": 200
+  },
+  "t_bk_liminalbridgespc": {
+    "value": 225
+  },
+  "t_bk_lineofemperorspc_v01": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v02": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v03": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v04": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v05": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v06": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v07": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v08": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v09": {
+    "value": 80
+  },
+  "t_bk_lineofemperorspc_v10": {
+    "value": 40
+  },
+  "t_bk_loathsomecvilisationpc": {
+    "value": 120
+  },
+  "t_bk_lockedcellartr": {
+    "value": 250
+  },
+  "t_bk_lordjornibretslastdshotn": {
+    "value": 300
+  },
+  "t_bk_lostandfoundinthereachhr": {
+    "value": 100
+  },
+  "t_bk_loverslamenttr": {
+    "value": 100
+  },
+  "t_bk_lusanimalgodtr": {
+    "value": 20
+  },
+  "t_bk_lyrisiusstoryshotn": {
+    "value": 50
+  },
+  "t_bk_lyrisiusstorytr": {
+    "value": 50
+  },
+  "t_bk_maceetiquetteshotn": {
+    "value": 125
+  },
+  "t_bk_madnessofpelagiusshotn": {
+    "value": 20
+  },
+  "t_bk_magicfromtheskyshotn": {
+    "value": 350
+  },
+  "t_bk_magickamoonsdancertr": {
+    "value": 150
+  },
+  "t_bk_malahkorcstr": {
+    "value": 75
+  },
+  "t_bk_manifestovampyrumpc": {
+    "value": 100
+  },
+  "t_bk_mannimarcoshotn": {
+    "value": 325
+  },
+  "t_bk_manualofarmorpc": {
+    "value": 50
+  },
+  "t_bk_manualofarmspc": {
+    "value": 50
+  },
+  "t_bk_manualofspellcraftpc": {
+    "value": 50
+  },
+  "t_bk_manualredswordpc": {
+    "value": 250
+  },
+  "t_bk_mapsm1-1tr": {
+    "value": 50
+  },
+  "t_bk_mapsm1-2tr": {
+    "value": 50
+  },
+  "t_bk_mapsm2-1tr": {
+    "value": 50
+  },
+  "t_bk_mapsm2-2tr": {
+    "value": 50
+  },
+  "t_bk_mapsm3-1tr": {
+    "value": 50
+  },
+  "t_bk_mapsm3-2tr": {
+    "value": 50
+  },
+  "t_bk_mapsm4-1tr": {
+    "value": 50
+  },
+  "t_bk_mapsm5-1tr": {
+    "value": 50
+  },
+  "t_bk_mapsm6-1tr": {
+    "value": 50
+  },
+  "t_bk_marasteartr": {
+    "value": 40
+  },
+  "t_bk_masonsongtr": {
+    "value": 250
+  },
+  "t_bk_masterwordinducerpc": {
+    "value": 80
+  },
+  "t_bk_meditationsdeterminedlawtr": {
+    "value": 45
+  },
+  "t_bk_metamorphosistr": {
+    "value": 650
+  },
+  "t_bk_middledawnpc": {
+    "value": 300
+  },
+  "t_bk_militarytacticstr": {
+    "value": 100
+  },
+  "t_bk_millioneyedinsectdreamtr": {
+    "value": 260
+  },
+  "t_bk_mineralsofmorrowindtr": {
+    "value": 50
+  },
+  "t_bk_mixedunittactics2": {
+    "value": 25
+  },
+  "t_bk_modernhereticsopenpc": {
+    "value": 50
+  },
+  "t_bk_modernhereticspc": {
+    "value": 50
+  },
+  "t_bk_morrowindmartialartstr": {
+    "value": 150
+  },
+  "t_bk_mostcrueltradetr": {
+    "value": 200
+  },
+  "t_bk_mostinfortunatepartytr": {
+    "value": 150
+  },
+  "t_bk_mothersdiarytr": {
+    "value": 200
+  },
+  "t_bk_murderofcrowspc": {
+    "value": 80
+  },
+  "t_bk_murudiustr": {
+    "value": 65
+  },
+  "t_bk_mwhistoriaandothrentr": {
+    "value": 100
+  },
+  "t_bk_mysteriesofthewormtr": {
+    "value": 250
+  },
+  "t_bk_mysteriousakavirshotn": {
+    "value": 50
+  },
+  "t_bk_mysteryplayoldebonhearttr": {
+    "value": 50
+  },
+  "t_bk_mysticpathemperoropenpc": {
+    "value": 220
+  },
+  "t_bk_mysticpathemperorpc": {
+    "value": 220
+  },
+  "t_bk_namesofmothercyrodtr": {
+    "value": 50
+  },
+  "t_bk_narrativeyilgamsehtr_v11": {
+    "value": 50
+  },
+  "t_bk_narrativeyilgamsehtr_v12": {
+    "value": 50
+  },
+  "t_bk_nedesofthedeathlandspc": {
+    "value": 80
+  },
+  "t_bk_noblemansgardentr": {
+    "value": 85
+  },
+  "t_bk_nobletrickstr": {
+    "value": 15
+  },
+  "t_bk_nordicproverbstr": {
+    "value": 60
+  },
+  "t_bk_nordssummarythereachshotn": {
+    "value": 30
+  },
+  "t_bk_notebooktempclose_01": {
+    "value": 10
+  },
+  "t_bk_notebooktempclose_02": {
+    "value": 10
+  },
+  "t_bk_notebooktempclose_03": {
+    "value": 10
+  },
+  "t_bk_notebooktempclose_04": {
+    "value": 10
+  },
+  "t_bk_notebooktempclose_05": {
+    "value": 10
+  },
+  "t_bk_notebooktempopen_01": {
+    "value": 10
+  },
+  "t_bk_notebooktempopen_02": {
+    "value": 10
+  },
+  "t_bk_notesforredguardhistorytr": {
+    "value": 50
+  },
+  "t_bk_notesracialphylogenyshotn": {
+    "value": 275
+  },
+  "t_bk_odetundrastridersshotn": {
+    "value": 25
+  },
+  "t_bk_oelandershammershotn": {
+    "value": 200
+  },
+  "t_bk_oelandershammertr": {
+    "value": 55
+  },
+  "t_bk_offireantsandhoomstr": {
+    "value": 175
+  },
+  "t_bk_offjoriandholgirshotn": {
+    "value": 30
+  },
+  "t_bk_ofjephretr": {
+    "value": 25
+  },
+  "t_bk_ofunspeakablevolumestr": {
+    "value": 100
+  },
+  "t_bk_olafandthedragonshotn": {
+    "value": 150
+  },
+  "t_bk_oldfjorithecoveshotn": {
+    "value": 40
+  },
+  "t_bk_oldmanoftheashlandstr": {
+    "value": 80
+  },
+  "t_bk_oldwaysshotn": {
+    "value": 40
+  },
+  "t_bk_olgolgromuksprivatenotestr": {
+    "value": 200
+  },
+  "t_bk_onartaeumopenpc": {
+    "value": 25
+  },
+  "t_bk_onartaeumpc": {
+    "value": 25
+  },
+  "t_bk_ondaedricdesigntr": {
+    "value": 150
+  },
+  "t_bk_onimmortalitypc": {
+    "value": 80
+  },
+  "t_bk_onlycanthropyshotn": {
+    "value": 200
+  },
+  "t_bk_onlycanthropytr": {
+    "value": 55
+  },
+  "t_bk_onmorrowindshotn": {
+    "value": 40
+  },
+  "t_bk_onnecromanypc": {
+    "value": 120
+  },
+  "t_bk_onoblivionshotn": {
+    "value": 40
+  },
+  "t_bk_onperfectionofguartr": {
+    "value": 35
+  },
+  "t_bk_onpuritytr": {
+    "value": 250
+  },
+  "t_bk_onsericultureopenpc": {
+    "value": 160
+  },
+  "t_bk_onsericulturepc": {
+    "value": 160
+  },
+  "t_bk_onthedefinitionofheresytr": {
+    "value": 200
+  },
+  "t_bk_ontheevilsofheresytr": {
+    "value": 200
+  },
+  "t_bk_ontheimportanceheresytr": {
+    "value": 200
+  },
+  "t_bk_onthemovetr": {
+    "value": 150
+  },
+  "t_bk_orccreationstorytr": {
+    "value": 80
+  },
+  "t_bk_orcsurancetr": {
+    "value": 250
+  },
+  "t_bk_ordolanesbestiarytr_v09": {
+    "value": 60
+  },
+  "t_bk_ordolanesbestiarytr_v11": {
+    "value": 60
+  },
+  "t_bk_ordolanesbestiarytr_v17": {
+    "value": 60
+  },
+  "t_bk_originashyamtr": {
+    "value": 100
+  },
+  "t_bk_originofthesloadshotn": {
+    "value": 200
+  },
+  "t_bk_originsoftherakishotn": {
+    "value": 60
+  },
+  "t_bk_paintedpeoplestr": {
+    "value": 25
+  },
+  "t_bk_pearlbetwixtempires_01tr": {
+    "value": 250
+  },
+  "t_bk_pearlbetwixtempires_02tr": {
+    "value": 250
+  },
+  "t_bk_pensionancestormothpc": {
+    "value": 75
+  },
+  "t_bk_peoplesofthereachshotn": {
+    "value": 40
+  },
+  "t_bk_persistencedaedricvenerapc": {
+    "value": 80
+  },
+  "t_bk_physicalitieswerewolvespc": {
+    "value": 150
+  },
+  "t_bk_pigchildrenshotn": {
+    "value": 100
+  },
+  "t_bk_pocketguide1pc": {
+    "value": 20
+  },
+  "t_bk_politicalhierarchyskyshotn": {
+    "value": 40
+  },
+  "t_bk_portofanvilpc": {
+    "value": 50
+  },
+  "t_bk_postinghuntshotn": {
+    "value": 200
+  },
+  "t_bk_privilegesofthedeadpc": {
+    "value": 150
+  },
+  "t_bk_properlockdesignpc": {
+    "value": 30
+  },
+  "t_bk_provincestamrielshotn": {
+    "value": 60
+  },
+  "t_bk_purloinedshadowsshotn": {
+    "value": 215
+  },
+  "t_bk_quarterpalmliturgypc": {
+    "value": 200
+  },
+  "t_bk_radrstagkingshotn": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v1": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v2": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v3": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v4": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v5": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v6": {
+    "value": 150
+  },
+  "t_bk_raidpyandoneashotn_v7": {
+    "value": 150
+  },
+  "t_bk_rainofsandtr": {
+    "value": 75
+  },
+  "t_bk_realbarenziahhr_v2_uncens": {
+    "value": 20
+  },
+  "t_bk_reality&otherfalsehoodspc": {
+    "value": 215
+  },
+  "t_bk_realmeaningoflifetr": {
+    "value": 40
+  },
+  "t_bk_reaversongsshotn_v1": {
+    "value": 60
+  },
+  "t_bk_reaversongsshotn_v2": {
+    "value": 60
+  },
+  "t_bk_reaversongsshotn_v3": {
+    "value": 60
+  },
+  "t_bk_recordingheadsopentr": {
+    "value": 100
+  },
+  "t_bk_recordingheadstr": {
+    "value": 100
+  },
+  "t_bk_redbookriddlesshotn": {
+    "value": 50
+  },
+  "t_bk_redemptiontr_v1": {
+    "value": 40
+  },
+  "t_bk_redemptiontr_v2": {
+    "value": 40
+  },
+  "t_bk_redemptiontr_v3": {
+    "value": 40
+  },
+  "t_bk_redemptiontr_v4": {
+    "value": 40
+  },
+  "t_bk_redemptiontr_v5": {
+    "value": 40
+  },
+  "t_bk_redguardstheirhistoryshotn": {
+    "value": 270
+  },
+  "t_bk_redguardstheirhistorytr": {
+    "value": 200
+  },
+  "t_bk_redkitchenreaderpc": {
+    "value": 215
+  },
+  "t_bk_refugeesshotn": {
+    "value": 140
+  },
+  "t_bk_regardsdunmerchitintr": {
+    "value": 75
+  },
+  "t_bk_regrettr": {
+    "value": 20
+  },
+  "t_bk_remanadapc": {
+    "value": 150
+  },
+  "t_bk_remanadashotn": {
+    "value": 150
+  },
+  "t_bk_remanadatr_v1": {
+    "value": 20
+  },
+  "t_bk_remanadatr_v2": {
+    "value": 20
+  },
+  "t_bk_remansonofreman": {
+    "value": 50
+  },
+  "t_bk_restlessnorthshotn_v1": {
+    "value": 30
+  },
+  "t_bk_restlessnorthshotn_v2": {
+    "value": 30
+  },
+  "t_bk_restlessnorthshotn_v3": {
+    "value": 30
+  },
+  "t_bk_riddlesgoodwmeadshotn": {
+    "value": 50
+  },
+  "t_bk_rislavtherighteouspc": {
+    "value": 200
+  },
+  "t_bk_rislavtherighteousshotn": {
+    "value": 80
+  },
+  "t_bk_rudesongtr": {
+    "value": 30
+  },
+  "t_bk_ruhnaniaalmsivitr": {
+    "value": 350
+  },
+  "t_bk_ruminationselderscrollspc": {
+    "value": 80
+  },
+  "t_bk_sacredwitnessshotn": {
+    "value": 150
+  },
+  "t_bk_saintandlefthandpc": {
+    "value": 180
+  },
+  "t_bk_saintrilmslessontr": {
+    "value": 25
+  },
+  "t_bk_sakapunikatr": {
+    "value": 250
+  },
+  "t_bk_scholarguidetonymphstr": {
+    "value": 20
+  },
+  "t_bk_seaofghostsshotn": {
+    "value": 70
+  },
+  "t_bk_seconddoortr": {
+    "value": 200
+  },
+  "t_bk_seekinghometr": {
+    "value": 150
+  },
+  "t_bk_sermonofthesaintstr": {
+    "value": 50
+  },
+  "t_bk_sermonzerotr": {
+    "value": 200
+  },
+  "t_bk_sevenfightsaldudagshotn_v1": {
+    "value": 80
+  },
+  "t_bk_sevenfightsaldudagshotn_v2": {
+    "value": 80
+  },
+  "t_bk_sevenfightsaldudagshotn_v3": {
+    "value": 80
+  },
+  "t_bk_sevenfightsaldudagshotn_v6": {
+    "value": 80
+  },
+  "t_bk_sevenfightsaldudagtr_v1": {
+    "value": 70
+  },
+  "t_bk_sevenfightsaldudagtr_v2": {
+    "value": 70
+  },
+  "t_bk_sevenfightsaldudagtr_v3": {
+    "value": 70
+  },
+  "t_bk_sevenfightsaldudagtr_v6": {
+    "value": 70
+  },
+  "t_bk_sevenpennantstr": {
+    "value": 300
+  },
+  "t_bk_sevenvarietiesshadowstr": {
+    "value": 150
+  },
+  "t_bk_sheogorathmusicshotn": {
+    "value": 20
+  },
+  "t_bk_shezarrandthedivinesopenpc": {
+    "value": 115
+  },
+  "t_bk_shezarrandthedivinespc": {
+    "value": 115
+  },
+  "t_bk_shezarrandthedivinesshotn": {
+    "value": 115
+  },
+  "t_bk_shezarrssongopenpc": {
+    "value": 300
+  },
+  "t_bk_shezarrssongpc": {
+    "value": 300
+  },
+  "t_bk_shoresofdwynnentr": {
+    "value": 55
+  },
+  "t_bk_shorsonofshortr": {
+    "value": 50
+  },
+  "t_bk_shorthistoryempirespc": {
+    "value": 50
+  },
+  "t_bk_sixtruthsofshadowshotn": {
+    "value": 300
+  },
+  "t_bk_skindeeptr": {
+    "value": 60
+  },
+  "t_bk_skylampnighttr": {
+    "value": 25
+  },
+  "t_bk_smallkindnesstr": {
+    "value": 200
+  },
+  "t_bk_softdoctrinesofmagnustr": {
+    "value": 40
+  },
+  "t_bk_songaskeldemenshotn": {
+    "value": 30
+  },
+  "t_bk_songofhrormirshotn": {
+    "value": 295
+  },
+  "t_bk_songofpelinalshotn": {
+    "value": 250
+  },
+  "t_bk_songofpelinaltr_v1": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v2": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v3": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v4": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v5": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v6": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v7": {
+    "value": 100
+  },
+  "t_bk_songofpelinaltr_v8": {
+    "value": 100
+  },
+  "t_bk_songofthelabyrinthshotn": {
+    "value": 50
+  },
+  "t_bk_songofthereturnshotn_v02": {
+    "value": 150
+  },
+  "t_bk_songofthereturnshotn_v07": {
+    "value": 150
+  },
+  "t_bk_songofthereturnshotn_v19": {
+    "value": 150
+  },
+  "t_bk_songofthereturnshotn_v24": {
+    "value": 150
+  },
+  "t_bk_songofthereturnshotn_v56": {
+    "value": 150
+  },
+  "t_bk_songskingwulfharthshotn": {
+    "value": 30
+  },
+  "t_bk_songsofstuportr": {
+    "value": 60
+  },
+  "t_bk_soulsblackandwhiteshotn": {
+    "value": 180
+  },
+  "t_bk_spawnofashtr": {
+    "value": 70
+  },
+  "t_bk_specialfloratamrielshotn": {
+    "value": 25
+  },
+  "t_bk_spectrumstudytr": {
+    "value": 300
+  },
+  "t_bk_stirkhistoriespc": {
+    "value": 20
+  },
+  "t_bk_studylockednoveltr": {
+    "value": 115
+  },
+  "t_bk_studyondreughstr": {
+    "value": 35
+  },
+  "t_bk_studyonguarstr": {
+    "value": 50
+  },
+  "t_bk_sudiangqergotr": {
+    "value": 50
+  },
+  "t_bk_suppositionoffreedomtr": {
+    "value": 150
+  },
+  "t_bk_taleofdrozirapc": {
+    "value": 150
+  },
+  "t_bk_taleofkingvragesonstr": {
+    "value": 125
+  },
+  "t_bk_talesofkierantr": {
+    "value": 150
+  },
+  "t_bk_talhjoldeshotn_v1": {
+    "value": 40
+  },
+  "t_bk_talhjoldeshotn_v2": {
+    "value": 40
+  },
+  "t_bk_talhjoldeshotn_v3": {
+    "value": 40
+  },
+  "t_bk_talhjoldeshotn_v4": {
+    "value": 40
+  },
+  "t_bk_talhjoldeshotn_v5": {
+    "value": 40
+  },
+  "t_bk_talkingguarofvhul_itr": {
+    "value": 100
+  },
+  "t_bk_talkingguarofvhuli_itr": {
+    "value": 100
+  },
+  "t_bk_talosdragonbumtr": {
+    "value": 30
+  },
+  "t_bk_tasteofsugartr": {
+    "value": 200
+  },
+  "t_bk_teachingsmasterstudenttr": {
+    "value": 100
+  },
+  "t_bk_teleportationpraxispc_v1": {
+    "value": 120
+  },
+  "t_bk_teleportationpraxispc_v2": {
+    "value": 120
+  },
+  "t_bk_teleportationpraxispc_v3": {
+    "value": 120
+  },
+  "t_bk_telvanniconstructiontr": {
+    "value": 50
+  },
+  "t_bk_tencommandmentspc": {
+    "value": 10
+  },
+  "t_bk_thealikrshotn": {
+    "value": 170
+  },
+  "t_bk_thealikrtr": {
+    "value": 30
+  },
+  "t_bk_theebonarmtr": {
+    "value": 40
+  },
+  "t_bk_thefaerietr": {
+    "value": 20
+  },
+  "t_bk_thefaithfultr": {
+    "value": 460
+  },
+  "t_bk_thefirstscrollofbaandartr": {
+    "value": 55
+  },
+  "t_bk_thefourtr": {
+    "value": 50
+  },
+  "t_bk_thegrandallianceshotn_v1": {
+    "value": 50
+  },
+  "t_bk_thegrandallianceshotn_v2": {
+    "value": 50
+  },
+  "t_bk_thegrandallianceshotn_v3": {
+    "value": 50
+  },
+  "t_bk_thegrandallianceshotn_v4": {
+    "value": 50
+  },
+  "t_bk_thelanternthieftr": {
+    "value": 250
+  },
+  "t_bk_thelightandthedarktr": {
+    "value": 50
+  },
+  "t_bk_thememorystonetr": {
+    "value": 75
+  },
+  "t_bk_thenecklacetr": {
+    "value": 50
+  },
+  "t_bk_theoriginofvampirestr": {
+    "value": 175
+  },
+  "t_bk_theperyitonvol1closetr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol1opentr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol2closetr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol2opentr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol3closetr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol3opentr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol4closetr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol4opentr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol5closetr": {
+    "value": 200
+  },
+  "t_bk_theperyitonvol5opentr": {
+    "value": 200
+  },
+  "t_bk_thepurposeofthecorkbulbtr": {
+    "value": 100
+  },
+  "t_bk_thesageshotn": {
+    "value": 300
+  },
+  "t_bk_thesagetr": {
+    "value": 150
+  },
+  "t_bk_theseasonstr": {
+    "value": 175
+  },
+  "t_bk_thetormentklauseintr_v1": {
+    "value": 250
+  },
+  "t_bk_thetormentklauseintr_v2": {
+    "value": 300
+  },
+  "t_bk_theuprisingstr_v1": {
+    "value": 40
+  },
+  "t_bk_theuprisingstr_v2": {
+    "value": 40
+  },
+  "t_bk_theworshipofashlanderstr": {
+    "value": 50
+  },
+  "t_bk_thirddoorshotn": {
+    "value": 250
+  },
+  "t_bk_thirskhistoryshotn": {
+    "value": 75
+  },
+  "t_bk_tometempclose_01": {
+    "value": 80
+  },
+  "t_bk_tometempclose_02": {
+    "value": 80
+  },
+  "t_bk_tometempclose_03": {
+    "value": 80
+  },
+  "t_bk_tometempclose_04": {
+    "value": 80
+  },
+  "t_bk_tometempclose_05": {
+    "value": 80
+  },
+  "t_bk_tometempclose_06": {
+    "value": 200
+  },
+  "t_bk_tometempopen_01": {
+    "value": 80
+  },
+  "t_bk_tometempopen_02": {
+    "value": 80
+  },
+  "t_bk_toolsofthetradetr": {
+    "value": 50
+  },
+  "t_bk_traditionalsloadtaletr": {
+    "value": 20
+  },
+  "t_bk_travelsoftyaldirennipc": {
+    "value": 140
+  },
+  "t_bk_treatisecalcinatoruseshotn": {
+    "value": 250
+  },
+  "t_bk_trialssaintalessiaopenpc": {
+    "value": 45
+  },
+  "t_bk_trialssaintalessiapc": {
+    "value": 45
+  },
+  "t_bk_truefolktr": {
+    "value": 30
+  },
+  "t_bk_trueintrospectionhlaalutr": {
+    "value": 30
+  },
+  "t_bk_trueintrospectionindoriltr": {
+    "value": 30
+  },
+  "t_bk_trueintrospectionredorantr": {
+    "value": 30
+  },
+  "t_bk_truejusticetr": {
+    "value": 250
+  },
+  "t_bk_truenatureorcsshotn": {
+    "value": 30
+  },
+  "t_bk_truesapiencedresnobilitytr": {
+    "value": 30
+  },
+  "t_bk_truetelvanninobilitytr": {
+    "value": 30
+  },
+  "t_bk_truthofthebearclanshotn": {
+    "value": 30
+  },
+  "t_bk_twostancesonknifetr": {
+    "value": 180
+  },
+  "t_bk_uni_alessiandoctrinespc": {
+    "value": 50000
+  },
+  "t_bk_uni_deadricseptistr": {
+    "value": 25000
+  },
+  "t_bk_uni_fishystickpc": {
+    "value": 5
+  },
+  "t_bk_uni_thrassiancampaignpc": {
+    "value": 500
+  },
+  "t_bk_unseenpeopletr": {
+    "value": 65
+  },
+  "t_bk_uprisingalmalexiatr": {
+    "value": 200
+  },
+  "t_bk_val-staagvesturholashotn": {
+    "value": 150
+  },
+  "t_bk_vampiresilliacbaytr_v1": {
+    "value": 50
+  },
+  "t_bk_vampiresilliacbaytr_v2": {
+    "value": 100
+  },
+  "t_bk_varietiesofthoughttr_v1": {
+    "value": 100
+  },
+  "t_bk_varietiesofthoughttr_v2": {
+    "value": 100
+  },
+  "t_bk_varietiesofthoughttr_v3": {
+    "value": 100
+  },
+  "t_bk_vindicationdragonbreakpc": {
+    "value": 160
+  },
+  "t_bk_visionsofkallisttr_v73-74": {
+    "value": 0
+  },
+  "t_bk_voyagethreewinds1shotn": {
+    "value": 65
+  },
+  "t_bk_voyagethreewinds2shotn": {
+    "value": 65
+  },
+  "t_bk_vvardenfellsepidemictr": {
+    "value": 25
+  },
+  "t_bk_wabbajackshotn": {
+    "value": 50
+  },
+  "t_bk_wabbajacktr": {
+    "value": 250
+  },
+  "t_bk_warmthtr": {
+    "value": 70
+  },
+  "t_bk_warofhonortr": {
+    "value": 50
+  },
+  "t_bk_warofthebirdspc": {
+    "value": 120
+  },
+  "t_bk_warpedwesttr": {
+    "value": 600
+  },
+  "t_bk_warpinthewestpc": {
+    "value": 300
+  },
+  "t_bk_warriorschargeshotn": {
+    "value": 325
+  },
+  "t_bk_warshoredreughshotn": {
+    "value": 70
+  },
+  "t_bk_watergettinggirltr_v1": {
+    "value": 50
+  },
+  "t_bk_watersofoblivionshotn": {
+    "value": 250
+  },
+  "t_bk_wayoftheexposedpalmpc": {
+    "value": 125
+  },
+  "t_bk_wayrestjewelofthebaypc": {
+    "value": 120
+  },
+  "t_bk_wealthofwayresttr_v1": {
+    "value": 150
+  },
+  "t_bk_wealthofwayresttr_v2": {
+    "value": 150
+  },
+  "t_bk_wealthofwayresttr_v3": {
+    "value": 150
+  },
+  "t_bk_wealthofwayresttr_v4": {
+    "value": 150
+  },
+  "t_bk_weateittobecomeittr": {
+    "value": 100
+  },
+  "t_bk_weightofguilttr": {
+    "value": 300
+  },
+  "t_bk_weirgatememorandumpc": {
+    "value": 60
+  },
+  "t_bk_welcometothearenatr": {
+    "value": 30
+  },
+  "t_bk_whitebook3e426tr": {
+    "value": 60
+  },
+  "t_bk_wildelvesshotn": {
+    "value": 35
+  },
+  "t_bk_windhelmlettersshotn": {
+    "value": 60
+  },
+  "t_bk_wolfqueenshotn_v1": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v2": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v3": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v4": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v5": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v6": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v7": {
+    "value": 250
+  },
+  "t_bk_wolfqueenshotn_v8": {
+    "value": 250
+  },
+  "t_bk_woodcutterswifeshotn": {
+    "value": 150
+  },
+  "t_bk_xahxesgiftshotn_v1": {
+    "value": 60
+  },
+  "t_bk_xahxesgiftshotn_v2": {
+    "value": 60
+  },
+  "t_bk_xahxesgiftshotn_v3": {
+    "value": 60
+  },
+  "t_bk_yellowbookriddlesshotn": {
+    "value": 30
+  },
+  "t_bk_yngolandtheseaghostsshotn": {
+    "value": 150
+  },
+  "t_bkfaction_darkbrotherhshotn": {
+    "value": 10
+  },
+  "t_bkfaction_fightersguildpc": {
+    "value": 30
+  },
+  "t_bkfaction_fightersguildshotn": {
+    "value": 30
+  },
+  "t_bkfaction_impculttr": {
+    "value": 50
+  },
+  "t_bkfaction_imperialcultshotn": {
+    "value": 30
+  },
+  "t_bkfaction_imperiallegionpc": {
+    "value": 30
+  },
+  "t_bkfaction_imperiallegionshotn": {
+    "value": 30
+  },
+  "t_bkfaction_magesguildpc": {
+    "value": 30
+  },
+  "t_bkfaction_magesguildshotn": {
+    "value": 30
+  },
+  "t_bkgen_blankledger01": {
+    "value": 1
+  },
+  "t_bkgen_briricca accounts01": {
+    "value": 80
+  },
+  "t_bkgen_businessledger_01": {
+    "value": 2
+  },
+  "t_bkgen_businessledger_02": {
+    "value": 2
+  },
+  "t_bkgen_businessledger_03": {
+    "value": 2
+  },
+  "t_bkgen_businessledgeropen_03": {
+    "value": 2
+  },
+  "t_bkgen_censusrecord_01": {
+    "value": 4
+  },
+  "t_bkgen_courtverdicts_01": {
+    "value": 2
+  },
+  "t_bkgen_courtverdicts_02": {
+    "value": 2
+  },
+  "t_bkgen_courtverdicts_03": {
+    "value": 4
+  },
+  "t_bkgen_eecaccount_01": {
+    "value": 5
+  },
+  "t_bkgen_eecaccount_02": {
+    "value": 5
+  },
+  "t_bkgen_eecarticlesofinc": {
+    "value": 5
+  },
+  "t_bkgen_eecbylaws_01": {
+    "value": 5
+  },
+  "t_bkgen_eecexport_01": {
+    "value": 5
+  },
+  "t_bkgen_eecimport_01": {
+    "value": 5
+  },
+  "t_bkgen_eecoffice_01": {
+    "value": 5
+  },
+  "t_bkgen_eecship_01": {
+    "value": 5
+  },
+  "t_bkgen_eecship_02": {
+    "value": 5
+  },
+  "t_bkgen_legioncasualties_01": {
+    "value": 10
+  },
+  "t_bkgen_legionservicerecord_01": {
+    "value": 5
+  },
+  "t_bkgen_messageregistry_01": {
+    "value": 2
+  },
+  "t_bkgen_messageregistry_02": {
+    "value": 2
+  },
+  "t_bkgen_navycasualties_01": {
+    "value": 10
+  },
+  "t_bkgen_navyrecord_01": {
+    "value": 5
+  },
+  "t_bkgen_navyrecord_02": {
+    "value": 0
+  },
+  "t_bkgen_navyservicerecord_01": {
+    "value": 5
+  },
+  "t_bkgen_notebook_01": {
+    "value": 2
+  },
+  "t_bkgen_notebook_02": {
+    "value": 2
+  },
+  "t_bkgen_prisonledger_01": {
+    "value": 2
+  },
+  "t_bkgen_shippinglog_02": {
+    "value": 0
+  },
+  "t_bkgen_tradeinventory_02": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest_01": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest_02": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest_03": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest_04": {
+    "value": 2
+  },
+  "t_bkgen_trademanifest_05": {
+    "value": 2
+  },
+  "t_bkgen_visitorlist_01": {
+    "value": 2
+  },
+  "t_bkgen_visitorlist_02": {
+    "value": 2
+  },
+  "t_bkuni_oghmainfinium": {
+    "value": 50000
+  },
+  "t_sc_ralenrothadasmemoirtr": {
+    "value": 200
+  },
+  "tr_aimrahic6_keeperslog": {
+    "value": 10
+  },
+  "tr_aimrahic6_keeperslog2": {
+    "value": 10
+  },
+  "tr_aimrahic6_sermon28revised": {
+    "value": 30
+  },
+  "tr_bk-m2-56-delynmanuscript": {
+    "value": 4000
+  },
+  "tr_bk_i2-25-bonewalkerbook": {
+    "value": 100
+  },
+  "tr_bk_i2-25_temple-corpse-prep": {
+    "value": 12
+  },
+  "tr_bk_i2-428_houseshonored": {
+    "value": 50
+  },
+  "tr_bk_m2_i2-437-tri_chronicle": {
+    "value": 15
+  },
+  "tr_bk_m2_i2-437-tri_ledger": {
+    "value": 15
+  },
+  "tr_bk_m2_i2-437-tri_ledger2": {
+    "value": 15
+  },
+  "tr_bk_m2_i2-437-tri_ledger2uni": {
+    "value": 50
+  },
+  "tr_bk_m2_i2-437-tri_ledger4c": {
+    "value": 15
+  },
+  "tr_bk_m2_i2-437-tri_ledger4o": {
+    "value": 15
+  },
+  "tr_bk_m2_i2-437-tri_ledger5": {
+    "value": 15
+  },
+  "tr_bk_m2_i3-437-tri_freportm": {
+    "value": 10
+  },
+  "tr_bk_m3_nethril-records": {
+    "value": 0
+  },
+  "tr_bk_m4-290-ledger": {
+    "value": 0
+  },
+  "tr_bk_m4-327_ledger": {
+    "value": 0
+  },
+  "tr_bk_obituary_i2-428-tri": {
+    "value": 100
+  },
+  "tr_i2-427_bklament": {
+    "value": 20
+  },
+  "tr_i2_16 eggmines ledger": {
+    "value": 10
+  },
+  "tr_i2_238_bk_rogue_indoril": {
+    "value": 10
+  },
+  "tr_i2_238_bk_scrollledger": {
+    "value": 1
+  },
+  "tr_i2_9_arazanos lyrics": {
+    "value": 150
+  },
+  "tr_i3-277_records": {
+    "value": 0
+  },
+  "tr_i3-287_bk_confi_ledger-o": {
+    "value": 0
+  },
+  "tr_i3-287_bk_navy_ledger-c": {
+    "value": 0
+  },
+  "tr_i3-287_bk_navy_ledger-o": {
+    "value": 0
+  },
+  "tr_i3-374-hla_logbook": {
+    "value": 0
+  },
+  "tr_i3-542_tattered_journal": {
+    "value": 3
+  },
+  "tr_i3-685_thetaleofbloodstonesh": {
+    "value": 300
+  },
+  "tr_i3-688_shippingledger": {
+    "value": 40
+  },
+  "tr_i3-729_bk_miningledger": {
+    "value": 30
+  },
+  "tr_i4-256-hla_recordbook1": {
+    "value": 0
+  },
+  "tr_m1_bk_bo_prisonlog": {
+    "value": 0
+  },
+  "tr_m1_bk_bowmanjournal_siridun": {
+    "value": 25
+  },
+  "tr_m1_bk_fw_export_ledger_01": {
+    "value": 1
+  },
+  "tr_m1_bk_fw_export_ledger_02": {
+    "value": 1
+  },
+  "tr_m1_bk_fw_import_ledger_01": {
+    "value": 1
+  },
+  "tr_m1_bk_fw_import_ledger_02": {
+    "value": 1
+  },
+  "tr_m1_bk_fw_shipping_log_01": {
+    "value": 1
+  },
+  "tr_m1_bk_fw_shipping_log_02": {
+    "value": 1
+  },
+  "tr_m1_bk_gilanspeech_uni": {
+    "value": 350
+  },
+  "tr_m1_bk_i1-36": {
+    "value": 40
+  },
+  "tr_m1_bk_icebreaker_prisonlog": {
+    "value": 0
+  },
+  "tr_m1_bk_plain": {
+    "value": 10
+  },
+  "tr_m1_bk_queenscutlassguests": {
+    "value": 1
+  },
+  "tr_m1_bk_rr_einnisa_diary": {
+    "value": 100
+  },
+  "tr_m1_bk_rr_minelist": {
+    "value": 0
+  },
+  "tr_m1_bk_silverserpentjournal": {
+    "value": 275
+  },
+  "tr_m1_bk_t_vault_ledger": {
+    "value": 0
+  },
+  "tr_m1_bk_t_visitor_book": {
+    "value": 0
+  },
+  "tr_m1_bk_therealbarenziahii": {
+    "value": 200
+  },
+  "tr_m1_bk_to_mm_log": {
+    "value": 10
+  },
+  "tr_m1_briricca_accounts": {
+    "value": 10
+  },
+  "tr_m1_fw_antonirecords": {
+    "value": 10
+  },
+  "tr_m1_fw_briricca_vaults": {
+    "value": 50
+  },
+  "tr_m1_fw_college_enrollmentlog": {
+    "value": 10
+  },
+  "tr_m1_fw_mg_absolonnotebook": {
+    "value": 50
+  },
+  "tr_m1_fw_mgencryptionkeys": {
+    "value": 80
+  },
+  "tr_m1_fw_palace_householdrecord": {
+    "value": 30
+  },
+  "tr_m1_fw_palace_treasuryrecords": {
+    "value": 20
+  },
+  "tr_m1_n1_bk_i1-34-tel_eggs": {
+    "value": 0
+  },
+  "tr_m1_q_azariahledgerfaked": {
+    "value": 0
+  },
+  "tr_m1_q_azariahledgernorm": {
+    "value": 0
+  },
+  "tr_m1_q_officialptrrledgers": {
+    "value": 0
+  },
+  "tr_m1_telgilan_ledger": {
+    "value": 0
+  },
+  "tr_m2_445_mysteriesworm": {
+    "value": 250
+  },
+  "tr_m2_bk_ak_prison_log": {
+    "value": 0
+  },
+  "tr_m2_bk_captainslog_i2-279": {
+    "value": 20
+  },
+  "tr_m2_bk_exclog": {
+    "value": 50
+  },
+  "tr_m2_bk_htl_guarherdart_mc_c": {
+    "value": 40
+  },
+  "tr_m2_bk_htl_realbarenziah4_o": {
+    "value": 20
+  },
+  "tr_m2_bk_htl_specialflora_o": {
+    "value": 25
+  },
+  "tr_m2_bk_jail-log_i393": {
+    "value": 250
+  },
+  "tr_m2_bk_loe_hebook4": {
+    "value": 30
+  },
+  "tr_m2_bk_loe_hebook5": {
+    "value": 1
+  },
+  "tr_m2_bk_loe_herecordbook2": {
+    "value": 20
+  },
+  "tr_m2_bk_loe_herecordbook3": {
+    "value": 15
+  },
+  "tr_m2_bk_ma_records_book": {
+    "value": 1
+  },
+  "tr_m2_bk_nchaz_boiler": {
+    "value": 150
+  },
+  "tr_m2_bk_nchaz_crush": {
+    "value": 100
+  },
+  "tr_m2_bk_nchaz_lime": {
+    "value": 150
+  },
+  "tr_m2_bk_nchaz_mining": {
+    "value": 100
+  },
+  "tr_m2_bk_sa_he_prison_ledger": {
+    "value": 0
+  },
+  "tr_m2_bk_sa_he_prison_ledger_2": {
+    "value": 0
+  },
+  "tr_m2_bk_tomaril_list": {
+    "value": 50
+  },
+  "tr_m2_book_armorer_i323": {
+    "value": 10
+  },
+  "tr_m2_book_command_i323": {
+    "value": 10
+  },
+  "tr_m2_book_prison_record_i323": {
+    "value": 0
+  },
+  "tr_m2_he_tg2_ledger": {
+    "value": 0
+  },
+  "tr_m2_he_tg3_codebook": {
+    "value": 50
+  },
+  "tr_m2_he_tg_mergenote1": {
+    "value": 0
+  },
+  "tr_m2_htl_alchemistsformulary_c": {
+    "value": 300
+  },
+  "tr_m2_htl_ancestorsanddunmer_o": {
+    "value": 25
+  },
+  "tr_m2_htl_blasphemousrevenant_c": {
+    "value": 55
+  },
+  "tr_m2_htl_bookoflifeandservice": {
+    "value": 40
+  },
+  "tr_m2_htl_tamrielicreligions_o": {
+    "value": 40
+  },
+  "tr_m2_i2_384_bk_captainslog": {
+    "value": 1
+  },
+  "tr_m2_i2_384_bk_log1": {
+    "value": 1
+  },
+  "tr_m2_ledger1_i2-414-tri": {
+    "value": 0
+  },
+  "tr_m2_ledger1_i2-77-tri": {
+    "value": 0
+  },
+  "tr_m2_ledger2_i2-414-tri": {
+    "value": 25
+  },
+  "tr_m2_ledger2_i2-77-tri": {
+    "value": 0
+  },
+  "tr_m2_ledger3_i2-414-tri": {
+    "value": 150
+  },
+  "tr_m2_ledger3_i2-77-tri": {
+    "value": 0
+  },
+  "tr_m2_ledger4_i2-77-tri": {
+    "value": 0
+  },
+  "tr_m2_ledger5_i1-77-tri": {
+    "value": 30
+  },
+  "tr_m2_q_28_1_clibergus_ledger": {
+    "value": 0
+  },
+  "tr_m2_q_6_felpoem": {
+    "value": 80
+  },
+  "tr_m2_q_nisireldiary": {
+    "value": 10
+  },
+  "tr_m2_zafbaycompany_ledger01": {
+    "value": 2
+  },
+  "tr_m3-237_bk_eecaccount": {
+    "value": 50
+  },
+  "tr_m3-239_bk_ledger": {
+    "value": 0
+  },
+  "tr_m3-278_bk_log": {
+    "value": 0
+  },
+  "tr_m3-278_bk_placeholder5": {
+    "value": 0
+  },
+  "tr_m3-281_bk_log": {
+    "value": 0
+  },
+  "tr_m3-283_bk-accounta": {
+    "value": 0
+  },
+  "tr_m3-283_bk-accountb": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecbylaws": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecexport": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecimport": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecincorporation": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecledger": {
+    "value": 0
+  },
+  "tr_m3-283_bk-eecledger2": {
+    "value": 0
+  },
+  "tr_m3-283_bk-minelist": {
+    "value": 0
+  },
+  "tr_m3-283_bk-miningledger": {
+    "value": 0
+  },
+  "tr_m3-283_bk-miningledger2": {
+    "value": 0
+  },
+  "tr_m3-501 bunkhouserecord": {
+    "value": 0
+  },
+  "tr_m3-501 bunkhouserecord2": {
+    "value": 0
+  },
+  "tr_m3-649_placeholderrelibook": {
+    "value": 200
+  },
+  "tr_m3-649_placeholderrelibook_o": {
+    "value": 50
+  },
+  "tr_m3-720_bk-imp_charter": {
+    "value": 30
+  },
+  "tr_m3-770_bk_ce": {
+    "value": 20
+  },
+  "tr_m3-770_bk_ce2": {
+    "value": 20
+  },
+  "tr_m3-et2_bk_blades": {
+    "value": 450
+  },
+  "tr_m3-et2_bk_maintenancelog": {
+    "value": 10
+  },
+  "tr_m3_16accords_i3-471-ind": {
+    "value": 200
+  },
+  "tr_m3_283_bk_bookstock": {
+    "value": 100
+  },
+  "tr_m3_283_bk_eecexport": {
+    "value": 10
+  },
+  "tr_m3_283_bk_eecimport": {
+    "value": 10
+  },
+  "tr_m3_at_literacy_book": {
+    "value": 300
+  },
+  "tr_m3_bk_et-15_study": {
+    "value": 180
+  },
+  "tr_m3_bk_ikinammassulog": {
+    "value": 20
+  },
+  "tr_m3_bk_researchnotes_c_i3-650": {
+    "value": 20
+  },
+  "tr_m3_bk_researchnotes_o_i3-650": {
+    "value": 10
+  },
+  "tr_m3_blank_i3-559-ind": {
+    "value": 1
+  },
+  "tr_m3_blankbook2_i3-559-ind": {
+    "value": 1
+  },
+  "tr_m3_blankbook2o_i3-559-ind": {
+    "value": 1
+  },
+  "tr_m3_briricca_accounts": {
+    "value": 10
+  },
+  "tr_m3_diary_i3-626": {
+    "value": 200
+  },
+  "tr_m3_dreynim_log": {
+    "value": 0
+  },
+  "tr_m3_faircopy10_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopy11_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopy12_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopy13_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopy14_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopy15_i3-559-ind": {
+    "value": 15
+  },
+  "tr_m3_faircopycov_i3-559-ind": {
+    "value": 10
+  },
+  "tr_m3_faircopyfott_i3-559-ind": {
+    "value": 5
+  },
+  "tr_m3_faircopyhfd_i3-559-ind": {
+    "value": 5
+  },
+  "tr_m3_faircopyss_i3-559-ind": {
+    "value": 10
+  },
+  "tr_m3_faircopyta_i3-559-ind": {
+    "value": 5
+  },
+  "tr_m3_faircopytbodad_i3-559-ind": {
+    "value": 5
+  },
+  "tr_m3_faircopyvam_i3-559-ind": {
+    "value": 5
+  },
+  "tr_m3_guestbook_i3-128-ind": {
+    "value": 0
+  },
+  "tr_m3_i3-534-ind": {
+    "value": 100
+  },
+  "tr_m3_journalvoryngilnam": {
+    "value": 40
+  },
+  "tr_m3_ledger_i3-467-ind": {
+    "value": 0
+  },
+  "tr_m3_oe_antiofirmament": {
+    "value": 40
+  },
+  "tr_m3_oe_astrographybook": {
+    "value": 1500
+  },
+  "tr_m3_oe_astrographybook02": {
+    "value": 1500
+  },
+  "tr_m3_oe_bk_ebonhthistory1": {
+    "value": 30
+  },
+  "tr_m3_oe_bk_ebonhthistory2uni": {
+    "value": 60
+  },
+  "tr_m3_oe_bk_etcensus_record_01": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etcensus_record_02": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etcensus_record_03": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etcensus_record_04": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etcensus_record_05": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etcensus_record_06": {
+    "value": 4
+  },
+  "tr_m3_oe_bk_etprisonlog": {
+    "value": 0
+  },
+  "tr_m3_oe_bk_etshipping_log_01": {
+    "value": 2
+  },
+  "tr_m3_oe_clandestinetalosbk": {
+    "value": 250
+  },
+  "tr_m3_oe_curia_archive": {
+    "value": 50
+  },
+  "tr_m3_oe_enixcaripusjournal": {
+    "value": 0
+  },
+  "tr_m3_oe_et9_highrocklogbook": {
+    "value": 50
+  },
+  "tr_m3_oe_saturniidaecodex": {
+    "value": 100
+  },
+  "tr_m3_q_5_journal": {
+    "value": 2
+  },
+  "tr_m3_q_dolynjournal": {
+    "value": 50
+  },
+  "tr_m3_q_oe_urien_journal": {
+    "value": 20
+  },
+  "tr_m3_q_theriftbkfloat1": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbkfloat2": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbkfloat3": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbkfloat4": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbkfloat5": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbkfloat6": {
+    "value": 0
+  },
+  "tr_m3_q_theriftbook1": {
+    "value": 300
+  },
+  "tr_m3_q_theriftbook2": {
+    "value": 300
+  },
+  "tr_m3_q_theriftbook3": {
+    "value": 300
+  },
+  "tr_m3_tharonen_ledger": {
+    "value": 0
+  },
+  "tr_m4-114_archivalrecords": {
+    "value": 0
+  },
+  "tr_m4-114_blankledger": {
+    "value": 2
+  },
+  "tr_m4-114_censusrecord": {
+    "value": 0
+  },
+  "tr_m4-114_chartersrecord_01": {
+    "value": 0
+  },
+  "tr_m4-114_chartersrecord_02": {
+    "value": 0
+  },
+  "tr_m4-114_councilledger_01": {
+    "value": 0
+  },
+  "tr_m4-114_councilledger_02": {
+    "value": 0
+  },
+  "tr_m4-114_notebook": {
+    "value": 0
+  },
+  "tr_m4-114_treasuryledger": {
+    "value": 0
+  },
+  "tr_m4-323_bk_alchform_c": {
+    "value": 300
+  },
+  "tr_m4-471_bk_journal": {
+    "value": 1
+  },
+  "tr_m4-503_bk_mage_journal_uni": {
+    "value": 1
+  },
+  "tr_m4-519_bk_journal": {
+    "value": 25
+  },
+  "tr_m4_ando_manore_guestbook": {
+    "value": 1
+  },
+  "tr_m4_andof_bk_hcc1": {
+    "value": 50
+  },
+  "tr_m4_andof_bk_hcc2": {
+    "value": 50
+  },
+  "tr_m4_andof_bk_hcc3": {
+    "value": 50
+  },
+  "tr_m4_andog_clerk1": {
+    "value": 2
+  },
+  "tr_m4_andog_inventory1": {
+    "value": 2
+  },
+  "tr_m4_andog_inventory2": {
+    "value": 2
+  },
+  "tr_m4_andog_inventory3": {
+    "value": 2
+  },
+  "tr_m4_andog_lawverdicts": {
+    "value": 2
+  },
+  "tr_m4_andog_lawverdicts2": {
+    "value": 2
+  },
+  "tr_m4_andomg_q3notes": {
+    "value": 150
+  },
+  "tr_m4_andoport_contraband02": {
+    "value": 10
+  },
+  "tr_m4_andoport_warehouse01": {
+    "value": 10
+  },
+  "tr_m4_andoport_warehouse02": {
+    "value": 20
+  },
+  "tr_m4_andoth_andasmanorledger01": {
+    "value": 80
+  },
+  "tr_m4_andoth_andasmanorledger02": {
+    "value": 50
+  },
+  "tr_m4_andothdweruinbook01": {
+    "value": 30
+  },
+  "tr_m4_bk_buffleheadlog": {
+    "value": 10
+  },
+  "tr_m4_bk_burnthonoramong": {
+    "value": 2
+  },
+  "tr_m4_bk_liturgy_i4-263": {
+    "value": 250
+  },
+  "tr_m4_fg_cliffracerbooklet": {
+    "value": 50
+  },
+  "tr_m4_hh_gavros_journal": {
+    "value": 10
+  },
+  "tr_m4_hh_sarusledger": {
+    "value": 2
+  },
+  "tr_m4_il_moriobook": {
+    "value": 0
+  },
+  "tr_m4_ledger_i4-270-hla": {
+    "value": 10
+  },
+  "tr_m4_q_mm_atrijournal": {
+    "value": 2
+  },
+  "tr_m4_q_troupe_skillbook": {
+    "value": 250
+  },
+  "tr_m4_tt_andothrenledger": {
+    "value": 80
+  },
+  "tr_m4_veranzaris_book_filthy": {
+    "value": 0
+  },
+  "tr_m4_veranzaris_book_heresy": {
+    "value": 200
+  },
+  "tr_m4_veranzaris_book_liturgy": {
+    "value": 250
+  },
+  "tr_m4_veranzaris_book_myths": {
+    "value": 300
+  },
+  "tr_m4_veranzaris_book_rotting": {
+    "value": 0
+  },
+  "tr_m4_veranzaris_book_saom12": {
+    "value": 250
+  },
+  "tr_m4_veranzaris_book_saom6": {
+    "value": 250
+  },
+  "tr_m4_veranzaris_book_saom9": {
+    "value": 150
+  },
+  "tr_m4_veranzaris_book_vitharn": {
+    "value": 250
+  },
+  "tr_m4_veranzaris_book_zealotry": {
+    "value": 250
+  },
+  "tr_rothr_eggmine5_mineledger": {
+    "value": 0
+  },
+  "tr_rothr_eggmine5_mineledger_o": {
+    "value": 0
+  },
+  "tr_verulas pass_mtmasterancient": {
+    "value": 50
+  },
+  "tr_verulas pass_mtmasterbook": {
+    "value": 50
+  },
+  "bk_playscript": {
+    "value": 250
+  },
+  "bk_nermarcnotes": {
+    "value": 20
+  },
+  "book_dwe_pipe00": {
+    "value": 150
+  },
+  "book_dwe_cogs00": {
+    "value": 100
+  },
+  "book_dwe_mach00": {
+    "value": 150
+  },
+  "book_dwe_water00": {
+    "value": 100
+  },
+  "book_dwe_power_con00": {
+    "value": 150
+  },
+  "book_dwe_metal_fab00": {
+    "value": 100
+  },
+  "book_dwe_boom00": {
+    "value": 100
+  },
+  "bk_artifacts_tamriel": {
+    "value": 250
   }
 }

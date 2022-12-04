@@ -4,7 +4,6 @@ I won't provide assistance with the below methods. I tried to keep the instructi
 # You will need the following tools:
 1. tes3cmd: https://github.com/john-moonsugar/tes3cmd/releases
 2. notepad++ or equivalent https://notepad-plus-plus.org/downloads/
-2. python (Quests only) https://www.python.org/
 3. Tes3 Construction Set (Quests Only)
 4. Libre Office Calc or equivalent (Quests Only) https://www.libreoffice.org/discover/calc/
 
@@ -23,9 +22,9 @@ I won't provide assistance with the below methods. I tried to keep the instructi
 `tes3cmd dump --type npc_ --no-quote --no-banner --format "  \"%id%\": {\"level\": %level%}," *.esp >> npc_levels.json`
 
 - book json
-`tes3cmd dump --type book --match Scroll:\(No\) --no-quote --no-banner --format "  \"%id%\": {\"title\": \"%name%\", \"value\": %value%}," *.esm >> vanilla_books.json`
+`tes3cmd dump --type book --match Scroll:\(No\) --no-quote --no-banner --format "  \"%id%\": {\"value\": %value%}," *.esm >> vanilla_books.json`
 - If you have additional .esp files that add books:
-`tes3cmd dump --type book --match Scroll:\(No\) --no-quote --no-banner --format "  \"%id%\": {\"title\": \"%name%\", \"value\": %value%}," *.esp >> vanilla_books.json`
+`tes3cmd dump --type book --match Scroll:\(No\) --no-quote --no-banner --format "  \"%id%\": {\"value\": %value%}," *.esp >> vanilla_books.json`
 
 # Additional Formatting for EACH json:
 1. Add a newline at the begining with one '{'
@@ -45,11 +44,12 @@ I won't provide assistance with the below methods. I tried to keep the instructi
 9. Delete all rows where flags is not Q010 (And your label row obviously)
 10. Delete colums A & D ("Type" & "Flags")
 11. You should have two columns, "quest" and "index"
-12. Save this as a csv
-13. pick your favorite csv to json converter (there are tons on the internet) and run it through there
-14. place your json file and the jsontomapquests.py in the same folder
-15. Open cmd.exe in the folder containing your now json file, an easy way to do this is open the folder in explorer, type cmd in the nav bar and hit enter
-16. run `py jsontomapquests.py <json_file_name>`
-17. rename the out<json_file_name> to quest_ends.json, and overwrite the file in your server/data/custom/tes3mp-xp folder
+12. Make the quest column all lowercase
+13. In column C (should be empty) use the formula =CONCAT(A2,"_",B2), re-label this column quest
+14. label column D isend, copy the value "true" (this should be text, not a boolean) to every cell in this column
+15. copy paste column C and D to a new sheet (use the "text only" special paste), delete the old sheet
+16. Save this as a csv
+17. pick your favorite csv to json converter (https://csvjson.com/csv2json for example) and run it through there
+18. Format as a "hash"
 
 tes3cmd docs: https://github.com/john-moonsugar/tes3cmd/wiki/tes3cmd-command-line-documentation
