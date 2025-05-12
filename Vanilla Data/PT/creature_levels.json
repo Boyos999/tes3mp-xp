@@ -1,3887 +1,5312 @@
 {
-  "dead_skeleton": {
-    "level": 3
+  "dead_skeleton":{
+    "level":3
   },
-  "rat": {
-    "level": 2
+  "rat":{
+    "level":2
   },
-  "draugr_valbrandr": {
-    "level": 10
+  "draugr_valbrandr":{
+    "level":10
   },
-  "draugr_co_3": {
-    "level": 10
+  "draugr_co_3":{
+    "level":10
   },
-  "draugr_co_3_dead": {
-    "level": 10
+  "draugr_co_3_dead":{
+    "level":10
   },
-  "bm_bear_black": {
-    "level": 10
+  "bm_bear_black":{
+    "level":10
   },
-  "bm_bear_brown": {
-    "level": 10
+  "bm_bear_brown":{
+    "level":10
   },
-  "bm_riekling": {
-    "level": 10
+  "bm_riekling":{
+    "level":10
   },
-  "bm_riekling_mounted": {
-    "level": 20
+  "bm_riekling_mounted":{
+    "level":20
   },
-  "bm_frost_boar": {
-    "level": 15
+  "bm_frost_boar":{
+    "level":15
   },
-  "bm_horker": {
-    "level": 5
+  "bm_horker":{
+    "level":5
   },
-  "bm_wolf_grey": {
-    "level": 5
+  "bm_wolf_grey":{
+    "level":5
   },
-  "bm_wolf_red": {
-    "level": 5
+  "bm_wolf_red":{
+    "level":5
   },
-  "bm_frost_giant": {
-    "level": 40
+  "bm_frost_giant":{
+    "level":40
   },
-  "bm_hircine": {
-    "level": 100
+  "bm_hircine":{
+    "level":100
   },
-  "bm_spriggan": {
-    "level": 20
+  "bm_spriggan":{
+    "level":20
   },
-  "atronach_frost_bm": {
-    "level": 24
+  "atronach_frost_bm":{
+    "level":24
   },
-  "bm_wolf_caenlorn1": {
-    "level": 20
+  "bm_wolf_caenlorn1":{
+    "level":20
   },
-  "bm_wolf_caenlorn2": {
-    "level": 20
+  "bm_wolf_caenlorn2":{
+    "level":20
   },
-  "bm_wolf_caenlorn3": {
-    "level": 20
+  "bm_wolf_caenlorn3":{
+    "level":20
   },
-  "bm_horker_large": {
-    "level": 10
+  "bm_horker_large":{
+    "level":10
   },
-  "bm_horker_swim_unique": {
-    "level": 10
+  "bm_horker_swim_unique":{
+    "level":10
   },
-  "bm_spriggan_st_unique": {
-    "level": 20
+  "bm_spriggan_st_unique":{
+    "level":20
   },
-  "bm_riekling_st_unique": {
-    "level": 20
+  "bm_riekling_st_unique":{
+    "level":20
   },
-  "bm_bear_be_unique": {
-    "level": 15
+  "bm_bear_be_unique":{
+    "level":15
   },
-  "bm_riekling_be_unique": {
-    "level": 15
+  "bm_riekling_be_unique":{
+    "level":15
   },
-  "bm_bear_black_claw_uniq": {
-    "level": 1
+  "bm_bear_black_claw_uniq":{
+    "level":1
   },
-  "bm_draugr01": {
-    "level": 20
+  "bm_draugr01":{
+    "level":20
   },
-  "draugr": {
-    "level": 10
+  "draugr":{
+    "level":10
   },
-  "draugr_aesliip": {
-    "level": 50
+  "draugr_aesliip":{
+    "level":50
   },
-  "bm_riekling_be_unique1": {
-    "level": 15
+  "bm_riekling_be_unique1":{
+    "level":15
   },
-  "bm_riekling_be_unique2": {
-    "level": 15
+  "bm_riekling_be_unique2":{
+    "level":15
   },
-  "bm_riekling_be_unique3": {
-    "level": 15
+  "bm_riekling_be_unique3":{
+    "level":15
   },
-  "bm_riekling_be_unique4": {
-    "level": 15
+  "bm_riekling_be_unique4":{
+    "level":15
   },
-  "bm_riekling_be_unique5": {
-    "level": 1
+  "bm_riekling_be_unique5":{
+    "level":1
   },
-  "bm_wolf_skeleton": {
-    "level": 10
+  "bm_wolf_skeleton":{
+    "level":10
   },
-  "bm_werewolf_default": {
-    "level": 10
+  "bm_werewolf_default":{
+    "level":10
   },
-  "bm_bear_snow_unique": {
-    "level": 10
+  "bm_bear_snow_unique":{
+    "level":10
   },
-  "bm_wolf_snow_unique": {
-    "level": 10
+  "bm_wolf_snow_unique":{
+    "level":10
   },
-  "bm_udyrfrykte": {
-    "level": 11
+  "bm_udyrfrykte":{
+    "level":11
   },
-  "bm_bear_spr_unique": {
-    "level": 25
+  "bm_bear_spr_unique":{
+    "level":25
   },
-  "bm_riekling_dulk_unique": {
-    "level": 15
+  "bm_riekling_dulk_unique":{
+    "level":15
   },
-  "bm_riekling_krish_uniqu": {
-    "level": 15
+  "bm_riekling_krish_uniqu":{
+    "level":15
   },
-  "bm_wolf_hroldar": {
-    "level": 5
+  "bm_wolf_hroldar":{
+    "level":5
   },
-  "bm skeleton champion gr": {
-    "level": 20
+  "bm skeleton champion gr":{
+    "level":20
   },
-  "bm_sk_champ_bloodskal01": {
-    "level": 20
+  "bm_sk_champ_bloodskal01":{
+    "level":20
   },
-  "bm_sk_champ_bloodskal02": {
-    "level": 20
+  "bm_sk_champ_bloodskal02":{
+    "level":20
   },
-  "bm_draugr_bloodskal": {
-    "level": 20
+  "bm_draugr_bloodskal":{
+    "level":20
   },
-  "glenmoril_raven": {
-    "level": 4
+  "glenmoril_raven":{
+    "level":4
   },
-  "glenmoril_raven_cave": {
-    "level": 4
+  "glenmoril_raven_cave":{
+    "level":4
   },
-  "bm_spriggan_co1": {
-    "level": 20
+  "bm_spriggan_co1":{
+    "level":20
   },
-  "bm_spriggan_co2": {
-    "level": 20
+  "bm_spriggan_co2":{
+    "level":20
   },
-  "bm_spriggan_co3": {
-    "level": 20
+  "bm_spriggan_co3":{
+    "level":20
   },
-  "bm_werewolf_ritual": {
-    "level": 50
+  "bm_werewolf_ritual":{
+    "level":50
   },
-  "bm_skeleton_pirate ": {
-    "level": 25
+  "bm_skeleton_pirate ":{
+    "level":25
   },
-  "bm_skeleton_pirate_capt": {
-    "level": 35
+  "bm_skeleton_pirate_capt":{
+    "level":35
   },
-  "bm_ice_troll": {
-    "level": 1
+  "bm_ice_troll":{
+    "level":1
   },
-  "bm_icetroll_fg_uni": {
-    "level": 20
+  "bm_icetroll_fg_uni":{
+    "level":20
   },
-  "bm_ice_troll_tough": {
-    "level": 10
+  "bm_ice_troll_tough":{
+    "level":10
   },
-  "bm_riekling_boarmaster": {
-    "level": 20
+  "bm_riekling_boarmaster":{
+    "level":20
   },
-  "skeleton nord ": {
-    "level": 10
+  "skeleton nord ":{
+    "level":10
   },
-  "skeleton nord_2": {
-    "level": 10
+  "skeleton nord_2":{
+    "level":10
   },
-  "bm_bear_black_fat": {
-    "level": 10
+  "bm_bear_black_fat":{
+    "level":10
   },
-  "bm_wolf_grey_lvl_1": {
-    "level": 1
+  "bm_wolf_grey_lvl_1":{
+    "level":1
   },
-  "bm_bear_black_summon": {
-    "level": 10
+  "bm_bear_black_summon":{
+    "level":10
   },
-  "bm_wolf_grey_summon": {
-    "level": 5
+  "bm_wolf_grey_summon":{
+    "level":5
   },
-  "bm_wolf_bone_summon": {
-    "level": 10
+  "bm_wolf_bone_summon":{
+    "level":10
   },
-  "bm_horker_dead": {
-    "level": 10
+  "bm_horker_dead":{
+    "level":10
   },
-  "bm_hircine_huntaspect": {
-    "level": 100
+  "bm_hircine_huntaspect":{
+    "level":100
   },
-  "bm_hircine_straspect": {
-    "level": 100
+  "bm_hircine_straspect":{
+    "level":100
   },
-  "bm_hircine_spdaspect": {
-    "level": 100
+  "bm_hircine_spdaspect":{
+    "level":100
   },
-  "bm_hircine2": {
-    "level": 1
+  "bm_hircine2":{
+    "level":1
   },
-  "skeleton_stahl_uni": {
-    "level": 20
+  "skeleton_stahl_uni":{
+    "level":20
   },
-  "bm_ice_troll_sun": {
-    "level": 1
+  "bm_ice_troll_sun":{
+    "level":1
   },
-  "bm_spriggan_co4": {
-    "level": 20
+  "bm_spriggan_co4":{
+    "level":20
   },
-  "guar": {
-    "level": 3
+  "pc_d_goblinbruiser":{
+    "level":20
   },
-  "bonewalker": {
-    "level": 4
+  "pc_d_goblingrunt":{
+    "level":13
   },
-  "guar_pack": {
-    "level": 3
+  "pc_m1_afp12_clannfear":{
+    "level":7
   },
-  "clannfear": {
-    "level": 7
+  "pc_m1_afp12_vermai":{
+    "level":8
   },
-  "alit": {
-    "level": 3
+  "pc_m1_aknamine_goat":{
+    "level":2
   },
-  "kagouti": {
-    "level": 4
+  "pc_m1_ansedeus_d_donkey":{
+    "level":2
   },
-  "mudcrab": {
-    "level": 1
+  "pc_m1_anv_blkview_atron":{
+    "level":15
   },
-  "scamp": {
-    "level": 5
+  "pc_m1_anv_blkview_tcre":{
+    "level":1
   },
-  "dreugh": {
-    "level": 5
+  "pc_m1_anv_crabbuck_crab":{
+    "level":5
   },
-  "scrib": {
-    "level": 1
+  "pc_m1_anv_daumarks_alph":{
+    "level":20
   },
-  "slaughterfish": {
-    "level": 2
+  "pc_m1_anv_fthorse":{
+    "level":3
   },
-  "nix-hound": {
-    "level": 2
+  "pc_m1_anv_packdonkey":{
+    "level":2
   },
-  "skeleton": {
-    "level": 3
+  "pc_m1_arc_d_chicken":{
+    "level":1
   },
-  "kwama worker": {
-    "level": 2
+  "pc_m1_arc_snakebit_snke":{
+    "level":8
   },
-  "kwama warrior": {
-    "level": 3
+  "pc_m1_bc_fthorse":{
+    "level":3
   },
-  "kwama queen": {
-    "level": 6
+  "pc_m1_barubi":{
+    "level":20
   },
-  "scrib_vaba-amus": {
-    "level": 1
+  "pc_m1_bohji":{
+    "level":12
   },
-  "ash_ghoul": {
-    "level": 15
+  "pc_m1_cha_goldnets_gob1":{
+    "level":3
   },
-  "ancestor_ghost": {
-    "level": 1
+  "pc_m1_cha_goldnets_gob2":{
+    "level":3
   },
-  "ash_slave": {
-    "level": 5
+  "pc_m1_cha_goldnets_gob3":{
+    "level":3
   },
-  "ash_zombie": {
-    "level": 8
+  "pc_m1_drghqn_aghrautha":{
+    "level":50
   },
-  "shalk_diseased": {
-    "level": 6
+  "pc_m1_echomerchant":{
+    "level":5
   },
-  "shalk_blighted": {
-    "level": 10
+  "pc_m1_edrothlieutenant":{
+    "level":20
   },
-  "netch_bull": {
-    "level": 4
+  "pc_m1_eltu":{
+    "level":2
   },
-  "netch_betty": {
-    "level": 10
+  "pc_m1_fg_anv1_fish":{
+    "level":2
   },
-  "bonelord": {
-    "level": 8
+  "pc_m1_fg_anv3_bear":{
+    "level":10
   },
-  "centurion_sphere": {
-    "level": 5
+  "pc_m1_fg_anv6_alphyn":{
+    "level":24
   },
-  "centurion_spider": {
-    "level": 3
+  "pc_m1_forshoal_manowar":{
+    "level":25
   },
-  "cliff racer": {
-    "level": 4
+  "pc_m1_golbiz":{
+    "level":25
   },
-  "cliff racer_diseased": {
-    "level": 4
+  "pc_m1_hurutka":{
+    "level":25
   },
-  "cliff racer_blighted": {
-    "level": 8
+  "pc_m1_jodim":{
+    "level":10
   },
-  "corprus_stalker": {
-    "level": 5
+  "pc_m1_kannakto":{
+    "level":25
   },
-  "daedroth": {
-    "level": 12
+  "pc_m1_kod":{
+    "level":2
   },
-  "dremora": {
-    "level": 9
+  "pc_m1_kuram":{
+    "level":30
   },
-  "dremora_lord": {
-    "level": 12
+  "pc_m1_mg_anv5_general":{
+    "level":12
   },
-  "alit_diseased": {
-    "level": 3
+  "pc_m1_mg_anv5_skeleton":{
+    "level":5
   },
-  "alit_blighted": {
-    "level": 7
+  "pc_m1_mg_bc3_undeadwrth":{
+    "level":7
   },
-  "dwarven ghost": {
-    "level": 5
+  "pc_m1_mg_cha4_auroran":{
+    "level":13
   },
-  "atronach_flame": {
-    "level": 7
+  "pc_m1_mg_cha4_goblin1":{
+    "level":3
   },
-  "atronach_frost": {
-    "level": 9
+  "pc_m1_mg_cha4_goblin2":{
+    "level":13
   },
-  "kagouti_diseased": {
-    "level": 4
+  "pc_m1_mg_cha4_goblin3":{
+    "level":5
   },
-  "kagouti_blighted": {
-    "level": 8
+  "pc_m1_mg_cha4_goblin4":{
+    "level":20
   },
-  "kwama warrior blighted": {
-    "level": 7
+  "pc_m1_mg_cha4_goblin5":{
+    "level":3
   },
-  "kwama worker diseased": {
-    "level": 2
+  "pc_m1_melestrata_d_spid":{
+    "level":2
   },
-  "kwama worker blighted": {
-    "level": 6
+  "pc_m1_ndengu":{
+    "level":30
   },
-  "kwama forager": {
-    "level": 2
+  "pc_m1_nacarat":{
+    "level":13
   },
-  "kwama forager blighted": {
-    "level": 6
+  "pc_m1_nacaratfollower":{
+    "level":13
   },
-  "corprus_lame": {
-    "level": 8
+  "pc_m1_norinia_daedroth":{
+    "level":12
   },
-  "nix-hound blighted": {
-    "level": 6
+  "pc_m1_norinia_stormatro":{
+    "level":15
   },
-  "ogrim": {
-    "level": 11
+  "pc_m1_nosta":{
+    "level":2
   },
-  "scrib diseased": {
-    "level": 1
+  "pc_m1_ocli":{
+    "level":2
   },
-  "scrib blighted": {
-    "level": 4
+  "pc_m1_ossranch_d_bull":{
+    "level":10
   },
-  "skeleton warrior": {
-    "level": 7
+  "pc_m1_poko":{
+    "level":2
   },
-  "skeleton champion": {
-    "level": 10
+  "pc_m1_sc_garage_sntnl":{
+    "level":8
   },
-  "centurion_steam": {
-    "level": 10
+  "pc_m1_sc_goattrbls_gob1":{
+    "level":3
   },
-  "atronach_storm": {
-    "level": 15
+  "pc_m1_sc_goattrbls_gob2":{
+    "level":3
   },
-  "rat_diseased": {
-    "level": 3
+  "pc_m1_sal":{
+    "level":5
   },
-  "rat_blighted": {
-    "level": 4
+  "pc_m1_sdk_fthorse":{
+    "level":3
   },
-  "hunger": {
-    "level": 11
+  "pc_m1_sdk_hermdag_lddrg":{
+    "level":6
   },
-  "skeleton archer": {
-    "level": 3
+  "pc_m1_sorkng_massalamir":{
+    "level":45
   },
-  "guar_hrmudcrabnest": {
-    "level": 3
+  "pc_m1_sorkng_racha":{
+    "level":60
   },
-  "mudcrab_hrmudcrabnest": {
-    "level": 1
+  "pc_m1_sorhuk_d_bull":{
+    "level":10
   },
-  "slaughterfish_hr_sfavd": {
-    "level": 2
+  "pc_m1_witgi":{
+    "level":2
   },
-  "dagoth gares": {
-    "level": 14
+  "guar":{
+    "level":3
   },
-  "scamp_mg_apprentice": {
-    "level": 5
+  "bonewalker":{
+    "level":4
   },
-  "ancestor_mg_wisewoman": {
-    "level": 8
+  "guar_pack":{
+    "level":3
   },
-  "dead rat": {
-    "level": 1
+  "clannfear":{
+    "level":7
   },
-  "shalk_diseased_hram": {
-    "level": 5
+  "alit":{
+    "level":3
   },
-  "kagouti_hrk": {
-    "level": 4
+  "kagouti":{
+    "level":4
   },
-  "dagoth tanis": {
-    "level": 20
+  "mudcrab":{
+    "level":1
   },
-  "ash_ghoul_mulyn": {
-    "level": 14
+  "scamp":{
+    "level":5
   },
-  "ash_ghoul_ganel": {
-    "level": 14
+  "dreugh":{
+    "level":5
   },
-  "corprus_stalker_fgcs": {
-    "level": 5
+  "scrib":{
+    "level":1
   },
-  "ash_ghoul_fgr": {
-    "level": 14
+  "slaughterfish":{
+    "level":2
   },
-  "rat_cave_fgrh": {
-    "level": 3
+  "nix-hound":{
+    "level":2
   },
-  "hunger_fghl": {
-    "level": 1
+  "skeleton":{
+    "level":3
   },
-  "ash_zombie_fgaz": {
-    "level": 8
+  "kwama worker":{
+    "level":2
   },
-  "ancestor_guardian_fgdd": {
-    "level": 4
+  "kwama warrior":{
+    "level":3
   },
-  "rat_cave_hhte1": {
-    "level": 4
+  "kwama queen":{
+    "level":6
   },
-  "rat_cave_hhte2": {
-    "level": 4
+  "scrib_vaba-amus":{
+    "level":1
   },
-  "kwama queen_hhem": {
-    "level": 1
+  "ash_ghoul":{
+    "level":15
   },
-  "dagoth reler": {
-    "level": 20
+  "ancestor_ghost":{
+    "level":1
   },
-  "dagoth girer": {
-    "level": 16
+  "ash_slave":{
+    "level":5
   },
-  "dagoth uthol": {
-    "level": 30
+  "ash_zombie":{
+    "level":8
   },
-  "dagoth delnus": {
-    "level": 16
+  "shalk_diseased":{
+    "level":6
   },
-  "dagoth baler": {
-    "level": 16
+  "shalk_blighted":{
+    "level":10
   },
-  "dagoth ulen": {
-    "level": 20
+  "netch_bull":{
+    "level":4
   },
-  "skeleton hero dead": {
-    "level": 3
+  "netch_betty":{
+    "level":10
   },
-  "dagoth ralas": {
-    "level": 16
+  "bonelord":{
+    "level":8
   },
-  "dagoth fervas": {
-    "level": 16
+  "centurion_sphere":{
+    "level":5
   },
-  "dagoth daynil": {
-    "level": 16
+  "centurion_spider":{
+    "level":3
   },
-  "dagoth aladus": {
-    "level": 16
+  "cliff racer":{
+    "level":4
   },
-  "dagoth elam": {
-    "level": 16
+  "cliff racer_diseased":{
+    "level":4
   },
-  "dagoth uvil": {
-    "level": 20
+  "cliff racer_blighted":{
+    "level":8
   },
-  "yagrum bagarn": {
-    "level": 40
+  "corprus_stalker":{
+    "level":5
   },
-  "golden saint": {
-    "level": 20
+  "daedroth":{
+    "level":12
   },
-  "lustidrike": {
-    "level": 8
+  "dremora":{
+    "level":9
   },
-  "scamp_creeper": {
-    "level": 5
+  "dremora_lord":{
+    "level":12
   },
-  "netch_betty_ranched": {
-    "level": 10
+  "alit_diseased":{
+    "level":3
   },
-  "netch_bull_ranched": {
-    "level": 4
+  "alit_blighted":{
+    "level":7
   },
-  "centurion_shock_baladas": {
-    "level": 8
+  "dwarven ghost":{
+    "level":5
   },
-  "ascended_sleeper": {
-    "level": 25
+  "atronach_flame":{
+    "level":7
   },
-  "dagoth odros": {
-    "level": 30
+  "atronach_frost":{
+    "level":9
   },
-  "dagoth vemyn": {
-    "level": 30
+  "kagouti_diseased":{
+    "level":4
   },
-  "dagoth endus": {
-    "level": 30
+  "kagouti_blighted":{
+    "level":8
   },
-  "dagoth tureynul": {
-    "level": 30
+  "kwama warrior blighted":{
+    "level":7
   },
-  "dagoth gilvoth": {
-    "level": 30
+  "kwama worker diseased":{
+    "level":2
   },
-  "dagoth araynys": {
-    "level": 30
+  "kwama worker blighted":{
+    "level":6
   },
-  "dagoth fovon": {
-    "level": 16
+  "kwama forager":{
+    "level":2
   },
-  "atronach_flame_ttmk": {
-    "level": 7
+  "kwama forager blighted":{
+    "level":6
   },
-  "atronach_frost_ttmk": {
-    "level": 9
+  "corprus_lame":{
+    "level":8
   },
-  "atronach_storm_ttmk": {
-    "level": 13
+  "nix-hound blighted":{
+    "level":6
   },
-  "heart_akulakhan": {
-    "level": 1
+  "ogrim":{
+    "level":11
   },
-  "scrib _0hp": {
-    "level": 1
+  "scrib diseased":{
+    "level":1
   },
-  "dremora_ttpc": {
-    "level": 6
+  "scrib blighted":{
+    "level":4
   },
-  "dagoth vaner": {
-    "level": 20
+  "skeleton warrior":{
+    "level":7
   },
-  "dagoth ienas": {
-    "level": 16
+  "skeleton champion":{
+    "level":10
   },
-  "dreugh_koal": {
-    "level": 20
+  "centurion_steam":{
+    "level":10
   },
-  "centurion_spider_tga1": {
-    "level": 3
+  "atronach_storm":{
+    "level":15
   },
-  "centurion_spider_tga2": {
-    "level": 3
+  "rat_diseased":{
+    "level":3
   },
-  "scamp_dead": {
-    "level": 5
+  "rat_blighted":{
+    "level":4
   },
-  "dagoth irvyn": {
-    "level": 20
+  "hunger":{
+    "level":11
   },
-  "dagoth drals": {
-    "level": 16
+  "skeleton archer":{
+    "level":3
   },
-  "dagoth rather": {
-    "level": 20
+  "guar_hrmudcrabnest":{
+    "level":3
   },
-  "dagoth muthes": {
-    "level": 16
+  "mudcrab_hrmudcrabnest":{
+    "level":1
   },
-  "dagoth malan": {
-    "level": 20
+  "slaughterfish_hr_sfavd":{
+    "level":2
   },
-  "dagoth mulis": {
-    "level": 16
+  "dagoth gares":{
+    "level":14
   },
-  "dagoth fandril": {
-    "level": 20
+  "scamp_mg_apprentice":{
+    "level":5
   },
-  "dagoth molos": {
-    "level": 20
+  "ancestor_mg_wisewoman":{
+    "level":8
   },
-  "dagoth galmis": {
-    "level": 16
+  "dead rat":{
+    "level":1
   },
-  "dagoth fals": {
-    "level": 16
+  "shalk_diseased_hram":{
+    "level":5
   },
-  "skeleton_aldredaynia": {
-    "level": 20
+  "kagouti_hrk":{
+    "level":4
   },
-  "dagoth goral": {
-    "level": 20
+  "dagoth tanis":{
+    "level":20
   },
-  "dagoth mendras": {
-    "level": 16
+  "ash_ghoul_mulyn":{
+    "level":14
   },
-  "kagouti_mating": {
-    "level": 5
+  "ash_ghoul_ganel":{
+    "level":14
   },
-  "guar_rollie_unique": {
-    "level": 3
+  "corprus_stalker_fgcs":{
+    "level":5
   },
-  "dagoth felmis": {
-    "level": 20
+  "ash_ghoul_fgr":{
+    "level":14
   },
-  "dagoth soler": {
-    "level": 16
+  "rat_cave_fgrh":{
+    "level":3
   },
-  "dagoth garel": {
-    "level": 20
+  "hunger_fghl":{
+    "level":1
   },
-  "dagoth nilor": {
-    "level": 16
+  "ash_zombie_fgaz":{
+    "level":8
   },
-  "dagoth_ur_1": {
-    "level": 35
+  "ancestor_guardian_fgdd":{
+    "level":4
   },
-  "dagoth_ur_2": {
-    "level": 35
+  "rat_cave_hhte1":{
+    "level":4
   },
-  "scrib _dead": {
-    "level": 1
+  "rat_cave_hhte2":{
+    "level":4
   },
-  "kwama queen_abaesen": {
-    "level": 1
+  "kwama queen_hhem":{
+    "level":1
   },
-  "kwama queen_ahanibi": {
-    "level": 1
+  "dagoth reler":{
+    "level":20
   },
-  "kwama queen_akimaes": {
-    "level": 1
+  "dagoth girer":{
+    "level":16
   },
-  "kwama queen_eluba": {
-    "level": 1
+  "dagoth uthol":{
+    "level":30
   },
-  "kwama queen_eretammus": {
-    "level": 1
+  "dagoth delnus":{
+    "level":16
   },
-  "kwama queen_maesa": {
-    "level": 1
+  "dagoth baler":{
+    "level":16
   },
-  "kwama queen_madas": {
-    "level": 1
+  "dagoth ulen":{
+    "level":20
   },
-  "kwama queen_hairat": {
-    "level": 1
+  "skeleton hero dead":{
+    "level":3
   },
-  "kwama queen_matus": {
-    "level": 1
+  "dagoth ralas":{
+    "level":16
   },
-  "kwama queen_mudan": {
-    "level": 1
+  "dagoth fervas":{
+    "level":16
   },
-  "kwama queen_panabanit": {
-    "level": 1
+  "dagoth daynil":{
+    "level":16
   },
-  "kwama queen_sarimisun": {
-    "level": 1
+  "dagoth aladus":{
+    "level":16
   },
-  "kwama queen_shurdan": {
-    "level": 1
+  "dagoth elam":{
+    "level":16
   },
-  "kwama queen_sinamusa": {
-    "level": 1
+  "dagoth uvil":{
+    "level":20
   },
-  "kwama queen_zalkin": {
-    "level": 1
+  "yagrum bagarn":{
+    "level":40
   },
-  "kwama forager_tb": {
-    "level": 2
+  "golden saint":{
+    "level":20
   },
-  "ancestor_ghost_vabdas": {
-    "level": 1
+  "lustidrike":{
+    "level":8
   },
-  "gateway_haunt": {
-    "level": 1
+  "scamp_creeper":{
+    "level":5
   },
-  "centurion_fire_dead": {
-    "level": 6
+  "netch_betty_ranched":{
+    "level":10
   },
-  "centurion_steam_dead": {
-    "level": 10
+  "netch_bull_ranched":{
+    "level":4
   },
-  "netch_betty_ilgn": {
-    "level": 10
+  "centurion_shock_baladas":{
+    "level":8
   },
-  "netch_bull_ilgn": {
-    "level": 4
+  "ascended_sleeper":{
+    "level":25
   },
-  "golden saint_staada": {
-    "level": 22
+  "dagoth odros":{
+    "level":30
   },
-  "netch_bull_dead": {
-    "level": 4
+  "dagoth vemyn":{
+    "level":30
   },
-  "atronach_frost_gwai_uni": {
-    "level": 12
+  "dagoth endus":{
+    "level":30
   },
-  "winged twilight_grunda_": {
-    "level": 20
+  "dagoth tureynul":{
+    "level":30
   },
-  "guar_white_unique": {
-    "level": 3
+  "dagoth gilvoth":{
+    "level":30
   },
-  "corprus_stalker_berwen": {
-    "level": 5
+  "dagoth araynys":{
+    "level":30
   },
-  "dagoth_hlevul": {
-    "level": 18
+  "dagoth fovon":{
+    "level":16
   },
-  "dagoth draven": {
-    "level": 16
+  "atronach_flame_ttmk":{
+    "level":7
   },
-  "worm lord": {
-    "level": 16
+  "atronach_frost_ttmk":{
+    "level":9
   },
-  "kwama queen_gnisis": {
-    "level": 1
+  "atronach_storm_ttmk":{
+    "level":13
   },
-  "dahrk mezalf": {
-    "level": 10
+  "heart_akulakhan":{
+    "level":1
   },
-  "dremora_ttmg": {
-    "level": 9
+  "scrib _0hp":{
+    "level":1
   },
-  "daedroth_menta_unique": {
-    "level": 20
+  "dremora_ttpc":{
+    "level":6
   },
-  "dagoth velos": {
-    "level": 16
+  "dagoth vaner":{
+    "level":20
   },
-  "ancestor_guardian_heler": {
-    "level": 4
+  "dagoth ienas":{
+    "level":16
   },
-  "shalk": {
-    "level": 6
+  "dreugh_koal":{
+    "level":20
   },
-  "winged twilight": {
-    "level": 15
+  "centurion_spider_tga1":{
+    "level":3
   },
-  "mudcrab-diseased": {
-    "level": 1
+  "centurion_spider_tga2":{
+    "level":3
   },
-  "bonewalker_greater": {
-    "level": 7
+  "scamp_dead":{
+    "level":5
   },
-  "dead_scrib": {
-    "level": 1
+  "dagoth irvyn":{
+    "level":20
   },
-  "dead_scamp": {
-    "level": 5
+  "dagoth drals":{
+    "level":16
   },
-  "ogrim titan": {
-    "level": 15
+  "dagoth rather":{
+    "level":20
   },
-  "centurion_steam_exhibit": {
-    "level": 10
+  "dagoth muthes":{
+    "level":16
   },
-  "wraith_sul_senipul": {
-    "level": 10
+  "dagoth malan":{
+    "level":20
   },
-  "netch_giant_unique": {
-    "level": 4
+  "dagoth mulis":{
+    "level":16
   },
-  "corprus_stalker_fyr01": {
-    "level": 5
+  "dagoth fandril":{
+    "level":20
   },
-  "corprus_lame_fyr01": {
-    "level": 8
+  "dagoth molos":{
+    "level":20
   },
-  "corprus_stalker_fyr02": {
-    "level": 5
+  "dagoth galmis":{
+    "level":16
   },
-  "corprus_lame_fyr02": {
-    "level": 8
+  "dagoth fals":{
+    "level":16
   },
-  "corprus_lame_fyr03": {
-    "level": 8
+  "skeleton_aldredaynia":{
+    "level":20
   },
-  "corprus_lame_fyr04": {
-    "level": 8
+  "dagoth goral":{
+    "level":20
   },
-  "corprus_stalker_fyr03": {
-    "level": 5
+  "dagoth mendras":{
+    "level":16
   },
-  "centurion_sphere_nchur": {
-    "level": 5
+  "kagouti_mating":{
+    "level":5
   },
-  "centurion_spider_nchur": {
-    "level": 3
+  "guar_rollie_unique":{
+    "level":3
   },
-  "centurion_steam_nchur": {
-    "level": 10
+  "dagoth felmis":{
+    "level":20
   },
-  "daedroth_fg_nchur": {
-    "level": 12
+  "dagoth soler":{
+    "level":16
   },
-  "slaughterfish_small": {
-    "level": 2
+  "dagoth garel":{
+    "level":20
   },
-  "bonewalker_greater_dead": {
-    "level": 7
+  "dagoth nilor":{
+    "level":16
   },
-  "bonewalker_dead": {
-    "level": 4
+  "dagoth_ur_1":{
+    "level":35
   },
-  "skeleton champ_sandas00": {
-    "level": 10
+  "dagoth_ur_2":{
+    "level":35
   },
-  "skeleton champ_sandas10": {
-    "level": 10
+  "scrib _dead":{
+    "level":1
   },
-  "guar_pack_tarvyn_unique": {
-    "level": 3
+  "kwama queen_abaesen":{
+    "level":1
   },
-  "mudcrab_unique": {
-    "level": 1
+  "kwama queen_ahanibi":{
+    "level":1
   },
-  "guar_llovyn_unique": {
-    "level": 3
+  "kwama queen_akimaes":{
+    "level":1
   },
-  "kwama worker entrance": {
-    "level": 2
+  "kwama queen_eluba":{
+    "level":1
   },
-  "skeleton entrance": {
-    "level": 2
+  "kwama queen_eretammus":{
+    "level":1
   },
-  "vivec_god": {
-    "level": 100
+  "kwama queen_maesa":{
+    "level":1
   },
-  "dead_mudcrab": {
-    "level": 1
+  "kwama queen_madas":{
+    "level":1
   },
-  "centurion_mudan_unique": {
-    "level": 18
+  "kwama queen_hairat":{
+    "level":1
   },
-  "skeleton_vemynal": {
-    "level": 14
+  "kwama queen_matus":{
+    "level":1
   },
-  "rat_telvanni_unique": {
-    "level": 2
+  "kwama queen_mudan":{
+    "level":1
   },
-  "dwarven ghost_jeanne_u": {
-    "level": 5
+  "kwama queen_panabanit":{
+    "level":1
   },
-  "corprus_stalker_danar": {
-    "level": 5
+  "kwama queen_sarimisun":{
+    "level":1
   },
-  "hunger_audenian": {
-    "level": 11
+  "kwama queen_shurdan":{
+    "level":1
   },
-  "kwama warrior shurdan": {
-    "level": 7
+  "kwama queen_sinamusa":{
+    "level":1
   },
-  "bonewalker_weak": {
-    "level": 3
+  "kwama queen_zalkin":{
+    "level":1
   },
-  "skeleton_weak": {
-    "level": 3
+  "kwama forager_tb":{
+    "level":2
   },
-  "dremora_special_fyr": {
-    "level": 18
+  "ancestor_ghost_vabdas":{
+    "level":1
   },
-  "guar_feral": {
-    "level": 3
+  "gateway_haunt":{
+    "level":1
   },
-  "rat_telvanni_unique_2": {
-    "level": 2
+  "centurion_fire_dead":{
+    "level":6
   },
-  "rat_cave_fgt": {
-    "level": 3
+  "centurion_steam_dead":{
+    "level":10
   },
-  "kwama queen_mudan_c": {
-    "level": 1
+  "netch_betty_ilgn":{
+    "level":10
   },
-  "kwama queen_shurdan_c": {
-    "level": 1
+  "netch_bull_ilgn":{
+    "level":4
   },
-  "centurion_steam_hts": {
-    "level": 10
+  "golden saint_staada":{
+    "level":22
   },
-  "centurion_sphere_hts2": {
-    "level": 5
+  "netch_bull_dead":{
+    "level":4
   },
-  "daedroth_baladas": {
-    "level": 12
+  "atronach_frost_gwai_uni":{
+    "level":12
   },
-  "hunger_az_01": {
-    "level": 11
+  "winged twilight_grunda_":{
+    "level":20
   },
-  "hunger_az_02": {
-    "level": 11
+  "guar_white_unique":{
+    "level":3
   },
-  "atronach_flame_az": {
-    "level": 7
+  "corprus_stalker_berwen":{
+    "level":5
   },
-  "atronach_storm_az": {
-    "level": 15
+  "dagoth_hlevul":{
+    "level":18
   },
-  "ogrim_az": {
-    "level": 11
+  "dagoth draven":{
+    "level":16
   },
-  "daedroth_az": {
-    "level": 12
+  "worm lord":{
+    "level":16
   },
-  "netch_bull_dead_2": {
-    "level": 4
+  "kwama queen_gnisis":{
+    "level":1
   },
-  "dremora_gothren_guard1": {
-    "level": 9
+  "dahrk mezalf":{
+    "level":10
   },
-  "dremora_gothren_guard2": {
-    "level": 9
+  "dremora_ttmg":{
+    "level":9
   },
-  "corprus_lame_morvayn": {
-    "level": 8
+  "daedroth_menta_unique":{
+    "level":20
   },
-  "corprus_stalker_morvayn": {
-    "level": 5
+  "dagoth velos":{
+    "level":16
   },
-  "ancestor_ghost_summon": {
-    "level": 1
+  "ancestor_guardian_heler":{
+    "level":4
   },
-  "atronach_flame_summon": {
-    "level": 7
+  "shalk":{
+    "level":6
   },
-  "atronach_frost_summon": {
-    "level": 9
+  "winged twilight":{
+    "level":15
   },
-  "atronach_storm_summon": {
-    "level": 15
+  "mudcrab-diseased":{
+    "level":1
   },
-  "bonelord_summon": {
-    "level": 8
+  "bonewalker_greater":{
+    "level":7
   },
-  "bonewalker_summon": {
-    "level": 4
+  "dead_scrib":{
+    "level":1
   },
-  "bonewalker_greater_summ": {
-    "level": 7
+  "dead_scamp":{
+    "level":5
   },
-  "centurion_sphere_summon": {
-    "level": 5
+  "ogrim titan":{
+    "level":15
   },
-  "clannfear_summon": {
-    "level": 7
+  "centurion_steam_exhibit":{
+    "level":10
   },
-  "daedroth_summon": {
-    "level": 12
+  "wraith_sul_senipul":{
+    "level":10
   },
-  "dremora_summon": {
-    "level": 9
+  "netch_giant_unique":{
+    "level":4
   },
-  "golden saint_summon": {
-    "level": 20
+  "corprus_stalker_fyr01":{
+    "level":5
   },
-  "hunger_summon": {
-    "level": 11
+  "corprus_lame_fyr01":{
+    "level":8
   },
-  "scamp_summon": {
-    "level": 5
+  "corprus_stalker_fyr02":{
+    "level":5
   },
-  "skeleton_summon": {
-    "level": 3
+  "corprus_lame_fyr02":{
+    "level":8
   },
-  "winged twilight_summon": {
-    "level": 15
+  "corprus_lame_fyr03":{
+    "level":8
   },
-  "sky_ire_dh_bloodegil": {
-    "level": 20
+  "corprus_lame_fyr04":{
+    "level":8
   },
-  "sky_ire_dh_celarmo": {
-    "level": 30
+  "corprus_stalker_fyr03":{
+    "level":5
   },
-  "sky_ire_dh_deadgob1": {
-    "level": 15
+  "centurion_sphere_nchur":{
+    "level":5
   },
-  "sky_ire_dh_deadgob2": {
-    "level": 5
+  "centurion_spider_nchur":{
+    "level":3
   },
-  "sky_ire_dh_hengrim": {
-    "level": 30
+  "centurion_steam_nchur":{
+    "level":10
   },
-  "sky_ire_dh_nald": {
-    "level": 25
+  "daedroth_fg_nchur":{
+    "level":12
   },
-  "sky_ire_kw_tamedrat": {
-    "level": 2
+  "slaughterfish_small":{
+    "level":2
   },
-  "sky_ire_lh_deadgoat": {
-    "level": 2
+  "bonewalker_greater_dead":{
+    "level":7
   },
-  "sky_ire_lh_skeletonserv": {
-    "level": 10
+  "bonewalker_dead":{
+    "level":4
   },
-  "sky_ire_vf_deadbear": {
-    "level": 10
+  "skeleton champ_sandas00":{
+    "level":10
   },
-  "sky_ire_vf_malghredin": {
-    "level": 20
+  "skeleton champ_sandas10":{
+    "level":10
   },
-  "sky_qre_bm4_chosen": {
-    "level": 20
+  "guar_pack_tarvyn_unique":{
+    "level":3
   },
-  "sky_qre_bm4_ghealach": {
-    "level": 20
+  "mudcrab_unique":{
+    "level":1
   },
-  "sky_qre_bm_druabith": {
-    "level": 20
+  "guar_llovyn_unique":{
+    "level":3
   },
-  "sky_qre_bm_druabithtalk": {
-    "level": 20
+  "kwama worker entrance":{
+    "level":2
   },
-  "sky_qre_bm_malthorc": {
-    "level": 25
+  "skeleton entrance":{
+    "level":2
   },
-  "sky_qre_bm_malthorctalk": {
-    "level": 25
+  "vivec_god":{
+    "level":100
   },
-  "sky_qre_dh2_chick": {
-    "level": 1
+  "dead_mudcrab":{
+    "level":1
   },
-  "sky_qre_dh2_deadchick": {
-    "level": 1
+  "centurion_mudan_unique":{
+    "level":18
   },
-  "sky_qre_dh2_trollsurf": {
-    "level": 12
+  "skeleton_vemynal":{
+    "level":14
   },
-  "sky_qre_dh2_trollunder": {
-    "level": 15
+  "rat_telvanni_unique":{
+    "level":2
   },
-  "sky_qre_dh4_beten": {
-    "level": 4
+  "dwarven ghost_jeanne_u":{
+    "level":5
   },
-  "sky_qre_dh4_spriggan": {
-    "level": 9
+  "corprus_stalker_danar":{
+    "level":5
   },
-  "sky_qre_dh5_ekilcre": {
-    "level": 5
+  "hunger_audenian":{
+    "level":11
   },
-  "sky_qre_dse2_boar": {
-    "level": 4
+  "kwama warrior shurdan":{
+    "level":7
   },
-  "sky_qre_dse4_bear": {
-    "level": 18
+  "bonewalker_weak":{
+    "level":3
   },
-  "sky_qre_dse4_goba": {
-    "level": 13
+  "skeleton_weak":{
+    "level":3
   },
-  "sky_qre_dse4_gobb": {
-    "level": 5
+  "dremora_special_fyr":{
+    "level":18
   },
-  "sky_qre_dse4_minotaur": {
-    "level": 25
+  "guar_feral":{
+    "level":3
   },
-  "sky_qre_dse4_raki": {
-    "level": 12
+  "rat_telvanni_unique_2":{
+    "level":2
   },
-  "sky_qre_dse4_wormmouth": {
-    "level": 4
+  "rat_cave_fgt":{
+    "level":3
   },
-  "sky_qre_dse5_nazndae": {
-    "level": 20
+  "kwama queen_mudan_c":{
+    "level":1
   },
-  "sky_qre_dsmg5_caralden": {
-    "level": 12
+  "kwama queen_shurdan_c":{
+    "level":1
   },
-  "sky_qre_dsmg5_galklinth": {
-    "level": 15
+  "centurion_steam_hts":{
+    "level":10
   },
-  "sky_qre_dstg7_troll": {
-    "level": 26
+  "centurion_sphere_hts2":{
+    "level":5
   },
-  "sky_qre_ha1_skeleton": {
-    "level": 20
+  "daedroth_baladas":{
+    "level":12
   },
-  "sky_qre_kg1_spikeworm": {
-    "level": 2
+  "hunger_az_01":{
+    "level":11
   },
-  "sky_qre_kg3_harwyleth": {
-    "level": 25
+  "hunger_az_02":{
+    "level":11
   },
-  "sky_qre_kwb09_glaimrau": {
-    "level": 15
+  "atronach_flame_az":{
+    "level":7
   },
-  "sky_qre_kwfg1_target": {
-    "level": 8
+  "atronach_storm_az":{
+    "level":15
   },
-  "sky_qre_kwfg3_horse1": {
-    "level": 3
+  "ogrim_az":{
+    "level":11
   },
-  "sky_qre_kwfg3_horse2": {
-    "level": 3
+  "daedroth_az":{
+    "level":12
   },
-  "sky_qre_kwmg6_rughost": {
-    "level": 1
+  "netch_bull_dead_2":{
+    "level":4
   },
-  "sky_qre_mai4_goat": {
-    "level": 2
+  "dremora_gothren_guard1":{
+    "level":9
   },
-  "sky_qre_nar1_goatvic1": {
-    "level": 2
+  "dremora_gothren_guard2":{
+    "level":9
   },
-  "sky_qre_nar1_goatvic2": {
-    "level": 2
+  "corprus_lame_morvayn":{
+    "level":8
   },
-  "sky_qre_nar1_goatvic3": {
-    "level": 2
+  "corprus_stalker_morvayn":{
+    "level":5
   },
-  "sky_qre_nar1_wolf": {
-    "level": 12
+  "ancestor_ghost_summon":{
+    "level":1
   },
-  "sky_qre_vf1_hazel": {
-    "level": 3
+  "atronach_flame_summon":{
+    "level":7
   },
-  "sky_qre_vf1_whisper": {
-    "level": 3
+  "atronach_frost_summon":{
+    "level":9
   },
-  "sky_xre_dh_ghost": {
-    "level": 1
+  "atronach_storm_summon":{
+    "level":15
   },
-  "sky_xre_dse_cow": {
-    "level": 6
+  "bonelord_summon":{
+    "level":8
   },
-  "sky_xre_dse_horsecart": {
-    "level": 3
+  "bonewalker_summon":{
+    "level":4
   },
-  "sky_xre_ha_horse": {
-    "level": 3
+  "bonewalker_greater_summ":{
+    "level":7
   },
-  "sky_xre_holyrooster": {
-    "level": 2
+  "centurion_sphere_summon":{
+    "level":5
   },
-  "sky_xre_horse_01_s": {
-    "level": 3
+  "clannfear_summon":{
+    "level":7
   },
-  "sky_xre_horse_02_s": {
-    "level": 3
+  "daedroth_summon":{
+    "level":12
   },
-  "sky_xre_horse_04_s": {
-    "level": 3
+  "dremora_summon":{
+    "level":9
   },
-  "sky_xre_kw_horse": {
-    "level": 3
+  "golden saint_summon":{
+    "level":20
   },
-  "sky_xre_kw_horsecart": {
-    "level": 3
+  "hunger_summon":{
+    "level":11
   },
-  "sky_xre_vf_deadcow": {
-    "level": 6
+  "scamp_summon":{
+    "level":5
   },
-  "sky_xre_vf_deadwolf": {
-    "level": 5
+  "skeleton_summon":{
+    "level":3
   },
-  "sky_xre_vf_yellowhagash": {
-    "level": 12
+  "winged twilight_summon":{
+    "level":15
   },
-  "t_ayl_cre_sorcerking_01": {
-    "level": 20
+  "sky_ire_dh_bloodegil":{
+    "level":20
   },
-  "t_ayl_cre_welkspr_01": {
-    "level": 13
+  "sky_ire_dh_celarmo":{
+    "level":30
   },
-  "t_cyr_cre_dreu_01": {
-    "level": 5
+  "sky_ire_dh_deadgob1":{
+    "level":15
   },
-  "t_cyr_cre_gob_01": {
-    "level": 3
+  "sky_ire_dh_deadgob2":{
+    "level":5
   },
-  "t_cyr_cre_gobbrs_01": {
-    "level": 15
+  "sky_ire_dh_hengrim":{
+    "level":30
   },
-  "t_cyr_cre_gobchf_01": {
-    "level": 25
+  "sky_ire_dh_nald":{
+    "level":25
   },
-  "t_cyr_cre_gobskm_01": {
-    "level": 9
+  "sky_ire_kw_tamedrat":{
+    "level":2
   },
-  "t_cyr_cre_mino_01": {
-    "level": 30
+  "sky_ire_lh_deadgoat":{
+    "level":2
   },
-  "t_cyr_cre_mino_02": {
-    "level": 40
+  "sky_ire_lh_skeletonserv":{
+    "level":10
   },
-  "t_cyr_cre_sprg_01": {
-    "level": 17
+  "sky_ire_vf_deadbear":{
+    "level":10
   },
-  "t_cyr_fau_alphyn_01": {
-    "level": 7
+  "sky_ire_vf_malghredin":{
+    "level":20
   },
-  "t_cyr_fau_bearcol_01": {
-    "level": 10
+  "sky_qre_bm4_chosen":{
+    "level":20
   },
-  "t_cyr_fau_bearcolds_01": {
-    "level": 10
+  "sky_qre_bm4_ghealach":{
+    "level":20
   },
-  "t_cyr_fau_catlbull_01": {
-    "level": 10
+  "sky_qre_bm_druabith":{
+    "level":20
   },
-  "t_cyr_fau_catlbull_02": {
-    "level": 10
+  "sky_qre_bm_druabithtalk":{
+    "level":20
   },
-  "t_cyr_fau_catlcow_01": {
-    "level": 6
+  "sky_qre_bm_malthorc":{
+    "level":25
   },
-  "t_cyr_fau_donk_01": {
-    "level": 2
+  "sky_qre_bm_malthorcfg1":{
+    "level":25
   },
-  "t_cyr_fau_donkpk_01": {
-    "level": 2
+  "sky_qre_bm_malthorcfg2":{
+    "level":25
   },
-  "t_cyr_fau_donkpk_02": {
-    "level": 2
+  "sky_qre_dh2_chick":{
+    "level":1
   },
-  "t_cyr_fau_fishcrys_01": {
-    "level": 1
+  "sky_qre_dh2_deadchick":{
+    "level":1
   },
-  "t_cyr_fau_fishlep_01": {
-    "level": 1
+  "sky_qre_dh2_trollsurf":{
+    "level":12
   },
-  "t_cyr_fau_fishlfin_01": {
-    "level": 1
+  "sky_qre_dh2_trollunder":{
+    "level":15
   },
-  "t_cyr_fau_fishlfinst_01": {
-    "level": 1
+  "sky_qre_dh4_beten":{
+    "level":4
   },
-  "t_cyr_fau_fishslora_01": {
-    "level": 2
+  "sky_qre_dh4_spriggan":{
+    "level":9
   },
-  "t_cyr_fau_fishslred_01": {
-    "level": 2
+  "sky_qre_dh5_ekilcre":{
+    "level":5
   },
-  "t_cyr_fau_fishslsm_01": {
-    "level": 2
+  "sky_qre_dse2_boar":{
+    "level":4
   },
-  "t_cyr_fau_fishspr_01": {
-    "level": 1
+  "sky_qre_dse4_bear":{
+    "level":18
   },
-  "t_cyr_fau_fishsprst_01": {
-    "level": 1
+  "sky_qre_dse4_goba":{
+    "level":13
   },
-  "t_cyr_fau_fishstr_01": {
-    "level": 1
+  "sky_qre_dse4_gobb1":{
+    "level":5
   },
-  "t_cyr_fau_fishstrst_01": {
-    "level": 1
+  "sky_qre_dse4_gobb2":{
+    "level":5
   },
-  "t_cyr_fau_frogbul_01": {
-    "level": 2
+  "sky_qre_dse4_minotaur":{
+    "level":25
   },
-  "t_cyr_fau_goat_01": {
-    "level": 2
+  "sky_qre_dse4_raki1":{
+    "level":12
   },
-  "t_cyr_fau_goatdis_01": {
-    "level": 2
+  "sky_qre_dse4_raki2":{
+    "level":12
   },
-  "t_cyr_fau_hrs_01": {
-    "level": 3
+  "sky_qre_dse4_raki3":{
+    "level":12
   },
-  "t_cyr_fau_hrs_02": {
-    "level": 3
+  "sky_qre_dse4_wormmouth":{
+    "level":4
   },
-  "t_cyr_fau_hrs_03": {
-    "level": 3
+  "sky_qre_dse5_nazndae":{
+    "level":20
   },
-  "t_cyr_fau_hrssadl_01": {
-    "level": 3
+  "sky_qre_dsmg5_caralden":{
+    "level":12
   },
-  "t_cyr_fau_hrssadl_02": {
-    "level": 3
+  "sky_qre_dsmg5_dremora":{
+    "level":8
   },
-  "t_cyr_fau_hrssadl_03": {
-    "level": 3
+  "sky_qre_dsmg5_frostatr":{
+    "level":9
   },
-  "t_cyr_fau_hrssadlst_01": {
-    "level": 3
+  "sky_qre_dsmg5_galklinth":{
+    "level":15
   },
-  "t_cyr_fau_hrssadlst_02": {
-    "level": 3
+  "sky_qre_dsmg5_hunger":{
+    "level":11
   },
-  "t_cyr_fau_hrssadlst_03": {
-    "level": 3
+  "sky_qre_dsmg5_lich":{
+    "level":20
   },
-  "t_cyr_fau_hrsst_01": {
-    "level": 3
+  "sky_qre_dsmg5_scamp":{
+    "level":5
   },
-  "t_cyr_fau_hrsst_02": {
-    "level": 3
+  "sky_qre_dstg7_troll":{
+    "level":26
   },
-  "t_cyr_fau_hrsst_03": {
-    "level": 3
+  "sky_qre_ha1_skeleton":{
+    "level":20
   },
-  "t_cyr_fau_moonc_01": {
-    "level": 1
+  "sky_qre_kg1_spikeworm":{
+    "level":2
   },
-  "t_cyr_fau_mooncdis_01": {
-    "level": 1
+  "sky_qre_kg3_harwyleth":{
+    "level":25
   },
-  "t_cyr_fau_muskrat_01": {
-    "level": 2
+  "sky_qre_kw9_ishu01":{
+    "level":25
   },
-  "t_cyr_fau_muskratcol_01": {
-    "level": 5
+  "sky_qre_kwb09_glaimrau":{
+    "level":15
   },
-  "t_cyr_fau_muskratded_01": {
-    "level": 2
+  "sky_qre_kwfg1_target":{
+    "level":8
   },
-  "t_cyr_fau_muskratds_01": {
-    "level": 2
+  "sky_qre_kwfg3_horse1":{
+    "level":3
   },
-  "t_cyr_fau_pig_01": {
-    "level": 3
+  "sky_qre_kwfg3_horse2":{
+    "level":3
   },
-  "t_cyr_fau_pig_02": {
-    "level": 3
+  "sky_qre_kwmg6_rughost":{
+    "level":1
   },
-  "t_cyr_fau_pigst_01": {
-    "level": 3
+  "sky_qre_mai4_goat":{
+    "level":2
   },
-  "t_cyr_fau_pigst_02": {
-    "level": 3
+  "sky_qre_nar1_goatvic1":{
+    "level":2
   },
-  "t_cyr_fau_rat_01": {
-    "level": 2
+  "sky_qre_nar1_goatvic2":{
+    "level":2
   },
-  "t_cyr_fau_ratds_01": {
-    "level": 3
+  "sky_qre_nar1_goatvic3":{
+    "level":2
   },
-  "t_cyr_fau_rvnewt_01": {
-    "level": 3
+  "sky_qre_nar1_wolf":{
+    "level":12
   },
-  "t_cyr_fau_rvnewt_02": {
-    "level": 3
+  "sky_qre_vf1_hazel":{
+    "level":3
   },
-  "t_cyr_fau_tantha_01": {
-    "level": 1
+  "sky_qre_vf1_whisper":{
+    "level":3
   },
-  "t_cyr_fau_wolfcol_01": {
-    "level": 5
+  "sky_xre_dh_ghost":{
+    "level":1
   },
-  "t_cyr_fau_wolfcol_02": {
-    "level": 5
+  "sky_xre_dse_cow":{
+    "level":6
   },
-  "t_cyr_fau_wolfcolds_01": {
-    "level": 5
+  "sky_xre_dse_horsecart":{
+    "level":3
   },
-  "t_cyr_fau_wolfcolds_02": {
-    "level": 5
+  "sky_xre_ha_horse":{
+    "level":3
   },
-  "t_cyr_und_ghst_01": {
-    "level": 1
+  "sky_xre_horse_01_s":{
+    "level":3
   },
-  "t_cyr_und_ghst_02": {
-    "level": 8
+  "sky_xre_horse_02_s":{
+    "level":3
   },
-  "t_cyr_und_mum_01": {
-    "level": 3
+  "sky_xre_horse_04_s":{
+    "level":3
   },
-  "t_cyr_und_remcaptain01": {
-    "level": 8
+  "sky_xre_kw_horse":{
+    "level":3
   },
-  "t_cyr_und_remgeneral01": {
-    "level": 12
+  "sky_xre_kw_horsecart":{
+    "level":3
   },
-  "t_cyr_und_remlegionr01": {
-    "level": 5
+  "sky_xre_vf_deadcow":{
+    "level":6
   },
-  "t_cyr_und_remlegionr02": {
-    "level": 5
+  "sky_xre_vf_deadwolf":{
+    "level":5
   },
-  "t_cyr_und_skel_01": {
-    "level": 3
+  "sky_xre_vf_yellowhagash":{
+    "level":12
   },
-  "t_cyr_und_skelarc_01": {
-    "level": 3
+  "sky_xre_holyrooster":{
+    "level":2
   },
-  "t_cyr_und_skelcmp_01": {
-    "level": 10
+  "t_ayl_cre_rekeeper_01":{
+    "level":7
   },
-  "t_cyr_und_skellegion_01": {
-    "level": 12
+  "t_ayl_cre_resentinel_01":{
+    "level":8
   },
-  "t_cyr_und_skellegion_02": {
-    "level": 12
+  "t_ayl_cre_sorcerking_01":{
+    "level":20
   },
-  "t_cyr_und_skelwk_01": {
-    "level": 3
+  "t_ayl_cre_welkspr_01":{
+    "level":13
   },
-  "t_cyr_und_wrth_01": {
-    "level": 15
+  "t_cyr_cre_dreu_01":{
+    "level":5
   },
-  "t_cyr_und_wrthfad_01": {
-    "level": 11
+  "t_cyr_cre_gobbrs_01":{
+    "level":13
   },
-  "t_dae_cre_atroflcyr_01": {
-    "level": 7
+  "t_cyr_cre_gobchf_01":{
+    "level":20
   },
-  "t_dae_cre_atroflmw_01": {
-    "level": 7
+  "t_cyr_cre_gobskm_01":{
+    "level":5
   },
-  "t_dae_cre_atrofrcyr_01": {
-    "level": 9
+  "t_cyr_cre_gob_01":{
+    "level":3
   },
-  "t_dae_cre_atrofrmw_01": {
-    "level": 9
+  "t_cyr_cre_mino_01":{
+    "level":30
   },
-  "t_dae_cre_atrostcyr_01": {
-    "level": 15
+  "t_cyr_cre_mino_02":{
+    "level":40
   },
-  "t_dae_cre_atrostmw_01": {
-    "level": 15
+  "t_cyr_cre_sprg_01":{
+    "level":17
   },
-  "t_dae_cre_atrostmw_02": {
-    "level": 25
+  "t_cyr_fau_alphyn_01":{
+    "level":17
   },
-  "t_dae_cre_auroran_01": {
-    "level": 13
+  "t_cyr_fau_bearcolds_01":{
+    "level":10
   },
-  "t_dae_cre_auroran_02": {
-    "level": 16
+  "t_cyr_fau_bearcol_01":{
+    "level":10
   },
-  "t_dae_cre_clfearcyr_01": {
-    "level": 7
+  "t_cyr_fau_birdaebis_01":{
+    "level":2
   },
-  "t_dae_cre_daedrcyr_01": {
-    "level": 12
+  "t_cyr_fau_birdstridn_01":{
+    "level":2
   },
-  "t_dae_cre_devourer_01": {
-    "level": 20
+  "t_cyr_fau_birdstrid_01":{
+    "level":2
   },
-  "t_dae_cre_drem_01": {
-    "level": 9
+  "t_cyr_fau_butterfly_01":{
+    "level":1
   },
-  "t_dae_cre_drem_arch_01": {
-    "level": 10
+  "t_cyr_fau_butterfly_02":{
+    "level":1
   },
-  "t_dae_cre_drem_cast_01": {
-    "level": 10
+  "t_cyr_fau_butterfly_03":{
+    "level":1
   },
-  "t_dae_cre_dremcait_01": {
-    "level": 8
+  "t_cyr_fau_butterfly_04":{
+    "level":1
   },
-  "t_dae_cre_dremcyr_01": {
-    "level": 9
+  "t_cyr_fau_butterfly_05":{
+    "level":1
   },
-  "t_dae_cre_dremkynr_01": {
-    "level": 15
+  "t_cyr_fau_butterfly_06":{
+    "level":1
   },
-  "t_dae_cre_dremkynv_01": {
-    "level": 9
+  "t_cyr_fau_catlbull_01":{
+    "level":10
   },
-  "t_dae_cre_dremlorcyr_01": {
-    "level": 12
+  "t_cyr_fau_catlbull_02":{
+    "level":10
   },
-  "t_dae_cre_drid_01": {
-    "level": 12
+  "t_cyr_fau_catlcow_01":{
+    "level":6
   },
-  "t_dae_cre_dridbs_01": {
-    "level": 30
+  "t_cyr_fau_donkpk_01":{
+    "level":2
   },
-  "t_dae_cre_dridgr_01": {
-    "level": 18
+  "t_cyr_fau_donkpk_02":{
+    "level":2
   },
-  "t_dae_cre_dridls_01": {
-    "level": 6
+  "t_cyr_fau_donk_01":{
+    "level":2
   },
-  "t_dae_cre_gsaintcyr_01": {
-    "level": 20
+  "t_cyr_fau_fishcrys_01":{
+    "level":1
   },
-  "t_dae_cre_guardian_01": {
-    "level": 20
+  "t_cyr_fau_fishlfinst_01":{
+    "level":1
   },
-  "t_dae_cre_hungcyr_01": {
-    "level": 11
+  "t_cyr_fau_fishlfin_01":{
+    "level":1
   },
-  "t_dae_cre_lesserclfr_01": {
-    "level": 5
+  "t_cyr_fau_fishlep_01":{
+    "level":1
   },
-  "t_dae_cre_monarchst_01": {
-    "level": 25
+  "t_cyr_fau_fishslora_01":{
+    "level":2
   },
-  "t_dae_cre_ogrcyr_01": {
-    "level": 11
+  "t_cyr_fau_fishslred_01":{
+    "level":2
   },
-  "t_dae_cre_scamcyr_01": {
-    "level": 5
+  "t_cyr_fau_fishslsm_01":{
+    "level":2
   },
-  "t_dae_cre_seduc_01": {
-    "level": 15
+  "t_cyr_fau_fishsprst_01":{
+    "level":1
   },
-  "t_dae_cre_seducdark_01": {
-    "level": 25
+  "t_cyr_fau_fishspr_01":{
+    "level":1
   },
-  "t_dae_cre_seducdark_02": {
-    "level": 25
+  "t_cyr_fau_fishstrst_01":{
+    "level":1
   },
-  "t_dae_cre_seducdark_t2": {
-    "level": 25
+  "t_cyr_fau_fishstr_01":{
+    "level":1
   },
-  "t_dae_cre_verm_01": {
-    "level": 8
+  "t_cyr_fau_frogbul_01":{
+    "level":2
   },
-  "t_dae_cre_xivilai_01": {
-    "level": 25
+  "t_cyr_fau_goatdis_01":{
+    "level":2
   },
-  "t_dwe_cre_centarc_01": {
-    "level": 10
+  "t_cyr_fau_goat_01":{
+    "level":2
   },
-  "t_dwe_cre_centarcml_01": {
-    "level": 10
+  "t_cyr_fau_hrssadlst_01":{
+    "level":3
   },
-  "t_dwe_cre_centarcsh_01": {
-    "level": 10
+  "t_cyr_fau_hrssadlst_02":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_01": {
-    "level": 3
+  "t_cyr_fau_hrssadlst_03":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_02": {
-    "level": 6
+  "t_cyr_fau_hrssadl_01":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_03": {
-    "level": 9
+  "t_cyr_fau_hrssadl_02":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_04": {
-    "level": 12
+  "t_cyr_fau_hrssadl_03":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_05": {
-    "level": 15
+  "t_cyr_fau_hrsst_01":{
+    "level":3
   },
-  "t_dwe_cre_centarmor_06": {
-    "level": 18
+  "t_cyr_fau_hrsst_02":{
+    "level":3
   },
-  "t_dwe_cre_steamcolos_01": {
-    "level": 40
+  "t_cyr_fau_hrsst_03":{
+    "level":3
   },
-  "t_dwe_und_ghstgr_01": {
-    "level": 15
+  "t_cyr_fau_hrs_01":{
+    "level":3
   },
-  "t_dwe_und_ghstgrpl_01": {
-    "level": 10
+  "t_cyr_fau_hrs_02":{
+    "level":3
   },
-  "t_dwe_und_ghstpl_01": {
-    "level": 1
+  "t_cyr_fau_hrs_03":{
+    "level":3
   },
-  "t_els_r_alfiq_01": {
-    "level": 12
+  "t_cyr_fau_mooncdis_01":{
+    "level":1
   },
-  "t_glb_cre_dreuds_01": {
-    "level": 5
+  "t_cyr_fau_moonc_01":{
+    "level":1
   },
-  "t_glb_cre_golmm_01": {
-    "level": 6
+  "t_cyr_fau_moth_01":{
+    "level":1
   },
-  "t_glb_cre_gremlin_01": {
-    "level": 2
+  "t_cyr_fau_moth_02":{
+    "level":1
   },
-  "t_glb_cre_gremlin_02": {
-    "level": 2
+  "t_cyr_fau_moth_03":{
+    "level":1
   },
-  "t_glb_cre_gremlin_03": {
-    "level": 2
+  "t_cyr_fau_moth_04":{
+    "level":1
   },
-  "t_glb_cre_gremlin_04": {
-    "level": 2
+  "t_cyr_fau_moth_05":{
+    "level":1
   },
-  "t_glb_cre_kobold_01": {
-    "level": 3
+  "t_cyr_fau_moth_06":{
+    "level":1
   },
-  "t_glb_cre_lami_01": {
-    "level": 10
+  "t_cyr_fau_muskratcol_01":{
+    "level":5
   },
-  "t_glb_cre_landdreu_01": {
-    "level": 6
+  "t_cyr_fau_muskratded_01":{
+    "level":2
   },
-  "t_glb_cre_landdreuds_01": {
-    "level": 8
+  "t_cyr_fau_muskratds_01":{
+    "level":2
   },
-  "t_glb_cre_sloa_01": {
-    "level": 30
+  "t_cyr_fau_muskrat_01":{
+    "level":2
   },
-  "t_glb_cre_trollarmor_01": {
-    "level": 26
+  "t_cyr_fau_pigst_01":{
+    "level":3
   },
-  "t_glb_cre_trollarmor_02": {
-    "level": 26
+  "t_cyr_fau_pigst_02":{
+    "level":3
   },
-  "t_glb_cre_trollarmor_03": {
-    "level": 26
+  "t_cyr_fau_pig_01":{
+    "level":3
   },
-  "t_glb_cre_trollarmor_04": {
-    "level": 30
+  "t_cyr_fau_pig_02":{
+    "level":3
   },
-  "t_glb_cre_trollcave_01": {
-    "level": 20
+  "t_cyr_fau_ratds_01":{
+    "level":3
   },
-  "t_glb_cre_trollcave_02": {
-    "level": 20
+  "t_cyr_fau_rat_01":{
+    "level":2
   },
-  "t_glb_cre_trollcave_03": {
-    "level": 20
+  "t_cyr_fau_rvnewt_01":{
+    "level":3
   },
-  "t_glb_cre_trollcave_04": {
-    "level": 20
+  "t_cyr_fau_rvnewt_02":{
+    "level":3
   },
-  "t_glb_cre_trollcaved_03": {
-    "level": 20
+  "t_cyr_fau_snkdmaspis_01":{
+    "level":3
   },
-  "t_glb_cre_trollfrost_01": {
-    "level": 22
+  "t_cyr_fau_tantha_01":{
+    "level":1
   },
-  "t_glb_cre_trollfrost_02": {
-    "level": 22
+  "t_cyr_fau_wolfcolds_01":{
+    "level":5
   },
-  "t_glb_cre_trollfrost_03": {
-    "level": 22
+  "t_cyr_fau_wolfcolds_02":{
+    "level":5
   },
-  "t_glb_cre_trollfrost_04": {
-    "level": 22
+  "t_cyr_fau_wolfcol_01":{
+    "level":5
   },
-  "t_glb_cre_wereboar_01": {
-    "level": 20
+  "t_cyr_fau_wolfcol_02":{
+    "level":5
   },
-  "t_glb_cre_werewolf_01": {
-    "level": 20
+  "t_cyr_und_ghst_01":{
+    "level":1
   },
-  "t_glb_fau_bat_01": {
-    "level": 1
+  "t_cyr_und_ghst_02":{
+    "level":8
   },
-  "t_glb_fau_batds_01": {
-    "level": 4
+  "t_cyr_und_minobarrow_01":{
+    "level":25
   },
-  "t_glb_fau_bflygrn_01": {
-    "level": 1
+  "t_cyr_und_mum_01":{
+    "level":3
   },
-  "t_glb_fau_bflygrnbg_01": {
-    "level": 1
+  "t_cyr_und_remcaptain01":{
+    "level":8
   },
-  "t_glb_fau_bflygrnsm_01": {
-    "level": 1
+  "t_cyr_und_remgeneral01":{
+    "level":12
   },
-  "t_glb_fau_bflypur_01": {
-    "level": 1
+  "t_cyr_und_remlegionr01":{
+    "level":5
   },
-  "t_glb_fau_bflypurbg_01": {
-    "level": 1
+  "t_cyr_und_remlegionr02":{
+    "level":5
   },
-  "t_glb_fau_bflypursm_01": {
-    "level": 1
+  "t_cyr_und_skelarc_01":{
+    "level":3
   },
-  "t_glb_fau_bflyred_01": {
-    "level": 1
+  "t_cyr_und_skelcmp_01":{
+    "level":10
   },
-  "t_glb_fau_bflyredbg_01": {
-    "level": 1
+  "t_cyr_und_skellegion_01":{
+    "level":12
   },
-  "t_glb_fau_bflyredsm_01": {
-    "level": 1
+  "t_cyr_und_skellegion_02":{
+    "level":12
   },
-  "t_glb_fau_birdchi_01": {
-    "level": 1
+  "t_cyr_und_skelwk_01":{
+    "level":3
   },
-  "t_glb_fau_birdchi_02": {
-    "level": 1
+  "t_cyr_und_skel_01":{
+    "level":3
   },
-  "t_glb_fau_birdchi_03": {
-    "level": 1
+  "t_cyr_und_wrthfad_01":{
+    "level":11
   },
-  "t_glb_fau_birdchi_04": {
-    "level": 1
+  "t_cyr_und_wrth_01":{
+    "level":15
   },
-  "t_glb_fau_birdchi_05": {
-    "level": 1
+  "t_dae_cre_atroflcyr_01":{
+    "level":7
   },
-  "t_glb_fau_birdchirs_01": {
-    "level": 2
+  "t_dae_cre_atroflmw_01":{
+    "level":7
   },
-  "t_glb_fau_birdchirs_02": {
-    "level": 2
+  "t_dae_cre_atrofrcyr_01":{
+    "level":9
   },
-  "t_glb_fau_birdckde_01": {
-    "level": 5
+  "t_dae_cre_atrofrmw_01":{
+    "level":9
   },
-  "t_glb_fau_birdgfnch_01": {
-    "level": 5
+  "t_dae_cre_atrostcyr_01":{
+    "level":15
   },
-  "t_glb_fau_birdgfnch_02": {
-    "level": 5
+  "t_dae_cre_atrostmw_01":{
+    "level":15
   },
-  "t_glb_fau_birdrob_01": {
-    "level": 5
+  "t_dae_cre_atrostmw_02":{
+    "level":25
   },
-  "t_glb_fau_birdseag_01": {
-    "level": 3
+  "t_dae_cre_auroran_01":{
+    "level":13
   },
-  "t_glb_fau_birdseag_02": {
-    "level": 1
+  "t_dae_cre_auroran_02":{
+    "level":16
   },
-  "t_glb_fau_birdseag_03": {
-    "level": 5
+  "t_dae_cre_clfearcyr_01":{
+    "level":7
   },
-  "t_glb_fau_birdspr_01": {
-    "level": 5
+  "t_dae_cre_daedrcyr_01":{
+    "level":12
   },
-  "t_glb_fau_birdspr_02": {
-    "level": 5
+  "t_dae_cre_devourer_01":{
+    "level":20
   },
-  "t_glb_fau_deer_01": {
-    "level": 5
+  "t_dae_cre_dremcait_01":{
+    "level":8
   },
-  "t_glb_fau_deer_02": {
-    "level": 4
+  "t_dae_cre_dremcyr_01":{
+    "level":9
   },
-  "t_glb_fau_fishslds_01": {
-    "level": 2
+  "t_dae_cre_dremkynr_01":{
+    "level":15
   },
-  "t_glb_fau_fishslsmds_01": {
-    "level": 2
+  "t_dae_cre_dremkynv_01":{
+    "level":9
   },
-  "t_glb_fau_fishsturg_01": {
-    "level": 1
+  "t_dae_cre_dremlorcyr_01":{
+    "level":12
   },
-  "t_glb_fau_fishsturganc1": {
-    "level": 1
+  "t_dae_cre_drem_01":{
+    "level":9
   },
-  "t_glb_fau_horkerbrow_01": {
-    "level": 1
+  "t_dae_cre_drem_arch_01":{
+    "level":10
   },
-  "t_glb_fau_horkerbrow_02": {
-    "level": 5
+  "t_dae_cre_drem_cast_01":{
+    "level":10
   },
-  "t_glb_fau_horkerbrow_03": {
-    "level": 7
+  "t_dae_cre_dridbs_01":{
+    "level":30
   },
-  "t_glb_fau_horkerbrow_04": {
-    "level": 20
+  "t_dae_cre_dridgr_01":{
+    "level":18
   },
-  "t_glb_fau_horkergrey_01": {
-    "level": 1
+  "t_dae_cre_dridls_01":{
+    "level":6
   },
-  "t_glb_fau_horkergrey_02": {
-    "level": 5
+  "t_dae_cre_drid_01":{
+    "level":12
   },
-  "t_glb_fau_horkergrey_03": {
-    "level": 7
+  "t_dae_cre_gsaintcyr_01":{
+    "level":20
   },
-  "t_glb_fau_horkergrey_04": {
-    "level": 20
+  "t_dae_cre_guardian_01":{
+    "level":20
   },
-  "t_glb_fau_horkerwhit_01": {
-    "level": 1
+  "t_dae_cre_herne_01":{
+    "level":7
   },
-  "t_glb_fau_horkerwhit_02": {
-    "level": 20
+  "t_dae_cre_hungcyr_01":{
+    "level":11
   },
-  "t_glb_fau_lrgspider_01": {
-    "level": 6
+  "t_dae_cre_lesserclfr_01":{
+    "level":5
   },
-  "t_glb_fau_lrgspider_02": {
-    "level": 10
+  "t_dae_cre_monarchfr_01":{
+    "level":21
   },
-  "t_glb_fau_lrgspider_03": {
-    "level": 2
+  "t_dae_cre_monarchst_01":{
+    "level":25
   },
-  "t_glb_fau_mous_01": {
-    "level": 1
+  "t_dae_cre_morphoid_01":{
+    "level":9
   },
-  "t_glb_fau_mousbk_01": {
-    "level": 1
+  "t_dae_cre_ogrcyr_01":{
+    "level":11
   },
-  "t_glb_fau_mousgr_01": {
-    "level": 1
+  "t_dae_cre_perthan_01":{
+    "level":15
   },
-  "t_glb_fau_mouswt_01": {
-    "level": 1
+  "t_dae_cre_scamcyr_01":{
+    "level":5
   },
-  "t_glb_fau_ratbk_01": {
-    "level": 2
+  "t_dae_cre_seducdark_01":{
+    "level":25
   },
-  "t_glb_fau_ratcol_01": {
-    "level": 3
+  "t_dae_cre_seducdark_02":{
+    "level":25
   },
-  "t_glb_fau_ratcol_02": {
-    "level": 3
+  "t_dae_cre_seducdark_t2":{
+    "level":25
   },
-  "t_glb_fau_ratcv_01": {
-    "level": 3
+  "t_dae_cre_seduc_01":{
+    "level":15
   },
-  "t_glb_fau_ratcvds_01": {
-    "level": 3
+  "t_dae_cre_spiderdae_01":{
+    "level":12
   },
-  "t_glb_fau_ratds_01": {
-    "level": 3
+  "t_dae_cre_spiderdae_02":{
+    "level":18
   },
-  "t_glb_fau_ratgr_01": {
-    "level": 2
+  "t_dae_cre_spiderdae_03":{
+    "level":30
   },
-  "t_glb_fau_ratwt_01": {
-    "level": 2
+  "t_dae_cre_verm_01":{
+    "level":8
   },
-  "t_glb_fau_seacr_01": {
-    "level": 10
+  "t_dae_cre_verm_02":{
+    "level":8
   },
-  "t_glb_fau_seacrds_01": {
-    "level": 10
+  "t_dae_cre_xivilai_01":{
+    "level":25
   },
-  "t_glb_fau_squirrel_01": {
-    "level": 1
+  "t_dwe_cre_centarcml_01":{
+    "level":10
   },
-  "t_glb_fau_squirrel_02": {
-    "level": 1
+  "t_dwe_cre_centarcsh_01":{
+    "level":10
   },
-  "t_glb_und_lichgr_01": {
-    "level": 40
+  "t_dwe_cre_centarc_01":{
+    "level":10
   },
-  "t_glb_und_lichpl_01": {
-    "level": 20
+  "t_dwe_cre_centarmor_01":{
+    "level":3
   },
-  "t_glb_und_skelarise_01": {
-    "level": 3
+  "t_dwe_cre_centarmor_02":{
+    "level":6
   },
-  "t_glb_und_skelarise_02": {
-    "level": 3
+  "t_dwe_cre_centarmor_03":{
+    "level":9
   },
-  "t_glb_und_skelarise_03": {
-    "level": 1
+  "t_dwe_cre_centarmor_04":{
+    "level":12
   },
-  "t_glb_und_skelarise_04": {
-    "level": 3
+  "t_dwe_cre_centarmor_05":{
+    "level":15
   },
-  "t_glb_und_skelcmpgr_01": {
-    "level": 20
+  "t_dwe_cre_centarmor_06":{
+    "level":18
   },
-  "t_glb_und_skelcmppl_01": {
-    "level": 10
+  "t_dwe_cre_steamcolos_01":{
+    "level":40
   },
-  "t_glb_und_skelkha_01": {
-    "level": 3
+  "t_dwe_spectre_f_01":{
+    "level":5
   },
-  "t_glb_und_skelorc_01": {
-    "level": 4
+  "t_dwe_und_ghstgrpl_01":{
+    "level":10
   },
-  "t_glb_und_skelorc_02": {
-    "level": 10
+  "t_dwe_und_ghstgr_01":{
+    "level":15
   },
-  "t_glb_und_skelorc_03": {
-    "level": 10
+  "t_dwe_und_ghstpl_01":{
+    "level":1
   },
-  "t_glb_und_skelpir_01": {
-    "level": 25
+  "t_els_r_alfiq_01":{
+    "level":12
   },
-  "t_glb_und_skelpl_01": {
-    "level": 3
+  "t_glb_cre_dreuds_01":{
+    "level":5
   },
-  "t_glb_und_skelwlor_01": {
-    "level": 35
+  "t_glb_cre_dreumow_01":{
+    "level":20
   },
-  "t_glb_und_skelwlorpl_01": {
-    "level": 35
+  "t_glb_cre_dreuqueen_01":{
+    "level":10
   },
-  "t_glb_uni_orgnumcoffer": {
-    "level": 2
+  "t_glb_cre_golmm_01":{
+    "level":6
   },
-  "t_ham_fau_goat_01": {
-    "level": 2
+  "t_glb_cre_gremlin_01":{
+    "level":2
   },
-  "t_ham_fau_goat_02": {
-    "level": 2
+  "t_glb_cre_gremlin_02":{
+    "level":2
   },
-  "t_ham_fau_spkworm_01": {
-    "level": 2
+  "t_glb_cre_gremlin_03":{
+    "level":2
   },
-  "t_ham_fau_spkwormds_01": {
-    "level": 2
+  "t_glb_cre_gremlin_04":{
+    "level":2
   },
-  "t_ham_fau_wormmth_01": {
-    "level": 4
+  "t_glb_cre_gremlin_05":{
+    "level":2
   },
-  "t_mw_cre_gobbrs_01": {
-    "level": 13
+  "t_glb_cre_kobold_01":{
+    "level":3
   },
-  "t_mw_cre_gobbru_01": {
-    "level": 15
+  "t_glb_cre_lamiless_01":{
+    "level":8
   },
-  "t_mw_cre_gobchf_01": {
-    "level": 20
+  "t_glb_cre_lami_01":{
+    "level":10
   },
-  "t_mw_cre_gobshm_01": {
-    "level": 12
+  "t_glb_cre_landdreuds_01":{
+    "level":8
   },
-  "t_mw_cre_gobskr_01": {
-    "level": 5
+  "t_glb_cre_landdreu_01":{
+    "level":6
   },
-  "t_mw_cre_gobthr_01": {
-    "level": 3
+  "t_glb_cre_sloa_01":{
+    "level":30
   },
-  "t_mw_fau_armunkag_01": {
-    "level": 18
+  "t_glb_cre_trollarmor_01":{
+    "level":26
   },
-  "t_mw_fau_armunkagmat_01": {
-    "level": 20
+  "t_glb_cre_trollarmor_02":{
+    "level":26
   },
-  "t_mw_fau_beetlebl_01": {
-    "level": 6
+  "t_glb_cre_trollarmor_03":{
+    "level":26
   },
-  "t_mw_fau_beetleblds_01": {
-    "level": 6
+  "t_glb_cre_trollarmor_04":{
+    "level":30
   },
-  "t_mw_fau_beetleblran_01": {
-    "level": 6
+  "t_glb_cre_trollcaved_03":{
+    "level":20
   },
-  "t_mw_fau_beetlebr_01": {
-    "level": 6
+  "t_glb_cre_trollcave_01":{
+    "level":20
   },
-  "t_mw_fau_beetlebrds_01": {
-    "level": 6
+  "t_glb_cre_trollcave_02":{
+    "level":20
   },
-  "t_mw_fau_beetlebrran_01": {
-    "level": 6
+  "t_glb_cre_trollcave_03":{
+    "level":20
   },
-  "t_mw_fau_beetlegr_01": {
-    "level": 6
+  "t_glb_cre_trollcave_04":{
+    "level":20
   },
-  "t_mw_fau_beetlegrds_01": {
-    "level": 6
+  "t_glb_cre_trollfrost_01":{
+    "level":22
   },
-  "t_mw_fau_beetlegrran_01": {
-    "level": 6
+  "t_glb_cre_trollfrost_02":{
+    "level":22
   },
-  "t_mw_fau_beetlehr_01": {
-    "level": 6
+  "t_glb_cre_trollfrost_03":{
+    "level":22
   },
-  "t_mw_fau_beetlehrds_01": {
-    "level": 6
+  "t_glb_cre_trollfrost_04":{
+    "level":22
   },
-  "t_mw_fau_beetlehrran_01": {
-    "level": 6
+  "t_glb_cre_wereboar_01":{
+    "level":20
   },
-  "t_mw_fau_blindslaufi_01": {
-    "level": 5
+  "t_glb_cre_werewolf_01":{
+    "level":20
   },
-  "t_mw_fau_ceph_01": {
-    "level": 4
+  "t_glb_fau_batds_01":{
+    "level":4
   },
-  "t_mw_fau_cephbg_01": {
-    "level": 5
+  "t_glb_fau_bat_01":{
+    "level":1
   },
-  "t_mw_fau_cephbgds_01": {
-    "level": 5
+  "t_glb_fau_bflygrnbg_01":{
+    "level":1
   },
-  "t_mw_fau_cephds_01": {
-    "level": 4
+  "t_glb_fau_bflygrnsm_01":{
+    "level":1
   },
-  "t_mw_fau_eyest_01": {
-    "level": 1
+  "t_glb_fau_bflygrn_01":{
+    "level":1
   },
-  "t_mw_fau_eyestds_01": {
-    "level": 1
+  "t_glb_fau_bflypurbg_01":{
+    "level":1
   },
-  "t_mw_fau_fish_01a": {
-    "level": 1
+  "t_glb_fau_bflypursm_01":{
+    "level":1
   },
-  "t_mw_fau_fish_01b": {
-    "level": 1
+  "t_glb_fau_bflypur_01":{
+    "level":1
   },
-  "t_mw_fau_fish_01c": {
-    "level": 1
+  "t_glb_fau_bflyredbg_01":{
+    "level":1
   },
-  "t_mw_fau_fish_02a": {
-    "level": 1
+  "t_glb_fau_bflyredsm_01":{
+    "level":1
   },
-  "t_mw_fau_fish_02b": {
-    "level": 1
+  "t_glb_fau_bflyred_01":{
+    "level":1
   },
-  "t_mw_fau_fish_02c": {
-    "level": 1
+  "t_glb_fau_birdchirs_01":{
+    "level":2
   },
-  "t_mw_fau_fish_03a": {
-    "level": 1
+  "t_glb_fau_birdchirs_02":{
+    "level":2
   },
-  "t_mw_fau_fish_03b": {
-    "level": 1
+  "t_glb_fau_birdchi_01":{
+    "level":1
   },
-  "t_mw_fau_fish_03c": {
-    "level": 1
+  "t_glb_fau_birdchi_02":{
+    "level":1
   },
-  "t_mw_fau_guards_01": {
-    "level": 3
+  "t_glb_fau_birdchi_03":{
+    "level":1
   },
-  "t_mw_fau_guarfrds_01": {
-    "level": 3
+  "t_glb_fau_birdchi_04":{
+    "level":1
   },
-  "t_mw_fau_guarhrn_01": {
-    "level": 3
+  "t_glb_fau_birdchi_05":{
+    "level":1
   },
-  "t_mw_fau_guarpackstray": {
-    "level": 3
+  "t_glb_fau_birdckde_01":{
+    "level":5
   },
-  "t_mw_fau_hirv_01": {
-    "level": 5
+  "t_glb_fau_birdgfnch_01":{
+    "level":5
   },
-  "t_mw_fau_hoom_01": {
-    "level": 3
+  "t_glb_fau_birdgfnch_02":{
+    "level":5
   },
-  "t_mw_fau_hoom_tame_01": {
-    "level": 3
+  "t_glb_fau_birdrob_01":{
+    "level":5
   },
-  "t_mw_fau_juvenilerivers": {
-    "level": 1
+  "t_glb_fau_birdseag_01":{
+    "level":3
   },
-  "t_mw_fau_kagrn_01": {
-    "level": 4
+  "t_glb_fau_birdseag_02":{
+    "level":1
   },
-  "t_mw_fau_kwafrgds_01": {
-    "level": 2
+  "t_glb_fau_birdseag_03":{
+    "level":5
   },
-  "t_mw_fau_kwaqnds_01": {
-    "level": 6
+  "t_glb_fau_birdspr_01":{
+    "level":5
   },
-  "t_mw_fau_kwawrds_01": {
-    "level": 3
+  "t_glb_fau_birdspr_02":{
+    "level":5
   },
-  "t_mw_fau_molec_01": {
-    "level": 1
+  "t_glb_fau_deer_01":{
+    "level":5
   },
-  "t_mw_fau_molecds_01": {
-    "level": 1
+  "t_glb_fau_deer_02":{
+    "level":4
   },
-  "t_mw_fau_mucklch_01": {
-    "level": 2
+  "t_glb_fau_dolphin_01":{
+    "level":5
   },
-  "t_mw_fau_mucklchds_01": {
-    "level": 2
+  "t_glb_fau_fishpirana_01":{
+    "level":2
   },
-  "t_mw_fau_muskf_01": {
-    "level": 3
+  "t_glb_fau_fishslds_01":{
+    "level":2
   },
-  "t_mw_fau_muskfds_01": {
-    "level": 3
+  "t_glb_fau_fishslsmds_01":{
+    "level":2
   },
-  "t_mw_fau_muskfrn_01": {
-    "level": 3
+  "t_glb_fau_fishsturganc1":{
+    "level":1
   },
-  "t_mw_fau_netblds_01": {
-    "level": 4
+  "t_glb_fau_fishsturg_01":{
+    "level":1
   },
-  "t_mw_fau_netblrcds_01": {
-    "level": 4
+  "t_glb_fau_hardhatprawn":{
+    "level":6
   },
-  "t_mw_fau_netbtyds_01": {
-    "level": 10
+  "t_glb_fau_horkerbrow_01":{
+    "level":1
   },
-  "t_mw_fau_netbtyrcds_01": {
-    "level": 10
+  "t_glb_fau_horkerbrow_02":{
+    "level":5
   },
-  "t_mw_fau_netchhostile01": {
-    "level": 4
+  "t_glb_fau_horkerbrow_03":{
+    "level":7
   },
-  "t_mw_fau_netchhostile02": {
-    "level": 10
+  "t_glb_fau_horkerbrow_04":{
+    "level":20
   },
-  "t_mw_fau_nixhds_01": {
-    "level": 2
+  "t_glb_fau_horkergrey_01":{
+    "level":1
   },
-  "t_mw_fau_nixm_01": {
-    "level": 4
+  "t_glb_fau_horkergrey_02":{
+    "level":5
   },
-  "t_mw_fau_orn_01": {
-    "level": 1
+  "t_glb_fau_horkergrey_03":{
+    "level":7
   },
-  "t_mw_fau_ornds_01": {
-    "level": 1
+  "t_glb_fau_horkergrey_04":{
+    "level":20
   },
-  "t_mw_fau_ornqn_01": {
-    "level": 1
+  "t_glb_fau_horkerwhit_01":{
+    "level":1
   },
-  "t_mw_fau_ornqnds_01": {
-    "level": 1
+  "t_glb_fau_horkerwhit_02":{
+    "level":20
   },
-  "t_mw_fau_para_01": {
-    "level": 7
+  "t_glb_fau_lrgspider_01":{
+    "level":6
   },
-  "t_mw_fau_parads_01": {
-    "level": 7
+  "t_glb_fau_lrgspider_02":{
+    "level":10
   },
-  "t_mw_fau_paravn_01": {
-    "level": 8
+  "t_glb_fau_lrgspider_03":{
+    "level":2
   },
-  "t_mw_fau_paravnds_01": {
-    "level": 8
+  "t_glb_fau_mousbk_01":{
+    "level":1
   },
-  "t_mw_fau_plstrid_01": {
-    "level": 20
+  "t_glb_fau_mousgr_01":{
+    "level":1
   },
-  "t_mw_fau_redoranhnd_01": {
-    "level": 7
+  "t_glb_fau_mouswt_01":{
+    "level":1
   },
-  "t_mw_fau_redoranhnd_02": {
-    "level": 7
+  "t_glb_fau_mous_01":{
+    "level":1
   },
-  "t_mw_fau_redoranhnd_03": {
-    "level": 7
+  "t_glb_fau_ratbk_01":{
+    "level":2
   },
-  "t_mw_fau_redoranhnd_04": {
-    "level": 7
+  "t_glb_fau_ratcol_01":{
+    "level":3
   },
-  "t_mw_fau_redoranhnd_05": {
-    "level": 7
+  "t_glb_fau_ratcol_02":{
+    "level":3
   },
-  "t_mw_fau_redoranhnd_06": {
-    "level": 7
+  "t_glb_fau_ratcvds_01":{
+    "level":3
   },
-  "t_mw_fau_skrend_01": {
-    "level": 10
+  "t_glb_fau_ratcv_01":{
+    "level":3
   },
-  "t_mw_fau_skrendds_01": {
-    "level": 10
+  "t_glb_fau_ratds_01":{
+    "level":3
   },
-  "t_mw_fau_skrendgrnd_01": {
-    "level": 10
+  "t_glb_fau_ratgr_01":{
+    "level":2
   },
-  "t_mw_fau_skrendhtc_01": {
-    "level": 4
+  "t_glb_fau_ratwt_01":{
+    "level":2
   },
-  "t_mw_fau_skrendmnt_01": {
-    "level": 10
+  "t_glb_fau_seacrds_01":{
+    "level":10
   },
-  "t_mw_fau_skylamp_01": {
-    "level": 5
+  "t_glb_fau_seacr_01":{
+    "level":10
   },
-  "t_mw_fau_skylamp_02": {
-    "level": 5
+  "t_glb_fau_squirrel_01":{
+    "level":1
   },
-  "t_mw_fau_skylamp_03": {
-    "level": 5
+  "t_glb_fau_squirrel_02":{
+    "level":1
   },
-  "t_mw_fau_skylamp_04": {
-    "level": 5
+  "t_glb_uni_orgnumcoffer":{
+    "level":2
   },
-  "t_mw_fau_skylampds_01": {
-    "level": 8
+  "t_glb_und_lichgr_01":{
+    "level":40
   },
-  "t_mw_fau_slstrid_01": {
-    "level": 30
+  "t_glb_und_lichpl_01":{
+    "level":20
   },
-  "t_mw_fau_swfly_01": {
-    "level": 3
+  "t_glb_und_skelarg_01":{
+    "level":3
   },
-  "t_mw_fau_trllsw_01": {
-    "level": 9
+  "t_glb_und_skelarg_02":{
+    "level":3
   },
-  "t_mw_fau_trllswds_01": {
-    "level": 9
+  "t_glb_und_skelarg_03":{
+    "level":3
   },
-  "t_mw_fau_tull_01": {
-    "level": 2
+  "t_glb_und_skelarise_01":{
+    "level":3
   },
-  "t_mw_fau_tullcf_01": {
-    "level": 2
+  "t_glb_und_skelarise_02":{
+    "level":3
   },
-  "t_mw_fau_tullcfds_01": {
-    "level": 2
+  "t_glb_und_skelarise_03":{
+    "level":1
   },
-  "t_mw_fau_tullds_01": {
-    "level": 2
+  "t_glb_und_skelarise_04":{
+    "level":3
   },
-  "t_mw_fau_velk_01": {
-    "level": 5
+  "t_glb_und_skelcmpgls_01":{
+    "level":10
   },
-  "t_mw_fau_yethbug_01": {
-    "level": 3
+  "t_glb_und_skelcmpgr_01":{
+    "level":20
   },
-  "t_mw_und_ancestorwep_01": {
-    "level": 1
+  "t_glb_und_skelcmppl_01":{
+    "level":10
   },
-  "t_mw_und_boneldgr_01": {
-    "level": 18
+  "t_glb_und_skelkha_01":{
+    "level":3
   },
-  "t_mw_und_boneldpl_01": {
-    "level": 8
+  "t_glb_und_skelkha_02":{
+    "level":3
   },
-  "t_mw_und_bonewkgrpl_01": {
-    "level": 7
+  "t_glb_und_skelorc_01":{
+    "level":4
   },
-  "t_mw_und_bonewkpl_01": {
-    "level": 4
+  "t_glb_und_skelorc_02":{
+    "level":10
   },
-  "t_mw_und_mum_01": {
-    "level": 3
+  "t_glb_und_skelorc_03":{
+    "level":10
   },
-  "t_mw_und_mum_02": {
-    "level": 3
+  "t_glb_und_skelpir_01":{
+    "level":25
   },
-  "t_mw_und_mum_rise_02": {
-    "level": 3
+  "t_glb_und_skelpl_01":{
+    "level":3
   },
-  "t_mw_und_mumpl_01": {
-    "level": 3
+  "t_glb_und_skelwlorpl_01":{
+    "level":35
   },
-  "t_mw_und_procebonwal_01": {
-    "level": 4
+  "t_glb_und_skelwlor_01":{
+    "level":35
   },
-  "t_mw_und_procebonwal_02": {
-    "level": 4
+  "t_hf_fau_mastreeve_01":{
+    "level":4
   },
-  "t_mw_und_procebonwal_03": {
-    "level": 4
+  "t_ham_fau_goat_01":{
+    "level":2
   },
-  "t_mw_und_reverbonwal_01": {
-    "level": 8
+  "t_ham_fau_goat_02":{
+    "level":2
   },
-  "t_mw_und_reverbonwal_02": {
-    "level": 8
+  "t_ham_fau_mastreeve_01":{
+    "level":4
   },
-  "t_mw_und_reverbonwal_03": {
-    "level": 8
+  "t_ham_fau_spkwormds_01":{
+    "level":2
   },
-  "t_mw_und_skelarc_01": {
-    "level": 3
+  "t_ham_fau_spkworm_01":{
+    "level":2
   },
-  "t_mw_und_skelwwiz_01": {
-    "level": 20
+  "t_ham_fau_wormmth_01":{
+    "level":4
   },
-  "t_mw_und_uni_bonewalker": {
-    "level": 7
+  "t_mw_fau_hirv_01":{
+    "level":5
   },
-  "t_mw_und_ushudimmu_01": {
-    "level": 28
+  "t_mw_cre_dreumow_01":{
+    "level":20
   },
-  "t_sky_cre_giant_01": {
-    "level": 30
+  "t_mw_cre_gobblind_01":{
+    "level":7
   },
-  "t_sky_cre_gobbrs_01": {
-    "level": 13
+  "t_mw_cre_gobblind_02":{
+    "level":7
   },
-  "t_sky_cre_gobbru_01": {
-    "level": 15
+  "t_mw_cre_gobblind_03":{
+    "level":7
   },
-  "t_sky_cre_gobchf_01": {
-    "level": 20
+  "t_mw_cre_gobblind_04":{
+    "level":20
   },
-  "t_sky_cre_gobshm_01": {
-    "level": 12
+  "t_mw_cre_gobbrs_01":{
+    "level":13
   },
-  "t_sky_cre_gobskr_01": {
-    "level": 5
+  "t_mw_cre_gobbru_01":{
+    "level":15
   },
-  "t_sky_cre_gobthr_01": {
-    "level": 3
+  "t_mw_cre_gobchf_01":{
+    "level":20
   },
-  "t_sky_cre_hagraven_01": {
-    "level": 15
+  "t_mw_cre_gobshm_01":{
+    "level":12
   },
-  "t_sky_cre_icewr_01": {
-    "level": 8
+  "t_mw_cre_gobskr_01":{
+    "level":5
   },
-  "t_sky_cre_mino_01": {
-    "level": 25
+  "t_mw_cre_gobthr_01":{
+    "level":3
   },
-  "t_sky_cre_minods_01": {
-    "level": 25
+  "t_mw_fau_armunkagmat_01":{
+    "level":20
   },
-  "t_sky_cre_spriggan_01": {
-    "level": 10
+  "t_mw_fau_armunkag_01":{
+    "level":18
   },
-  "t_sky_cre_sprigganel_01": {
-    "level": 15
+  "t_mw_fau_ashfowl_01":{
+    "level":1
   },
-  "t_sky_cre_sprigganny_01": {
-    "level": 7
+  "t_mw_fau_beetleblds_01":{
+    "level":6
   },
-  "t_sky_fau_bearbk_01": {
-    "level": 8
+  "t_mw_fau_beetleblran_01":{
+    "level":6
   },
-  "t_sky_fau_bearbkds_01": {
-    "level": 8
+  "t_mw_fau_beetlebl_01":{
+    "level":6
   },
-  "t_sky_fau_bearbr_01": {
-    "level": 15
+  "t_mw_fau_beetlebrds_01":{
+    "level":6
   },
-  "t_sky_fau_bearbrds_01": {
-    "level": 15
+  "t_mw_fau_beetlebrran_01":{
+    "level":6
   },
-  "t_sky_fau_beargr_01": {
-    "level": 18
+  "t_mw_fau_beetlebr_01":{
+    "level":6
   },
-  "t_sky_fau_beargrds_01": {
-    "level": 18
+  "t_mw_fau_beetlegrds_01":{
+    "level":6
   },
-  "t_sky_fau_bearred_01": {
-    "level": 10
+  "t_mw_fau_beetlegrran_01":{
+    "level":6
   },
-  "t_sky_fau_bearredds_01": {
-    "level": 10
+  "t_mw_fau_beetlegr_01":{
+    "level":6
   },
-  "t_sky_fau_bearsn_01": {
-    "level": 10
+  "t_mw_fau_beetlehrds_01":{
+    "level":6
   },
-  "t_sky_fau_boar_01": {
-    "level": 4
+  "t_mw_fau_beetlehrran_01":{
+    "level":6
   },
-  "t_sky_fau_boards_01": {
-    "level": 4
+  "t_mw_fau_beetlehr_01":{
+    "level":6
   },
-  "t_sky_fau_catlcow_01": {
-    "level": 6
+  "t_mw_fau_blindslaufi_01":{
+    "level":5
   },
-  "t_sky_fau_catlcow_02": {
-    "level": 6
+  "t_mw_fau_cephbgds_01":{
+    "level":5
   },
-  "t_sky_fau_catlcowp_01": {
-    "level": 6
+  "t_mw_fau_cephbg_01":{
+    "level":5
   },
-  "t_sky_fau_danswyrm_01": {
-    "level": 4
+  "t_mw_fau_cephds_01":{
+    "level":4
   },
-  "t_sky_fau_elk_01": {
-    "level": 7
+  "t_mw_fau_ceph_01":{
+    "level":4
   },
-  "t_sky_fau_elk_02": {
-    "level": 7
+  "t_mw_fau_eyestds_01":{
+    "level":1
   },
-  "t_sky_fau_elk_03": {
-    "level": 7
+  "t_mw_fau_eyest_01":{
+    "level":1
   },
-  "t_sky_fau_elk_04": {
-    "level": 7
+  "t_mw_fau_fish_01a":{
+    "level":1
   },
-  "t_sky_fau_elkwhite_01": {
-    "level": 7
+  "t_mw_fau_fish_01b":{
+    "level":1
   },
-  "t_sky_fau_fishbrntr_01": {
-    "level": 1
+  "t_mw_fau_fish_01c":{
+    "level":1
   },
-  "t_sky_fau_fishcod_01": {
-    "level": 1
+  "t_mw_fau_fish_02a":{
+    "level":1
   },
-  "t_sky_fau_fishpike_01": {
-    "level": 1
+  "t_mw_fau_fish_02b":{
+    "level":1
   },
-  "t_sky_fau_fishpikpr_01": {
-    "level": 1
+  "t_mw_fau_fish_02c":{
+    "level":1
   },
-  "t_sky_fau_fishsalm_01": {
-    "level": 1
+  "t_mw_fau_fish_03a":{
+    "level":1
   },
-  "t_sky_fau_goatmn_01": {
-    "level": 4
+  "t_mw_fau_fish_03b":{
+    "level":1
   },
-  "t_sky_fau_goatmnds_01": {
-    "level": 4
+  "t_mw_fau_fish_03c":{
+    "level":1
   },
-  "t_sky_fau_goatmnfr_01": {
-    "level": 4
+  "t_mw_fau_guards_01":{
+    "level":3
   },
-  "t_sky_fau_horker_01": {
-    "level": 5
+  "t_mw_fau_guarfrds_01":{
+    "level":3
   },
-  "t_sky_fau_horkerds_01": {
-    "level": 5
+  "t_mw_fau_guarhrn_01":{
+    "level":3
   },
-  "t_sky_fau_hrs_01": {
-    "level": 3
+  "t_mw_fau_guarpackstray":{
+    "level":3
   },
-  "t_sky_fau_hrs_02": {
-    "level": 3
+  "t_mw_fau_hoom_01":{
+    "level":3
   },
-  "t_sky_fau_hrs_03": {
-    "level": 3
+  "t_mw_fau_hoom_tame_01":{
+    "level":3
   },
-  "t_sky_fau_hrs_04": {
-    "level": 3
+  "t_mw_fau_juvenilerivers":{
+    "level":1
   },
-  "t_sky_fau_hrsct_01": {
-    "level": 3
+  "t_mw_fau_kagrn_01":{
+    "level":4
   },
-  "t_sky_fau_hrsct_02": {
-    "level": 3
+  "t_mw_fau_kwafrgds_01":{
+    "level":2
   },
-  "t_sky_fau_hrsct_03": {
-    "level": 3
+  "t_mw_fau_kwaqnds_01":{
+    "level":6
   },
-  "t_sky_fau_hrsct_04": {
-    "level": 3
+  "t_mw_fau_kwawrds_01":{
+    "level":3
   },
-  "t_sky_fau_irontoad": {
-    "level": 2
+  "t_mw_fau_kwoomds_01":{
+    "level":5
   },
-  "t_sky_fau_mamm_01": {
-    "level": 30
+  "t_mw_fau_kwoom_01":{
+    "level":5
   },
-  "t_sky_fau_raki_01": {
-    "level": 12
+  "t_mw_fau_kwoom_tames_01":{
+    "level":5
   },
-  "t_sky_fau_rakids_01": {
-    "level": 15
+  "t_mw_fau_molecds_01":{
+    "level":1
   },
-  "t_sky_fau_sabcat_01": {
-    "level": 20
+  "t_mw_fau_molec_01":{
+    "level":1
   },
-  "t_sky_fau_sabcat_02": {
-    "level": 20
+  "t_mw_fau_moth_01":{
+    "level":1
   },
-  "t_sky_fau_sabcatds_01": {
-    "level": 20
+  "t_mw_fau_moth_02":{
+    "level":1
   },
-  "t_sky_fau_sabcatds_02": {
-    "level": 20
+  "t_mw_fau_moth_03":{
+    "level":1
   },
-  "t_sky_fau_snowray_01": {
-    "level": 4
+  "t_mw_fau_mucklchds_01":{
+    "level":2
   },
-  "t_sky_fau_snowrayds_01": {
-    "level": 4
+  "t_mw_fau_mucklch_01":{
+    "level":2
   },
-  "t_sky_fau_wolfbla_01": {
-    "level": 5
+  "t_mw_fau_muskfds_01":{
+    "level":3
   },
-  "t_sky_fau_wolfblads_01": {
-    "level": 5
+  "t_mw_fau_muskfrn_01":{
+    "level":3
   },
-  "t_sky_fau_wolfblasml_01": {
-    "level": 1
+  "t_mw_fau_muskf_01":{
+    "level":3
   },
-  "t_sky_fau_wolfgr_01": {
-    "level": 5
+  "t_mw_fau_netblds_01":{
+    "level":4
   },
-  "t_sky_fau_wolfgr_dis_01": {
-    "level": 5
+  "t_mw_fau_netblrcds_01":{
+    "level":4
   },
-  "t_sky_fau_wolfred_01": {
-    "level": 5
+  "t_mw_fau_netbtyds_01":{
+    "level":10
   },
-  "t_sky_fau_wolfredds_01": {
-    "level": 5
+  "t_mw_fau_netbtyrcds_01":{
+    "level":10
   },
-  "t_sky_koglingadult_01": {
-    "level": 5
+  "t_mw_fau_netchhostile01":{
+    "level":4
   },
-  "t_sky_koglingbud_01": {
-    "level": 2
+  "t_mw_fau_netchhostile02":{
+    "level":10
   },
-  "t_sky_koglingelder_01": {
-    "level": 12
+  "t_mw_fau_nixrogue_01":{
+    "level":5
   },
-  "t_sky_und_bonewolf_01": {
-    "level": 10
+  "t_mw_fau_nixhds_01":{
+    "level":2
   },
-  "t_sky_und_drgr_01": {
-    "level": 15
+  "t_mw_fau_nixm_01":{
+    "level":4
   },
-  "t_sky_und_drgrhousc_01": {
-    "level": 25
+  "t_mw_fau_ornds_01":{
+    "level":1
   },
-  "t_sky_und_drgrlor_01": {
-    "level": 30
+  "t_mw_fau_ornqnds_01":{
+    "level":1
   },
-  "t_sky_und_drgrrot_01": {
-    "level": 15
+  "t_mw_fau_ornqn_01":{
+    "level":1
   },
-  "t_sky_und_drgrtong_01": {
-    "level": 30
+  "t_mw_fau_orn_01":{
+    "level":1
   },
-  "t_sky_und_lichfr_01": {
-    "level": 20
+  "t_mw_fau_parads_01":{
+    "level":7
   },
-  "t_sky_und_lichfr_02": {
-    "level": 20
+  "t_mw_fau_paravnds_01":{
+    "level":8
   },
-  "t_sky_und_lichfr_03": {
-    "level": 20
+  "t_mw_fau_paravn_01":{
+    "level":8
   },
-  "t_sky_und_lichfr_04": {
-    "level": 20
+  "t_mw_fau_para_01":{
+    "level":7
   },
-  "t_sky_und_skelcr_01": {
-    "level": 2
+  "t_mw_fau_plstrid_01":{
+    "level":20
   },
-  "t_tsa_cre_tsaesci _01": {
-    "level": 15
+  "t_mw_fau_redoranhnd_01":{
+    "level":7
   },
-  "t_tsa_cre_tsaesci_02": {
-    "level": 15
+  "t_mw_fau_redoranhnd_02":{
+    "level":7
   },
-  "tr_almas_thirr_ghost": {
-    "level": 20
+  "t_mw_fau_redoranhnd_03":{
+    "level":7
   },
-  "tr_ancestor_necrom": {
-    "level": 10
+  "t_mw_fau_redoranhnd_04":{
+    "level":7
   },
-  "tr_ancestor_necrom_d": {
-    "level": 10
+  "t_mw_fau_redoranhnd_05":{
+    "level":7
   },
-  "tr_ancestor_necrom_s": {
-    "level": 10
+  "t_mw_fau_redoranhnd_06":{
+    "level":7
   },
-  "tr_cr_bomuskfly": {
-    "level": 3
+  "t_mw_fau_sharaihopds_01":{
+    "level":2
   },
-  "tr_cr_bomuskfly2": {
-    "level": 3
+  "t_mw_fau_sharaihoppe_01":{
+    "level":2
   },
-  "tr_cr_dridrea_shambalu": {
-    "level": 12
+  "t_mw_fau_skrendds_01":{
+    "level":10
   },
-  "tr_cr_sstriderargil_uni": {
-    "level": 30
+  "t_mw_fau_skrendgrnds_01":{
+    "level":10
   },
-  "tr_guar_pack_goldy": {
-    "level": 8
+  "t_mw_fau_skrendgrnd_01":{
+    "level":10
   },
-  "tr_i3-785_dead_kwama_fo": {
-    "level": 1
+  "t_mw_fau_skrendhtc_01":{
+    "level":4
   },
-  "tr_i4-513_molecrab01": {
-    "level": 1
+  "t_mw_fau_skrendlards_01":{
+    "level":2
   },
-  "tr_i4-513_molecrab02": {
-    "level": 1
+  "t_mw_fau_skrendlarva_01":{
+    "level":2
   },
-  "tr_i4-513_molecrab03": {
-    "level": 1
+  "t_mw_fau_skrendmnt_01":{
+    "level":10
   },
-  "tr_i4-513_molecrab04": {
-    "level": 1
+  "t_mw_fau_skrendq_01":{
+    "level":15
   },
-  "tr_i4-513_molecrab_dead": {
-    "level": 1
+  "t_mw_fau_skrend_01":{
+    "level":10
   },
-  "tr_m1_aran_bonew_g_pla": {
-    "level": 7
+  "t_mw_fau_skylampds_01":{
+    "level":12
   },
-  "tr_m1_aran_bonew_plague": {
-    "level": 4
+  "t_mw_fau_skylamp_01":{
+    "level":10
   },
-  "tr_m1_aran_ghost": {
-    "level": 1
+  "t_mw_fau_skylamp_02":{
+    "level":10
   },
-  "tr_m1_aran_ghost_pla_gr": {
-    "level": 10
+  "t_mw_fau_skylamp_03":{
+    "level":10
   },
-  "tr_m1_aran_ghost_plague": {
-    "level": 1
+  "t_mw_fau_skylamp_04":{
+    "level":10
   },
-  "tr_m1_aran_lich": {
-    "level": 20
+  "t_mw_fau_slstrid_01":{
+    "level":30
   },
-  "tr_m1_aran_mummy": {
-    "level": 3
+  "t_mw_fau_swfly_01":{
+    "level":3
   },
-  "tr_m1_aran_skel_ch_pla": {
-    "level": 10
+  "t_mw_fau_thresherds_01":{
+    "level":23
   },
-  "tr_m1_aran_skeleton": {
-    "level": 3
+  "t_mw_fau_thresher_01":{
+    "level":20
   },
-  "tr_m1_aranyon-hunger": {
-    "level": 11
+  "t_mw_fau_tigguards_01":{
+    "level":8
   },
-  "tr_m1_aranyon_lich": {
-    "level": 30
+  "t_mw_fau_tigguar_01":{
+    "level":5
   },
-  "tr_m1_beh": {
-    "level": 30
+  "t_mw_fau_trllswds_01":{
+    "level":9
   },
-  "tr_m1_cr_i2_drekhva": {
-    "level": 42
+  "t_mw_fau_trllsw_01":{
+    "level":9
   },
-  "tr_m1_daedrothgindaman": {
-    "level": 25
+  "t_mw_fau_tullcfds_01":{
+    "level":2
   },
-  "tr_m1_deadguar2_i1-65-t": {
-    "level": 3
+  "t_mw_fau_tullcf_01":{
+    "level":2
   },
-  "tr_m1_deadguar_i1-65-te": {
-    "level": 3
+  "t_mw_fau_tullds_01":{
+    "level":2
   },
-  "tr_m1_devourer": {
-    "level": 16
+  "t_mw_fau_tull_01":{
+    "level":2
   },
-  "tr_m1_evillich_i1-6": {
-    "level": 25
+  "t_mw_fau_velk_01":{
+    "level":5
   },
-  "tr_m1_fg_sphere": {
-    "level": 5
+  "t_mw_fau_yethbug_01":{
+    "level":3
   },
-  "tr_m1_fg_steam": {
-    "level": 10
+  "t_mw_uni_grahlwabbajack":{
+    "level":1
   },
-  "tr_m1_fw_tg6_dremora": {
-    "level": 9
+  "t_mw_und_ancestorwep_01":{
+    "level":1
   },
-  "tr_m1_fwmg_xivilaitatho": {
-    "level": 35
+  "t_mw_und_boneldgr_01":{
+    "level":20
   },
-  "tr_m1_ggolem_mud": {
-    "level": 36
+  "t_mw_und_boneldpl_01":{
+    "level":8
   },
-  "tr_m1_golem_eldaleguard": {
-    "level": 6
+  "t_mw_und_bonewkgrpl_01":{
+    "level":7
   },
-  "tr_m1_guardiangindaman": {
-    "level": 20
+  "t_mw_und_bonewkpl_01":{
+    "level":4
   },
-  "tr_m1_i42_dreugh_warlor": {
-    "level": 20
+  "t_mw_und_mumpl_01":{
+    "level":3
   },
-  "tr_m1_il_deadskoomaguar": {
-    "level": 3
+  "t_mw_und_mum_01":{
+    "level":3
   },
-  "tr_m1_lich_i1-38": {
-    "level": 20
+  "t_mw_und_mum_02":{
+    "level":3
   },
-  "tr_m1_lud_stcent_01": {
-    "level": 15
+  "t_mw_und_mum_rise_02":{
+    "level":3
   },
-  "tr_m1_lud_stcent_02": {
-    "level": 15
+  "t_mw_und_procebonwal_01":{
+    "level":4
   },
-  "tr_m1_lud_stcent_03": {
-    "level": 15
+  "t_mw_und_procebonwal_02":{
+    "level":4
   },
-  "tr_m1_lud_stcent_04": {
-    "level": 15
+  "t_mw_und_procebonwal_03":{
+    "level":4
   },
-  "tr_m1_mating_alit_uni": {
-    "level": 6
+  "t_mw_und_reverbonwal_01":{
+    "level":8
   },
-  "tr_m1_molecrab_s": {
-    "level": 1
+  "t_mw_und_reverbonwal_02":{
+    "level":8
   },
-  "tr_m1_molecrab_w": {
-    "level": 1
+  "t_mw_und_reverbonwal_03":{
+    "level":8
   },
-  "tr_m1_noga-togroi": {
-    "level": 20
+  "t_mw_und_skelarc_01":{
+    "level":3
   },
-  "tr_m1_ptdresguardmtd": {
-    "level": 13
+  "t_mw_und_skelnede":{
+    "level":10
   },
-  "tr_m1_ptskyrendertame": {
-    "level": 10
+  "t_mw_und_skelnedeewiz":{
+    "level":25
   },
-  "tr_m1_q59_hao_cr_ogrm": {
-    "level": 11
+  "t_mw_und_skelnedewwiz":{
+    "level":10
   },
-  "tr_m1_q59_pr_rat": {
-    "level": 5
+  "t_mw_und_skelwwiz_01":{
+    "level":20
   },
-  "tr_m1_q66_ght_el2_dremo": {
-    "level": 9
+  "t_mw_und_uni_bonewalker":{
+    "level":7
   },
-  "tr_m1_q67_fa2_scamp": {
-    "level": 5
+  "t_mw_und_uni_skeldecap":{
+    "level":20
   },
-  "tr_m1_q_57_attackcrab": {
-    "level": 1
+  "t_mw_und_ushudimmu_01":{
+    "level":28
   },
-  "tr_m1_q_57_supercrab": {
-    "level": 1
+  "t_pi_fau_fishjdhnfsh_01":{
+    "level":1
   },
-  "tr_m1_q_alitgroup": {
-    "level": 3
+  "t_pi_fau_fishpdbrcda_01":{
+    "level":4
   },
-  "tr_m1_q_alitgrouplead": {
-    "level": 3
+  "t_pi_fau_fishrdshark_01":{
+    "level":7
   },
-  "tr_m1_q_attackguar": {
-    "level": 3
+  "t_pi_fau_fishslvrspd_01":{
+    "level":1
   },
-  "tr_m1_q_attackkagouti": {
-    "level": 4
+  "t_pi_fau_roc_01":{
+    "level":25
   },
-  "tr_m1_q_fwclannfear_uni": {
-    "level": 7
+  "t_sky_cre_giant_01":{
+    "level":30
   },
-  "tr_m1_q_lesa": {
-    "level": 3
+  "t_sky_cre_gobbrs_01":{
+    "level":13
   },
-  "tr_m1_q_skel_rgirth1": {
-    "level": 10
+  "t_sky_cre_gobbru_01":{
+    "level":15
   },
-  "tr_m1_q_skel_rgirth2": {
-    "level": 10
+  "t_sky_cre_gobchf_01":{
+    "level":20
   },
-  "tr_m1_q_skel_uneleas": {
-    "level": 3
+  "t_sky_cre_gobshm_01":{
+    "level":12
   },
-  "tr_m1_sa_fg_guar": {
-    "level": 3
+  "t_sky_cre_gobskr_01":{
+    "level":5
   },
-  "tr_m1_sa_fg_guar_free": {
-    "level": 3
+  "t_sky_cre_gobthr_01":{
+    "level":3
   },
-  "tr_m1_tame_plainstrider": {
-    "level": 15
+  "t_sky_cre_hagraven_01":{
+    "level":15
   },
-  "tr_m1_tel_darys_scamp_i": {
-    "level": 5
+  "t_sky_cre_icewr_01":{
+    "level":8
   },
-  "tr_m1_vermai_pt": {
-    "level": 16
+  "t_sky_cre_minods_01":{
+    "level":25
   },
-  "tr_m2-dead_rat": {
-    "level": 2
+  "t_sky_cre_mino_01":{
+    "level":25
   },
-  "tr_m2_445_sealingghost": {
-    "level": 10
+  "t_sky_cre_sprigganel_01":{
+    "level":15
   },
-  "tr_m2_drolarmanor_skel1": {
-    "level": 10
+  "t_sky_cre_sprigganny_01":{
+    "level":7
   },
-  "tr_m2_drolarmanor_skel2": {
-    "level": 10
+  "t_sky_cre_spriggan_01":{
+    "level":10
   },
-  "tr_m2_fg_centurion": {
-    "level": 10
+  "t_sky_fau_bearbkds_01":{
+    "level":8
   },
-  "tr_m2_ghost_dhal": {
-    "level": 1
+  "t_sky_fau_bearbk_01":{
+    "level":8
   },
-  "tr_m2_ghost_mort": {
-    "level": 1
+  "t_sky_fau_bearbrds_01":{
+    "level":15
   },
-  "tr_m2_ghost_necrom_s": {
-    "level": 1
+  "t_sky_fau_bearbr_01":{
+    "level":15
   },
-  "tr_m2_i394_skeleton cha": {
-    "level": 10
+  "t_sky_fau_beargrds_01":{
+    "level":18
   },
-  "tr_m2_kmlz_king_deadrat": {
-    "level": 2
+  "t_sky_fau_beargr_01":{
+    "level":18
   },
-  "tr_m2_kwama forager_dul": {
-    "level": 2
+  "t_sky_fau_bearredds_01":{
+    "level":10
   },
-  "tr_m2_kwama queen_dulun": {
-    "level": 6
+  "t_sky_fau_bearred_01":{
+    "level":10
   },
-  "tr_m2_kwama queen_he": {
-    "level": 6
+  "t_sky_fau_bearsn_01":{
+    "level":10
   },
-  "tr_m2_kwama queen_kapid": {
-    "level": 6
+  "t_sky_fau_boards_01":{
+    "level":4
   },
-  "tr_m2_kwama warrior_dul": {
-    "level": 3
+  "t_sky_fau_boar_01":{
+    "level":4
   },
-  "tr_m2_kwama worker_dul": {
-    "level": 2
+  "t_sky_fau_butterfly_01":{
+    "level":1
   },
-  "tr_m2_lich_lorddrolar": {
-    "level": 30
+  "t_sky_fau_butterfly_02":{
+    "level":1
   },
-  "tr_m2_lich_thelaro": {
-    "level": 30
+  "t_sky_fau_butterfly_03":{
+    "level":1
   },
-  "tr_m2_mugan_bonelord": {
-    "level": 8
+  "t_sky_fau_butterfly_04":{
+    "level":1
   },
-  "tr_m2_mugan_bonewalker": {
-    "level": 4
+  "t_sky_fau_catlbull_01":{
+    "level":10
   },
-  "tr_m2_mugan_skeleton": {
-    "level": 7
+  "t_sky_fau_catlbull_02":{
+    "level":10
   },
-  "tr_m2_mugan_skeletonc": {
-    "level": 10
+  "t_sky_fau_catlcowp_01":{
+    "level":6
   },
-  "tr_m2_q_18_packrat": {
-    "level": 5
+  "t_sky_fau_catlcow_01":{
+    "level":6
   },
-  "tr_m2_q_18_skellie": {
-    "level": 20
+  "t_sky_fau_catlcow_02":{
+    "level":6
   },
-  "tr_m2_q_20_guuljhka": {
-    "level": 15
+  "t_sky_fau_danswyrm_01":{
+    "level":4
   },
-  "tr_m2_q_22_ignoremarker": {
-    "level": 2
+  "t_sky_fau_elkwhite_01":{
+    "level":7
   },
-  "tr_m2_q_22_spectre": {
-    "level": 5
+  "t_sky_fau_elk_01":{
+    "level":7
   },
-  "tr_m2_q_29_4_dridrea": {
-    "level": 6
+  "t_sky_fau_elk_02":{
+    "level":7
   },
-  "tr_m2_q_32_guar_hlavesa": {
-    "level": 3
+  "t_sky_fau_elk_03":{
+    "level":7
   },
-  "tr_m2_q_38_favrghost": {
-    "level": 1
+  "t_sky_fau_elk_04":{
+    "level":7
   },
-  "tr_m2_q_4_sorendremora": {
-    "level": 9
+  "t_sky_fau_fishbrntr_01":{
+    "level":1
   },
-  "tr_m2_q_a8_4_dridrea": {
-    "level": 6
+  "t_sky_fau_fishcod_01":{
+    "level":1
   },
-  "tr_m2_q_a8_4_matriarch": {
-    "level": 18
+  "t_sky_fau_fishpike_01":{
+    "level":1
   },
-  "tr_m2_q_a8_5_atronach": {
-    "level": 7
+  "t_sky_fau_fishpikpr_01":{
+    "level":1
   },
-  "tr_m2_q_a8_5_passive1": {
-    "level": 3
+  "t_sky_fau_fishsalm_01":{
+    "level":1
   },
-  "tr_m2_q_a8_5_passive2": {
-    "level": 10
+  "t_sky_fau_goatmnds_01":{
+    "level":4
   },
-  "tr_m2_q_a8_5_skel arche": {
-    "level": 3
+  "t_sky_fau_goatmnfr_01":{
+    "level":4
   },
-  "tr_m2_q_a8_5_skel_melee": {
-    "level": 7
+  "t_sky_fau_goatmn_01":{
+    "level":4
   },
-  "tr_m2_q_a8_5_skel_warwi": {
-    "level": 20
+  "t_sky_fau_horkerds_01":{
+    "level":5
   },
-  "tr_m2_q_a9_5_ghost_dhal": {
-    "level": 1
+  "t_sky_fau_horker_01":{
+    "level":5
   },
-  "tr_m2_q_a9_5_lich_salv": {
-    "level": 20
+  "t_sky_fau_hrsct_01":{
+    "level":3
   },
-  "tr_m2_q_a9_6_daedroth": {
-    "level": 20
+  "t_sky_fau_hrsct_02":{
+    "level":3
   },
-  "tr_m2_q_il_cliffracer": {
-    "level": 4
+  "t_sky_fau_hrsct_03":{
+    "level":3
   },
-  "tr_m2_skeleton warrior": {
-    "level": 7
+  "t_sky_fau_hrsct_04":{
+    "level":3
   },
-  "tr_m3_ashinanibibisaint": {
-    "level": 20
+  "t_sky_fau_hrs_01":{
+    "level":3
   },
-  "tr_m3_cr_aimrahdreugh": {
-    "level": 15
+  "t_sky_fau_hrs_02":{
+    "level":3
   },
-  "tr_m3_cr_aimrahdreugh2": {
-    "level": 15
+  "t_sky_fau_hrs_03":{
+    "level":3
   },
-  "tr_m3_cr_aimrahdreugh3": {
-    "level": 15
+  "t_sky_fau_hrs_04":{
+    "level":3
   },
-  "tr_m3_cr_aimrahdreugh4": {
-    "level": 15
+  "t_sky_fau_irontoad":{
+    "level":2
   },
-  "tr_m3_cr_aimrahgilarat": {
-    "level": 5
+  "t_sky_fau_mamm_01":{
+    "level":30
   },
-  "tr_m3_cr_caughtrat": {
-    "level": 2
+  "t_sky_fau_moth_01":{
+    "level":1
   },
-  "tr_m3_cr_ebontghost": {
-    "level": 12
+  "t_sky_fau_moth_02":{
+    "level":1
   },
-  "tr_m3_cr_htatronach": {
-    "level": 17
+  "t_sky_fau_moth_03":{
+    "level":1
   },
-  "tr_m3_cr_kwamaqmunat": {
-    "level": 6
+  "t_sky_fau_moth_04":{
+    "level":1
   },
-  "tr_m3_cr_napalidreughd": {
-    "level": 5
+  "t_sky_fau_rakids_01":{
+    "level":15
   },
-  "tr_m3_cr_oesewerfish_01": {
-    "level": 5
+  "t_sky_fau_raki_01":{
+    "level":12
   },
-  "tr_m3_cr_oesewerfish_02": {
-    "level": 5
+  "t_sky_fau_sabcatds_01":{
+    "level":20
   },
-  "tr_m3_cr_oesewerfish_03": {
-    "level": 5
+  "t_sky_fau_sabcatds_02":{
+    "level":20
   },
-  "tr_m3_cr_oesewerfish_04": {
-    "level": 5
+  "t_sky_fau_sabcat_01":{
+    "level":20
   },
-  "tr_m3_cr_raathimghost": {
-    "level": 10
+  "t_sky_fau_sabcat_02":{
+    "level":20
   },
-  "tr_m3_cr_rabawiacrab": {
-    "level": 1
+  "t_sky_fau_snowrayds_01":{
+    "level":4
   },
-  "tr_m3_cr_rabawiacrabadv": {
-    "level": 4
+  "t_sky_fau_snowray_01":{
+    "level":4
   },
-  "tr_m3_cr_rabawiacrabbig": {
-    "level": 1
+  "t_sky_fau_wolfblads_01":{
+    "level":5
   },
-  "tr_m3_dagoth_alvos": {
-    "level": 16
+  "t_sky_fau_wolfblasml_01":{
+    "level":5
   },
-  "tr_m3_duroth nil": {
-    "level": 20
+  "t_sky_fau_wolfbla_01":{
+    "level":5
   },
-  "tr_m3_facesteal_dremora": {
-    "level": 9
+  "t_sky_fau_wolfgr_01":{
+    "level":5
   },
-  "tr_m3_facesteal_scamp": {
-    "level": 5
+  "t_sky_fau_wolfgr_dis_01":{
+    "level":5
   },
-  "tr_m3_felmsvelk": {
-    "level": 5
+  "t_sky_fau_wolfredds_01":{
+    "level":5
   },
-  "tr_m3_giantnixhound": {
-    "level": 20
+  "t_sky_fau_wolfred_01":{
+    "level":5
   },
-  "tr_m3_kha_11_clannftalk": {
-    "level": 14
+  "t_sky_koglingadult_01":{
+    "level":5
   },
-  "tr_m3_kha_11_dremoramrz": {
-    "level": 15
+  "t_sky_koglingbud_01":{
+    "level":2
   },
-  "tr_m3_kha_11_dremsewers": {
-    "level": 8
+  "t_sky_koglingelder_01":{
+    "level":12
   },
-  "tr_m3_kha_11_scampsewer": {
-    "level": 5
+  "t_sky_und_bonewolf_01":{
+    "level":10
   },
-  "tr_m3_kha_5_scampdrunk": {
-    "level": 5
+  "t_sky_und_drgrhousc_01":{
+    "level":25
   },
-  "tr_m3_kha_9_dremorasmth": {
-    "level": 20
+  "t_sky_und_drgrlor_01":{
+    "level":30
   },
-  "tr_m3_kha_clannfear_01": {
-    "level": 7
+  "t_sky_und_drgrrot_01":{
+    "level":15
   },
-  "tr_m3_kha_clannfear_02": {
-    "level": 7
+  "t_sky_und_drgrtong_01":{
+    "level":30
   },
-  "tr_m3_kha_daedroth_thul": {
-    "level": 12
+  "t_sky_und_drgr_01":{
+    "level":15
   },
-  "tr_m3_kha_daedroth_thus": {
-    "level": 13
+  "t_sky_und_lichfr_01":{
+    "level":20
   },
-  "tr_m3_kha_drem_meth_uld": {
-    "level": 50
+  "t_sky_und_lichfr_02":{
+    "level":20
   },
-  "tr_m3_kha_dremorasplcst": {
-    "level": 15
+  "t_sky_und_lichfr_03":{
+    "level":20
   },
-  "tr_m3_kha_fire_scamp": {
-    "level": 5
+  "t_sky_und_lichfr_04":{
+    "level":20
   },
-  "tr_m3_kha_flame_atro_01": {
-    "level": 7
+  "t_sky_und_skelcr_01":{
+    "level":2
   },
-  "tr_m3_kha_flame_atro_02": {
-    "level": 7
+  "t_tsa_cre_tsaesci _01":{
+    "level":15
   },
-  "tr_m3_kha_flame_atro_03": {
-    "level": 7
+  "t_tsa_cre_tsaesci_02":{
+    "level":15
   },
-  "tr_m3_kha_loadscreenske": {
-    "level": 10
+  "tr_almas_thirr_ghost":{
+    "level":20
   },
-  "tr_m3_kha_vermai_01": {
-    "level": 8
+  "tr_crypt_hunger":{
+    "level":1
   },
-  "tr_m3_kha_wingtwi_luna": {
-    "level": 25
+  "tr_dae_sducer_station":{
+    "level":15
   },
-  "tr_m3_maesabunmummy_uni": {
-    "level": 20
+  "tr_fm_cr_skel01":{
+    "level":4
   },
-  "tr_m3_moraelyn_lich_uni": {
-    "level": 20
+  "tr_fm_cr_skel02":{
+    "level":4
   },
-  "tr_m3_oe_casik_dremora": {
-    "level": 12
+  "tr_fm_cr_skel03":{
+    "level":7
   },
-  "tr_m3_oe_drem_rathine": {
-    "level": 30
+  "tr_fm_cr_skel04":{
+    "level":7
   },
-  "tr_m3_oe_fg_cr_aghost": {
-    "level": 10
+  "tr_fm_cr_skel05":{
+    "level":4
   },
-  "tr_m3_oe_fg_cr_velk": {
-    "level": 5
+  "tr_fm_cr_skel06":{
+    "level":7
   },
-  "tr_m3_oe_fg_cr_verm": {
-    "level": 5
+  "tr_fm_cr_skel07":{
+    "level":7
   },
-  "tr_m3_oe_hhontjulfdog": {
-    "level": 7
+  "tr_fm_cr_skelarcher":{
+    "level":3
   },
-  "tr_m3_oe_mg_amuletguar": {
-    "level": 3
+  "tr_fm_cr_skelarcherw":{
+    "level":3
   },
-  "tr_m3_oe_mg_astienatron": {
-    "level": 9
+  "tr_fm_cr_skelgrunt":{
+    "level":2
   },
-  "tr_m3_oe_mg_puzdreug": {
-    "level": 5
+  "tr_fm_cr_skelgrunt2":{
+    "level":2
   },
-  "tr_m3_oe_mg_puzdreugfly": {
-    "level": 5
+  "tr_fm_cr_skelminer":{
+    "level":2
   },
-  "tr_m3_oe_mg_puzfish1": {
-    "level": 2
+  "tr_fm_cr_skelnecro":{
+    "level":10
   },
-  "tr_m3_oe_mg_puzfish1fly": {
-    "level": 2
+  "tr_fm_cr_skelrise01":{
+    "level":3
   },
-  "tr_m3_oe_mg_puzfish2": {
-    "level": 2
+  "tr_fm_cr_skelxbow":{
+    "level":5
   },
-  "tr_m3_oe_mg_puzfish2fly": {
-    "level": 2
+  "tr_fm_cr_skelxboww":{
+    "level":5
   },
-  "tr_m3_oe_mg_puzfish3": {
-    "level": 2
+  "tr_fm_dozhir":{
+    "level":20
   },
-  "tr_m3_oe_mg_puzfish3fly": {
-    "level": 2
+  "tr_fm_grobogran":{
+    "level":20
   },
-  "tr_m3_oe_mg_puzzleghost": {
-    "level": 20
+  "tr_fm_grurn":{
+    "level":50
   },
-  "tr_m3_oe_pack_guar": {
-    "level": 3
+  "tr_fm_yavatra":{
+    "level":20
   },
-  "tr_m3_oe_raathimguard01": {
-    "level": 10
+  "tr_fm_zariz":{
+    "level":20
   },
-  "tr_m3_oe_raathimguard02": {
-    "level": 10
+  "tr_m1_lich_i1-38":{
+    "level":20
   },
-  "tr_m3_oe_raathimguard03": {
-    "level": 10
+  "tr_m1_q66_ght_el2_dremo":{
+    "level":9
   },
-  "tr_m3_oe_raathimguardb1": {
-    "level": 15
+  "tr_m1_q_lesa":{
+    "level":3
   },
-  "tr_m3_oe_raathimguardb2": {
-    "level": 12
+  "tr_m1_aran_ghost":{
+    "level":1
   },
-  "tr_m3_oe_rumaguestscamp": {
-    "level": 5
+  "tr_m1_golem_eldaleguard":{
+    "level":6
   },
-  "tr_m3_oe_telvannidaedra": {
-    "level": 15
+  "tr_m1_i42_dreugh_warlor":{
+    "level":25
   },
-  "tr_m3_oe_tg_fentus4guar": {
-    "level": 3
+  "tr_m2_lich_lorddrolar":{
+    "level":30
   },
-  "tr_m3_oe_winecellarrat": {
-    "level": 2
+  "tr_mg_necro_champion":{
+    "level":10
   },
-  "tr_m3_pelagius the rat": {
-    "level": 2
+  "tr_mg_necro_guardian":{
+    "level":9
   },
-  "tr_m3_q_12_krieps": {
-    "level": 6
+  "tr_mg_necro_master":{
+    "level":20
   },
-  "tr_m3_q_13_laasta": {
-    "level": 30
+  "tr_necmq_bandentheras":{
+    "level":10
   },
-  "tr_m3_q_a7_bosskelp": {
-    "level": 8
+  "tr_necmq_kulemundrat":{
+    "level":2
   },
-  "tr_m3_q_a7_bosskelw": {
-    "level": 20
+  "tr_necmq_nerevar_bonewa":{
+    "level":7
   },
-  "tr_m3_q_a9_bonelord": {
-    "level": 12
+  "tr_necmq_saviletheras":{
+    "level":10
   },
-  "tr_m3_q_a9_daedroth": {
-    "level": 12
+  "tr_necmq_therasboneld":{
+    "level":18
   },
-  "tr_m3_q_a9_ghost": {
-    "level": 1
+  "tr_necmq_therasbonewlk":{
+    "level":7
   },
-  "tr_m3_q_a9_ghosttomb1": {
-    "level": 1
+  "tr_necmq_therasghost":{
+    "level":10
   },
-  "tr_m3_q_a9_ghosttomb2": {
-    "level": 1
+  "tr_rr_shipwreck_skeleto":{
+    "level":10
   },
-  "tr_m3_q_a9_ghosttomb3": {
-    "level": 1
+  "tr_url_barrow_draugrlor":{
+    "level":40
   },
-  "tr_m3_q_fiendalit": {
-    "level": 10
+  "tr_vm-15-15_troll_01":{
+    "level":20
   },
-  "tr_m3_q_fiendhoom": {
-    "level": 3
+  "tr_worm_king_lich":{
+    "level":50
   },
-  "tr_m3_q_fiendkwama": {
-    "level": 5
+  "tr_wraith_necro_lair_01":{
+    "level":15
   },
-  "tr_m3_q_fiendscrib": {
-    "level": 1
+  "tr_wraith_necro_lair_02":{
+    "level":15
   },
-  "tr_m3_q_fiendshalk": {
-    "level": 6
+  "tr_ancestor_necrom":{
+    "level":10
   },
-  "tr_m3_q_fiendshalkclone": {
-    "level": 6
+  "tr_ancestor_necrom_d":{
+    "level":10
   },
-  "tr_m3_q_fiendtroll": {
-    "level": 1
+  "tr_ancestor_necrom_s":{
+    "level":10
   },
-  "tr_m3_q_fiendwormmouth": {
-    "level": 7
+  "tr_cr_bomuskfly":{
+    "level":3
   },
-  "tr_m3_q_il_rat": {
-    "level": 2
+  "tr_cr_bomuskfly2":{
+    "level":3
   },
-  "tr_m3_q_kelkemmello_wt": {
-    "level": 15
+  "tr_cr_sstriderargil_uni":{
+    "level":30
   },
-  "tr_m3_q_kha_bellvermai": {
-    "level": 10
+  "tr_guar_pack_goldy":{
+    "level":8
   },
-  "tr_m3_q_kha_ogrim_titan": {
-    "level": 15
+  "tr_i3-785_dead_kwama_fo":{
+    "level":1
   },
-  "tr_m3_q_kha_uridimmu": {
-    "level": 15
+  "tr_i4-513_molecrab01":{
+    "level":1
   },
-  "tr_m3_q_oe_mg_dremlord": {
-    "level": 12
+  "tr_i4-513_molecrab02":{
+    "level":1
   },
-  "tr_m3_q_oe_urienmudcrab": {
-    "level": 1
+  "tr_i4-513_molecrab03":{
+    "level":1
   },
-  "tr_m3_q_skelwiz": {
-    "level": 20
+  "tr_i4-513_molecrab04":{
+    "level":1
   },
-  "tr_m3_q_sy_ancestor": {
-    "level": 1
+  "tr_i4-513_molecrab_dead":{
+    "level":1
   },
-  "tr_m3_q_theriftpahmar": {
-    "level": 20
+  "tr_m1_beh":{
+    "level":30
   },
-  "tr_m3_q_theriftsq1": {
-    "level": 4
+  "tr_m1_bonelord_guardian":{
+    "level":20
   },
-  "tr_m3_q_theriftsq10": {
-    "level": 4
+  "tr_m1_cs_dreumow":{
+    "level":30
   },
-  "tr_m3_q_theriftsq11": {
-    "level": 4
+  "tr_m1_daedrothgindaman":{
+    "level":25
   },
-  "tr_m3_q_theriftsq12": {
-    "level": 4
+  "tr_m1_daedroth_nospell":{
+    "level":12
   },
-  "tr_m3_q_theriftsq13": {
-    "level": 4
+  "tr_m1_devourer":{
+    "level":16
   },
-  "tr_m3_q_theriftsq14": {
-    "level": 4
+  "tr_m1_evillich_i1-6":{
+    "level":25
   },
-  "tr_m3_q_theriftsq15": {
-    "level": 4
+  "tr_m1_fg_sphere":{
+    "level":5
   },
-  "tr_m3_q_theriftsq2": {
-    "level": 4
+  "tr_m1_fg_steam":{
+    "level":10
   },
-  "tr_m3_q_theriftsq3": {
-    "level": 4
+  "tr_m1_fwmg_xivilaitatho":{
+    "level":35
   },
-  "tr_m3_q_theriftsq4": {
-    "level": 4
+  "tr_m1_fwsewers_morphoid":{
+    "level":9
   },
-  "tr_m3_q_theriftsq5": {
-    "level": 4
+  "tr_m1_fw_tg6_dremora":{
+    "level":9
   },
-  "tr_m3_q_theriftsq6": {
-    "level": 4
+  "tr_m1_ggolem_mud":{
+    "level":36
   },
-  "tr_m3_q_theriftsq7": {
-    "level": 4
+  "tr_m1_guardiangindaman":{
+    "level":20
   },
-  "tr_m3_q_theriftsq8": {
-    "level": 4
+  "tr_m1_il_deadskoomaguar":{
+    "level":3
   },
-  "tr_m3_q_theriftsq9": {
-    "level": 4
+  "tr_m1_mating_alit_uni":{
+    "level":6
   },
-  "tr_m3_q_velk_dag": {
-    "level": 1
+  "tr_m1_ptskyrendertame":{
+    "level":10
   },
-  "tr_m3_rakan": {
-    "level": 12
+  "tr_m1_perthan_alutaire":{
+    "level":25
   },
-  "tr_m3_sabine valtienne": {
-    "level": 35
+  "tr_m1_perthan_vorn":{
+    "level":15
   },
-  "tr_m3_skeleton_jailer": {
-    "level": 10
+  "tr_m1_q59_hao_cr_ogrm":{
+    "level":11
   },
-  "tr_m3_skeleton_plague": {
-    "level": 8
+  "tr_m1_q59_pr_rat":{
+    "level":5
   },
-  "tr_m3_storyclannfear": {
-    "level": 3
+  "tr_m1_q_fwclannfear_uni":{
+    "level":7
   },
-  "tr_m3_storygoldensaint": {
-    "level": 4
+  "tr_m1_q_skel_uneleas":{
+    "level":3
   },
-  "tr_m3_tt_dis_trap_scamp": {
-    "level": 20
+  "tr_m1_q_skel_rgirth1":{
+    "level":10
   },
-  "tr_m3_tt_dis_wt_kras": {
-    "level": 20
+  "tr_m1_q_skel_rgirth2":{
+    "level":10
   },
-  "tr_m3_tt_dis_wt_kras_k": {
-    "level": 20
+  "tr_m1_sa_fg_guar":{
+    "level":3
   },
-  "tr_m3_tt_flood_ashdreug": {
-    "level": 20
+  "tr_m1_sa_fg_guar_free":{
+    "level":3
   },
-  "tr_m3_xaxmir": {
-    "level": 35
+  "tr_m1_sanguine_dremora":{
+    "level":9
   },
-  "tr_m3_zan_indoskel": {
-    "level": 20
+  "tr_m1_shalatharcher":{
+    "level":3
   },
-  "tr_m3_zan_lich": {
-    "level": 25
+  "tr_m1_shalathchampion1":{
+    "level":18
   },
-  "tr_m4_aa_nofight_f_atro": {
-    "level": 7
+  "tr_m1_shalathchampion2":{
+    "level":18
   },
-  "tr_m4_aa_tomb_2_marqrth": {
-    "level": 12
+  "tr_m1_spiderdaedra_voun":{
+    "level":12
   },
-  "tr_m4_aa_urnuridunguar": {
-    "level": 3
+  "tr_m1_tw_dreumow":{
+    "level":20
   },
-  "tr_m4_andosewermudcrab": {
-    "level": 1
+  "tr_m1_t_darkseducer":{
+    "level":25
   },
-  "tr_m4_andovaultalit": {
-    "level": 3
+  "tr_m1_tel_darys_scamp_i":{
+    "level":5
   },
-  "tr_m4_andowesttowerrat": {
-    "level": 2
+  "tr_m1_url_draugrlord":{
+    "level":40
   },
-  "tr_m4_armun_deadguar_01": {
-    "level": 3
+  "tr_m1_vermai_pt":{
+    "level":16
   },
-  "tr_m4_armungreatkagouti": {
-    "level": 28
+  "tr_m1_ws_dreumow":{
+    "level":30
   },
-  "tr_m4_bal_argaros": {
-    "level": 30
+  "tr_m1_aran_bonew_g_pla":{
+    "level":7
   },
-  "tr_m4_bal_clannfear": {
-    "level": 7
+  "tr_m1_aran_bonew_plague":{
+    "level":4
   },
-  "tr_m4_bal_dremora": {
-    "level": 9
+  "tr_m1_aran_ghost_pla_gr":{
+    "level":10
   },
-  "tr_m4_bal_dremoraarch": {
-    "level": 10
+  "tr_m1_aran_ghost_plague":{
+    "level":1
   },
-  "tr_m4_bal_dremoracast": {
-    "level": 10
+  "tr_m1_aran_lich":{
+    "level":20
   },
-  "tr_m4_bal_dremorakynr": {
-    "level": 15
+  "tr_m1_aran_mummy":{
+    "level":3
   },
-  "tr_m4_bal_flameatrkill": {
-    "level": 7
+  "tr_m1_aran_skel_ch_pla":{
+    "level":10
   },
-  "tr_m4_bal_flameatronach": {
-    "level": 7
+  "tr_m1_aran_skeleton":{
+    "level":3
   },
-  "tr_m4_bal_kutagmal": {
-    "level": 30
+  "tr_m1_aranyon-hunger":{
+    "level":11
   },
-  "tr_m4_bal_lesserclfr": {
-    "level": 5
+  "tr_m1_aranyon_lich":{
+    "level":30
   },
-  "tr_m4_bal_scamp": {
-    "level": 5
+  "tr_m1_clannfear_voun":{
+    "level":7
   },
-  "tr_m4_bal_skeleton1": {
-    "level": 3
+  "tr_m1_cr_i2_drekhva":{
+    "level":42
   },
-  "tr_m4_bal_skeleton2": {
-    "level": 3
+  "tr_m1_deadguar2_i1-65-t":{
+    "level":3
   },
-  "tr_m4_bal_vasrutha": {
-    "level": 30
+  "tr_m1_deadguar_i1-65-te":{
+    "level":3
   },
-  "tr_m4_bonewlk_uni": {
-    "level": 35
+  "tr_m1_drem_arch_voun":{
+    "level":10
   },
-  "tr_m4_cog_bonehead": {
-    "level": 10
+  "tr_m1_drem_voun":{
+    "level":9
   },
-  "tr_m4_cog_boneripper": {
-    "level": 10
+  "tr_m1_lud_stcent_01":{
+    "level":15
   },
-  "tr_m4_cog_madeye": {
-    "level": 10
+  "tr_m1_lud_stcent_02":{
+    "level":15
   },
-  "tr_m4_cr_aa_llandesag": {
-    "level": 3
+  "tr_m1_lud_stcent_03":{
+    "level":15
   },
-  "tr_m4_cr_aa_sehutuske01": {
-    "level": 15
+  "tr_m1_lud_stcent_04":{
+    "level":15
   },
-  "tr_m4_cr_aa_sehutuske02": {
-    "level": 15
+  "tr_m1_molecrab_s":{
+    "level":1
   },
-  "tr_m4_cr_aa_sehutuske03": {
-    "level": 15
+  "tr_m1_molecrab_w":{
+    "level":1
   },
-  "tr_m4_cr_aizuhr-suur": {
-    "level": 35
+  "tr_m1_noga-togroi":{
+    "level":20
   },
-  "tr_m4_cr_aizuhr-suur2": {
-    "level": 35
+  "tr_m1_q67_fa2_scamp":{
+    "level":5
   },
-  "tr_m4_cr_andodwemer_01": {
-    "level": 3
+  "tr_m1_q_57_attackcrab":{
+    "level":1
   },
-  "tr_m4_cr_andodwemer_02": {
-    "level": 3
+  "tr_m1_q_57_supercrab":{
+    "level":1
   },
-  "tr_m4_cr_andodwemer_03": {
-    "level": 3
+  "tr_m1_q_attackguar":{
+    "level":3
   },
-  "tr_m4_cr_andothvelk_01": {
-    "level": 5
+  "tr_m1_q_attackkagouti":{
+    "level":4
   },
-  "tr_m4_cr_aujatroll": {
-    "level": 20
+  "tr_m1_scamp_voun":{
+    "level":5
   },
-  "tr_m4_cr_aurmazlkaari": {
-    "level": 20
+  "tr_m1_seducer_voun":{
+    "level":15
   },
-  "tr_m4_cr_aurmazlkaari2": {
-    "level": 28
+  "tr_m1_tame_plainstrider":{
+    "level":15
   },
-  "tr_m4_cr_hautharmo": {
-    "level": 40
+  "tr_m2-dead_rat":{
+    "level":2
   },
-  "tr_m4_cr_hautharmoserve": {
-    "level": 5
+  "tr_m2_445_sealingghost":{
+    "level":10
   },
-  "tr_m4_cr_holstshound": {
-    "level": 2
+  "tr_m2_drolarmanor_skel1":{
+    "level":10
   },
-  "tr_m4_cr_ishanuranbug_1": {
-    "level": 6
+  "tr_m2_drolarmanor_skel2":{
+    "level":10
   },
-  "tr_m4_cr_kwamaqetana": {
-    "level": 6
+  "tr_m2_fg_centurion":{
+    "level":10
   },
-  "tr_m4_cr_kwamaqomaynis": {
-    "level": 6
+  "tr_m2_lich_thelaro":{
+    "level":30
   },
-  "tr_m4_cr_kwamaqpryainur": {
-    "level": 6
+  "tr_m2_mugan_bonelord":{
+    "level":8
   },
-  "tr_m4_cr_kwamaqralit": {
-    "level": 6
+  "tr_m2_mugan_bonewalker":{
+    "level":4
   },
-  "tr_m4_cr_mannuscamp": {
-    "level": 5
+  "tr_m2_mugan_skeleton":{
+    "level":7
   },
-  "tr_m4_cr_nulenguar": {
-    "level": 3
+  "tr_m2_mugan_skeletonc":{
+    "level":10
   },
-  "tr_m4_cr_ogrimandatomb": {
-    "level": 11
+  "tr_m2_perthan_jatan":{
+    "level":15
   },
-  "tr_m4_cr_omayniskobold": {
-    "level": 3
+  "tr_m2_q_a8_5_atronach":{
+    "level":7
   },
-  "tr_m4_cr_ossurnashalcf": {
-    "level": 5
+  "tr_m2_q_a8_5_skel_melee":{
+    "level":7
   },
-  "tr_m4_cr_q_varzan_bw_pq": {
-    "level": 4
+  "tr_m2_q_a8_5_skel_warwi":{
+    "level":20
   },
-  "tr_m4_cr_saylenus ramar": {
-    "level": 7
+  "tr_m2_spiderakamora":{
+    "level":12
   },
-  "tr_m4_cr_shanahhekago01": {
-    "level": 18
+  "tr_m2_spiderakamoram":{
+    "level":18
   },
-  "tr_m4_cr_strayguar": {
-    "level": 3
+  "tr_m2_spidershambalu":{
+    "level":12
   },
-  "tr_m4_cr_suldunkwamaq": {
-    "level": 6
+  "tr_m2_spidershambalul":{
+    "level":12
   },
-  "tr_m4_cr_suldunkwamaw": {
-    "level": 3
+  "tr_m2_ghost_dhal":{
+    "level":1
   },
-  "tr_m4_cr_uttumilkspider": {
-    "level": 6
+  "tr_m2_ghost_mort":{
+    "level":1
   },
-  "tr_m4_cr_volenfaryongua": {
-    "level": 3
+  "tr_m2_ghost_necrom_s":{
+    "level":1
   },
-  "tr_m4_cr_vyssar": {
-    "level": 25
+  "tr_m2_i394_skeleton cha":{
+    "level":10
   },
-  "tr_m4_dead1_i4-260-hla": {
-    "level": 10
+  "tr_m2_kmlz_king_deadrat":{
+    "level":2
   },
-  "tr_m4_dead2_i4-260-hla": {
-    "level": 10
+  "tr_m2_kwama forager_dul":{
+    "level":2
   },
-  "tr_m4_fg_alit_01": {
-    "level": 4
+  "tr_m2_kwama queen_he":{
+    "level":6
   },
-  "tr_m4_fg_alit_02": {
-    "level": 3
+  "tr_m2_kwama queen_kapid":{
+    "level":6
   },
-  "tr_m4_fg_alit_03": {
-    "level": 4
+  "tr_m2_kwama queen_dulun":{
+    "level":6
   },
-  "tr_m4_fg_cliffracer_01": {
-    "level": 4
+  "tr_m2_kwama warrior_dul":{
+    "level":3
   },
-  "tr_m4_fg_ushudimmucre1": {
-    "level": 28
+  "tr_m2_kwama worker_dul":{
+    "level":2
   },
-  "tr_m4_fg_ushudimmucre2": {
-    "level": 28
+  "tr_m2_q_18_packrat":{
+    "level":5
   },
-  "tr_m4_fg_ushuguar_01": {
-    "level": 3
+  "tr_m2_q_18_skellie":{
+    "level":20
   },
-  "tr_m4_fwmg_urak": {
-    "level": 20
+  "tr_m2_q_20_guuljhka":{
+    "level":15
   },
-  "tr_m4_goldensaint_issmi": {
-    "level": 22
+  "tr_m2_q_22_ignoremarker":{
+    "level":2
   },
-  "tr_m4_guar_jo'agghu": {
-    "level": 3
+  "tr_m2_q_22_spectre":{
+    "level":5
   },
-  "tr_m4_hh_delayedguar": {
-    "level": 3
+  "tr_m2_q_32_guar_hlavesa":{
+    "level":3
   },
-  "tr_m4_hh_savrethiguar": {
-    "level": 3
+  "tr_m2_q_38_favrghost":{
+    "level":1
   },
-  "tr_m4_il_dreughs": {
-    "level": 5
+  "tr_m2_q_4_sorendremora":{
+    "level":9
   },
-  "tr_m4_ishanuranashkhan": {
-    "level": 15
+  "tr_m2_q_a8_5_passive1":{
+    "level":3
   },
-  "tr_m4_ishil-mahon": {
-    "level": 25
+  "tr_m2_q_a8_5_passive2":{
+    "level":10
   },
-  "tr_m4_menaan_int8_kwama": {
-    "level": 2
+  "tr_m2_q_a8_5_skel arche":{
+    "level":3
   },
-  "tr_m4_omaynisbarkwama": {
-    "level": 3
+  "tr_m2_q_a9_5_lich_salv":{
+    "level":20
   },
-  "tr_m4_q_alit_troupe": {
-    "level": 3
+  "tr_m2_q_a9_5_ghost_dhal":{
+    "level":1
   },
-  "tr_m4_q_alit_troupe_ded": {
-    "level": 3
+  "tr_m2_q_a9_6_daedroth":{
+    "level":20
   },
-  "tr_m4_q_alit_troupetool": {
-    "level": 7
+  "tr_m2_q_ht_vq6_daelow":{
+    "level":12
   },
-  "tr_m4_q_flameatronach": {
-    "level": 15
+  "tr_m2_q_ht_vq6_daeup":{
+    "level":12
   },
-  "tr_m4_q_indoril_rathes": {
-    "level": 10
+  "tr_m2_q_ht_vq6_drelouh":{
+    "level":12
   },
-  "tr_m4_q_ir_killermudcra": {
-    "level": 1
+  "tr_m2_q_ht_vq6_drelow":{
+    "level":9
   },
-  "tr_m4_q_kasharapli": {
-    "level": 5
+  "tr_m2_q_ht_vq6_dreup":{
+    "level":9
   },
-  "tr_m4_q_llevana": {
-    "level": 5
+  "tr_m2_q_ht_vq6_guardian":{
+    "level":20
   },
-  "tr_m4_q_mm_atribanbug": {
-    "level": 6
+  "tr_m2_q_ht_vq6_scalow":{
+    "level":5
   },
-  "tr_m4_q_rere_ghost1": {
-    "level": 10
+  "tr_m2_q_ht_vq6_scaup":{
+    "level":5
   },
-  "tr_m4_q_rere_ghost2": {
-    "level": 10
+  "tr_m2_q_il_cliffracer":{
+    "level":4
   },
-  "tr_m4_q_rere_ghost3": {
-    "level": 10
+  "tr_m2_skeleton warrior":{
+    "level":7
   },
-  "tr_m4_q_skeletonambush1": {
-    "level": 10
+  "tr_m3_atmg01_scamp":{
+    "level":5
   },
-  "tr_m4_q_skeletonambush2": {
-    "level": 10
+  "tr_m3_atmg_korantaketh":{
+    "level":30
   },
-  "tr_m4_q_tissamsi": {
-    "level": 5
+  "tr_m3_atmg_rowdyanne":{
+    "level":4
   },
-  "tr_m4_q_tmm_bolsguar": {
-    "level": 3
+  "tr_m3_atmg_karak_zam":{
+    "level":15
   },
-  "tr_m4_q_trollfrost": {
-    "level": 22
+  "tr_m3_atmg_paruddma":{
+    "level":40
   },
-  "tr_m4_q_troupe_guar": {
-    "level": 3
+  "tr_m3_atmg_terror":{
+    "level":11
   },
-  "tr_m4_q_ttsancestral_gh": {
-    "level": 18
+  "tr_m3_at_mg_yathosil":{
+    "level":30
   },
-  "tr_m4_q_ttsbonewalker": {
-    "level": 7
+  "tr_m3_ancg_sittali":{
+    "level":20
   },
-  "tr_m4_q_yanirab": {
-    "level": 5
+  "tr_m3_cr_aimrahdreugh":{
+    "level":15
   },
-  "tr_m4_rithilvi_gatekeep": {
-    "level": 10
+  "tr_m3_cr_aimrahdreugh2":{
+    "level":15
   },
-  "tr_m4_rr_catcatchernix": {
-    "level": 4
+  "tr_m3_cr_aimrahdreugh3":{
+    "level":15
   },
-  "tr_m4_rr_deadalit": {
-    "level": 3
+  "tr_m3_cr_aimrahdreugh4":{
+    "level":15
   },
-  "tr_m4_sheo_scrib": {
-    "level": 1
+  "tr_m3_cr_ebontghost":{
+    "level":12
   },
-  "tr_m4_sheo_toy_thief": {
-    "level": 1
+  "tr_m3_cr_napalidreughd":{
+    "level":5
   },
-  "tr_m4_tj_ancg_arina": {
-    "level": 10
+  "tr_m3_cr_raathimghost":{
+    "level":10
   },
-  "tr_m4_tj_ancg_court": {
-    "level": 1
+  "tr_m3_duroth nil":{
+    "level":20
   },
-  "tr_m4_tj_ancg_emrysr": {
-    "level": 10
+  "tr_m3_fm_beetlealive_01":{
+    "level":6
   },
-  "tr_m4_tj_ancg_ethyla": {
-    "level": 10
+  "tr_m3_fm_deadbeetle_01":{
+    "level":6
   },
-  "tr_m4_tj_ancg_ondrasa": {
-    "level": 10
+  "tr_m3_felmsvelk":{
+    "level":5
   },
-  "tr_m4_tj_ancg_suroa": {
-    "level": 10
+  "tr_m3_felmsvelkstud":{
+    "level":1
   },
-  "tr_m4_tj_ancg_uloryse": {
-    "level": 10
+  "tr_m3_giapackrat":{
+    "level":5
   },
-  "tr_m4_tj_bonelord_judge": {
-    "level": 18
+  "tr_m3_guar_digby":{
+    "level":3
   },
-  "tr_m4_tj_daedroth_chmbr": {
-    "level": 12
+  "tr_m3_guar_pippin":{
+    "level":3
   },
-  "tr_m4_tj_dremoralord": {
-    "level": 12
+  "tr_m3_hal_rat":{
+    "level":2
   },
-  "tr_m4_tj_dridrea_m": {
-    "level": 18
+  "tr_m3_hal_skelarcher":{
+    "level":3
   },
-  "tr_m4_tj_drunkdaedroth": {
-    "level": 12
+  "tr_m3_hal_skelarise":{
+    "level":3
   },
-  "tr_m4_tj_guardian": {
-    "level": 20
+  "tr_m3_hal_skelbarbarian":{
+    "level":10
   },
-  "tr_m4_tj_guardian_kha": {
-    "level": 20
+  "tr_m3_hal_skelchamp":{
+    "level":10
   },
-  "tr_m4_tj_hunger": {
-    "level": 11
+  "tr_m3_hal_skelwarrior":{
+    "level":7
   },
-  "tr_m4_tj_hungerminion1": {
-    "level": 7
+  "tr_m3_hal_skeleton":{
+    "level":3
   },
-  "tr_m4_tj_hungerminion2": {
-    "level": 7
+  "tr_m3_kha_11_clannftalk":{
+    "level":14
   },
-  "tr_m4_tj_introclannf1": {
-    "level": 7
+  "tr_m3_kha_11_dremsewers":{
+    "level":8
   },
-  "tr_m4_tj_introclannf2": {
-    "level": 7
+  "tr_m3_kha_11_dremoramrz":{
+    "level":15
   },
-  "tr_m4_tj_introscamp": {
-    "level": 8
+  "tr_m3_kha_11_scampsewer":{
+    "level":5
   },
-  "tr_m4_tj_ogrim": {
-    "level": 25
+  "tr_m3_kha_5_scampdrunk":{
+    "level":5
   },
-  "tr_m4_tj_ogrimclannfear": {
-    "level": 7
+  "tr_m3_kha_9_dremorasmth":{
+    "level":20
   },
-  "tr_m4_tj_prisonscamp": {
-    "level": 5
+  "tr_m3_kha_clannfear_01":{
+    "level":7
   },
-  "tr_m4_tj_scamp_accused": {
-    "level": 5
+  "tr_m3_kha_clannfear_02":{
+    "level":7
   },
-  "tr_m4_tj_scamp_crtyrd_1": {
-    "level": 5
+  "tr_m3_kha_daedroth_thus":{
+    "level":13
   },
-  "tr_m4_tj_scamp_crtyrd_2": {
-    "level": 5
+  "tr_m3_kha_daedroth_thul":{
+    "level":12
   },
-  "tr_m4_tj_scamp_crtyrd_3": {
-    "level": 5
+  "tr_m3_kha_drem_meth_uld":{
+    "level":50
   },
-  "tr_m4_tj_scamp_crtyrd_4": {
-    "level": 5
+  "tr_m3_kha_dremorasplcst":{
+    "level":15
   },
-  "tr_m4_tj_wingedt_intro": {
-    "level": 15
+  "tr_m3_kha_fire_scamp":{
+    "level":5
   },
-  "tr_m4_tj_wingedt_key": {
-    "level": 15
+  "tr_m3_kha_flame_atro_01":{
+    "level":7
   },
-  "tr_m4_tj_wingedt_smith": {
-    "level": 15
+  "tr_m3_kha_flame_atro_02":{
+    "level":7
   },
-  "tr_m4_tj_wingedt_spire": {
-    "level": 18
+  "tr_m3_kha_flame_atro_03":{
+    "level":7
   },
-  "tr_m4_tt_olmsguard": {
-    "level": 4
+  "tr_m3_kha_loadscreenske":{
+    "level":10
   },
-  "tr_m4_tt_olmsguardghost": {
-    "level": 1
+  "tr_m3_kha_perth_alutair":{
+    "level":15
   },
-  "tr_m4_tt_olmsguardgreat": {
-    "level": 7
+  "tr_m3_kha_perth_raltani":{
+    "level":15
   },
-  "tr_m4_va_packguar": {
-    "level": 3
+  "tr_m3_kha_vermai_01":{
+    "level":8
   },
-  "tr_nixmount_bosmora": {
-    "level": 4
+  "tr_m3_kha_wingtwi_luna":{
+    "level":25
   },
-  "tr_rr_shipwreck_skeleto": {
-    "level": 10
+  "tr_m3_maesabunmummy_uni":{
+    "level":20
   },
-  "tr_vm-15-15_troll_01": {
-    "level": 20
+  "tr_m3_moraelyn_lich_uni":{
+    "level":20
   },
-  "tr_m4_mgweirgatedaedra": {
-    "level": 25
+  "tr_m3_oe_casik_dremora":{
+    "level":12
   },
-  "rat_plague": {
-    "level": 2
+  "tr_m3_oe_drem_rathine":{
+    "level":30
   },
-  "goblin_grunt": {
-    "level": 7
+  "tr_m3_oe_fg_cr_velk":{
+    "level":5
   },
-  "goblin_officer": {
-    "level": 25
+  "tr_m3_oe_hhontjulfdog":{
+    "level":7
   },
-  "scrib_rerlas": {
-    "level": 5
+  "tr_m3_oe_mg_puzdreug":{
+    "level":5
   },
-  "rat_rerlas": {
-    "level": 5
+  "tr_m3_oe_mg_puzdreugfly":{
+    "level":5
   },
-  "rat_pack_rerlas": {
-    "level": 5
+  "tr_m3_oe_mg_puzfish1":{
+    "level":2
   },
-  "centurion_spider_dead": {
-    "level": 3
+  "tr_m3_oe_mg_puzfish1fly":{
+    "level":2
   },
-  "centurion_spider_bbot1": {
-    "level": 3
+  "tr_m3_oe_mg_puzfish2":{
+    "level":2
   },
-  "centurion_steam_bbot2": {
-    "level": 10
+  "tr_m3_oe_mg_puzfish2fly":{
+    "level":2
   },
-  "centurion_sphere_bbot1": {
-    "level": 10
+  "tr_m3_oe_mg_puzfish3":{
+    "level":2
   },
-  "centurion_spider_bbot3": {
-    "level": 3
+  "tr_m3_oe_mg_puzfish3fly":{
+    "level":2
   },
-  "centurion_steam_bbot4": {
-    "level": 10
+  "tr_m3_oe_mg_puzzleghost":{
+    "level":20
   },
-  "centurion_sphere_bbot5": {
-    "level": 5
+  "tr_m3_oe_mg_amuletguar":{
+    "level":3
   },
-  "centurion_sphere_bbot6": {
-    "level": 5
+  "tr_m3_oe_pack_guar":{
+    "level":3
   },
-  "centurion_spider_bbot7": {
-    "level": 3
+  "tr_m3_oe_raathimguard01":{
+    "level":10
   },
-  "centurion_steam_bbot8": {
-    "level": 10
+  "tr_m3_oe_raathimguard02":{
+    "level":10
   },
-  "golden saint_velas1": {
-    "level": 20
+  "tr_m3_oe_raathimguard03":{
+    "level":10
   },
-  "ogrim titan_velas": {
-    "level": 15
+  "tr_m3_oe_raathimguardb1":{
+    "level":15
   },
-  "golden saint_velas2": {
-    "level": 20
+  "tr_m3_oe_raathimguardb2":{
+    "level":12
   },
-  "goblin_warchief1": {
-    "level": 35
+  "tr_m3_oe_rumaguestscamp":{
+    "level":5
   },
-  "goblin_warchief2": {
-    "level": 35
+  "tr_m3_oe_tg_fentus4guar":{
+    "level":3
   },
-  "goblin_bruiser": {
-    "level": 20
+  "tr_m3_oe_telvannidaedra":{
+    "level":15
   },
-  "fabricant_hulking": {
-    "level": 30
+  "tr_m3_oe_winecellarrat":{
+    "level":2
   },
-  "fabricant_verminous": {
-    "level": 10
+  "tr_m3_pelagius the rat":{
+    "level":2
   },
-  "centurion_projectile": {
-    "level": 10
+  "tr_m3_s'khara":{
+    "level":12
   },
-  "lich_barilzar": {
-    "level": 45
+  "tr_m3_sabine valtienne":{
+    "level":35
   },
-  "almalexia": {
-    "level": 100
+  "tr_m3_skylamp_fight":{
+    "level":12
   },
-  "almalexia_warrior": {
-    "level": 100
+  "tr_m3_storyclannfear":{
+    "level":3
   },
-  "dwarven ghost_radac": {
-    "level": 25
+  "tr_m3_storygoldensaint":{
+    "level":4
   },
-  "lich": {
-    "level": 20
+  "tr_m3_tt_dis_wt_kras":{
+    "level":20
   },
-  "goblin_footsoldier": {
-    "level": 13
+  "tr_m3_tt_dis_wt_kras_k":{
+    "level":20
   },
-  "durzog_war": {
-    "level": 15
+  "tr_m3_tt_dis_trap_scamp":{
+    "level":20
   },
-  "durzog_wild": {
-    "level": 10
+  "tr_m3_tt_flood_ashdreug":{
+    "level":20
   },
-  "durzog_diseased": {
-    "level": 10
+  "tr_m3_xaxmir":{
+    "level":35
   },
-  "centurion_steam_advance": {
-    "level": 20
+  "tr_m3_ashinanibibisaint":{
+    "level":20
   },
-  "ancestor_ghost_greater": {
-    "level": 10
+  "tr_m3_cr_aimrahgilarat":{
+    "level":5
   },
-  "lich_profane_unique": {
-    "level": 20
+  "tr_m3_cr_htatronach":{
+    "level":17
   },
-  "fabricant_machine_1": {
-    "level": 2
+  "tr_m3_cr_kwamaqmunat":{
+    "level":6
   },
-  "fabricant_verminousdead": {
-    "level": 2
+  "tr_m3_cr_oesewerfish_01":{
+    "level":5
   },
-  "imperfect": {
-    "level": 80
+  "tr_m3_cr_oesewerfish_02":{
+    "level":5
   },
-  "fabricant_verminous-rs": {
-    "level": 10
+  "tr_m3_cr_oesewerfish_03":{
+    "level":5
   },
-  "lich_relvel": {
-    "level": 40
+  "tr_m3_cr_oesewerfish_04":{
+    "level":5
   },
-  "ancestor_ghost_variner": {
-    "level": 30
+  "tr_m3_cr_rabawiacrab":{
+    "level":1
   },
-  "goblin_officeruni": {
-    "level": 25
+  "tr_m3_cr_rabawiacrabadv":{
+    "level":4
   },
-  "fabricant_hulking_c": {
-    "level": 20
+  "tr_m3_cr_rabawiacrabbig":{
+    "level":1
   },
-  "fabricant_verminous_c": {
-    "level": 10
+  "tr_m3_facesteal_dremora":{
+    "level":9
   },
-  "fabricant_hulking_c_l": {
-    "level": 20
+  "tr_m3_facesteal_scamp":{
+    "level":5
   },
-  "centurion_steam_c_l": {
-    "level": 30
+  "tr_m3_giantnixhound":{
+    "level":20
   },
-  "centurion_projectile_c": {
-    "level": 10
+  "tr_m3_netch_betty_dead":{
+    "level":10
   },
-  "centurion_steam_a_c": {
-    "level": 20
+  "tr_m3_q_12_krieps":{
+    "level":6
   },
-  "fabricant_summon": {
-    "level": 2
+  "tr_m3_q_13_laasta":{
+    "level":30
   },
-  "fabricant_hulking_attac": {
-    "level": 20
+  "tr_m3_q_a7_bosskelp":{
+    "level":8
   },
-  "fabricant_hulkin_attack": {
-    "level": 20
+  "tr_m3_q_a7_bosskelw":{
+    "level":20
   },
-  "fabricant_verm_attack": {
-    "level": 10
+  "tr_m3_q_a9_bonelord":{
+    "level":12
   },
-  "dremora_lord_khash_uni": {
-    "level": 12
+  "tr_m3_q_a9_daedroth":{
+    "level":12
   },
-  "goblin_handler": {
-    "level": 20
+  "tr_m3_q_a9_ghost":{
+    "level":1
   },
-  "durzog_war_trained": {
-    "level": 10
+  "tr_m3_q_a9_ghosttomb1":{
+    "level":1
   },
-  "rat_plague_hall1": {
-    "level": 2
+  "tr_m3_q_a9_ghosttomb2":{
+    "level":1
   },
-  "rat_plague_hall2": {
-    "level": 2
+  "tr_m3_q_a9_ghosttomb3":{
+    "level":1
   },
-  "skeleton_relvel": {
-    "level": 10
+  "tr_m3_q_il_rat":{
+    "level":2
   },
-  "durzog_wild_weaker": {
-    "level": 5
+  "tr_m3_q_kelkemmello_wt":{
+    "level":15
   },
-  "rat_plague_hall1a": {
-    "level": 2
+  "tr_m3_q_kha_bellvermai":{
+    "level":10
   },
-  "fabricant_hulking_ss": {
-    "level": 30
+  "tr_m3_q_kha_ogrim_titan":{
+    "level":15
+  },
+  "tr_m3_q_kha_uridimmu":{
+    "level":15
+  },
+  "tr_m3_q_oe_mg_dremlord":{
+    "level":12
+  },
+  "tr_m3_q_oe_urienmudcrab":{
+    "level":1
+  },
+  "tr_m3_q_sy_ancestor":{
+    "level":1
+  },
+  "tr_m3_q_theriftpahmar":{
+    "level":20
+  },
+  "tr_m3_q_theriftsq1":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq10":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq11":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq12":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq13":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq14":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq15":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq2":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq3":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq4":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq5":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq6":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq7":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq8":{
+    "level":4
+  },
+  "tr_m3_q_theriftsq9":{
+    "level":4
+  },
+  "tr_m3_q_fiendalit":{
+    "level":10
+  },
+  "tr_m3_q_fiendhoom":{
+    "level":3
+  },
+  "tr_m3_q_fiendkwama":{
+    "level":5
+  },
+  "tr_m3_q_fiendscrib":{
+    "level":1
+  },
+  "tr_m3_q_fiendshalk":{
+    "level":6
+  },
+  "tr_m3_q_fiendshalkclone":{
+    "level":6
+  },
+  "tr_m3_q_fiendtroll":{
+    "level":1
+  },
+  "tr_m3_q_fiendwormmouth":{
+    "level":7
+  },
+  "tr_m3_q_skelwiz":{
+    "level":20
+  },
+  "tr_m3_q_velk_dag":{
+    "level":1
+  },
+  "tr_m3_skeleton_jailer":{
+    "level":10
+  },
+  "tr_m3_skeleton_plague":{
+    "level":8
+  },
+  "tr_m3_veloth_bonelord":{
+    "level":20
+  },
+  "tr_m3_veloth_devourer":{
+    "level":20
+  },
+  "tr_m3_veloth_devourer_r":{
+    "level":20
+  },
+  "tr_m3_veloth_ghost":{
+    "level":10
+  },
+  "tr_m3_zan_indoskel":{
+    "level":20
+  },
+  "tr_m3_zan_lich":{
+    "level":25
+  },
+  "tr_m4_aa_nofight_f_atro":{
+    "level":7
+  },
+  "tr_m4_aa_tomb_2_marqrth":{
+    "level":12
+  },
+  "tr_m4_aa_urnuridunguar":{
+    "level":3
+  },
+  "tr_m4_andosewermudcrab":{
+    "level":1
+  },
+  "tr_m4_andovaultalit":{
+    "level":3
+  },
+  "tr_m4_andowesttowerrat":{
+    "level":2
+  },
+  "tr_m4_armungreatkagouti":{
+    "level":28
+  },
+  "tr_m4_armun_deadguar_01":{
+    "level":3
+  },
+  "tr_m4_bal_argaros":{
+    "level":30
+  },
+  "tr_m4_bal_clannfear":{
+    "level":7
+  },
+  "tr_m4_bal_daedrothpower":{
+    "level":10
+  },
+  "tr_m4_bal_dremora":{
+    "level":9
+  },
+  "tr_m4_bal_dremoraarch":{
+    "level":10
+  },
+  "tr_m4_bal_dremoracast":{
+    "level":10
+  },
+  "tr_m4_bal_dremorakynr":{
+    "level":15
+  },
+  "tr_m4_bal_flameatrkill":{
+    "level":7
+  },
+  "tr_m4_bal_flameatronach":{
+    "level":7
+  },
+  "tr_m4_bal_kutagmal":{
+    "level":30
+  },
+  "tr_m4_bal_lesserclfr":{
+    "level":5
+  },
+  "tr_m4_bal_scamp":{
+    "level":5
+  },
+  "tr_m4_bal_skeleton1":{
+    "level":3
+  },
+  "tr_m4_bal_skeleton2":{
+    "level":3
+  },
+  "tr_m4_bal_vasrutha":{
+    "level":30
+  },
+  "tr_m4_bal_vunaldevourer":{
+    "level":20
+  },
+  "tr_m4_barendreth_daedr":{
+    "level":12
+  },
+  "tr_m4_barendreth_devour":{
+    "level":20
+  },
+  "tr_m4_barendreth_drelow":{
+    "level":12
+  },
+  "tr_m4_barendreth_drelrd":{
+    "level":12
+  },
+  "tr_m4_barendreth_hunger":{
+    "level":11
+  },
+  "tr_m4_barendreth_vermai":{
+    "level":8
+  },
+  "tr_m4_baumi":{
+    "level":3
+  },
+  "tr_m4_cog_bonehead":{
+    "level":10
+  },
+  "tr_m4_cog_boneripper":{
+    "level":10
+  },
+  "tr_m4_cog_madeye":{
+    "level":10
+  },
+  "tr_m4_cr_aa_llandesag":{
+    "level":3
+  },
+  "tr_m4_cr_aa_sehutuske01":{
+    "level":15
+  },
+  "tr_m4_cr_aa_sehutuske02":{
+    "level":15
+  },
+  "tr_m4_cr_aa_sehutuske03":{
+    "level":15
+  },
+  "tr_m4_cr_andodwemer_01":{
+    "level":3
+  },
+  "tr_m4_cr_andodwemer_02":{
+    "level":3
+  },
+  "tr_m4_cr_andodwemer_03":{
+    "level":3
+  },
+  "tr_m4_cr_andothvelk_01":{
+    "level":5
+  },
+  "tr_m4_cr_aujatroll":{
+    "level":20
+  },
+  "tr_m4_cr_aurmazlkaari":{
+    "level":20
+  },
+  "tr_m4_cr_aurmazlkaari2":{
+    "level":28
+  },
+  "tr_m4_cr_holstshound":{
+    "level":2
+  },
+  "tr_m4_cr_ishanuranbug_1":{
+    "level":6
+  },
+  "tr_m4_cr_mannuscamp":{
+    "level":5
+  },
+  "tr_m4_cr_nulenguar":{
+    "level":3
+  },
+  "tr_m4_cr_ogrimandatomb":{
+    "level":11
+  },
+  "tr_m4_cr_omayniskobold":{
+    "level":3
+  },
+  "tr_m4_cr_ossurnashalcf":{
+    "level":5
+  },
+  "tr_m4_cr_saylenus ramar":{
+    "level":7
+  },
+  "tr_m4_cr_shanahhekago01":{
+    "level":18
+  },
+  "tr_m4_cr_strayguar":{
+    "level":3
+  },
+  "tr_m4_cr_volenfaryongua":{
+    "level":3
+  },
+  "tr_m4_drem_kraatas":{
+    "level":40
+  },
+  "tr_m4_fg_alit_01":{
+    "level":4
+  },
+  "tr_m4_fg_alit_02":{
+    "level":3
+  },
+  "tr_m4_fg_alit_03":{
+    "level":4
+  },
+  "tr_m4_fg_cliffracer_01":{
+    "level":4
+  },
+  "tr_m4_fg_ushudimmucre1":{
+    "level":28
+  },
+  "tr_m4_fg_ushudimmucre2":{
+    "level":28
+  },
+  "tr_m4_fg_ushuguar_01":{
+    "level":3
+  },
+  "tr_m4_fwmg_urak":{
+    "level":20
+  },
+  "tr_m4_guar_sunny":{
+    "level":3
+  },
+  "tr_m4_hh_delayedguar":{
+    "level":3
+  },
+  "tr_m4_hh_savrethiguar":{
+    "level":3
+  },
+  "tr_m4_hh_indorilghost":{
+    "level":25
+  },
+  "tr_m4_il_dreughs":{
+    "level":5
+  },
+  "tr_m4_ishil-mahon":{
+    "level":25
+  },
+  "tr_m4_mgweirgatedaedra":{
+    "level":25
+  },
+  "tr_m4_naarie_bonelord":{
+    "level":8
+  },
+  "tr_m4_omaynisbarkwama":{
+    "level":3
+  },
+  "tr_m4_rr_catcatchernix":{
+    "level":4
+  },
+  "tr_m4_rr_deadalit":{
+    "level":3
+  },
+  "tr_m4_redhnd_pryai":{
+    "level":7
+  },
+  "tr_m4_redhnd_ramaniran":{
+    "level":7
+  },
+  "tr_m4_redhnd_uman":{
+    "level":7
+  },
+  "tr_m4_tg_vendicciguar01":{
+    "level":3
+  },
+  "tr_m4_tg_vendicciguar02":{
+    "level":3
+  },
+  "tr_m4_tj_ancg_arina":{
+    "level":10
+  },
+  "tr_m4_tj_ancg_court":{
+    "level":1
+  },
+  "tr_m4_tj_ancg_emrysr":{
+    "level":10
+  },
+  "tr_m4_tj_ancg_ethyla":{
+    "level":10
+  },
+  "tr_m4_tj_ancg_ondrasa":{
+    "level":10
+  },
+  "tr_m4_tj_ancg_suroa":{
+    "level":10
+  },
+  "tr_m4_tj_ancg_uloryse":{
+    "level":10
+  },
+  "tr_m4_tj_bonelord_judge":{
+    "level":18
+  },
+  "tr_m4_tj_daedroth_chmbr":{
+    "level":12
+  },
+  "tr_m4_tj_dremoralord":{
+    "level":12
+  },
+  "tr_m4_tj_drunkdaedroth":{
+    "level":12
+  },
+  "tr_m4_tj_guardian":{
+    "level":20
+  },
+  "tr_m4_tj_guardian_kha":{
+    "level":20
+  },
+  "tr_m4_tj_hunger":{
+    "level":11
+  },
+  "tr_m4_tj_hungerminion1":{
+    "level":7
+  },
+  "tr_m4_tj_hungerminion2":{
+    "level":7
+  },
+  "tr_m4_tj_introclannf1":{
+    "level":7
+  },
+  "tr_m4_tj_introclannf2":{
+    "level":7
+  },
+  "tr_m4_tj_introscamp":{
+    "level":8
+  },
+  "tr_m4_tj_ogrim":{
+    "level":25
+  },
+  "tr_m4_tj_ogrimclannfear":{
+    "level":7
+  },
+  "tr_m4_tj_prisonscamp":{
+    "level":5
+  },
+  "tr_m4_tj_scamp_accused":{
+    "level":5
+  },
+  "tr_m4_tj_scamp_crtyrd_1":{
+    "level":5
+  },
+  "tr_m4_tj_scamp_crtyrd_2":{
+    "level":5
+  },
+  "tr_m4_tj_scamp_crtyrd_3":{
+    "level":5
+  },
+  "tr_m4_tj_scamp_crtyrd_4":{
+    "level":5
+  },
+  "tr_m4_tj_spiderdae_m":{
+    "level":18
+  },
+  "tr_m4_tj_wingedt_intro":{
+    "level":15
+  },
+  "tr_m4_tj_wingedt_key":{
+    "level":15
+  },
+  "tr_m4_tj_wingedt_smith":{
+    "level":15
+  },
+  "tr_m4_tj_wingedt_spire":{
+    "level":18
+  },
+  "tr_m4_tt_olmsguard":{
+    "level":4
+  },
+  "tr_m4_tt_olmsguardghost":{
+    "level":1
+  },
+  "tr_m4_tt_olmsguardgreat":{
+    "level":7
+  },
+  "tr_m4_uttumilkspider":{
+    "level":12
+  },
+  "tr_m4_va_ibinai_guar":{
+    "level":3
+  },
+  "tr_m4_va_packguar":{
+    "level":3
+  },
+  "tr_m4_vm_cramp":{
+    "level":7
+  },
+  "tr_m4_bonewlk_uni":{
+    "level":35
+  },
+  "tr_m4_cr_aizuhr-suur":{
+    "level":35
+  },
+  "tr_m4_cr_aizuhr-suur2":{
+    "level":35
+  },
+  "tr_m4_cr_hautharmo":{
+    "level":40
+  },
+  "tr_m4_cr_hautharmoserve":{
+    "level":5
+  },
+  "tr_m4_cr_kwamaqetana":{
+    "level":6
+  },
+  "tr_m4_cr_kwamaqomaynis":{
+    "level":6
+  },
+  "tr_m4_cr_kwamaqpryainur":{
+    "level":6
+  },
+  "tr_m4_cr_kwamaqralit":{
+    "level":6
+  },
+  "tr_m4_cr_suldunkwamaq":{
+    "level":6
+  },
+  "tr_m4_cr_suldunkwamaw":{
+    "level":3
+  },
+  "tr_m4_cr_vyssar":{
+    "level":25
+  },
+  "tr_m4_cr_q_varzan_bw_pq":{
+    "level":4
+  },
+  "tr_m4_dead1_i4-260-hla":{
+    "level":10
+  },
+  "tr_m4_dead2_i4-260-hla":{
+    "level":10
+  },
+  "tr_m4_goldensaint_issmi":{
+    "level":22
+  },
+  "tr_m4_guar_jo'agghu":{
+    "level":3
+  },
+  "tr_m4_indoril_llathsa":{
+    "level":35
+  },
+  "tr_m4_ishanuranashkhan":{
+    "level":15
+  },
+  "tr_m4_menaan_int8_kwama":{
+    "level":2
+  },
+  "tr_m4_q_dremorajathmund":{
+    "level":9
+  },
+  "tr_m4_q_ir_killermudcra":{
+    "level":1
+  },
+  "tr_m4_q_indoril_rathes":{
+    "level":10
+  },
+  "tr_m4_q_kasharapli":{
+    "level":5
+  },
+  "tr_m4_q_llevana":{
+    "level":5
+  },
+  "tr_m4_q_rere_ghost1":{
+    "level":10
+  },
+  "tr_m4_q_rere_ghost2":{
+    "level":10
+  },
+  "tr_m4_q_rere_ghost3":{
+    "level":10
+  },
+  "tr_m4_q_tmm_bolsguar":{
+    "level":3
+  },
+  "tr_m4_q_ttsancestral_gh":{
+    "level":18
+  },
+  "tr_m4_q_ttsbonewalker":{
+    "level":7
+  },
+  "tr_m4_q_tissamsi":{
+    "level":5
+  },
+  "tr_m4_q_trollfrost":{
+    "level":22
+  },
+  "tr_m4_q_yanirab":{
+    "level":5
+  },
+  "tr_m4_q_alit_troupe":{
+    "level":3
+  },
+  "tr_m4_q_alit_troupe_ded":{
+    "level":3
+  },
+  "tr_m4_q_alit_troupetool":{
+    "level":7
+  },
+  "tr_m4_q_flameatronach":{
+    "level":15
+  },
+  "tr_m4_q_mm_atribanbug":{
+    "level":6
+  },
+  "tr_m4_q_skeletonambush1":{
+    "level":10
+  },
+  "tr_m4_q_skeletonambush2":{
+    "level":10
+  },
+  "tr_m4_q_troupe_guar":{
+    "level":3
+  },
+  "tr_m6_maw_manowar_1":{
+    "level":25
+  },
+  "tr_m6_maw_manowar_2":{
+    "level":30
+  },
+  "tr_m6_maw_manowar_2_bk":{
+    "level":30
+  },
+  "tr_m6_maw_manowar_3":{
+    "level":25
+  },
+  "tr_m7_ai_infest_beetle":{
+    "level":6
+  },
+  "tr_m7_ai_jns_6_guar":{
+    "level":3
+  },
+  "tr_m7_ai_skoomadreugh":{
+    "level":5
+  },
+  "tr_m7_ai_tt_guar":{
+    "level":3
+  },
+  "tr_m7_ai_tt_hunger":{
+    "level":11
+  },
+  "tr_m7_ai_skylamp":{
+    "level":5
+  },
+  "tr_m7_am_skylamp":{
+    "level":5
+  },
+  "tr_m7_aldkhan_daedroth":{
+    "level":12
+  },
+  "tr_m7_cb_guar_farm":{
+    "level":3
+  },
+  "tr_m7_cb_guar_farm2":{
+    "level":3
+  },
+  "tr_m7_cb_guar_farm3":{
+    "level":3
+  },
+  "tr_m7_cb_guar_farm4":{
+    "level":3
+  },
+  "tr_m7_cb_guar_farm5":{
+    "level":3
+  },
+  "tr_m7_cb_guar_farmp":{
+    "level":3
+  },
+  "tr_m7_cb_ranched_betty":{
+    "level":10
+  },
+  "tr_m7_cb_ranched_betty2":{
+    "level":10
+  },
+  "tr_m7_cb_ranched_bull":{
+    "level":4
+  },
+  "tr_m7_cb_ranched_bull2":{
+    "level":4
+  },
+  "tr_m7_c_pickles":{
+    "level":5
+  },
+  "tr_m7_cr_drorynghost":{
+    "level":1
+  },
+  "tr_m7_cr_fervayn droryn":{
+    "level":10
+  },
+  "tr_m7_cr_krenghost1":{
+    "level":1
+  },
+  "tr_m7_cr_krenghost2":{
+    "level":1
+  },
+  "tr_m7_cr_krengrghost1":{
+    "level":10
+  },
+  "tr_m7_cr_krengrghost2":{
+    "level":10
+  },
+  "tr_m7_cr_terer_drurel":{
+    "level":35
+  },
+  "tr_m7_cr_uhammaku":{
+    "level":10
+  },
+  "tr_m7_cre_gobmag_chief":{
+    "level":20
+  },
+  "tr_m7_cre_gobmag_uni":{
+    "level":15
+  },
+  "tr_m7_cre_gobmaggot_01":{
+    "level":13
+  },
+  "tr_m7_cre_gobmaggot_02":{
+    "level":15
+  },
+  "tr_m7_cre_gobmaggot_03":{
+    "level":20
+  },
+  "tr_m7_cre_gobmaggot_04":{
+    "level":12
+  },
+  "tr_m7_cre_gobmaggot_05":{
+    "level":5
+  },
+  "tr_m7_cre_gobmaggot_06":{
+    "level":3
+  },
+  "tr_m7_dskyrend":{
+    "level":10
+  },
+  "tr_m7_eec_deadguar":{
+    "level":3
+  },
+  "tr_m7_eec_guar_pack":{
+    "level":3
+  },
+  "tr_m7_eec_guarranch":{
+    "level":3
+  },
+  "tr_m7_ghlaalutomblich":{
+    "level":35
+  },
+  "tr_m7_giant_rat":{
+    "level":20
+  },
+  "tr_m7_hh_aldiuvalguar":{
+    "level":3
+  },
+  "tr_m7_hh_alvynu_4_ghost":{
+    "level":14
+  },
+  "tr_m7_hh_alvynu_6_bnlrd":{
+    "level":8
+  },
+  "tr_m7_hh_alvynu_6_ghost":{
+    "level":10
+  },
+  "tr_m7_hh_ogrim":{
+    "level":45
+  },
+  "tr_m7_hh_ogrim_ritual":{
+    "level":15
+  },
+  "tr_m7_hk_guar":{
+    "level":3
+  },
+  "tr_m7_hk_guar_cart":{
+    "level":3
+  },
+  "tr_m7_ho_tt_03_troll":{
+    "level":9
+  },
+  "tr_m7_ho_tt_03_troll2":{
+    "level":9
+  },
+  "tr_m7_ho_tt_04_mudcrab":{
+    "level":1
+  },
+  "tr_m7_hr_am_03_troll":{
+    "level":9
+  },
+  "tr_m7_hr_am_03_trolldis":{
+    "level":9
+  },
+  "tr_m7_hanpalit_dguar":{
+    "level":3
+  },
+  "tr_m7_hlaalu2_wraith":{
+    "level":25
+  },
+  "tr_m7_hunza_hopper":{
+    "level":2
+  },
+  "tr_m7_hunza_kwoom":{
+    "level":5
+  },
+  "tr_m7_jnstower_rancor":{
+    "level":30
+  },
+  "tr_m7_jns_theboss":{
+    "level":40
+  },
+  "tr_m7_kalk_bigmudders":{
+    "level":9
+  },
+  "tr_m7_kalk_goblindead1":{
+    "level":7
+  },
+  "tr_m7_kalk_goblindead2":{
+    "level":7
+  },
+  "tr_m7_kalk_goblinfollow":{
+    "level":7
+  },
+  "tr_m7_kalk_goblinlead":{
+    "level":7
+  },
+  "tr_m7_kalk_goblinshield":{
+    "level":10
+  },
+  "tr_m7_kalk_hopperdead":{
+    "level":2
+  },
+  "tr_m7_kalk_yethgrubbig":{
+    "level":7
+  },
+  "tr_m7_kaushirimilk_daes":{
+    "level":12
+  },
+  "tr_m7_khan_volnyr":{
+    "level":30
+  },
+  "tr_m7_kharagskeleton":{
+    "level":35
+  },
+  "tr_m7_la3_gro_6_dreughm":{
+    "level":4
+  },
+  "tr_m7_la4_rat":{
+    "level":3
+  },
+  "tr_m7_la4_kwama_queen":{
+    "level":6
+  },
+  "tr_m7_la5_cave_1_dmolcr":{
+    "level":1
+  },
+  "tr_m7_la5_cave_1_dmudcr":{
+    "level":1
+  },
+  "tr_m7_la6_cave1troll":{
+    "level":10
+  },
+  "tr_m7_la6_cave2_kwawork":{
+    "level":2
+  },
+  "tr_m7_la6_tomb_1_bnlord":{
+    "level":20
+  },
+  "tr_m7_la6_tomb_1_champm":{
+    "level":10
+  },
+  "tr_m7_la6_tomb_1_eg":{
+    "level":30
+  },
+  "tr_m7_la6_vt_ghost":{
+    "level":12
+  },
+  "tr_m7_la6_vt_ghostlord":{
+    "level":25
+  },
+  "tr_m7_magun_troll":{
+    "level":9
+  },
+  "tr_m7_mubura_beetle":{
+    "level":14
+  },
+  "tr_m7_naemun_dremlord":{
+    "level":12
+  },
+  "tr_m7_narsiscqsewer_grm":{
+    "level":2
+  },
+  "tr_m7_narsiscqsewer_slf":{
+    "level":6
+  },
+  "tr_m7_narsiscqsewers_s1":{
+    "level":10
+  },
+  "tr_m7_narsiscqsewers_s2":{
+    "level":20
+  },
+  "tr_m7_narsismgdaedra01":{
+    "level":13
+  },
+  "tr_m7_narsis_cn_guar":{
+    "level":3
+  },
+  "tr_m7_narsis_chdbonewk":{
+    "level":4
+  },
+  "tr_m7_narsis_chwraith1":{
+    "level":20
+  },
+  "tr_m7_narsis_chwraith2":{
+    "level":20
+  },
+  "tr_m7_narsis_guar_cart":{
+    "level":3
+  },
+  "tr_m7_nasarc_sandkwoom":{
+    "level":5
+  },
+  "tr_m7_nasary_sandkwoom":{
+    "level":5
+  },
+  "tr_m7_nedeskelchamp_uni":{
+    "level":35
+  },
+  "tr_m7_ns_arenabutcher":{
+    "level":20
+  },
+  "tr_m7_ns_arenakagouti":{
+    "level":12
+  },
+  "tr_m7_ns_arena_alit":{
+    "level":3
+  },
+  "tr_m7_ns_arena_armunkag":{
+    "level":18
+  },
+  "tr_m7_ns_arena_bear":{
+    "level":18
+  },
+  "tr_m7_ns_arena_beetle":{
+    "level":6
+  },
+  "tr_m7_ns_arena_brisback":{
+    "level":15
+  },
+  "tr_m7_ns_arena_canth":{
+    "level":20
+  },
+  "tr_m7_ns_arena_gobboss":{
+    "level":20
+  },
+  "tr_m7_ns_arena_gobreg":{
+    "level":5
+  },
+  "tr_m7_ns_arena_kag":{
+    "level":4
+  },
+  "tr_m7_ns_arena_landdreu":{
+    "level":6
+  },
+  "tr_m7_ns_arena_nixhound":{
+    "level":2
+  },
+  "tr_m7_ns_arena_para":{
+    "level":7
+  },
+  "tr_m7_ns_arena_spider":{
+    "level":6
+  },
+  "tr_m7_ns_arena_tiguar":{
+    "level":5
+  },
+  "tr_m7_ns_arena_troll":{
+    "level":20
+  },
+  "tr_m7_ns_arena_trollarm":{
+    "level":30
+  },
+  "tr_m7_ns_arena_wolf":{
+    "level":5
+  },
+  "tr_m7_ns_darathesghost":{
+    "level":10
+  },
+  "tr_m7_ns_fg_1_shahop":{
+    "level":3
+  },
+  "tr_m7_ns_fg_3_cartguar":{
+    "level":3
+  },
+  "tr_m7_ns_fg_5_skyrqueen":{
+    "level":20
+  },
+  "tr_m7_ns_jns_3_guabonwa":{
+    "level":4
+  },
+  "tr_m7_ns_jns_3_guagrbon":{
+    "level":7
+  },
+  "tr_m7_ns_jns_3_guaskele":{
+    "level":10
+  },
+  "tr_m7_ns_mglabrat":{
+    "level":2
+  },
+  "tr_m7_ns_mg_arch03_mhas":{
+    "level":40
+  },
+  "tr_m7_ns_mg_clannfear":{
+    "level":7
+  },
+  "tr_m7_ns_mg_goldsaint":{
+    "level":20
+  },
+  "tr_m7_ns_mg_hunger":{
+    "level":11
+  },
+  "tr_m7_ns_mg_lichboss":{
+    "level":50
+  },
+  "tr_m7_ns_mg_seducer01":{
+    "level":15
+  },
+  "tr_m7_ns_mg_seducer02":{
+    "level":15
+  },
+  "tr_m7_ns_namirat":{
+    "level":10
+  },
+  "tr_m7_ns_odraskagoutia":{
+    "level":12
+  },
+  "tr_m7_ns_odraskagoutib":{
+    "level":12
+  },
+  "tr_m7_ns_odraskagoutic":{
+    "level":12
+  },
+  "tr_m7_ns_tt_drownedbull":{
+    "level":10
+  },
+  "tr_m7_number_room_hound":{
+    "level":2
+  },
+  "tr_m7_oth_bugtest1":{
+    "level":3
+  },
+  "tr_m7_oth_bugtest2":{
+    "level":3
+  },
+  "tr_m7_oth_bugtest3":{
+    "level":3
+  },
+  "tr_m7_oth_bugtestdead":{
+    "level":3
+  },
+  "tr_m7_oth_bugtestdis":{
+    "level":3
+  },
+  "tr_m7_othrano_lich":{
+    "level":35
+  },
+  "tr_m7_palosenyaguar":{
+    "level":3
+  },
+  "tr_m7_perthan_naracas":{
+    "level":15
+  },
+  "tr_m7_rallabala_dscamp":{
+    "level":5
+  },
+  "tr_m7_rallabala_scamp":{
+    "level":5
+  },
+  "tr_m7_rasbanyi":{
+    "level":12
+  },
+  "tr_m7_sh08c1_dead":{
+    "level":2
+  },
+  "tr_m7_sh5_skel_guard":{
+    "level":10
+  },
+  "tr_m7_sh5_skel_miner":{
+    "level":3
+  },
+  "tr_m7_sh_ranched_betty":{
+    "level":10
+  },
+  "tr_m7_sh_ranched_bull":{
+    "level":4
+  },
+  "tr_m7_septimg_guar_cart":{
+    "level":3
+  },
+  "tr_m7_sharai_guar":{
+    "level":3
+  },
+  "tr_m7_shishahh1_hopper":{
+    "level":4
+  },
+  "tr_m7_stormgp_guar_cart":{
+    "level":3
+  },
+  "tr_m7_tv4tomb1_troll":{
+    "level":9
+  },
+  "tr_m7_tv4_lord_mhas":{
+    "level":40
+  },
+  "tr_m7_tv6_netch_dead":{
+    "level":1
+  },
+  "tr_m7_tabiash_scrib":{
+    "level":1
+  },
+  "tr_m7_thrashthresher_01":{
+    "level":20
+  },
+  "tr_m7_uddanu_vermai":{
+    "level":8
+  },
+  "tr_m7_ussic_sandkwoom":{
+    "level":5
+  },
+  "tr_m7_ussiranbonelord":{
+    "level":17
+  },
+  "tr_m7_ussiran_sandkwoom":{
+    "level":5
+  },
+  "tr_m7_ussiran_hopper":{
+    "level":2
+  },
+  "tr_m7_va_anivamp_rat":{
+    "level":2
+  },
+  "tr_m7_va_anivamp_scrib":{
+    "level":1
+  },
+  "tr_m7_vandirelyon_arch":{
+    "level":10
+  },
+  "tr_m7_vandirelyon_mage ":{
+    "level":10
+  },
+  "tr_m7_vandirelyon_skwiz":{
+    "level":20
+  },
+  "tr_m7_vedas2_cvrt":{
+    "level":8
+  },
+  "tr_m7_viriranch_netch":{
+    "level":4
+  },
+  "tr_m7_xivilailotan":{
+    "level":50
+  },
+  "tr_m7_yandaran_hopper":{
+    "level":2
+  },
+  "tr_m7_ashurbalipal_helg":{
+    "level":25
+  },
+  "tr_m7_cr_bridgetroll":{
+    "level":9
+  },
+  "tr_m7_guar_packranch":{
+    "level":3
+  },
+  "tr_m7_hp_dguar":{
+    "level":3
+  },
+  "tr_m7_mavandes_guar":{
+    "level":3
+  },
+  "tr_m7_murk_manowar":{
+    "level":35
+  },
+  "tr_m7_netch_betty_ranch":{
+    "level":10
+  },
+  "tr_m7_netch_bull_ranch":{
+    "level":4
+  },
+  "tr_m7_q_ai_ornqnds":{
+    "level":1
+  },
+  "tr_m7_q_atemuhound":{
+    "level":2
+  },
+  "tr_m7_q_bnwg_stinky":{
+    "level":7
+  },
+  "tr_m7_q_eggminehound":{
+    "level":2
+  },
+  "tr_m7_q_eggminehound_d":{
+    "level":2
+  },
+  "tr_m7_q_hr_cartguar":{
+    "level":3
+  },
+  "tr_m7_q_hr_thresher":{
+    "level":20
+  },
+  "tr_m7_q_hanpalit_troll":{
+    "level":9
+  },
+  "tr_m7_q_leashedkwworker":{
+    "level":2
+  },
+  "tr_m7_q_nstgghost":{
+    "level":30
+  },
+  "tr_m7_q_pale_biter":{
+    "level":17
+  },
+  "tr_m7_q_danrilkdreugh":{
+    "level":5
+  },
+  "tr_m7_q_r_am_skylamp":{
+    "level":12
+  },
+  "tr_m7_sad_guar":{
+    "level":3
+  },
+  "tr_m7_tv3shack2_yethbug":{
+    "level":3
+  },
+  "tr_m7_zern_hunger_s":{
+    "level":11
+  },
+  "tr_nixmount_bosmora":{
+    "level":4
+  },
+  "tr_m3_oe_fg_cr_aghost":{
+    "level":10
+  },
+  "tr_m3_oe_fg_cr_verm":{
+    "level":5
+  },
+  "tr_m3_akuband_sphere":{
+    "level":18
+  },
+  "tr_m3_akuband_spider":{
+    "level":12
+  },
+  "tr_m3_cr_caughtrat":{
+    "level":2
+  },
+  "rat_plague":{
+    "level":2
+  },
+  "goblin_grunt":{
+    "level":7
+  },
+  "goblin_officer":{
+    "level":25
+  },
+  "scrib_rerlas":{
+    "level":5
+  },
+  "rat_rerlas":{
+    "level":5
+  },
+  "rat_pack_rerlas":{
+    "level":5
+  },
+  "centurion_spider_dead":{
+    "level":3
+  },
+  "centurion_spider_bbot1":{
+    "level":3
+  },
+  "centurion_steam_bbot2":{
+    "level":10
+  },
+  "centurion_sphere_bbot1":{
+    "level":10
+  },
+  "centurion_spider_bbot3":{
+    "level":3
+  },
+  "centurion_steam_bbot4":{
+    "level":10
+  },
+  "centurion_sphere_bbot5":{
+    "level":5
+  },
+  "centurion_sphere_bbot6":{
+    "level":5
+  },
+  "centurion_spider_bbot7":{
+    "level":3
+  },
+  "centurion_steam_bbot8":{
+    "level":10
+  },
+  "golden saint_velas1":{
+    "level":20
+  },
+  "ogrim titan_velas":{
+    "level":15
+  },
+  "golden saint_velas2":{
+    "level":20
+  },
+  "goblin_warchief1":{
+    "level":35
+  },
+  "goblin_warchief2":{
+    "level":35
+  },
+  "goblin_bruiser":{
+    "level":20
+  },
+  "fabricant_hulking":{
+    "level":30
+  },
+  "fabricant_verminous":{
+    "level":10
+  },
+  "centurion_projectile":{
+    "level":10
+  },
+  "lich_barilzar":{
+    "level":45
+  },
+  "almalexia":{
+    "level":100
+  },
+  "almalexia_warrior":{
+    "level":100
+  },
+  "dwarven ghost_radac":{
+    "level":25
+  },
+  "lich":{
+    "level":20
+  },
+  "goblin_footsoldier":{
+    "level":13
+  },
+  "durzog_war":{
+    "level":15
+  },
+  "durzog_wild":{
+    "level":10
+  },
+  "durzog_diseased":{
+    "level":10
+  },
+  "centurion_steam_advance":{
+    "level":20
+  },
+  "ancestor_ghost_greater":{
+    "level":10
+  },
+  "lich_profane_unique":{
+    "level":20
+  },
+  "fabricant_machine_1":{
+    "level":2
+  },
+  "fabricant_verminousdead":{
+    "level":2
+  },
+  "imperfect":{
+    "level":80
+  },
+  "fabricant_verminous-rs":{
+    "level":10
+  },
+  "lich_relvel":{
+    "level":40
+  },
+  "ancestor_ghost_variner":{
+    "level":30
+  },
+  "goblin_officeruni":{
+    "level":25
+  },
+  "fabricant_hulking_c":{
+    "level":20
+  },
+  "fabricant_verminous_c":{
+    "level":10
+  },
+  "fabricant_hulking_c_l":{
+    "level":20
+  },
+  "centurion_steam_c_l":{
+    "level":30
+  },
+  "centurion_projectile_c":{
+    "level":10
+  },
+  "centurion_steam_a_c":{
+    "level":20
+  },
+  "fabricant_summon":{
+    "level":2
+  },
+  "fabricant_hulking_attac":{
+    "level":20
+  },
+  "fabricant_hulkin_attack":{
+    "level":20
+  },
+  "fabricant_verm_attack":{
+    "level":10
+  },
+  "dremora_lord_khash_uni":{
+    "level":12
+  },
+  "goblin_handler":{
+    "level":20
+  },
+  "durzog_war_trained":{
+    "level":10
+  },
+  "rat_plague_hall1":{
+    "level":2
+  },
+  "rat_plague_hall2":{
+    "level":2
+  },
+  "skeleton_relvel":{
+    "level":10
+  },
+  "durzog_wild_weaker":{
+    "level":5
+  },
+  "rat_plague_hall1a":{
+    "level":2
+  },
+  "fabricant_hulking_ss":{
+    "level":30
   }
 }

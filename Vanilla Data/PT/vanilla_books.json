@@ -1,4169 +1,6665 @@
 {
-  "bookskill_acrobatics2": {
-    "value": 150
+  "bookskill_acrobatics2":{
+    "value":150
   },
-  "bk_houseoftroubles_o": {
-    "value": 50
+  "bk_houseoftroubles_o":{
+    "value":50
   },
-  "bk_mixedunittactics": {
-    "value": 25
+  "bk_mixedunittactics":{
+    "value":25
   },
-  "bk_houseoftroubles_c": {
-    "value": 50
+  "bk_houseoftroubles_c":{
+    "value":50
   },
-  "bk_blasphemousrevenants": {
-    "value": 55
+  "bk_blasphemousrevenants":{
+    "value":55
   },
-  "bk_five_far_stars": {
-    "value": 25
+  "bk_five_far_stars":{
+    "value":25
   },
-  "bk_snowprince": {
-    "value": 300
+  "bk_snowprince":{
+    "value":300
   },
-  "bk_thirskhistory": {
-    "value": 75
+  "bk_thirskhistory":{
+    "value":75
   },
-  "bk_airship_captains_journal": {
-    "value": 10
+  "bk_airship_captains_journal":{
+    "value":10
   },
-  "bk_sovngarde": {
-    "value": 75
+  "bk_sovngarde":{
+    "value":75
   },
-  "bk_fur_armor": {
-    "value": 0
+  "bk_fur_armor":{
+    "value":0
   },
-  "bk_thirskhistory_revised_m": {
-    "value": 75
+  "bk_thirskhistory_revised_m":{
+    "value":75
   },
-  "bk_thirskhistory_revised_f": {
-    "value": 75
+  "bk_thirskhistory_revised_f":{
+    "value":75
   },
-  "bk_fryssajournal": {
-    "value": 50
+  "bk_fryssajournal":{
+    "value":50
   },
-  "bk_necrojournal": {
-    "value": 50
+  "bk_necrojournal":{
+    "value":50
   },
-  "bk_leggejournal": {
-    "value": 50
+  "bk_leggejournal":{
+    "value":50
   },
-  "t_bkgen_shippinglog_03": {
-    "value": 0
+  "pc_m1_anv_atclog":{
+    "value":80
   },
-  "t_bkgen_shippinglog_01": {
-    "value": 0
+  "pc_m1_anv_atcrecord1":{
+    "value":80
   },
-  "pc_i1-8_bk_01": {
-    "value": 30
+  "pc_m1_anv_atcrecord1open":{
+    "value":80
   },
-  "pc_i1-55_book_01": {
-    "value": 15
+  "pc_m1_anv_atcrecord2":{
+    "value":80
   },
-  "bookskill_enchant1": {
-    "value": 300
+  "pc_m1_anv_atcrecord3":{
+    "value":80
   },
-  "bookskill_enchant2": {
-    "value": 250
+  "pc_m1_anv_atcrecord3open":{
+    "value":80
   },
-  "bookskill_enchant3": {
-    "value": 400
+  "pc_m1_anv_atcrecord4":{
+    "value":80
   },
-  "bookskill_enchant4": {
-    "value": 200
+  "pc_m1_anv_atc_meetingnotes":{
+    "value":2
   },
-  "bookskill_enchant5": {
-    "value": 350
+  "pc_m1_anv_airshiplog":{
+    "value":150
   },
-  "bookskill_destruction1": {
-    "value": 250
+  "pc_m1_anv_airshipreports":{
+    "value":100
   },
-  "bookskill_destruction2": {
-    "value": 200
+  "pc_m1_anv_amielclubrecord":{
+    "value":0
   },
-  "bookskill_destruction3": {
-    "value": 175
+  "pc_m1_anv_amielclubroster":{
+    "value":0
   },
-  "bookskill_destruction4": {
-    "value": 225
+  "pc_m1_anv_beaconcoledger01":{
+    "value":0
   },
-  "bookskill_destruction5": {
-    "value": 250
+  "pc_m1_anv_beaconcoledger02":{
+    "value":0
   },
-  "bookskill_alteration1": {
-    "value": 400
+  "pc_m1_anv_beaconcoledger03":{
+    "value":0
   },
-  "bookskill_alteration2": {
-    "value": 250
+  "pc_m1_anv_benmanorledger":{
+    "value":5
   },
-  "bookskill_alteration3": {
-    "value": 275
+  "pc_m1_anv_bribankledgerclient":{
+    "value":1
   },
-  "bookskill_alteration4": {
-    "value": 200
+  "pc_m1_anv_bribankledgerclosed":{
+    "value":1
   },
-  "bookskill_alteration5": {
-    "value": 350
+  "pc_m1_anv_bribankledgeropen":{
+    "value":1
   },
-  "bookskill_illusion1": {
-    "value": 250
+  "pc_m1_anv_conservdonations":{
+    "value":15
   },
-  "bookskill_illusion2": {
-    "value": 230
+  "pc_m1_anv_dibestnotebook1":{
+    "value":100
   },
-  "bookskill_illusion3": {
-    "value": 225
+  "pc_m1_anv_dibestnotebook2":{
+    "value":10
   },
-  "bookskill_illusion4": {
-    "value": 400
+  "pc_m1_anv_dibestnotebook3":{
+    "value":70
   },
-  "bookskill_illusion5": {
-    "value": 250
+  "pc_m1_anv_dibestrecords":{
+    "value":25
   },
-  "bookskill_conjuration1": {
-    "value": 300
+  "pc_m1_anv_exchangeledger01":{
+    "value":100
   },
-  "bookskill_conjuration2": {
-    "value": 300
+  "pc_m1_anv_exchangeledger02":{
+    "value":100
   },
-  "bookskill_conjuration3": {
-    "value": 275
+  "pc_m1_anv_iasnotes":{
+    "value":150
   },
-  "bookskill_conjuration4": {
-    "value": 275
+  "pc_m1_anv_igsnotes":{
+    "value":150
   },
-  "bookskill_conjuration5": {
-    "value": 325
+  "pc_m1_anv_lanarddubrocnotebook":{
+    "value":2
   },
-  "bookskill_mysticism1": {
-    "value": 200
+  "pc_m1_anv_logcommission":{
+    "value":20
   },
-  "bookskill_mysticism2": {
-    "value": 275
+  "pc_m1_anv_monitornotebook":{
+    "value":2
   },
-  "bookskill_mysticism3": {
-    "value": 200
+  "pc_m1_anv_monitornotebook2":{
+    "value":2
   },
-  "bookskill_mysticism4": {
-    "value": 200
+  "pc_m1_anv_monitornotebook3":{
+    "value":2
   },
-  "bookskill_mysticism5": {
-    "value": 300
+  "pc_m1_anv_monitornotebook4":{
+    "value":2
   },
-  "bookskill_restoration1": {
-    "value": 250
+  "pc_m1_anv_monitornotebook5":{
+    "value":2
   },
-  "bookskill_restoration2": {
-    "value": 275
+  "pc_m1_anv_monitornotebook6":{
+    "value":2
   },
-  "bookskill_restoration3": {
-    "value": 300
+  "pc_m1_anv_quillweavenotebook":{
+    "value":2
   },
-  "bookskill_restoration4": {
-    "value": 275
+  "pc_m1_anv_tridentexlog":{
+    "value":80
   },
-  "bookskill_restoration5": {
-    "value": 250
+  "pc_m1_anv_tridentexrecordstome1":{
+    "value":50
   },
-  "bookskill_alchemy1": {
-    "value": 200
+  "pc_m1_anv_tridentexrecordstome2":{
+    "value":80
   },
-  "bookskill_alchemy2": {
-    "value": 200
+  "pc_m1_anv_tridentexrecordstome3":{
+    "value":80
   },
-  "bookskill_alchemy3": {
-    "value": 200
+  "pc_m1_anv_tridentexrecordstome4":{
+    "value":80
   },
-  "bookskill_alchemy4": {
-    "value": 200
+  "pc_m1_arc_aloeremedies":{
+    "value":10
   },
-  "bookskill_alchemy5": {
-    "value": 200
+  "pc_m1_bc_cwaclients":{
+    "value":10
   },
-  "bookskill_unarmored1": {
-    "value": 300
+  "pc_m1_bc_notebooksielle":{
+    "value":2
   },
-  "bookskill_unarmored2": {
-    "value": 300
+  "pc_m1_cha_cassynder_log":{
+    "value":10
   },
-  "bookskill_unarmored3": {
-    "value": 200
+  "pc_m1_cha_ledgertelvor":{
+    "value":2
   },
-  "bookskill_unarmored4": {
-    "value": 200
+  "pc_m1_cha_notebookapprentice1":{
+    "value":2
   },
-  "bookskill_unarmored5": {
-    "value": 200
+  "pc_m1_cha_notebookapprentice2":{
+    "value":2
   },
-  "bookskill_block1": {
-    "value": 300
+  "pc_m1_cha_notebookestarrion":{
+    "value":2
   },
-  "bookskill_block2": {
-    "value": 225
+  "pc_m1_cha_notebookhierophant":{
+    "value":2
   },
-  "bookskill_block3": {
-    "value": 150
+  "pc_m1_cha_notebooknayad":{
+    "value":2
   },
-  "bookskill_block4": {
-    "value": 200
+  "pc_m1_corcaranaster_log":{
+    "value":10
   },
-  "bookskill_block5": {
-    "value": 200
+  "pc_m1_eumaeus_notebook":{
+    "value":10
   },
-  "bookskill_armorer1": {
-    "value": 325
+  "pc_m1_fhe_logsupply":{
+    "value":2
   },
-  "bookskill_armorer2": {
-    "value": 250
+  "pc_m1_fte_prisonledger":{
+    "value":2
   },
-  "bookskill_armorer3": {
-    "value": 200
+  "pc_m1_garage_notebookscholar":{
+    "value":10
   },
-  "bookskill_armorer4": {
-    "value": 200
+  "pc_m1_gld_ledgerchamberlain":{
+    "value":10
   },
-  "bookskill_armorer5": {
-    "value": 200
+  "pc_m1_gld_ledgertreasury":{
+    "value":2
   },
-  "bookskill_medium armor1": {
-    "value": 225
+  "pc_m1_gld_mykolpoetry2":{
+    "value":2
   },
-  "bookskill_medium armor2": {
-    "value": 300
+  "pc_m1_gld_recordsvault":{
+    "value":120
   },
-  "bookskill_medium armor3": {
-    "value": 300
+  "pc_m1_k1_mc4_journal":{
+    "value":70
   },
-  "bookskill_medium armor4": {
-    "value": 200
+  "pc_m1_k1_vt3_log":{
+    "value":20
   },
-  "bookskill_medium armor5": {
-    "value": 200
+  "pc_m1_mg_bc3_book":{
+    "value":1
   },
-  "bookskill_heavy armor1": {
-    "value": 325
+  "pc_m1_mark_3strangers_buc":{
+    "value":1
   },
-  "bookskill_heavy armor2": {
-    "value": 275
+  "pc_m1_mark_3strangers_targorn":{
+    "value":1
   },
-  "bookskill_heavy armor3": {
-    "value": 225
+  "pc_m1_mark_3strangers_wya":{
+    "value":1
   },
-  "bookskill_heavy armor4": {
-    "value": 200
+  "pc_m1_mark_anv_bounty_annka":{
+    "value":1
   },
-  "bookskill_heavy armor5": {
-    "value": 200
+  "pc_m1_mark_anv_bounty_mccoast":{
+    "value":1
   },
-  "bookskill_blunt weapon1": {
-    "value": 250
+  "pc_m1_mark_anv_bounty_mcjail":{
+    "value":1
   },
-  "bookskill_blunt weapon2": {
-    "value": 200
+  "pc_m1_mark_anv_bounty_rue":{
+    "value":1
   },
-  "bookskill_blunt weapon3": {
-    "value": 275
+  "pc_m1_mark_appborg_emiliana":{
+    "value":1
   },
-  "bookskill_blunt weapon4": {
-    "value": 200
+  "pc_m1_mark_blkview_guard1":{
+    "value":1
   },
-  "bookskill_blunt weapon5": {
-    "value": 200
+  "pc_m1_mark_blkview_guard2":{
+    "value":1
   },
-  "bookskill_long blade1": {
-    "value": 225
+  "pc_m1_mark_cha_ghastord_saveriu":{
+    "value":1
   },
-  "bookskill_long blade2": {
-    "value": 275
+  "pc_m1_mark_daughmarks_thenaanv":{
+    "value":1
   },
-  "bookskill_long blade3": {
-    "value": 200
+  "pc_m1_mark_daughmarks_thenabc":{
+    "value":1
   },
-  "bookskill_long blade4": {
-    "value": 200
+  "pc_m1_mark_fg_anv7_rufrius":{
+    "value":1
   },
-  "bookskill_long blade5": {
-    "value": 200
+  "pc_m1_mark_garlasagea_bucynarel":{
+    "value":1
   },
-  "bookskill_axe1": {
-    "value": 250
+  "pc_m1_mark_garlasagea_kalana":{
+    "value":1
   },
-  "bookskill_axe2": {
-    "value": 225
+  "pc_m1_mark_garlasagea_otto":{
+    "value":1
   },
-  "bookskill_axe3": {
-    "value": 200
+  "pc_m1_mark_garlasagea_rilus":{
+    "value":1
   },
-  "bookskill_axe4": {
-    "value": 200
+  "pc_m1_mark_goldnets_kayd":{
+    "value":1
   },
-  "bookskill_axe5": {
-    "value": 200
+  "pc_m1_mark_ip_als4_beran":{
+    "value":1
   },
-  "bookskill_spear1": {
-    "value": 250
+  "pc_m1_mark_ip_als4_cerdia":{
+    "value":1
   },
-  "bookskill_spear2": {
-    "value": 275
+  "pc_m1_mark_ip_als4_stratia":{
+    "value":1
   },
-  "bookskill_spear3": {
-    "value": 200
+  "pc_m1_mark_ip_gs2_idvir":{
+    "value":1
   },
-  "bookskill_spear4": {
-    "value": 200
+  "pc_m1_mark_ip_hy3_haelaanv":{
+    "value":1
   },
-  "bookskill_spear5": {
-    "value": 200
+  "pc_m1_mark_ip_hy3_haelalindasae":{
+    "value":1
   },
-  "bookskill_athletics1": {
-    "value": 200
+  "pc_m1_mark_ip_hy3_haelatemple":{
+    "value":1
   },
-  "bookskill_athletics2": {
-    "value": 150
+  "pc_m1_mark_ip_hy3_kuramanv":{
+    "value":1
   },
-  "bookskill_athletics3": {
-    "value": 200
+  "pc_m1_mark_ip_hy3_kuramlindasae":{
+    "value":1
   },
-  "bookskill_athletics4": {
-    "value": 200
+  "pc_m1_mark_ip_hy3_kuramtemple":{
+    "value":1
   },
-  "bookskill_athletics5": {
-    "value": 200
+  "pc_m1_mark_ip_lki2_river":{
+    "value":0
   },
-  "bookskill_security1": {
-    "value": 200
+  "pc_m1_mark_ip_lki2_skarra":{
+    "value":1
   },
-  "bookskill_security2": {
-    "value": 250
+  "pc_m1_mark_ip_lki4_kyrana":{
+    "value":1
   },
-  "bookskill_security3": {
-    "value": 300
+  "pc_m1_mark_ip_run4_vurila":{
+    "value":1
   },
-  "bookskill_security4": {
-    "value": 250
+  "pc_m1_mark_k1_ht3_slaffid":{
+    "value":1
   },
-  "bookskill_security5": {
-    "value": 350
+  "pc_m1_mark_k1_ht4_akaterina":{
+    "value":1
   },
-  "bookskill_sneak1": {
-    "value": 250
+  "pc_m1_mark_k1_ht4_hasi":{
+    "value":1
   },
-  "bookskill_sneak2": {
-    "value": 275
+  "pc_m1_mark_k1_ht4_lantin":{
+    "value":1
   },
-  "bookskill_sneak3": {
-    "value": 200
+  "pc_m1_mark_k1_ht5_akaterina":{
+    "value":1
   },
-  "bookskill_sneak4": {
-    "value": 250
+  "pc_m1_mark_k1_ht5_captain":{
+    "value":1
   },
-  "bookskill_sneak5": {
-    "value": 200
+  "pc_m1_mark_k1_ht5_lassinia":{
+    "value":1
   },
-  "bookskill_acrobatics1": {
-    "value": 200
+  "pc_m1_mark_k1_ht5_mykol":{
+    "value":1
   },
-  "bookskill_acrobatics3": {
-    "value": 150
+  "pc_m1_mark_k1_mc2_taratina":{
+    "value":1
   },
-  "bookskill_acrobatics4": {
-    "value": 400
+  "pc_m1_mark_k1_mc4_pona":{
+    "value":1
   },
-  "bookskill_acrobatics5": {
-    "value": 250
+  "pc_m1_mark_k1_mc7_enmanb":{
+    "value":1
   },
-  "bookskill_light armor1": {
-    "value": 200
+  "pc_m1_mark_k1_mc7_enmanc":{
+    "value":1
   },
-  "bookskill_light armor2": {
-    "value": 325
+  "pc_m1_mark_k1_mc7_enmanfinal":{
+    "value":1
   },
-  "bookskill_light armor3": {
-    "value": 300
+  "pc_m1_mark_k1_mc7_josianeumaeus":{
+    "value":1
   },
-  "bookskill_light armor4": {
-    "value": 200
+  "pc_m1_mark_k1_mc7_josianfinal":{
+    "value":1
   },
-  "bookskill_light armor5": {
-    "value": 200
+  "pc_m1_mark_k1_mc7_playerb":{
+    "value":1
   },
-  "bookskill_short blade1": {
-    "value": 225
+  "pc_m1_mark_k1_mc7_playerc":{
+    "value":1
   },
-  "bookskill_short blade2": {
-    "value": 275
+  "pc_m1_mark_k1_mc7_playerwake":{
+    "value":1
   },
-  "bookskill_short blade3": {
-    "value": 275
+  "pc_m1_mark_k1_mc7_vatashaeumaeu":{
+    "value":1
   },
-  "bookskill_short blade4": {
-    "value": 200
+  "pc_m1_mark_k1_mc7_vatashafinal":{
+    "value":1
   },
-  "bookskill_short blade5": {
-    "value": 200
+  "pc_m1_mark_k1_mc8_adrianus":{
+    "value":1
   },
-  "bookskill_marksman1": {
-    "value": 250
+  "pc_m1_mark_k1_mc8_akaterina":{
+    "value":1
   },
-  "bookskill_marksman2": {
-    "value": 150
+  "pc_m1_mark_k1_mc8_lavus":{
+    "value":1
   },
-  "bookskill_marksman3": {
-    "value": 250
+  "pc_m1_mark_k1_mc8_polonius":{
+    "value":1
   },
-  "bookskill_marksman4": {
-    "value": 250
+  "pc_m1_mark_k1_mc8_risa":{
+    "value":1
   },
-  "bookskill_marksman5": {
-    "value": 400
+  "pc_m1_mark_k1_mc8_skolgar":{
+    "value":1
   },
-  "bookskill_mercantile1": {
-    "value": 200
+  "pc_m1_mark_k1_rp4_dronir":{
+    "value":1
   },
-  "bookskill_mercantile2": {
-    "value": 250
+  "pc_m1_mark_k1_rp4_jada":{
+    "value":1
   },
-  "bookskill_mercantile3": {
-    "value": 275
+  "pc_m1_mark_k1_rp5_lusha":{
+    "value":1
   },
-  "bookskill_mercantile4": {
-    "value": 150
+  "pc_m1_mark_k1_rp5_straler":{
+    "value":1
   },
-  "bookskill_mercantile5": {
-    "value": 150
+  "pc_m1_mark_k1_rp5_zarabi":{
+    "value":1
   },
-  "bookskill_speechcraft1": {
-    "value": 250
+  "pc_m1_mark_k1_vt2_jafan":{
+    "value":1
   },
-  "bookskill_speechcraft2": {
-    "value": 250
+  "pc_m1_mark_k1_vt6_kyro":{
+    "value":1
   },
-  "bookskill_speechcraft3": {
-    "value": 275
+  "pc_m1_mark_k1_vt_bernd":{
+    "value":1
   },
-  "bookskill_speechcraft4": {
-    "value": 250
+  "pc_m1_mark_k1_vt_nessa":{
+    "value":1
   },
-  "bookskill_speechcraft5": {
-    "value": 200
+  "pc_m1_mark_letkha_home":{
+    "value":1
   },
-  "bookskill_hand to hand1": {
-    "value": 250
+  "pc_m1_mark_mg_anv4_anaryan":{
+    "value":1
   },
-  "bookskill_hand to hand2": {
-    "value": 250
+  "pc_m1_mark_mg_cha3_ugenring":{
+    "value":1
   },
-  "bookskill_hand to hand3": {
-    "value": 300
+  "pc_m1_mark_mg_cha5_divides":{
+    "value":1
   },
-  "bookskill_hand to hand4": {
-    "value": 300
+  "pc_m1_mark_mg_ns_player":{
+    "value":1
   },
-  "bookskill_hand to hand5": {
-    "value": 300
+  "pc_m1_mark_midlife_ashur":{
+    "value":1
   },
-  "bk_livesofthesaints": {
-    "value": 25
+  "pc_m1_mark_midlife_lobakh":{
+    "value":1
   },
-  "bk_saryonissermons": {
-    "value": 50
+  "pc_m1_mark_midlife_surash":{
+    "value":1
   },
-  "bk_homiliesofblessedalmalexia": {
-    "value": 25
+  "pc_m1_mark_mondirilyon":{
+    "value":1
   },
-  "bk_pilgrimspath": {
-    "value": 25
+  "pc_m1_mark_murdcross_ramus":{
+    "value":1
   },
-  "bk_doorsofthespirit": {
-    "value": 50
+  "pc_m1_mark_oceanblue_brothers":{
+    "value":1
   },
-  "bk_mysteriousakavir": {
-    "value": 50
+  "pc_m1_mark_pormug_elausa":{
+    "value":1
   },
-  "bk_spiritofnirn": {
-    "value": 40
+  "pc_m1_mark_pormug_oritius1":{
+    "value":1
   },
-  "bk_vivecandmephala": {
-    "value": 40
+  "pc_m1_mark_pormug_oritius2":{
+    "value":1
   },
-  "bk_istunondescosmology": {
-    "value": 40
+  "pc_m1_mark_tg_anv4_purcus":{
+    "value":1
   },
-  "bk_firmament": {
-    "value": 40
+  "pc_m1_mark_tg_cha4_vida":{
+    "value":1
   },
-  "bk_manyfacesmissinggod": {
-    "value": 30
+  "pc_m1_mark_tvy_nobledebt_nito":{
+    "value":1
   },
-  "bk_frontierconquestaccommodat": {
-    "value": 25
+  "pc_m1_mark_tvy_nobledebt_zanth":{
+    "value":1
   },
-  "bk_truenatureoforcs": {
-    "value": 30
+  "pc_m1_mark_warmwtr_satameh":{
+    "value":1
   },
-  "bk_varietiesoffaithintheempire": {
-    "value": 30
+  "pc_m1_mark_wellmet_datereymanus":{
+    "value":1
   },
-  "bk_tamrielicreligions": {
-    "value": 40
+  "pc_m1_mark_wellmet_datewynn":{
+    "value":1
   },
-  "bk_fivesongsofkingwulfharth": {
-    "value": 30
+  "pc_m1_mark_wellmet_statuesolvus":{
+    "value":1
   },
-  "bk_wherewereyoudragonbroke": {
-    "value": 55
+  "pc_m1_mark_workorc_karrel":{
+    "value":1
   },
-  "bk_nchunaksfireandfaith": {
-    "value": 60
+  "pc_m1_note_as03_stretchgoal2":{
+    "value":0
   },
-  "bk_vampiresofvvardenfell1": {
-    "value": 50
+  "pc_m1_note_acharamz":{
+    "value":0
   },
-  "bk_reflectionsoncultworship...": {
-    "value": 25
+  "pc_m1_note_ansedeusshaman":{
+    "value":0
   },
-  "bk_galerionthemystic": {
-    "value": 50
+  "pc_m1_note_bencrypthero":{
+    "value":1
   },
-  "bk_madnessofpelagius": {
-    "value": 20
+  "pc_m1_note_c_zxt":{
+    "value":0
   },
-  "bk_realbarenziah2": {
-    "value": 20
+  "pc_m1_note_fhe_mine":{
+    "value":0
   },
-  "bk_realbarenziah3": {
-    "value": 20
+  "pc_m1_note_galtusforcegreet":{
+    "value":1
   },
-  "bk_realbarenziah4": {
-    "value": 20
+  "pc_m1_note_lazurgrotto":{
+    "value":0
   },
-  "bk_overviewofgodsandworship": {
-    "value": 50
+  "pc_m1_note_mghubguide":{
+    "value":1
   },
-  "bk_fragmentonartaeum": {
-    "value": 20
+  "pc_m1_note_oliveridley":{
+    "value":0
   },
-  "bk_onoblivion": {
-    "value": 40
+  "pc_m1_note_sailorsflukeratpit":{
+    "value":0
   },
-  "bk_invocationofazura": {
-    "value": 50
+  "pc_m1_rahulanotebook":{
+    "value":10
   },
-  "bk_mysticism": {
-    "value": 25
+  "pc_m1_tg_anv2_logbook":{
+    "value":5
   },
-  "bk_originofthemagesguild": {
-    "value": 25
+  "pc_m1_tvy_ledgervintage":{
+    "value":2
   },
-  "bk_specialfloraoftamriel": {
-    "value": 25
+  "sky_qre_dsmg_practice_mark5_pc":{
+    "value":1
   },
-  "bk_oldways": {
-    "value": 40
+  "bookskill_enchant1":{
+    "value":300
   },
-  "bk_wildelves": {
-    "value": 35
+  "bookskill_enchant2":{
+    "value":250
   },
-  "bk_pigchildren": {
-    "value": 100
+  "bookskill_enchant3":{
+    "value":400
   },
-  "bk_redbookofriddles": {
-    "value": 50
+  "bookskill_enchant4":{
+    "value":200
   },
-  "bk_yellowbookofriddles": {
-    "value": 30
+  "bookskill_enchant5":{
+    "value":350
   },
-  "bk_guylainesarchitecture": {
-    "value": 60
+  "bookskill_destruction1":{
+    "value":250
   },
-  "bk_progressoftruth": {
-    "value": 150
+  "bookskill_destruction2":{
+    "value":200
   },
-  "bk_easternprovincesimpartial": {
-    "value": 50
+  "bookskill_destruction3":{
+    "value":175
   },
-  "bk_vampiresofvvardenfell2": {
-    "value": 400
+  "bookskill_destruction4":{
+    "value":225
   },
-  "bk_gnisiseggmineledger": {
-    "value": 0
+  "bookskill_destruction5":{
+    "value":250
   },
-  "bk_fortpelagiadprisonerlog": {
-    "value": 0
+  "bookskill_alteration1":{
+    "value":400
   },
-  "bk_truenoblescode": {
-    "value": 40
+  "bookskill_alteration2":{
+    "value":250
   },
-  "bk_ngastakvatakvakis_c": {
-    "value": 200
+  "bookskill_alteration3":{
+    "value":275
   },
-  "bk_legionsofthedead": {
-    "value": 0
+  "bookskill_alteration4":{
+    "value":200
   },
-  "bk_darkestdarkness": {
-    "value": 60
+  "bookskill_alteration5":{
+    "value":350
   },
-  "bk_ngastakvatakvakis_o": {
-    "value": 200
+  "bookskill_illusion1":{
+    "value":250
   },
-  "bk_hanginggardenswasten": {
-    "value": 55
+  "bookskill_illusion2":{
+    "value":230
   },
-  "bk_corpsepreperation1_c": {
-    "value": 50
+  "bookskill_illusion3":{
+    "value":225
   },
-  "bk_corpsepreperation1_o": {
-    "value": 50
+  "bookskill_illusion4":{
+    "value":400
   },
-  "bk_sharnslegionsofthedead": {
-    "value": 50
+  "bookskill_illusion5":{
+    "value":250
   },
-  "bk_samarstarloversjournal": {
-    "value": 350
+  "bookskill_conjuration1":{
+    "value":300
   },
-  "bk_spiritofthedaedra": {
-    "value": 100
+  "bookskill_conjuration2":{
+    "value":300
   },
-  "bk_vagariesofmagica": {
-    "value": 200
+  "bookskill_conjuration3":{
+    "value":275
   },
-  "bk_watersofoblivion": {
-    "value": 250
+  "bookskill_conjuration4":{
+    "value":275
   },
-  "bk_legendaryscourge": {
-    "value": 200
+  "bookskill_conjuration5":{
+    "value":325
   },
-  "bk_postingofthehunt": {
-    "value": 200
+  "bookskill_mysticism1":{
+    "value":200
   },
-  "bk_talmarogkersresearches": {
-    "value": 450
+  "bookskill_mysticism2":{
+    "value":275
   },
-  "bk_graspingfortune": {
-    "value": 30
+  "bookskill_mysticism3":{
+    "value":200
   },
-  "bk_sottildescodebook": {
-    "value": 0
+  "bookskill_mysticism4":{
+    "value":200
   },
-  "bk_eastempirecompanyledger": {
-    "value": 0
+  "bookskill_mysticism5":{
+    "value":300
   },
-  "bk_consolationsofprayer": {
-    "value": 25
+  "bookskill_restoration1":{
+    "value":250
   },
-  "bk_bookdawnanddusk": {
-    "value": 25
+  "bookskill_restoration2":{
+    "value":275
   },
-  "bk_cantatasofvivec": {
-    "value": 50
+  "bookskill_restoration3":{
+    "value":300
   },
-  "bk_anticipations": {
-    "value": 50
+  "bookskill_restoration4":{
+    "value":275
   },
-  "bk_ancestorsandthedunmer": {
-    "value": 25
+  "bookskill_restoration5":{
+    "value":250
   },
-  "bk_aedraanddaedra": {
-    "value": 50
+  "bookskill_alchemy1":{
+    "value":200
   },
-  "bk_annotatedanuad": {
-    "value": 50
+  "bookskill_alchemy2":{
+    "value":200
   },
-  "bk_childrensanuad": {
-    "value": 50
+  "bookskill_alchemy3":{
+    "value":200
   },
-  "bk_arcturianheresy": {
-    "value": 25
+  "bookskill_alchemy4":{
+    "value":200
   },
-  "bk_changedones": {
-    "value": 50
+  "bookskill_alchemy5":{
+    "value":200
   },
-  "bk_childrenofthesky": {
-    "value": 50
+  "bookskill_unarmored1":{
+    "value":300
   },
-  "bk_antecedantsdwemerlaw": {
-    "value": 25
+  "bookskill_unarmored2":{
+    "value":300
   },
-  "bk_chroniclesnchuleft": {
-    "value": 250
+  "bookskill_unarmored3":{
+    "value":200
   },
-  "bk_biographybarenziah1": {
-    "value": 50
+  "bookskill_unarmored4":{
+    "value":200
   },
-  "bk_biographybarenziah2": {
-    "value": 50
+  "bookskill_unarmored5":{
+    "value":200
   },
-  "bk_biographybarenziah3": {
-    "value": 50
+  "bookskill_block1":{
+    "value":300
   },
-  "bk_briefhistoryempire1": {
-    "value": 50
+  "bookskill_block2":{
+    "value":225
   },
-  "bk_briefhistoryempire2": {
-    "value": 50
+  "bookskill_block3":{
+    "value":150
   },
-  "bk_briefhistoryempire3": {
-    "value": 50
+  "bookskill_block4":{
+    "value":200
   },
-  "bk_briefhistoryempire4": {
-    "value": 50
+  "bookskill_block5":{
+    "value":200
   },
-  "bk_brothersofdarkness": {
-    "value": 100
+  "bookskill_armorer1":{
+    "value":325
   },
-  "bk_blackglove": {
-    "value": 60
+  "bookskill_armorer2":{
+    "value":250
   },
-  "bk_bluebookofriddles": {
-    "value": 250
+  "bookskill_armorer3":{
+    "value":200
   },
-  "bk_boethiahpillowbook": {
-    "value": 0
+  "bookskill_armorer4":{
+    "value":200
   },
-  "bk_bookofdaedra": {
-    "value": 45
+  "bookskill_armorer5":{
+    "value":200
   },
-  "bk_arcanarestored": {
-    "value": 75
+  "bookskill_medium armor1":{
+    "value":225
   },
-  "bk_bookoflifeandservice": {
-    "value": 40
+  "bookskill_medium armor2":{
+    "value":300
   },
-  "bk_bookofrestandendings": {
-    "value": 40
+  "bookskill_medium armor3":{
+    "value":300
   },
-  "bk_affairsofwizards": {
-    "value": 50
+  "bookskill_medium armor4":{
+    "value":200
   },
-  "bk_calderarecordbook1": {
-    "value": 0
+  "bookskill_medium armor5":{
+    "value":200
   },
-  "bk_calderarecordbook2": {
-    "value": 0
+  "bookskill_heavy armor1":{
+    "value":325
   },
-  "bk_abcs": {
-    "value": 25
+  "bookskill_heavy armor2":{
+    "value":275
   },
-  "bk_dren_shipping_log": {
-    "value": 0
+  "bookskill_heavy armor3":{
+    "value":225
   },
-  "bk_saryonisermonsmanuscript": {
-    "value": 50000
+  "bookskill_heavy armor4":{
+    "value":200
   },
-  "bk_honorthieves": {
-    "value": 100
+  "bookskill_heavy armor5":{
+    "value":200
   },
-  "bk_redbook426": {
-    "value": 60
+  "bookskill_blunt weapon1":{
+    "value":250
   },
-  "bk_yellowbook426": {
-    "value": 20
+  "bookskill_blunt weapon2":{
+    "value":200
   },
-  "bk_brownbook426": {
-    "value": 75
+  "bookskill_blunt weapon3":{
+    "value":275
   },
-  "bk_fishystick": {
-    "value": 5
+  "bookskill_blunt weapon4":{
+    "value":200
   },
-  "bk_kagrenac'splans_excl": {
-    "value": 400
+  "bookskill_blunt weapon5":{
+    "value":200
   },
-  "bk_ynglingledger": {
-    "value": 0
+  "bookskill_long blade1":{
+    "value":225
   },
-  "bk_briefhistoryempire1_oh": {
-    "value": 50
+  "bookskill_long blade2":{
+    "value":275
   },
-  "bk_briefhistoryempire2_oh": {
-    "value": 50
+  "bookskill_long blade3":{
+    "value":200
   },
-  "bk_briefhistoryempire3_oh": {
-    "value": 50
+  "bookskill_long blade4":{
+    "value":200
   },
-  "bk_briefhistoryempire4_oh": {
-    "value": 50
+  "bookskill_long blade5":{
+    "value":200
   },
-  "bk_ashland_hymns": {
-    "value": 35
+  "bookskill_axe1":{
+    "value":250
   },
-  "bk_words_of_the_wind": {
-    "value": 45
+  "bookskill_axe2":{
+    "value":225
   },
-  "bk_galur_rithari's_papers": {
-    "value": 0
+  "bookskill_axe3":{
+    "value":200
   },
-  "bk_kagrenac'sjournal_excl": {
-    "value": 400
+  "bookskill_axe4":{
+    "value":200
   },
-  "bk_notes-kagouti mating habits": {
-    "value": 50
+  "bookskill_axe5":{
+    "value":200
   },
-  "bk_wordsclanmother": {
-    "value": 40
+  "bookskill_spear1":{
+    "value":250
   },
-  "bk_corpsepreperation2_c": {
-    "value": 50
+  "bookskill_spear2":{
+    "value":275
   },
-  "bk_corpsepreperation3_c": {
-    "value": 50
+  "bookskill_spear3":{
+    "value":200
   },
-  "bk_arkaytheenemy": {
-    "value": 40
+  "bookskill_spear4":{
+    "value":200
   },
-  "bk_poisonsong1": {
-    "value": 30
+  "bookskill_spear5":{
+    "value":200
   },
-  "bk_poisonsong2": {
-    "value": 30
+  "bookskill_athletics1":{
+    "value":200
   },
-  "bk_poisonsong3": {
-    "value": 30
+  "bookskill_athletics2":{
+    "value":150
   },
-  "bk_poisonsong4": {
-    "value": 30
+  "bookskill_athletics3":{
+    "value":200
   },
-  "bk_poisonsong5": {
-    "value": 30
+  "bookskill_athletics4":{
+    "value":200
   },
-  "bk_poisonsong6": {
-    "value": 30
+  "bookskill_athletics5":{
+    "value":200
   },
-  "bk_poisonsong7": {
-    "value": 30
+  "bookskill_security1":{
+    "value":200
   },
-  "bk_confessions": {
-    "value": 25
+  "bookskill_security2":{
+    "value":250
   },
-  "bk_redorancookingsecrets": {
-    "value": 20
+  "bookskill_security3":{
+    "value":300
   },
-  "bk_briefhistoryofwood": {
-    "value": 10
+  "bookskill_security4":{
+    "value":250
   },
-  "bk_realbarenziah1": {
-    "value": 20
+  "bookskill_security5":{
+    "value":350
   },
-  "bk_realbarenziah5": {
-    "value": 20
+  "bookskill_sneak1":{
+    "value":250
   },
-  "bk_bartendersguide": {
-    "value": 10
+  "bookskill_sneak2":{
+    "value":275
   },
-  "bk_warehouse_log": {
-    "value": 0
+  "bookskill_sneak3":{
+    "value":200
   },
-  "bk_eggoftime": {
-    "value": 1000
+  "bookskill_sneak4":{
+    "value":250
   },
-  "bk_divinemetaphysics": {
-    "value": 1000
+  "bookskill_sneak5":{
+    "value":200
   },
-  "bk_chartermg": {
-    "value": 30
+  "bookskill_acrobatics1":{
+    "value":200
   },
-  "bk_charterfg": {
-    "value": 30
+  "bookskill_acrobatics3":{
+    "value":150
   },
-  "bk_ibardad_elante_notes": {
-    "value": 10
+  "bookskill_acrobatics4":{
+    "value":400
   },
-  "bookskill_destruction5_open": {
-    "value": 250
+  "bookskill_acrobatics5":{
+    "value":250
   },
-  "bookskill_axe5_open": {
-    "value": 200
+  "bookskill_light armor1":{
+    "value":200
   },
-  "bk_boethiah's glory_unique": {
-    "value": 25
+  "bookskill_light armor2":{
+    "value":325
   },
-  "bk_aedra_tarer_unique": {
-    "value": 50
+  "bookskill_light armor3":{
+    "value":300
   },
-  "cumanya's notes": {
-    "value": 25
+  "bookskill_light armor4":{
+    "value":200
   },
-  "bk_briefhistoryofwood_01": {
-    "value": 10
+  "bookskill_light armor5":{
+    "value":200
   },
-  "bk_hlaalu_vaults_ledger": {
-    "value": 0
+  "bookskill_short blade1":{
+    "value":225
   },
-  "bk_redoran_vaults_ledger": {
-    "value": 0
+  "bookskill_short blade2":{
+    "value":275
   },
-  "bk_telvanni_vault_ledger": {
-    "value": 0
+  "bookskill_short blade3":{
+    "value":275
   },
-  "bk_yagrum's_book": {
-    "value": 250
+  "bookskill_short blade4":{
+    "value":200
   },
-  "bk_lustyargonianmaid": {
-    "value": 20
+  "bookskill_short blade5":{
+    "value":200
   },
-  "bk_alchemistsformulary": {
-    "value": 300
+  "bookskill_marksman1":{
+    "value":250
   },
-  "bk_secretsdwemeranimunculi": {
-    "value": 450
+  "bookskill_marksman2":{
+    "value":150
   },
-  "bk_fellowshiptemple": {
-    "value": 25
+  "bookskill_marksman3":{
+    "value":250
   },
-  "bk_formygodsandemperor": {
-    "value": 25
+  "bookskill_marksman4":{
+    "value":250
   },
-  "bk_ordolegionis": {
-    "value": 30
+  "bookskill_marksman5":{
+    "value":400
   },
-  "bk_bartendersguide_01": {
-    "value": 10
+  "bookskill_mercantile1":{
+    "value":200
   },
-  "bookskill_mystery5": {
-    "value": 250
+  "bookskill_mercantile2":{
+    "value":250
   },
-  "bk_warofthefirstcouncil": {
-    "value": 25
+  "bookskill_mercantile3":{
+    "value":275
   },
-  "bk_onmorrowind": {
-    "value": 40
+  "bookskill_mercantile4":{
+    "value":150
   },
-  "bk_realnerevar": {
-    "value": 50
+  "bookskill_mercantile5":{
+    "value":150
   },
-  "bk_nerevarmoonandstar": {
-    "value": 200
+  "bookskill_speechcraft1":{
+    "value":250
   },
-  "bk_shorthistorymorrowind": {
-    "value": 5
+  "bookskill_speechcraft2":{
+    "value":250
   },
-  "bk_falljournal_unique": {
-    "value": 50
+  "bookskill_speechcraft3":{
+    "value":275
   },
-  "sky_ire_dh_crumblingtome": {
-    "value": 45
+  "bookskill_speechcraft4":{
+    "value":250
   },
-  "sky_ire_ds_contrabandledger": {
-    "value": 0
+  "bookskill_speechcraft5":{
+    "value":200
   },
-  "sky_ire_dsw_barrackslogbook": {
-    "value": 50
+  "bookskill_hand to hand1":{
+    "value":250
   },
-  "sky_ire_dsw_warehouseledger": {
-    "value": 10
+  "bookskill_hand to hand2":{
+    "value":250
   },
-  "sky_ire_kw_armoryledger": {
-    "value": 0
+  "bookskill_hand to hand3":{
+    "value":300
   },
-  "sky_ire_kw_barracksledger": {
-    "value": 55
+  "bookskill_hand to hand4":{
+    "value":300
   },
-  "sky_ire_kw_granaryledger": {
-    "value": 30
+  "bookskill_hand to hand5":{
+    "value":300
   },
-  "sky_ire_kw_karthwastentaxledger": {
-    "value": 20
+  "bk_livesofthesaints":{
+    "value":25
   },
-  "sky_ire_kw_payledger": {
-    "value": 30
+  "bk_saryonissermons":{
+    "value":50
   },
-  "sky_ire_kw_storageledger": {
-    "value": 20
+  "bk_homiliesofblessedalmalexia":{
+    "value":25
   },
-  "sky_ire_th_confiscationledger": {
-    "value": 2
+  "bk_pilgrimspath":{
+    "value":25
   },
-  "sky_qre_dsmg4_book": {
-    "value": 225
+  "bk_doorsofthespirit":{
+    "value":50
   },
-  "sky_qre_kw1_register01": {
-    "value": 1000
+  "bk_mysteriousakavir":{
+    "value":50
   },
-  "sky_qre_kw1_register02": {
-    "value": 1000
+  "bk_spiritofnirn":{
+    "value":40
   },
-  "sky_qre_kw1_register03": {
-    "value": 1000
+  "bk_vivecandmephala":{
+    "value":40
   },
-  "sky_qre_kw1_register04": {
-    "value": 1000
+  "bk_istunondescosmology":{
+    "value":40
   },
-  "sky_qre_kw5_notes": {
-    "value": 5
+  "bk_firmament":{
+    "value":40
   },
-  "sky_qre_kwmg6_notes": {
-    "value": 250
+  "bk_manyfacesmissinggod":{
+    "value":30
   },
-  "sky_qre_kwtg1_book": {
-    "value": 175
+  "bk_frontierconquestaccommodat":{
+    "value":25
   },
-  "t_aid_notetoself": {
-    "value": 0
+  "bk_truenatureoforcs":{
+    "value":30
   },
-  "t_bk_1000spiritsoldcyrodopenpc": {
-    "value": 50
+  "bk_varietiesoffaithintheempire":{
+    "value":30
   },
-  "t_bk_1000spiritsoldcyrodpc": {
-    "value": 50
+  "bk_tamrielicreligions":{
+    "value":40
   },
-  "t_bk_16accordsmadnessshotn_v06": {
-    "value": 200
+  "bk_fivesongsofkingwulfharth":{
+    "value":30
   },
-  "t_bk_16accordsmadnessshotn_v12": {
-    "value": 200
+  "bk_wherewereyoudragonbroke":{
+    "value":55
   },
-  "t_bk_aboveitalltr": {
-    "value": 250
+  "bk_nchunaksfireandfaith":{
+    "value":60
   },
-  "t_bk_adabalapc": {
-    "value": 180
+  "bk_vampiresofvvardenfell1":{
+    "value":50
   },
-  "t_bk_adabalashotn": {
-    "value": 240
+  "bk_reflectionsoncultworship...":{
+    "value":25
   },
-  "t_bk_adabalatr": {
-    "value": 90
+  "bk_galerionthemystic":{
+    "value":50
   },
-  "t_bk_advancesinlockpickingpc": {
-    "value": 200
+  "bk_madnessofpelagius":{
+    "value":20
   },
-  "t_bk_adventuresendtr": {
-    "value": 250
+  "bk_realbarenziah2":{
+    "value":20
   },
-  "t_bk_aevarstonesingershotn": {
-    "value": 100
+  "bk_realbarenziah3":{
+    "value":20
   },
-  "t_bk_affairsofwizardstr": {
-    "value": 50
+  "bk_realbarenziah4":{
+    "value":20
   },
-  "t_bk_ahzirrtrajijazaeripc": {
-    "value": 150
+  "bk_overviewofgodsandworship":{
+    "value":50
   },
-  "t_bk_ahzirrtrajijazaerishotn": {
-    "value": 150
+  "bk_fragmentonartaeum":{
+    "value":20
   },
-  "t_bk_alchemistsguidetoskoomatr": {
-    "value": 75
+  "bk_onoblivion":{
+    "value":40
   },
-  "t_bk_almalexiahistorytr": {
-    "value": 50
+  "bk_invocationofazura":{
+    "value":50
   },
-  "t_bk_almalexiaspeaksotr": {
-    "value": 100
+  "bk_mysticism":{
+    "value":25
   },
-  "t_bk_almalexiaspeakstr": {
-    "value": 100
+  "bk_originofthemagesguild":{
+    "value":25
   },
-  "t_bk_ami-elpc_v1": {
-    "value": 200
+  "bk_specialfloraoftamriel":{
+    "value":25
   },
-  "t_bk_ami-elpc_v2": {
-    "value": 200
+  "bk_oldways":{
+    "value":40
   },
-  "t_bk_ami-elpc_v3": {
-    "value": 200
+  "bk_wildelves":{
+    "value":35
   },
-  "t_bk_ami-elpc_v4": {
-    "value": 200
+  "bk_pigchildren":{
+    "value":100
   },
-  "t_bk_ami-elpc_v5": {
-    "value": 200
+  "bk_redbookofriddles":{
+    "value":50
   },
-  "t_bk_amuletofkingspc": {
-    "value": 35
+  "bk_yellowbookofriddles":{
+    "value":30
   },
-  "t_bk_amuletofkingsshotn": {
-    "value": 35
+  "bk_guylainesarchitecture":{
+    "value":60
   },
-  "t_bk_analysisasuraniwritingstr": {
-    "value": 150
+  "bk_progressoftruth":{
+    "value":150
   },
-  "t_bk_anindorilsgardentr": {
-    "value": 250
+  "bk_easternprovincesimpartial":{
+    "value":50
   },
-  "t_bk_appraisalofabolitiontr": {
-    "value": 50
+  "bk_vampiresofvvardenfell2":{
+    "value":400
   },
-  "t_bk_arcanarestoredshotn": {
-    "value": 75
+  "bk_gnisiseggmineledger":{
+    "value":0
   },
-  "t_bk_argonianaccountpc_v1": {
-    "value": 150
+  "bk_fortpelagiadprisonerlog":{
+    "value":0
   },
-  "t_bk_argonianaccountpc_v2": {
-    "value": 150
+  "bk_truenoblescode":{
+    "value":40
   },
-  "t_bk_argonianaccountpc_v3": {
-    "value": 150
+  "bk_ngastakvatakvakis_c":{
+    "value":200
   },
-  "t_bk_argonianaccountpc_v4": {
-    "value": 150
+  "bk_legionsofthedead":{
+    "value":0
   },
-  "t_bk_argonianaccountshotn_v1": {
-    "value": 120
+  "bk_darkestdarkness":{
+    "value":60
   },
-  "t_bk_argonianaccountshotn_v2": {
-    "value": 125
+  "bk_ngastakvatakvakis_o":{
+    "value":200
   },
-  "t_bk_argonianaccountshotn_v3": {
-    "value": 130
+  "bk_hanginggardenswasten":{
+    "value":55
   },
-  "t_bk_argonianaccountshotn_v4": {
-    "value": 135
+  "bk_corpsepreperation1_c":{
+    "value":50
   },
-  "t_bk_arkaythegodshotn": {
-    "value": 200
+  "bk_corpsepreperation1_o":{
+    "value":50
   },
-  "t_bk_arkaythegodtr": {
-    "value": 50
+  "bk_sharnslegionsofthedead":{
+    "value":50
   },
-  "t_bk_arkhonlimtr": {
-    "value": 70
+  "bk_samarstarloversjournal":{
+    "value":350
   },
-  "t_bk_arrowshotwomantr": {
-    "value": 20
+  "bk_spiritofthedaedra":{
+    "value":100
   },
-  "t_bk_artificialdiseasespc_v1": {
-    "value": 200
+  "bk_vagariesofmagica":{
+    "value":200
   },
-  "t_bk_artificialdiseasespc_v2": {
-    "value": 200
+  "bk_watersofoblivion":{
+    "value":250
   },
-  "t_bk_artofwarmagicshotn": {
-    "value": 225
+  "bk_legendaryscourge":{
+    "value":200
   },
-  "t_bk_ashandbloodtr_v1": {
-    "value": 75
+  "bk_postingofthehunt":{
+    "value":200
   },
-  "t_bk_ashandbloodtr_v2": {
-    "value": 75
+  "bk_talmarogkersresearches":{
+    "value":450
   },
-  "t_bk_ashandbloodtr_v3": {
-    "value": 75
+  "bk_graspingfortune":{
+    "value":30
   },
-  "t_bk_assassinationofpelagiustr": {
-    "value": 50
+  "bk_sottildescodebook":{
+    "value":0
   },
-  "t_bk_assassinsdiarytr": {
-    "value": 20
+  "bk_eastempirecompanyledger":{
+    "value":0
   },
-  "t_bk_asylumballshotn": {
-    "value": 300
+  "bk_consolationsofprayer":{
+    "value":25
   },
-  "t_bk_asylumballtr": {
-    "value": 60
+  "bk_bookdawnanddusk":{
+    "value":25
   },
-  "t_bk_atopatoweronmoridunontr": {
-    "value": 80
+  "bk_cantatasofvivec":{
+    "value":50
   },
-  "t_bk_ayleidcitiesvalenwoodopepc": {
-    "value": 80
+  "bk_anticipations":{
+    "value":50
   },
-  "t_bk_ayleidcitiesvalenwoodpc": {
-    "value": 80
+  "bk_ancestorsandthedunmer":{
+    "value":25
   },
-  "t_bk_ayleidinscriptionspc": {
-    "value": 350
+  "bk_aedraanddaedra":{
+    "value":50
   },
-  "t_bk_ayleidruinspc": {
-    "value": 125
+  "bk_annotatedanuad":{
+    "value":50
   },
-  "t_bk_bankersbettr": {
-    "value": 45
+  "bk_childrensanuad":{
+    "value":50
   },
-  "t_bk_barbariansarithmetictr": {
-    "value": 25
+  "bk_arcturianheresy":{
+    "value":25
   },
-  "t_bk_barbariansgeometrytr": {
-    "value": 25
+  "bk_changedones":{
+    "value":50
   },
-  "t_bk_bartendersguideshotn": {
-    "value": 10
+  "bk_childrenofthesky":{
+    "value":50
   },
-  "t_bk_battlesancretoropenpc": {
-    "value": 150
+  "bk_antecedantsdwemerlaw":{
+    "value":25
   },
-  "t_bk_battlesancretorpc": {
-    "value": 150
+  "bk_chroniclesnchuleft":{
+    "value":250
   },
-  "t_bk_battlesancretorshotn": {
-    "value": 225
+  "bk_biographybarenziah1":{
+    "value":50
   },
-  "t_bk_beforeagesofmanopenpc": {
-    "value": 125
+  "bk_biographybarenziah2":{
+    "value":50
   },
-  "t_bk_beforeagesofmanpc": {
-    "value": 125
+  "bk_biographybarenziah3":{
+    "value":50
   },
-  "t_bk_beforeagesofmanshotn": {
-    "value": 125
+  "bk_briefhistoryempire1":{
+    "value":50
   },
-  "t_bk_beforegatesvalsartr": {
-    "value": 60
+  "bk_briefhistoryempire2":{
+    "value":50
   },
-  "t_bk_beggarprinceshotn": {
-    "value": 50
+  "bk_briefhistoryempire3":{
+    "value":50
   },
-  "t_bk_belharzaretapc_v1": {
-    "value": 200
+  "bk_briefhistoryempire4":{
+    "value":50
   },
-  "t_bk_belharzaretapc_v2": {
-    "value": 200
+  "bk_brothersofdarkness":{
+    "value":100
   },
-  "t_bk_belharzaretapc_v3": {
-    "value": 200
+  "bk_blackglove":{
+    "value":60
   },
-  "t_bk_belharzaretapc_v4": {
-    "value": 200
+  "bk_bluebookofriddles":{
+    "value":250
   },
-  "t_bk_belharzaretapc_v5": {
-    "value": 200
+  "bk_boethiahpillowbook":{
+    "value":0
   },
-  "t_bk_biiterhearttr": {
-    "value": 30
+  "bk_bookofdaedra":{
+    "value":45
   },
-  "t_bk_birdgoblinsshotn": {
-    "value": 25
+  "bk_arcanarestored":{
+    "value":75
   },
-  "t_bk_blessedremantr": {
-    "value": 50
+  "bk_bookoflifeandservice":{
+    "value":40
   },
-  "t_bk_bluebooktr": {
-    "value": 60
+  "bk_bookofrestandendings":{
+    "value":40
   },
-  "t_bk_boethiasprovingpc": {
-    "value": 150
+  "bk_affairsofwizards":{
+    "value":50
   },
-  "t_bk_bonesofhlurmattatr": {
-    "value": 125
+  "bk_calderarecordbook1":{
+    "value":0
   },
-  "t_bk_bonewalkerritualsotr": {
-    "value": 200
+  "bk_calderarecordbook2":{
+    "value":0
   },
-  "t_bk_bonewalkerritualstr": {
-    "value": 200
+  "bk_abcs":{
+    "value":25
   },
-  "t_bk_bookofcirclespc": {
-    "value": 250
+  "bk_dren_shipping_log":{
+    "value":0
   },
-  "t_bk_bookofdaedrashotn": {
-    "value": 45
+  "bk_saryonisermonsmanuscript":{
+    "value":50000
   },
-  "t_bk_bravildaughterofnibenpc": {
-    "value": 120
+  "bk_honorthieves":{
+    "value":100
   },
-  "t_bk_breakinsetofarmortr": {
-    "value": 200
+  "bk_redbook426":{
+    "value":60
   },
-  "t_bk_breakouttr": {
-    "value": 200
+  "bk_yellowbook426":{
+    "value":20
   },
-  "t_bk_brokendiamondspc": {
-    "value": 170
+  "bk_brownbook426":{
+    "value":75
   },
-  "t_bk_brokendiamondstr": {
-    "value": 20
+  "bk_fishystick":{
+    "value":5
   },
-  "t_bk_brownbooktr": {
-    "value": 75
+  "bk_kagrenac'splans_excl":{
+    "value":400
   },
-  "t_bk_buyinggameshotn": {
-    "value": 200
+  "bk_ynglingledger":{
+    "value":0
   },
-  "t_bk_cabininthewoodsshotn": {
-    "value": 150
+  "bk_briefhistoryempire1_oh":{
+    "value":50
   },
-  "t_bk_caverndoortr": {
-    "value": 30
+  "bk_briefhistoryempire2_oh":{
+    "value":50
   },
-  "t_bk_cavesoficetr": {
-    "value": 250
+  "bk_briefhistoryempire3_oh":{
+    "value":50
   },
-  "t_bk_charityandleadershiptr": {
-    "value": 40
+  "bk_briefhistoryempire4_oh":{
+    "value":50
   },
-  "t_bk_cherimsheartanequinashotn": {
-    "value": 225
+  "bk_ashland_hymns":{
+    "value":35
   },
-  "t_bk_childrenoftheskyshotn": {
-    "value": 50
+  "bk_words_of_the_wind":{
+    "value":45
   },
-  "t_bk_codifiedlaw01pc": {
-    "value": 150
+  "bk_galur_rithari's_papers":{
+    "value":0
   },
-  "t_bk_codifiedlaw02pc": {
-    "value": 150
+  "bk_kagrenac'sjournal_excl":{
+    "value":400
   },
-  "t_bk_codifiedlaw03pc": {
-    "value": 150
+  "bk_notes-kagouti mating habits":{
+    "value":50
   },
-  "t_bk_collectedysmritisshotn": {
-    "value": 50
+  "bk_wordsclanmother":{
+    "value":40
   },
-  "t_bk_colovianmythartheimpc_v1": {
-    "value": 50
+  "bk_corpsepreperation2_c":{
+    "value":50
   },
-  "t_bk_colovianmythartheimpc_v2": {
-    "value": 50
+  "bk_corpsepreperation3_c":{
+    "value":50
   },
-  "t_bk_colovianmythartheimpc_v3": {
-    "value": 50
+  "bk_arkaytheenemy":{
+    "value":40
   },
-  "t_bk_commentarycovenantspc": {
-    "value": 250
+  "bk_poisonsong1":{
+    "value":30
   },
-  "t_bk_compendiumartifactstr": {
-    "value": 250
+  "bk_poisonsong2":{
+    "value":30
   },
-  "t_bk_comraderytr": {
-    "value": 40
+  "bk_poisonsong3":{
+    "value":30
   },
-  "t_bk_confessionsandresorttr": {
-    "value": 100
+  "bk_poisonsong4":{
+    "value":30
   },
-  "t_bk_confessionsofathiefshotn": {
-    "value": 200
+  "bk_poisonsong5":{
+    "value":30
   },
-  "t_bk_confessionsofathieftr": {
-    "value": 30
+  "bk_poisonsong6":{
+    "value":30
   },
-  "t_bk_constantinvocationopenpc": {
-    "value": 260
+  "bk_poisonsong7":{
+    "value":30
   },
-  "t_bk_constantinvocationpc": {
-    "value": 260
+  "bk_confessions":{
+    "value":25
   },
-  "t_bk_coronationofeplear": {
-    "value": 250
+  "bk_redorancookingsecrets":{
+    "value":20
   },
-  "t_bk_coronationofeplearopen": {
-    "value": 250
+  "bk_briefhistoryofwood":{
+    "value":10
   },
-  "t_bk_corprusdivinetr": {
-    "value": 200
+  "bk_realbarenziah1":{
+    "value":20
   },
-  "t_bk_corpsepreparationshotn_v1": {
-    "value": 50
+  "bk_realbarenziah5":{
+    "value":20
   },
-  "t_bk_corpsepreparationshotn_v2": {
-    "value": 50
+  "bk_bartendersguide":{
+    "value":10
   },
-  "t_bk_corpsepreparationshotn_v3": {
-    "value": 50
+  "bk_warehouse_log":{
+    "value":0
   },
-  "t_bk_cowardiceoftheenemytr": {
-    "value": 200
+  "bk_eggoftime":{
+    "value":1000
   },
-  "t_bk_crimesoftritr": {
-    "value": 150
+  "bk_divinemetaphysics":{
+    "value":1000
   },
-  "t_bk_crooktailedkhajiittr": {
-    "value": 100
+  "bk_chartermg":{
+    "value":30
   },
-  "t_bk_culturalerasnordsshotn": {
-    "value": 70
+  "bk_charterfg":{
+    "value":30
   },
-  "t_bk_daedraworshipayleidspc": {
-    "value": 100
+  "bk_ibardad_elante_notes":{
+    "value":10
   },
-  "t_bk_dalgorjournaltr": {
-    "value": 250
+  "bookskill_destruction5_open":{
+    "value":250
   },
-  "t_bk_dangersofreachmagickshotn": {
-    "value": 50
+  "bookskill_axe5_open":{
+    "value":200
   },
-  "t_bk_danstrarserpentshotn": {
-    "value": 65
+  "bk_boethiah's glory_unique":{
+    "value":25
   },
-  "t_bk_defenseofmorrowindtr": {
-    "value": 70
+  "bk_aedra_tarer_unique":{
+    "value":50
   },
-  "t_bk_dererumdirennisshotn": {
-    "value": 175
+  "cumanya's notes":{
+    "value":25
   },
-  "t_bk_desphaeranirniopenpc": {
-    "value": 200
+  "bk_briefhistoryofwood_01":{
+    "value":10
   },
-  "t_bk_desphaeranirnipc": {
-    "value": 200
+  "bk_hlaalu_vaults_ledger":{
+    "value":0
   },
-  "t_bk_destructionodistractionpc": {
-    "value": 140
+  "bk_redoran_vaults_ledger":{
+    "value":0
   },
-  "t_bk_detachmentofthesheathpc": {
-    "value": 140
+  "bk_telvanni_vault_ledger":{
+    "value":0
   },
-  "t_bk_direnniempty01shotn": {
-    "value": 400
+  "bk_yagrum's_book":{
+    "value":250
   },
-  "t_bk_direnniempty02shotn": {
-    "value": 400
+  "bk_lustyargonianmaid":{
+    "value":20
   },
-  "t_bk_direnniempty03shotn": {
-    "value": 400
+  "bk_alchemistsformulary":{
+    "value":300
   },
-  "t_bk_disasterationithopenpc": {
-    "value": 120
+  "bk_secretsdwemeranimunculi":{
+    "value":450
   },
-  "t_bk_disasterationithpc": {
-    "value": 120
+  "bk_fellowshiptemple":{
+    "value":25
   },
-  "t_bk_distributedsoulpc": {
-    "value": 120
+  "bk_formygodsandemperor":{
+    "value":25
   },
-  "t_bk_divadamakalluhtr": {
-    "value": 100
+  "bk_ordolegionis":{
+    "value":30
   },
-  "t_bk_divadthesingershotn": {
-    "value": 250
+  "bk_bartendersguide_01":{
+    "value":10
   },
-  "t_bk_divadthesingertr": {
-    "value": 35
+  "bookskill_mystery5":{
+    "value":250
   },
-  "t_bk_djulighanasroletr": {
-    "value": 55
+  "bk_warofthefirstcouncil":{
+    "value":25
   },
-  "t_bk_dragonbreakreexaminedshotn": {
-    "value": 250
+  "bk_onmorrowind":{
+    "value":40
   },
-  "t_bk_dreadfulthefttr": {
-    "value": 150
+  "bk_realnerevar":{
+    "value":50
   },
-  "t_bk_drescremationpracticestr": {
-    "value": 100
+  "bk_nerevarmoonandstar":{
+    "value":200
   },
-  "t_bk_dresslavetradetr": {
-    "value": 80
+  "bk_shorthistorymorrowind":{
+    "value":5
   },
-  "t_bk_drymetaphortr": {
-    "value": 175
+  "bk_falljournal_unique":{
+    "value":50
   },
-  "t_bk_dubioustaletr": {
-    "value": 20
+  "sky_merc_dsw_mark_zanarhi":{
+    "value":1
   },
-  "t_bk_dunceinmorrowindtr_v1": {
-    "value": 75
+  "sky_merc_kw_mark_rismund":{
+    "value":1
   },
-  "t_bk_dunceinmorrowindtr_v2": {
-    "value": 75
+  "sky_ire_dh_crumblingtome":{
+    "value":45
   },
-  "t_bk_dunceinmorrowindtr_v3": {
-    "value": 75
+  "sky_ire_dsfg_mark_enter":{
+    "value":1
   },
-  "t_bk_dunceinmorrowindtr_v4": {
-    "value": 75
+  "sky_ire_dsfg_mark_exit":{
+    "value":1
   },
-  "t_bk_dunceinmorrowindtr_v5": {
-    "value": 75
+  "sky_ire_dsw_barrackslogbook":{
+    "value":50
   },
-  "t_bk_dunceinmorrowindtr_v6": {
-    "value": 75
+  "sky_ire_dsw_warehouseledger":{
+    "value":10
   },
-  "t_bk_dunceinmorrowindtr_v7": {
-    "value": 75
+  "sky_ire_ds_contrabandledger":{
+    "value":0
   },
-  "t_bk_dunceinmorrowindtr_v8": {
-    "value": 75
+  "sky_ire_kw_armoryledger":{
+    "value":0
   },
-  "t_bk_dunmerilawprimertr": {
-    "value": 50
+  "sky_ire_kw_barracksledger":{
+    "value":55
   },
-  "t_bk_dunmersguidetoreachshotn": {
-    "value": 75
+  "sky_ire_kw_granaryledger":{
+    "value":30
   },
-  "t_bk_dwarvenfirmamenttr": {
-    "value": 70
+  "sky_ire_kw_karthwastentaxledger":{
+    "value":20
   },
-  "t_bk_dwemerburialcustomstr": {
-    "value": 40
+  "sky_ire_kw_payledger":{
+    "value":30
   },
-  "t_bk_easternprovincesshotn": {
-    "value": 50
+  "sky_ire_kw_storageledger":{
+    "value":20
   },
-  "t_bk_easternquarantinetr": {
-    "value": 100
+  "sky_ire_th_confiscationledger":{
+    "value":2
   },
-  "t_bk_effectselderscrollspc": {
-    "value": 150
+  "sky_qre_ck1_mark_teleport":{
+    "value":1
   },
-  "t_bk_elementaldaedratr": {
-    "value": 250
+  "sky_qre_dsb2_mark":{
+    "value":1
   },
-  "t_bk_emeraldstr": {
-    "value": 80
+  "sky_qre_dsb3_mark":{
+    "value":1
   },
-  "t_bk_epicofthegreyfalcontr": {
-    "value": 40
+  "sky_qre_dsb4_mark_iztara":{
+    "value":1
   },
-  "t_bk_eslaferolbaggershotn": {
-    "value": 240
+  "sky_qre_dse3_mark_enter":{
+    "value":1
   },
-  "t_bk_eslaferolkingshotn": {
-    "value": 240
+  "sky_qre_dse3_mark_exit":{
+    "value":1
   },
-  "t_bk_eslaferolthiefshotn": {
-    "value": 240
+  "sky_qre_dse3_mark_kyra":{
+    "value":1
   },
-  "t_bk_eslaferolwarriorshotn": {
-    "value": 240
+  "sky_qre_dse3_mark_razhab":{
+    "value":1
   },
-  "t_bk_essenceofbeingathieftr": {
-    "value": 50
+  "sky_qre_dse4_mark_edric":{
+    "value":1
   },
-  "t_bk_etiquettewithrulerstr": {
-    "value": 40
+  "sky_qre_dse4_mark_orgak":{
+    "value":1
   },
-  "t_bk_exclusionarymandatespc": {
-    "value": 80
+  "sky_qre_dse4_mark_skeigr":{
+    "value":1
   },
-  "t_bk_exegesisofmeridnundapc": {
-    "value": 120
+  "sky_qre_dse_mark_argate1_01":{
+    "value":1
   },
-  "t_bk_exodusshotn": {
-    "value": 15
+  "sky_qre_dse_mark_argate1_02":{
+    "value":1
   },
-  "t_bk_exovelanmjtr": {
-    "value": 5000
+  "sky_qre_dse_mark_argate2_01":{
+    "value":1
   },
-  "t_bk_exovelbbmjtr": {
-    "value": 5000
+  "sky_qre_dse_mark_argate2_02":{
+    "value":1
   },
-  "t_bk_expandingmagickarevisedtr": {
-    "value": 350
+  "sky_qre_dsmg3_mark_duncan_01":{
+    "value":1
   },
-  "t_bk_fablevalenwoodtr": {
-    "value": 200
+  "sky_qre_dsmg3_mark_duncan_02":{
+    "value":1
   },
-  "t_bk_failureoftheempiretr": {
-    "value": 80
+  "sky_qre_dsmg4_book":{
+    "value":225
   },
-  "t_bk_falloftheursupertr": {
-    "value": 50
+  "sky_qre_dstg7_mark_cael_01":{
+    "value":1
   },
-  "t_bk_fascicle00pc": {
-    "value": 300
+  "sky_qre_dstg7_mark_cael_02":{
+    "value":1
   },
-  "t_bk_fascicle01pc": {
-    "value": 300
+  "sky_qre_dsw4_mark":{
+    "value":1
   },
-  "t_bk_fascicle02pc": {
-    "value": 300
+  "sky_qre_dsw6_mark1":{
+    "value":1
   },
-  "t_bk_fascicle03pc": {
-    "value": 300
+  "sky_qre_dsw6_mark2":{
+    "value":1
   },
-  "t_bk_fascicle04pc": {
-    "value": 300
+  "sky_qre_dsw6_mark3":{
+    "value":1
   },
-  "t_bk_fascicle05pc": {
-    "value": 300
+  "sky_qre_dsw6_mark4":{
+    "value":1
   },
-  "t_bk_fascicle06pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_01":{
+    "value":1
   },
-  "t_bk_fascicle07pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_02":{
+    "value":1
   },
-  "t_bk_fascicle08pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_03":{
+    "value":1
   },
-  "t_bk_fascicle09pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_04":{
+    "value":1
   },
-  "t_bk_fascicle10pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_05":{
+    "value":1
   },
-  "t_bk_fascicle11pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_06":{
+    "value":1
   },
-  "t_bk_fascicle12pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_07":{
+    "value":1
   },
-  "t_bk_fascicle13pc": {
-    "value": 300
+  "sky_qre_kg2_mark_dest_08":{
+    "value":1
   },
-  "t_bk_fateofthesnowelvestr": {
-    "value": 80
+  "sky_qre_kg2_mark_dest_09":{
+    "value":1
   },
-  "t_bk_fatherofthenibenopenpc": {
-    "value": 100
+  "sky_qre_kg3_mark_cave":{
+    "value":0
   },
-  "t_bk_fatherofthenibenpc": {
-    "value": 100
+  "sky_qre_kg5_mark_sviirambush":{
+    "value":1
   },
-  "t_bk_fatherofthenibenshotn": {
-    "value": 100
+  "sky_qre_kg5_mark_stone&tree":{
+    "value":0
   },
-  "t_bk_fetchersguidetoancestraltr": {
-    "value": 25
+  "sky_qre_kg5_mark_stonearch":{
+    "value":0
   },
-  "t_bk_fireanddarknessopenpc": {
-    "value": 150
+  "sky_qre_kw1_register01":{
+    "value":1000
   },
-  "t_bk_fireanddarknesspc": {
-    "value": 150
+  "sky_qre_kw1_register02":{
+    "value":1000
   },
-  "t_bk_firmamentshotn": {
-    "value": 40
+  "sky_qre_kw1_register03":{
+    "value":1000
   },
-  "t_bk_firstcouncilcensus2e622tr": {
-    "value": 260
+  "sky_qre_kw1_register04":{
+    "value":1000
   },
-  "t_bk_firstholdrevoltshotn": {
-    "value": 200
+  "sky_qre_kw2_mark_carincia":{
+    "value":1
   },
-  "t_bk_floraskyrimshotn_v1": {
-    "value": 150
+  "sky_qre_kw5_mark_dest_01":{
+    "value":1
   },
-  "t_bk_follyofsteeltr": {
-    "value": 175
+  "sky_qre_kw5_mark_dest_02":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v1": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_03":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v2": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_04":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v3": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_05":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v4": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_06":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v5": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_07":{
+    "value":1
   },
-  "t_bk_foolsebonytr_v6": {
-    "value": 50
+  "sky_qre_kw5_mark_dest_08":{
+    "value":1
   },
-  "t_bk_formalitiesofmirthtr": {
-    "value": 85
+  "sky_qre_kw5_notes":{
+    "value":5
   },
-  "t_bk_fourthbookofdusttr": {
-    "value": 40
+  "sky_qre_kw9_mark_begin":{
+    "value":1
   },
-  "t_bk_fragmentsaltmerpockettr": {
-    "value": 50
+  "sky_qre_kw9_mark_choice1":{
+    "value":1
   },
-  "t_bk_friendofgiantsshotn": {
-    "value": 80
+  "sky_qre_kw9_mark_choice2":{
+    "value":1
   },
-  "t_bk_funeraryritesmothpc": {
-    "value": 50
+  "sky_qre_kw9_mark_choice3":{
+    "value":1
   },
-  "t_bk_funeraryritestombspc": {
-    "value": 50
+  "sky_qre_kw9_mark_finish":{
+    "value":1
   },
-  "t_bk_funeraryriteswaterpc": {
-    "value": 50
+  "sky_qre_kw9_playermark":{
+    "value":1
   },
-  "t_bk_galerionthemysticshotn": {
-    "value": 50
+  "sky_qre_kwb02_mark":{
+    "value":1
   },
-  "t_bk_ghraewajharpiestr": {
-    "value": 35
+  "sky_qre_kwb05_mark":{
+    "value":1
   },
-  "t_bk_glassinmorrowindtr": {
-    "value": 75
+  "sky_qre_kwmg4_mark_havild":{
+    "value":1
   },
-  "t_bk_gospelofsaintaralortr": {
-    "value": 50
+  "sky_qre_kwmg4_mark_ravos":{
+    "value":1
   },
-  "t_bk_gospelofsaintdelyntr": {
-    "value": 50
+  "sky_qre_kwmg5_mark_jitavarad":{
+    "value":1
   },
-  "t_bk_gospelofsaintfelmstr": {
-    "value": 50
+  "sky_qre_kwmg6_notes":{
+    "value":250
   },
-  "t_bk_gospelofsaintllothistr": {
-    "value": 50
+  "sky_qre_kwtg1_book":{
+    "value":175
   },
-  "t_bk_gospelofsaintmeristr": {
-    "value": 50
+  "sky_qre_kwtg3_mark":{
+    "value":1
   },
-  "t_bk_gospelofsaintnerevartr": {
-    "value": 50
+  "sky_qre_lh1_mark_riloch":{
+    "value":1
   },
-  "t_bk_gospelofsaintolmstr": {
-    "value": 50
+  "sky_qre_lh1_mark_saram":{
+    "value":1
   },
-  "t_bk_gospelofsaintrilmstr": {
-    "value": 50
+  "sky_qre_mg_ns_mark_player":{
+    "value":1
   },
-  "t_bk_gospelofsaintroristr": {
-    "value": 50
+  "sky_qre_vf2_mark_dest_01":{
+    "value":1
   },
-  "t_bk_gospelofsaintseryntr": {
-    "value": 50
+  "sky_qre_vf2_mark_dest_02":{
+    "value":1
   },
-  "t_bk_gospelofsaintvelothotr_v1": {
-    "value": 50
+  "sky_qre_vf2_mark_dest_03":{
+    "value":1
   },
-  "t_bk_gospelofsaintvelothotr_v2": {
-    "value": 50
+  "sky_qre_vf2_mark_dest_04":{
+    "value":1
   },
-  "t_bk_gospelofsaintvelothtr_v1": {
-    "value": 50
+  "sky_qre_vf2_mark_dest_05":{
+    "value":1
   },
-  "t_bk_gospelofsaintvelothtr_v2": {
-    "value": 50
+  "sky_qre_vf2_mark_lorja":{
+    "value":1
   },
-  "t_bk_greatharbingersshotn": {
-    "value": 150
+  "t_aid_landmark":{
+    "value":0
   },
-  "t_bk_greathousesshotn": {
-    "value": 30
+  "t_aid_npc":{
+    "value":1
   },
-  "t_bk_guarherdersarttr": {
-    "value": 40
+  "t_aid_notebleeder":{
+    "value":0
   },
-  "t_bk_guidetotheguildguidespc": {
-    "value": 60
+  "t_aid_notefloater":{
+    "value":0
   },
-  "t_bk_guylainesarchitectshotn": {
-    "value": 60
+  "t_aid_noteterrainerror":{
+    "value":0
   },
-  "t_bk_handbookofthedevouttr": {
-    "value": 70
+  "t_aid_notetoself":{
+    "value":0
   },
-  "t_bk_handinhandtr": {
-    "value": 200
+  "t_aid_notevertexshading":{
+    "value":0
   },
-  "t_bk_handsofftr": {
-    "value": 250
+  "t_bkgen_eecaccount_01":{
+    "value":5
   },
-  "t_bk_healerstaletr": {
-    "value": 20
+  "t_bkgen_eecaccount_02":{
+    "value":5
   },
-  "t_bk_heavyarmorrepairshotn": {
-    "value": 50
+  "t_bkgen_eecarticlesofinc":{
+    "value":5
   },
-  "t_bk_herhandstr": {
-    "value": 25
+  "t_bkgen_eecbylaws_01":{
+    "value":5
   },
-  "t_bk_herooftheindoriltr": {
-    "value": 35
+  "t_bkgen_eecexport_01":{
+    "value":5
   },
-  "t_bk_hidingwiththeshadowshotn": {
-    "value": 35
+  "t_bkgen_eecimport_01":{
+    "value":5
   },
-  "t_bk_highkingsveddashotn_v1": {
-    "value": 300
+  "t_bkgen_eecoffice_01":{
+    "value":5
   },
-  "t_bk_highkingsveddashotn_v2": {
-    "value": 300
+  "t_bkgen_eecship_01":{
+    "value":5
   },
-  "t_bk_highkingsveddashotn_v3": {
-    "value": 300
+  "t_bkgen_eecship_02":{
+    "value":5
   },
-  "t_bk_highkingsveddashotn_v4": {
-    "value": 300
+  "t_bkfaction_darkbrotherhshotn":{
+    "value":10
   },
-  "t_bk_highkingsveddashotn_v5": {
-    "value": 300
+  "t_bkfaction_eectr":{
+    "value":30
   },
-  "t_bk_highkingsveddashotn_v6": {
-    "value": 300
+  "t_bkfaction_fightersguildhr":{
+    "value":30
   },
-  "t_bk_highkingsveddashotn_v7": {
-    "value": 300
+  "t_bkfaction_fightersguildpc":{
+    "value":30
   },
-  "t_bk_hillofkvatchpc": {
-    "value": 50
+  "t_bkfaction_fightersguildshotn":{
+    "value":30
   },
-  "t_bk_historyalessianorderpc": {
-    "value": 40
+  "t_bkfaction_impculttr":{
+    "value":50
   },
-  "t_bk_historydragoncopenshotn_v2": {
-    "value": 150
+  "t_bkfaction_imperialcultshotn":{
+    "value":30
   },
-  "t_bk_historydragoncultshotn_v1": {
-    "value": 150
+  "t_bkfaction_imperiallegionpc":{
+    "value":30
   },
-  "t_bk_historydragoncultshotn_v2": {
-    "value": 150
+  "t_bkfaction_imperiallegionshotn":{
+    "value":30
   },
-  "t_bk_historydragoncultshotn_v3": {
-    "value": 150
+  "t_bkfaction_magesguildhr":{
+    "value":30
   },
-  "t_bk_historydragoncultshotn_v4": {
-    "value": 150
+  "t_bkfaction_magesguildpc":{
+    "value":30
   },
-  "t_bk_historyempireshotn_v1": {
-    "value": 50
+  "t_bkfaction_magesguildshotn":{
+    "value":30
   },
-  "t_bk_historyempireshotn_v2": {
-    "value": 50
+  "t_bkgen_blankledger01":{
+    "value":1
   },
-  "t_bk_historyempireshotn_v3": {
-    "value": 50
+  "t_bkgen_briricca accounts01":{
+    "value":80
   },
-  "t_bk_historyempireshotn_v4": {
-    "value": 50
+  "t_bkgen_burialrecords_01":{
+    "value":2
   },
-  "t_bk_historyfightersguildshotn": {
-    "value": 70
+  "t_bkgen_burialrecords_02":{
+    "value":2
   },
-  "t_bk_historykarthwasten1shotn": {
-    "value": 55
+  "t_bkgen_businessledgeropen_03":{
+    "value":2
   },
-  "t_bk_historykarthwasten2shotn": {
-    "value": 55
+  "t_bkgen_businessledger_01":{
+    "value":2
   },
-  "t_bk_historymothcultpc": {
-    "value": 40
+  "t_bkgen_businessledger_02":{
+    "value":2
   },
-  "t_bk_historyofdaggerfalltr": {
-    "value": 50
+  "t_bkgen_businessledger_03":{
+    "value":2
   },
-  "t_bk_historyofebonhearttr": {
-    "value": 45
+  "t_bkgen_censusrecord_01":{
+    "value":4
   },
-  "t_bk_historyoffirewatchtr": {
-    "value": 60
+  "t_bkgen_courtverdicts_01":{
+    "value":2
   },
-  "t_bk_historyoflockpickingpc": {
-    "value": 200
+  "t_bkgen_courtverdicts_02":{
+    "value":2
   },
-  "t_bk_historyoroynyonfamilytr": {
-    "value": 20
+  "t_bkgen_courtverdicts_03":{
+    "value":4
   },
-  "t_bk_historysaturailashotn": {
-    "value": 50
+  "t_bkgen_inspection_log":{
+    "value":2
   },
-  "t_bk_historysecondempirepc": {
-    "value": 40
+  "t_bkgen_legioncasualties_01":{
+    "value":10
   },
-  "t_bk_histr": {
-    "value": 75
+  "t_bkgen_legionservicerecord_01":{
+    "value":5
   },
-  "t_bk_hlaaluplanstr": {
-    "value": 100
+  "t_bkgen_messageregistry_01":{
+    "value":2
   },
-  "t_bk_holidaysilliacbaytr": {
-    "value": 40
+  "t_bkgen_messageregistry_02":{
+    "value":2
   },
-  "t_bk_holybrothersofmarukhpc": {
-    "value": 180
+  "t_bkgen_navycasualties_01":{
+    "value":10
   },
-  "t_bk_homilypilgrimtr": {
-    "value": 75
+  "t_bkgen_navyrecord_01":{
+    "value":5
   },
-  "t_bk_hoomhabitathabitstr": {
-    "value": 50
+  "t_bkgen_navyrecord_02":{
+    "value":0
   },
-  "t_bk_horkerattacksshotn": {
-    "value": 50
+  "t_bkgen_navyservicerecord_01":{
+    "value":5
   },
-  "t_bk_horskvakongerike_i": {
-    "value": 300
+  "t_bkgen_notebook_01":{
+    "value":2
   },
-  "t_bk_horskvakongerike_ii": {
-    "value": 300
+  "t_bkgen_notebook_02":{
+    "value":2
   },
-  "t_bk_horskvakongerikeshotn_i": {
-    "value": 300
+  "t_bkgen_prisonledger_01":{
+    "value":2
   },
-  "t_bk_horskvakongerikeshotn_ii": {
-    "value": 300
+  "t_bkgen_propertyledgercuria":{
+    "value":2
   },
-  "t_bk_houndsofhircinetr": {
-    "value": 50
+  "t_bkgen_shippinglog_01":{
+    "value":0
   },
-  "t_bk_howorsiniumpassedtoshotn": {
-    "value": 200
+  "t_bkgen_shippinglog_02":{
+    "value":0
   },
-  "t_bk_howtotersthereticstr": {
-    "value": 200
+  "t_bkgen_taxreportcuria":{
+    "value":2
   },
-  "t_bk_howtotuneyourhoomtr": {
-    "value": 50
+  "t_bkgen_tax_records":{
+    "value":2
   },
-  "t_bk_hsaarikelegyshotn_v1": {
-    "value": 150
+  "t_bkgen_tradeinventory_02":{
+    "value":2
   },
-  "t_bk_hsaarikelegyshotn_v2": {
-    "value": 150
+  "t_bkgen_trademanifest":{
+    "value":2
   },
-  "t_bk_hsaarikelegyshotn_v3": {
-    "value": 150
+  "t_bkgen_trademanifest_01":{
+    "value":2
   },
-  "t_bk_hypotheticaltreacheryshotn": {
-    "value": 175
+  "t_bkgen_trademanifest_02":{
+    "value":2
   },
-  "t_bk_illusionofdeathpc": {
-    "value": 220
+  "t_bkgen_trademanifest_03":{
+    "value":2
   },
-  "t_bk_illustratedguidetofiretr": {
-    "value": 100
+  "t_bkgen_trademanifest_04":{
+    "value":2
   },
-  "t_bk_immortalbloodshotn": {
-    "value": 175
+  "t_bkgen_trademanifest_05":{
+    "value":2
   },
-  "t_bk_imperialheraldrymwtr": {
-    "value": 75
+  "t_bkgen_visitorlist_01":{
+    "value":2
   },
-  "t_bk_imperialkitchentr_v1": {
-    "value": 30
+  "t_bkgen_visitorlist_02":{
+    "value":2
   },
-  "t_bk_imperialkitchentr_v2": {
-    "value": 30
+  "t_bkuni_oghmainfinium":{
+    "value":50000
   },
-  "t_bk_imperialnavytr": {
-    "value": 30
+  "t_bk_1000spiritsoldcyrodopenpc":{
+    "value":50
   },
-  "t_bk_imperialproverbsopenpc": {
-    "value": 35
+  "t_bk_1000spiritsoldcyrodpc":{
+    "value":50
   },
-  "t_bk_imperialproverbspc": {
-    "value": 35
+  "t_bk_16accordsmadnessshotn_v06":{
+    "value":200
   },
-  "t_bk_indorilberothandhermittr": {
-    "value": 20
+  "t_bk_16accordsmadnessshotn_v12":{
+    "value":200
   },
-  "t_bk_indorilbookofpassingctr": {
-    "value": 50
+  "t_bk_ahypotheticaltreacheryhr":{
+    "value":175
   },
-  "t_bk_indorilbookofpassingotr": {
-    "value": 50
+  "t_bk_alessrudesonghr":{
+    "value":40
   },
-  "t_bk_industriesrivermenpc": {
-    "value": 40
+  "t_bk_arudesonghr":{
+    "value":30
   },
-  "t_bk_industriessloadsoappc": {
-    "value": 40
+  "t_bk_aboveitalltr":{
+    "value":250
   },
-  "t_bk_insidealmastongstr": {
-    "value": 60
+  "t_bk_adabalapc":{
+    "value":180
   },
-  "t_bk_insidetranquilitytr": {
-    "value": 40
+  "t_bk_adabalashotn":{
+    "value":240
   },
-  "t_bk_interrogatingdunmertr": {
-    "value": 250
+  "t_bk_adabalatr":{
+    "value":90
   },
-  "t_bk_jokestr": {
-    "value": 40
+  "t_bk_advancesinlockpickingpc":{
+    "value":200
   },
-  "t_bk_julianitenumberspells": {
-    "value": 200
+  "t_bk_adventuresendtr":{
+    "value":250
   },
-  "t_bk_justpunishmenttr": {
-    "value": 300
+  "t_bk_aetherialephemerispc":{
+    "value":100
   },
-  "t_bk_kendhallbookofriddlespc": {
-    "value": 50
+  "t_bk_aevarstonesingershotn":{
+    "value":100
   },
-  "t_bk_kingedwardtr_v01": {
-    "value": 250
+  "t_bk_affairsofwizardstr":{
+    "value":50
   },
-  "t_bk_kingedwardtr_v02": {
-    "value": 250
+  "t_bk_ahzirrtrajijazaeripc":{
+    "value":150
   },
-  "t_bk_kingedwardtr_v03": {
-    "value": 250
+  "t_bk_ahzirrtrajijazaerishotn":{
+    "value":150
   },
-  "t_bk_kingedwardtr_v04": {
-    "value": 250
+  "t_bk_alchemistsguidetoskoomatr":{
+    "value":75
   },
-  "t_bk_kingedwardtr_v05": {
-    "value": 250
+  "t_bk_almalexiahistorytr":{
+    "value":50
   },
-  "t_bk_kingedwardtr_v06": {
-    "value": 250
+  "t_bk_almalexiaspeaksotr":{
+    "value":100
   },
-  "t_bk_kingedwardtr_v07": {
-    "value": 250
+  "t_bk_almalexiaspeakstr":{
+    "value":100
   },
-  "t_bk_kingedwardtr_v08": {
-    "value": 250
+  "t_bk_ami-elpc_v1":{
+    "value":200
   },
-  "t_bk_kingedwardtr_v09": {
-    "value": 250
+  "t_bk_ami-elpc_v2":{
+    "value":200
   },
-  "t_bk_kingedwardtr_v10": {
-    "value": 250
+  "t_bk_ami-elpc_v3":{
+    "value":200
   },
-  "t_bk_kingedwardtr_v11": {
-    "value": 250
+  "t_bk_ami-elpc_v4":{
+    "value":200
   },
-  "t_bk_kingedwardtr_v12": {
-    "value": 250
+  "t_bk_ami-elpc_v5":{
+    "value":200
   },
-  "t_bk_kinghelsethbiographytr": {
-    "value": 35
+  "t_bk_amuletofkingspc":{
+    "value":35
   },
-  "t_bk_knightsoftheninepc": {
-    "value": 140
+  "t_bk_amuletofkingsshotn":{
+    "value":35
   },
-  "t_bk_laidlowtr": {
-    "value": 200
+  "t_bk_anindorilsgardentr":{
+    "value":250
   },
-  "t_bk_lamentationstr": {
-    "value": 20
+  "t_bk_analysisasuraniwritingstr":{
+    "value":150
   },
-  "t_bk_lamentforpelinaltr": {
-    "value": 35
+  "t_bk_apologystendarrsum":{
+    "value":175
   },
-  "t_bk_languageofbirdspc": {
-    "value": 150
+  "t_bk_appraisalofabolitiontr":{
+    "value":50
   },
-  "t_bk_lastdartofthescholartr": {
-    "value": 60
+  "t_bk_arcanarestoredshotn":{
+    "value":75
   },
-  "t_bk_lastkingoftheayleidspc": {
-    "value": 75
+  "t_bk_archeiwhisperedmortalityhr":{
+    "value":80
   },
-  "t_bk_lastkingoftheayleidsshotn": {
-    "value": 75
+  "t_bk_arcturianheresyhr":{
+    "value":25
   },
-  "t_bk_laststorysirofshotn": {
-    "value": 40
+  "t_bk_arcturianismforbeginnerspc":{
+    "value":50
   },
-  "t_bk_lawandthewillpc": {
-    "value": 220
+  "t_bk_argonianaccountpc_v1":{
+    "value":150
   },
-  "t_bk_legalbasicsanchiviusshotn": {
-    "value": 200
+  "t_bk_argonianaccountpc_v2":{
+    "value":150
   },
-  "t_bk_legalbasicsanchiviustr": {
-    "value": 75
+  "t_bk_argonianaccountpc_v3":{
+    "value":150
   },
-  "t_bk_legendarycitysancretorpc": {
-    "value": 100
+  "t_bk_argonianaccountpc_v4":{
+    "value":150
   },
-  "t_bk_legendarycitysancretrshotn": {
-    "value": 100
+  "t_bk_argonianaccountshotn_v1":{
+    "value":120
   },
-  "t_bk_legendaryscourgeshotn": {
-    "value": 200
+  "t_bk_argonianaccountshotn_v2":{
+    "value":125
   },
-  "t_bk_legendkratelyhousepc": {
-    "value": 135
+  "t_bk_argonianaccountshotn_v3":{
+    "value":130
   },
-  "t_bk_legendofredeagleshotn": {
-    "value": 150
+  "t_bk_argonianaccountshotn_v4":{
+    "value":135
   },
-  "t_bk_legendsathalwyrmshotn_v1": {
-    "value": 200
+  "t_bk_arkaythegodhr":{
+    "value":50
   },
-  "t_bk_legendsathalwyrmshotn_v2": {
-    "value": 200
+  "t_bk_arkaythegodopenhr":{
+    "value":50
   },
-  "t_bk_lessercatechismjulopenpc": {
-    "value": 60
+  "t_bk_arkaythegodshotn":{
+    "value":200
   },
-  "t_bk_lessercatechismjulpc": {
-    "value": 60
+  "t_bk_arkaythegodtr":{
+    "value":50
   },
-  "t_bk_leximperia_01": {
-    "value": 20
+  "t_bk_arkhonlimtr":{
+    "value":70
   },
-  "t_bk_leximperia_02": {
-    "value": 20
+  "t_bk_armiesoftheusurperpc":{
+    "value":300
   },
-  "t_bk_leximperia_03": {
-    "value": 20
+  "t_bk_arrowshotwomanhr":{
+    "value":20
   },
-  "t_bk_leximperia_04": {
-    "value": 20
+  "t_bk_arrowshotwomantr":{
+    "value":20
   },
-  "t_bk_leximperia_05": {
-    "value": 20
+  "t_bk_artofwarmagicshotn":{
+    "value":225
   },
-  "t_bk_leximperia_06": {
-    "value": 20
+  "t_bk_artificialdiseasespc_v1":{
+    "value":200
   },
-  "t_bk_leximperia_07": {
-    "value": 20
+  "t_bk_artificialdiseasespc_v2":{
+    "value":200
   },
-  "t_bk_lichdomtrapescapeopentr": {
-    "value": 300
+  "t_bk_ashandbloodtr_v1":{
+    "value":75
   },
-  "t_bk_lichdomtrapescapetr": {
-    "value": 300
+  "t_bk_ashandbloodtr_v2":{
+    "value":75
   },
-  "t_bk_lifeandtheanimatehr": {
-    "value": 150
+  "t_bk_ashandbloodtr_v3":{
+    "value":75
   },
-  "t_bk_lifecycledreughpc": {
-    "value": 50
+  "t_bk_assassinationofpelagiustr":{
+    "value":50
   },
-  "t_bk_lightarmorrepairpc": {
-    "value": 100
+  "t_bk_assassinsdiarytr":{
+    "value":20
   },
-  "t_bk_likeinthedealtr": {
-    "value": 200
+  "t_bk_asylumballhr":{
+    "value":60
   },
-  "t_bk_lilyofdibellashotn": {
-    "value": 200
+  "t_bk_asylumballshotn":{
+    "value":300
   },
-  "t_bk_liminalbridgespc": {
-    "value": 225
+  "t_bk_asylumballtr":{
+    "value":60
   },
-  "t_bk_lineofemperorspc_v01": {
-    "value": 80
+  "t_bk_atopatoweronmoridunontr":{
+    "value":80
   },
-  "t_bk_lineofemperorspc_v02": {
-    "value": 80
+  "t_bk_ayleidcitiesvalenwoodopepc":{
+    "value":80
   },
-  "t_bk_lineofemperorspc_v03": {
-    "value": 80
+  "t_bk_ayleidcitiesvalenwoodpc":{
+    "value":80
   },
-  "t_bk_lineofemperorspc_v04": {
-    "value": 80
+  "t_bk_ayleidinscriptionspc":{
+    "value":350
   },
-  "t_bk_lineofemperorspc_v05": {
-    "value": 80
+  "t_bk_ayleidruinspc":{
+    "value":125
   },
-  "t_bk_lineofemperorspc_v06": {
-    "value": 80
+  "t_bk_bankersbethr":{
+    "value":45
   },
-  "t_bk_lineofemperorspc_v07": {
-    "value": 80
+  "t_bk_bankersbettr":{
+    "value":45
   },
-  "t_bk_lineofemperorspc_v08": {
-    "value": 80
+  "t_bk_barbariansarithmetictr":{
+    "value":25
   },
-  "t_bk_lineofemperorspc_v09": {
-    "value": 80
+  "t_bk_barbariansgeometrytr":{
+    "value":25
   },
-  "t_bk_lineofemperorspc_v10": {
-    "value": 40
+  "t_bk_bartendersguideshotn":{
+    "value":10
   },
-  "t_bk_loathsomecvilisationpc": {
-    "value": 120
+  "t_bk_battlesancretoropenpc":{
+    "value":150
   },
-  "t_bk_lockedcellartr": {
-    "value": 250
+  "t_bk_battlesancretorpc":{
+    "value":150
   },
-  "t_bk_lordjornibretslastdshotn": {
-    "value": 300
+  "t_bk_battlesancretorshotn":{
+    "value":225
   },
-  "t_bk_lostandfoundinthereachhr": {
-    "value": 100
+  "t_bk_beforeagesofmanopenpc":{
+    "value":125
   },
-  "t_bk_loverslamenttr": {
-    "value": 100
+  "t_bk_beforeagesofmanpc":{
+    "value":125
   },
-  "t_bk_lusanimalgodtr": {
-    "value": 20
+  "t_bk_beforeagesofmanshotn":{
+    "value":125
   },
-  "t_bk_lyrisiusstoryshotn": {
-    "value": 50
+  "t_bk_beforegatesvalsartr":{
+    "value":60
   },
-  "t_bk_lyrisiusstorytr": {
-    "value": 50
+  "t_bk_beggarprinceshotn":{
+    "value":50
   },
-  "t_bk_maceetiquetteshotn": {
-    "value": 125
+  "t_bk_belharzaretapc_v1":{
+    "value":200
   },
-  "t_bk_madnessofpelagiusshotn": {
-    "value": 20
+  "t_bk_belharzaretapc_v2":{
+    "value":200
   },
-  "t_bk_magicfromtheskyshotn": {
-    "value": 350
+  "t_bk_belharzaretapc_v3":{
+    "value":200
   },
-  "t_bk_magickamoonsdancertr": {
-    "value": 150
+  "t_bk_belharzaretapc_v4":{
+    "value":200
   },
-  "t_bk_malahkorcstr": {
-    "value": 75
+  "t_bk_belharzaretapc_v5":{
+    "value":200
   },
-  "t_bk_manifestovampyrumpc": {
-    "value": 100
+  "t_bk_bigwalkertr":{
+    "value":75
   },
-  "t_bk_mannimarcoshotn": {
-    "value": 325
+  "t_bk_biiterhearttr":{
+    "value":30
   },
-  "t_bk_manualofarmorpc": {
-    "value": 50
+  "t_bk_birdgoblinsshotn":{
+    "value":25
   },
-  "t_bk_manualofarmspc": {
-    "value": 50
+  "t_bk_blessedremantr":{
+    "value":50
   },
-  "t_bk_manualofspellcraftpc": {
-    "value": 50
+  "t_bk_bluebooktr":{
+    "value":60
   },
-  "t_bk_manualredswordpc": {
-    "value": 250
+  "t_bk_boethiasprovingpc":{
+    "value":150
   },
-  "t_bk_mapsm1-1tr": {
-    "value": 50
+  "t_bk_bonesofhlurmattatr":{
+    "value":125
   },
-  "t_bk_mapsm1-2tr": {
-    "value": 50
+  "t_bk_bonewalkerritualsotr":{
+    "value":200
   },
-  "t_bk_mapsm2-1tr": {
-    "value": 50
+  "t_bk_bonewalkerritualstr":{
+    "value":200
   },
-  "t_bk_mapsm2-2tr": {
-    "value": 50
+  "t_bk_bookofcirclespc":{
+    "value":250
   },
-  "t_bk_mapsm3-1tr": {
-    "value": 50
+  "t_bk_bookofdaedrashotn":{
+    "value":45
   },
-  "t_bk_mapsm3-2tr": {
-    "value": 50
+  "t_bk_booksofsandtr_v1":{
+    "value":250
   },
-  "t_bk_mapsm4-1tr": {
-    "value": 50
+  "t_bk_bravildaughterofnibenpc":{
+    "value":120
   },
-  "t_bk_mapsm5-1tr": {
-    "value": 50
+  "t_bk_breakinsetofarmortr":{
+    "value":200
   },
-  "t_bk_mapsm6-1tr": {
-    "value": 50
+  "t_bk_breakouttr":{
+    "value":200
   },
-  "t_bk_marasteartr": {
-    "value": 40
+  "t_bk_brokendiamondshr":{
+    "value":20
   },
-  "t_bk_masonsongtr": {
-    "value": 250
+  "t_bk_brokendiamondspc":{
+    "value":170
   },
-  "t_bk_masterwordinducerpc": {
-    "value": 80
+  "t_bk_brokendiamondstr":{
+    "value":20
   },
-  "t_bk_meditationsdeterminedlawtr": {
-    "value": 45
+  "t_bk_brownbooktr":{
+    "value":75
   },
-  "t_bk_metamorphosistr": {
-    "value": 650
+  "t_bk_buyinggameshotn":{
+    "value":200
   },
-  "t_bk_middledawnpc": {
-    "value": 300
+  "t_bk_cabininthewoodsshotn":{
+    "value":150
   },
-  "t_bk_militarytacticstr": {
-    "value": 100
+  "t_bk_caverndoortr":{
+    "value":30
   },
-  "t_bk_millioneyedinsectdreamtr": {
-    "value": 260
+  "t_bk_cavesoficetr":{
+    "value":250
   },
-  "t_bk_mineralsofmorrowindtr": {
-    "value": 50
+  "t_bk_charityandleadershiptr":{
+    "value":40
   },
-  "t_bk_mixedunittactics2": {
-    "value": 25
+  "t_bk_cherimsheartanequinashotn":{
+    "value":225
   },
-  "t_bk_modernhereticsopenpc": {
-    "value": 50
+  "t_bk_childrenoftheskyshotn":{
+    "value":50
   },
-  "t_bk_modernhereticspc": {
-    "value": 50
+  "t_bk_codifiedlaw01pc":{
+    "value":150
   },
-  "t_bk_morrowindmartialartstr": {
-    "value": 150
+  "t_bk_codifiedlaw02pc":{
+    "value":150
   },
-  "t_bk_mostcrueltradetr": {
-    "value": 200
+  "t_bk_codifiedlaw03pc":{
+    "value":150
   },
-  "t_bk_mostinfortunatepartytr": {
-    "value": 150
+  "t_bk_collectedysmritisshotn":{
+    "value":50
   },
-  "t_bk_mothersdiarytr": {
-    "value": 200
+  "t_bk_colovianmythartheimpc_v1":{
+    "value":50
   },
-  "t_bk_murderofcrowspc": {
-    "value": 80
+  "t_bk_colovianmythartheimpc_v2":{
+    "value":50
   },
-  "t_bk_murudiustr": {
-    "value": 65
+  "t_bk_colovianmythartheimpc_v3":{
+    "value":50
   },
-  "t_bk_mwhistoriaandothrentr": {
-    "value": 100
+  "t_bk_commentarycovenantspc":{
+    "value":250
   },
-  "t_bk_mysteriesofthewormtr": {
-    "value": 250
+  "t_bk_compendiumartifactstr":{
+    "value":250
   },
-  "t_bk_mysteriousakavirshotn": {
-    "value": 50
+  "t_bk_comraderytr":{
+    "value":40
   },
-  "t_bk_mysteryplayoldebonhearttr": {
-    "value": 50
+  "t_bk_confessionsandresorttr":{
+    "value":100
   },
-  "t_bk_mysticpathemperoropenpc": {
-    "value": 220
+  "t_bk_confessionsofathiefhr":{
+    "value":200
   },
-  "t_bk_mysticpathemperorpc": {
-    "value": 220
+  "t_bk_confessionsofathiefshotn":{
+    "value":200
   },
-  "t_bk_namesofmothercyrodtr": {
-    "value": 50
+  "t_bk_confessionsofathieftr":{
+    "value":30
   },
-  "t_bk_narrativeyilgamsehtr_v11": {
-    "value": 50
+  "t_bk_constantinvocationopenpc":{
+    "value":260
   },
-  "t_bk_narrativeyilgamsehtr_v12": {
-    "value": 50
+  "t_bk_constantinvocationpc":{
+    "value":260
   },
-  "t_bk_nedesofthedeathlandspc": {
-    "value": 80
+  "t_bk_coronationofeplear":{
+    "value":250
   },
-  "t_bk_noblemansgardentr": {
-    "value": 85
+  "t_bk_coronationofeplearopen":{
+    "value":250
   },
-  "t_bk_nobletrickstr": {
-    "value": 15
+  "t_bk_corprusdivinetr":{
+    "value":200
   },
-  "t_bk_nordicproverbstr": {
-    "value": 60
+  "t_bk_corpsepreparationshotn_v1":{
+    "value":50
   },
-  "t_bk_nordssummarythereachshotn": {
-    "value": 30
+  "t_bk_corpsepreparationshotn_v2":{
+    "value":50
   },
-  "t_bk_notebooktempclose_01": {
-    "value": 10
+  "t_bk_corpsepreparationshotn_v3":{
+    "value":50
   },
-  "t_bk_notebooktempclose_02": {
-    "value": 10
+  "t_bk_cowardiceoftheenemytr":{
+    "value":200
   },
-  "t_bk_notebooktempclose_03": {
-    "value": 10
+  "t_bk_crimesoftritr":{
+    "value":150
   },
-  "t_bk_notebooktempclose_04": {
-    "value": 10
+  "t_bk_culturalerasnordsshotn":{
+    "value":70
   },
-  "t_bk_notebooktempclose_05": {
-    "value": 10
+  "t_bk_cunningcontemptconfusiontr":{
+    "value":350
   },
-  "t_bk_notebooktempopen_01": {
-    "value": 10
+  "t_bk_daedraworshipayleidspc":{
+    "value":100
   },
-  "t_bk_notebooktempopen_02": {
-    "value": 10
+  "t_bk_dalgorjournaltr":{
+    "value":250
   },
-  "t_bk_notesforredguardhistorytr": {
-    "value": 50
+  "t_bk_dangersofreachmagickhr":{
+    "value":50
   },
-  "t_bk_notesracialphylogenyshotn": {
-    "value": 275
+  "t_bk_dangersofreachmagickshotn":{
+    "value":50
   },
-  "t_bk_odetundrastridersshotn": {
-    "value": 25
+  "t_bk_danstrarserpentshotn":{
+    "value":65
   },
-  "t_bk_oelandershammershotn": {
-    "value": 200
+  "t_bk_dererumdirennisshotn":{
+    "value":175
   },
-  "t_bk_oelandershammertr": {
-    "value": 55
+  "t_bk_desphaeranirniopenpc":{
+    "value":200
   },
-  "t_bk_offireantsandhoomstr": {
-    "value": 175
+  "t_bk_desphaeranirnipc":{
+    "value":200
   },
-  "t_bk_offjoriandholgirshotn": {
-    "value": 30
+  "t_bk_deadmagichr":{
+    "value":300
   },
-  "t_bk_ofjephretr": {
-    "value": 25
+  "t_bk_defenseofmorrowindtr":{
+    "value":70
   },
-  "t_bk_ofunspeakablevolumestr": {
-    "value": 100
+  "t_bk_destructionodistractionpc":{
+    "value":140
   },
-  "t_bk_olafandthedragonshotn": {
-    "value": 150
+  "t_bk_detachmentofthesheathpc":{
+    "value":140
   },
-  "t_bk_oldfjorithecoveshotn": {
-    "value": 40
+  "t_bk_direnniempty01shotn":{
+    "value":400
   },
-  "t_bk_oldmanoftheashlandstr": {
-    "value": 80
+  "t_bk_direnniempty02shotn":{
+    "value":400
   },
-  "t_bk_oldwaysshotn": {
-    "value": 40
+  "t_bk_direnniempty03shotn":{
+    "value":400
   },
-  "t_bk_olgolgromuksprivatenotestr": {
-    "value": 200
+  "t_bk_disasterationithopenpc":{
+    "value":120
   },
-  "t_bk_onartaeumopenpc": {
-    "value": 25
+  "t_bk_disasterationithpc":{
+    "value":120
   },
-  "t_bk_onartaeumpc": {
-    "value": 25
+  "t_bk_distributedsoulpc":{
+    "value":120
   },
-  "t_bk_ondaedricdesigntr": {
-    "value": 150
+  "t_bk_divadthesingershotn":{
+    "value":250
   },
-  "t_bk_onimmortalitypc": {
-    "value": 80
+  "t_bk_divadthesingertr":{
+    "value":35
   },
-  "t_bk_onlycanthropyshotn": {
-    "value": 200
+  "t_bk_divadamakalluhtr":{
+    "value":100
   },
-  "t_bk_onlycanthropytr": {
-    "value": 55
+  "t_bk_djulighanasroletr":{
+    "value":55
   },
-  "t_bk_onmorrowindshotn": {
-    "value": 40
+  "t_bk_dragonbreakreexaminedshotn":{
+    "value":250
   },
-  "t_bk_onnecromanypc": {
-    "value": 120
+  "t_bk_dreadfulthefttr":{
+    "value":150
   },
-  "t_bk_onoblivionshotn": {
-    "value": 40
+  "t_bk_drescremationpracticestr":{
+    "value":100
   },
-  "t_bk_onperfectionofguartr": {
-    "value": 35
+  "t_bk_dresslavetradetr":{
+    "value":80
   },
-  "t_bk_onpuritytr": {
-    "value": 250
+  "t_bk_drymetaphortr":{
+    "value":175
   },
-  "t_bk_onsericultureopenpc": {
-    "value": 160
+  "t_bk_dubioustalecrystaltowerhr":{
+    "value":20
   },
-  "t_bk_onsericulturepc": {
-    "value": 160
+  "t_bk_dubioustaletr":{
+    "value":20
   },
-  "t_bk_onthedefinitionofheresytr": {
-    "value": 200
+  "t_bk_dunceinmorrowindtr_v1":{
+    "value":150
   },
-  "t_bk_ontheevilsofheresytr": {
-    "value": 200
+  "t_bk_dunceinmorrowindtr_v2":{
+    "value":75
   },
-  "t_bk_ontheimportanceheresytr": {
-    "value": 200
+  "t_bk_dunceinmorrowindtr_v3":{
+    "value":75
   },
-  "t_bk_onthemovetr": {
-    "value": 150
+  "t_bk_dunceinmorrowindtr_v4":{
+    "value":75
   },
-  "t_bk_orccreationstorytr": {
-    "value": 80
+  "t_bk_dunceinmorrowindtr_v5":{
+    "value":75
   },
-  "t_bk_orcsurancetr": {
-    "value": 250
+  "t_bk_dunceinmorrowindtr_v6":{
+    "value":75
   },
-  "t_bk_ordolanesbestiarytr_v09": {
-    "value": 60
+  "t_bk_dunceinmorrowindtr_v7":{
+    "value":75
   },
-  "t_bk_ordolanesbestiarytr_v11": {
-    "value": 60
+  "t_bk_dunceinmorrowindtr_v8":{
+    "value":75
   },
-  "t_bk_ordolanesbestiarytr_v17": {
-    "value": 60
+  "t_bk_dunmerilawprimertr":{
+    "value":50
   },
-  "t_bk_originashyamtr": {
-    "value": 100
+  "t_bk_dunmersguidetoreachshotn":{
+    "value":75
   },
-  "t_bk_originofthesloadshotn": {
-    "value": 200
+  "t_bk_dwarvenfirmamenttr":{
+    "value":70
   },
-  "t_bk_originsoftherakishotn": {
-    "value": 60
+  "t_bk_dwemerburialcustomstr":{
+    "value":40
   },
-  "t_bk_paintedpeoplestr": {
-    "value": 25
+  "t_bk_easternprovincesshotn":{
+    "value":50
   },
-  "t_bk_pearlbetwixtempires_01tr": {
-    "value": 250
+  "t_bk_easternquarantinetr":{
+    "value":100
   },
-  "t_bk_pearlbetwixtempires_02tr": {
-    "value": 250
+  "t_bk_effectselderscrollspc":{
+    "value":150
   },
-  "t_bk_pensionancestormothpc": {
-    "value": 75
+  "t_bk_elementaldaedratr":{
+    "value":250
   },
-  "t_bk_peoplesofthereachshotn": {
-    "value": 40
+  "t_bk_emeraldstr":{
+    "value":80
   },
-  "t_bk_persistencedaedricvenerapc": {
-    "value": 80
+  "t_bk_emptybook01hr":{
+    "value":0
   },
-  "t_bk_physicalitieswerewolvespc": {
-    "value": 150
+  "t_bk_emptybook02hr":{
+    "value":0
   },
-  "t_bk_pigchildrenshotn": {
-    "value": 100
+  "t_bk_emptybook03hr":{
+    "value":0
   },
-  "t_bk_pocketguide1pc": {
-    "value": 20
+  "t_bk_emptybook04hr":{
+    "value":0
   },
-  "t_bk_politicalhierarchyskyshotn": {
-    "value": 40
+  "t_bk_emptybook04openhr":{
+    "value":0
   },
-  "t_bk_portofanvilpc": {
-    "value": 50
+  "t_bk_emptybook05hr":{
+    "value":0
   },
-  "t_bk_postinghuntshotn": {
-    "value": 200
+  "t_bk_emptybook06hr":{
+    "value":0
   },
-  "t_bk_privilegesofthedeadpc": {
-    "value": 150
+  "t_bk_emptybook06bhr":{
+    "value":0
   },
-  "t_bk_properlockdesignpc": {
-    "value": 30
+  "t_bk_emptybook07hr":{
+    "value":0
   },
-  "t_bk_provincestamrielshotn": {
-    "value": 60
+  "t_bk_emptybook08hr":{
+    "value":0
   },
-  "t_bk_purloinedshadowsshotn": {
-    "value": 215
+  "t_bk_emptybook09hr":{
+    "value":0
   },
-  "t_bk_quarterpalmliturgypc": {
-    "value": 200
+  "t_bk_emptybook10hr":{
+    "value":0
   },
-  "t_bk_radrstagkingshotn": {
-    "value": 150
+  "t_bk_emptybook11hr":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v1": {
-    "value": 150
+  "t_bk_emptybook12hr":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v2": {
-    "value": 150
+  "t_bk_emptybook12openhr":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v3": {
-    "value": 150
+  "t_bk_emptybook13hr":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v4": {
-    "value": 150
+  "t_bk_emptybookahyptrhr":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v5": {
-    "value": 150
+  "t_bk_emptyfolio01hf":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v6": {
-    "value": 150
+  "t_bk_emptyfolio01openhf":{
+    "value":0
   },
-  "t_bk_raidpyandoneashotn_v7": {
-    "value": 150
+  "t_bk_emptyfolio01opensum":{
+    "value":0
   },
-  "t_bk_rainofsandtr": {
-    "value": 75
+  "t_bk_emptyfolio01sum":{
+    "value":0
   },
-  "t_bk_realbarenziahhr_v2_uncens": {
-    "value": 20
+  "t_bk_emptyfolio02hf":{
+    "value":0
   },
-  "t_bk_reality&otherfalsehoodspc": {
-    "value": 215
+  "t_bk_emptyfolio02openhf":{
+    "value":0
   },
-  "t_bk_realmeaningoflifetr": {
-    "value": 40
+  "t_bk_emptyfolio02opensum":{
+    "value":0
   },
-  "t_bk_reaversongsshotn_v1": {
-    "value": 60
+  "t_bk_emptyfolio02sum":{
+    "value":0
   },
-  "t_bk_reaversongsshotn_v2": {
-    "value": 60
+  "t_bk_emptyfolio03hf":{
+    "value":0
   },
-  "t_bk_reaversongsshotn_v3": {
-    "value": 60
+  "t_bk_emptyfolio03openhf":{
+    "value":0
   },
-  "t_bk_recordingheadsopentr": {
-    "value": 100
+  "t_bk_emptyfolio03opensum":{
+    "value":0
   },
-  "t_bk_recordingheadstr": {
-    "value": 100
+  "t_bk_emptyfolio03sum":{
+    "value":0
   },
-  "t_bk_redbookriddlesshotn": {
-    "value": 50
+  "t_bk_emptyfolio04hf":{
+    "value":0
   },
-  "t_bk_redemptiontr_v1": {
-    "value": 40
+  "t_bk_emptyfolio04openhf":{
+    "value":0
   },
-  "t_bk_redemptiontr_v2": {
-    "value": 40
+  "t_bk_emptyfolio04opensum":{
+    "value":0
   },
-  "t_bk_redemptiontr_v3": {
-    "value": 40
+  "t_bk_emptyfolio04sum":{
+    "value":0
   },
-  "t_bk_redemptiontr_v4": {
-    "value": 40
+  "t_bk_emptyoctavo01hf":{
+    "value":0
   },
-  "t_bk_redemptiontr_v5": {
-    "value": 40
+  "t_bk_emptyoctavo01openhf":{
+    "value":0
   },
-  "t_bk_redguardstheirhistoryshotn": {
-    "value": 270
+  "t_bk_emptyoctavo01opensum":{
+    "value":0
   },
-  "t_bk_redguardstheirhistorytr": {
-    "value": 200
+  "t_bk_emptyoctavo01sum":{
+    "value":0
   },
-  "t_bk_redkitchenreaderpc": {
-    "value": 215
+  "t_bk_emptyoctavo02hf":{
+    "value":0
   },
-  "t_bk_refugeesshotn": {
-    "value": 140
+  "t_bk_emptyoctavo02openhf":{
+    "value":0
   },
-  "t_bk_regardsdunmerchitintr": {
-    "value": 75
+  "t_bk_emptyoctavo02opensum":{
+    "value":0
   },
-  "t_bk_regrettr": {
-    "value": 20
+  "t_bk_emptyoctavo02sum":{
+    "value":0
   },
-  "t_bk_remanadapc": {
-    "value": 150
+  "t_bk_emptyoctavo03hf":{
+    "value":0
   },
-  "t_bk_remanadashotn": {
-    "value": 150
+  "t_bk_emptyoctavo03openhf":{
+    "value":0
   },
-  "t_bk_remanadatr_v1": {
-    "value": 20
+  "t_bk_emptyoctavo03opensum":{
+    "value":0
   },
-  "t_bk_remanadatr_v2": {
-    "value": 20
+  "t_bk_emptyoctavo03sum":{
+    "value":0
   },
-  "t_bk_remansonofreman": {
-    "value": 50
+  "t_bk_emptyoctavo04hf":{
+    "value":0
   },
-  "t_bk_restlessnorthshotn_v1": {
-    "value": 30
+  "t_bk_emptyoctavo04openhf":{
+    "value":0
   },
-  "t_bk_restlessnorthshotn_v2": {
-    "value": 30
+  "t_bk_emptyoctavo04opensum":{
+    "value":0
   },
-  "t_bk_restlessnorthshotn_v3": {
-    "value": 30
+  "t_bk_emptyoctavo04sum":{
+    "value":0
   },
-  "t_bk_riddlesgoodwmeadshotn": {
-    "value": 50
+  "t_bk_emptyoctavo05hf":{
+    "value":0
   },
-  "t_bk_rislavtherighteouspc": {
-    "value": 200
+  "t_bk_emptyoctavo05openhf":{
+    "value":0
   },
-  "t_bk_rislavtherighteousshotn": {
-    "value": 80
+  "t_bk_emptyoctavo05opensum":{
+    "value":0
   },
-  "t_bk_rudesongtr": {
-    "value": 30
+  "t_bk_emptyoctavo05sum":{
+    "value":0
   },
-  "t_bk_ruhnaniaalmsivitr": {
-    "value": 350
+  "t_bk_emptyoctavo06hf":{
+    "value":0
   },
-  "t_bk_ruminationselderscrollspc": {
-    "value": 80
+  "t_bk_emptyoctavo06openhf":{
+    "value":0
   },
-  "t_bk_sacredwitnessshotn": {
-    "value": 150
+  "t_bk_emptyoctavo06opensum":{
+    "value":0
   },
-  "t_bk_saintandlefthandpc": {
-    "value": 180
+  "t_bk_emptyoctavo06sum":{
+    "value":0
   },
-  "t_bk_saintrilmslessontr": {
-    "value": 25
+  "t_bk_emptyoctavo07hf":{
+    "value":0
   },
-  "t_bk_sakapunikatr": {
-    "value": 250
+  "t_bk_emptyoctavo07openhf":{
+    "value":0
   },
-  "t_bk_scholarguidetonymphstr": {
-    "value": 20
+  "t_bk_emptyoctavo07opensum":{
+    "value":0
   },
-  "t_bk_seaofghostsshotn": {
-    "value": 70
+  "t_bk_emptyoctavo07sum":{
+    "value":0
   },
-  "t_bk_seconddoortr": {
-    "value": 200
+  "t_bk_emptyoctavo08hf":{
+    "value":0
   },
-  "t_bk_seekinghometr": {
-    "value": 150
+  "t_bk_emptyoctavo08openhf":{
+    "value":0
   },
-  "t_bk_sermonofthesaintstr": {
-    "value": 50
+  "t_bk_emptyoctavo08opensum":{
+    "value":0
   },
-  "t_bk_sermonzerotr": {
-    "value": 200
+  "t_bk_emptyoctavo08sum":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagshotn_v1": {
-    "value": 80
+  "t_bk_emptyquarto01hf":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagshotn_v2": {
-    "value": 80
+  "t_bk_emptyquarto01openhf":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagshotn_v3": {
-    "value": 80
+  "t_bk_emptyquarto01opensum":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagshotn_v6": {
-    "value": 80
+  "t_bk_emptyquarto01sum":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagtr_v1": {
-    "value": 70
+  "t_bk_emptyquarto02hf":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagtr_v2": {
-    "value": 70
+  "t_bk_emptyquarto02openhf":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagtr_v3": {
-    "value": 70
+  "t_bk_emptyquarto02opensum":{
+    "value":0
   },
-  "t_bk_sevenfightsaldudagtr_v6": {
-    "value": 70
+  "t_bk_emptyquarto02sum":{
+    "value":0
   },
-  "t_bk_sevenpennantstr": {
-    "value": 300
+  "t_bk_emptyquarto03hf":{
+    "value":0
   },
-  "t_bk_sevenvarietiesshadowstr": {
-    "value": 150
+  "t_bk_emptyquarto03openhf":{
+    "value":0
   },
-  "t_bk_sheogorathmusicshotn": {
-    "value": 20
+  "t_bk_emptyquarto03opensum":{
+    "value":0
   },
-  "t_bk_shezarrandthedivinesopenpc": {
-    "value": 115
+  "t_bk_emptyquarto03sum":{
+    "value":0
   },
-  "t_bk_shezarrandthedivinespc": {
-    "value": 115
+  "t_bk_emptyquarto04hf":{
+    "value":0
   },
-  "t_bk_shezarrandthedivinesshotn": {
-    "value": 115
+  "t_bk_emptyquarto04openhf":{
+    "value":0
   },
-  "t_bk_shezarrssongopenpc": {
-    "value": 300
+  "t_bk_emptyquarto04opensum":{
+    "value":0
   },
-  "t_bk_shezarrssongpc": {
-    "value": 300
+  "t_bk_emptyquarto04sum":{
+    "value":0
   },
-  "t_bk_shoresofdwynnentr": {
-    "value": 55
+  "t_bk_epicofthegreyfalconhr":{
+    "value":40
   },
-  "t_bk_shorsonofshortr": {
-    "value": 50
+  "t_bk_epicofthegreyfalcontr":{
+    "value":40
   },
-  "t_bk_shorthistoryempirespc": {
-    "value": 50
+  "t_bk_eslaferolbaggershotn":{
+    "value":240
   },
-  "t_bk_sixtruthsofshadowshotn": {
-    "value": 300
+  "t_bk_eslaferolkingshotn":{
+    "value":240
   },
-  "t_bk_skindeeptr": {
-    "value": 60
+  "t_bk_eslaferolthiefshotn":{
+    "value":240
   },
-  "t_bk_skylampnighttr": {
-    "value": 25
+  "t_bk_eslaferolwarriorshotn":{
+    "value":240
   },
-  "t_bk_smallkindnesstr": {
-    "value": 200
+  "t_bk_essenceofbeingathieftr":{
+    "value":50
   },
-  "t_bk_softdoctrinesofmagnustr": {
-    "value": 40
+  "t_bk_etiquettewithrulershr":{
+    "value":40
   },
-  "t_bk_songaskeldemenshotn": {
-    "value": 30
+  "t_bk_etiquettewithrulerstr":{
+    "value":40
   },
-  "t_bk_songofhrormirshotn": {
-    "value": 295
+  "t_bk_exclusionarymandatespc":{
+    "value":80
   },
-  "t_bk_songofpelinalshotn": {
-    "value": 250
+  "t_bk_exegesisofmeridnundapc":{
+    "value":120
   },
-  "t_bk_songofpelinaltr_v1": {
-    "value": 100
+  "t_bk_exileofmerediehr":{
+    "value":50
   },
-  "t_bk_songofpelinaltr_v2": {
-    "value": 100
+  "t_bk_exileofmeredieopenhr":{
+    "value":50
   },
-  "t_bk_songofpelinaltr_v3": {
-    "value": 100
+  "t_bk_exodusshotn":{
+    "value":15
   },
-  "t_bk_songofpelinaltr_v4": {
-    "value": 100
+  "t_bk_exovelanmjtr":{
+    "value":5000
   },
-  "t_bk_songofpelinaltr_v5": {
-    "value": 100
+  "t_bk_exovelbbmjtr":{
+    "value":5000
   },
-  "t_bk_songofpelinaltr_v6": {
-    "value": 100
+  "t_bk_expandingmagickarevisedhr":{
+    "value":350
   },
-  "t_bk_songofpelinaltr_v7": {
-    "value": 100
+  "t_bk_expandingmagickarevisedtr":{
+    "value":350
   },
-  "t_bk_songofpelinaltr_v8": {
-    "value": 100
+  "t_bk_fablevalenwoodtr":{
+    "value":200
   },
-  "t_bk_songofthelabyrinthshotn": {
-    "value": 50
+  "t_bk_failureoftheempiretr":{
+    "value":80
   },
-  "t_bk_songofthereturnshotn_v02": {
-    "value": 150
+  "t_bk_falloftheursuperhr":{
+    "value":50
   },
-  "t_bk_songofthereturnshotn_v07": {
-    "value": 150
+  "t_bk_falloftheursupertr":{
+    "value":50
   },
-  "t_bk_songofthereturnshotn_v19": {
-    "value": 150
+  "t_bk_fascicle00pc":{
+    "value":300
   },
-  "t_bk_songofthereturnshotn_v24": {
-    "value": 150
+  "t_bk_fascicle01pc":{
+    "value":300
   },
-  "t_bk_songofthereturnshotn_v56": {
-    "value": 150
+  "t_bk_fascicle02pc":{
+    "value":300
   },
-  "t_bk_songskingwulfharthshotn": {
-    "value": 30
+  "t_bk_fascicle03pc":{
+    "value":300
   },
-  "t_bk_songsofstuportr": {
-    "value": 60
+  "t_bk_fascicle04pc":{
+    "value":300
   },
-  "t_bk_soulsblackandwhiteshotn": {
-    "value": 180
+  "t_bk_fascicle05pc":{
+    "value":300
   },
-  "t_bk_spawnofashtr": {
-    "value": 70
+  "t_bk_fascicle06pc":{
+    "value":300
   },
-  "t_bk_specialfloratamrielshotn": {
-    "value": 25
+  "t_bk_fascicle07pc":{
+    "value":300
   },
-  "t_bk_spectrumstudytr": {
-    "value": 300
+  "t_bk_fascicle08pc":{
+    "value":300
   },
-  "t_bk_stirkhistoriespc": {
-    "value": 20
+  "t_bk_fascicle09pc":{
+    "value":300
   },
-  "t_bk_studylockednoveltr": {
-    "value": 115
+  "t_bk_fascicle10pc":{
+    "value":300
   },
-  "t_bk_studyondreughstr": {
-    "value": 35
+  "t_bk_fascicle11pc":{
+    "value":300
   },
-  "t_bk_studyonguarstr": {
-    "value": 50
+  "t_bk_fascicle12pc":{
+    "value":300
   },
-  "t_bk_sudiangqergotr": {
-    "value": 50
+  "t_bk_fascicle13pc":{
+    "value":300
   },
-  "t_bk_suppositionoffreedomtr": {
-    "value": 150
+  "t_bk_fateofthesnowelvestr":{
+    "value":80
   },
-  "t_bk_taleofdrozirapc": {
-    "value": 150
+  "t_bk_fatherofthenibenopenpc":{
+    "value":100
   },
-  "t_bk_taleofkingvragesonstr": {
-    "value": 125
+  "t_bk_fatherofthenibenpc":{
+    "value":100
   },
-  "t_bk_talesofkierantr": {
-    "value": 150
+  "t_bk_fatherofthenibenshotn":{
+    "value":100
   },
-  "t_bk_talhjoldeshotn_v1": {
-    "value": 40
+  "t_bk_fetchersguidetoancestraltr":{
+    "value":25
   },
-  "t_bk_talhjoldeshotn_v2": {
-    "value": 40
+  "t_bk_fireanddarknessopenpc":{
+    "value":150
   },
-  "t_bk_talhjoldeshotn_v3": {
-    "value": 40
+  "t_bk_fireanddarknesspc":{
+    "value":150
   },
-  "t_bk_talhjoldeshotn_v4": {
-    "value": 40
+  "t_bk_firmamentshotn":{
+    "value":40
   },
-  "t_bk_talhjoldeshotn_v5": {
-    "value": 40
+  "t_bk_firstcouncilcensus2e622tr":{
+    "value":260
   },
-  "t_bk_talkingguarofvhul_itr": {
-    "value": 100
+  "t_bk_firstholdrevoltshotn":{
+    "value":200
   },
-  "t_bk_talkingguarofvhuli_itr": {
-    "value": 100
+  "t_bk_floraskyrimshotn_v1":{
+    "value":150
   },
-  "t_bk_talosdragonbumtr": {
-    "value": 30
+  "t_bk_follyofsteeltr":{
+    "value":175
   },
-  "t_bk_tasteofsugartr": {
-    "value": 200
+  "t_bk_foolsebonyhr_v1":{
+    "value":50
   },
-  "t_bk_teachingsmasterstudenttr": {
-    "value": 100
+  "t_bk_foolsebonyhr_v2":{
+    "value":50
   },
-  "t_bk_teleportationpraxispc_v1": {
-    "value": 120
+  "t_bk_foolsebonyhr_v3":{
+    "value":50
   },
-  "t_bk_teleportationpraxispc_v2": {
-    "value": 120
+  "t_bk_foolsebonyhr_v4":{
+    "value":50
   },
-  "t_bk_teleportationpraxispc_v3": {
-    "value": 120
+  "t_bk_foolsebonyhr_v5":{
+    "value":50
   },
-  "t_bk_telvanniconstructiontr": {
-    "value": 50
+  "t_bk_foolsebonyhr_v6":{
+    "value":50
   },
-  "t_bk_tencommandmentspc": {
-    "value": 10
+  "t_bk_foolsebonytr_v1":{
+    "value":50
   },
-  "t_bk_thealikrshotn": {
-    "value": 170
+  "t_bk_foolsebonytr_v2":{
+    "value":50
   },
-  "t_bk_thealikrtr": {
-    "value": 30
+  "t_bk_foolsebonytr_v3":{
+    "value":50
   },
-  "t_bk_theebonarmtr": {
-    "value": 40
+  "t_bk_foolsebonytr_v4":{
+    "value":50
   },
-  "t_bk_thefaerietr": {
-    "value": 20
+  "t_bk_foolsebonytr_v5":{
+    "value":50
   },
-  "t_bk_thefaithfultr": {
-    "value": 460
+  "t_bk_foolsebonytr_v6":{
+    "value":50
   },
-  "t_bk_thefirstscrollofbaandartr": {
-    "value": 55
+  "t_bk_formalitiesofmirthtr":{
+    "value":85
   },
-  "t_bk_thefourtr": {
-    "value": 50
+  "t_bk_fourthbookofdusttr":{
+    "value":40
   },
-  "t_bk_thegrandallianceshotn_v1": {
-    "value": 50
+  "t_bk_fragmentsaltmerpockettr":{
+    "value":50
   },
-  "t_bk_thegrandallianceshotn_v2": {
-    "value": 50
+  "t_bk_friendofgiantsshotn":{
+    "value":80
   },
-  "t_bk_thegrandallianceshotn_v3": {
-    "value": 50
+  "t_bk_funeraryritesmothpc":{
+    "value":50
   },
-  "t_bk_thegrandallianceshotn_v4": {
-    "value": 50
+  "t_bk_funeraryritestombspc":{
+    "value":50
   },
-  "t_bk_thelanternthieftr": {
-    "value": 250
+  "t_bk_funeraryriteswaterpc":{
+    "value":50
   },
-  "t_bk_thelightandthedarktr": {
-    "value": 50
+  "t_bk_galerionthemysticshotn":{
+    "value":50
   },
-  "t_bk_thememorystonetr": {
-    "value": 75
+  "t_bk_ghraewajharpiestr":{
+    "value":35
   },
-  "t_bk_thenecklacetr": {
-    "value": 50
+  "t_bk_glassinmorrowindtr":{
+    "value":75
   },
-  "t_bk_theoriginofvampirestr": {
-    "value": 175
+  "t_bk_goldribbonofmerithr":{
+    "value":250
   },
-  "t_bk_theperyitonvol1closetr": {
-    "value": 200
+  "t_bk_gospelofsaintaralortr":{
+    "value":50
   },
-  "t_bk_theperyitonvol1opentr": {
-    "value": 200
+  "t_bk_gospelofsaintdelyntr":{
+    "value":50
   },
-  "t_bk_theperyitonvol2closetr": {
-    "value": 200
+  "t_bk_gospelofsaintfelmstr":{
+    "value":50
   },
-  "t_bk_theperyitonvol2opentr": {
-    "value": 200
+  "t_bk_gospelofsaintllothistr":{
+    "value":50
   },
-  "t_bk_theperyitonvol3closetr": {
-    "value": 200
+  "t_bk_gospelofsaintmeristr":{
+    "value":50
   },
-  "t_bk_theperyitonvol3opentr": {
-    "value": 200
+  "t_bk_gospelofsaintnerevartr":{
+    "value":50
   },
-  "t_bk_theperyitonvol4closetr": {
-    "value": 200
+  "t_bk_gospelofsaintolmstr":{
+    "value":50
   },
-  "t_bk_theperyitonvol4opentr": {
-    "value": 200
+  "t_bk_gospelofsaintrilmstr":{
+    "value":50
   },
-  "t_bk_theperyitonvol5closetr": {
-    "value": 200
+  "t_bk_gospelofsaintroristr":{
+    "value":50
   },
-  "t_bk_theperyitonvol5opentr": {
-    "value": 200
+  "t_bk_gospelofsaintseryntr":{
+    "value":50
   },
-  "t_bk_thepurposeofthecorkbulbtr": {
-    "value": 100
+  "t_bk_gospelofsaintvelothotr_v1":{
+    "value":50
   },
-  "t_bk_thesageshotn": {
-    "value": 300
+  "t_bk_gospelofsaintvelothotr_v2":{
+    "value":50
   },
-  "t_bk_thesagetr": {
-    "value": 150
+  "t_bk_gospelofsaintvelothtr_v1":{
+    "value":50
   },
-  "t_bk_theseasonstr": {
-    "value": 175
+  "t_bk_gospelofsaintvelothtr_v2":{
+    "value":50
   },
-  "t_bk_thetormentklauseintr_v1": {
-    "value": 250
+  "t_bk_greatharbingersshotn":{
+    "value":150
   },
-  "t_bk_thetormentklauseintr_v2": {
-    "value": 300
+  "t_bk_greathousesshotn":{
+    "value":30
   },
-  "t_bk_theuprisingstr_v1": {
-    "value": 40
+  "t_bk_guarherdersarttr":{
+    "value":40
   },
-  "t_bk_theuprisingstr_v2": {
-    "value": 40
+  "t_bk_guidetotheguildguidespc":{
+    "value":60
   },
-  "t_bk_theworshipofashlanderstr": {
-    "value": 50
+  "t_bk_guylainesarchitectshotn":{
+    "value":60
   },
-  "t_bk_thirddoorshotn": {
-    "value": 250
+  "t_bk_hagiographaanimalsaintspc":{
+    "value":50
   },
-  "t_bk_thirskhistoryshotn": {
-    "value": 75
+  "t_bk_hagiographaemperorsaintspc":{
+    "value":50
   },
-  "t_bk_tometempclose_01": {
-    "value": 80
+  "t_bk_hagiographastridentcoastpc":{
+    "value":50
   },
-  "t_bk_tometempclose_02": {
-    "value": 80
+  "t_bk_handinhandtr":{
+    "value":200
   },
-  "t_bk_tometempclose_03": {
-    "value": 80
+  "t_bk_handbookofthedevouttr":{
+    "value":70
   },
-  "t_bk_tometempclose_04": {
-    "value": 80
+  "t_bk_handsofftr":{
+    "value":250
   },
-  "t_bk_tometempclose_05": {
-    "value": 80
+  "t_bk_harvestingheavenspc":{
+    "value":50
   },
-  "t_bk_tometempclose_06": {
-    "value": 200
+  "t_bk_healerstalehr":{
+    "value":20
   },
-  "t_bk_tometempopen_01": {
-    "value": 80
+  "t_bk_healerstaletr":{
+    "value":20
   },
-  "t_bk_tometempopen_02": {
-    "value": 80
+  "t_bk_heavyarmorrepairshotn":{
+    "value":50
   },
-  "t_bk_toolsofthetradetr": {
-    "value": 50
+  "t_bk_herhandstr":{
+    "value":25
   },
-  "t_bk_traditionalsloadtaletr": {
-    "value": 20
+  "t_bk_herooftheindoriltr":{
+    "value":35
   },
-  "t_bk_travelsoftyaldirennipc": {
-    "value": 140
+  "t_bk_hidingwiththeshadowshotn":{
+    "value":35
   },
-  "t_bk_treatisecalcinatoruseshotn": {
-    "value": 250
+  "t_bk_highkingsveddashotn_v1":{
+    "value":300
   },
-  "t_bk_trialssaintalessiaopenpc": {
-    "value": 45
+  "t_bk_highkingsveddashotn_v2":{
+    "value":300
   },
-  "t_bk_trialssaintalessiapc": {
-    "value": 45
+  "t_bk_highkingsveddashotn_v3":{
+    "value":300
   },
-  "t_bk_truefolktr": {
-    "value": 30
+  "t_bk_highkingsveddashotn_v4":{
+    "value":300
   },
-  "t_bk_trueintrospectionhlaalutr": {
-    "value": 30
+  "t_bk_highkingsveddashotn_v5":{
+    "value":300
   },
-  "t_bk_trueintrospectionindoriltr": {
-    "value": 30
+  "t_bk_highkingsveddashotn_v6":{
+    "value":300
   },
-  "t_bk_trueintrospectionredorantr": {
-    "value": 30
+  "t_bk_highkingsveddashotn_v7":{
+    "value":300
   },
-  "t_bk_truejusticetr": {
-    "value": 250
+  "t_bk_hillofkvatchpc":{
+    "value":50
   },
-  "t_bk_truenatureorcsshotn": {
-    "value": 30
+  "t_bk_histr":{
+    "value":75
   },
-  "t_bk_truesapiencedresnobilitytr": {
-    "value": 30
+  "t_bk_historyalessianorderpc":{
+    "value":40
   },
-  "t_bk_truetelvanninobilitytr": {
-    "value": 30
+  "t_bk_historydragoncopenshotn_v2":{
+    "value":150
   },
-  "t_bk_truthofthebearclanshotn": {
-    "value": 30
+  "t_bk_historydragoncultshotn_v1":{
+    "value":150
   },
-  "t_bk_twostancesonknifetr": {
-    "value": 180
+  "t_bk_historydragoncultshotn_v2":{
+    "value":150
   },
-  "t_bk_uni_alessiandoctrinespc": {
-    "value": 50000
+  "t_bk_historydragoncultshotn_v3":{
+    "value":150
   },
-  "t_bk_uni_deadricseptistr": {
-    "value": 25000
+  "t_bk_historydragoncultshotn_v4":{
+    "value":150
   },
-  "t_bk_uni_fishystickpc": {
-    "value": 5
+  "t_bk_historyempireshotn_v1":{
+    "value":50
   },
-  "t_bk_uni_thrassiancampaignpc": {
-    "value": 500
+  "t_bk_historyempireshotn_v2":{
+    "value":50
   },
-  "t_bk_unseenpeopletr": {
-    "value": 65
+  "t_bk_historyempireshotn_v3":{
+    "value":50
   },
-  "t_bk_uprisingalmalexiatr": {
-    "value": 200
+  "t_bk_historyempireshotn_v4":{
+    "value":50
   },
-  "t_bk_val-staagvesturholashotn": {
-    "value": 150
+  "t_bk_historyfightersguildshotn":{
+    "value":70
   },
-  "t_bk_vampiresilliacbaytr_v1": {
-    "value": 50
+  "t_bk_historykarthwasten1shotn":{
+    "value":55
   },
-  "t_bk_vampiresilliacbaytr_v2": {
-    "value": 100
+  "t_bk_historykarthwasten2shotn":{
+    "value":55
   },
-  "t_bk_varietiesofthoughttr_v1": {
-    "value": 100
+  "t_bk_historymothcultpc":{
+    "value":40
   },
-  "t_bk_varietiesofthoughttr_v2": {
-    "value": 100
+  "t_bk_historyofdaggerfallhr":{
+    "value":50
   },
-  "t_bk_varietiesofthoughttr_v3": {
-    "value": 100
+  "t_bk_historyofdaggerfalltr":{
+    "value":50
   },
-  "t_bk_vindicationdragonbreakpc": {
-    "value": 160
+  "t_bk_historyofebonhearttr":{
+    "value":45
   },
-  "t_bk_visionsofkallisttr_v73-74": {
-    "value": 0
+  "t_bk_historyoffirewatchtr":{
+    "value":60
   },
-  "t_bk_voyagethreewinds1shotn": {
-    "value": 65
+  "t_bk_historyoflockpickingpc":{
+    "value":200
   },
-  "t_bk_voyagethreewinds2shotn": {
-    "value": 65
+  "t_bk_historyoroynyonfamilytr":{
+    "value":20
   },
-  "t_bk_vvardenfellsepidemictr": {
-    "value": 25
+  "t_bk_historysaturailashotn":{
+    "value":50
   },
-  "t_bk_wabbajackshotn": {
-    "value": 50
+  "t_bk_historysaturaliahr":{
+    "value":50
   },
-  "t_bk_wabbajacktr": {
-    "value": 250
+  "t_bk_historysecondempirepc":{
+    "value":40
   },
-  "t_bk_warmthtr": {
-    "value": 70
+  "t_bk_hlaaluplanstr":{
+    "value":100
   },
-  "t_bk_warofhonortr": {
-    "value": 50
+  "t_bk_holidaysilliacbayhr":{
+    "value":40
   },
-  "t_bk_warofthebirdspc": {
-    "value": 120
+  "t_bk_holidaysilliacbaytr":{
+    "value":40
   },
-  "t_bk_warpedwesttr": {
-    "value": 600
+  "t_bk_holybrothersofmarukhpc":{
+    "value":180
   },
-  "t_bk_warpinthewestpc": {
-    "value": 300
+  "t_bk_homilypilgrimtr":{
+    "value":75
   },
-  "t_bk_warriorschargeshotn": {
-    "value": 325
+  "t_bk_hoomhabitathabitstr":{
+    "value":50
   },
-  "t_bk_warshoredreughshotn": {
-    "value": 70
+  "t_bk_horkerattacksshotn":{
+    "value":50
   },
-  "t_bk_watergettinggirltr_v1": {
-    "value": 50
+  "t_bk_horskvakongerikeshotn_i":{
+    "value":300
   },
-  "t_bk_watersofoblivionshotn": {
-    "value": 250
+  "t_bk_horskvakongerikeshotn_ii":{
+    "value":300
   },
-  "t_bk_wayoftheexposedpalmpc": {
-    "value": 125
+  "t_bk_horskvakongerike_i":{
+    "value":300
   },
-  "t_bk_wayrestjewelofthebaypc": {
-    "value": 120
+  "t_bk_horskvakongerike_ii":{
+    "value":300
   },
-  "t_bk_wealthofwayresttr_v1": {
-    "value": 150
+  "t_bk_houndsofhircinetr":{
+    "value":50
   },
-  "t_bk_wealthofwayresttr_v2": {
-    "value": 150
+  "t_bk_howorsiniumpassedtoorcshr":{
+    "value":200
   },
-  "t_bk_wealthofwayresttr_v3": {
-    "value": 150
+  "t_bk_howorsiniumpassedtoshotn":{
+    "value":200
   },
-  "t_bk_wealthofwayresttr_v4": {
-    "value": 150
+  "t_bk_howtotuneyourhoomtr":{
+    "value":50
   },
-  "t_bk_weateittobecomeittr": {
-    "value": 100
+  "t_bk_howtotersthereticstr":{
+    "value":200
   },
-  "t_bk_weightofguilttr": {
-    "value": 300
+  "t_bk_hsaarikelegyshotn_v1":{
+    "value":150
   },
-  "t_bk_weirgatememorandumpc": {
-    "value": 60
+  "t_bk_hsaarikelegyshotn_v2":{
+    "value":150
   },
-  "t_bk_welcometothearenatr": {
-    "value": 30
+  "t_bk_hsaarikelegyshotn_v3":{
+    "value":150
   },
-  "t_bk_whitebook3e426tr": {
-    "value": 60
+  "t_bk_hypotheticaltreacheryshotn":{
+    "value":175
   },
-  "t_bk_wildelvesshotn": {
-    "value": 35
+  "t_bk_illusionofdeathpc":{
+    "value":220
   },
-  "t_bk_windhelmlettersshotn": {
-    "value": 60
+  "t_bk_illustratedguidetofiretr":{
+    "value":100
   },
-  "t_bk_wolfqueenshotn_v1": {
-    "value": 250
+  "t_bk_imageandthedivinepc":{
+    "value":100
   },
-  "t_bk_wolfqueenshotn_v2": {
-    "value": 250
+  "t_bk_immortalbloodshotn":{
+    "value":175
   },
-  "t_bk_wolfqueenshotn_v3": {
-    "value": 250
+  "t_bk_impcensusdaedralordstr":{
+    "value":100
   },
-  "t_bk_wolfqueenshotn_v4": {
-    "value": 250
+  "t_bk_imperialheraldrymwtr":{
+    "value":75
   },
-  "t_bk_wolfqueenshotn_v5": {
-    "value": 250
+  "t_bk_imperialkitchenpc_v1":{
+    "value":30
   },
-  "t_bk_wolfqueenshotn_v6": {
-    "value": 250
+  "t_bk_imperialkitchenpc_v2":{
+    "value":30
   },
-  "t_bk_wolfqueenshotn_v7": {
-    "value": 250
+  "t_bk_imperialkitchentr_v1":{
+    "value":30
   },
-  "t_bk_wolfqueenshotn_v8": {
-    "value": 250
+  "t_bk_imperialkitchentr_v2":{
+    "value":30
   },
-  "t_bk_woodcutterswifeshotn": {
-    "value": 150
+  "t_bk_imperialnavytr":{
+    "value":30
   },
-  "t_bk_xahxesgiftshotn_v1": {
-    "value": 60
+  "t_bk_imperialproverbsopenpc":{
+    "value":35
   },
-  "t_bk_xahxesgiftshotn_v2": {
-    "value": 60
+  "t_bk_imperialproverbspc":{
+    "value":35
   },
-  "t_bk_xahxesgiftshotn_v3": {
-    "value": 60
+  "t_bk_indorilberothandhermittr":{
+    "value":20
   },
-  "t_bk_yellowbookriddlesshotn": {
-    "value": 30
+  "t_bk_indorilbookofpassingctr":{
+    "value":50
   },
-  "t_bk_yngolandtheseaghostsshotn": {
-    "value": 150
+  "t_bk_indorilbookofpassingotr":{
+    "value":50
   },
-  "t_bkfaction_darkbrotherhshotn": {
-    "value": 10
+  "t_bk_industriesrivermenpc":{
+    "value":40
   },
-  "t_bkfaction_fightersguildpc": {
-    "value": 30
+  "t_bk_industriessloadsoappc":{
+    "value":40
   },
-  "t_bkfaction_fightersguildshotn": {
-    "value": 30
+  "t_bk_iniquitiescurrenterapc":{
+    "value":30
   },
-  "t_bkfaction_impculttr": {
-    "value": 50
+  "t_bk_insidealmastongstr":{
+    "value":60
   },
-  "t_bkfaction_imperialcultshotn": {
-    "value": 30
+  "t_bk_insidetranquilitytr":{
+    "value":40
   },
-  "t_bkfaction_imperiallegionpc": {
-    "value": 30
+  "t_bk_interrogatingdunmertr":{
+    "value":250
   },
-  "t_bkfaction_imperiallegionshotn": {
-    "value": 30
+  "t_bk_iusanimalgodhr":{
+    "value":40
   },
-  "t_bkfaction_magesguildpc": {
-    "value": 30
+  "t_bk_jokestr":{
+    "value":40
   },
-  "t_bkfaction_magesguildshotn": {
-    "value": 30
+  "t_bk_julianitenumberspells":{
+    "value":200
   },
-  "t_bkgen_blankledger01": {
-    "value": 1
+  "t_bk_justpunishmenttr":{
+    "value":300
   },
-  "t_bkgen_briricca accounts01": {
-    "value": 80
+  "t_bk_kendhallbookofriddlespc":{
+    "value":50
   },
-  "t_bkgen_businessledger_01": {
-    "value": 2
+  "t_bk_kendhallbookofriddlesuni":{
+    "value":500
   },
-  "t_bkgen_businessledger_02": {
-    "value": 2
+  "t_bk_kingedwardtr_v01":{
+    "value":250
   },
-  "t_bkgen_businessledger_03": {
-    "value": 2
+  "t_bk_kingedwardtr_v02":{
+    "value":250
   },
-  "t_bkgen_businessledgeropen_03": {
-    "value": 2
+  "t_bk_kingedwardtr_v03":{
+    "value":250
   },
-  "t_bkgen_censusrecord_01": {
-    "value": 4
+  "t_bk_kingedwardtr_v04":{
+    "value":250
   },
-  "t_bkgen_courtverdicts_01": {
-    "value": 2
+  "t_bk_kingedwardtr_v05":{
+    "value":250
   },
-  "t_bkgen_courtverdicts_02": {
-    "value": 2
+  "t_bk_kingedwardtr_v06":{
+    "value":250
   },
-  "t_bkgen_courtverdicts_03": {
-    "value": 4
+  "t_bk_kingedwardtr_v07":{
+    "value":250
   },
-  "t_bkgen_eecaccount_01": {
-    "value": 5
+  "t_bk_kingedwardtr_v08":{
+    "value":250
   },
-  "t_bkgen_eecaccount_02": {
-    "value": 5
+  "t_bk_kingedwardtr_v09":{
+    "value":250
   },
-  "t_bkgen_eecarticlesofinc": {
-    "value": 5
+  "t_bk_kingedwardtr_v10":{
+    "value":250
   },
-  "t_bkgen_eecbylaws_01": {
-    "value": 5
+  "t_bk_kingedwardtr_v11":{
+    "value":250
   },
-  "t_bkgen_eecexport_01": {
-    "value": 5
+  "t_bk_kingedwardtr_v12":{
+    "value":250
   },
-  "t_bkgen_eecimport_01": {
-    "value": 5
+  "t_bk_kinghelsethbiographytr":{
+    "value":35
   },
-  "t_bkgen_eecoffice_01": {
-    "value": 5
+  "t_bk_knightsoftheninepc":{
+    "value":140
   },
-  "t_bkgen_eecship_01": {
-    "value": 5
+  "t_bk_knowyourplacehr":{
+    "value":25
   },
-  "t_bkgen_eecship_02": {
-    "value": 5
+  "t_bk_knowyourplacepc":{
+    "value":25
   },
-  "t_bkgen_legioncasualties_01": {
-    "value": 10
+  "t_bk_laidlowtr":{
+    "value":200
   },
-  "t_bkgen_legionservicerecord_01": {
-    "value": 5
+  "t_bk_lamentforpelinaltr":{
+    "value":35
   },
-  "t_bkgen_messageregistry_01": {
-    "value": 2
+  "t_bk_lamentationstr":{
+    "value":20
   },
-  "t_bkgen_messageregistry_02": {
-    "value": 2
+  "t_bk_languageofbirdspc":{
+    "value":150
   },
-  "t_bkgen_navycasualties_01": {
-    "value": 10
+  "t_bk_lastdartofthescholartr":{
+    "value":60
   },
-  "t_bkgen_navyrecord_01": {
-    "value": 5
+  "t_bk_lastkingoftheayleidspc":{
+    "value":75
   },
-  "t_bkgen_navyrecord_02": {
-    "value": 0
+  "t_bk_lastkingoftheayleidsshotn":{
+    "value":75
   },
-  "t_bkgen_navyservicerecord_01": {
-    "value": 5
+  "t_bk_laststorysirofshotn":{
+    "value":40
   },
-  "t_bkgen_notebook_01": {
-    "value": 2
+  "t_bk_lawandthewillpc":{
+    "value":220
   },
-  "t_bkgen_notebook_02": {
-    "value": 2
+  "t_bk_legalbasicsanchiviusshotn":{
+    "value":200
   },
-  "t_bkgen_prisonledger_01": {
-    "value": 2
+  "t_bk_legalbasicsanchiviustr":{
+    "value":75
   },
-  "t_bkgen_shippinglog_02": {
-    "value": 0
+  "t_bk_legendkratelyhousepc":{
+    "value":135
   },
-  "t_bkgen_tradeinventory_02": {
-    "value": 2
+  "t_bk_legendofredeagleshotn":{
+    "value":150
   },
-  "t_bkgen_trademanifest": {
-    "value": 2
+  "t_bk_legendarycitysancretorpc":{
+    "value":100
   },
-  "t_bkgen_trademanifest_01": {
-    "value": 2
+  "t_bk_legendarycitysancretrshotn":{
+    "value":100
   },
-  "t_bkgen_trademanifest_02": {
-    "value": 2
+  "t_bk_legendaryscourgeshotn":{
+    "value":200
   },
-  "t_bkgen_trademanifest_03": {
-    "value": 2
+  "t_bk_legendsathalwyrmshotn_v1":{
+    "value":200
   },
-  "t_bkgen_trademanifest_04": {
-    "value": 2
+  "t_bk_legendsathalwyrmshotn_v2":{
+    "value":200
   },
-  "t_bkgen_trademanifest_05": {
-    "value": 2
+  "t_bk_lessercatechismjulopenpc":{
+    "value":60
   },
-  "t_bkgen_visitorlist_01": {
-    "value": 2
+  "t_bk_lessercatechismjulpc":{
+    "value":60
   },
-  "t_bkgen_visitorlist_02": {
-    "value": 2
+  "t_bk_leximperia_01":{
+    "value":50
   },
-  "t_bkuni_oghmainfinium": {
-    "value": 50000
+  "t_bk_leximperia_02":{
+    "value":50
   },
-  "t_sc_ralenrothadasmemoirtr": {
-    "value": 200
+  "t_bk_leximperia_03":{
+    "value":50
   },
-  "tr_aimrahic6_keeperslog": {
-    "value": 10
+  "t_bk_leximperia_04":{
+    "value":50
   },
-  "tr_aimrahic6_keeperslog2": {
-    "value": 10
+  "t_bk_leximperia_05":{
+    "value":50
   },
-  "tr_aimrahic6_sermon28revised": {
-    "value": 30
+  "t_bk_leximperia_06":{
+    "value":50
   },
-  "tr_bk-m2-56-delynmanuscript": {
-    "value": 4000
+  "t_bk_leximperia_07":{
+    "value":50
   },
-  "tr_bk_i2-25-bonewalkerbook": {
-    "value": 100
+  "t_bk_lichdomtrapescapeopentr":{
+    "value":300
   },
-  "tr_bk_i2-25_temple-corpse-prep": {
-    "value": 12
+  "t_bk_lichdomtrapescapetr":{
+    "value":300
   },
-  "tr_bk_i2-428_houseshonored": {
-    "value": 50
+  "t_bk_lifeandtheanimatehr":{
+    "value":150
   },
-  "tr_bk_m2_i2-437-tri_chronicle": {
-    "value": 15
+  "t_bk_lifecycledreughpc":{
+    "value":50
   },
-  "tr_bk_m2_i2-437-tri_ledger": {
-    "value": 15
+  "t_bk_lightarmorrepairpc":{
+    "value":100
   },
-  "tr_bk_m2_i2-437-tri_ledger2": {
-    "value": 15
+  "t_bk_likeinthedealtr":{
+    "value":200
   },
-  "tr_bk_m2_i2-437-tri_ledger2uni": {
-    "value": 50
+  "t_bk_lilyofdibellashotn":{
+    "value":200
   },
-  "tr_bk_m2_i2-437-tri_ledger4c": {
-    "value": 15
+  "t_bk_liminalbridgeshr":{
+    "value":225
   },
-  "tr_bk_m2_i2-437-tri_ledger4o": {
-    "value": 15
+  "t_bk_liminalbridgespc":{
+    "value":225
   },
-  "tr_bk_m2_i2-437-tri_ledger5": {
-    "value": 15
+  "t_bk_lineofemperorspc_v01":{
+    "value":80
   },
-  "tr_bk_m2_i3-437-tri_freportm": {
-    "value": 10
+  "t_bk_lineofemperorspc_v02":{
+    "value":80
   },
-  "tr_bk_m3_nethril-records": {
-    "value": 0
+  "t_bk_lineofemperorspc_v03":{
+    "value":80
   },
-  "tr_bk_m4-290-ledger": {
-    "value": 0
+  "t_bk_lineofemperorspc_v04":{
+    "value":80
   },
-  "tr_bk_m4-327_ledger": {
-    "value": 0
+  "t_bk_lineofemperorspc_v05":{
+    "value":80
   },
-  "tr_bk_obituary_i2-428-tri": {
-    "value": 100
+  "t_bk_lineofemperorspc_v06":{
+    "value":80
   },
-  "tr_i2-427_bklament": {
-    "value": 20
+  "t_bk_lineofemperorspc_v07":{
+    "value":80
   },
-  "tr_i2_16 eggmines ledger": {
-    "value": 10
+  "t_bk_lineofemperorspc_v08":{
+    "value":80
   },
-  "tr_i2_238_bk_rogue_indoril": {
-    "value": 10
+  "t_bk_lineofemperorspc_v09":{
+    "value":80
   },
-  "tr_i2_238_bk_scrollledger": {
-    "value": 1
+  "t_bk_lineofemperorspc_v10":{
+    "value":40
   },
-  "tr_i2_9_arazanos lyrics": {
-    "value": 150
+  "t_bk_loathsomecvilisationpc":{
+    "value":120
   },
-  "tr_i3-277_records": {
-    "value": 0
+  "t_bk_lockedcellartr":{
+    "value":250
   },
-  "tr_i3-287_bk_confi_ledger-o": {
-    "value": 0
+  "t_bk_lordjornibretslastdshotn":{
+    "value":300
   },
-  "tr_i3-287_bk_navy_ledger-c": {
-    "value": 0
+  "t_bk_lostandfoundinthereachhr":{
+    "value":100
   },
-  "tr_i3-287_bk_navy_ledger-o": {
-    "value": 0
+  "t_bk_loverslamenthr":{
+    "value":30
   },
-  "tr_i3-374-hla_logbook": {
-    "value": 0
+  "t_bk_loverslamenttr":{
+    "value":100
   },
-  "tr_i3-542_tattered_journal": {
-    "value": 3
+  "t_bk_lusanimalgodtr":{
+    "value":20
   },
-  "tr_i3-685_thetaleofbloodstonesh": {
-    "value": 300
+  "t_bk_lyrisiusstoryhr":{
+    "value":50
   },
-  "tr_i3-688_shippingledger": {
-    "value": 40
+  "t_bk_lyrisiusstoryshotn":{
+    "value":50
   },
-  "tr_i3-729_bk_miningledger": {
-    "value": 30
+  "t_bk_lyrisiusstorytr":{
+    "value":50
   },
-  "tr_i4-256-hla_recordbook1": {
-    "value": 0
+  "t_bk_maceetiquetteshotn":{
+    "value":125
   },
-  "tr_m1_bk_bo_prisonlog": {
-    "value": 0
+  "t_bk_madnessofpelagiusshotn":{
+    "value":20
   },
-  "tr_m1_bk_bowmanjournal_siridun": {
-    "value": 25
+  "t_bk_magicfromtheskyshotn":{
+    "value":350
   },
-  "tr_m1_bk_fw_export_ledger_01": {
-    "value": 1
+  "t_bk_magickamoonsdancertr":{
+    "value":150
   },
-  "tr_m1_bk_fw_export_ledger_02": {
-    "value": 1
+  "t_bk_malahkorcstr":{
+    "value":75
   },
-  "tr_m1_bk_fw_import_ledger_01": {
-    "value": 1
+  "t_bk_manifestovampyrumpc":{
+    "value":100
   },
-  "tr_m1_bk_fw_import_ledger_02": {
-    "value": 1
+  "t_bk_mannimarcoshotn":{
+    "value":325
   },
-  "tr_m1_bk_fw_shipping_log_01": {
-    "value": 1
+  "t_bk_manualofarmorpc":{
+    "value":50
   },
-  "tr_m1_bk_fw_shipping_log_02": {
-    "value": 1
+  "t_bk_manualofarmspc":{
+    "value":50
   },
-  "tr_m1_bk_gilanspeech_uni": {
-    "value": 350
+  "t_bk_manualofspellcraftpc":{
+    "value":50
   },
-  "tr_m1_bk_i1-36": {
-    "value": 40
+  "t_bk_manualredswordpc":{
+    "value":250
   },
-  "tr_m1_bk_icebreaker_prisonlog": {
-    "value": 0
+  "t_bk_mapsm1-1tr":{
+    "value":50
   },
-  "tr_m1_bk_plain": {
-    "value": 10
+  "t_bk_mapsm1-2tr":{
+    "value":50
   },
-  "tr_m1_bk_queenscutlassguests": {
-    "value": 1
+  "t_bk_mapsm2-1tr":{
+    "value":50
   },
-  "tr_m1_bk_rr_einnisa_diary": {
-    "value": 100
+  "t_bk_mapsm2-2tr":{
+    "value":50
   },
-  "tr_m1_bk_rr_minelist": {
-    "value": 0
+  "t_bk_mapsm3-1tr":{
+    "value":50
   },
-  "tr_m1_bk_silverserpentjournal": {
-    "value": 275
+  "t_bk_mapsm3-2tr":{
+    "value":50
   },
-  "tr_m1_bk_t_vault_ledger": {
-    "value": 0
+  "t_bk_mapsm4-1tr":{
+    "value":50
   },
-  "tr_m1_bk_t_visitor_book": {
-    "value": 0
+  "t_bk_mapsm5-1tr":{
+    "value":50
   },
-  "tr_m1_bk_therealbarenziahii": {
-    "value": 200
+  "t_bk_mapsm6-1tr":{
+    "value":50
   },
-  "tr_m1_bk_to_mm_log": {
-    "value": 10
+  "t_bk_marasteartr":{
+    "value":40
   },
-  "tr_m1_briricca_accounts": {
-    "value": 10
+  "t_bk_maskandmirrorpc_v1":{
+    "value":60
   },
-  "tr_m1_fw_antonirecords": {
-    "value": 10
+  "t_bk_maskandmirrorpc_v2":{
+    "value":60
   },
-  "tr_m1_fw_briricca_vaults": {
-    "value": 50
+  "t_bk_masonsongtr":{
+    "value":250
   },
-  "tr_m1_fw_college_enrollmentlog": {
-    "value": 10
+  "t_bk_masterwordinducerpc":{
+    "value":80
   },
-  "tr_m1_fw_mg_absolonnotebook": {
-    "value": 50
+  "t_bk_meditationsdeterminedlawtr":{
+    "value":45
   },
-  "tr_m1_fw_mgencryptionkeys": {
-    "value": 80
+  "t_bk_memoriesofwesthighlandspc":{
+    "value":70
   },
-  "tr_m1_fw_palace_householdrecord": {
-    "value": 30
+  "t_bk_metamorphosistr":{
+    "value":650
   },
-  "tr_m1_fw_palace_treasuryrecords": {
-    "value": 20
+  "t_bk_middledawnpc":{
+    "value":300
   },
-  "tr_m1_n1_bk_i1-34-tel_eggs": {
-    "value": 0
+  "t_bk_militarytacticstr":{
+    "value":100
   },
-  "tr_m1_q_azariahledgerfaked": {
-    "value": 0
+  "t_bk_millioneyedinsectdreamtr":{
+    "value":260
   },
-  "tr_m1_q_azariahledgernorm": {
-    "value": 0
+  "t_bk_millionlessonsshorshotn":{
+    "value":15
   },
-  "tr_m1_q_officialptrrledgers": {
-    "value": 0
+  "t_bk_mineralsofmorrowindtr":{
+    "value":50
   },
-  "tr_m1_telgilan_ledger": {
-    "value": 0
+  "t_bk_mixedunittr_v3":{
+    "value":25
   },
-  "tr_m2_445_mysteriesworm": {
-    "value": 250
+  "t_bk_mixedunittr_v4":{
+    "value":25
   },
-  "tr_m2_bk_ak_prison_log": {
-    "value": 0
+  "t_bk_mixedunittr_v5":{
+    "value":25
   },
-  "tr_m2_bk_captainslog_i2-279": {
-    "value": 20
+  "t_bk_mixedunittactics2":{
+    "value":25
   },
-  "tr_m2_bk_exclog": {
-    "value": 50
+  "t_bk_modernhereticsopenpc":{
+    "value":50
   },
-  "tr_m2_bk_htl_guarherdart_mc_c": {
-    "value": 40
+  "t_bk_modernhereticspc":{
+    "value":50
   },
-  "tr_m2_bk_htl_realbarenziah4_o": {
-    "value": 20
+  "t_bk_morrowindmartialartstr":{
+    "value":150
   },
-  "tr_m2_bk_htl_specialflora_o": {
-    "value": 25
+  "t_bk_mostcrueltradetr":{
+    "value":200
   },
-  "tr_m2_bk_jail-log_i393": {
-    "value": 250
+  "t_bk_mostinfortunatepartytr":{
+    "value":150
   },
-  "tr_m2_bk_loe_hebook4": {
-    "value": 30
+  "t_bk_mothersdiarytr":{
+    "value":200
   },
-  "tr_m2_bk_loe_hebook5": {
-    "value": 1
+  "t_bk_murderofcrowspc":{
+    "value":80
   },
-  "tr_m2_bk_loe_herecordbook2": {
-    "value": 20
+  "t_bk_murudiustr":{
+    "value":65
   },
-  "tr_m2_bk_loe_herecordbook3": {
-    "value": 15
+  "t_bk_mwhistoriaandothrentr":{
+    "value":100
   },
-  "tr_m2_bk_ma_records_book": {
-    "value": 1
+  "t_bk_mysteriesofthewormtr":{
+    "value":250
   },
-  "tr_m2_bk_nchaz_boiler": {
-    "value": 150
+  "t_bk_mysteriousakavirshotn":{
+    "value":50
   },
-  "tr_m2_bk_nchaz_crush": {
-    "value": 100
+  "t_bk_mysteryoftalarahr_v1":{
+    "value":250
   },
-  "tr_m2_bk_nchaz_lime": {
-    "value": 150
+  "t_bk_mysteryoftalarahr_v1open":{
+    "value":250
   },
-  "tr_m2_bk_nchaz_mining": {
-    "value": 100
+  "t_bk_mysteryoftalarahr_v2":{
+    "value":250
   },
-  "tr_m2_bk_sa_he_prison_ledger": {
-    "value": 0
+  "t_bk_mysteryoftalarahr_v2open":{
+    "value":250
   },
-  "tr_m2_bk_sa_he_prison_ledger_2": {
-    "value": 0
+  "t_bk_mysteryoftalarahr_v3":{
+    "value":250
   },
-  "tr_m2_bk_tomaril_list": {
-    "value": 50
+  "t_bk_mysteryoftalarahr_v3open":{
+    "value":250
   },
-  "tr_m2_book_armorer_i323": {
-    "value": 10
+  "t_bk_mysteryoftalarahr_v4":{
+    "value":250
   },
-  "tr_m2_book_command_i323": {
-    "value": 10
+  "t_bk_mysteryoftalarahr_v4open":{
+    "value":250
   },
-  "tr_m2_book_prison_record_i323": {
-    "value": 0
+  "t_bk_mysteryoftalarahr_v5":{
+    "value":250
   },
-  "tr_m2_he_tg2_ledger": {
-    "value": 0
+  "t_bk_mysteryplayoldebonhearttr":{
+    "value":50
   },
-  "tr_m2_he_tg3_codebook": {
-    "value": 50
+  "t_bk_mysticpathemperoropenpc":{
+    "value":220
   },
-  "tr_m2_he_tg_mergenote1": {
-    "value": 0
+  "t_bk_mysticpathemperorpc":{
+    "value":220
   },
-  "tr_m2_htl_alchemistsformulary_c": {
-    "value": 300
+  "t_bk_namesofmothercyrodtr":{
+    "value":50
   },
-  "tr_m2_htl_ancestorsanddunmer_o": {
-    "value": 25
+  "t_bk_narrativeyilgamsehtr_v11":{
+    "value":50
   },
-  "tr_m2_htl_blasphemousrevenant_c": {
-    "value": 55
+  "t_bk_narrativeyilgamsehtr_v12":{
+    "value":50
   },
-  "tr_m2_htl_bookoflifeandservice": {
-    "value": 40
+  "t_bk_narsishistorytr":{
+    "value":100
   },
-  "tr_m2_htl_tamrielicreligions_o": {
-    "value": 40
+  "t_bk_natureoffiretr":{
+    "value":200
   },
-  "tr_m2_i2_384_bk_captainslog": {
-    "value": 1
+  "t_bk_nedesofthedeathlandspc":{
+    "value":80
   },
-  "tr_m2_i2_384_bk_log1": {
-    "value": 1
+  "t_bk_noblemansgardentr":{
+    "value":85
   },
-  "tr_m2_ledger1_i2-414-tri": {
-    "value": 0
+  "t_bk_nobletrickstr":{
+    "value":15
   },
-  "tr_m2_ledger1_i2-77-tri": {
-    "value": 0
+  "t_bk_nordicproverbstr":{
+    "value":60
   },
-  "tr_m2_ledger2_i2-414-tri": {
-    "value": 25
+  "t_bk_nordssummarythereachshotn":{
+    "value":30
   },
-  "tr_m2_ledger2_i2-77-tri": {
-    "value": 0
+  "t_bk_notebooktempclose_01":{
+    "value":10
   },
-  "tr_m2_ledger3_i2-414-tri": {
-    "value": 150
+  "t_bk_notebooktempclose_02":{
+    "value":10
   },
-  "tr_m2_ledger3_i2-77-tri": {
-    "value": 0
+  "t_bk_notebooktempclose_03":{
+    "value":10
   },
-  "tr_m2_ledger4_i2-77-tri": {
-    "value": 0
+  "t_bk_notebooktempclose_04":{
+    "value":10
   },
-  "tr_m2_ledger5_i1-77-tri": {
-    "value": 30
+  "t_bk_notebooktempclose_05":{
+    "value":10
   },
-  "tr_m2_q_28_1_clibergus_ledger": {
-    "value": 0
+  "t_bk_notebooktempopen_01":{
+    "value":10
   },
-  "tr_m2_q_6_felpoem": {
-    "value": 80
+  "t_bk_notebooktempopen_02":{
+    "value":10
   },
-  "tr_m2_q_nisireldiary": {
-    "value": 10
+  "t_bk_notesforredguardhistorytr":{
+    "value":50
   },
-  "tr_m2_zafbaycompany_ledger01": {
-    "value": 2
+  "t_bk_notesracialphylogenyshotn":{
+    "value":275
   },
-  "tr_m3-237_bk_eecaccount": {
-    "value": 50
+  "t_bk_odetundrastridersshotn":{
+    "value":25
   },
-  "tr_m3-239_bk_ledger": {
-    "value": 0
+  "t_bk_oelandershammerhr":{
+    "value":200
   },
-  "tr_m3-278_bk_log": {
-    "value": 0
+  "t_bk_oelandershammeropenhr":{
+    "value":200
   },
-  "tr_m3-278_bk_placeholder5": {
-    "value": 0
+  "t_bk_oelandershammershotn":{
+    "value":200
   },
-  "tr_m3-281_bk_log": {
-    "value": 0
+  "t_bk_oelandershammertr":{
+    "value":55
   },
-  "tr_m3-283_bk-accounta": {
-    "value": 0
+  "t_bk_offireantsandhoomstr":{
+    "value":175
   },
-  "tr_m3-283_bk-accountb": {
-    "value": 0
+  "t_bk_offjoriandholgirshotn":{
+    "value":30
   },
-  "tr_m3-283_bk-eecbylaws": {
-    "value": 0
+  "t_bk_ofjephrehr":{
+    "value":100
   },
-  "tr_m3-283_bk-eecexport": {
-    "value": 0
+  "t_bk_ofjephretr":{
+    "value":25
   },
-  "tr_m3-283_bk-eecimport": {
-    "value": 0
+  "t_bk_ofunspeakablevolumestr":{
+    "value":100
   },
-  "tr_m3-283_bk-eecincorporation": {
-    "value": 0
+  "t_bk_olafandthedragonshotn":{
+    "value":150
   },
-  "tr_m3-283_bk-eecledger": {
-    "value": 0
+  "t_bk_oldfjorithecoveshotn":{
+    "value":40
   },
-  "tr_m3-283_bk-eecledger2": {
-    "value": 0
+  "t_bk_oldmanoftheashlandstr":{
+    "value":80
   },
-  "tr_m3-283_bk-minelist": {
-    "value": 0
+  "t_bk_oldwaysshotn":{
+    "value":40
   },
-  "tr_m3-283_bk-miningledger": {
-    "value": 0
+  "t_bk_olgolgromuksprivatenotestr":{
+    "value":200
   },
-  "tr_m3-283_bk-miningledger2": {
-    "value": 0
+  "t_bk_onartaeumopenpc":{
+    "value":25
   },
-  "tr_m3-501 bunkhouserecord": {
-    "value": 0
+  "t_bk_onartaeumpc":{
+    "value":25
   },
-  "tr_m3-501 bunkhouserecord2": {
-    "value": 0
+  "t_bk_ondaedricdesigntr":{
+    "value":150
   },
-  "tr_m3-649_placeholderrelibook": {
-    "value": 200
+  "t_bk_onhammerfell":{
+    "value":40
   },
-  "tr_m3-649_placeholderrelibook_o": {
-    "value": 50
+  "t_bk_onimmortalitypc":{
+    "value":80
   },
-  "tr_m3-720_bk-imp_charter": {
-    "value": 30
+  "t_bk_onlycanthropyshotn":{
+    "value":200
   },
-  "tr_m3-770_bk_ce": {
-    "value": 20
+  "t_bk_onlycanthropytr":{
+    "value":55
   },
-  "tr_m3-770_bk_ce2": {
-    "value": 20
+  "t_bk_onmorrowindshotn":{
+    "value":40
   },
-  "tr_m3-et2_bk_blades": {
-    "value": 450
+  "t_bk_onnecromanypc":{
+    "value":120
   },
-  "tr_m3-et2_bk_maintenancelog": {
-    "value": 10
+  "t_bk_onoblivionshotn":{
+    "value":40
   },
-  "tr_m3_16accords_i3-471-ind": {
-    "value": 200
+  "t_bk_onperfectionofguartr":{
+    "value":35
   },
-  "tr_m3_283_bk_bookstock": {
-    "value": 100
+  "t_bk_onpuritytr":{
+    "value":250
   },
-  "tr_m3_283_bk_eecexport": {
-    "value": 10
+  "t_bk_onsericultureopenpc":{
+    "value":160
   },
-  "tr_m3_283_bk_eecimport": {
-    "value": 10
+  "t_bk_onsericulturepc":{
+    "value":160
   },
-  "tr_m3_at_literacy_book": {
-    "value": 300
+  "t_bk_onthedefinitionofheresytr":{
+    "value":200
   },
-  "tr_m3_bk_et-15_study": {
-    "value": 180
+  "t_bk_ontheevilsofheresytr":{
+    "value":200
   },
-  "tr_m3_bk_ikinammassulog": {
-    "value": 20
+  "t_bk_ontheimportanceheresytr":{
+    "value":200
   },
-  "tr_m3_bk_researchnotes_c_i3-650": {
-    "value": 20
+  "t_bk_onthemovetr":{
+    "value":150
   },
-  "tr_m3_bk_researchnotes_o_i3-650": {
-    "value": 10
+  "t_bk_orccreationstorytr":{
+    "value":80
   },
-  "tr_m3_blank_i3-559-ind": {
-    "value": 1
+  "t_bk_ordolanesbestiarytr_v09":{
+    "value":60
   },
-  "tr_m3_blankbook2_i3-559-ind": {
-    "value": 1
+  "t_bk_ordolanesbestiarytr_v11":{
+    "value":60
   },
-  "tr_m3_blankbook2o_i3-559-ind": {
-    "value": 1
+  "t_bk_ordolanesbestiarytr_v17":{
+    "value":60
   },
-  "tr_m3_briricca_accounts": {
-    "value": 10
+  "t_bk_originofthesloadshotn":{
+    "value":200
   },
-  "tr_m3_diary_i3-626": {
-    "value": 200
+  "t_bk_originsoftherakishotn":{
+    "value":60
   },
-  "tr_m3_dreynim_log": {
-    "value": 0
+  "t_bk_paintedpeoplestr":{
+    "value":25
   },
-  "tr_m3_faircopy10_i3-559-ind": {
-    "value": 15
+  "t_bk_pearlbetwixtempires_01tr":{
+    "value":250
   },
-  "tr_m3_faircopy11_i3-559-ind": {
-    "value": 15
+  "t_bk_pearlbetwixtempires_02tr":{
+    "value":250
   },
-  "tr_m3_faircopy12_i3-559-ind": {
-    "value": 15
+  "t_bk_pensionancestormothpc":{
+    "value":75
   },
-  "tr_m3_faircopy13_i3-559-ind": {
-    "value": 15
+  "t_bk_peoplesofthereachshotn":{
+    "value":40
   },
-  "tr_m3_faircopy14_i3-559-ind": {
-    "value": 15
+  "t_bk_persistencedaedricvenerapc":{
+    "value":80
   },
-  "tr_m3_faircopy15_i3-559-ind": {
-    "value": 15
+  "t_bk_physicalitieswerewolvespc":{
+    "value":150
   },
-  "tr_m3_faircopycov_i3-559-ind": {
-    "value": 10
+  "t_bk_pigchildrenhr":{
+    "value":100
   },
-  "tr_m3_faircopyfott_i3-559-ind": {
-    "value": 5
+  "t_bk_pigchildrenshotn":{
+    "value":100
   },
-  "tr_m3_faircopyhfd_i3-559-ind": {
-    "value": 5
+  "t_bk_pocketguide1pc":{
+    "value":20
   },
-  "tr_m3_faircopyss_i3-559-ind": {
-    "value": 10
+  "t_bk_politicalhierarchyskyshotn":{
+    "value":40
   },
-  "tr_m3_faircopyta_i3-559-ind": {
-    "value": 5
+  "t_bk_portofanvilpc":{
+    "value":50
   },
-  "tr_m3_faircopytbodad_i3-559-ind": {
-    "value": 5
+  "t_bk_postinghuntshotn":{
+    "value":200
   },
-  "tr_m3_faircopyvam_i3-559-ind": {
-    "value": 5
+  "t_bk_privilegesofthedeadpc":{
+    "value":150
   },
-  "tr_m3_guestbook_i3-128-ind": {
-    "value": 0
+  "t_bk_properlockdesignpc":{
+    "value":30
   },
-  "tr_m3_i3-534-ind": {
-    "value": 100
+  "t_bk_provincestamrielshotn":{
+    "value":60
   },
-  "tr_m3_journalvoryngilnam": {
-    "value": 40
+  "t_bk_purloinedshadowsshotn":{
+    "value":215
   },
-  "tr_m3_ledger_i3-467-ind": {
-    "value": 0
+  "t_bk_quarterpalmliturgypc":{
+    "value":200
   },
-  "tr_m3_oe_antiofirmament": {
-    "value": 40
+  "t_bk_radrstagkingshotn":{
+    "value":150
   },
-  "tr_m3_oe_astrographybook": {
-    "value": 1500
+  "t_bk_raidpyandoneashotn_v1":{
+    "value":150
   },
-  "tr_m3_oe_astrographybook02": {
-    "value": 1500
+  "t_bk_raidpyandoneashotn_v2":{
+    "value":150
   },
-  "tr_m3_oe_bk_ebonhthistory1": {
-    "value": 30
+  "t_bk_raidpyandoneashotn_v3":{
+    "value":150
   },
-  "tr_m3_oe_bk_ebonhthistory2uni": {
-    "value": 60
+  "t_bk_raidpyandoneashotn_v4":{
+    "value":150
   },
-  "tr_m3_oe_bk_etcensus_record_01": {
-    "value": 4
+  "t_bk_raidpyandoneashotn_v5":{
+    "value":150
   },
-  "tr_m3_oe_bk_etcensus_record_02": {
-    "value": 4
+  "t_bk_raidpyandoneashotn_v6":{
+    "value":150
   },
-  "tr_m3_oe_bk_etcensus_record_03": {
-    "value": 4
+  "t_bk_raidpyandoneashotn_v7":{
+    "value":150
   },
-  "tr_m3_oe_bk_etcensus_record_04": {
-    "value": 4
+  "t_bk_rainofsandtr":{
+    "value":75
   },
-  "tr_m3_oe_bk_etcensus_record_05": {
-    "value": 4
+  "t_bk_realbarenziahhr_v2_uncens":{
+    "value":20
   },
-  "tr_m3_oe_bk_etcensus_record_06": {
-    "value": 4
+  "t_bk_realmeaningoflifetr":{
+    "value":40
   },
-  "tr_m3_oe_bk_etprisonlog": {
-    "value": 0
+  "t_bk_reality&otherfalsehoodspc":{
+    "value":215
   },
-  "tr_m3_oe_bk_etshipping_log_01": {
-    "value": 2
+  "t_bk_rearguardhr":{
+    "value":200
   },
-  "tr_m3_oe_clandestinetalosbk": {
-    "value": 250
+  "t_bk_reaversongsshotn_v1":{
+    "value":60
   },
-  "tr_m3_oe_curia_archive": {
-    "value": 50
+  "t_bk_reaversongsshotn_v2":{
+    "value":60
   },
-  "tr_m3_oe_enixcaripusjournal": {
-    "value": 0
+  "t_bk_reaversongsshotn_v3":{
+    "value":60
   },
-  "tr_m3_oe_et9_highrocklogbook": {
-    "value": 50
+  "t_bk_recordingheadsopentr":{
+    "value":100
   },
-  "tr_m3_oe_saturniidaecodex": {
-    "value": 100
+  "t_bk_recordingheadstr":{
+    "value":100
   },
-  "tr_m3_q_5_journal": {
-    "value": 2
+  "t_bk_redbookriddlesshotn":{
+    "value":50
   },
-  "tr_m3_q_dolynjournal": {
-    "value": 50
+  "t_bk_redkitchenreaderpc":{
+    "value":215
   },
-  "tr_m3_q_oe_urien_journal": {
-    "value": 20
+  "t_bk_redemptiontr_v1":{
+    "value":40
   },
-  "tr_m3_q_theriftbkfloat1": {
-    "value": 0
+  "t_bk_redemptiontr_v2":{
+    "value":40
   },
-  "tr_m3_q_theriftbkfloat2": {
-    "value": 0
+  "t_bk_redemptiontr_v3":{
+    "value":40
   },
-  "tr_m3_q_theriftbkfloat3": {
-    "value": 0
+  "t_bk_redemptiontr_v4":{
+    "value":40
   },
-  "tr_m3_q_theriftbkfloat4": {
-    "value": 0
+  "t_bk_redemptiontr_v5":{
+    "value":40
   },
-  "tr_m3_q_theriftbkfloat5": {
-    "value": 0
+  "t_bk_redguardstheirhistoryshotn":{
+    "value":270
   },
-  "tr_m3_q_theriftbkfloat6": {
-    "value": 0
+  "t_bk_redguardstheirhistorytr":{
+    "value":200
   },
-  "tr_m3_q_theriftbook1": {
-    "value": 300
+  "t_bk_refugeeshr":{
+    "value":140
   },
-  "tr_m3_q_theriftbook2": {
-    "value": 300
+  "t_bk_refugeesshotn":{
+    "value":140
   },
-  "tr_m3_q_theriftbook3": {
-    "value": 300
+  "t_bk_regardsdunmerchitintr":{
+    "value":75
   },
-  "tr_m3_tharonen_ledger": {
-    "value": 0
+  "t_bk_regrettr":{
+    "value":20
   },
-  "tr_m4-114_archivalrecords": {
-    "value": 0
+  "t_bk_remansonofreman":{
+    "value":50
   },
-  "tr_m4-114_blankledger": {
-    "value": 2
+  "t_bk_remanadapc":{
+    "value":150
   },
-  "tr_m4-114_censusrecord": {
-    "value": 0
+  "t_bk_remanadashotn":{
+    "value":150
   },
-  "tr_m4-114_chartersrecord_01": {
-    "value": 0
+  "t_bk_remanadatr_v1":{
+    "value":20
   },
-  "tr_m4-114_chartersrecord_02": {
-    "value": 0
+  "t_bk_remanadatr_v2":{
+    "value":20
   },
-  "tr_m4-114_councilledger_01": {
-    "value": 0
+  "t_bk_restlessnorthshotn_v1":{
+    "value":30
   },
-  "tr_m4-114_councilledger_02": {
-    "value": 0
+  "t_bk_restlessnorthshotn_v2":{
+    "value":30
   },
-  "tr_m4-114_notebook": {
-    "value": 0
+  "t_bk_restlessnorthshotn_v3":{
+    "value":30
   },
-  "tr_m4-114_treasuryledger": {
-    "value": 0
+  "t_bk_riddlesgoodwmeadshotn":{
+    "value":50
   },
-  "tr_m4-323_bk_alchform_c": {
-    "value": 300
+  "t_bk_rislavtherighteouspc":{
+    "value":200
   },
-  "tr_m4-471_bk_journal": {
-    "value": 1
+  "t_bk_rislavtherighteousshotn":{
+    "value":80
   },
-  "tr_m4-503_bk_mage_journal_uni": {
-    "value": 1
+  "t_bk_rudesongtr":{
+    "value":30
   },
-  "tr_m4-519_bk_journal": {
-    "value": 25
+  "t_bk_ruhnaniaalmsivitr":{
+    "value":350
   },
-  "tr_m4_ando_manore_guestbook": {
-    "value": 1
+  "t_bk_ruminationselderscrollspc":{
+    "value":80
   },
-  "tr_m4_andof_bk_hcc1": {
-    "value": 50
+  "t_bk_sacredwitnessshotn":{
+    "value":150
   },
-  "tr_m4_andof_bk_hcc2": {
-    "value": 50
+  "t_bk_saintandlefthandpc":{
+    "value":180
   },
-  "tr_m4_andof_bk_hcc3": {
-    "value": 50
+  "t_bk_saintrilmslessontr":{
+    "value":25
   },
-  "tr_m4_andog_clerk1": {
-    "value": 2
+  "t_bk_sakapunikatr":{
+    "value":250
   },
-  "tr_m4_andog_inventory1": {
-    "value": 2
+  "t_bk_sayingschurchmotherspc":{
+    "value":100
   },
-  "tr_m4_andog_inventory2": {
-    "value": 2
+  "t_bk_scholarguidetonymphshr":{
+    "value":100
   },
-  "tr_m4_andog_inventory3": {
-    "value": 2
+  "t_bk_scholarguidetonymphstr":{
+    "value":20
   },
-  "tr_m4_andog_lawverdicts": {
-    "value": 2
+  "t_bk_seaofghostsshotn":{
+    "value":70
   },
-  "tr_m4_andog_lawverdicts2": {
-    "value": 2
+  "t_bk_seconddoortr":{
+    "value":200
   },
-  "tr_m4_andomg_q3notes": {
-    "value": 150
+  "t_bk_secretthroneofvampirespc":{
+    "value":25
   },
-  "tr_m4_andoport_contraband02": {
-    "value": 10
+  "t_bk_seekinghometr":{
+    "value":150
   },
-  "tr_m4_andoport_warehouse01": {
-    "value": 10
+  "t_bk_sermonofthesaintstr":{
+    "value":50
   },
-  "tr_m4_andoport_warehouse02": {
-    "value": 20
+  "t_bk_sermonzerotr":{
+    "value":200
   },
-  "tr_m4_andoth_andasmanorledger01": {
-    "value": 80
+  "t_bk_sevenfamiliestr_v1":{
+    "value":50
   },
-  "tr_m4_andoth_andasmanorledger02": {
-    "value": 50
+  "t_bk_sevenfamiliestr_v2":{
+    "value":50
   },
-  "tr_m4_andothdweruinbook01": {
-    "value": 30
+  "t_bk_sevenfightsaldudagshotn_v1":{
+    "value":80
   },
-  "tr_m4_bk_buffleheadlog": {
-    "value": 10
+  "t_bk_sevenfightsaldudagshotn_v2":{
+    "value":80
   },
-  "tr_m4_bk_burnthonoramong": {
-    "value": 2
+  "t_bk_sevenfightsaldudagshotn_v3":{
+    "value":80
   },
-  "tr_m4_bk_liturgy_i4-263": {
-    "value": 250
+  "t_bk_sevenfightsaldudagshotn_v6":{
+    "value":80
   },
-  "tr_m4_fg_cliffracerbooklet": {
-    "value": 50
+  "t_bk_sevenfightsaldudagtr_v1":{
+    "value":70
   },
-  "tr_m4_hh_gavros_journal": {
-    "value": 10
+  "t_bk_sevenfightsaldudagtr_v2":{
+    "value":70
   },
-  "tr_m4_hh_sarusledger": {
-    "value": 2
+  "t_bk_sevenfightsaldudagtr_v3":{
+    "value":70
   },
-  "tr_m4_il_moriobook": {
-    "value": 0
+  "t_bk_sevenfightsaldudagtr_v6":{
+    "value":70
   },
-  "tr_m4_ledger_i4-270-hla": {
-    "value": 10
+  "t_bk_sevenpennantstr":{
+    "value":300
   },
-  "tr_m4_q_mm_atrijournal": {
-    "value": 2
+  "t_bk_sevenvarietiesshadowstr":{
+    "value":150
   },
-  "tr_m4_q_troupe_skillbook": {
-    "value": 250
+  "t_bk_sheogorathmusicshotn":{
+    "value":20
   },
-  "tr_m4_tt_andothrenledger": {
-    "value": 80
+  "t_bk_shezarrandthedivinesopenpc":{
+    "value":115
   },
-  "tr_m4_veranzaris_book_filthy": {
-    "value": 0
+  "t_bk_shezarrandthedivinespc":{
+    "value":115
   },
-  "tr_m4_veranzaris_book_heresy": {
-    "value": 200
+  "t_bk_shezarrandthedivinesshotn":{
+    "value":115
   },
-  "tr_m4_veranzaris_book_liturgy": {
-    "value": 250
+  "t_bk_shezarrssongopenpc":{
+    "value":300
   },
-  "tr_m4_veranzaris_book_myths": {
-    "value": 300
+  "t_bk_shezarrssongpc":{
+    "value":300
   },
-  "tr_m4_veranzaris_book_rotting": {
-    "value": 0
+  "t_bk_shorsonofshortr":{
+    "value":50
   },
-  "tr_m4_veranzaris_book_saom12": {
-    "value": 250
+  "t_bk_shoresofdwynnentr":{
+    "value":55
   },
-  "tr_m4_veranzaris_book_saom6": {
-    "value": 250
+  "t_bk_shorthistoryempirespc":{
+    "value":50
   },
-  "tr_m4_veranzaris_book_saom9": {
-    "value": 150
+  "t_bk_silencehr":{
+    "value":230
   },
-  "tr_m4_veranzaris_book_vitharn": {
-    "value": 250
+  "t_bk_silencehropen":{
+    "value":230
   },
-  "tr_m4_veranzaris_book_zealotry": {
-    "value": 250
+  "t_bk_sixtruthsofshadowshotn":{
+    "value":300
   },
-  "tr_rothr_eggmine5_mineledger": {
-    "value": 0
+  "t_bk_skindeeptr":{
+    "value":60
   },
-  "tr_rothr_eggmine5_mineledger_o": {
-    "value": 0
+  "t_bk_skylampnighttr":{
+    "value":25
   },
-  "tr_verulas pass_mtmasterancient": {
-    "value": 50
+  "t_bk_smallkindnesstr":{
+    "value":200
   },
-  "tr_verulas pass_mtmasterbook": {
-    "value": 50
+  "t_bk_softdoctrinesofmagnustr":{
+    "value":40
   },
-  "bk_playscript": {
-    "value": 250
+  "t_bk_songaskeldemenshotn":{
+    "value":30
   },
-  "bk_nermarcnotes": {
-    "value": 20
+  "t_bk_songofhrormirshotn":{
+    "value":295
   },
-  "book_dwe_pipe00": {
-    "value": 150
+  "t_bk_songofpelinalshotn":{
+    "value":250
   },
-  "book_dwe_cogs00": {
-    "value": 100
+  "t_bk_songofpelinaltr_v1":{
+    "value":100
   },
-  "book_dwe_mach00": {
-    "value": 150
+  "t_bk_songofpelinaltr_v2":{
+    "value":100
   },
-  "book_dwe_water00": {
-    "value": 100
+  "t_bk_songofpelinaltr_v3":{
+    "value":100
   },
-  "book_dwe_power_con00": {
-    "value": 150
+  "t_bk_songofpelinaltr_v4":{
+    "value":100
   },
-  "book_dwe_metal_fab00": {
-    "value": 100
+  "t_bk_songofpelinaltr_v5":{
+    "value":100
   },
-  "book_dwe_boom00": {
-    "value": 100
+  "t_bk_songofpelinaltr_v6":{
+    "value":100
   },
-  "bk_artifacts_tamriel": {
-    "value": 250
+  "t_bk_songofpelinaltr_v7":{
+    "value":100
+  },
+  "t_bk_songofpelinaltr_v8":{
+    "value":100
+  },
+  "t_bk_songofthelabyrinthshotn":{
+    "value":50
+  },
+  "t_bk_songofthereturnshotn_v02":{
+    "value":150
+  },
+  "t_bk_songofthereturnshotn_v07":{
+    "value":150
+  },
+  "t_bk_songofthereturnshotn_v19":{
+    "value":150
+  },
+  "t_bk_songofthereturnshotn_v24":{
+    "value":150
+  },
+  "t_bk_songofthereturnshotn_v56":{
+    "value":150
+  },
+  "t_bk_songskingwulfharthshotn":{
+    "value":30
+  },
+  "t_bk_songsofstuportr":{
+    "value":60
+  },
+  "t_bk_soulsblackandwhiteshotn":{
+    "value":180
+  },
+  "t_bk_spawnofashtr":{
+    "value":70
+  },
+  "t_bk_specialfloratamrielshotn":{
+    "value":25
+  },
+  "t_bk_spectrumstudytr":{
+    "value":300
+  },
+  "t_bk_stirkhistoriespc":{
+    "value":20
+  },
+  "t_bk_stockexchangeledger":{
+    "value":100
+  },
+  "t_bk_studylockednoveltr":{
+    "value":115
+  },
+  "t_bk_studyondreughstr":{
+    "value":35
+  },
+  "t_bk_studyonguarstr":{
+    "value":50
+  },
+  "t_bk_sudiangqergotr":{
+    "value":50
+  },
+  "t_bk_suppositionoffreedomtr":{
+    "value":150
+  },
+  "t_bk_taleofdrozirapc":{
+    "value":150
+  },
+  "t_bk_taleofkingvragesonstr":{
+    "value":125
+  },
+  "t_bk_talesofkieranhr":{
+    "value":150
+  },
+  "t_bk_talesofkierantr":{
+    "value":150
+  },
+  "t_bk_taleswovencitypc_v1":{
+    "value":200
+  },
+  "t_bk_taleswovencitypc_v2":{
+    "value":200
+  },
+  "t_bk_talhjoldeshotn_v1":{
+    "value":40
+  },
+  "t_bk_talhjoldeshotn_v2":{
+    "value":40
+  },
+  "t_bk_talhjoldeshotn_v3":{
+    "value":40
+  },
+  "t_bk_talhjoldeshotn_v4":{
+    "value":40
+  },
+  "t_bk_talhjoldeshotn_v5":{
+    "value":40
+  },
+  "t_bk_talkingguarofvhuli_itr":{
+    "value":100
+  },
+  "t_bk_talkingguarofvhul_itr":{
+    "value":100
+  },
+  "t_bk_talosdragonbumtr":{
+    "value":30
+  },
+  "t_bk_tasteofsugartr":{
+    "value":200
+  },
+  "t_bk_teachingsmasterstudenttr":{
+    "value":100
+  },
+  "t_bk_teleportationpraxispc_v1":{
+    "value":120
+  },
+  "t_bk_teleportationpraxispc_v2":{
+    "value":120
+  },
+  "t_bk_teleportationpraxispc_v3":{
+    "value":120
+  },
+  "t_bk_telvanniconstructiontr":{
+    "value":50
+  },
+  "t_bk_templezerowarningpc":{
+    "value":25
+  },
+  "t_bk_tencommandmentspc":{
+    "value":10
+  },
+  "t_bk_thealikrhr":{
+    "value":30
+  },
+  "t_bk_thealikrshotn":{
+    "value":170
+  },
+  "t_bk_thealikrtr":{
+    "value":30
+  },
+  "t_bk_thebuyinggamehr":{
+    "value":200
+  },
+  "t_bk_theebonarmhr":{
+    "value":40
+  },
+  "t_bk_theebonarmtr":{
+    "value":40
+  },
+  "t_bk_thefaeriehr":{
+    "value":70
+  },
+  "t_bk_thefaerietr":{
+    "value":20
+  },
+  "t_bk_thefaithfultr":{
+    "value":460
+  },
+  "t_bk_thefirstscrollofbaandartr":{
+    "value":55
+  },
+  "t_bk_thefourtr":{
+    "value":50
+  },
+  "t_bk_thegrandallianceshotn_v1":{
+    "value":50
+  },
+  "t_bk_thegrandallianceshotn_v2":{
+    "value":50
+  },
+  "t_bk_thegrandallianceshotn_v3":{
+    "value":50
+  },
+  "t_bk_thegrandallianceshotn_v4":{
+    "value":50
+  },
+  "t_bk_thelanternthieftr":{
+    "value":250
+  },
+  "t_bk_thelightandthedarkhr":{
+    "value":50
+  },
+  "t_bk_thelightandthedarktr":{
+    "value":50
+  },
+  "t_bk_thememorystonetr":{
+    "value":75
+  },
+  "t_bk_themirrorhr":{
+    "value":225
+  },
+  "t_bk_thenecklacetr":{
+    "value":50
+  },
+  "t_bk_theoriginofvampirestr":{
+    "value":175
+  },
+  "t_bk_theperyitonvol1closetr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol1opentr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol2closetr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol2opentr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol3closetr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol3opentr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol4closetr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol4opentr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol5closetr":{
+    "value":200
+  },
+  "t_bk_theperyitonvol5opentr":{
+    "value":200
+  },
+  "t_bk_thepurposeofthecorkbulbtr":{
+    "value":100
+  },
+  "t_bk_thesagehr":{
+    "value":300
+  },
+  "t_bk_thesageshotn":{
+    "value":300
+  },
+  "t_bk_thesagetr":{
+    "value":150
+  },
+  "t_bk_theseasonstr":{
+    "value":175
+  },
+  "t_bk_thetormentklauseinhr_v1":{
+    "value":250
+  },
+  "t_bk_thetormentklauseinhr_v2":{
+    "value":300
+  },
+  "t_bk_thetormentklauseintr_v1":{
+    "value":250
+  },
+  "t_bk_thetormentklauseintr_v2":{
+    "value":300
+  },
+  "t_bk_theuprisingstr_v1":{
+    "value":40
+  },
+  "t_bk_theuprisingstr_v2":{
+    "value":40
+  },
+  "t_bk_thewarofbetonyhr_v1":{
+    "value":115
+  },
+  "t_bk_thewarofbetonyhr_v2":{
+    "value":115
+  },
+  "t_bk_theworshipofashlanderstr":{
+    "value":50
+  },
+  "t_bk_thirddoorshotn":{
+    "value":250
+  },
+  "t_bk_thirskhistoryshotn":{
+    "value":75
+  },
+  "t_bk_threedeathshousemoratr":{
+    "value":35
+  },
+  "t_bk_tometempclose_01":{
+    "value":80
+  },
+  "t_bk_tometempclose_02":{
+    "value":80
+  },
+  "t_bk_tometempclose_03":{
+    "value":80
+  },
+  "t_bk_tometempclose_04":{
+    "value":80
+  },
+  "t_bk_tometempclose_05":{
+    "value":80
+  },
+  "t_bk_tometempclose_06":{
+    "value":200
+  },
+  "t_bk_tometempopen_01":{
+    "value":80
+  },
+  "t_bk_tometempopen_02":{
+    "value":80
+  },
+  "t_bk_toolsofthetradetr":{
+    "value":50
+  },
+  "t_bk_towerortombpc":{
+    "value":40
+  },
+  "t_bk_traditionalsloadtaletr":{
+    "value":20
+  },
+  "t_bk_travelsoftyaldirennipc":{
+    "value":140
+  },
+  "t_bk_treatisecalcinatoruseshotn":{
+    "value":250
+  },
+  "t_bk_trialssaintalessiaopenpc":{
+    "value":45
+  },
+  "t_bk_trialssaintalessiapc":{
+    "value":45
+  },
+  "t_bk_truefolktr":{
+    "value":30
+  },
+  "t_bk_trueintrospectionhlaalutr":{
+    "value":30
+  },
+  "t_bk_trueintrospectionindoriltr":{
+    "value":30
+  },
+  "t_bk_trueintrospectionredorantr":{
+    "value":30
+  },
+  "t_bk_truejusticetr":{
+    "value":250
+  },
+  "t_bk_truenatureorcsshotn":{
+    "value":30
+  },
+  "t_bk_truesapiencedresnobilitytr":{
+    "value":30
+  },
+  "t_bk_truetelvanninobilitytr":{
+    "value":30
+  },
+  "t_bk_truthofthebearclanshotn":{
+    "value":30
+  },
+  "t_bk_twostancesonknifetr":{
+    "value":180
+  },
+  "t_bk_uni_alessiandoctrinespc":{
+    "value":50000
+  },
+  "t_bk_uni_deadricseptistr":{
+    "value":3398
+  },
+  "t_bk_uni_fishystickpc":{
+    "value":5
+  },
+  "t_bk_uni_thrassiancampaignpc":{
+    "value":500
+  },
+  "t_bk_unseenpeopletr":{
+    "value":65
+  },
+  "t_bk_uprisingalmalexiatr":{
+    "value":200
+  },
+  "t_bk_val-staagvesturholashotn":{
+    "value":150
+  },
+  "t_bk_vampiresilliacbayhr_v1":{
+    "value":50
+  },
+  "t_bk_vampiresilliacbayhr_v2":{
+    "value":100
+  },
+  "t_bk_vampiresilliacbaytr_v1":{
+    "value":50
+  },
+  "t_bk_vampiresilliacbaytr_v2":{
+    "value":100
+  },
+  "t_bk_vampiresoftelvannistr":{
+    "value":50
+  },
+  "t_bk_varietiesofthoughttr_v1":{
+    "value":100
+  },
+  "t_bk_varietiesofthoughttr_v2":{
+    "value":100
+  },
+  "t_bk_varietiesofthoughttr_v3":{
+    "value":100
+  },
+  "t_bk_vindicationdragonbreakpc":{
+    "value":160
+  },
+  "t_bk_visionsofkallisttr_v73-74":{
+    "value":0
+  },
+  "t_bk_voyagethreewinds1shotn":{
+    "value":65
+  },
+  "t_bk_voyagethreewinds2shotn":{
+    "value":65
+  },
+  "t_bk_vvardenfellsepidemictr":{
+    "value":25
+  },
+  "t_bk_wabbajackhr":{
+    "value":250
+  },
+  "t_bk_wabbajackshotn":{
+    "value":50
+  },
+  "t_bk_wabbajacktr":{
+    "value":250
+  },
+  "t_bk_warofhonortr":{
+    "value":50
+  },
+  "t_bk_warofthebirdspc":{
+    "value":120
+  },
+  "t_bk_warshoredreughshotn":{
+    "value":70
+  },
+  "t_bk_warmthtr":{
+    "value":70
+  },
+  "t_bk_warpinthewestpc":{
+    "value":300
+  },
+  "t_bk_warpedwesttr":{
+    "value":600
+  },
+  "t_bk_warriorschargeshotn":{
+    "value":325
+  },
+  "t_bk_watergettinggirltr_v1":{
+    "value":50
+  },
+  "t_bk_watersofoblivionshotn":{
+    "value":250
+  },
+  "t_bk_wayoftheexposedpalmpc":{
+    "value":125
+  },
+  "t_bk_wayrestjewelofthebayhr":{
+    "value":120
+  },
+  "t_bk_wayrestjewelofthebaypc":{
+    "value":120
+  },
+  "t_bk_wayrestjewelofthebaytr":{
+    "value":90
+  },
+  "t_bk_weateittobecomeittr":{
+    "value":100
+  },
+  "t_bk_wealthofwayresthr_v1":{
+    "value":150
+  },
+  "t_bk_wealthofwayresthr_v2":{
+    "value":150
+  },
+  "t_bk_wealthofwayresthr_v3":{
+    "value":150
+  },
+  "t_bk_wealthofwayresthr_v4":{
+    "value":150
+  },
+  "t_bk_wealthofwayresttr_v1":{
+    "value":150
+  },
+  "t_bk_wealthofwayresttr_v2":{
+    "value":150
+  },
+  "t_bk_wealthofwayresttr_v3":{
+    "value":150
+  },
+  "t_bk_wealthofwayresttr_v4":{
+    "value":150
+  },
+  "t_bk_weightofguilttr":{
+    "value":300
+  },
+  "t_bk_weirgatememorandumpc":{
+    "value":60
+  },
+  "t_bk_welcometothearenatr":{
+    "value":30
+  },
+  "t_bk_whitebook3e426tr":{
+    "value":60
+  },
+  "t_bk_wildelvesshotn":{
+    "value":35
+  },
+  "t_bk_windhelmlettersshotn":{
+    "value":60
+  },
+  "t_bk_wolfqueenshotn_v1":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v2":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v3":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v4":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v5":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v6":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v7":{
+    "value":250
+  },
+  "t_bk_wolfqueenshotn_v8":{
+    "value":250
+  },
+  "t_bk_woodcutterswifeshotn":{
+    "value":150
+  },
+  "t_bk_xahxesgiftshotn_v1":{
+    "value":60
+  },
+  "t_bk_xahxesgiftshotn_v2":{
+    "value":60
+  },
+  "t_bk_xahxesgiftshotn_v3":{
+    "value":60
+  },
+  "t_bk_yellowbookriddlesshotn":{
+    "value":30
+  },
+  "t_bk_yngolandtheseaghostsshotn":{
+    "value":150
+  },
+  "t_bk_originashyamtr":{
+    "value":100
+  },
+  "t_sc_ralenrothadasmemoirtr":{
+    "value":200
+  },
+  "t_bk_crooktailedkhajiittr":{
+    "value":100
+  },
+  "t_bk_orcsurancetr":{
+    "value":250
+  },
+  "tr_aimrahic6_keeperslog":{
+    "value":10
+  },
+  "tr_aimrahic6_keeperslog2":{
+    "value":10
+  },
+  "tr_aimrahic6_sermon28revised":{
+    "value":30
+  },
+  "tr_bk_m4-327_ledger":{
+    "value":0
+  },
+  "tr_fm_bk_prisonledger":{
+    "value":2
+  },
+  "tr_fm_bk_smugglingnotes":{
+    "value":2
+  },
+  "tr_firemoth_inventoryregist_01":{
+    "value":2
+  },
+  "tr_firemoth_shipwrecklog01":{
+    "value":10
+  },
+  "tr_gan-ettu":{
+    "value":0
+  },
+  "tr_la_paruddmasmaw_int_dung":{
+    "value":0
+  },
+  "tr_la_paruddmasmaw_treasure":{
+    "value":0
+  },
+  "tr_m1_n1_bk_i1-34-tel_eggs":{
+    "value":0
+  },
+  "tr_m2_bk_exclog":{
+    "value":50
+  },
+  "tr_m7_narsis116_npc1":{
+    "value":1
+  },
+  "tr_m7_narsis116_npc2":{
+    "value":1
+  },
+  "tr_m7_smmagnumopus_uni":{
+    "value":1000
+  },
+  "tr_m7_septimsgate_keep_training":{
+    "value":2
+  },
+  "tr_narsis fg note 1":{
+    "value":0
+  },
+  "tr_narsis fg note 2":{
+    "value":0
+  },
+  "tr_narsissewer02note8":{
+    "value":0
+  },
+  "tr_narsissewer03_note3":{
+    "value":0
+  },
+  "tr_narsissewer03_notecqsewer":{
+    "value":0
+  },
+  "tr_narsis_consulate_questnpcs":{
+    "value":1
+  },
+  "tr_narsis_market sewers_n1":{
+    "value":0
+  },
+  "tr_othreletheastnote":{
+    "value":0
+  },
+  "tr_rothr_eggmine5_mineledger":{
+    "value":0
+  },
+  "tr_rothr_eggmine5_mineledger_o":{
+    "value":0
+  },
+  "tr_sh11_virdad_quest":{
+    "value":0
+  },
+  "tr_sh6_h1_nts_2":{
+    "value":0
+  },
+  "tr_sh_kwoomcavemarker":{
+    "value":0
+  },
+  "tr_sh_sc_note":{
+    "value":0
+  },
+  "tr_verulas pass_mtmasterancient":{
+    "value":50
+  },
+  "tr_verulas pass_mtmasterbook":{
+    "value":50
+  },
+  "tr_bk-m2-56-delynmanuscript":{
+    "value":4000
+  },
+  "tr_bk_i2-25-bonewalkerbook":{
+    "value":100
+  },
+  "tr_bk_i2-25_temple-corpse-prep":{
+    "value":12
+  },
+  "tr_bk_i2-428_houseshonored":{
+    "value":50
+  },
+  "tr_bk_m2_i2-437-tri_chronicle":{
+    "value":15
+  },
+  "tr_bk_m2_i2-437-tri_ledger":{
+    "value":15
+  },
+  "tr_bk_m2_i2-437-tri_ledger2":{
+    "value":15
+  },
+  "tr_bk_m2_i2-437-tri_ledger2uni":{
+    "value":50
+  },
+  "tr_bk_m2_i2-437-tri_ledger4c":{
+    "value":15
+  },
+  "tr_bk_m2_i2-437-tri_ledger4o":{
+    "value":15
+  },
+  "tr_bk_m2_i2-437-tri_ledger5":{
+    "value":15
+  },
+  "tr_bk_m2_i3-437-tri_freportm":{
+    "value":10
+  },
+  "tr_bk_m3_nethril-records":{
+    "value":0
+  },
+  "tr_bk_m4-290-ledger":{
+    "value":0
+  },
+  "tr_bk_obituary_i2-428-tri":{
+    "value":100
+  },
+  "tr_i2-427_bklament":{
+    "value":20
+  },
+  "tr_i2_16 eggmines ledger":{
+    "value":10
+  },
+  "tr_i2_238_bk_rogue_indoril":{
+    "value":10
+  },
+  "tr_i2_238_bk_scrollledger":{
+    "value":1
+  },
+  "tr_i2_9_arazanos lyrics":{
+    "value":150
+  },
+  "tr_i3-277_records":{
+    "value":0
+  },
+  "tr_i3-287_bk_confi_ledger-o":{
+    "value":0
+  },
+  "tr_i3-287_bk_navy_ledger-c":{
+    "value":0
+  },
+  "tr_i3-287_bk_navy_ledger-o":{
+    "value":0
+  },
+  "tr_i3-374-hla_logbook":{
+    "value":0
+  },
+  "tr_i3-542_tattered_journal":{
+    "value":3
+  },
+  "tr_i3-685_thetaleofbloodstonesh":{
+    "value":300
+  },
+  "tr_i3-688_shippingledger":{
+    "value":40
+  },
+  "tr_i3-729_bk_miningledger":{
+    "value":30
+  },
+  "tr_i4-256-hla_recordbook1":{
+    "value":0
+  },
+  "tr_m0_firemoth_ic":{
+    "value":0
+  },
+  "tr_m0_firemoth_playerhome":{
+    "value":0
+  },
+  "tr_m1_briricca_accounts":{
+    "value":10
+  },
+  "tr_m1_fw_antonirecords":{
+    "value":10
+  },
+  "tr_m1_fw_briricca_vaults":{
+    "value":50
+  },
+  "tr_m1_fw_college_enrollmentlog":{
+    "value":10
+  },
+  "tr_m1_fw_mgencryptionkeys":{
+    "value":80
+  },
+  "tr_m1_fw_mg_absolonnotebook":{
+    "value":50
+  },
+  "tr_m1_fw_outoforder_prisoner":{
+    "value":1
+  },
+  "tr_m1_fw_palace_householdrecord":{
+    "value":30
+  },
+  "tr_m1_fw_palace_treasuryrecords":{
+    "value":20
+  },
+  "tr_m1_fw_rl_shippinglog01":{
+    "value":100
+  },
+  "tr_m1_fw_rl_shippinglog02":{
+    "value":100
+  },
+  "tr_m1_mark_absolon":{
+    "value":1
+  },
+  "tr_m1_mark_eno_hlaalu":{
+    "value":1
+  },
+  "tr_m1_mark_icebreaker_guard":{
+    "value":1
+  },
+  "tr_m1_mark_kha'rajipc":{
+    "value":1
+  },
+  "tr_m1_mark_mashug":{
+    "value":1
+  },
+  "tr_m1_mark_medhan arvel":{
+    "value":1
+  },
+  "tr_m1_mark_mee_sei":{
+    "value":1
+  },
+  "tr_m1_necmq_prisoner":{
+    "value":1
+  },
+  "tr_m1_telgilan_ledger":{
+    "value":0
+  },
+  "tr_m1_bk_bo_prisonlog":{
+    "value":0
+  },
+  "tr_m1_bk_bowmanjournal_siridun":{
+    "value":25
+  },
+  "tr_m1_bk_gilanspeech_uni":{
+    "value":350
+  },
+  "tr_m1_bk_icebreaker_prisonlog":{
+    "value":0
+  },
+  "tr_m1_bk_plain":{
+    "value":10
+  },
+  "tr_m1_bk_rr_minelist":{
+    "value":0
+  },
+  "tr_m1_bk_rr_einnisa_diary":{
+    "value":100
+  },
+  "tr_m1_bk_silverserpentjournal":{
+    "value":275
+  },
+  "tr_m1_bk_to_mm_log":{
+    "value":10
+  },
+  "tr_m1_bk_t_vault_ledger":{
+    "value":0
+  },
+  "tr_m1_bk_t_visitor_book":{
+    "value":0
+  },
+  "tr_m1_bk_therealbarenziahii":{
+    "value":200
+  },
+  "tr_m1_bk_i1-36":{
+    "value":40
+  },
+  "tr_m1_notes_turimal":{
+    "value":110
+  },
+  "tr_m1_q_azariahledgerfaked":{
+    "value":0
+  },
+  "tr_m1_q_azariahledgernorm":{
+    "value":0
+  },
+  "tr_m1_q_forgedminelist":{
+    "value":0
+  },
+  "tr_m1_q_officialptrrledgers":{
+    "value":0
+  },
+  "tr_m2_445_mysteriesworm":{
+    "value":250
+  },
+  "tr_m2_book_prison_record_i323":{
+    "value":0
+  },
+  "tr_m2_htl_alchemistsformulary_c":{
+    "value":300
+  },
+  "tr_m2_htl_ancestorsanddunmer_o":{
+    "value":25
+  },
+  "tr_m2_htl_blasphemousrevenant_c":{
+    "value":55
+  },
+  "tr_m2_htl_bookoflifeandservice":{
+    "value":40
+  },
+  "tr_m2_htl_tamrielicreligions_o":{
+    "value":40
+  },
+  "tr_m2_he_tg2_ledger":{
+    "value":0
+  },
+  "tr_m2_he_tg3_codebook":{
+    "value":50
+  },
+  "tr_m2_mark_circus_leonos":{
+    "value":1
+  },
+  "tr_m2_mark_ervul":{
+    "value":1
+  },
+  "tr_m2_mark_hansarat":{
+    "value":1
+  },
+  "tr_m2_mark_jeela":{
+    "value":1
+  },
+  "tr_m2_mark_q_27_mineguard_f":{
+    "value":1
+  },
+  "tr_m2_mark_q_29_4_surol":{
+    "value":1
+  },
+  "tr_m2_zafbaycompany_ledger01":{
+    "value":2
+  },
+  "tr_m2_bk_ak_prison_log":{
+    "value":0
+  },
+  "tr_m2_bk_captainslog_i2-279":{
+    "value":20
+  },
+  "tr_m2_bk_htl_guarherdart_mc_c":{
+    "value":40
+  },
+  "tr_m2_bk_htl_specialflora_o":{
+    "value":25
+  },
+  "tr_m2_bk_htl_realbarenziah4_o":{
+    "value":20
+  },
+  "tr_m2_bk_loe_herecordbook2":{
+    "value":20
+  },
+  "tr_m2_bk_loe_herecordbook3":{
+    "value":15
+  },
+  "tr_m2_bk_loe_hebook4":{
+    "value":30
+  },
+  "tr_m2_bk_loe_hebook5":{
+    "value":1
+  },
+  "tr_m2_bk_ma_records_book":{
+    "value":1
+  },
+  "tr_m2_bk_nchaz_boiler":{
+    "value":150
+  },
+  "tr_m2_bk_nchaz_crush":{
+    "value":100
+  },
+  "tr_m2_bk_nchaz_lime":{
+    "value":150
+  },
+  "tr_m2_bk_nchaz_mining":{
+    "value":100
+  },
+  "tr_m2_bk_sa_he_prison_ledger":{
+    "value":0
+  },
+  "tr_m2_bk_sa_he_prison_ledger_2":{
+    "value":0
+  },
+  "tr_m2_bk_tomaril_list":{
+    "value":50
+  },
+  "tr_m2_bk_jail-log_i393":{
+    "value":250
+  },
+  "tr_m2_book_armorer_i323":{
+    "value":10
+  },
+  "tr_m2_book_command_i323":{
+    "value":10
+  },
+  "tr_m2_i2_384_bk_captainslog":{
+    "value":1
+  },
+  "tr_m2_i2_384_bk_log1":{
+    "value":1
+  },
+  "tr_m2_ledger1_i2-414-tri":{
+    "value":0
+  },
+  "tr_m2_ledger1_i2-77-tri":{
+    "value":0
+  },
+  "tr_m2_ledger2_i2-414-tri":{
+    "value":25
+  },
+  "tr_m2_ledger2_i2-77-tri":{
+    "value":0
+  },
+  "tr_m2_ledger3_i2-414-tri":{
+    "value":150
+  },
+  "tr_m2_ledger3_i2-77-tri":{
+    "value":0
+  },
+  "tr_m2_ledger4_i2-77-tri":{
+    "value":0
+  },
+  "tr_m2_ledger5_i1-77-tri":{
+    "value":30
+  },
+  "tr_m2_q_28_1_clibergus_ledger":{
+    "value":0
+  },
+  "tr_m2_q_6_felpoem":{
+    "value":80
+  },
+  "tr_m2_q_nisireldiary":{
+    "value":10
+  },
+  "tr_m2_q_nm_wake_ledger":{
+    "value":0
+  },
+  "tr_m3-237_bk_eecaccount":{
+    "value":50
+  },
+  "tr_m3-239_bk_ledger":{
+    "value":0
+  },
+  "tr_m3-278_bk_log":{
+    "value":0
+  },
+  "tr_m3-278_bk_placeholder5":{
+    "value":0
+  },
+  "tr_m3-281_bk_log":{
+    "value":0
+  },
+  "tr_m3-501 bunkhouserecord":{
+    "value":0
+  },
+  "tr_m3-501 bunkhouserecord2":{
+    "value":0
+  },
+  "tr_m3-649_placeholderrelibook":{
+    "value":200
+  },
+  "tr_m3-649_placeholderrelibook_o":{
+    "value":50
+  },
+  "tr_m3-720_bk-imp_charter":{
+    "value":30
+  },
+  "tr_m3-770_bk_ce":{
+    "value":20
+  },
+  "tr_m3-770_bk_ce2":{
+    "value":20
+  },
+  "tr_m3-et2_bk_blades":{
+    "value":450
+  },
+  "tr_m3-et2_bk_maintenancelog":{
+    "value":10
+  },
+  "tr_m3_16accords_i3-471-ind":{
+    "value":200
+  },
+  "tr_m3_283_bk_bookstock":{
+    "value":100
+  },
+  "tr_m3_283_bk_eecexport":{
+    "value":10
+  },
+  "tr_m3_283_bk_eecimport":{
+    "value":10
+  },
+  "tr_m3_at45_telmanor_sketchbook":{
+    "value":2
+  },
+  "tr_m3_at_18_shippingledger":{
+    "value":40
+  },
+  "tr_m3_at_literacy_book":{
+    "value":300
+  },
+  "tr_m3_at_officerecord_bk_annals":{
+    "value":0
+  },
+  "tr_m3_at_officerecord_bk_ruined":{
+    "value":0
+  },
+  "tr_m3_at_poetrybook_1":{
+    "value":5
+  },
+  "tr_m3_at_ratfriend_journal":{
+    "value":1
+  },
+  "tr_m3_at_ratfriend_questnpc":{
+    "value":1
+  },
+  "tr_m3_briricca_accounts":{
+    "value":10
+  },
+  "tr_m3_dreynim_log":{
+    "value":0
+  },
+  "tr_m3_eec_briricca4_bk":{
+    "value":5
+  },
+  "tr_m3_eec_briricca5_bk":{
+    "value":10
+  },
+  "tr_m3_eec_briricca6_bk":{
+    "value":15
+  },
+  "tr_m3_eec_deldoraid":{
+    "value":1
+  },
+  "tr_m3_eec_mamaeaaid":{
+    "value":1
+  },
+  "tr_m3_eec_merxiaaid":{
+    "value":1
+  },
+  "tr_m3_eec_yakaid":{
+    "value":1
+  },
+  "tr_m3_eec_yontusaid":{
+    "value":1
+  },
+  "tr_m3_mark_antio":{
+    "value":1
+  },
+  "tr_m3_mark_calitia":{
+    "value":1
+  },
+  "tr_m3_mark_eorric":{
+    "value":1
+  },
+  "tr_m3_mark_felmsvelkstud":{
+    "value":1
+  },
+  "tr_m3_mark_fentus":{
+    "value":1
+  },
+  "tr_m3_mark_galug":{
+    "value":1
+  },
+  "tr_m3_mark_gols_sevlor":{
+    "value":1
+  },
+  "tr_m3_mark_illene":{
+    "value":1
+  },
+  "tr_m3_mark_kelkemmello":{
+    "value":1
+  },
+  "tr_m3_mark_khaclannf_player":{
+    "value":1
+  },
+  "tr_m3_mark_lirielleothreleth":{
+    "value":1
+  },
+  "tr_m3_mark_mamaea banapli":{
+    "value":1
+  },
+  "tr_m3_mark_meth_player":{
+    "value":1
+  },
+  "tr_m3_mark_moranie":{
+    "value":1
+  },
+  "tr_m3_mark_naamalvu":{
+    "value":1
+  },
+  "tr_m3_mark_nelos_llothri":{
+    "value":1
+  },
+  "tr_m3_mark_oe_hhontjulfdog":{
+    "value":1
+  },
+  "tr_m3_mark_oe_tg_guards":{
+    "value":1
+  },
+  "tr_m3_mark_ralam":{
+    "value":1
+  },
+  "tr_m3_mark_rathes":{
+    "value":1
+  },
+  "tr_m3_mark_saturius":{
+    "value":1
+  },
+  "tr_m3_mark_threescales":{
+    "value":1
+  },
+  "tr_m3_mark_vols_valdri":{
+    "value":1
+  },
+  "tr_m3_mark_yggulf":{
+    "value":1
+  },
+  "tr_m3_oe_antiofirmament":{
+    "value":40
+  },
+  "tr_m3_oe_astrographybook":{
+    "value":1500
+  },
+  "tr_m3_oe_astrographybook02":{
+    "value":1500
+  },
+  "tr_m3_oe_clandestinetalosbk":{
+    "value":250
+  },
+  "tr_m3_oe_curia_archive":{
+    "value":50
+  },
+  "tr_m3_oe_et9_highrocklogbook":{
+    "value":50
+  },
+  "tr_m3_oe_enixcaripusjournal":{
+    "value":0
+  },
+  "tr_m3_oe_saturniidaecodex":{
+    "value":100
+  },
+  "tr_m3_oe_bk_etcensus_record_01":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etcensus_record_02":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etcensus_record_03":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etcensus_record_04":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etcensus_record_05":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etcensus_record_06":{
+    "value":4
+  },
+  "tr_m3_oe_bk_etprisonlog":{
+    "value":0
+  },
+  "tr_m3_oe_bk_etshipping_log_01":{
+    "value":2
+  },
+  "tr_m3_oe_bk_ebonhthistory1":{
+    "value":30
+  },
+  "tr_m3_oe_bk_ebonhthistory2uni":{
+    "value":60
+  },
+  "tr_m3_tharonen_ledger":{
+    "value":0
+  },
+  "tr_m3_bk_at_tg_q6_ledger2":{
+    "value":0
+  },
+  "tr_m3_bk_et-15_study":{
+    "value":180
+  },
+  "tr_m3_bk_hh_glintmothledger":{
+    "value":30
+  },
+  "tr_m3_bk_ikinammassulog":{
+    "value":20
+  },
+  "tr_m3_bk_researchnotes_c_i3-650":{
+    "value":20
+  },
+  "tr_m3_bk_researchnotes_o_i3-650":{
+    "value":10
+  },
+  "tr_m3_blank_i3-559-ind":{
+    "value":1
+  },
+  "tr_m3_blankbook2_i3-559-ind":{
+    "value":1
+  },
+  "tr_m3_blankbook2o_i3-559-ind":{
+    "value":1
+  },
+  "tr_m3_diary_i3-626":{
+    "value":200
+  },
+  "tr_m3_faircopy10_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopy11_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopy12_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopy13_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopy14_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopy15_i3-559-ind":{
+    "value":15
+  },
+  "tr_m3_faircopycov_i3-559-ind":{
+    "value":10
+  },
+  "tr_m3_faircopyfott_i3-559-ind":{
+    "value":5
+  },
+  "tr_m3_faircopyhfd_i3-559-ind":{
+    "value":5
+  },
+  "tr_m3_faircopyss_i3-559-ind":{
+    "value":10
+  },
+  "tr_m3_faircopyta_i3-559-ind":{
+    "value":5
+  },
+  "tr_m3_faircopytbodad_i3-559-ind":{
+    "value":5
+  },
+  "tr_m3_faircopyvam_i3-559-ind":{
+    "value":5
+  },
+  "tr_m3_guestbook_i3-128-ind":{
+    "value":0
+  },
+  "tr_m3_i3-534-ind":{
+    "value":100
+  },
+  "tr_m3_journalvoryngilnam":{
+    "value":40
+  },
+  "tr_m3_ledger_i3-467-ind":{
+    "value":0
+  },
+  "tr_m3_q_5_journal":{
+    "value":2
+  },
+  "tr_m3_q_dolynjournal":{
+    "value":50
+  },
+  "tr_m3_q_oe_urien_journal":{
+    "value":20
+  },
+  "tr_m3_q_theriftbkfloat1":{
+    "value":0
+  },
+  "tr_m3_q_theriftbkfloat2":{
+    "value":0
+  },
+  "tr_m3_q_theriftbkfloat3":{
+    "value":0
+  },
+  "tr_m3_q_theriftbkfloat4":{
+    "value":0
+  },
+  "tr_m3_q_theriftbkfloat5":{
+    "value":0
+  },
+  "tr_m3_q_theriftbkfloat6":{
+    "value":0
+  },
+  "tr_m3_q_theriftbook1":{
+    "value":300
+  },
+  "tr_m3_q_theriftbook2":{
+    "value":300
+  },
+  "tr_m3_q_theriftbook3":{
+    "value":300
+  },
+  "tr_m4-114_archivalrecords":{
+    "value":0
+  },
+  "tr_m4-114_blankledger":{
+    "value":2
+  },
+  "tr_m4-114_censusrecord":{
+    "value":0
+  },
+  "tr_m4-114_chartersrecord_01":{
+    "value":0
+  },
+  "tr_m4-114_chartersrecord_02":{
+    "value":0
+  },
+  "tr_m4-114_councilledger_01":{
+    "value":0
+  },
+  "tr_m4-114_councilledger_02":{
+    "value":0
+  },
+  "tr_m4-114_notebook":{
+    "value":0
+  },
+  "tr_m4-114_treasuryledger":{
+    "value":0
+  },
+  "tr_m4-323_bk_alchform_c":{
+    "value":300
+  },
+  "tr_m4-471_bk_journal":{
+    "value":1
+  },
+  "tr_m4-519_bk_journal":{
+    "value":25
+  },
+  "tr_m4_atprison_questnpc":{
+    "value":1
+  },
+  "tr_m4_andog_clerk1":{
+    "value":2
+  },
+  "tr_m4_andog_inventory1":{
+    "value":2
+  },
+  "tr_m4_andog_inventory2":{
+    "value":2
+  },
+  "tr_m4_andog_inventory3":{
+    "value":2
+  },
+  "tr_m4_andog_lawverdicts":{
+    "value":2
+  },
+  "tr_m4_andog_lawverdicts2":{
+    "value":2
+  },
+  "tr_m4_andomg_q3notes":{
+    "value":150
+  },
+  "tr_m4_ando_manore_guestbook":{
+    "value":1
+  },
+  "tr_m4_andothdweruinbook01":{
+    "value":30
+  },
+  "tr_m4_andoth_andasmanorledger01":{
+    "value":80
+  },
+  "tr_m4_andoth_andasmanorledger02":{
+    "value":50
+  },
+  "tr_m4_barendreth_ord":{
+    "value":1
+  },
+  "tr_m4_barendreth_vamp":{
+    "value":1
+  },
+  "tr_m4_bk_buffleheadlog":{
+    "value":10
+  },
+  "tr_m4_bk_burnthonoramong":{
+    "value":2
+  },
+  "tr_m4_fg_cliffracerbooklet":{
+    "value":50
+  },
+  "tr_m4_hh_sarusledger":{
+    "value":2
+  },
+  "tr_m4_hh_gavros_journal":{
+    "value":10
+  },
+  "tr_m4_il_moriobook":{
+    "value":0
+  },
+  "tr_m4_mark_algus":{
+    "value":1
+  },
+  "tr_m4_mark_amandin":{
+    "value":1
+  },
+  "tr_m4_mark_ando_hh_player":{
+    "value":1
+  },
+  "tr_m4_mark_ando_tg_player":{
+    "value":1
+  },
+  "tr_m4_mark_aurmazlkaari":{
+    "value":1
+  },
+  "tr_m4_mark_bal_alvayah":{
+    "value":1
+  },
+  "tr_m4_mark_bal_arvsshadan1":{
+    "value":1
+  },
+  "tr_m4_mark_bal_arvsshadan2":{
+    "value":1
+  },
+  "tr_m4_mark_bal_etemmu":{
+    "value":1
+  },
+  "tr_m4_mark_bal_hannattulu":{
+    "value":1
+  },
+  "tr_m4_mark_bal_kashshaptu":{
+    "value":1
+  },
+  "tr_m4_mark_bal_kutagmal":{
+    "value":1
+  },
+  "tr_m4_mark_bal_ofelia":{
+    "value":1
+  },
+  "tr_m4_mark_bal_sathramvolos":{
+    "value":1
+  },
+  "tr_m4_mark_bal_utukkuseri":{
+    "value":1
+  },
+  "tr_m4_mark_bal_player":{
+    "value":1
+  },
+  "tr_m4_mark_baumi":{
+    "value":1
+  },
+  "tr_m4_mark_darra":{
+    "value":1
+  },
+  "tr_m4_mark_dervara_diron":{
+    "value":1
+  },
+  "tr_m4_mark_hh_andas":{
+    "value":1
+  },
+  "tr_m4_mark_hemmette_fauler":{
+    "value":1
+  },
+  "tr_m4_mark_jubal":{
+    "value":1
+  },
+  "tr_m4_mark_lechlaud":{
+    "value":1
+  },
+  "tr_m4_mark_mt_sp_sovos":{
+    "value":1
+  },
+  "tr_m4_mark_manit-pal":{
+    "value":1
+  },
+  "tr_m4_mark_marcius":{
+    "value":1
+  },
+  "tr_m4_mark_marug":{
+    "value":1
+  },
+  "tr_m4_mark_milur":{
+    "value":1
+  },
+  "tr_m4_mark_nalvs_andolin":{
+    "value":1
+  },
+  "tr_m4_mark_orl_player":{
+    "value":1
+  },
+  "tr_m4_mark_ravur_othravel":{
+    "value":1
+  },
+  "tr_m4_mark_rowdy_rilmas":{
+    "value":1
+  },
+  "tr_m4_mark_samay":{
+    "value":1
+  },
+  "tr_m4_mark_saylenus":{
+    "value":1
+  },
+  "tr_m4_mark_shei":{
+    "value":1
+  },
+  "tr_m4_mark_tt_bavani":{
+    "value":1
+  },
+  "tr_m4_mark_tt_endril":{
+    "value":1
+  },
+  "tr_m4_mark_tattara":{
+    "value":1
+  },
+  "tr_m4_mark_tryr":{
+    "value":1
+  },
+  "tr_m4_mark_uvisea":{
+    "value":1
+  },
+  "tr_m4_mark_vodunius":{
+    "value":1
+  },
+  "tr_m4_tg_unsolvedcases":{
+    "value":10
+  },
+  "tr_m4_tg_vilungilledger_01":{
+    "value":10
+  },
+  "tr_m4_tg_vilungilledger_02":{
+    "value":10
+  },
+  "tr_m4_tt_andothrenledger":{
+    "value":80
+  },
+  "tr_m4_veranzaris_book_filthy":{
+    "value":0
+  },
+  "tr_m4_veranzaris_book_heresy":{
+    "value":200
+  },
+  "tr_m4_veranzaris_book_liturgy":{
+    "value":250
+  },
+  "tr_m4_veranzaris_book_myths":{
+    "value":300
+  },
+  "tr_m4_veranzaris_book_rotting":{
+    "value":0
+  },
+  "tr_m4_veranzaris_book_vitharn":{
+    "value":250
+  },
+  "tr_m4_veranzaris_book_zealotry":{
+    "value":250
+  },
+  "tr_m4_veranzaris_book_saom12":{
+    "value":250
+  },
+  "tr_m4_veranzaris_book_saom6":{
+    "value":250
+  },
+  "tr_m4_veranzaris_book_saom9":{
+    "value":150
+  },
+  "tr_m4_andoport_contraband02":{
+    "value":10
+  },
+  "tr_m4_andoport_warehouse01":{
+    "value":10
+  },
+  "tr_m4_andoport_warehouse02":{
+    "value":20
+  },
+  "tr_m4_bk_liturgy_i4-263":{
+    "value":250
+  },
+  "tr_m4_hauntedsewer_catacomb":{
+    "value":0
+  },
+  "tr_m4_hauntedsewer_entrance":{
+    "value":0
+  },
+  "tr_m4_ledger_i4-270-hla":{
+    "value":10
+  },
+  "tr_m4_narsis_hauntsewer_cq":{
+    "value":0
+  },
+  "tr_m4_q_hlaaluspellbook":{
+    "value":1500
+  },
+  "tr_m4_q_mm_atrijournal":{
+    "value":2
+  },
+  "tr_m4_q_troupe_skillbook":{
+    "value":250
+  },
+  "tr_m7_am_q_questboat_bk":{
+    "value":2
+  },
+  "tr_m7_adavrin_slaves":{
+    "value":25
+  },
+  "tr_m7_aldmarakarmoryledger":{
+    "value":2
+  },
+  "tr_m7_ashir_ahat_note":{
+    "value":0
+  },
+  "tr_m7_beesha-nel_marker":{
+    "value":1
+  },
+  "tr_m7_bk_q_caravan":{
+    "value":25
+  },
+  "tr_m7_cb7_kidnapper_journal":{
+    "value":0
+  },
+  "tr_m7_c_cdoubleok":{
+    "value":0
+  },
+  "tr_m7_c_kildozery":{
+    "value":0
+  },
+  "tr_m7_c_minerman60101":{
+    "value":0
+  },
+  "tr_m7_c_narsis_consulate_census":{
+    "value":200
+  },
+  "tr_m7_c_pralec":{
+    "value":0
+  },
+  "tr_m7_consulate_ralsusbk":{
+    "value":10
+  },
+  "tr_m7_dbtower_npc1":{
+    "value":1
+  },
+  "tr_m7_dbtower_npc2":{
+    "value":1
+  },
+  "tr_m7_delynregistry":{
+    "value":5
+  },
+  "tr_m7_eec_crashstock":{
+    "value":100000
+  },
+  "tr_m7_faengornjournal":{
+    "value":10
+  },
+  "tr_m7_faengornjournal_hlaqdone":{
+    "value":10
+  },
+  "tr_m7_hh_farasad_diary":{
+    "value":2
+  },
+  "tr_m7_hh_svoshcodebook":{
+    "value":10
+  },
+  "tr_m7_hl_fg_q5_diary":{
+    "value":40
+  },
+  "tr_m7_hr_aldiuval_q2_playernote":{
+    "value":1
+  },
+  "tr_m7_hr_aldiuval_q5_nilus1note":{
+    "value":1
+  },
+  "tr_m7_hr_aldiuval_q5_nilus2note":{
+    "value":1
+  },
+  "tr_m7_hiradan zamsi_marker":{
+    "value":1
+  },
+  "tr_m7_hlaalu2_cookbook":{
+    "value":30
+  },
+  "tr_m7_hlaalu2_guestlog":{
+    "value":0
+  },
+  "tr_m7_hlaalu2_highhlaaluhistory":{
+    "value":80
+  },
+  "tr_m7_hlaalu2_ledger_01":{
+    "value":0
+  },
+  "tr_m7_hlaalu2_ledger_02":{
+    "value":2
+  },
+  "tr_m7_hlaalu2_ledger_03":{
+    "value":0
+  },
+  "tr_m7_hlaalu2_vaultledger_01":{
+    "value":0
+  },
+  "tr_m7_hlaalu2_vaultledger_02":{
+    "value":0
+  },
+  "tr_m7_hlan_oek_03_ledger_slave":{
+    "value":50
+  },
+  "tr_m7_kaushirimilk_shin1":{
+    "value":1
+  },
+  "tr_m7_kaushirimilk_shin2":{
+    "value":1
+  },
+  "tr_m7_kundasirai_journal":{
+    "value":5
+  },
+  "tr_m7_kundasirai_note1":{
+    "value":0
+  },
+  "tr_m7_la6_cave_1_bandit_journal":{
+    "value":10
+  },
+  "tr_m7_mark_ai_drorayni":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_bolnor":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_dalvus":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_dendras":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_felmaru":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_llathasa":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_nilus":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_orns":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_shojata":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_zusi":{
+    "value":1
+  },
+  "tr_m7_mark_ai_hr_player":{
+    "value":1
+  },
+  "tr_m7_mark_ai_jns_geron":{
+    "value":1
+  },
+  "tr_m7_mark_ai_jns_maris":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_davas":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_edril":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_eralas":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_garnas":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_hleras":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_margnir":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_nidara":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_orama":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_q2":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_q4_hleras":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_q4_muran":{
+    "value":1
+  },
+  "tr_m7_mark_ai_tt_rarvela":{
+    "value":1
+  },
+  "tr_m7_mark_arvena veldyn":{
+    "value":1
+  },
+  "tr_m7_mark_atriavostrius":{
+    "value":1
+  },
+  "tr_m7_mark_balvutalnarith":{
+    "value":1
+  },
+  "tr_m7_mark_cb_melur":{
+    "value":1
+  },
+  "tr_m7_mark_dils_sadri":{
+    "value":1
+  },
+  "tr_m7_mark_drabashti":{
+    "value":1
+  },
+  "tr_m7_mark_drilamealen":{
+    "value":1
+  },
+  "tr_m7_mark_drissa_vendil":{
+    "value":1
+  },
+  "tr_m7_mark_endryna_salerys":{
+    "value":1
+  },
+  "tr_m7_mark_gavas_salerys":{
+    "value":1
+  },
+  "tr_m7_mark_hh_gm_player":{
+    "value":1
+  },
+  "tr_m7_mark_hh_ogrim":{
+    "value":1
+  },
+  "tr_m7_mark_hh_othmura_bard":{
+    "value":1
+  },
+  "tr_m7_mark_hh_othmura_slave":{
+    "value":1
+  },
+  "tr_m7_mark_hh_saint":{
+    "value":1
+  },
+  "tr_m7_mark_hh_tele":{
+    "value":1
+  },
+  "tr_m7_mark_hl_bolor":{
+    "value":1
+  },
+  "tr_m7_mark_hl_breynard":{
+    "value":1
+  },
+  "tr_m7_mark_hl_dyus":{
+    "value":1
+  },
+  "tr_m7_mark_hl_eno":{
+    "value":1
+  },
+  "tr_m7_mark_hl_ernest":{
+    "value":1
+  },
+  "tr_m7_mark_hl_erns":{
+    "value":1
+  },
+  "tr_m7_mark_hl_felvyn":{
+    "value":1
+  },
+  "tr_m7_mark_hl_marana":{
+    "value":1
+  },
+  "tr_m7_mark_hl_mausur":{
+    "value":1
+  },
+  "tr_m7_mark_hl_telrav":{
+    "value":1
+  },
+  "tr_m7_mark_hl_ulyne":{
+    "value":1
+  },
+  "tr_m7_mark_hl_vantus":{
+    "value":1
+  },
+  "tr_m7_mark_hlorandar":{
+    "value":1
+  },
+  "tr_m7_mark_hunza_camp_babzu":{
+    "value":1
+  },
+  "tr_m7_mark_hunza_camp_shariche":{
+    "value":1
+  },
+  "tr_m7_mark_ilumnawe":{
+    "value":1
+  },
+  "tr_m7_mark_irwaen":{
+    "value":1
+  },
+  "tr_m7_mark_kausha":{
+    "value":1
+  },
+  "tr_m7_mark_malatorteleport":{
+    "value":1
+  },
+  "tr_m7_mark_minotaurrecall":{
+    "value":1
+  },
+  "tr_m7_mark_ns_anythonco":{
+    "value":1
+  },
+  "tr_m7_mark_ns_arenapit":{
+    "value":1
+  },
+  "tr_m7_mark_ns_arniel":{
+    "value":1
+  },
+  "tr_m7_mark_ns_bedal":{
+    "value":1
+  },
+  "tr_m7_mark_ns_caeva":{
+    "value":1
+  },
+  "tr_m7_mark_ns_darathes":{
+    "value":1
+  },
+  "tr_m7_mark_ns_fg_thresher":{
+    "value":1
+  },
+  "tr_m7_mark_ns_gathis":{
+    "value":1
+  },
+  "tr_m7_mark_ns_goler":{
+    "value":1
+  },
+  "tr_m7_mark_ns_hh_player":{
+    "value":1
+  },
+  "tr_m7_mark_ns_ic_ilmynahlaalu":{
+    "value":1
+  },
+  "tr_m7_mark_ns_ic_vartis":{
+    "value":1
+  },
+  "tr_m7_mark_ns_il_2_riverbend":{
+    "value":1
+  },
+  "tr_m7_mark_ns_il_3_culprit":{
+    "value":1
+  },
+  "tr_m7_mark_ns_il_ernasiviran":{
+    "value":1
+  },
+  "tr_m7_mark_ns_il_horatia":{
+    "value":1
+  },
+  "tr_m7_mark_ns_ilyunwe":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_aldam":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_andera":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_anise":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_drurile":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_jandie":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_mervis":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_mureth":{
+    "value":1
+  },
+  "tr_m7_mark_ns_jns_taluri":{
+    "value":1
+  },
+  "tr_m7_mark_ns_larence":{
+    "value":1
+  },
+  "tr_m7_mark_ns_lloros":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_camillia":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_mhas":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_mys":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_nelvana":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_ondusi":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_ysadora":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_player":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mg_summon":{
+    "value":1
+  },
+  "tr_m7_mark_ns_marahat":{
+    "value":1
+  },
+  "tr_m7_mark_ns_marcel":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mederyl":{
+    "value":1
+  },
+  "tr_m7_mark_ns_merona":{
+    "value":1
+  },
+  "tr_m7_mark_ns_mureth":{
+    "value":1
+  },
+  "tr_m7_mark_ns_osananil":{
+    "value":1
+  },
+  "tr_m7_mark_ns_poison":{
+    "value":1
+  },
+  "tr_m7_mark_ns_ralvam":{
+    "value":1
+  },
+  "tr_m7_mark_ns_rathyne":{
+    "value":1
+  },
+  "tr_m7_mark_ns_rilen":{
+    "value":1
+  },
+  "tr_m7_mark_ns_rothis":{
+    "value":1
+  },
+  "tr_m7_mark_ns_saravi":{
+    "value":1
+  },
+  "tr_m7_mark_ns_salder":{
+    "value":1
+  },
+  "tr_m7_mark_ns_skelsupremacy":{
+    "value":1
+  },
+  "tr_m7_mark_ns_tg_8_player":{
+    "value":1
+  },
+  "tr_m7_mark_ns_tatius":{
+    "value":1
+  },
+  "tr_m7_mark_ns_unralumar":{
+    "value":1
+  },
+  "tr_m7_mark_ns_virith":{
+    "value":1
+  },
+  "tr_m7_mark_oth_bugtest1":{
+    "value":1
+  },
+  "tr_m7_mark_oth_bugtest3":{
+    "value":1
+  },
+  "tr_m7_mark_oth_mg_kharal":{
+    "value":1
+  },
+  "tr_m7_mark_oth_mg_squatters":{
+    "value":1
+  },
+  "tr_m7_mark_qaidilwe":{
+    "value":1
+  },
+  "tr_m7_mark_sarylhahnim":{
+    "value":1
+  },
+  "tr_m7_mark_sdr_ocrulun":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_bedras":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_broldor":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_hh_q2":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_ivrosa":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_meldras":{
+    "value":1
+  },
+  "tr_m7_mark_shisha_ravos":{
+    "value":1
+  },
+  "tr_m7_mark_shishi_timayn":{
+    "value":1
+  },
+  "tr_m7_mark_tarsamat":{
+    "value":1
+  },
+  "tr_m7_mark_telaen":{
+    "value":1
+  },
+  "tr_m7_mark_uhammaku":{
+    "value":1
+  },
+  "tr_m7_mark_vandirelyon":{
+    "value":1
+  },
+  "tr_m7_mark_wil_galsia1":{
+    "value":1
+  },
+  "tr_m7_mark_wil_galsia2":{
+    "value":1
+  },
+  "tr_m7_note_narsismg":{
+    "value":0
+  },
+  "tr_m7_narscqtemple_note":{
+    "value":1
+  },
+  "tr_m7_narsiscqsewers_db1":{
+    "value":1
+  },
+  "tr_m7_narsiscqsewers_db2":{
+    "value":1
+  },
+  "tr_m7_narsiscqsewers_worker":{
+    "value":1
+  },
+  "tr_m7_narsismg_notebook01":{
+    "value":5
+  },
+  "tr_m7_narsismg_notebook02":{
+    "value":5
+  },
+  "tr_m7_narsismg_notebook03":{
+    "value":5
+  },
+  "tr_m7_narsis_89_log":{
+    "value":25
+  },
+  "tr_m7_narsis_arena_book2":{
+    "value":2
+  },
+  "tr_m7_narsis_arena_notebook1":{
+    "value":2
+  },
+  "tr_m7_narsis_arena_dummy 8":{
+    "value":1
+  },
+  "tr_m7_narsis_casino_note2":{
+    "value":0
+  },
+  "tr_m7_narsis_casino_note3":{
+    "value":0
+  },
+  "tr_m7_narsis_casino_note5":{
+    "value":0
+  },
+  "tr_m7_narsis_fqsewer_nam_dorlen":{
+    "value":1
+  },
+  "tr_m7_narsis_fqsewer_nam_frit":{
+    "value":1
+  },
+  "tr_m7_narsis_fqsewer_nam_vagran":{
+    "value":1
+  },
+  "tr_m7_narsis_hlaalu1st_catarec1":{
+    "value":180
+  },
+  "tr_m7_narsis_hlaalu1st_note1":{
+    "value":0
+  },
+  "tr_m7_narsis_hlaalu1st_note2":{
+    "value":0
+  },
+  "tr_m7_narsis_hlaalu7th_note1":{
+    "value":0
+  },
+  "tr_m7_narsis_hlaalu7th_note2":{
+    "value":0
+  },
+  "tr_m7_narsis_mh_archivalrecords":{
+    "value":20
+  },
+  "tr_m7_narsis_mh_archivedirect":{
+    "value":5
+  },
+  "tr_m7_narsis_mh_councilledger":{
+    "value":5
+  },
+  "tr_m7_narsis_mh_hlaaluregister":{
+    "value":5
+  },
+  "tr_m7_narsis_mh_vaultsledger":{
+    "value":40
+  },
+  "tr_m7_narsis_mh_vaultsledger_o":{
+    "value":40
+  },
+  "tr_m7_narsis_quadrillecaptain":{
+    "value":1
+  },
+  "tr_m7_narsis_quadrillechef":{
+    "value":1
+  },
+  "tr_m7_narsis_seydaneenlogbook":{
+    "value":5000
+  },
+  "tr_m7_narsis_theater_ante":{
+    "value":2
+  },
+  "tr_m7_narsis_zenchapel_npcnote1":{
+    "value":0
+  },
+  "tr_m7_narsis_zenchapel_npcnote2":{
+    "value":0
+  },
+  "tr_m7_narsis_zenchapel_npc1":{
+    "value":1
+  },
+  "tr_m7_narsis_zenchapel_npc2":{
+    "value":1
+  },
+  "tr_m7_narsis_zenchapel_npc3":{
+    "value":1
+  },
+  "tr_m7_narsis_zenchapel_npc4":{
+    "value":1
+  },
+  "tr_m7_narsis_zenchapel_npc5":{
+    "value":1
+  },
+  "tr_m7_note_tv3_manor_1":{
+    "value":0
+  },
+  "tr_m7_ns_casinoledger":{
+    "value":2
+  },
+  "tr_m7_ns_fg_4_nayalimmujournal":{
+    "value":10
+  },
+  "tr_m7_ns_fg_7_onfalsitybook":{
+    "value":300
+  },
+  "tr_m7_ns_fg_8_mercmark":{
+    "value":1
+  },
+  "tr_m7_ns_il_4_journal":{
+    "value":10
+  },
+  "tr_m7_ns_il_5_book":{
+    "value":25
+  },
+  "tr_m7_ns_il_6_book":{
+    "value":2
+  },
+  "tr_m7_ns_il_7_book":{
+    "value":2
+  },
+  "tr_m7_number_room_shrine_guh":{
+    "value":0
+  },
+  "tr_m7_number_room_mystic_npc":{
+    "value":0
+  },
+  "tr_m7_ow9_adursaranit":{
+    "value":0
+  },
+  "tr_m7_ow9_ancestraltomb_02":{
+    "value":0
+  },
+  "tr_m7_ow9_farm_02a":{
+    "value":0
+  },
+  "tr_m7_ow9_farm_02b":{
+    "value":0
+  },
+  "tr_m7_ow9_velothitower_01":{
+    "value":0
+  },
+  "tr_m7_oth_bugtracker_notes":{
+    "value":0
+  },
+  "tr_m7_oth_mg_1_squatmark":{
+    "value":1
+  },
+  "tr_m7_q_shocktherapynotes":{
+    "value":100
+  },
+  "tr_m7_sh09kwama2_ratman":{
+    "value":1
+  },
+  "tr_m7_sh_animalden_butch":{
+    "value":0
+  },
+  "tr_m7_septimsgateinn_npc1":{
+    "value":1
+  },
+  "tr_m7_septimsgateinn_npc2":{
+    "value":1
+  },
+  "tr_m7_septimsgateinn_npc3":{
+    "value":1
+  },
+  "tr_m7_septimsgateinn_npc4":{
+    "value":1
+  },
+  "tr_m7_septimsgateinn_npc5":{
+    "value":1
+  },
+  "tr_m7_septimsgateinn_npc6":{
+    "value":1
+  },
+  "tr_m7_shasudiran_npc1":{
+    "value":1
+  },
+  "tr_m7_shasudiran_npc2":{
+    "value":1
+  },
+  "tr_m7_shocktherapynote":{
+    "value":1
+  },
+  "tr_m7_tv5c2_band1":{
+    "value":1
+  },
+  "tr_m7_tv5c2_band2":{
+    "value":1
+  },
+  "tr_m7_tv5_hlaalu_tower_2_npc1":{
+    "value":1
+  },
+  "tr_m7_teloserasbossnote":{
+    "value":0
+  },
+  "tr_m7_teloserasenemynote":{
+    "value":0
+  },
+  "tr_m7_teloserasguildnote":{
+    "value":0
+  },
+  "tr_m7_teloseraskeynote":{
+    "value":0
+  },
+  "tr_m7_teloserasnumnote":{
+    "value":0
+  },
+  "tr_m7_teloserassecretnote":{
+    "value":0
+  },
+  "tr_m7_teloserastrainernote":{
+    "value":0
+  },
+  "tr_m7_uh_hlerynguardlog":{
+    "value":2
+  },
+  "tr_m7_uh_hlerynshippingschedule":{
+    "value":2
+  },
+  "tr_m7_uh_hlerynvaultledger":{
+    "value":0
+  },
+  "tr_m7_uddanu, laboratory_npc1":{
+    "value":1
+  },
+  "tr_m7_vandir_book":{
+    "value":10
+  },
+  "tr_m7_adavrin_vault_ledger":{
+    "value":50
+  },
+  "tr_m7_bk_at_tg_q6_ledger":{
+    "value":0
+  },
+  "tr_m7_narsis100_npc":{
+    "value":1
+  },
+  "tr_m7_q_ho_strabo_ledger":{
+    "value":2
+  },
+  "tr_narsissewer03_nobase":{
+    "value":0
+  },
+  "t_aid_notetoselfsh08c2":{
+    "value":0
+  },
+  "tr_m2_mark_q_27_fgchest":{
+    "value":1
+  },
+  "tr_m7_questersplsscript ":{
+    "value":0
+  },
+  "tr_m7_skelly":{
+    "value":0
+  },
+  "bk_playscript":{
+    "value":250
+  },
+  "bk_nermarcnotes":{
+    "value":20
+  },
+  "book_dwe_pipe00":{
+    "value":150
+  },
+  "book_dwe_cogs00":{
+    "value":100
+  },
+  "book_dwe_mach00":{
+    "value":150
+  },
+  "book_dwe_water00":{
+    "value":100
+  },
+  "book_dwe_power_con00":{
+    "value":150
+  },
+  "book_dwe_metal_fab00":{
+    "value":100
+  },
+  "book_dwe_boom00":{
+    "value":100
+  },
+  "bk_artifacts_tamriel":{
+    "value":250
   }
 }
