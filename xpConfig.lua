@@ -267,5 +267,24 @@ xpConfig.equipmentMagickaMults["mantle of woe"] = {
     slot = enumerations.equipment.ROBE, 
     attributes = {Intelligence = 5.0}
 }
+-- PTR compatability
+xpConfig.equipmentMagickaMults["PC_m1_StaffEdroth"] = {
+    slot = enumerations.equipment.CARRIED_RIGHT,
+    attributes = {Intelligence = 0.5}
+}
+--This only works right now if it's equiped in the right ring slot because dumb
+xpConfig.equipmentMagickaMults["T_De_UNI_RingElfborn"] = {
+    slot = enumerations.equipment.RIGHT_RING,
+    attributes = {Intelligence = 0.5}
+}
+xpConfig.equipmentMagickaMults["TR_m1_FWMG_BootsOfCapacity"] = {
+    slot = enumerations.equipment.BOOTS,
+    attributes = {Intelligence = 0.4}
+}
+xpConfig.equipmentMagickaMults["TR_m4_VisthinaRobe"] = {
+    slot = enumerations.equipment.ROBE,
+    attributes = {Intelligence = 0.3}
+}
+
 
 return xpConfig

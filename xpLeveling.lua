@@ -488,7 +488,7 @@ function xpLeveling.handleMaxMagickaEffect(pid,baseTable)
             newTable[attr] = newTable[attr] + value
         end
     end
-
+    --TODO, write this in a less stupid way
     for refId, equipMult in pairs(xpConfig.equipmentMagickaMults) do
         if Players[pid].data.equipment[equipMult.slot] ~= nil then
             if Players[pid].data.equipment[equipMult.slot].refId == refId then
